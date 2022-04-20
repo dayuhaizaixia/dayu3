@@ -5,199 +5,55 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: JP-Openit.ml, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: CN-Openit.ml, server: 113.31.155.165, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN-Openit.ml 2, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN-Openit.ml 3, server: 106.75.233.91, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN-Openit.ml 4, server: 116.129.253.201, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN-Openit.ml 5, server: 123.59.87.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN-Openit.ml 6, server: 120.132.50.158, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN-Openit.ml 7, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN-Openit.ml 8, server: 116.129.253.227, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN-Openit.ml 9, server: 116.129.253.177, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN-Openit.ml 10, server: 123.59.72.193, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 30, server: 113.31.109.30, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 32, server: 120.232.192.250, port: 3385, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 34, server: 106.75.154.24, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 36, server: 120.232.192.250, port: 3384, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 37, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 912ebb9f-7c7a-4ee2-b9c9-5c2a87280c2e, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 41, server: 106.75.168.104, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 42, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 45, server: 116.129.253.187, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 47, server: 116.129.253.130, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: TW_8du.shop 2, server: 211.72.35.153, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 55, server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: PL-Openit.ml, server: 217.30.10.68, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: PL-Openit.ml 2, server: 217.30.10.64, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: CN_8du.shop 2, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: CN_8du.shop 3, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: PL_8du.shop 5, server: 217.30.10.64, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: CN_8du.shop 4, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: PL_8du.shop 12, server: 217.30.10.68, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: PL_8du.shop 15, server: 217.30.10.68, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: PL_8du.shop 17, server: 217.30.10.64, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: PL_8du.shop 20, server: 217.30.10.68, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: PL_8du.shop 28, server: 217.30.10.64, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: PL_8du.shop 30, server: 217.30.10.64, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: PL_8du.shop 31, server: 217.30.10.68, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: PL_8du.shop 40, server: 217.30.10.68, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: PL_8du.shop 44, server: 217.30.10.64, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: PL_8du.shop 60, server: 217.30.10.64, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: PL_8du.shop 62, server: 217.30.10.68, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: PL_8du.shop 63, server: 217.30.10.68, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: CN_8du.shop 27, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: PL_8du.shop 64, server: 217.30.10.68, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: PL_8du.shop 65, server: 217.30.10.64, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: PL_8du.shop 68, server: 217.30.10.68, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: ua, server: ua.timevpn.com, port: 14310, type: ss, cipher: aes-256-cfb, password: 2TXCJfn, udp: true}
+  - {name: uk, server: uk.timevpn.com, port: 27384, type: ss, cipher: aes-256-cfb, password: RDdXZM5, udp: true}
+  - {name: de, server: de.timevpn.com, port: 34909, type: ss, cipher: aes-256-cfb, password: dgHbxJg, udp: true}
+  - {name: ru, server: ru.timevpn.com, port: 19370, type: ss, cipher: aes-256-cfb, password: aVMsuGK, udp: true}
+  - {name: se, server: se.timevpn.com, port: 23296, type: ss, cipher: aes-256-cfb, password: 2tsasXE, udp: true}
+  - {name: ua2, server: ua.timevpn.com, port: 33523, type: ss, cipher: aes-256-cfb, password: jBbZbGZ, udp: true}
+  - {name: uk2, server: uk.timevpn.com, port: 37042, type: ss, cipher: aes-256-cfb, password: qULfuea, udp: true}
+  - {name: us, server: us.timevpn.com, port: 30814, type: ss, cipher: aes-256-cfb, password: s3XKTJf, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP-Openit.ml
-      - CN-Openit.ml
-      - CN-Openit.ml 2
-      - CN-Openit.ml 3
-      - CN-Openit.ml 4
-      - CN-Openit.ml 5
-      - CN-Openit.ml 6
-      - CN-Openit.ml 7
-      - CN-Openit.ml 8
-      - CN-Openit.ml 9
-      - CN-Openit.ml 10
-      - CN_8du.shop 30
-      - CN_8du.shop 32
-      - CN_8du.shop 34
-      - CN_8du.shop 36
-      - CN_8du.shop 37
-      - CN_8du.shop 41
-      - CN_8du.shop 42
-      - CN_8du.shop 45
-      - CN_8du.shop 47
-      - TW_8du.shop 2
-      - CN_8du.shop 55
-      - PL-Openit.ml
-      - PL-Openit.ml 2
-      - CN_8du.shop 2
-      - CN_8du.shop 3
-      - PL_8du.shop 5
-      - CN_8du.shop 4
-      - PL_8du.shop 12
-      - PL_8du.shop 15
-      - PL_8du.shop 17
-      - PL_8du.shop 20
-      - PL_8du.shop 28
-      - PL_8du.shop 30
-      - PL_8du.shop 31
-      - PL_8du.shop 40
-      - PL_8du.shop 44
-      - PL_8du.shop 60
-      - PL_8du.shop 62
-      - PL_8du.shop 63
-      - CN_8du.shop 27
-      - PL_8du.shop 64
-      - PL_8du.shop 65
-      - PL_8du.shop 68
+      - ua
+      - uk
+      - de
+      - ru
+      - se
+      - ua2
+      - uk2
+      - us
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - JP-Openit.ml
-      - CN-Openit.ml
-      - CN-Openit.ml 2
-      - CN-Openit.ml 3
-      - CN-Openit.ml 4
-      - CN-Openit.ml 5
-      - CN-Openit.ml 6
-      - CN-Openit.ml 7
-      - CN-Openit.ml 8
-      - CN-Openit.ml 9
-      - CN-Openit.ml 10
-      - CN_8du.shop 30
-      - CN_8du.shop 32
-      - CN_8du.shop 34
-      - CN_8du.shop 36
-      - CN_8du.shop 37
-      - CN_8du.shop 41
-      - CN_8du.shop 42
-      - CN_8du.shop 45
-      - CN_8du.shop 47
-      - TW_8du.shop 2
-      - CN_8du.shop 55
-      - PL-Openit.ml
-      - PL-Openit.ml 2
-      - CN_8du.shop 2
-      - CN_8du.shop 3
-      - PL_8du.shop 5
-      - CN_8du.shop 4
-      - PL_8du.shop 12
-      - PL_8du.shop 15
-      - PL_8du.shop 17
-      - PL_8du.shop 20
-      - PL_8du.shop 28
-      - PL_8du.shop 30
-      - PL_8du.shop 31
-      - PL_8du.shop 40
-      - PL_8du.shop 44
-      - PL_8du.shop 60
-      - PL_8du.shop 62
-      - PL_8du.shop 63
-      - CN_8du.shop 27
-      - PL_8du.shop 64
-      - PL_8du.shop 65
-      - PL_8du.shop 68
+      - ua
+      - uk
+      - de
+      - ru
+      - se
+      - ua2
+      - uk2
+      - us
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP-Openit.ml
-      - CN-Openit.ml
-      - CN-Openit.ml 2
-      - CN-Openit.ml 3
-      - CN-Openit.ml 4
-      - CN-Openit.ml 5
-      - CN-Openit.ml 6
-      - CN-Openit.ml 7
-      - CN-Openit.ml 8
-      - CN-Openit.ml 9
-      - CN-Openit.ml 10
-      - CN_8du.shop 30
-      - CN_8du.shop 32
-      - CN_8du.shop 34
-      - CN_8du.shop 36
-      - CN_8du.shop 37
-      - CN_8du.shop 41
-      - CN_8du.shop 42
-      - CN_8du.shop 45
-      - CN_8du.shop 47
-      - TW_8du.shop 2
-      - CN_8du.shop 55
-      - PL-Openit.ml
-      - PL-Openit.ml 2
-      - CN_8du.shop 2
-      - CN_8du.shop 3
-      - PL_8du.shop 5
-      - CN_8du.shop 4
-      - PL_8du.shop 12
-      - PL_8du.shop 15
-      - PL_8du.shop 17
-      - PL_8du.shop 20
-      - PL_8du.shop 28
-      - PL_8du.shop 30
-      - PL_8du.shop 31
-      - PL_8du.shop 40
-      - PL_8du.shop 44
-      - PL_8du.shop 60
-      - PL_8du.shop 62
-      - PL_8du.shop 63
-      - CN_8du.shop 27
-      - PL_8du.shop 64
-      - PL_8du.shop 65
-      - PL_8du.shop 68
+      - ua
+      - uk
+      - de
+      - ru
+      - se
+      - ua2
+      - uk2
+      - us
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -216,50 +72,14 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP-Openit.ml
-      - CN-Openit.ml
-      - CN-Openit.ml 2
-      - CN-Openit.ml 3
-      - CN-Openit.ml 4
-      - CN-Openit.ml 5
-      - CN-Openit.ml 6
-      - CN-Openit.ml 7
-      - CN-Openit.ml 8
-      - CN-Openit.ml 9
-      - CN-Openit.ml 10
-      - CN_8du.shop 30
-      - CN_8du.shop 32
-      - CN_8du.shop 34
-      - CN_8du.shop 36
-      - CN_8du.shop 37
-      - CN_8du.shop 41
-      - CN_8du.shop 42
-      - CN_8du.shop 45
-      - CN_8du.shop 47
-      - TW_8du.shop 2
-      - CN_8du.shop 55
-      - PL-Openit.ml
-      - PL-Openit.ml 2
-      - CN_8du.shop 2
-      - CN_8du.shop 3
-      - PL_8du.shop 5
-      - CN_8du.shop 4
-      - PL_8du.shop 12
-      - PL_8du.shop 15
-      - PL_8du.shop 17
-      - PL_8du.shop 20
-      - PL_8du.shop 28
-      - PL_8du.shop 30
-      - PL_8du.shop 31
-      - PL_8du.shop 40
-      - PL_8du.shop 44
-      - PL_8du.shop 60
-      - PL_8du.shop 62
-      - PL_8du.shop 63
-      - CN_8du.shop 27
-      - PL_8du.shop 64
-      - PL_8du.shop 65
-      - PL_8du.shop 68
+      - ua
+      - uk
+      - de
+      - ru
+      - se
+      - ua2
+      - uk2
+      - us
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -270,149 +90,41 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - JP-Openit.ml
-      - CN-Openit.ml
-      - CN-Openit.ml 2
-      - CN-Openit.ml 3
-      - CN-Openit.ml 4
-      - CN-Openit.ml 5
-      - CN-Openit.ml 6
-      - CN-Openit.ml 7
-      - CN-Openit.ml 8
-      - CN-Openit.ml 9
-      - CN-Openit.ml 10
-      - CN_8du.shop 30
-      - CN_8du.shop 32
-      - CN_8du.shop 34
-      - CN_8du.shop 36
-      - CN_8du.shop 37
-      - CN_8du.shop 41
-      - CN_8du.shop 42
-      - CN_8du.shop 45
-      - CN_8du.shop 47
-      - TW_8du.shop 2
-      - CN_8du.shop 55
-      - PL-Openit.ml
-      - PL-Openit.ml 2
-      - CN_8du.shop 2
-      - CN_8du.shop 3
-      - PL_8du.shop 5
-      - CN_8du.shop 4
-      - PL_8du.shop 12
-      - PL_8du.shop 15
-      - PL_8du.shop 17
-      - PL_8du.shop 20
-      - PL_8du.shop 28
-      - PL_8du.shop 30
-      - PL_8du.shop 31
-      - PL_8du.shop 40
-      - PL_8du.shop 44
-      - PL_8du.shop 60
-      - PL_8du.shop 62
-      - PL_8du.shop 63
-      - CN_8du.shop 27
-      - PL_8du.shop 64
-      - PL_8du.shop 65
-      - PL_8du.shop 68
+      - ua
+      - uk
+      - de
+      - ru
+      - se
+      - ua2
+      - uk2
+      - us
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - JP-Openit.ml
-      - CN-Openit.ml
-      - CN-Openit.ml 2
-      - CN-Openit.ml 3
-      - CN-Openit.ml 4
-      - CN-Openit.ml 5
-      - CN-Openit.ml 6
-      - CN-Openit.ml 7
-      - CN-Openit.ml 8
-      - CN-Openit.ml 9
-      - CN-Openit.ml 10
-      - CN_8du.shop 30
-      - CN_8du.shop 32
-      - CN_8du.shop 34
-      - CN_8du.shop 36
-      - CN_8du.shop 37
-      - CN_8du.shop 41
-      - CN_8du.shop 42
-      - CN_8du.shop 45
-      - CN_8du.shop 47
-      - TW_8du.shop 2
-      - CN_8du.shop 55
-      - PL-Openit.ml
-      - PL-Openit.ml 2
-      - CN_8du.shop 2
-      - CN_8du.shop 3
-      - PL_8du.shop 5
-      - CN_8du.shop 4
-      - PL_8du.shop 12
-      - PL_8du.shop 15
-      - PL_8du.shop 17
-      - PL_8du.shop 20
-      - PL_8du.shop 28
-      - PL_8du.shop 30
-      - PL_8du.shop 31
-      - PL_8du.shop 40
-      - PL_8du.shop 44
-      - PL_8du.shop 60
-      - PL_8du.shop 62
-      - PL_8du.shop 63
-      - CN_8du.shop 27
-      - PL_8du.shop 64
-      - PL_8du.shop 65
-      - PL_8du.shop 68
+      - ua
+      - uk
+      - de
+      - ru
+      - se
+      - ua2
+      - uk2
+      - us
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JP-Openit.ml
-      - CN-Openit.ml
-      - CN-Openit.ml 2
-      - CN-Openit.ml 3
-      - CN-Openit.ml 4
-      - CN-Openit.ml 5
-      - CN-Openit.ml 6
-      - CN-Openit.ml 7
-      - CN-Openit.ml 8
-      - CN-Openit.ml 9
-      - CN-Openit.ml 10
-      - CN_8du.shop 30
-      - CN_8du.shop 32
-      - CN_8du.shop 34
-      - CN_8du.shop 36
-      - CN_8du.shop 37
-      - CN_8du.shop 41
-      - CN_8du.shop 42
-      - CN_8du.shop 45
-      - CN_8du.shop 47
-      - TW_8du.shop 2
-      - CN_8du.shop 55
-      - PL-Openit.ml
-      - PL-Openit.ml 2
-      - CN_8du.shop 2
-      - CN_8du.shop 3
-      - PL_8du.shop 5
-      - CN_8du.shop 4
-      - PL_8du.shop 12
-      - PL_8du.shop 15
-      - PL_8du.shop 17
-      - PL_8du.shop 20
-      - PL_8du.shop 28
-      - PL_8du.shop 30
-      - PL_8du.shop 31
-      - PL_8du.shop 40
-      - PL_8du.shop 44
-      - PL_8du.shop 60
-      - PL_8du.shop 62
-      - PL_8du.shop 63
-      - CN_8du.shop 27
-      - PL_8du.shop 64
-      - PL_8du.shop 65
-      - PL_8du.shop 68
+      - ua
+      - uk
+      - de
+      - ru
+      - se
+      - ua2
+      - uk2
+      - us
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -428,50 +140,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JP-Openit.ml
-      - CN-Openit.ml
-      - CN-Openit.ml 2
-      - CN-Openit.ml 3
-      - CN-Openit.ml 4
-      - CN-Openit.ml 5
-      - CN-Openit.ml 6
-      - CN-Openit.ml 7
-      - CN-Openit.ml 8
-      - CN-Openit.ml 9
-      - CN-Openit.ml 10
-      - CN_8du.shop 30
-      - CN_8du.shop 32
-      - CN_8du.shop 34
-      - CN_8du.shop 36
-      - CN_8du.shop 37
-      - CN_8du.shop 41
-      - CN_8du.shop 42
-      - CN_8du.shop 45
-      - CN_8du.shop 47
-      - TW_8du.shop 2
-      - CN_8du.shop 55
-      - PL-Openit.ml
-      - PL-Openit.ml 2
-      - CN_8du.shop 2
-      - CN_8du.shop 3
-      - PL_8du.shop 5
-      - CN_8du.shop 4
-      - PL_8du.shop 12
-      - PL_8du.shop 15
-      - PL_8du.shop 17
-      - PL_8du.shop 20
-      - PL_8du.shop 28
-      - PL_8du.shop 30
-      - PL_8du.shop 31
-      - PL_8du.shop 40
-      - PL_8du.shop 44
-      - PL_8du.shop 60
-      - PL_8du.shop 62
-      - PL_8du.shop 63
-      - CN_8du.shop 27
-      - PL_8du.shop 64
-      - PL_8du.shop 65
-      - PL_8du.shop 68
+      - ua
+      - uk
+      - de
+      - ru
+      - se
+      - ua2
+      - uk2
+      - us
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
