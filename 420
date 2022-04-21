@@ -5,219 +5,171 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK-Openit.ml, server: hk5.fdns.cloudlink123.com, port: 80, type: vmess, uuid: 7378550f-b373-44be-a6e8-92ffe3e42050, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk5.fdns.cloudlink123.com}, udp: true}
-  - {name: CN-Openit.ml, server: 116.129.253.134, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: CN-Openit.ml 2, server: 116.129.253.187, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN-Openit.ml 3, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_30, server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit.ml, server: 116.129.253.177, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit.ml 2, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit.ml 3, server: 116.129.253.227, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: 东京, server: v2.godlight.xyz, port: 26933, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /f34f3-f32f364, ws-headers: {Host: v2.godlight.xyz}, udp: true}
+  - {name: 美国(绿头外网集团)(Public)_23, server: 104.194.243.145, port: 443, type: vmess, uuid: 2fe53f4d-29bf-489a-a083-f4bd806c6385, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nKCAS980y, ws-headers: {Host: 104.194.243.145}, udp: true}
+  - {name: CN-Openit.ml 4, server: 116.129.253.134, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit.ml 2 2, server: 116.129.253.187, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
   - {name: CN_32, server: 116.129.253.177, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: NONE, server: 116.129.253.177, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
   - {name: NONE 2, server: 116.129.253.177, port: 3389, type: trojan, password: 9029864a78d29a43, skip-cert-verify: true, udp: true}
   - {name: SG-Openit.ml, server: v2-2.godlight.xyz, port: 30523, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /54f634fs, ws-headers: {Host: v2-2.godlight.xyz}, udp: true}
-  - {name: HK-Openit.ml 2, server: hk5.fdns.cloudlink123.com, port: 80, type: vmess, uuid: 7378550f-b373-44be-a6e8-92ffe3e42050, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk5.fdns.cloudlink123.com}, udp: true}
   - {name: US-Openit.ml, server: node.774.gs, port: 8443, type: vmess, uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: node.774.gs}, udp: true}
   - {name: "[VM_US][🇺🇸_138.197.236.77]", server: 138.197.236.77, port: 443, type: vmess, uuid: 3579436c-b37e-11eb-8529-0242ac130003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 138.197.236.77}, udp: true}
-  - {name: "[TR_CN][🇨🇳_120.233.29.173]", server: guangzhou.kuli888.xyz, port: 52004, type: trojan, password: 54acbfdc-34ec-3d72-8182-3b437e4747eb, sni: guangzhou.kuli888.xyz, skip-cert-verify: true, udp: true}
   - {name: "[TR_CN][🇨🇳_116.129.253.177]", server: 116.129.253.177, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
   - {name: "[TR_CN][🇨🇳_120.232.192.250]", server: 120.232.192.250, port: 3385, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
   - {name: "[TR_CN][🇨🇳_116.129.253.134]", server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
   - {name: "[TR_CN][🇨🇳_116.129.253.191]", server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: "[TR_CN][🇨🇳_116.129.253.227]", server: 116.129.253.227, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 香港, server: hk4.fdns.unino.tech, port: 80, type: vmess, uuid: 7378550f-b373-44be-a6e8-92ffe3e42050, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk4.fdns.unino.tech}, udp: true}
   - {name: Relay_🇨🇳CN-🇹🇼TW_48, server: 116.129.253.187, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_58, server: 116.129.253.177, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_39, server: 116.129.253.134, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_41, server: 120.232.192.250, port: 3385, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_40, server: 116.129.253.227, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_61, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🇹🇼TW_51, server: 120.232.192.250, port: 3385, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: 新加坡_7, server: 116.129.253.187, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 新加坡_10, server: 116.129.253.177, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 新加坡_5, server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
   - {name: GB-Openit.ml, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: CN-Openit.ml 4, server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: CN-Openit.ml 2 2, server: 116.129.253.177, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: NONE 2 2, server: 116.129.253.177, port: 3389, type: trojan, password: 9029864a78d29a43, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit.ml 4 2, server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
   - {name: CN_8du.shop 2, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
   - {name: CN_8du.shop 3, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
   - {name: CN_8du.shop 4, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: PL_8du.shop 24, server: 217.30.10.65, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
   - {name: CN_8du.shop 8, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: CN_8du.shop 27, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: PL_8du.shop 68, server: 217.30.10.68, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: PL-217.30.10.67-0078, server: 217.30.10.67, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: PL-217.30.10.68-0128, server: 217.30.10.68, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: PL-217.30.10.68-0173, server: 217.30.10.68, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: CH-185.126.116.125-2595, server: 185.126.116.125, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: CH-185.126.116.125-2596, server: 185.126.116.125, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: PL-217.30.10.68-2687, server: 217.30.10.68, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: PL_8du.shop+28, server: 217.30.10.64, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
   - {name: PL_8du.shop+44, server: 217.30.10.64, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: PL_8du.shop+64, server: 217.30.10.68, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: 新加坡_3, server: 116.129.253.227, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: 香港2-tg频道:t.me/ruofeng_fx, server: hk5.fdns.cloudlink123.com, port: 80, type: vmess, uuid: ed7c982a-ff74-4dd3-9f6c-155ec13b67ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk5.fdns.cloudlink123.com}, udp: true}
+  - {name: 香港1, server: hk4.fdns.unino.tech, port: 443, type: vmess, uuid: ed7c982a-ff74-4dd3-9f6c-155ec13b67ab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk4.fdns.unino.tech}, udp: true}
+  - {name: US_8du.shop 12, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_52, server: 116.129.253.130, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: PL_8du.shop 57, server: 217.30.10.67, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: JP_TG univstar_88, server: v2-1.godlight.xyz, port: 12233, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /j75g1461x, ws-headers: {Host: v2-1.godlight.xyz}, udp: true}
+  - {name: A--t.me/ruofeng_fx, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: AU_8du.shop 2, server: 185.167.116.253, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: _GB_英国_7, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: PL_8du.shop 16, server: 217.30.10.67, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: AU_8du.shop 9, server: 185.167.116.253, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK-Openit.ml
       - CN-Openit.ml
       - CN-Openit.ml 2
       - CN-Openit.ml 3
-      - CN_30
+      - 东京
+      - 美国(绿头外网集团)(Public)_23
+      - CN-Openit.ml 4
+      - CN-Openit.ml 2 2
       - CN_32
-      - NONE
       - NONE 2
       - SG-Openit.ml
-      - HK-Openit.ml 2
       - US-Openit.ml
       - "[VM_US][🇺🇸_138.197.236.77]"
-      - "[TR_CN][🇨🇳_120.233.29.173]"
       - "[TR_CN][🇨🇳_116.129.253.177]"
       - "[TR_CN][🇨🇳_120.232.192.250]"
       - "[TR_CN][🇨🇳_116.129.253.134]"
       - "[TR_CN][🇨🇳_116.129.253.191]"
-      - "[TR_CN][🇨🇳_116.129.253.227]"
-      - 香港
       - Relay_🇨🇳CN-🇹🇼TW_48
-      - Relay_🇨🇳CN-🇹🇼TW_58
-      - Relay_🇨🇳CN-🇹🇼TW_39
-      - Relay_🇨🇳CN-🇹🇼TW_41
-      - Relay_🇨🇳CN-🇹🇼TW_40
-      - Relay_🇨🇳CN-🇹🇼TW_61
       - Relay_🇨🇳CN-🇹🇼TW_51
-      - 新加坡_7
-      - 新加坡_10
-      - 新加坡_5
       - GB-Openit.ml
-      - CN-Openit.ml 4
-      - CN-Openit.ml 2 2
-      - NONE 2 2
+      - CN-Openit.ml 4 2
       - CN_8du.shop 2
       - CN_8du.shop 3
       - CN_8du.shop 4
-      - PL_8du.shop 24
       - CN_8du.shop 8
-      - CN_8du.shop 27
-      - PL_8du.shop 68
-      - PL-217.30.10.67-0078
-      - PL-217.30.10.68-0128
-      - PL-217.30.10.68-0173
-      - CH-185.126.116.125-2595
-      - CH-185.126.116.125-2596
-      - PL-217.30.10.68-2687
-      - PL_8du.shop+28
       - PL_8du.shop+44
-      - PL_8du.shop+64
+      - 新加坡_3
+      - 香港2-tg频道:t.me/ruofeng_fx
+      - 香港1
+      - US_8du.shop 12
+      - Relay_🇨🇳CN-🇹🇼TW_52
+      - PL_8du.shop 57
+      - JP_TG univstar_88
+      - A--t.me/ruofeng_fx
+      - AU_8du.shop 2
+      - _GB_英国_7
+      - PL_8du.shop 16
+      - AU_8du.shop 9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK-Openit.ml
       - CN-Openit.ml
       - CN-Openit.ml 2
       - CN-Openit.ml 3
-      - CN_30
+      - 东京
+      - 美国(绿头外网集团)(Public)_23
+      - CN-Openit.ml 4
+      - CN-Openit.ml 2 2
       - CN_32
-      - NONE
       - NONE 2
       - SG-Openit.ml
-      - HK-Openit.ml 2
       - US-Openit.ml
       - "[VM_US][🇺🇸_138.197.236.77]"
-      - "[TR_CN][🇨🇳_120.233.29.173]"
       - "[TR_CN][🇨🇳_116.129.253.177]"
       - "[TR_CN][🇨🇳_120.232.192.250]"
       - "[TR_CN][🇨🇳_116.129.253.134]"
       - "[TR_CN][🇨🇳_116.129.253.191]"
-      - "[TR_CN][🇨🇳_116.129.253.227]"
-      - 香港
       - Relay_🇨🇳CN-🇹🇼TW_48
-      - Relay_🇨🇳CN-🇹🇼TW_58
-      - Relay_🇨🇳CN-🇹🇼TW_39
-      - Relay_🇨🇳CN-🇹🇼TW_41
-      - Relay_🇨🇳CN-🇹🇼TW_40
-      - Relay_🇨🇳CN-🇹🇼TW_61
       - Relay_🇨🇳CN-🇹🇼TW_51
-      - 新加坡_7
-      - 新加坡_10
-      - 新加坡_5
       - GB-Openit.ml
-      - CN-Openit.ml 4
-      - CN-Openit.ml 2 2
-      - NONE 2 2
+      - CN-Openit.ml 4 2
       - CN_8du.shop 2
       - CN_8du.shop 3
       - CN_8du.shop 4
-      - PL_8du.shop 24
       - CN_8du.shop 8
-      - CN_8du.shop 27
-      - PL_8du.shop 68
-      - PL-217.30.10.67-0078
-      - PL-217.30.10.68-0128
-      - PL-217.30.10.68-0173
-      - CH-185.126.116.125-2595
-      - CH-185.126.116.125-2596
-      - PL-217.30.10.68-2687
-      - PL_8du.shop+28
       - PL_8du.shop+44
-      - PL_8du.shop+64
+      - 新加坡_3
+      - 香港2-tg频道:t.me/ruofeng_fx
+      - 香港1
+      - US_8du.shop 12
+      - Relay_🇨🇳CN-🇹🇼TW_52
+      - PL_8du.shop 57
+      - JP_TG univstar_88
+      - A--t.me/ruofeng_fx
+      - AU_8du.shop 2
+      - _GB_英国_7
+      - PL_8du.shop 16
+      - AU_8du.shop 9
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK-Openit.ml
       - CN-Openit.ml
       - CN-Openit.ml 2
       - CN-Openit.ml 3
-      - CN_30
+      - 东京
+      - 美国(绿头外网集团)(Public)_23
+      - CN-Openit.ml 4
+      - CN-Openit.ml 2 2
       - CN_32
-      - NONE
       - NONE 2
       - SG-Openit.ml
-      - HK-Openit.ml 2
       - US-Openit.ml
       - "[VM_US][🇺🇸_138.197.236.77]"
-      - "[TR_CN][🇨🇳_120.233.29.173]"
       - "[TR_CN][🇨🇳_116.129.253.177]"
       - "[TR_CN][🇨🇳_120.232.192.250]"
       - "[TR_CN][🇨🇳_116.129.253.134]"
       - "[TR_CN][🇨🇳_116.129.253.191]"
-      - "[TR_CN][🇨🇳_116.129.253.227]"
-      - 香港
       - Relay_🇨🇳CN-🇹🇼TW_48
-      - Relay_🇨🇳CN-🇹🇼TW_58
-      - Relay_🇨🇳CN-🇹🇼TW_39
-      - Relay_🇨🇳CN-🇹🇼TW_41
-      - Relay_🇨🇳CN-🇹🇼TW_40
-      - Relay_🇨🇳CN-🇹🇼TW_61
       - Relay_🇨🇳CN-🇹🇼TW_51
-      - 新加坡_7
-      - 新加坡_10
-      - 新加坡_5
       - GB-Openit.ml
-      - CN-Openit.ml 4
-      - CN-Openit.ml 2 2
-      - NONE 2 2
+      - CN-Openit.ml 4 2
       - CN_8du.shop 2
       - CN_8du.shop 3
       - CN_8du.shop 4
-      - PL_8du.shop 24
       - CN_8du.shop 8
-      - CN_8du.shop 27
-      - PL_8du.shop 68
-      - PL-217.30.10.67-0078
-      - PL-217.30.10.68-0128
-      - PL-217.30.10.68-0173
-      - CH-185.126.116.125-2595
-      - CH-185.126.116.125-2596
-      - PL-217.30.10.68-2687
-      - PL_8du.shop+28
       - PL_8du.shop+44
-      - PL_8du.shop+64
+      - 新加坡_3
+      - 香港2-tg频道:t.me/ruofeng_fx
+      - 香港1
+      - US_8du.shop 12
+      - Relay_🇨🇳CN-🇹🇼TW_52
+      - PL_8du.shop 57
+      - JP_TG univstar_88
+      - A--t.me/ruofeng_fx
+      - AU_8du.shop 2
+      - _GB_英国_7
+      - PL_8du.shop 16
+      - AU_8du.shop 9
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -236,224 +188,177 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK-Openit.ml
       - CN-Openit.ml
       - CN-Openit.ml 2
       - CN-Openit.ml 3
-      - CN_30
+      - 东京
+      - 美国(绿头外网集团)(Public)_23
+      - CN-Openit.ml 4
+      - CN-Openit.ml 2 2
       - CN_32
-      - NONE
       - NONE 2
       - SG-Openit.ml
-      - HK-Openit.ml 2
       - US-Openit.ml
       - "[VM_US][🇺🇸_138.197.236.77]"
-      - "[TR_CN][🇨🇳_120.233.29.173]"
       - "[TR_CN][🇨🇳_116.129.253.177]"
       - "[TR_CN][🇨🇳_120.232.192.250]"
       - "[TR_CN][🇨🇳_116.129.253.134]"
       - "[TR_CN][🇨🇳_116.129.253.191]"
-      - "[TR_CN][🇨🇳_116.129.253.227]"
-      - 香港
       - Relay_🇨🇳CN-🇹🇼TW_48
-      - Relay_🇨🇳CN-🇹🇼TW_58
-      - Relay_🇨🇳CN-🇹🇼TW_39
-      - Relay_🇨🇳CN-🇹🇼TW_41
-      - Relay_🇨🇳CN-🇹🇼TW_40
-      - Relay_🇨🇳CN-🇹🇼TW_61
       - Relay_🇨🇳CN-🇹🇼TW_51
-      - 新加坡_7
-      - 新加坡_10
-      - 新加坡_5
       - GB-Openit.ml
-      - CN-Openit.ml 4
-      - CN-Openit.ml 2 2
-      - NONE 2 2
+      - CN-Openit.ml 4 2
       - CN_8du.shop 2
       - CN_8du.shop 3
       - CN_8du.shop 4
-      - PL_8du.shop 24
       - CN_8du.shop 8
-      - CN_8du.shop 27
-      - PL_8du.shop 68
-      - PL-217.30.10.67-0078
-      - PL-217.30.10.68-0128
-      - PL-217.30.10.68-0173
-      - CH-185.126.116.125-2595
-      - CH-185.126.116.125-2596
-      - PL-217.30.10.68-2687
-      - PL_8du.shop+28
       - PL_8du.shop+44
-      - PL_8du.shop+64
+      - 新加坡_3
+      - 香港2-tg频道:t.me/ruofeng_fx
+      - 香港1
+      - US_8du.shop 12
+      - Relay_🇨🇳CN-🇹🇼TW_52
+      - PL_8du.shop 57
+      - JP_TG univstar_88
+      - A--t.me/ruofeng_fx
+      - AU_8du.shop 2
+      - _GB_英国_7
+      - PL_8du.shop 16
+      - AU_8du.shop 9
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港
+      - 香港2-tg频道:t.me/ruofeng_fx
+      - 香港1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK-Openit.ml
       - CN-Openit.ml
       - CN-Openit.ml 2
       - CN-Openit.ml 3
-      - CN_30
+      - 东京
+      - 美国(绿头外网集团)(Public)_23
+      - CN-Openit.ml 4
+      - CN-Openit.ml 2 2
       - CN_32
-      - NONE
       - NONE 2
       - SG-Openit.ml
-      - HK-Openit.ml 2
       - US-Openit.ml
       - "[VM_US][🇺🇸_138.197.236.77]"
-      - "[TR_CN][🇨🇳_120.233.29.173]"
       - "[TR_CN][🇨🇳_116.129.253.177]"
       - "[TR_CN][🇨🇳_120.232.192.250]"
       - "[TR_CN][🇨🇳_116.129.253.134]"
       - "[TR_CN][🇨🇳_116.129.253.191]"
-      - "[TR_CN][🇨🇳_116.129.253.227]"
-      - 香港
       - Relay_🇨🇳CN-🇹🇼TW_48
-      - Relay_🇨🇳CN-🇹🇼TW_58
-      - Relay_🇨🇳CN-🇹🇼TW_39
-      - Relay_🇨🇳CN-🇹🇼TW_41
-      - Relay_🇨🇳CN-🇹🇼TW_40
-      - Relay_🇨🇳CN-🇹🇼TW_61
       - Relay_🇨🇳CN-🇹🇼TW_51
-      - 新加坡_7
-      - 新加坡_10
-      - 新加坡_5
       - GB-Openit.ml
-      - CN-Openit.ml 4
-      - CN-Openit.ml 2 2
-      - NONE 2 2
+      - CN-Openit.ml 4 2
       - CN_8du.shop 2
       - CN_8du.shop 3
       - CN_8du.shop 4
-      - PL_8du.shop 24
       - CN_8du.shop 8
-      - CN_8du.shop 27
-      - PL_8du.shop 68
-      - PL-217.30.10.67-0078
-      - PL-217.30.10.68-0128
-      - PL-217.30.10.68-0173
-      - CH-185.126.116.125-2595
-      - CH-185.126.116.125-2596
-      - PL-217.30.10.68-2687
-      - PL_8du.shop+28
       - PL_8du.shop+44
-      - PL_8du.shop+64
+      - 新加坡_3
+      - 香港2-tg频道:t.me/ruofeng_fx
+      - 香港1
+      - US_8du.shop 12
+      - Relay_🇨🇳CN-🇹🇼TW_52
+      - PL_8du.shop 57
+      - JP_TG univstar_88
+      - A--t.me/ruofeng_fx
+      - AU_8du.shop 2
+      - _GB_英国_7
+      - PL_8du.shop 16
+      - AU_8du.shop 9
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK-Openit.ml
       - CN-Openit.ml
       - CN-Openit.ml 2
       - CN-Openit.ml 3
-      - CN_30
+      - 东京
+      - 美国(绿头外网集团)(Public)_23
+      - CN-Openit.ml 4
+      - CN-Openit.ml 2 2
       - CN_32
-      - NONE
       - NONE 2
       - SG-Openit.ml
-      - HK-Openit.ml 2
       - US-Openit.ml
       - "[VM_US][🇺🇸_138.197.236.77]"
-      - "[TR_CN][🇨🇳_120.233.29.173]"
       - "[TR_CN][🇨🇳_116.129.253.177]"
       - "[TR_CN][🇨🇳_120.232.192.250]"
       - "[TR_CN][🇨🇳_116.129.253.134]"
       - "[TR_CN][🇨🇳_116.129.253.191]"
-      - "[TR_CN][🇨🇳_116.129.253.227]"
-      - 香港
       - Relay_🇨🇳CN-🇹🇼TW_48
-      - Relay_🇨🇳CN-🇹🇼TW_58
-      - Relay_🇨🇳CN-🇹🇼TW_39
-      - Relay_🇨🇳CN-🇹🇼TW_41
-      - Relay_🇨🇳CN-🇹🇼TW_40
-      - Relay_🇨🇳CN-🇹🇼TW_61
       - Relay_🇨🇳CN-🇹🇼TW_51
-      - 新加坡_7
-      - 新加坡_10
-      - 新加坡_5
       - GB-Openit.ml
-      - CN-Openit.ml 4
-      - CN-Openit.ml 2 2
-      - NONE 2 2
+      - CN-Openit.ml 4 2
       - CN_8du.shop 2
       - CN_8du.shop 3
       - CN_8du.shop 4
-      - PL_8du.shop 24
       - CN_8du.shop 8
-      - CN_8du.shop 27
-      - PL_8du.shop 68
-      - PL-217.30.10.67-0078
-      - PL-217.30.10.68-0128
-      - PL-217.30.10.68-0173
-      - CH-185.126.116.125-2595
-      - CH-185.126.116.125-2596
-      - PL-217.30.10.68-2687
-      - PL_8du.shop+28
       - PL_8du.shop+44
-      - PL_8du.shop+64
+      - 新加坡_3
+      - 香港2-tg频道:t.me/ruofeng_fx
+      - 香港1
+      - US_8du.shop 12
+      - Relay_🇨🇳CN-🇹🇼TW_52
+      - PL_8du.shop 57
+      - JP_TG univstar_88
+      - A--t.me/ruofeng_fx
+      - AU_8du.shop 2
+      - _GB_英国_7
+      - PL_8du.shop 16
+      - AU_8du.shop 9
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK-Openit.ml
       - CN-Openit.ml
       - CN-Openit.ml 2
       - CN-Openit.ml 3
-      - CN_30
+      - 东京
+      - 美国(绿头外网集团)(Public)_23
+      - CN-Openit.ml 4
+      - CN-Openit.ml 2 2
       - CN_32
-      - NONE
       - NONE 2
       - SG-Openit.ml
-      - HK-Openit.ml 2
       - US-Openit.ml
       - "[VM_US][🇺🇸_138.197.236.77]"
-      - "[TR_CN][🇨🇳_120.233.29.173]"
       - "[TR_CN][🇨🇳_116.129.253.177]"
       - "[TR_CN][🇨🇳_120.232.192.250]"
       - "[TR_CN][🇨🇳_116.129.253.134]"
       - "[TR_CN][🇨🇳_116.129.253.191]"
-      - "[TR_CN][🇨🇳_116.129.253.227]"
-      - 香港
       - Relay_🇨🇳CN-🇹🇼TW_48
-      - Relay_🇨🇳CN-🇹🇼TW_58
-      - Relay_🇨🇳CN-🇹🇼TW_39
-      - Relay_🇨🇳CN-🇹🇼TW_41
-      - Relay_🇨🇳CN-🇹🇼TW_40
-      - Relay_🇨🇳CN-🇹🇼TW_61
       - Relay_🇨🇳CN-🇹🇼TW_51
-      - 新加坡_7
-      - 新加坡_10
-      - 新加坡_5
       - GB-Openit.ml
-      - CN-Openit.ml 4
-      - CN-Openit.ml 2 2
-      - NONE 2 2
+      - CN-Openit.ml 4 2
       - CN_8du.shop 2
       - CN_8du.shop 3
       - CN_8du.shop 4
-      - PL_8du.shop 24
       - CN_8du.shop 8
-      - CN_8du.shop 27
-      - PL_8du.shop 68
-      - PL-217.30.10.67-0078
-      - PL-217.30.10.68-0128
-      - PL-217.30.10.68-0173
-      - CH-185.126.116.125-2595
-      - CH-185.126.116.125-2596
-      - PL-217.30.10.68-2687
-      - PL_8du.shop+28
       - PL_8du.shop+44
-      - PL_8du.shop+64
+      - 新加坡_3
+      - 香港2-tg频道:t.me/ruofeng_fx
+      - 香港1
+      - US_8du.shop 12
+      - Relay_🇨🇳CN-🇹🇼TW_52
+      - PL_8du.shop 57
+      - JP_TG univstar_88
+      - A--t.me/ruofeng_fx
+      - AU_8du.shop 2
+      - _GB_英国_7
+      - PL_8du.shop 16
+      - AU_8du.shop 9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -469,55 +374,43 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK-Openit.ml
       - CN-Openit.ml
       - CN-Openit.ml 2
       - CN-Openit.ml 3
-      - CN_30
+      - 东京
+      - 美国(绿头外网集团)(Public)_23
+      - CN-Openit.ml 4
+      - CN-Openit.ml 2 2
       - CN_32
-      - NONE
       - NONE 2
       - SG-Openit.ml
-      - HK-Openit.ml 2
       - US-Openit.ml
       - "[VM_US][🇺🇸_138.197.236.77]"
-      - "[TR_CN][🇨🇳_120.233.29.173]"
       - "[TR_CN][🇨🇳_116.129.253.177]"
       - "[TR_CN][🇨🇳_120.232.192.250]"
       - "[TR_CN][🇨🇳_116.129.253.134]"
       - "[TR_CN][🇨🇳_116.129.253.191]"
-      - "[TR_CN][🇨🇳_116.129.253.227]"
-      - 香港
       - Relay_🇨🇳CN-🇹🇼TW_48
-      - Relay_🇨🇳CN-🇹🇼TW_58
-      - Relay_🇨🇳CN-🇹🇼TW_39
-      - Relay_🇨🇳CN-🇹🇼TW_41
-      - Relay_🇨🇳CN-🇹🇼TW_40
-      - Relay_🇨🇳CN-🇹🇼TW_61
       - Relay_🇨🇳CN-🇹🇼TW_51
-      - 新加坡_7
-      - 新加坡_10
-      - 新加坡_5
       - GB-Openit.ml
-      - CN-Openit.ml 4
-      - CN-Openit.ml 2 2
-      - NONE 2 2
+      - CN-Openit.ml 4 2
       - CN_8du.shop 2
       - CN_8du.shop 3
       - CN_8du.shop 4
-      - PL_8du.shop 24
       - CN_8du.shop 8
-      - CN_8du.shop 27
-      - PL_8du.shop 68
-      - PL-217.30.10.67-0078
-      - PL-217.30.10.68-0128
-      - PL-217.30.10.68-0173
-      - CH-185.126.116.125-2595
-      - CH-185.126.116.125-2596
-      - PL-217.30.10.68-2687
-      - PL_8du.shop+28
       - PL_8du.shop+44
-      - PL_8du.shop+64
+      - 新加坡_3
+      - 香港2-tg频道:t.me/ruofeng_fx
+      - 香港1
+      - US_8du.shop 12
+      - Relay_🇨🇳CN-🇹🇼TW_52
+      - PL_8du.shop 57
+      - JP_TG univstar_88
+      - A--t.me/ruofeng_fx
+      - AU_8du.shop 2
+      - _GB_英国_7
+      - PL_8du.shop 16
+      - AU_8du.shop 9
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
