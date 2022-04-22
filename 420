@@ -5,223 +5,151 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港1-tg频道:@ripaojiedian, server: hk4.fdns.unino.tech, port: 443, type: vmess, uuid: ed7c982a-ff74-4dd3-9f6c-155ec13b67ab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk4.fdns.unino.tech}, udp: true}
-  - {name: 美国_2, server: hk4.fdns.unino.tech, port: 443, type: vmess, uuid: ed7c982a-ff74-4dd3-9f6c-155ec13b67ab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk4.fdns.unino.tech}, udp: true}
-  - {name: "", server: 104.156.140.94, port: 49565, type: vmess, uuid: b11e8473-299e-4488-b82a-e35d48dff947, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: main_1, server: aa.kayalo.com, port: 26267, type: vmess, uuid: 9757cdba-c75b-4b94-9e31-7956dc7d852a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wis, ws-headers: {Host: aa.kayalo.com}, udp: true}
   - {name: 421更新1_70, server: 1chuan.top, port: 443, type: vmess, uuid: fa8f90e0-2fae-4b05-df7a-ea325bc517d8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /evo, ws-headers: {Host: 1chuan.top}, udp: true}
-  - {name: 233v2_com_45_125_64_201, server: 45.125.64.201, port: 27442, type: vmess, uuid: 3463f354-529a-4f40-9019-b9b10dc08233, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: CYL-科技（2022_04_20）_105, server: sanfranciscolafayette.club, port: 443, type: vmess, uuid: cc0b4469-c0e5-4efb-8f69-a6df64db24ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /neuromancer, ws-headers: {Host: sanfranciscolafayette.club}, udp: true}
   - {name: 美国(绿头外网集团)(Public)_23, server: 104.194.243.145, port: 443, type: vmess, uuid: 2fe53f4d-29bf-489a-a083-f4bd806c6385, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nKCAS980y, ws-headers: {Host: 104.194.243.145}, udp: true}
   - {name: SG-Openit.ml, server: v2-2.godlight.xyz, port: 30523, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /54f634fs, ws-headers: {Host: v2-2.godlight.xyz}, udp: true}
-  - {name: 香港2-tg频道:t.me/ruofeng_fx, server: hk5.fdns.cloudlink123.com, port: 80, type: vmess, uuid: ed7c982a-ff74-4dd3-9f6c-155ec13b67ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk5.fdns.cloudlink123.com}, udp: true}
-  - {name: US3, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国_1, server: 104.243.25.95, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
-  - {name: AU-Openit.ml, server: 185.167.116.253, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
-  - {name: AU_5, server: 185.167.116.253, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: AU_8, server: 185.167.116.252, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
-  - {name: AU-Openit.ml 2, server: 185.167.116.253, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
   - {name: 中国_5, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
   - {name: 中国_13, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
   - {name: 中国_17, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: RS-Openit.ml, server: 194.71.126.31, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: PL-Openit.ml, server: 217.30.10.64, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
   - {name: CN_8du.shop 2, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: PL_8du.shop 57, server: 217.30.10.67, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: AU_8du.shop 2, server: 185.167.116.253, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: PL_8du.shop 16, server: 217.30.10.67, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: AU_8du.shop 9, server: 185.167.116.253, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: AU_https://1808.ga+节点_247, server: 185.167.116.252, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: PL_https://1808.ga+节点_267, server: 217.30.10.66, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: PL_https://1808.ga+节点_271, server: 217.30.10.66, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
   - {name: CN_https://1808.ga+节点_281, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
   - {name: CN_https://1808.ga+节点_287, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: PL_https://1808.ga+节点_294, server: 217.30.10.66, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: PL_https://1808.ga+节点_300, server: 217.30.10.66, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: PL_https://1808.ga+节点_301, server: 217.30.10.66, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: PL_https://1808.ga+节点_395, server: 217.30.10.66, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: PL_https://1808.ga+节点_411, server: 217.30.10.66, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: PL_https://1808.ga+节点_412, server: 217.30.10.66, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: AU_4, server: 185.167.116.252, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: RU_122, server: 217.30.10.66, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: IN, server: in01.170809.xyz, port: 54623, type: ss, cipher: chacha20-ietf-poly1305, password: d9d5c386-56c7-4c3f-98df-3a6a0de728ce, udp: true}
-  - {name: PL, server: 217.30.10.66, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: SG, server: 54.254.25.252, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 1@liruofeng, server: azure-jp-1.forwardserver.xyz, port: 31845, type: trojan, password: d9d5c386-56c7-4c3f-98df-3a6a0de728ce, sni: azure-jp-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1t.me/ruofeng_fx, server: azure-jp-1.forwardserver.xyz, port: 19752, type: trojan, password: d9d5c386-56c7-4c3f-98df-3a6a0de728ce, sni: azure-jp-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 39, server: 120.232.192.250, port: 3383, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: TW_8du.shop, server: 60.249.3.125, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: TW_8du.shop 2, server: 211.72.35.153, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml, server: los2-cn2.v2ce.com, port: 443, type: trojan, password: 1Qfea1eL3zCALPJm, sni: los2-cn2.v2ce.com, skip-cert-verify: true, udp: true}
   - {name: AU-Openit.ml 3, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US, server: s162.s2022.xyz, port: 23802, type: trojan, password: d724e4d0-841b-3b92-ac0d-70fcbbb7e934, sni: s162.s2022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 洛杉矶-tg频道:@ripaojiedian, server: node.774.gs, port: 8443, type: vmess, uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: node.774.gs}, udp: true}
+  - {name: Relay_美国-_2061, server: 138.197.236.77, port: 443, type: vmess, uuid: 3579436c-b37e-11eb-8529-0242ac130003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 138.197.236.77}, udp: true}
+  - {name: CN_8du.shop+7, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_8du.shop+11, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_8du.shop+12, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_8du.shop+13, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_8du.shop+18, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_8du.shop+21, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_8du.shop+23, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_8du.shop+25, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: tg@nfeng6+190, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: tg@nfeng6+192, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 直连 | 香港1 | 0.01x, server: hk1.aead.ml, port: 10401, type: trojan, password: 4234aaad-2022-426d-991b-608960beae60, sni: hk1.aead.ml, skip-cert-verify: true, udp: true}
+  - {name: 直连 | 香港2 | 0.01x, server: hk2.aead.ml, port: 10402, type: trojan, password: 4234aaad-2022-426d-991b-608960beae60, sni: hk2.aead.ml, skip-cert-verify: true, udp: true}
+  - {name: "台灣 01 福利 [0.1x]", server: tw.node001.insnow.xyz, port: 12001, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: tw.node001.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: "韩国 01 福利 [0.1x]", server: kr.node001.insnow.xyz, port: 9914, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: kr.node001.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: "印度 01 福利 [0.1x]", server: doin.node003.insnow.xyz, port: 9933, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: doin.node003.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港, server: 120.232.192.250, port: 3384, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: RS_74, server: 194.71.126.31, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: RU_110, server: 217.30.10.66, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: KR_383, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, sni: jgw2.gaox.ml, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港1-tg频道:@ripaojiedian
-      - 美国_2
-      - ""
-      - main_1
       - 421更新1_70
-      - 233v2_com_45_125_64_201
       - CYL-科技（2022_04_20）_105
       - 美国(绿头外网集团)(Public)_23
       - SG-Openit.ml
-      - 香港2-tg频道:t.me/ruofeng_fx
-      - US3
-      - 美国_1
-      - AU-Openit.ml
-      - AU_5
-      - AU_8
-      - AU-Openit.ml 2
       - 中国_5
       - 中国_13
       - 中国_17
-      - RS-Openit.ml
-      - PL-Openit.ml
       - CN_8du.shop 2
-      - PL_8du.shop 57
-      - AU_8du.shop 2
-      - PL_8du.shop 16
-      - AU_8du.shop 9
-      - AU_https://1808.ga+节点_247
-      - PL_https://1808.ga+节点_267
-      - PL_https://1808.ga+节点_271
       - CN_https://1808.ga+节点_281
       - CN_https://1808.ga+节点_287
-      - PL_https://1808.ga+节点_294
-      - PL_https://1808.ga+节点_300
-      - PL_https://1808.ga+节点_301
-      - PL_https://1808.ga+节点_395
-      - PL_https://1808.ga+节点_411
-      - PL_https://1808.ga+节点_412
-      - AU_4
-      - RU_122
-      - IN
-      - PL
-      - SG
-      - 1@liruofeng
-      - 1t.me/ruofeng_fx
-      - CN_8du.shop 39
-      - TW_8du.shop
-      - TW_8du.shop 2
-      - US-Openit.ml
       - AU-Openit.ml 3
-      - US
+      - 洛杉矶-tg频道:@ripaojiedian
+      - Relay_美国-_2061
+      - CN_8du.shop+7
+      - CN_8du.shop+11
+      - CN_8du.shop+12
+      - CN_8du.shop+13
+      - CN_8du.shop+18
+      - CN_8du.shop+21
+      - CN_8du.shop+23
+      - CN_8du.shop+25
+      - tg@nfeng6+190
+      - tg@nfeng6+192
+      - 直连 | 香港1 | 0.01x
+      - 直连 | 香港2 | 0.01x
+      - 台灣 01 福利 [0.1x]
+      - 韩国 01 福利 [0.1x]
+      - 印度 01 福利 [0.1x]
+      - 香港
+      - RS_74
+      - RU_110
+      - KR_383
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港1-tg频道:@ripaojiedian
-      - 美国_2
-      - ""
-      - main_1
       - 421更新1_70
-      - 233v2_com_45_125_64_201
       - CYL-科技（2022_04_20）_105
       - 美国(绿头外网集团)(Public)_23
       - SG-Openit.ml
-      - 香港2-tg频道:t.me/ruofeng_fx
-      - US3
-      - 美国_1
-      - AU-Openit.ml
-      - AU_5
-      - AU_8
-      - AU-Openit.ml 2
       - 中国_5
       - 中国_13
       - 中国_17
-      - RS-Openit.ml
-      - PL-Openit.ml
       - CN_8du.shop 2
-      - PL_8du.shop 57
-      - AU_8du.shop 2
-      - PL_8du.shop 16
-      - AU_8du.shop 9
-      - AU_https://1808.ga+节点_247
-      - PL_https://1808.ga+节点_267
-      - PL_https://1808.ga+节点_271
       - CN_https://1808.ga+节点_281
       - CN_https://1808.ga+节点_287
-      - PL_https://1808.ga+节点_294
-      - PL_https://1808.ga+节点_300
-      - PL_https://1808.ga+节点_301
-      - PL_https://1808.ga+节点_395
-      - PL_https://1808.ga+节点_411
-      - PL_https://1808.ga+节点_412
-      - AU_4
-      - RU_122
-      - IN
-      - PL
-      - SG
-      - 1@liruofeng
-      - 1t.me/ruofeng_fx
-      - CN_8du.shop 39
-      - TW_8du.shop
-      - TW_8du.shop 2
-      - US-Openit.ml
       - AU-Openit.ml 3
-      - US
+      - 洛杉矶-tg频道:@ripaojiedian
+      - Relay_美国-_2061
+      - CN_8du.shop+7
+      - CN_8du.shop+11
+      - CN_8du.shop+12
+      - CN_8du.shop+13
+      - CN_8du.shop+18
+      - CN_8du.shop+21
+      - CN_8du.shop+23
+      - CN_8du.shop+25
+      - tg@nfeng6+190
+      - tg@nfeng6+192
+      - 直连 | 香港1 | 0.01x
+      - 直连 | 香港2 | 0.01x
+      - 台灣 01 福利 [0.1x]
+      - 韩国 01 福利 [0.1x]
+      - 印度 01 福利 [0.1x]
+      - 香港
+      - RS_74
+      - RU_110
+      - KR_383
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港1-tg频道:@ripaojiedian
-      - 美国_2
-      - ""
-      - main_1
       - 421更新1_70
-      - 233v2_com_45_125_64_201
       - CYL-科技（2022_04_20）_105
       - 美国(绿头外网集团)(Public)_23
       - SG-Openit.ml
-      - 香港2-tg频道:t.me/ruofeng_fx
-      - US3
-      - 美国_1
-      - AU-Openit.ml
-      - AU_5
-      - AU_8
-      - AU-Openit.ml 2
       - 中国_5
       - 中国_13
       - 中国_17
-      - RS-Openit.ml
-      - PL-Openit.ml
       - CN_8du.shop 2
-      - PL_8du.shop 57
-      - AU_8du.shop 2
-      - PL_8du.shop 16
-      - AU_8du.shop 9
-      - AU_https://1808.ga+节点_247
-      - PL_https://1808.ga+节点_267
-      - PL_https://1808.ga+节点_271
       - CN_https://1808.ga+节点_281
       - CN_https://1808.ga+节点_287
-      - PL_https://1808.ga+节点_294
-      - PL_https://1808.ga+节点_300
-      - PL_https://1808.ga+节点_301
-      - PL_https://1808.ga+节点_395
-      - PL_https://1808.ga+节点_411
-      - PL_https://1808.ga+节点_412
-      - AU_4
-      - RU_122
-      - IN
-      - PL
-      - SG
-      - 1@liruofeng
-      - 1t.me/ruofeng_fx
-      - CN_8du.shop 39
-      - TW_8du.shop
-      - TW_8du.shop 2
-      - US-Openit.ml
       - AU-Openit.ml 3
-      - US
+      - 洛杉矶-tg频道:@ripaojiedian
+      - Relay_美国-_2061
+      - CN_8du.shop+7
+      - CN_8du.shop+11
+      - CN_8du.shop+12
+      - CN_8du.shop+13
+      - CN_8du.shop+18
+      - CN_8du.shop+21
+      - CN_8du.shop+23
+      - CN_8du.shop+25
+      - tg@nfeng6+190
+      - tg@nfeng6+192
+      - 直连 | 香港1 | 0.01x
+      - 直连 | 香港2 | 0.01x
+      - 台灣 01 福利 [0.1x]
+      - 韩国 01 福利 [0.1x]
+      - 印度 01 福利 [0.1x]
+      - 香港
+      - RS_74
+      - RU_110
+      - KR_383
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -240,229 +168,159 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港1-tg频道:@ripaojiedian
-      - 美国_2
-      - ""
-      - main_1
       - 421更新1_70
-      - 233v2_com_45_125_64_201
       - CYL-科技（2022_04_20）_105
       - 美国(绿头外网集团)(Public)_23
       - SG-Openit.ml
-      - 香港2-tg频道:t.me/ruofeng_fx
-      - US3
-      - 美国_1
-      - AU-Openit.ml
-      - AU_5
-      - AU_8
-      - AU-Openit.ml 2
       - 中国_5
       - 中国_13
       - 中国_17
-      - RS-Openit.ml
-      - PL-Openit.ml
       - CN_8du.shop 2
-      - PL_8du.shop 57
-      - AU_8du.shop 2
-      - PL_8du.shop 16
-      - AU_8du.shop 9
-      - AU_https://1808.ga+节点_247
-      - PL_https://1808.ga+节点_267
-      - PL_https://1808.ga+节点_271
       - CN_https://1808.ga+节点_281
       - CN_https://1808.ga+节点_287
-      - PL_https://1808.ga+节点_294
-      - PL_https://1808.ga+节点_300
-      - PL_https://1808.ga+节点_301
-      - PL_https://1808.ga+节点_395
-      - PL_https://1808.ga+节点_411
-      - PL_https://1808.ga+节点_412
-      - AU_4
-      - RU_122
-      - IN
-      - PL
-      - SG
-      - 1@liruofeng
-      - 1t.me/ruofeng_fx
-      - CN_8du.shop 39
-      - TW_8du.shop
-      - TW_8du.shop 2
-      - US-Openit.ml
       - AU-Openit.ml 3
-      - US
+      - 洛杉矶-tg频道:@ripaojiedian
+      - Relay_美国-_2061
+      - CN_8du.shop+7
+      - CN_8du.shop+11
+      - CN_8du.shop+12
+      - CN_8du.shop+13
+      - CN_8du.shop+18
+      - CN_8du.shop+21
+      - CN_8du.shop+23
+      - CN_8du.shop+25
+      - tg@nfeng6+190
+      - tg@nfeng6+192
+      - 直连 | 香港1 | 0.01x
+      - 直连 | 香港2 | 0.01x
+      - 台灣 01 福利 [0.1x]
+      - 韩国 01 福利 [0.1x]
+      - 印度 01 福利 [0.1x]
+      - 香港
+      - RS_74
+      - RU_110
+      - KR_383
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港1-tg频道:@ripaojiedian
-      - 香港2-tg频道:t.me/ruofeng_fx
+      - 直连 | 香港1 | 0.01x
+      - 直连 | 香港2 | 0.01x
+      - 台灣 01 福利 [0.1x]
+      - 香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港1-tg频道:@ripaojiedian
-      - 美国_2
-      - ""
-      - main_1
       - 421更新1_70
-      - 233v2_com_45_125_64_201
       - CYL-科技（2022_04_20）_105
       - 美国(绿头外网集团)(Public)_23
       - SG-Openit.ml
-      - 香港2-tg频道:t.me/ruofeng_fx
-      - US3
-      - 美国_1
-      - AU-Openit.ml
-      - AU_5
-      - AU_8
-      - AU-Openit.ml 2
       - 中国_5
       - 中国_13
       - 中国_17
-      - RS-Openit.ml
-      - PL-Openit.ml
       - CN_8du.shop 2
-      - PL_8du.shop 57
-      - AU_8du.shop 2
-      - PL_8du.shop 16
-      - AU_8du.shop 9
-      - AU_https://1808.ga+节点_247
-      - PL_https://1808.ga+节点_267
-      - PL_https://1808.ga+节点_271
       - CN_https://1808.ga+节点_281
       - CN_https://1808.ga+节点_287
-      - PL_https://1808.ga+节点_294
-      - PL_https://1808.ga+节点_300
-      - PL_https://1808.ga+节点_301
-      - PL_https://1808.ga+节点_395
-      - PL_https://1808.ga+节点_411
-      - PL_https://1808.ga+节点_412
-      - AU_4
-      - RU_122
-      - IN
-      - PL
-      - SG
-      - 1@liruofeng
-      - 1t.me/ruofeng_fx
-      - CN_8du.shop 39
-      - TW_8du.shop
-      - TW_8du.shop 2
-      - US-Openit.ml
       - AU-Openit.ml 3
-      - US
+      - 洛杉矶-tg频道:@ripaojiedian
+      - Relay_美国-_2061
+      - CN_8du.shop+7
+      - CN_8du.shop+11
+      - CN_8du.shop+12
+      - CN_8du.shop+13
+      - CN_8du.shop+18
+      - CN_8du.shop+21
+      - CN_8du.shop+23
+      - CN_8du.shop+25
+      - tg@nfeng6+190
+      - tg@nfeng6+192
+      - 直连 | 香港1 | 0.01x
+      - 直连 | 香港2 | 0.01x
+      - 台灣 01 福利 [0.1x]
+      - 韩国 01 福利 [0.1x]
+      - 印度 01 福利 [0.1x]
+      - 香港
+      - RS_74
+      - RU_110
+      - KR_383
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港1-tg频道:@ripaojiedian
-      - 美国_2
-      - ""
-      - main_1
       - 421更新1_70
-      - 233v2_com_45_125_64_201
       - CYL-科技（2022_04_20）_105
       - 美国(绿头外网集团)(Public)_23
       - SG-Openit.ml
-      - 香港2-tg频道:t.me/ruofeng_fx
-      - US3
-      - 美国_1
-      - AU-Openit.ml
-      - AU_5
-      - AU_8
-      - AU-Openit.ml 2
       - 中国_5
       - 中国_13
       - 中国_17
-      - RS-Openit.ml
-      - PL-Openit.ml
       - CN_8du.shop 2
-      - PL_8du.shop 57
-      - AU_8du.shop 2
-      - PL_8du.shop 16
-      - AU_8du.shop 9
-      - AU_https://1808.ga+节点_247
-      - PL_https://1808.ga+节点_267
-      - PL_https://1808.ga+节点_271
       - CN_https://1808.ga+节点_281
       - CN_https://1808.ga+节点_287
-      - PL_https://1808.ga+节点_294
-      - PL_https://1808.ga+节点_300
-      - PL_https://1808.ga+节点_301
-      - PL_https://1808.ga+节点_395
-      - PL_https://1808.ga+节点_411
-      - PL_https://1808.ga+节点_412
-      - AU_4
-      - RU_122
-      - IN
-      - PL
-      - SG
-      - 1@liruofeng
-      - 1t.me/ruofeng_fx
-      - CN_8du.shop 39
-      - TW_8du.shop
-      - TW_8du.shop 2
-      - US-Openit.ml
       - AU-Openit.ml 3
-      - US
+      - 洛杉矶-tg频道:@ripaojiedian
+      - Relay_美国-_2061
+      - CN_8du.shop+7
+      - CN_8du.shop+11
+      - CN_8du.shop+12
+      - CN_8du.shop+13
+      - CN_8du.shop+18
+      - CN_8du.shop+21
+      - CN_8du.shop+23
+      - CN_8du.shop+25
+      - tg@nfeng6+190
+      - tg@nfeng6+192
+      - 直连 | 香港1 | 0.01x
+      - 直连 | 香港2 | 0.01x
+      - 台灣 01 福利 [0.1x]
+      - 韩国 01 福利 [0.1x]
+      - 印度 01 福利 [0.1x]
+      - 香港
+      - RS_74
+      - RU_110
+      - KR_383
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港1-tg频道:@ripaojiedian
-      - 美国_2
-      - ""
-      - main_1
       - 421更新1_70
-      - 233v2_com_45_125_64_201
       - CYL-科技（2022_04_20）_105
       - 美国(绿头外网集团)(Public)_23
       - SG-Openit.ml
-      - 香港2-tg频道:t.me/ruofeng_fx
-      - US3
-      - 美国_1
-      - AU-Openit.ml
-      - AU_5
-      - AU_8
-      - AU-Openit.ml 2
       - 中国_5
       - 中国_13
       - 中国_17
-      - RS-Openit.ml
-      - PL-Openit.ml
       - CN_8du.shop 2
-      - PL_8du.shop 57
-      - AU_8du.shop 2
-      - PL_8du.shop 16
-      - AU_8du.shop 9
-      - AU_https://1808.ga+节点_247
-      - PL_https://1808.ga+节点_267
-      - PL_https://1808.ga+节点_271
       - CN_https://1808.ga+节点_281
       - CN_https://1808.ga+节点_287
-      - PL_https://1808.ga+节点_294
-      - PL_https://1808.ga+节点_300
-      - PL_https://1808.ga+节点_301
-      - PL_https://1808.ga+节点_395
-      - PL_https://1808.ga+节点_411
-      - PL_https://1808.ga+节点_412
-      - AU_4
-      - RU_122
-      - IN
-      - PL
-      - SG
-      - 1@liruofeng
-      - 1t.me/ruofeng_fx
-      - CN_8du.shop 39
-      - TW_8du.shop
-      - TW_8du.shop 2
-      - US-Openit.ml
       - AU-Openit.ml 3
-      - US
+      - 洛杉矶-tg频道:@ripaojiedian
+      - Relay_美国-_2061
+      - CN_8du.shop+7
+      - CN_8du.shop+11
+      - CN_8du.shop+12
+      - CN_8du.shop+13
+      - CN_8du.shop+18
+      - CN_8du.shop+21
+      - CN_8du.shop+23
+      - CN_8du.shop+25
+      - tg@nfeng6+190
+      - tg@nfeng6+192
+      - 直连 | 香港1 | 0.01x
+      - 直连 | 香港2 | 0.01x
+      - 台灣 01 福利 [0.1x]
+      - 韩国 01 福利 [0.1x]
+      - 印度 01 福利 [0.1x]
+      - 香港
+      - RS_74
+      - RU_110
+      - KR_383
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -478,56 +336,38 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港1-tg频道:@ripaojiedian
-      - 美国_2
-      - ""
-      - main_1
       - 421更新1_70
-      - 233v2_com_45_125_64_201
       - CYL-科技（2022_04_20）_105
       - 美国(绿头外网集团)(Public)_23
       - SG-Openit.ml
-      - 香港2-tg频道:t.me/ruofeng_fx
-      - US3
-      - 美国_1
-      - AU-Openit.ml
-      - AU_5
-      - AU_8
-      - AU-Openit.ml 2
       - 中国_5
       - 中国_13
       - 中国_17
-      - RS-Openit.ml
-      - PL-Openit.ml
       - CN_8du.shop 2
-      - PL_8du.shop 57
-      - AU_8du.shop 2
-      - PL_8du.shop 16
-      - AU_8du.shop 9
-      - AU_https://1808.ga+节点_247
-      - PL_https://1808.ga+节点_267
-      - PL_https://1808.ga+节点_271
       - CN_https://1808.ga+节点_281
       - CN_https://1808.ga+节点_287
-      - PL_https://1808.ga+节点_294
-      - PL_https://1808.ga+节点_300
-      - PL_https://1808.ga+节点_301
-      - PL_https://1808.ga+节点_395
-      - PL_https://1808.ga+节点_411
-      - PL_https://1808.ga+节点_412
-      - AU_4
-      - RU_122
-      - IN
-      - PL
-      - SG
-      - 1@liruofeng
-      - 1t.me/ruofeng_fx
-      - CN_8du.shop 39
-      - TW_8du.shop
-      - TW_8du.shop 2
-      - US-Openit.ml
       - AU-Openit.ml 3
-      - US
+      - 洛杉矶-tg频道:@ripaojiedian
+      - Relay_美国-_2061
+      - CN_8du.shop+7
+      - CN_8du.shop+11
+      - CN_8du.shop+12
+      - CN_8du.shop+13
+      - CN_8du.shop+18
+      - CN_8du.shop+21
+      - CN_8du.shop+23
+      - CN_8du.shop+25
+      - tg@nfeng6+190
+      - tg@nfeng6+192
+      - 直连 | 香港1 | 0.01x
+      - 直连 | 香港2 | 0.01x
+      - 台灣 01 福利 [0.1x]
+      - 韩国 01 福利 [0.1x]
+      - 印度 01 福利 [0.1x]
+      - 香港
+      - RS_74
+      - RU_110
+      - KR_383
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
