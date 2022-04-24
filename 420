@@ -5,9 +5,48 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN-Openit.ml, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN-Openit.ml 2, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN-Openit.ml 3, server: gzcm.relay02.insnow.xyz, port: 19937, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: gzcm.relay02.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit.ml, server: gzcm.relay02.insnow.xyz, port: 19937, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: gzcm.relay02.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit.ml 2, server: rr007.zhuan666.top, port: 11207, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: CN-Openit.ml 3, server: rr008.zhuan666.top, port: 11208, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: CN-Openit.ml 4, server: rr009.zhuan666.top, port: 11209, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: CN-Openit.ml 5, server: rr010.zhuan666.top, port: 11210, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: CN-Openit.ml 6, server: gzcm.relay02.insnow.xyz, port: 19912, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: gzcm.relay02.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit.ml 7, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit.ml 8, server: dd005.zhuan666.top, port: 11605, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: CN-Openit.ml 9, server: rr006.zhuan666.top, port: 11206, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: CN-Openit.ml 10, server: rr005.zhuan666.top, port: 11205, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: CN-Openit.ml 11, server: rr002.zhuan666.top, port: 11202, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: CN-Openit.ml 12, server: rr001.zhuan666.top, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: CN-Openit.ml 13, server: dd004.zhuan666.top, port: 11604, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: CN-Openit.ml 14, server: rr003.zhuan666.top, port: 11203, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: CN-Openit.ml 15, server: dd002.zhuan666.top, port: 11602, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: CN-Openit.ml 16, server: mm003.zhuan666.top, port: 11508, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: CN-Openit.ml 17, server: rr017.zhuan666.top, port: 11217, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: CN-Openit.ml 18, server: rr015.zhuan666.top, port: 11215, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: CN-Openit.ml 19, server: mm001.zhuan666.top, port: 11506, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: JP-Openit.ml, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit.ml 20, server: rr014.zhuan666.top, port: 11214, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: CN-Openit.ml 21, server: rr012.zhuan666.top, port: 11212, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: CN-Openit.ml 22, server: mm005.zhuan666.top, port: 11510, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: CN-Openit.ml 23, server: mm002.zhuan666.top, port: 11507, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: CN-Openit.ml 24, server: mm004.zhuan666.top, port: 11509, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: CN-Openit.ml 25, server: rr013.zhuan666.top, port: 11213, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: CN-Openit.ml 26, server: rr016.zhuan666.top, port: 11216, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: CN-Openit.ml 27, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN-Openit.ml 28, server: dy2.9218561.xyz, port: 23452, type: trojan, password: 10095c32-253a-4f6d-92eb-bffe635c7b14, sni: dy2.9218561.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit.ml 29, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN-Openit.ml 30, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN-Openit.ml 31, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN-Openit.ml 32, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN-Openit.ml 33, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN-Openit.ml 34, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN-Openit.ml 35, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN-Openit.ml 36, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN-Openit.ml 37, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: JP-Openit.ml 2, server: jp.567568.ml, port: 443, type: trojan, password: 1293e022-6347-4d7e-8425-e65576b6ae0e, sni: jp.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit.ml 38, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit.ml 2 2, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit.ml 3 2, server: gzcm.relay02.insnow.xyz, port: 19937, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: gzcm.relay02.insnow.xyz, skip-cert-verify: true, udp: true}
   - {name: ua, server: ua.timevpn.com, port: 44061, type: ss, cipher: aes-256-cfb, password: MFkSzh9, udp: true}
   - {name: ru, server: ru.timevpn.com, port: 16166, type: ss, cipher: aes-256-cfb, password: jNh6bam, udp: true}
 proxy-groups:
@@ -19,6 +58,45 @@ proxy-groups:
       - CN-Openit.ml
       - CN-Openit.ml 2
       - CN-Openit.ml 3
+      - CN-Openit.ml 4
+      - CN-Openit.ml 5
+      - CN-Openit.ml 6
+      - CN-Openit.ml 7
+      - CN-Openit.ml 8
+      - CN-Openit.ml 9
+      - CN-Openit.ml 10
+      - CN-Openit.ml 11
+      - CN-Openit.ml 12
+      - CN-Openit.ml 13
+      - CN-Openit.ml 14
+      - CN-Openit.ml 15
+      - CN-Openit.ml 16
+      - CN-Openit.ml 17
+      - CN-Openit.ml 18
+      - CN-Openit.ml 19
+      - JP-Openit.ml
+      - CN-Openit.ml 20
+      - CN-Openit.ml 21
+      - CN-Openit.ml 22
+      - CN-Openit.ml 23
+      - CN-Openit.ml 24
+      - CN-Openit.ml 25
+      - CN-Openit.ml 26
+      - CN-Openit.ml 27
+      - CN-Openit.ml 28
+      - CN-Openit.ml 29
+      - CN-Openit.ml 30
+      - CN-Openit.ml 31
+      - CN-Openit.ml 32
+      - CN-Openit.ml 33
+      - CN-Openit.ml 34
+      - CN-Openit.ml 35
+      - CN-Openit.ml 36
+      - CN-Openit.ml 37
+      - JP-Openit.ml 2
+      - CN-Openit.ml 38
+      - CN-Openit.ml 2 2
+      - CN-Openit.ml 3 2
       - ua
       - ru
   - name: ♻️ 自动选择
@@ -29,6 +107,45 @@ proxy-groups:
       - CN-Openit.ml
       - CN-Openit.ml 2
       - CN-Openit.ml 3
+      - CN-Openit.ml 4
+      - CN-Openit.ml 5
+      - CN-Openit.ml 6
+      - CN-Openit.ml 7
+      - CN-Openit.ml 8
+      - CN-Openit.ml 9
+      - CN-Openit.ml 10
+      - CN-Openit.ml 11
+      - CN-Openit.ml 12
+      - CN-Openit.ml 13
+      - CN-Openit.ml 14
+      - CN-Openit.ml 15
+      - CN-Openit.ml 16
+      - CN-Openit.ml 17
+      - CN-Openit.ml 18
+      - CN-Openit.ml 19
+      - JP-Openit.ml
+      - CN-Openit.ml 20
+      - CN-Openit.ml 21
+      - CN-Openit.ml 22
+      - CN-Openit.ml 23
+      - CN-Openit.ml 24
+      - CN-Openit.ml 25
+      - CN-Openit.ml 26
+      - CN-Openit.ml 27
+      - CN-Openit.ml 28
+      - CN-Openit.ml 29
+      - CN-Openit.ml 30
+      - CN-Openit.ml 31
+      - CN-Openit.ml 32
+      - CN-Openit.ml 33
+      - CN-Openit.ml 34
+      - CN-Openit.ml 35
+      - CN-Openit.ml 36
+      - CN-Openit.ml 37
+      - JP-Openit.ml 2
+      - CN-Openit.ml 38
+      - CN-Openit.ml 2 2
+      - CN-Openit.ml 3 2
       - ua
       - ru
   - name: 🎥 NETFLIX
@@ -40,6 +157,45 @@ proxy-groups:
       - CN-Openit.ml
       - CN-Openit.ml 2
       - CN-Openit.ml 3
+      - CN-Openit.ml 4
+      - CN-Openit.ml 5
+      - CN-Openit.ml 6
+      - CN-Openit.ml 7
+      - CN-Openit.ml 8
+      - CN-Openit.ml 9
+      - CN-Openit.ml 10
+      - CN-Openit.ml 11
+      - CN-Openit.ml 12
+      - CN-Openit.ml 13
+      - CN-Openit.ml 14
+      - CN-Openit.ml 15
+      - CN-Openit.ml 16
+      - CN-Openit.ml 17
+      - CN-Openit.ml 18
+      - CN-Openit.ml 19
+      - JP-Openit.ml
+      - CN-Openit.ml 20
+      - CN-Openit.ml 21
+      - CN-Openit.ml 22
+      - CN-Openit.ml 23
+      - CN-Openit.ml 24
+      - CN-Openit.ml 25
+      - CN-Openit.ml 26
+      - CN-Openit.ml 27
+      - CN-Openit.ml 28
+      - CN-Openit.ml 29
+      - CN-Openit.ml 30
+      - CN-Openit.ml 31
+      - CN-Openit.ml 32
+      - CN-Openit.ml 33
+      - CN-Openit.ml 34
+      - CN-Openit.ml 35
+      - CN-Openit.ml 36
+      - CN-Openit.ml 37
+      - JP-Openit.ml 2
+      - CN-Openit.ml 38
+      - CN-Openit.ml 2 2
+      - CN-Openit.ml 3 2
       - ua
       - ru
   - name: ⛔️ 广告拦截
@@ -63,6 +219,45 @@ proxy-groups:
       - CN-Openit.ml
       - CN-Openit.ml 2
       - CN-Openit.ml 3
+      - CN-Openit.ml 4
+      - CN-Openit.ml 5
+      - CN-Openit.ml 6
+      - CN-Openit.ml 7
+      - CN-Openit.ml 8
+      - CN-Openit.ml 9
+      - CN-Openit.ml 10
+      - CN-Openit.ml 11
+      - CN-Openit.ml 12
+      - CN-Openit.ml 13
+      - CN-Openit.ml 14
+      - CN-Openit.ml 15
+      - CN-Openit.ml 16
+      - CN-Openit.ml 17
+      - CN-Openit.ml 18
+      - CN-Openit.ml 19
+      - JP-Openit.ml
+      - CN-Openit.ml 20
+      - CN-Openit.ml 21
+      - CN-Openit.ml 22
+      - CN-Openit.ml 23
+      - CN-Openit.ml 24
+      - CN-Openit.ml 25
+      - CN-Openit.ml 26
+      - CN-Openit.ml 27
+      - CN-Openit.ml 28
+      - CN-Openit.ml 29
+      - CN-Openit.ml 30
+      - CN-Openit.ml 31
+      - CN-Openit.ml 32
+      - CN-Openit.ml 33
+      - CN-Openit.ml 34
+      - CN-Openit.ml 35
+      - CN-Openit.ml 36
+      - CN-Openit.ml 37
+      - JP-Openit.ml 2
+      - CN-Openit.ml 38
+      - CN-Openit.ml 2 2
+      - CN-Openit.ml 3 2
       - ua
       - ru
   - name: 🌏 国内媒体
@@ -78,6 +273,45 @@ proxy-groups:
       - CN-Openit.ml
       - CN-Openit.ml 2
       - CN-Openit.ml 3
+      - CN-Openit.ml 4
+      - CN-Openit.ml 5
+      - CN-Openit.ml 6
+      - CN-Openit.ml 7
+      - CN-Openit.ml 8
+      - CN-Openit.ml 9
+      - CN-Openit.ml 10
+      - CN-Openit.ml 11
+      - CN-Openit.ml 12
+      - CN-Openit.ml 13
+      - CN-Openit.ml 14
+      - CN-Openit.ml 15
+      - CN-Openit.ml 16
+      - CN-Openit.ml 17
+      - CN-Openit.ml 18
+      - CN-Openit.ml 19
+      - JP-Openit.ml
+      - CN-Openit.ml 20
+      - CN-Openit.ml 21
+      - CN-Openit.ml 22
+      - CN-Openit.ml 23
+      - CN-Openit.ml 24
+      - CN-Openit.ml 25
+      - CN-Openit.ml 26
+      - CN-Openit.ml 27
+      - CN-Openit.ml 28
+      - CN-Openit.ml 29
+      - CN-Openit.ml 30
+      - CN-Openit.ml 31
+      - CN-Openit.ml 32
+      - CN-Openit.ml 33
+      - CN-Openit.ml 34
+      - CN-Openit.ml 35
+      - CN-Openit.ml 36
+      - CN-Openit.ml 37
+      - JP-Openit.ml 2
+      - CN-Openit.ml 38
+      - CN-Openit.ml 2 2
+      - CN-Openit.ml 3 2
       - ua
       - ru
   - name: 📲 电报信息
@@ -88,6 +322,45 @@ proxy-groups:
       - CN-Openit.ml
       - CN-Openit.ml 2
       - CN-Openit.ml 3
+      - CN-Openit.ml 4
+      - CN-Openit.ml 5
+      - CN-Openit.ml 6
+      - CN-Openit.ml 7
+      - CN-Openit.ml 8
+      - CN-Openit.ml 9
+      - CN-Openit.ml 10
+      - CN-Openit.ml 11
+      - CN-Openit.ml 12
+      - CN-Openit.ml 13
+      - CN-Openit.ml 14
+      - CN-Openit.ml 15
+      - CN-Openit.ml 16
+      - CN-Openit.ml 17
+      - CN-Openit.ml 18
+      - CN-Openit.ml 19
+      - JP-Openit.ml
+      - CN-Openit.ml 20
+      - CN-Openit.ml 21
+      - CN-Openit.ml 22
+      - CN-Openit.ml 23
+      - CN-Openit.ml 24
+      - CN-Openit.ml 25
+      - CN-Openit.ml 26
+      - CN-Openit.ml 27
+      - CN-Openit.ml 28
+      - CN-Openit.ml 29
+      - CN-Openit.ml 30
+      - CN-Openit.ml 31
+      - CN-Openit.ml 32
+      - CN-Openit.ml 33
+      - CN-Openit.ml 34
+      - CN-Openit.ml 35
+      - CN-Openit.ml 36
+      - CN-Openit.ml 37
+      - JP-Openit.ml 2
+      - CN-Openit.ml 38
+      - CN-Openit.ml 2 2
+      - CN-Openit.ml 3 2
       - ua
       - ru
   - name: 🍎 苹果服务
@@ -99,6 +372,45 @@ proxy-groups:
       - CN-Openit.ml
       - CN-Openit.ml 2
       - CN-Openit.ml 3
+      - CN-Openit.ml 4
+      - CN-Openit.ml 5
+      - CN-Openit.ml 6
+      - CN-Openit.ml 7
+      - CN-Openit.ml 8
+      - CN-Openit.ml 9
+      - CN-Openit.ml 10
+      - CN-Openit.ml 11
+      - CN-Openit.ml 12
+      - CN-Openit.ml 13
+      - CN-Openit.ml 14
+      - CN-Openit.ml 15
+      - CN-Openit.ml 16
+      - CN-Openit.ml 17
+      - CN-Openit.ml 18
+      - CN-Openit.ml 19
+      - JP-Openit.ml
+      - CN-Openit.ml 20
+      - CN-Openit.ml 21
+      - CN-Openit.ml 22
+      - CN-Openit.ml 23
+      - CN-Openit.ml 24
+      - CN-Openit.ml 25
+      - CN-Openit.ml 26
+      - CN-Openit.ml 27
+      - CN-Openit.ml 28
+      - CN-Openit.ml 29
+      - CN-Openit.ml 30
+      - CN-Openit.ml 31
+      - CN-Openit.ml 32
+      - CN-Openit.ml 33
+      - CN-Openit.ml 34
+      - CN-Openit.ml 35
+      - CN-Openit.ml 36
+      - CN-Openit.ml 37
+      - JP-Openit.ml 2
+      - CN-Openit.ml 38
+      - CN-Openit.ml 2 2
+      - CN-Openit.ml 3 2
       - ua
       - ru
   - name: 🎯 全球直连
@@ -119,6 +431,45 @@ proxy-groups:
       - CN-Openit.ml
       - CN-Openit.ml 2
       - CN-Openit.ml 3
+      - CN-Openit.ml 4
+      - CN-Openit.ml 5
+      - CN-Openit.ml 6
+      - CN-Openit.ml 7
+      - CN-Openit.ml 8
+      - CN-Openit.ml 9
+      - CN-Openit.ml 10
+      - CN-Openit.ml 11
+      - CN-Openit.ml 12
+      - CN-Openit.ml 13
+      - CN-Openit.ml 14
+      - CN-Openit.ml 15
+      - CN-Openit.ml 16
+      - CN-Openit.ml 17
+      - CN-Openit.ml 18
+      - CN-Openit.ml 19
+      - JP-Openit.ml
+      - CN-Openit.ml 20
+      - CN-Openit.ml 21
+      - CN-Openit.ml 22
+      - CN-Openit.ml 23
+      - CN-Openit.ml 24
+      - CN-Openit.ml 25
+      - CN-Openit.ml 26
+      - CN-Openit.ml 27
+      - CN-Openit.ml 28
+      - CN-Openit.ml 29
+      - CN-Openit.ml 30
+      - CN-Openit.ml 31
+      - CN-Openit.ml 32
+      - CN-Openit.ml 33
+      - CN-Openit.ml 34
+      - CN-Openit.ml 35
+      - CN-Openit.ml 36
+      - CN-Openit.ml 37
+      - JP-Openit.ml 2
+      - CN-Openit.ml 38
+      - CN-Openit.ml 2 2
+      - CN-Openit.ml 3 2
       - ua
       - ru
 rules:
