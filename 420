@@ -10,6 +10,10 @@ proxies:
   - {"name":"🇳🇱 荷兰 | 移动中转 | 0.5倍率","server":"cm.zhongzhuan.fnyun.cyou","port":443,"type":"vmess","uuid":"3c39f959-6e2c-4d2b-973d-a471719990c9","alterId":0,"cipher":"auto","country":"🇳🇱 荷兰 | 移动中转 | 0.5倍率","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hl.fnyun.cyou"}}}
   - {"name":"🇮🇱 以色列 | 移动中转 | 0.5倍率","server":"cm.zhongzhuan.fnyun.cyou","port":443,"type":"vmess","uuid":"3c39f959-6e2c-4d2b-973d-a471719990c9","alterId":0,"cipher":"auto","country":"🇮🇱 以色列 | 移动中转 | 0.5倍率","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"il.fnyun.cyou"}}}
   - {"name":"🇸🇰 斯洛伐克 | BGP中转 | 0.5倍率","server":"bgp.zhongzhuan.fnyun.cyou","port":443,"type":"vmess","uuid":"3c39f959-6e2c-4d2b-973d-a471719990c9","alterId":0,"cipher":"auto","country":"🇸🇰 斯洛伐克 | BGP中转 | 0.5倍率","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"sk.fnyun.cyou"}}}
+  - {name: CN7, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: JP, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: CN38, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN2, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -21,6 +25,10 @@ proxy-groups:
       - 🇳🇱 荷兰 | 移动中转 | 0.5倍率
       - 🇮🇱 以色列 | 移动中转 | 0.5倍率
       - 🇸🇰 斯洛伐克 | BGP中转 | 0.5倍率
+      - CN7
+      - JP
+      - CN38
+      - CN2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -31,6 +39,10 @@ proxy-groups:
       - 🇳🇱 荷兰 | 移动中转 | 0.5倍率
       - 🇮🇱 以色列 | 移动中转 | 0.5倍率
       - 🇸🇰 斯洛伐克 | BGP中转 | 0.5倍率
+      - CN7
+      - JP
+      - CN38
+      - CN2
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -42,6 +54,10 @@ proxy-groups:
       - 🇳🇱 荷兰 | 移动中转 | 0.5倍率
       - 🇮🇱 以色列 | 移动中转 | 0.5倍率
       - 🇸🇰 斯洛伐克 | BGP中转 | 0.5倍率
+      - CN7
+      - JP
+      - CN38
+      - CN2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -65,6 +81,10 @@ proxy-groups:
       - 🇳🇱 荷兰 | 移动中转 | 0.5倍率
       - 🇮🇱 以色列 | 移动中转 | 0.5倍率
       - 🇸🇰 斯洛伐克 | BGP中转 | 0.5倍率
+      - CN7
+      - JP
+      - CN38
+      - CN2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -80,6 +100,10 @@ proxy-groups:
       - 🇳🇱 荷兰 | 移动中转 | 0.5倍率
       - 🇮🇱 以色列 | 移动中转 | 0.5倍率
       - 🇸🇰 斯洛伐克 | BGP中转 | 0.5倍率
+      - CN7
+      - JP
+      - CN38
+      - CN2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -90,6 +114,10 @@ proxy-groups:
       - 🇳🇱 荷兰 | 移动中转 | 0.5倍率
       - 🇮🇱 以色列 | 移动中转 | 0.5倍率
       - 🇸🇰 斯洛伐克 | BGP中转 | 0.5倍率
+      - CN7
+      - JP
+      - CN38
+      - CN2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -101,6 +129,10 @@ proxy-groups:
       - 🇳🇱 荷兰 | 移动中转 | 0.5倍率
       - 🇮🇱 以色列 | 移动中转 | 0.5倍率
       - 🇸🇰 斯洛伐克 | BGP中转 | 0.5倍率
+      - CN7
+      - JP
+      - CN38
+      - CN2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -121,6 +153,10 @@ proxy-groups:
       - 🇳🇱 荷兰 | 移动中转 | 0.5倍率
       - 🇮🇱 以色列 | 移动中转 | 0.5倍率
       - 🇸🇰 斯洛伐克 | BGP中转 | 0.5倍率
+      - CN7
+      - JP
+      - CN38
+      - CN2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
