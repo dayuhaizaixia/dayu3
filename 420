@@ -16,6 +16,11 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇺🇸 美国 | BGP中转 | 0.5倍率
+      - 🇨🇿 捷克 | BGP中转 | 0.5倍率
+      - 🇳🇱 荷兰 | 移动中转 | 0.5倍率
+      - 🇮🇱 以色列 | 移动中转 | 0.5倍率
+      - 🇸🇰 斯洛伐克 | BGP中转 | 0.5倍率
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
