@@ -5,295 +5,171 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_ |61.42Mb, server: hncu.relay.qchwnd.moe, port: 10201, type: trojan, password: 5b059403-c05c-4609-ab01-a9352041d2e4, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |32.35Mb, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |29.28Mb, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: "|60.01Mb", server: 60.249.3.125, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: "|57.62Mb", server: 60.249.3.125, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: "|60.39Mb", server: 60.249.3.125, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
-  - {name: "|47.08Mb", server: 60.249.3.125, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |87.92Mb, server: hknf1.qingyun123.xyz, port: 10050, type: trojan, password: f29d8ac6-4ffd-48c1-84ad-6adcfd13db2a, sni: hknf1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |23.87Mb, server: kr2.qingyun123.xyz, port: 10050, type: trojan, password: 928bb264-85ee-48f7-9e1d-6f78e625caf8, sni: kr2.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇰🇷KR-🇰🇷KR_1110, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, sni: jgw2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇳🇱NL-🇳🇱NL_1367, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, sni: jgwdj2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 台中_4, server: 60.249.3.125, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: GB, server: yin1.qingyun123.xyz, port: 10000, type: trojan, password: f29d8ac6-4ffd-48c1-84ad-6adcfd13db2a, sni: yin1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: AU, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: KR, server: kr.alinkrelay.com, port: 10000, type: trojan, password: c8d3d54f-3175-49a6-a651-7ea889a704f6, sni: kr.alinkrelay.com, skip-cert-verify: true, udp: true}
-  - {name: GB2, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: "|20.69Mb", server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_ |20.46Mb, server: zhilian-au-a.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: zhilian-au-a.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |38.37Mb, server: 120.232.173.119, port: 20001, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_116 |47.10Mb, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |70.26Mb, server: guangzhou.kuli888.xyz, port: 52004, type: trojan, password: 54acbfdc-34ec-3d72-8182-3b437e4747eb, sni: guangzhou.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |67.26Mb, server: 120.232.173.119, port: 20004, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, skip-cert-verify: true, udp: true}
+  - {name: "|34.80Mb", server: 185.148.14.204, port: 28888, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |22.98Mb, server: zhilian-ru-c.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: zhilian-ru-c.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |32.71Mb, server: kaizen-ru-2.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-ru-2.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |49.63Mb, server: kaizen-tw-5.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-tw-5.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |46.22Mb, server: kaizen-tw-3.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-tw-3.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |47.98Mb, server: kaizen-tw-4.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-tw-4.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |27.05Mb, server: kaizen-us-24.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-24.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |26.72Mb, server: kaizen-us-26.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-26.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |22.96Mb, server: kaizen-us-7.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-7.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |24.35Mb, server: kaizen-us-33.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-33.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |26.84Mb, server: kaizen-us-12.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-12.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |27.65Mb, server: kaizen-us-23.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-23.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |26.06Mb, server: kaizen-us-35.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-35.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |26.82Mb, server: kaizen-us-17.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-17.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |26.96Mb, server: kaizen-us-34.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-34.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |26.75Mb, server: kaizen-us-13.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-13.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |28.51Mb, server: kaizen-us-11.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-11.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |26.36Mb, server: kaizen-us-6.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-6.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |26.52Mb, server: kaizen-us-30.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-30.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |26.04Mb, server: kaizen-us-29.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-29.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |48.74Mb, server: aead.tls.sksupersususu.dnsfree.top, port: 12345, type: trojan, password: c6210333-f101-468b-8b04-0965458cfab5, sni: aead.tls.sksupersususu.dnsfree.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |27.15Mb, server: kaizen-us-20.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-20.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |23.97Mb, server: kaizen-us-19.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-19.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: KR-Openit.ml, server: kaizen-kr-1.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-kr-1.cmy-dns.com, skip-cert-verify: true, udp: true}
   - {name: "|31.73Mb", server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "|39.30Mb", server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: "|34.44Mb", server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "|22.07Mb", server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "|32.44Mb", server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: "|36.32Mb", server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 英国2, server: e004.zhuan666.top, port: 11104, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 印度2, server: rr007.zhuan666.top, port: 11207, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 印度3, server: rr008.zhuan666.top, port: 11208, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 日本, server: rr009.zhuan666.top, port: 11209, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 日本3, server: rr010.zhuan666.top, port: 11210, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 俄罗斯, server: e005.zhuan666.top, port: 11105, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡2, server: dd005.zhuan666.top, port: 11605, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡3, server: rr006.zhuan666.top, port: 11206, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡4, server: rr005.zhuan666.top, port: 11205, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡5, server: rr002.zhuan666.top, port: 11202, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡6, server: rr001.zhuan666.top, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡7, server: dd004.zhuan666.top, port: 11604, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡8, server: rr003.zhuan666.top, port: 11203, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡9, server: dd002.zhuan666.top, port: 11602, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国, server: mm003.zhuan666.top, port: 11508, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国3, server: rr017.zhuan666.top, port: 11217, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国4, server: rr015.zhuan666.top, port: 11215, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国5, server: mm001.zhuan666.top, port: 11506, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国7, server: rr014.zhuan666.top, port: 11214, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国8, server: rr012.zhuan666.top, port: 11212, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国10, server: mm005.zhuan666.top, port: 11510, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国11, server: mm002.zhuan666.top, port: 11507, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国12, server: mm004.zhuan666.top, port: 11509, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国14, server: rr013.zhuan666.top, port: 11213, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国15, server: rr016.zhuan666.top, port: 11216, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: https://t.me/ruofeng_fx, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_22, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_24, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_25, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_26, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_28, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN, server: rr019.zhuan666.top, port: 11219, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: US, server: 208.85.23.137, port: 27297, type: ss, cipher: aes-256-cfb, password: 67d4e302ac8f47bf92c42afe6f085221, udp: true}
   - {name: PL, server: 217.30.10.66, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: CN-2, server: h003.zhuan666.top, port: 11403, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {"name":"🇺🇸 美国 | BGP中转 | 0.5倍率","server":"bgp.zhongzhuan.fnyun.cyou","port":443,"type":"vmess","uuid":"3c39f959-6e2c-4d2b-973d-a471719990c9","alterId":0,"cipher":"auto","country":"🇺🇸 美国 | BGP中转 | 0.5倍率","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"us.fnyun.cyou"}}}
-  - {"name":"🇨🇿 捷克 | BGP中转 | 0.5倍率","server":"bgp.zhongzhuan.fnyun.cyou","port":443,"type":"vmess","uuid":"3c39f959-6e2c-4d2b-973d-a471719990c9","alterId":0,"cipher":"auto","country":"🇨🇿 捷克 | BGP中转 | 0.5倍率","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"cz.fnyun.cyou"}}}
-  - {"name":"🇳🇱 荷兰 | 移动中转 | 0.5倍率","server":"cm.zhongzhuan.fnyun.cyou","port":443,"type":"vmess","uuid":"3c39f959-6e2c-4d2b-973d-a471719990c9","alterId":0,"cipher":"auto","country":"🇳🇱 荷兰 | 移动中转 | 0.5倍率","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hl.fnyun.cyou"}}}
-  - {"name":"🇮🇱 以色列 | 移动中转 | 0.5倍率","server":"cm.zhongzhuan.fnyun.cyou","port":443,"type":"vmess","uuid":"3c39f959-6e2c-4d2b-973d-a471719990c9","alterId":0,"cipher":"auto","country":"🇮🇱 以色列 | 移动中转 | 0.5倍率","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"il.fnyun.cyou"}}}
-  - {"name":"🇸🇰 斯洛伐克 | BGP中转 | 0.5倍率","server":"bgp.zhongzhuan.fnyun.cyou","port":443,"type":"vmess","uuid":"3c39f959-6e2c-4d2b-973d-a471719990c9","alterId":0,"cipher":"auto","country":"🇸🇰 斯洛伐克 | BGP中转 | 0.5倍率","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"sk.fnyun.cyou"}}}
-  - {name: CN7, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: JP, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: CN38, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN2, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |61.42Mb
-      - Relay_ |32.35Mb
-      - Relay_ |29.28Mb
-      - "|60.01Mb"
-      - "|57.62Mb"
-      - "|60.39Mb"
-      - "|47.08Mb"
-      - Relay_ |87.92Mb
-      - Relay_ |23.87Mb
-      - 新加坡
-      - Relay_🇰🇷KR-🇰🇷KR_1110
-      - Relay_🇳🇱NL-🇳🇱NL_1367
-      - 台中_4
-      - GB
-      - AU
-      - KR
-      - GB2
-      - "|20.69Mb"
+      - Relay_ |20.46Mb
+      - Relay_ |38.37Mb
+      - Relay_🇨🇳CN-🇹🇼TW_116 |47.10Mb
+      - Relay_ |70.26Mb
+      - Relay_ |67.26Mb
+      - "|34.80Mb"
+      - Relay_ |22.98Mb
+      - Relay_ |32.71Mb
+      - Relay_ |49.63Mb
+      - Relay_ |46.22Mb
+      - Relay_ |47.98Mb
+      - Relay_ |27.05Mb
+      - Relay_ |26.72Mb
+      - Relay_ |22.96Mb
+      - Relay_ |24.35Mb
+      - Relay_ |26.84Mb
+      - Relay_ |27.65Mb
+      - Relay_ |26.06Mb
+      - Relay_ |26.82Mb
+      - Relay_ |26.96Mb
+      - Relay_ |26.75Mb
+      - Relay_ |28.51Mb
+      - Relay_ |26.36Mb
+      - Relay_ |26.52Mb
+      - Relay_ |26.04Mb
+      - Relay_ |48.74Mb
+      - Relay_ |27.15Mb
+      - Relay_ |23.97Mb
+      - KR-Openit.ml
       - "|31.73Mb"
-      - "|39.30Mb"
       - "|34.44Mb"
-      - "|22.07Mb"
-      - "|32.44Mb"
       - "|36.32Mb"
-      - 英国2
-      - 印度2
-      - 印度3
-      - 日本
-      - 日本3
-      - 俄罗斯
-      - 新加坡2
-      - 新加坡3
-      - 新加坡4
-      - 新加坡5
-      - 新加坡6
-      - 新加坡7
-      - 新加坡8
-      - 新加坡9
-      - 美国
-      - 美国3
-      - 美国4
-      - 美国5
-      - 美国7
-      - 美国8
-      - 美国10
-      - 美国11
-      - 美国12
-      - 美国14
-      - 美国15
-      - https://t.me/ruofeng_fx
       - CN_22
-      - CN_24
       - CN_25
       - CN_26
       - CN_28
-      - CN
-      - US
       - PL
-      - CN-2
-      - 🇺🇸 美国 | BGP中转 | 0.5倍率
-      - 🇨🇿 捷克 | BGP中转 | 0.5倍率
-      - 🇳🇱 荷兰 | 移动中转 | 0.5倍率
-      - 🇮🇱 以色列 | 移动中转 | 0.5倍率
-      - 🇸🇰 斯洛伐克 | BGP中转 | 0.5倍率
-      - CN7
-      - JP
-      - CN38
-      - CN2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_ |61.42Mb
-      - Relay_ |32.35Mb
-      - Relay_ |29.28Mb
-      - "|60.01Mb"
-      - "|57.62Mb"
-      - "|60.39Mb"
-      - "|47.08Mb"
-      - Relay_ |87.92Mb
-      - Relay_ |23.87Mb
-      - 新加坡
-      - Relay_🇰🇷KR-🇰🇷KR_1110
-      - Relay_🇳🇱NL-🇳🇱NL_1367
-      - 台中_4
-      - GB
-      - AU
-      - KR
-      - GB2
-      - "|20.69Mb"
+      - Relay_ |20.46Mb
+      - Relay_ |38.37Mb
+      - Relay_🇨🇳CN-🇹🇼TW_116 |47.10Mb
+      - Relay_ |70.26Mb
+      - Relay_ |67.26Mb
+      - "|34.80Mb"
+      - Relay_ |22.98Mb
+      - Relay_ |32.71Mb
+      - Relay_ |49.63Mb
+      - Relay_ |46.22Mb
+      - Relay_ |47.98Mb
+      - Relay_ |27.05Mb
+      - Relay_ |26.72Mb
+      - Relay_ |22.96Mb
+      - Relay_ |24.35Mb
+      - Relay_ |26.84Mb
+      - Relay_ |27.65Mb
+      - Relay_ |26.06Mb
+      - Relay_ |26.82Mb
+      - Relay_ |26.96Mb
+      - Relay_ |26.75Mb
+      - Relay_ |28.51Mb
+      - Relay_ |26.36Mb
+      - Relay_ |26.52Mb
+      - Relay_ |26.04Mb
+      - Relay_ |48.74Mb
+      - Relay_ |27.15Mb
+      - Relay_ |23.97Mb
+      - KR-Openit.ml
       - "|31.73Mb"
-      - "|39.30Mb"
       - "|34.44Mb"
-      - "|22.07Mb"
-      - "|32.44Mb"
       - "|36.32Mb"
-      - 英国2
-      - 印度2
-      - 印度3
-      - 日本
-      - 日本3
-      - 俄罗斯
-      - 新加坡2
-      - 新加坡3
-      - 新加坡4
-      - 新加坡5
-      - 新加坡6
-      - 新加坡7
-      - 新加坡8
-      - 新加坡9
-      - 美国
-      - 美国3
-      - 美国4
-      - 美国5
-      - 美国7
-      - 美国8
-      - 美国10
-      - 美国11
-      - 美国12
-      - 美国14
-      - 美国15
-      - https://t.me/ruofeng_fx
       - CN_22
-      - CN_24
       - CN_25
       - CN_26
       - CN_28
-      - CN
-      - US
       - PL
-      - CN-2
-      - 🇺🇸 美国 | BGP中转 | 0.5倍率
-      - 🇨🇿 捷克 | BGP中转 | 0.5倍率
-      - 🇳🇱 荷兰 | 移动中转 | 0.5倍率
-      - 🇮🇱 以色列 | 移动中转 | 0.5倍率
-      - 🇸🇰 斯洛伐克 | BGP中转 | 0.5倍率
-      - CN7
-      - JP
-      - CN38
-      - CN2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |61.42Mb
-      - Relay_ |32.35Mb
-      - Relay_ |29.28Mb
-      - "|60.01Mb"
-      - "|57.62Mb"
-      - "|60.39Mb"
-      - "|47.08Mb"
-      - Relay_ |87.92Mb
-      - Relay_ |23.87Mb
-      - 新加坡
-      - Relay_🇰🇷KR-🇰🇷KR_1110
-      - Relay_🇳🇱NL-🇳🇱NL_1367
-      - 台中_4
-      - GB
-      - AU
-      - KR
-      - GB2
-      - "|20.69Mb"
+      - Relay_ |20.46Mb
+      - Relay_ |38.37Mb
+      - Relay_🇨🇳CN-🇹🇼TW_116 |47.10Mb
+      - Relay_ |70.26Mb
+      - Relay_ |67.26Mb
+      - "|34.80Mb"
+      - Relay_ |22.98Mb
+      - Relay_ |32.71Mb
+      - Relay_ |49.63Mb
+      - Relay_ |46.22Mb
+      - Relay_ |47.98Mb
+      - Relay_ |27.05Mb
+      - Relay_ |26.72Mb
+      - Relay_ |22.96Mb
+      - Relay_ |24.35Mb
+      - Relay_ |26.84Mb
+      - Relay_ |27.65Mb
+      - Relay_ |26.06Mb
+      - Relay_ |26.82Mb
+      - Relay_ |26.96Mb
+      - Relay_ |26.75Mb
+      - Relay_ |28.51Mb
+      - Relay_ |26.36Mb
+      - Relay_ |26.52Mb
+      - Relay_ |26.04Mb
+      - Relay_ |48.74Mb
+      - Relay_ |27.15Mb
+      - Relay_ |23.97Mb
+      - KR-Openit.ml
       - "|31.73Mb"
-      - "|39.30Mb"
       - "|34.44Mb"
-      - "|22.07Mb"
-      - "|32.44Mb"
       - "|36.32Mb"
-      - 英国2
-      - 印度2
-      - 印度3
-      - 日本
-      - 日本3
-      - 俄罗斯
-      - 新加坡2
-      - 新加坡3
-      - 新加坡4
-      - 新加坡5
-      - 新加坡6
-      - 新加坡7
-      - 新加坡8
-      - 新加坡9
-      - 美国
-      - 美国3
-      - 美国4
-      - 美国5
-      - 美国7
-      - 美国8
-      - 美国10
-      - 美国11
-      - 美国12
-      - 美国14
-      - 美国15
-      - https://t.me/ruofeng_fx
       - CN_22
-      - CN_24
       - CN_25
       - CN_26
       - CN_28
-      - CN
-      - US
       - PL
-      - CN-2
-      - 🇺🇸 美国 | BGP中转 | 0.5倍率
-      - 🇨🇿 捷克 | BGP中转 | 0.5倍率
-      - 🇳🇱 荷兰 | 移动中转 | 0.5倍率
-      - 🇮🇱 以色列 | 移动中转 | 0.5倍率
-      - 🇸🇰 斯洛伐克 | BGP中转 | 0.5倍率
-      - CN7
-      - JP
-      - CN38
-      - CN2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -312,300 +188,175 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |61.42Mb
-      - Relay_ |32.35Mb
-      - Relay_ |29.28Mb
-      - "|60.01Mb"
-      - "|57.62Mb"
-      - "|60.39Mb"
-      - "|47.08Mb"
-      - Relay_ |87.92Mb
-      - Relay_ |23.87Mb
-      - 新加坡
-      - Relay_🇰🇷KR-🇰🇷KR_1110
-      - Relay_🇳🇱NL-🇳🇱NL_1367
-      - 台中_4
-      - GB
-      - AU
-      - KR
-      - GB2
-      - "|20.69Mb"
+      - Relay_ |20.46Mb
+      - Relay_ |38.37Mb
+      - Relay_🇨🇳CN-🇹🇼TW_116 |47.10Mb
+      - Relay_ |70.26Mb
+      - Relay_ |67.26Mb
+      - "|34.80Mb"
+      - Relay_ |22.98Mb
+      - Relay_ |32.71Mb
+      - Relay_ |49.63Mb
+      - Relay_ |46.22Mb
+      - Relay_ |47.98Mb
+      - Relay_ |27.05Mb
+      - Relay_ |26.72Mb
+      - Relay_ |22.96Mb
+      - Relay_ |24.35Mb
+      - Relay_ |26.84Mb
+      - Relay_ |27.65Mb
+      - Relay_ |26.06Mb
+      - Relay_ |26.82Mb
+      - Relay_ |26.96Mb
+      - Relay_ |26.75Mb
+      - Relay_ |28.51Mb
+      - Relay_ |26.36Mb
+      - Relay_ |26.52Mb
+      - Relay_ |26.04Mb
+      - Relay_ |48.74Mb
+      - Relay_ |27.15Mb
+      - Relay_ |23.97Mb
+      - KR-Openit.ml
       - "|31.73Mb"
-      - "|39.30Mb"
       - "|34.44Mb"
-      - "|22.07Mb"
-      - "|32.44Mb"
       - "|36.32Mb"
-      - 英国2
-      - 印度2
-      - 印度3
-      - 日本
-      - 日本3
-      - 俄罗斯
-      - 新加坡2
-      - 新加坡3
-      - 新加坡4
-      - 新加坡5
-      - 新加坡6
-      - 新加坡7
-      - 新加坡8
-      - 新加坡9
-      - 美国
-      - 美国3
-      - 美国4
-      - 美国5
-      - 美国7
-      - 美国8
-      - 美国10
-      - 美国11
-      - 美国12
-      - 美国14
-      - 美国15
-      - https://t.me/ruofeng_fx
       - CN_22
-      - CN_24
       - CN_25
       - CN_26
       - CN_28
-      - CN
-      - US
       - PL
-      - CN-2
-      - 🇺🇸 美国 | BGP中转 | 0.5倍率
-      - 🇨🇿 捷克 | BGP中转 | 0.5倍率
-      - 🇳🇱 荷兰 | 移动中转 | 0.5倍率
-      - 🇮🇱 以色列 | 移动中转 | 0.5倍率
-      - 🇸🇰 斯洛伐克 | BGP中转 | 0.5倍率
-      - CN7
-      - JP
-      - CN38
-      - CN2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台中_4
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_ |61.42Mb
-      - Relay_ |32.35Mb
-      - Relay_ |29.28Mb
-      - "|60.01Mb"
-      - "|57.62Mb"
-      - "|60.39Mb"
-      - "|47.08Mb"
-      - Relay_ |87.92Mb
-      - Relay_ |23.87Mb
-      - 新加坡
-      - Relay_🇰🇷KR-🇰🇷KR_1110
-      - Relay_🇳🇱NL-🇳🇱NL_1367
-      - 台中_4
-      - GB
-      - AU
-      - KR
-      - GB2
-      - "|20.69Mb"
+      - Relay_ |20.46Mb
+      - Relay_ |38.37Mb
+      - Relay_🇨🇳CN-🇹🇼TW_116 |47.10Mb
+      - Relay_ |70.26Mb
+      - Relay_ |67.26Mb
+      - "|34.80Mb"
+      - Relay_ |22.98Mb
+      - Relay_ |32.71Mb
+      - Relay_ |49.63Mb
+      - Relay_ |46.22Mb
+      - Relay_ |47.98Mb
+      - Relay_ |27.05Mb
+      - Relay_ |26.72Mb
+      - Relay_ |22.96Mb
+      - Relay_ |24.35Mb
+      - Relay_ |26.84Mb
+      - Relay_ |27.65Mb
+      - Relay_ |26.06Mb
+      - Relay_ |26.82Mb
+      - Relay_ |26.96Mb
+      - Relay_ |26.75Mb
+      - Relay_ |28.51Mb
+      - Relay_ |26.36Mb
+      - Relay_ |26.52Mb
+      - Relay_ |26.04Mb
+      - Relay_ |48.74Mb
+      - Relay_ |27.15Mb
+      - Relay_ |23.97Mb
+      - KR-Openit.ml
       - "|31.73Mb"
-      - "|39.30Mb"
       - "|34.44Mb"
-      - "|22.07Mb"
-      - "|32.44Mb"
       - "|36.32Mb"
-      - 英国2
-      - 印度2
-      - 印度3
-      - 日本
-      - 日本3
-      - 俄罗斯
-      - 新加坡2
-      - 新加坡3
-      - 新加坡4
-      - 新加坡5
-      - 新加坡6
-      - 新加坡7
-      - 新加坡8
-      - 新加坡9
-      - 美国
-      - 美国3
-      - 美国4
-      - 美国5
-      - 美国7
-      - 美国8
-      - 美国10
-      - 美国11
-      - 美国12
-      - 美国14
-      - 美国15
-      - https://t.me/ruofeng_fx
       - CN_22
-      - CN_24
       - CN_25
       - CN_26
       - CN_28
-      - CN
-      - US
       - PL
-      - CN-2
-      - 🇺🇸 美国 | BGP中转 | 0.5倍率
-      - 🇨🇿 捷克 | BGP中转 | 0.5倍率
-      - 🇳🇱 荷兰 | 移动中转 | 0.5倍率
-      - 🇮🇱 以色列 | 移动中转 | 0.5倍率
-      - 🇸🇰 斯洛伐克 | BGP中转 | 0.5倍率
-      - CN7
-      - JP
-      - CN38
-      - CN2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_ |61.42Mb
-      - Relay_ |32.35Mb
-      - Relay_ |29.28Mb
-      - "|60.01Mb"
-      - "|57.62Mb"
-      - "|60.39Mb"
-      - "|47.08Mb"
-      - Relay_ |87.92Mb
-      - Relay_ |23.87Mb
-      - 新加坡
-      - Relay_🇰🇷KR-🇰🇷KR_1110
-      - Relay_🇳🇱NL-🇳🇱NL_1367
-      - 台中_4
-      - GB
-      - AU
-      - KR
-      - GB2
-      - "|20.69Mb"
+      - Relay_ |20.46Mb
+      - Relay_ |38.37Mb
+      - Relay_🇨🇳CN-🇹🇼TW_116 |47.10Mb
+      - Relay_ |70.26Mb
+      - Relay_ |67.26Mb
+      - "|34.80Mb"
+      - Relay_ |22.98Mb
+      - Relay_ |32.71Mb
+      - Relay_ |49.63Mb
+      - Relay_ |46.22Mb
+      - Relay_ |47.98Mb
+      - Relay_ |27.05Mb
+      - Relay_ |26.72Mb
+      - Relay_ |22.96Mb
+      - Relay_ |24.35Mb
+      - Relay_ |26.84Mb
+      - Relay_ |27.65Mb
+      - Relay_ |26.06Mb
+      - Relay_ |26.82Mb
+      - Relay_ |26.96Mb
+      - Relay_ |26.75Mb
+      - Relay_ |28.51Mb
+      - Relay_ |26.36Mb
+      - Relay_ |26.52Mb
+      - Relay_ |26.04Mb
+      - Relay_ |48.74Mb
+      - Relay_ |27.15Mb
+      - Relay_ |23.97Mb
+      - KR-Openit.ml
       - "|31.73Mb"
-      - "|39.30Mb"
       - "|34.44Mb"
-      - "|22.07Mb"
-      - "|32.44Mb"
       - "|36.32Mb"
-      - 英国2
-      - 印度2
-      - 印度3
-      - 日本
-      - 日本3
-      - 俄罗斯
-      - 新加坡2
-      - 新加坡3
-      - 新加坡4
-      - 新加坡5
-      - 新加坡6
-      - 新加坡7
-      - 新加坡8
-      - 新加坡9
-      - 美国
-      - 美国3
-      - 美国4
-      - 美国5
-      - 美国7
-      - 美国8
-      - 美国10
-      - 美国11
-      - 美国12
-      - 美国14
-      - 美国15
-      - https://t.me/ruofeng_fx
       - CN_22
-      - CN_24
       - CN_25
       - CN_26
       - CN_28
-      - CN
-      - US
       - PL
-      - CN-2
-      - 🇺🇸 美国 | BGP中转 | 0.5倍率
-      - 🇨🇿 捷克 | BGP中转 | 0.5倍率
-      - 🇳🇱 荷兰 | 移动中转 | 0.5倍率
-      - 🇮🇱 以色列 | 移动中转 | 0.5倍率
-      - 🇸🇰 斯洛伐克 | BGP中转 | 0.5倍率
-      - CN7
-      - JP
-      - CN38
-      - CN2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_ |61.42Mb
-      - Relay_ |32.35Mb
-      - Relay_ |29.28Mb
-      - "|60.01Mb"
-      - "|57.62Mb"
-      - "|60.39Mb"
-      - "|47.08Mb"
-      - Relay_ |87.92Mb
-      - Relay_ |23.87Mb
-      - 新加坡
-      - Relay_🇰🇷KR-🇰🇷KR_1110
-      - Relay_🇳🇱NL-🇳🇱NL_1367
-      - 台中_4
-      - GB
-      - AU
-      - KR
-      - GB2
-      - "|20.69Mb"
+      - Relay_ |20.46Mb
+      - Relay_ |38.37Mb
+      - Relay_🇨🇳CN-🇹🇼TW_116 |47.10Mb
+      - Relay_ |70.26Mb
+      - Relay_ |67.26Mb
+      - "|34.80Mb"
+      - Relay_ |22.98Mb
+      - Relay_ |32.71Mb
+      - Relay_ |49.63Mb
+      - Relay_ |46.22Mb
+      - Relay_ |47.98Mb
+      - Relay_ |27.05Mb
+      - Relay_ |26.72Mb
+      - Relay_ |22.96Mb
+      - Relay_ |24.35Mb
+      - Relay_ |26.84Mb
+      - Relay_ |27.65Mb
+      - Relay_ |26.06Mb
+      - Relay_ |26.82Mb
+      - Relay_ |26.96Mb
+      - Relay_ |26.75Mb
+      - Relay_ |28.51Mb
+      - Relay_ |26.36Mb
+      - Relay_ |26.52Mb
+      - Relay_ |26.04Mb
+      - Relay_ |48.74Mb
+      - Relay_ |27.15Mb
+      - Relay_ |23.97Mb
+      - KR-Openit.ml
       - "|31.73Mb"
-      - "|39.30Mb"
       - "|34.44Mb"
-      - "|22.07Mb"
-      - "|32.44Mb"
       - "|36.32Mb"
-      - 英国2
-      - 印度2
-      - 印度3
-      - 日本
-      - 日本3
-      - 俄罗斯
-      - 新加坡2
-      - 新加坡3
-      - 新加坡4
-      - 新加坡5
-      - 新加坡6
-      - 新加坡7
-      - 新加坡8
-      - 新加坡9
-      - 美国
-      - 美国3
-      - 美国4
-      - 美国5
-      - 美国7
-      - 美国8
-      - 美国10
-      - 美国11
-      - 美国12
-      - 美国14
-      - 美国15
-      - https://t.me/ruofeng_fx
       - CN_22
-      - CN_24
       - CN_25
       - CN_26
       - CN_28
-      - CN
-      - US
       - PL
-      - CN-2
-      - 🇺🇸 美国 | BGP中转 | 0.5倍率
-      - 🇨🇿 捷克 | BGP中转 | 0.5倍率
-      - 🇳🇱 荷兰 | 移动中转 | 0.5倍率
-      - 🇮🇱 以色列 | 移动中转 | 0.5倍率
-      - 🇸🇰 斯洛伐克 | BGP中转 | 0.5倍率
-      - CN7
-      - JP
-      - CN38
-      - CN2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -621,74 +372,43 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_ |61.42Mb
-      - Relay_ |32.35Mb
-      - Relay_ |29.28Mb
-      - "|60.01Mb"
-      - "|57.62Mb"
-      - "|60.39Mb"
-      - "|47.08Mb"
-      - Relay_ |87.92Mb
-      - Relay_ |23.87Mb
-      - 新加坡
-      - Relay_🇰🇷KR-🇰🇷KR_1110
-      - Relay_🇳🇱NL-🇳🇱NL_1367
-      - 台中_4
-      - GB
-      - AU
-      - KR
-      - GB2
-      - "|20.69Mb"
+      - Relay_ |20.46Mb
+      - Relay_ |38.37Mb
+      - Relay_🇨🇳CN-🇹🇼TW_116 |47.10Mb
+      - Relay_ |70.26Mb
+      - Relay_ |67.26Mb
+      - "|34.80Mb"
+      - Relay_ |22.98Mb
+      - Relay_ |32.71Mb
+      - Relay_ |49.63Mb
+      - Relay_ |46.22Mb
+      - Relay_ |47.98Mb
+      - Relay_ |27.05Mb
+      - Relay_ |26.72Mb
+      - Relay_ |22.96Mb
+      - Relay_ |24.35Mb
+      - Relay_ |26.84Mb
+      - Relay_ |27.65Mb
+      - Relay_ |26.06Mb
+      - Relay_ |26.82Mb
+      - Relay_ |26.96Mb
+      - Relay_ |26.75Mb
+      - Relay_ |28.51Mb
+      - Relay_ |26.36Mb
+      - Relay_ |26.52Mb
+      - Relay_ |26.04Mb
+      - Relay_ |48.74Mb
+      - Relay_ |27.15Mb
+      - Relay_ |23.97Mb
+      - KR-Openit.ml
       - "|31.73Mb"
-      - "|39.30Mb"
       - "|34.44Mb"
-      - "|22.07Mb"
-      - "|32.44Mb"
       - "|36.32Mb"
-      - 英国2
-      - 印度2
-      - 印度3
-      - 日本
-      - 日本3
-      - 俄罗斯
-      - 新加坡2
-      - 新加坡3
-      - 新加坡4
-      - 新加坡5
-      - 新加坡6
-      - 新加坡7
-      - 新加坡8
-      - 新加坡9
-      - 美国
-      - 美国3
-      - 美国4
-      - 美国5
-      - 美国7
-      - 美国8
-      - 美国10
-      - 美国11
-      - 美国12
-      - 美国14
-      - 美国15
-      - https://t.me/ruofeng_fx
       - CN_22
-      - CN_24
       - CN_25
       - CN_26
       - CN_28
-      - CN
-      - US
       - PL
-      - CN-2
-      - 🇺🇸 美国 | BGP中转 | 0.5倍率
-      - 🇨🇿 捷克 | BGP中转 | 0.5倍率
-      - 🇳🇱 荷兰 | 移动中转 | 0.5倍率
-      - 🇮🇱 以色列 | 移动中转 | 0.5倍率
-      - 🇸🇰 斯洛伐克 | BGP中转 | 0.5倍率
-      - CN7
-      - JP
-      - CN38
-      - CN2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
