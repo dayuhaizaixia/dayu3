@@ -5,171 +5,127 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_ |20.46Mb, server: zhilian-au-a.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: zhilian-au-a.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |38.37Mb, server: 120.232.173.119, port: 20001, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_116 |47.10Mb, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |70.26Mb, server: guangzhou.kuli888.xyz, port: 52004, type: trojan, password: 54acbfdc-34ec-3d72-8182-3b437e4747eb, sni: guangzhou.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |88.21Mb, server: gy.sharecentrepro.tk, port: 13397, type: trojan, password: d3b04e55-f2ae-4500-b317-e23946dde463, sni: gy.sharecentrepro.tk, skip-cert-verify: true, udp: true}
   - {name: Relay_ |67.26Mb, server: 120.232.173.119, port: 20004, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |38.37Mb, server: 120.232.173.119, port: 20001, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |47.10Mb, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |44.81Mb, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 2, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: RELAY-Openit.ml 3, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: RELAY-Openit.ml 4, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: RELAY-Openit.ml 5, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: RELAY-Openit.ml 6, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: RELAY-Openit.ml 7, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: US-Openit.ml, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: us02.gogogoo.cyou}, udp: true}
   - {name: "|34.80Mb", server: 185.148.14.204, port: 28888, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |22.98Mb, server: zhilian-ru-c.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: zhilian-ru-c.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |32.71Mb, server: kaizen-ru-2.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-ru-2.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |49.63Mb, server: kaizen-tw-5.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-tw-5.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |46.22Mb, server: kaizen-tw-3.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-tw-3.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |47.98Mb, server: kaizen-tw-4.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-tw-4.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |27.05Mb, server: kaizen-us-24.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-24.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |26.72Mb, server: kaizen-us-26.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-26.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |22.96Mb, server: kaizen-us-7.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-7.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |24.35Mb, server: kaizen-us-33.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-33.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |26.84Mb, server: kaizen-us-12.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-12.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |27.65Mb, server: kaizen-us-23.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-23.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |26.06Mb, server: kaizen-us-35.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-35.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |26.82Mb, server: kaizen-us-17.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-17.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |26.96Mb, server: kaizen-us-34.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-34.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |26.75Mb, server: kaizen-us-13.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-13.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |28.51Mb, server: kaizen-us-11.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-11.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |26.36Mb, server: kaizen-us-6.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-6.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |26.52Mb, server: kaizen-us-30.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-30.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |26.04Mb, server: kaizen-us-29.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-29.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |48.74Mb, server: aead.tls.sksupersususu.dnsfree.top, port: 12345, type: trojan, password: c6210333-f101-468b-8b04-0965458cfab5, sni: aead.tls.sksupersususu.dnsfree.top, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |27.15Mb, server: kaizen-us-20.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-20.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |23.97Mb, server: kaizen-us-19.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-us-19.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: KR-Openit.ml, server: kaizen-kr-1.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: kaizen-kr-1.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: "|31.73Mb", server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: "|34.44Mb", server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "|36.32Mb", server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_22, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_25, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_26, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_28, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: PL, server: 217.30.10.66, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: 美国3, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 德国, server: 120.233.10.71, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: 日本2, server: 120.233.10.71, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: 日本1, server: 120.233.10.71, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: 菲律宾, server: 120.233.10.71, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: 新加坡, server: 120.233.10.71, port: 38202, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: 美国2, server: 120.233.10.71, port: 38504, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: 美国1, server: 120.233.10.71, port: 38505, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: 香港2, server: 120.233.10.71, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: 香港1, server: 120.233.10.71, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |20.46Mb
-      - Relay_ |38.37Mb
-      - Relay_🇨🇳CN-🇹🇼TW_116 |47.10Mb
-      - Relay_ |70.26Mb
+      - Relay_ |88.21Mb
       - Relay_ |67.26Mb
+      - Relay_ |38.37Mb
+      - Relay_ |47.10Mb
+      - Relay_ |44.81Mb
+      - RELAY-Openit.ml
+      - RELAY-Openit.ml 2
+      - RELAY-Openit.ml 3
+      - RELAY-Openit.ml 4
+      - RELAY-Openit.ml 5
+      - RELAY-Openit.ml 6
+      - RELAY-Openit.ml 7
+      - US-Openit.ml
       - "|34.80Mb"
-      - Relay_ |22.98Mb
-      - Relay_ |32.71Mb
-      - Relay_ |49.63Mb
-      - Relay_ |46.22Mb
-      - Relay_ |47.98Mb
-      - Relay_ |27.05Mb
-      - Relay_ |26.72Mb
-      - Relay_ |22.96Mb
-      - Relay_ |24.35Mb
-      - Relay_ |26.84Mb
-      - Relay_ |27.65Mb
-      - Relay_ |26.06Mb
-      - Relay_ |26.82Mb
-      - Relay_ |26.96Mb
-      - Relay_ |26.75Mb
-      - Relay_ |28.51Mb
-      - Relay_ |26.36Mb
-      - Relay_ |26.52Mb
-      - Relay_ |26.04Mb
-      - Relay_ |48.74Mb
-      - Relay_ |27.15Mb
-      - Relay_ |23.97Mb
-      - KR-Openit.ml
-      - "|31.73Mb"
       - "|34.44Mb"
-      - "|36.32Mb"
-      - CN_22
-      - CN_25
-      - CN_26
-      - CN_28
       - PL
+      - 美国3
+      - 德国
+      - 日本2
+      - 日本1
+      - 菲律宾
+      - 新加坡
+      - 美国2
+      - 美国1
+      - 香港2
+      - 香港1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_ |20.46Mb
-      - Relay_ |38.37Mb
-      - Relay_🇨🇳CN-🇹🇼TW_116 |47.10Mb
-      - Relay_ |70.26Mb
+      - Relay_ |88.21Mb
       - Relay_ |67.26Mb
+      - Relay_ |38.37Mb
+      - Relay_ |47.10Mb
+      - Relay_ |44.81Mb
+      - RELAY-Openit.ml
+      - RELAY-Openit.ml 2
+      - RELAY-Openit.ml 3
+      - RELAY-Openit.ml 4
+      - RELAY-Openit.ml 5
+      - RELAY-Openit.ml 6
+      - RELAY-Openit.ml 7
+      - US-Openit.ml
       - "|34.80Mb"
-      - Relay_ |22.98Mb
-      - Relay_ |32.71Mb
-      - Relay_ |49.63Mb
-      - Relay_ |46.22Mb
-      - Relay_ |47.98Mb
-      - Relay_ |27.05Mb
-      - Relay_ |26.72Mb
-      - Relay_ |22.96Mb
-      - Relay_ |24.35Mb
-      - Relay_ |26.84Mb
-      - Relay_ |27.65Mb
-      - Relay_ |26.06Mb
-      - Relay_ |26.82Mb
-      - Relay_ |26.96Mb
-      - Relay_ |26.75Mb
-      - Relay_ |28.51Mb
-      - Relay_ |26.36Mb
-      - Relay_ |26.52Mb
-      - Relay_ |26.04Mb
-      - Relay_ |48.74Mb
-      - Relay_ |27.15Mb
-      - Relay_ |23.97Mb
-      - KR-Openit.ml
-      - "|31.73Mb"
       - "|34.44Mb"
-      - "|36.32Mb"
-      - CN_22
-      - CN_25
-      - CN_26
-      - CN_28
       - PL
+      - 美国3
+      - 德国
+      - 日本2
+      - 日本1
+      - 菲律宾
+      - 新加坡
+      - 美国2
+      - 美国1
+      - 香港2
+      - 香港1
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |20.46Mb
-      - Relay_ |38.37Mb
-      - Relay_🇨🇳CN-🇹🇼TW_116 |47.10Mb
-      - Relay_ |70.26Mb
+      - Relay_ |88.21Mb
       - Relay_ |67.26Mb
+      - Relay_ |38.37Mb
+      - Relay_ |47.10Mb
+      - Relay_ |44.81Mb
+      - RELAY-Openit.ml
+      - RELAY-Openit.ml 2
+      - RELAY-Openit.ml 3
+      - RELAY-Openit.ml 4
+      - RELAY-Openit.ml 5
+      - RELAY-Openit.ml 6
+      - RELAY-Openit.ml 7
+      - US-Openit.ml
       - "|34.80Mb"
-      - Relay_ |22.98Mb
-      - Relay_ |32.71Mb
-      - Relay_ |49.63Mb
-      - Relay_ |46.22Mb
-      - Relay_ |47.98Mb
-      - Relay_ |27.05Mb
-      - Relay_ |26.72Mb
-      - Relay_ |22.96Mb
-      - Relay_ |24.35Mb
-      - Relay_ |26.84Mb
-      - Relay_ |27.65Mb
-      - Relay_ |26.06Mb
-      - Relay_ |26.82Mb
-      - Relay_ |26.96Mb
-      - Relay_ |26.75Mb
-      - Relay_ |28.51Mb
-      - Relay_ |26.36Mb
-      - Relay_ |26.52Mb
-      - Relay_ |26.04Mb
-      - Relay_ |48.74Mb
-      - Relay_ |27.15Mb
-      - Relay_ |23.97Mb
-      - KR-Openit.ml
-      - "|31.73Mb"
       - "|34.44Mb"
-      - "|36.32Mb"
-      - CN_22
-      - CN_25
-      - CN_26
-      - CN_28
       - PL
+      - 美国3
+      - 德国
+      - 日本2
+      - 日本1
+      - 菲律宾
+      - 新加坡
+      - 美国2
+      - 美国1
+      - 香港2
+      - 香港1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -188,43 +144,32 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |20.46Mb
-      - Relay_ |38.37Mb
-      - Relay_🇨🇳CN-🇹🇼TW_116 |47.10Mb
-      - Relay_ |70.26Mb
+      - Relay_ |88.21Mb
       - Relay_ |67.26Mb
+      - Relay_ |38.37Mb
+      - Relay_ |47.10Mb
+      - Relay_ |44.81Mb
+      - RELAY-Openit.ml
+      - RELAY-Openit.ml 2
+      - RELAY-Openit.ml 3
+      - RELAY-Openit.ml 4
+      - RELAY-Openit.ml 5
+      - RELAY-Openit.ml 6
+      - RELAY-Openit.ml 7
+      - US-Openit.ml
       - "|34.80Mb"
-      - Relay_ |22.98Mb
-      - Relay_ |32.71Mb
-      - Relay_ |49.63Mb
-      - Relay_ |46.22Mb
-      - Relay_ |47.98Mb
-      - Relay_ |27.05Mb
-      - Relay_ |26.72Mb
-      - Relay_ |22.96Mb
-      - Relay_ |24.35Mb
-      - Relay_ |26.84Mb
-      - Relay_ |27.65Mb
-      - Relay_ |26.06Mb
-      - Relay_ |26.82Mb
-      - Relay_ |26.96Mb
-      - Relay_ |26.75Mb
-      - Relay_ |28.51Mb
-      - Relay_ |26.36Mb
-      - Relay_ |26.52Mb
-      - Relay_ |26.04Mb
-      - Relay_ |48.74Mb
-      - Relay_ |27.15Mb
-      - Relay_ |23.97Mb
-      - KR-Openit.ml
-      - "|31.73Mb"
       - "|34.44Mb"
-      - "|36.32Mb"
-      - CN_22
-      - CN_25
-      - CN_26
-      - CN_28
       - PL
+      - 美国3
+      - 德国
+      - 日本2
+      - 日本1
+      - 菲律宾
+      - 新加坡
+      - 美国2
+      - 美国1
+      - 香港2
+      - 香港1
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -235,128 +180,95 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_ |20.46Mb
-      - Relay_ |38.37Mb
-      - Relay_🇨🇳CN-🇹🇼TW_116 |47.10Mb
-      - Relay_ |70.26Mb
+      - Relay_ |88.21Mb
       - Relay_ |67.26Mb
+      - Relay_ |38.37Mb
+      - Relay_ |47.10Mb
+      - Relay_ |44.81Mb
+      - RELAY-Openit.ml
+      - RELAY-Openit.ml 2
+      - RELAY-Openit.ml 3
+      - RELAY-Openit.ml 4
+      - RELAY-Openit.ml 5
+      - RELAY-Openit.ml 6
+      - RELAY-Openit.ml 7
+      - US-Openit.ml
       - "|34.80Mb"
-      - Relay_ |22.98Mb
-      - Relay_ |32.71Mb
-      - Relay_ |49.63Mb
-      - Relay_ |46.22Mb
-      - Relay_ |47.98Mb
-      - Relay_ |27.05Mb
-      - Relay_ |26.72Mb
-      - Relay_ |22.96Mb
-      - Relay_ |24.35Mb
-      - Relay_ |26.84Mb
-      - Relay_ |27.65Mb
-      - Relay_ |26.06Mb
-      - Relay_ |26.82Mb
-      - Relay_ |26.96Mb
-      - Relay_ |26.75Mb
-      - Relay_ |28.51Mb
-      - Relay_ |26.36Mb
-      - Relay_ |26.52Mb
-      - Relay_ |26.04Mb
-      - Relay_ |48.74Mb
-      - Relay_ |27.15Mb
-      - Relay_ |23.97Mb
-      - KR-Openit.ml
-      - "|31.73Mb"
       - "|34.44Mb"
-      - "|36.32Mb"
-      - CN_22
-      - CN_25
-      - CN_26
-      - CN_28
       - PL
+      - 美国3
+      - 德国
+      - 日本2
+      - 日本1
+      - 菲律宾
+      - 新加坡
+      - 美国2
+      - 美国1
+      - 香港2
+      - 香港1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_ |20.46Mb
-      - Relay_ |38.37Mb
-      - Relay_🇨🇳CN-🇹🇼TW_116 |47.10Mb
-      - Relay_ |70.26Mb
+      - Relay_ |88.21Mb
       - Relay_ |67.26Mb
+      - Relay_ |38.37Mb
+      - Relay_ |47.10Mb
+      - Relay_ |44.81Mb
+      - RELAY-Openit.ml
+      - RELAY-Openit.ml 2
+      - RELAY-Openit.ml 3
+      - RELAY-Openit.ml 4
+      - RELAY-Openit.ml 5
+      - RELAY-Openit.ml 6
+      - RELAY-Openit.ml 7
+      - US-Openit.ml
       - "|34.80Mb"
-      - Relay_ |22.98Mb
-      - Relay_ |32.71Mb
-      - Relay_ |49.63Mb
-      - Relay_ |46.22Mb
-      - Relay_ |47.98Mb
-      - Relay_ |27.05Mb
-      - Relay_ |26.72Mb
-      - Relay_ |22.96Mb
-      - Relay_ |24.35Mb
-      - Relay_ |26.84Mb
-      - Relay_ |27.65Mb
-      - Relay_ |26.06Mb
-      - Relay_ |26.82Mb
-      - Relay_ |26.96Mb
-      - Relay_ |26.75Mb
-      - Relay_ |28.51Mb
-      - Relay_ |26.36Mb
-      - Relay_ |26.52Mb
-      - Relay_ |26.04Mb
-      - Relay_ |48.74Mb
-      - Relay_ |27.15Mb
-      - Relay_ |23.97Mb
-      - KR-Openit.ml
-      - "|31.73Mb"
       - "|34.44Mb"
-      - "|36.32Mb"
-      - CN_22
-      - CN_25
-      - CN_26
-      - CN_28
       - PL
+      - 美国3
+      - 德国
+      - 日本2
+      - 日本1
+      - 菲律宾
+      - 新加坡
+      - 美国2
+      - 美国1
+      - 香港2
+      - 香港1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_ |20.46Mb
-      - Relay_ |38.37Mb
-      - Relay_🇨🇳CN-🇹🇼TW_116 |47.10Mb
-      - Relay_ |70.26Mb
+      - Relay_ |88.21Mb
       - Relay_ |67.26Mb
+      - Relay_ |38.37Mb
+      - Relay_ |47.10Mb
+      - Relay_ |44.81Mb
+      - RELAY-Openit.ml
+      - RELAY-Openit.ml 2
+      - RELAY-Openit.ml 3
+      - RELAY-Openit.ml 4
+      - RELAY-Openit.ml 5
+      - RELAY-Openit.ml 6
+      - RELAY-Openit.ml 7
+      - US-Openit.ml
       - "|34.80Mb"
-      - Relay_ |22.98Mb
-      - Relay_ |32.71Mb
-      - Relay_ |49.63Mb
-      - Relay_ |46.22Mb
-      - Relay_ |47.98Mb
-      - Relay_ |27.05Mb
-      - Relay_ |26.72Mb
-      - Relay_ |22.96Mb
-      - Relay_ |24.35Mb
-      - Relay_ |26.84Mb
-      - Relay_ |27.65Mb
-      - Relay_ |26.06Mb
-      - Relay_ |26.82Mb
-      - Relay_ |26.96Mb
-      - Relay_ |26.75Mb
-      - Relay_ |28.51Mb
-      - Relay_ |26.36Mb
-      - Relay_ |26.52Mb
-      - Relay_ |26.04Mb
-      - Relay_ |48.74Mb
-      - Relay_ |27.15Mb
-      - Relay_ |23.97Mb
-      - KR-Openit.ml
-      - "|31.73Mb"
       - "|34.44Mb"
-      - "|36.32Mb"
-      - CN_22
-      - CN_25
-      - CN_26
-      - CN_28
       - PL
+      - 美国3
+      - 德国
+      - 日本2
+      - 日本1
+      - 菲律宾
+      - 新加坡
+      - 美国2
+      - 美国1
+      - 香港2
+      - 香港1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -372,43 +284,32 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_ |20.46Mb
-      - Relay_ |38.37Mb
-      - Relay_🇨🇳CN-🇹🇼TW_116 |47.10Mb
-      - Relay_ |70.26Mb
+      - Relay_ |88.21Mb
       - Relay_ |67.26Mb
+      - Relay_ |38.37Mb
+      - Relay_ |47.10Mb
+      - Relay_ |44.81Mb
+      - RELAY-Openit.ml
+      - RELAY-Openit.ml 2
+      - RELAY-Openit.ml 3
+      - RELAY-Openit.ml 4
+      - RELAY-Openit.ml 5
+      - RELAY-Openit.ml 6
+      - RELAY-Openit.ml 7
+      - US-Openit.ml
       - "|34.80Mb"
-      - Relay_ |22.98Mb
-      - Relay_ |32.71Mb
-      - Relay_ |49.63Mb
-      - Relay_ |46.22Mb
-      - Relay_ |47.98Mb
-      - Relay_ |27.05Mb
-      - Relay_ |26.72Mb
-      - Relay_ |22.96Mb
-      - Relay_ |24.35Mb
-      - Relay_ |26.84Mb
-      - Relay_ |27.65Mb
-      - Relay_ |26.06Mb
-      - Relay_ |26.82Mb
-      - Relay_ |26.96Mb
-      - Relay_ |26.75Mb
-      - Relay_ |28.51Mb
-      - Relay_ |26.36Mb
-      - Relay_ |26.52Mb
-      - Relay_ |26.04Mb
-      - Relay_ |48.74Mb
-      - Relay_ |27.15Mb
-      - Relay_ |23.97Mb
-      - KR-Openit.ml
-      - "|31.73Mb"
       - "|34.44Mb"
-      - "|36.32Mb"
-      - CN_22
-      - CN_25
-      - CN_26
-      - CN_28
       - PL
+      - 美国3
+      - 德国
+      - 日本2
+      - 日本1
+      - 菲律宾
+      - 新加坡
+      - 美国2
+      - 美国1
+      - 香港2
+      - 香港1
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
