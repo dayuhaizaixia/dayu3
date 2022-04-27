@@ -5,13 +5,29 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "|31.76Mb", server: 72.140.224.195, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "|43.57Mb", server: 72.140.224.195, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "|45.27Mb", server: 72.140.224.195, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "|30.98Mb", server: 72.140.224.195, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "|45.65Mb", server: 72.140.224.195, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "|47.29Mb", server: 72.140.224.195, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "|45.93Mb", server: 72.140.224.195, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US1, server: 183.232.56.182, port: 11805, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: US2, server: 183.232.56.182, port: 35247, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: RU, server: 183.232.56.182, port: 22848, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: US3, server: 183.232.56.182, port: 11804, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: SG1, server: 183.232.56.182, port: 11851, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: SG2, server: 183.232.56.182, port: 11846, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: SG3, server: 183.232.56.182, port: 11807, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: JP1, server: 183.232.56.182, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: JP2, server: 183.232.56.182, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: TW1, server: 183.232.56.182, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: HK1, server: 183.232.56.182, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 	KR, server: 183.232.29.152, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: US4, server: 183.232.29.152, port: 35247, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: US5, server: 183.232.29.152, port: 11805, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: US6, server: 183.232.29.152, port: 11804, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: SG4, server: 183.232.29.152, port: 11846, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: SG5, server: 183.232.29.152, port: 11851, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: SG6, server: 183.232.29.152, port: 11807, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: JP3, server: 183.232.29.152, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: JP4, server: 183.232.29.152, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: TW2, server: 183.232.29.152, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: HK2, server: 183.232.29.152, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: TW3, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, country:TW3, network: ws, ws-path: /ray, ws-headers: {Host: 330tw.fans8.xyz}, udp: true}
   - {name: "| 6.88Mb", server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: "| 8.23Mb", server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: "|11.93Mb", server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
@@ -20,7 +36,6 @@ proxies:
   - {name: "| 8.99Mb", server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: Relay_🇺🇸US-🇺🇸US_1384 | 5.73Mb, server: hknf2.qingyun123.xyz, port: 10070, type: trojan, password: 09982e0d-8fc0-4a6a-ac58-473610881121, sni: hknf2.qingyun123.xyz, skip-cert-verify: true, udp: true}
   - {name: Relay_🇺🇸US-🇺🇸US_1387 |18.04Mb, server: krnf1.qingyun123.xyz, port: 10050, type: trojan, password: 80cbe86c-99cc-416a-87ce-74006d863e3a, sni: krnf1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: IN-Openit.ml, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: US-Openit.ml, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan33.free4444.xyz, skip-cert-verify: true, udp: true}
   - {name: RELAY-Openit.ml 2, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: RELAY-Openit.ml 3, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
@@ -28,7 +43,7 @@ proxies:
   - {name: RELAY-Openit.ml 5, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: RELAY-Openit.ml 6, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: RELAY-Openit.ml 7, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: US-Openit.ml 2, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: us02.gogogoo.cyou}, udp: true}
+  - {name: US-Openit.ml 2, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, country: US-Openit.ml 2, network: ws, ws-path: /go, ws-headers: {Host: us02.gogogoo.cyou}, udp: true}
   - {name: "|34.44Mb", server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -36,13 +51,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "|31.76Mb"
-      - "|43.57Mb"
-      - "|45.27Mb"
-      - "|30.98Mb"
-      - "|45.65Mb"
-      - "|47.29Mb"
-      - "|45.93Mb"
+      - US1
+      - US2
+      - RU
+      - US3
+      - SG1
+      - SG2
+      - SG3
+      - JP1
+      - JP2
+      - TW1
+      - HK1
+      - KR
+      - US4
+      - US5
+      - US6
+      - SG4
+      - SG5
+      - SG6
+      - JP3
+      - JP4
+      - TW2
+      - HK2
+      - TW3
       - "| 6.88Mb"
       - "| 8.23Mb"
       - "|11.93Mb"
@@ -51,7 +82,6 @@ proxy-groups:
       - "| 8.99Mb"
       - Relay_🇺🇸US-🇺🇸US_1384 | 5.73Mb
       - Relay_🇺🇸US-🇺🇸US_1387 |18.04Mb
-      - IN-Openit.ml
       - US-Openit.ml
       - RELAY-Openit.ml 2
       - RELAY-Openit.ml 3
@@ -66,13 +96,29 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|31.76Mb"
-      - "|43.57Mb"
-      - "|45.27Mb"
-      - "|30.98Mb"
-      - "|45.65Mb"
-      - "|47.29Mb"
-      - "|45.93Mb"
+      - US1
+      - US2
+      - RU
+      - US3
+      - SG1
+      - SG2
+      - SG3
+      - JP1
+      - JP2
+      - TW1
+      - HK1
+      - KR
+      - US4
+      - US5
+      - US6
+      - SG4
+      - SG5
+      - SG6
+      - JP3
+      - JP4
+      - TW2
+      - HK2
+      - TW3
       - "| 6.88Mb"
       - "| 8.23Mb"
       - "|11.93Mb"
@@ -81,7 +127,6 @@ proxy-groups:
       - "| 8.99Mb"
       - Relay_🇺🇸US-🇺🇸US_1384 | 5.73Mb
       - Relay_🇺🇸US-🇺🇸US_1387 |18.04Mb
-      - IN-Openit.ml
       - US-Openit.ml
       - RELAY-Openit.ml 2
       - RELAY-Openit.ml 3
@@ -97,13 +142,29 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "|31.76Mb"
-      - "|43.57Mb"
-      - "|45.27Mb"
-      - "|30.98Mb"
-      - "|45.65Mb"
-      - "|47.29Mb"
-      - "|45.93Mb"
+      - US1
+      - US2
+      - RU
+      - US3
+      - SG1
+      - SG2
+      - SG3
+      - JP1
+      - JP2
+      - TW1
+      - HK1
+      - KR
+      - US4
+      - US5
+      - US6
+      - SG4
+      - SG5
+      - SG6
+      - JP3
+      - JP4
+      - TW2
+      - HK2
+      - TW3
       - "| 6.88Mb"
       - "| 8.23Mb"
       - "|11.93Mb"
@@ -112,7 +173,6 @@ proxy-groups:
       - "| 8.99Mb"
       - Relay_🇺🇸US-🇺🇸US_1384 | 5.73Mb
       - Relay_🇺🇸US-🇺🇸US_1387 |18.04Mb
-      - IN-Openit.ml
       - US-Openit.ml
       - RELAY-Openit.ml 2
       - RELAY-Openit.ml 3
@@ -140,13 +200,29 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "|31.76Mb"
-      - "|43.57Mb"
-      - "|45.27Mb"
-      - "|30.98Mb"
-      - "|45.65Mb"
-      - "|47.29Mb"
-      - "|45.93Mb"
+      - US1
+      - US2
+      - RU
+      - US3
+      - SG1
+      - SG2
+      - SG3
+      - JP1
+      - JP2
+      - TW1
+      - HK1
+      - KR
+      - US4
+      - US5
+      - US6
+      - SG4
+      - SG5
+      - SG6
+      - JP3
+      - JP4
+      - TW2
+      - HK2
+      - TW3
       - "| 6.88Mb"
       - "| 8.23Mb"
       - "|11.93Mb"
@@ -155,7 +231,6 @@ proxy-groups:
       - "| 8.99Mb"
       - Relay_🇺🇸US-🇺🇸US_1384 | 5.73Mb
       - Relay_🇺🇸US-🇺🇸US_1387 |18.04Mb
-      - IN-Openit.ml
       - US-Openit.ml
       - RELAY-Openit.ml 2
       - RELAY-Openit.ml 3
@@ -169,19 +244,40 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - TW1
+      - HK1
+      - TW2
+      - HK2
+      - TW3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "|31.76Mb"
-      - "|43.57Mb"
-      - "|45.27Mb"
-      - "|30.98Mb"
-      - "|45.65Mb"
-      - "|47.29Mb"
-      - "|45.93Mb"
+      - US1
+      - US2
+      - RU
+      - US3
+      - SG1
+      - SG2
+      - SG3
+      - JP1
+      - JP2
+      - TW1
+      - HK1
+      - KR
+      - US4
+      - US5
+      - US6
+      - SG4
+      - SG5
+      - SG6
+      - JP3
+      - JP4
+      - TW2
+      - HK2
+      - TW3
       - "| 6.88Mb"
       - "| 8.23Mb"
       - "|11.93Mb"
@@ -190,7 +286,6 @@ proxy-groups:
       - "| 8.99Mb"
       - Relay_🇺🇸US-🇺🇸US_1384 | 5.73Mb
       - Relay_🇺🇸US-🇺🇸US_1387 |18.04Mb
-      - IN-Openit.ml
       - US-Openit.ml
       - RELAY-Openit.ml 2
       - RELAY-Openit.ml 3
@@ -205,13 +300,29 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "|31.76Mb"
-      - "|43.57Mb"
-      - "|45.27Mb"
-      - "|30.98Mb"
-      - "|45.65Mb"
-      - "|47.29Mb"
-      - "|45.93Mb"
+      - US1
+      - US2
+      - RU
+      - US3
+      - SG1
+      - SG2
+      - SG3
+      - JP1
+      - JP2
+      - TW1
+      - HK1
+      - KR
+      - US4
+      - US5
+      - US6
+      - SG4
+      - SG5
+      - SG6
+      - JP3
+      - JP4
+      - TW2
+      - HK2
+      - TW3
       - "| 6.88Mb"
       - "| 8.23Mb"
       - "|11.93Mb"
@@ -220,7 +331,6 @@ proxy-groups:
       - "| 8.99Mb"
       - Relay_🇺🇸US-🇺🇸US_1384 | 5.73Mb
       - Relay_🇺🇸US-🇺🇸US_1387 |18.04Mb
-      - IN-Openit.ml
       - US-Openit.ml
       - RELAY-Openit.ml 2
       - RELAY-Openit.ml 3
@@ -236,13 +346,29 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "|31.76Mb"
-      - "|43.57Mb"
-      - "|45.27Mb"
-      - "|30.98Mb"
-      - "|45.65Mb"
-      - "|47.29Mb"
-      - "|45.93Mb"
+      - US1
+      - US2
+      - RU
+      - US3
+      - SG1
+      - SG2
+      - SG3
+      - JP1
+      - JP2
+      - TW1
+      - HK1
+      - KR
+      - US4
+      - US5
+      - US6
+      - SG4
+      - SG5
+      - SG6
+      - JP3
+      - JP4
+      - TW2
+      - HK2
+      - TW3
       - "| 6.88Mb"
       - "| 8.23Mb"
       - "|11.93Mb"
@@ -251,7 +377,6 @@ proxy-groups:
       - "| 8.99Mb"
       - Relay_🇺🇸US-🇺🇸US_1384 | 5.73Mb
       - Relay_🇺🇸US-🇺🇸US_1387 |18.04Mb
-      - IN-Openit.ml
       - US-Openit.ml
       - RELAY-Openit.ml 2
       - RELAY-Openit.ml 3
@@ -276,13 +401,29 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "|31.76Mb"
-      - "|43.57Mb"
-      - "|45.27Mb"
-      - "|30.98Mb"
-      - "|45.65Mb"
-      - "|47.29Mb"
-      - "|45.93Mb"
+      - US1
+      - US2
+      - RU
+      - US3
+      - SG1
+      - SG2
+      - SG3
+      - JP1
+      - JP2
+      - TW1
+      - HK1
+      - KR
+      - US4
+      - US5
+      - US6
+      - SG4
+      - SG5
+      - SG6
+      - JP3
+      - JP4
+      - TW2
+      - HK2
+      - TW3
       - "| 6.88Mb"
       - "| 8.23Mb"
       - "|11.93Mb"
@@ -291,7 +432,6 @@ proxy-groups:
       - "| 8.99Mb"
       - Relay_🇺🇸US-🇺🇸US_1384 | 5.73Mb
       - Relay_🇺🇸US-🇺🇸US_1387 |18.04Mb
-      - IN-Openit.ml
       - US-Openit.ml
       - RELAY-Openit.ml 2
       - RELAY-Openit.ml 3
