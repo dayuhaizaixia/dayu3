@@ -5,6 +5,22 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: DE-Openit.ml, server: deu001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, sni: deu001.laxiyun.com, skip-cert-verify: true, udp: true}
+  - {name: GB-Openit.ml, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan33.free4444.xyz, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml 2, server: docs.defun.us, port: 443, type: trojan, password: WEMagdSekdGBxh6g, sni: docs.defun.us, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml 3, server: shop-one.defun.us, port: 443, type: trojan, password: OEfntmUGHmwQnNGr, sni: shop-one.defun.us, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml 4, server: shop-two.defun.us, port: 8080, type: trojan, password: OzKXGbFNHwAurRQ0, sni: shop-two.defun.us, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml 5, server: meet-one.defun.us, port: 443, type: trojan, password: INvx7sPho8PyTLS6, sni: meet-one.defun.us, skip-cert-verify: true, udp: true}
+  - {name: GB-Openit.ml 2, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml 6, server: us003.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, sni: us003.laxiyun.com, skip-cert-verify: true, udp: true}
+  - {name: AU-Openit.ml, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml 7, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: IN-Openit.ml, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml 8, server: miner-two.pickaxe.sh, port: 443, type: trojan, password: YzJI2mQftXqA6ZH4, sni: miner-two.pickaxe.sh, skip-cert-verify: true, udp: true}
+  - {name: KR-Openit.ml, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: TW-Openit.ml, server: taiwjing.kuli888.xyz, port: 520, type: trojan, password: 5e8c99a7-2c7b-3e0e-a3c9-3c5b41cb7101, sni: taiwjing.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml 9, server: us-01.pickaxe.sh, port: 443, type: trojan, password: VQcup0dd7ulkb1pV, sni: us-01.pickaxe.sh, skip-cert-verify: true, udp: true}
   - {name: US1, server: 183.232.56.182, port: 11805, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
   - {name: US2, server: 183.232.56.182, port: 35247, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
   - {name: RU, server: 183.232.56.182, port: 22848, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
@@ -16,7 +32,7 @@ proxies:
   - {name: JP2, server: 183.232.56.182, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
   - {name: TW1, server: 183.232.56.182, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
   - {name: HK1, server: 183.232.56.182, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 	KR, server: 183.232.29.152, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: KR, server: 183.232.29.152, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
   - {name: US4, server: 183.232.29.152, port: 35247, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
   - {name: US5, server: 183.232.29.152, port: 11805, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
   - {name: US6, server: 183.232.29.152, port: 11804, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
@@ -27,15 +43,46 @@ proxies:
   - {name: JP4, server: 183.232.29.152, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
   - {name: TW2, server: 183.232.29.152, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
   - {name: HK2, server: 183.232.29.152, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: TW3, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, country:TW3, network: ws, ws-path: /ray, ws-headers: {Host: 330tw.fans8.xyz}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1384 | 5.73Mb, server: hknf2.qingyun123.xyz, port: 10070, type: trojan, password: 09982e0d-8fc0-4a6a-ac58-473610881121, sni: hknf2.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1387 |18.04Mb, server: krnf1.qingyun123.xyz, port: 10050, type: trojan, password: 80cbe86c-99cc-416a-87ce-74006d863e3a, sni: krnf1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK2/IPLC, server: hkbali.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: SG1/IEPL, server: kr3-zx.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: SG2/IEPL, server: mmkr1ss.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: HK3/IPLC, server: hkt2dyn.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: SG3/IEPL, server: xjp2-zx.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: HK5/IEPL, server: hk3cm.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: SG4/IEPL, server: xjpmiaosj.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: TW-VM_4, server: gc1.criskaka.com, port: 45658, type: vmess, uuid: 9aac58a0-f5ef-4a9d-e493-850373c9f73e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾29, server: gc1.criskaka.com, port: 45658, type: vmess, uuid: 9aac58a0-f5ef-4a9d-e493-850373c9f73e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾32, server: fs.keaiyun.top, port: 55154, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾33, server: fs.keaiyun.top, port: 55155, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港1, server: s250.s2022.xyz, port: 27073, type: trojan, password: 5a0c130c-31f7-31dc-89c3-5c26865d56f9, sni: s250.s2022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港2, server: s47.s2022.xyz, port: 23498, type: trojan, password: 5a0c130c-31f7-31dc-89c3-5c26865d56f9, sni: s47.s2022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港3, server: s231.s2022.xyz, port: 35859, type: trojan, password: 5a0c130c-31f7-31dc-89c3-5c26865d56f9, sni: s231.s2022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港4, server: s201.s2022.xyz, port: 29004, type: trojan, password: 5a0c130c-31f7-31dc-89c3-5c26865d56f9, sni: s201.s2022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港5, server: s253.s2022.xyz, port: 25221, type: trojan, password: 5a0c130c-31f7-31dc-89c3-5c26865d56f9, sni: s253.s2022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港8, server: s233.s2022.xyz, port: 39747, type: trojan, password: 5a0c130c-31f7-31dc-89c3-5c26865d56f9, sni: s233.s2022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港9, server: s238.s2022.xyz, port: 37826, type: trojan, password: 5a0c130c-31f7-31dc-89c3-5c26865d56f9, sni: s238.s2022.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - DE-Openit.ml
+      - GB-Openit.ml
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - US-Openit.ml 4
+      - US-Openit.ml 5
+      - GB-Openit.ml 2
+      - US-Openit.ml 6
+      - AU-Openit.ml
+      - US-Openit.ml 7
+      - IN-Openit.ml
+      - US-Openit.ml 8
+      - KR-Openit.ml
+      - TW-Openit.ml
+      - US-Openit.ml 9
       - US1
       - US2
       - RU
@@ -58,14 +105,45 @@ proxy-groups:
       - JP4
       - TW2
       - HK2
-      - TW3
-      - Relay_🇺🇸US-🇺🇸US_1384 | 5.73Mb
-      - Relay_🇺🇸US-🇺🇸US_1387 |18.04Mb
+      - HK2/IPLC
+      - SG1/IEPL
+      - SG2/IEPL
+      - HK3/IPLC
+      - SG3/IEPL
+      - HK5/IEPL
+      - SG4/IEPL
+      - TW-VM_4
+      - 台湾29
+      - 台湾32
+      - 台湾33
+      - 香港1
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港8
+      - 香港9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - DE-Openit.ml
+      - GB-Openit.ml
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - US-Openit.ml 4
+      - US-Openit.ml 5
+      - GB-Openit.ml 2
+      - US-Openit.ml 6
+      - AU-Openit.ml
+      - US-Openit.ml 7
+      - IN-Openit.ml
+      - US-Openit.ml 8
+      - KR-Openit.ml
+      - TW-Openit.ml
+      - US-Openit.ml 9
       - US1
       - US2
       - RU
@@ -88,15 +166,46 @@ proxy-groups:
       - JP4
       - TW2
       - HK2
-      - TW3
-      - Relay_🇺🇸US-🇺🇸US_1384 | 5.73Mb
-      - Relay_🇺🇸US-🇺🇸US_1387 |18.04Mb
+      - HK2/IPLC
+      - SG1/IEPL
+      - SG2/IEPL
+      - HK3/IPLC
+      - SG3/IEPL
+      - HK5/IEPL
+      - SG4/IEPL
+      - TW-VM_4
+      - 台湾29
+      - 台湾32
+      - 台湾33
+      - 香港1
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港8
+      - 香港9
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - DE-Openit.ml
+      - GB-Openit.ml
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - US-Openit.ml 4
+      - US-Openit.ml 5
+      - GB-Openit.ml 2
+      - US-Openit.ml 6
+      - AU-Openit.ml
+      - US-Openit.ml 7
+      - IN-Openit.ml
+      - US-Openit.ml 8
+      - KR-Openit.ml
+      - TW-Openit.ml
+      - US-Openit.ml 9
       - US1
       - US2
       - RU
@@ -119,9 +228,24 @@ proxy-groups:
       - JP4
       - TW2
       - HK2
-      - TW3
-      - Relay_🇺🇸US-🇺🇸US_1384 | 5.73Mb
-      - Relay_🇺🇸US-🇺🇸US_1387 |18.04Mb
+      - HK2/IPLC
+      - SG1/IEPL
+      - SG2/IEPL
+      - HK3/IPLC
+      - SG3/IEPL
+      - HK5/IEPL
+      - SG4/IEPL
+      - TW-VM_4
+      - 台湾29
+      - 台湾32
+      - 台湾33
+      - 香港1
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港8
+      - 香港9
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -140,6 +264,22 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - DE-Openit.ml
+      - GB-Openit.ml
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - US-Openit.ml 4
+      - US-Openit.ml 5
+      - GB-Openit.ml 2
+      - US-Openit.ml 6
+      - AU-Openit.ml
+      - US-Openit.ml 7
+      - IN-Openit.ml
+      - US-Openit.ml 8
+      - KR-Openit.ml
+      - TW-Openit.ml
+      - US-Openit.ml 9
       - US1
       - US2
       - RU
@@ -162,24 +302,60 @@ proxy-groups:
       - JP4
       - TW2
       - HK2
-      - TW3
-      - Relay_🇺🇸US-🇺🇸US_1384 | 5.73Mb
-      - Relay_🇺🇸US-🇺🇸US_1387 |18.04Mb
+      - HK2/IPLC
+      - SG1/IEPL
+      - SG2/IEPL
+      - HK3/IPLC
+      - SG3/IEPL
+      - HK5/IEPL
+      - SG4/IEPL
+      - TW-VM_4
+      - 台湾29
+      - 台湾32
+      - 台湾33
+      - 香港1
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港8
+      - 香港9
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - TW1
-      - HK1
-      - TW2
-      - HK2
-      - TW3
+      - 台湾29
+      - 台湾32
+      - 台湾33
+      - 香港1
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港8
+      - 香港9
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - DE-Openit.ml
+      - GB-Openit.ml
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - US-Openit.ml 4
+      - US-Openit.ml 5
+      - GB-Openit.ml 2
+      - US-Openit.ml 6
+      - AU-Openit.ml
+      - US-Openit.ml 7
+      - IN-Openit.ml
+      - US-Openit.ml 8
+      - KR-Openit.ml
+      - TW-Openit.ml
+      - US-Openit.ml 9
       - US1
       - US2
       - RU
@@ -202,14 +378,45 @@ proxy-groups:
       - JP4
       - TW2
       - HK2
-      - TW3
-      - Relay_🇺🇸US-🇺🇸US_1384 | 5.73Mb
-      - Relay_🇺🇸US-🇺🇸US_1387 |18.04Mb
+      - HK2/IPLC
+      - SG1/IEPL
+      - SG2/IEPL
+      - HK3/IPLC
+      - SG3/IEPL
+      - HK5/IEPL
+      - SG4/IEPL
+      - TW-VM_4
+      - 台湾29
+      - 台湾32
+      - 台湾33
+      - 香港1
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港8
+      - 香港9
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - DE-Openit.ml
+      - GB-Openit.ml
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - US-Openit.ml 4
+      - US-Openit.ml 5
+      - GB-Openit.ml 2
+      - US-Openit.ml 6
+      - AU-Openit.ml
+      - US-Openit.ml 7
+      - IN-Openit.ml
+      - US-Openit.ml 8
+      - KR-Openit.ml
+      - TW-Openit.ml
+      - US-Openit.ml 9
       - US1
       - US2
       - RU
@@ -232,15 +439,46 @@ proxy-groups:
       - JP4
       - TW2
       - HK2
-      - TW3
-      - Relay_🇺🇸US-🇺🇸US_1384 | 5.73Mb
-      - Relay_🇺🇸US-🇺🇸US_1387 |18.04Mb
+      - HK2/IPLC
+      - SG1/IEPL
+      - SG2/IEPL
+      - HK3/IPLC
+      - SG3/IEPL
+      - HK5/IEPL
+      - SG4/IEPL
+      - TW-VM_4
+      - 台湾29
+      - 台湾32
+      - 台湾33
+      - 香港1
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港8
+      - 香港9
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - DE-Openit.ml
+      - GB-Openit.ml
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - US-Openit.ml 4
+      - US-Openit.ml 5
+      - GB-Openit.ml 2
+      - US-Openit.ml 6
+      - AU-Openit.ml
+      - US-Openit.ml 7
+      - IN-Openit.ml
+      - US-Openit.ml 8
+      - KR-Openit.ml
+      - TW-Openit.ml
+      - US-Openit.ml 9
       - US1
       - US2
       - RU
@@ -263,9 +501,24 @@ proxy-groups:
       - JP4
       - TW2
       - HK2
-      - TW3
-      - Relay_🇺🇸US-🇺🇸US_1384 | 5.73Mb
-      - Relay_🇺🇸US-🇺🇸US_1387 |18.04Mb
+      - HK2/IPLC
+      - SG1/IEPL
+      - SG2/IEPL
+      - HK3/IPLC
+      - SG3/IEPL
+      - HK5/IEPL
+      - SG4/IEPL
+      - TW-VM_4
+      - 台湾29
+      - 台湾32
+      - 台湾33
+      - 香港1
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港8
+      - 香港9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -281,6 +534,22 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - DE-Openit.ml
+      - GB-Openit.ml
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - US-Openit.ml 4
+      - US-Openit.ml 5
+      - GB-Openit.ml 2
+      - US-Openit.ml 6
+      - AU-Openit.ml
+      - US-Openit.ml 7
+      - IN-Openit.ml
+      - US-Openit.ml 8
+      - KR-Openit.ml
+      - TW-Openit.ml
+      - US-Openit.ml 9
       - US1
       - US2
       - RU
@@ -303,9 +572,24 @@ proxy-groups:
       - JP4
       - TW2
       - HK2
-      - TW3
-      - Relay_🇺🇸US-🇺🇸US_1384 | 5.73Mb
-      - Relay_🇺🇸US-🇺🇸US_1387 |18.04Mb
+      - HK2/IPLC
+      - SG1/IEPL
+      - SG2/IEPL
+      - HK3/IPLC
+      - SG3/IEPL
+      - HK5/IEPL
+      - SG4/IEPL
+      - TW-VM_4
+      - 台湾29
+      - 台湾32
+      - 台湾33
+      - 香港1
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港8
+      - 香港9
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
