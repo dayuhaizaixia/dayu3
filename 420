@@ -5,6 +5,214 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 越南, server: aflzzul.yixuedianzishu.com, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 越南2, server: aflzz-us.yixuedianzishu.com, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 越南3, server: aflzz-tw.yixuedianzishu.com, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 越南5, server: 124.71.118.225, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 越南6, server: 120.240.168.126, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 越南7, server: gzjpiplc.hntgxxjc.com, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 越南8, server: ggiplc03.jfjfhg.com, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 越南10, server: fliplc.getxlx.com, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 越南 11, server: flcn.yixuedianzishu.com, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 越南 13, server: 120.232.82.202, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国 3, server: aflzz-hk.yixuedianzishu.com, port: 38504, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国 4, server: 124.71.118.225, port: 38504, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国 5, server: 120.240.168.126, port: 38504, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国 6, server: huaweibgp.hntgxxjc.com, port: 38504, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国-7, server: hinet-iplc.hntgxxjc.com, port: 38504, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国- 8, server: gzjpiplc.hntgxxjc.com, port: 38504, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国- 9, server: ggiplc03.jfjfhg.com, port: 38504, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国 11, server: fliplc.getxlx.com, port: 38504, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国- 14, server: aflzzul.yixuedianzishu.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国- 17, server: aflzz-hk.yixuedianzishu.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国-19, server: 124.71.118.225, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国 20, server: 120.240.168.126, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国- 21, server: huaweibgp.hntgxxjc.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国- 22, server: hinet-iplc.hntgxxjc.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国- 23, server: ggiplc03.jfjfhg.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国-2 24, server: flzziplc.yixuedianzishu.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国- 25, server: fliplc.getxlx.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国- 29, server: aflzz-us.yixuedianzishu.com, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国- 32, server: 124.71.118.225, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国- 35, server: gzjpiplc.hntgxxjc.com, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国- 36, server: ggiplc03.jfjfhg.com, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国-37, server: flzziplc.yixuedianzishu.com, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国-40, server: aflzz-us.yixuedianzishu.com, port: 38501, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国-43, server: 124.71.118.225, port: 38501, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国- 44, server: 120.240.168.126, port: 38501, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国- 46, server: ggiplc03.jfjfhg.com, port: 38501, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国- 50, server: 120.232.82.202, port: 38501, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 泰国-t, server: aflzzul.yixuedianzishu.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 泰国-2 2, server: aflzz-us.yixuedianzishu.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 泰国- 4, server: aflzz-hk.yixuedianzishu.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 泰国 5, server: 124.71.118.225, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 泰国- 6, server: huaweibgp.hntgxxjc.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 泰国 7, server: gzjpiplc.hntgxxjc.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 泰国- 9, server: fliplc.getxlx.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 泰国-t 10, server: flcn.yixuedianzishu.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡-, server: aflzz-us.yixuedianzishu.com, port: 38204, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡-t 2, server: aflzz-tw.yixuedianzishu.com, port: 38204, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡- 4, server: aflzz-hk.yixuedianzishu.com, port: 38204, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡-2 6, server: 124.71.118.225, port: 38204, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡- 7, server: sgiplc01.hntgxxjc.com, port: 38204, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡- 9, server: huaweibgp.hntgxxjc.com, port: 38204, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡-t2 10, server: gzjpiplc.hntgxxjc.com, port: 38204, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡-2 11, server: ggiplc03.jfjfhg.com, port: 38204, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡-t2 12, server: flzziplc.yixuedianzishu.com, port: 38204, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡-t 13, server: fliplc.getxlx.com, port: 38204, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡-t 14, server: flcn.yixuedianzishu.com, port: 38204, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡-2 17, server: 120.232.82.202, port: 38204, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡- 18, server: aflzz-us.yixuedianzishu.com, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡-t20, server: aflzz-sg.yixuedianzishu.com, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡-t 24, server: hinet-iplc.hntgxxjc.com, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡- 25, server: ggiplc03.jfjfhg.com, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡- 29, server: 120.232.82.202, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡-0, server: aflzz-us.yixuedianzishu.com, port: 38202, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡-t33, server: 124.71.118.225, port: 38202, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡-t 36, server: ggiplc03.jfjfhg.com, port: 38202, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡-t2 40, server: 124.71.118.225, port: 38201, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 菲律宾-x2, server: aflzz-us.yixuedianzishu.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 菲律宾- 3, server: 124.71.118.225, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 菲律宾- 4, server: 120.240.168.126, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 菲律宾-t 5, server: flzziplc.yixuedianzishu.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 韩国-t, server: aflzz-tw.yixuedianzishu.com, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 韩国-t 2, server: aflzz-sg.yixuedianzishu.com, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 韩国-4, server: 124.71.118.225, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 韩国- 5, server: ggiplc03.jfjfhg.com, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 韩国-t7, server: fliplc.getxlx.com, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 韩国- 9, server: aflcn.yixuedianzishu.com, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 韩国-t10, server: huaweibgp.hntgxxjc.com, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 韩国-2 11, server: fliplc.getxlx.com, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本-t 2, server: aflzz-us.yixuedianzishu.com, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本- 3, server: aflzz-hk.yixuedianzishu.com, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本- 4, server: 124.71.118.225, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本-2 5, server: huaweibgp.hntgxxjc.com, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本-t 6, server: gzjpiplc.hntgxxjc.com, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本-t 7, server: fliplc.getxlx.com, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本-t 10, server: aflzz-us.yixuedianzishu.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本- 13, server: 124.71.118.225, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本-2 14, server: huaweibgp.hntgxxjc.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本 15, server: gzjpiplc.hntgxxjc.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本-t 16, server: ggiplc03.jfjfhg.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本- 17, server: flzziplc.yixuedianzishu.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本- 18, server: fliplc.getxlx.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本-t 34, server: aflzz-us.yixuedianzishu.com, port: 38302, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本-t 37, server: 124.71.118.225, port: 38302, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本-t 43, server: aflzzul.yixuedianzishu.com, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本- 44, server: aflzz-us.yixuedianzishu.com, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本-t48, server: 124.71.118.225, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本-49, server: fliplc.getxlx.com, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 2, server: 124.71.118.225, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 3, server: sgiplc01.hntgxxjc.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港- 4, server: gzjpiplc.hntgxxjc.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 6, server: flcn.yixuedianzishu.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 9, server: aflzz-sg.yixuedianzishu.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 11, server: 124.71.118.225, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t12, server: sgiplc01.hntgxxjc.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t13, server: 120.240.168.126, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 14, server: hinet-iplc.hntgxxjc.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 15, server: gzjpiplc.hntgxxjc.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港- 16, server: ggiplc03.jfjfhg.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港- 18, server: fliplc.getxlx.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港- 22, server: 120.232.82.202, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港- 23, server: aflzz-tw.yixuedianzishu.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港- 25, server: aflzz-hk.yixuedianzishu.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 26, server: 124.71.118.225, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 27, server: sgiplc01.hntgxxjc.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 28, server: 120.240.168.126, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t29, server: hinet-iplc.hntgxxjc.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 30, server: gzjpiplc.hntgxxjc.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 31, server: ggiplc03.jfjfhg.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 32, server: flzziplc.yixuedianzishu.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-g 33, server: fliplc.getxlx.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t37, server: aflzz-us.yixuedianzishu.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 40, server: sgiplc01.hntgxxjc.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t2 41, server: 120.240.168.126, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t2 42, server: huaweibgp.hntgxxjc.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港- 43, server: gzjpiplc.hntgxxjc.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t2 44, server: ggiplc03.jfjfhg.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 49, server: 120.232.82.202, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 51, server: aflcn.yixuedianzishu.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t2 52, server: 124.71.118.225, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t2 53, server: 120.240.168.126, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t2 54, server: hinet-iplc.hntgxxjc.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-2 55, server: ggiplc03.jfjfhg.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-2 57, server: fliplc.getxlx.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 58, server: flcn.yixuedianzishu.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 60, server: 120.232.82.202, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港- 61, server: aflzzul.yixuedianzishu.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-2 62, server: aflzz-us.yixuedianzishu.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 64, server: 124.71.118.225, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港- 65, server: 120.240.168.126, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 66, server: huaweibgp.hntgxxjc.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港- 67, server: hinet-iplc.hntgxxjc.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 68, server: gzjpiplc.hntgxxjc.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-69, server: ggiplc03.jfjfhg.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 70, server: flzziplc.yixuedianzishu.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港 71, server: fliplc.getxlx.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 72, server: flcn.yixuedianzishu.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 73, server: aflzzul.yixuedianzishu.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 74, server: aflzz-us.yixuedianzishu.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 75, server: aflzz-tw.yixuedianzishu.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 76, server: aflzz-sg.yixuedianzishu.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 78, server: 124.71.118.225, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t2 79, server: 120.240.168.126, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t2 80, server: hinet-iplc.hntgxxjc.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-tg 81, server: gzjpiplc.hntgxxjc.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t2 82, server: ggiplc03.jfjfhg.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 84, server: 120.240.168.126, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 85, server: hinet-iplc.hntgxxjc.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港- 86, server: ggiplc03.jfjfhg.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 87, server: flzziplc.yixuedianzishu.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 89, server: 120.232.82.202, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港- 91, server: aflzz-us.yixuedianzishu.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t92, server: aflzz-sg.yixuedianzishu.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 93, server: aflzz-hk.yixuedianzishu.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-2 94, server: aflcn.yixuedianzishu.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 95, server: 124.71.118.225, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t2 96, server: sgiplc01.hntgxxjc.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t2 97, server: 120.240.168.126, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t2 98, server: gzjpiplc.hntgxxjc.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t2 99, server: ggiplc03.jfjfhg.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-tg 101, server: fliplc.getxlx.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t104, server: 120.232.82.202, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t 105, server: aflzzul.yixuedianzishu.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t2 106, server: aflzz-us.yixuedianzishu.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港- 107, server: aflzz-tw.yixuedianzishu.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港- 109, server: 124.71.118.225, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-t2 110, server: sgiplc01.hntgxxjc.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港- 111, server: 120.240.168.126, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港- 112, server: hinet-iplc.hntgxxjc.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港- 113, server: gzjpiplc.hntgxxjc.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港- 114, server: ggiplc03.jfjfhg.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港- 115, server: flzziplc.yixuedianzishu.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 法国-t, server: aflzzul.yixuedianzishu.com, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 法国-t2 2, server: aflzz-us.yixuedianzishu.com, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 法国-t 5, server: aflcn.yixuedianzishu.com, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 法国-t 7, server: gzjpiplc.hntgxxjc.com, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 法国- 9, server: fliplc.getxlx.com, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 德国-t 2, server: huaweibgp.hntgxxjc.com, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 德国- 5, server: 120.232.82.202, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾-t 2, server: aflzz-sg.yixuedianzishu.com, port: 38105, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾- 9, server: aflzz-us.yixuedianzishu.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾- 14, server: 124.71.118.225, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾-15, server: huaweibgp.hntgxxjc.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾- 16, server: hinet-iplc.hntgxxjc.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾-t 17, server: gzjpiplc.hntgxxjc.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾- 18, server: ggiplc03.jfjfhg.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾- 20, server: fliplc.getxlx.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾-t25, server: aflzz-tw.yixuedianzishu.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾-t 26, server: 124.71.118.225, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾-t28, server: hinet-iplc.hntgxxjc.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾-29, server: fliplc.getxlx.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾-t 34, server: 124.71.118.225, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾-t 35, server: 120.240.168.126, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾-t 43, server: aflzz-tw.yixuedianzishu.com, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾-t46, server: hinet-iplc.hntgxxjc.com, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾-t 47, server: gzjpiplc.hntgxxjc.com, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾-t 49, server: fliplc.getxlx.com, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾 53, server: 120.232.82.202, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 阿根廷 6, server: 124.71.118.225, port: 38611, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
   - {name: US-Openit.ml, server: 8.ezydfdd.com, port: 443, type: vmess, uuid: dc0887b9-4c05-428c-adce-4235d1636341, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 8.ezydfdd.com}, udp: true}
   - {name: AU-Openit.ml, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: US-Openit.ml 2, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: true, udp: true}
@@ -32,6 +240,214 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 越南
+      - 越南2
+      - 越南3
+      - 越南5
+      - 越南6
+      - 越南7
+      - 越南8
+      - 越南10
+      - 越南 11
+      - 越南 13
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国-7
+      - 美国- 8
+      - 美国- 9
+      - 美国 11
+      - 美国- 14
+      - 美国- 17
+      - 美国-19
+      - 美国 20
+      - 美国- 21
+      - 美国- 22
+      - 美国- 23
+      - 美国-2 24
+      - 美国- 25
+      - 美国- 29
+      - 美国- 32
+      - 美国- 35
+      - 美国- 36
+      - 美国-37
+      - 美国-40
+      - 美国-43
+      - 美国- 44
+      - 美国- 46
+      - 美国- 50
+      - 泰国-t
+      - 泰国-2 2
+      - 泰国- 4
+      - 泰国 5
+      - 泰国- 6
+      - 泰国 7
+      - 泰国- 9
+      - 泰国-t 10
+      - 新加坡-
+      - 新加坡-t 2
+      - 新加坡- 4
+      - 新加坡-2 6
+      - 新加坡- 7
+      - 新加坡- 9
+      - 新加坡-t2 10
+      - 新加坡-2 11
+      - 新加坡-t2 12
+      - 新加坡-t 13
+      - 新加坡-t 14
+      - 新加坡-2 17
+      - 新加坡- 18
+      - 新加坡-t20
+      - 新加坡-t 24
+      - 新加坡- 25
+      - 新加坡- 29
+      - 新加坡-0
+      - 新加坡-t33
+      - 新加坡-t 36
+      - 新加坡-t2 40
+      - 菲律宾-x2
+      - 菲律宾- 3
+      - 菲律宾- 4
+      - 菲律宾-t 5
+      - 韩国-t
+      - 韩国-t 2
+      - 韩国-4
+      - 韩国- 5
+      - 韩国-t7
+      - 韩国- 9
+      - 韩国-t10
+      - 韩国-2 11
+      - 日本-t 2
+      - 日本- 3
+      - 日本- 4
+      - 日本-2 5
+      - 日本-t 6
+      - 日本-t 7
+      - 日本-t 10
+      - 日本- 13
+      - 日本-2 14
+      - 日本 15
+      - 日本-t 16
+      - 日本- 17
+      - 日本- 18
+      - 日本-t 34
+      - 日本-t 37
+      - 日本-t 43
+      - 日本- 44
+      - 日本-t48
+      - 日本-49
+      - 香港-t 2
+      - 香港-t 3
+      - 香港- 4
+      - 香港-t 6
+      - 香港-t 9
+      - 香港-t 11
+      - 香港-t12
+      - 香港-t13
+      - 香港-t 14
+      - 香港-t 15
+      - 香港- 16
+      - 香港- 18
+      - 香港- 22
+      - 香港- 23
+      - 香港- 25
+      - 香港-t 26
+      - 香港-t 27
+      - 香港-t 28
+      - 香港-t29
+      - 香港-t 30
+      - 香港-t 31
+      - 香港-t 32
+      - 香港-g 33
+      - 香港-t37
+      - 香港-t 40
+      - 香港-t2 41
+      - 香港-t2 42
+      - 香港- 43
+      - 香港-t2 44
+      - 香港-t 49
+      - 香港-t 51
+      - 香港-t2 52
+      - 香港-t2 53
+      - 香港-t2 54
+      - 香港-2 55
+      - 香港-2 57
+      - 香港-t 58
+      - 香港-t 60
+      - 香港- 61
+      - 香港-2 62
+      - 香港-t 64
+      - 香港- 65
+      - 香港-t 66
+      - 香港- 67
+      - 香港-t 68
+      - 香港-69
+      - 香港-t 70
+      - 香港 71
+      - 香港-t 72
+      - 香港-t 73
+      - 香港-t 74
+      - 香港-t 75
+      - 香港-t 76
+      - 香港-t 78
+      - 香港-t2 79
+      - 香港-t2 80
+      - 香港-tg 81
+      - 香港-t2 82
+      - 香港-t 84
+      - 香港-t 85
+      - 香港- 86
+      - 香港-t 87
+      - 香港-t 89
+      - 香港- 91
+      - 香港-t92
+      - 香港-t 93
+      - 香港-2 94
+      - 香港-t 95
+      - 香港-t2 96
+      - 香港-t2 97
+      - 香港-t2 98
+      - 香港-t2 99
+      - 香港-tg 101
+      - 香港-t104
+      - 香港-t 105
+      - 香港-t2 106
+      - 香港- 107
+      - 香港- 109
+      - 香港-t2 110
+      - 香港- 111
+      - 香港- 112
+      - 香港- 113
+      - 香港- 114
+      - 香港- 115
+      - 法国-t
+      - 法国-t2 2
+      - 法国-t 5
+      - 法国-t 7
+      - 法国- 9
+      - 德国-t 2
+      - 德国- 5
+      - 台湾-t 2
+      - 台湾- 9
+      - 台湾- 14
+      - 台湾-15
+      - 台湾- 16
+      - 台湾-t 17
+      - 台湾- 18
+      - 台湾- 20
+      - 台湾-t25
+      - 台湾-t 26
+      - 台湾-t28
+      - 台湾-29
+      - 台湾-t 34
+      - 台湾-t 35
+      - 台湾-t 43
+      - 台湾-t46
+      - 台湾-t 47
+      - 台湾-t 49
+      - 台湾 53
+      - 阿根廷 6
       - US-Openit.ml
       - AU-Openit.ml
       - US-Openit.ml 2
@@ -58,6 +474,214 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 越南
+      - 越南2
+      - 越南3
+      - 越南5
+      - 越南6
+      - 越南7
+      - 越南8
+      - 越南10
+      - 越南 11
+      - 越南 13
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国-7
+      - 美国- 8
+      - 美国- 9
+      - 美国 11
+      - 美国- 14
+      - 美国- 17
+      - 美国-19
+      - 美国 20
+      - 美国- 21
+      - 美国- 22
+      - 美国- 23
+      - 美国-2 24
+      - 美国- 25
+      - 美国- 29
+      - 美国- 32
+      - 美国- 35
+      - 美国- 36
+      - 美国-37
+      - 美国-40
+      - 美国-43
+      - 美国- 44
+      - 美国- 46
+      - 美国- 50
+      - 泰国-t
+      - 泰国-2 2
+      - 泰国- 4
+      - 泰国 5
+      - 泰国- 6
+      - 泰国 7
+      - 泰国- 9
+      - 泰国-t 10
+      - 新加坡-
+      - 新加坡-t 2
+      - 新加坡- 4
+      - 新加坡-2 6
+      - 新加坡- 7
+      - 新加坡- 9
+      - 新加坡-t2 10
+      - 新加坡-2 11
+      - 新加坡-t2 12
+      - 新加坡-t 13
+      - 新加坡-t 14
+      - 新加坡-2 17
+      - 新加坡- 18
+      - 新加坡-t20
+      - 新加坡-t 24
+      - 新加坡- 25
+      - 新加坡- 29
+      - 新加坡-0
+      - 新加坡-t33
+      - 新加坡-t 36
+      - 新加坡-t2 40
+      - 菲律宾-x2
+      - 菲律宾- 3
+      - 菲律宾- 4
+      - 菲律宾-t 5
+      - 韩国-t
+      - 韩国-t 2
+      - 韩国-4
+      - 韩国- 5
+      - 韩国-t7
+      - 韩国- 9
+      - 韩国-t10
+      - 韩国-2 11
+      - 日本-t 2
+      - 日本- 3
+      - 日本- 4
+      - 日本-2 5
+      - 日本-t 6
+      - 日本-t 7
+      - 日本-t 10
+      - 日本- 13
+      - 日本-2 14
+      - 日本 15
+      - 日本-t 16
+      - 日本- 17
+      - 日本- 18
+      - 日本-t 34
+      - 日本-t 37
+      - 日本-t 43
+      - 日本- 44
+      - 日本-t48
+      - 日本-49
+      - 香港-t 2
+      - 香港-t 3
+      - 香港- 4
+      - 香港-t 6
+      - 香港-t 9
+      - 香港-t 11
+      - 香港-t12
+      - 香港-t13
+      - 香港-t 14
+      - 香港-t 15
+      - 香港- 16
+      - 香港- 18
+      - 香港- 22
+      - 香港- 23
+      - 香港- 25
+      - 香港-t 26
+      - 香港-t 27
+      - 香港-t 28
+      - 香港-t29
+      - 香港-t 30
+      - 香港-t 31
+      - 香港-t 32
+      - 香港-g 33
+      - 香港-t37
+      - 香港-t 40
+      - 香港-t2 41
+      - 香港-t2 42
+      - 香港- 43
+      - 香港-t2 44
+      - 香港-t 49
+      - 香港-t 51
+      - 香港-t2 52
+      - 香港-t2 53
+      - 香港-t2 54
+      - 香港-2 55
+      - 香港-2 57
+      - 香港-t 58
+      - 香港-t 60
+      - 香港- 61
+      - 香港-2 62
+      - 香港-t 64
+      - 香港- 65
+      - 香港-t 66
+      - 香港- 67
+      - 香港-t 68
+      - 香港-69
+      - 香港-t 70
+      - 香港 71
+      - 香港-t 72
+      - 香港-t 73
+      - 香港-t 74
+      - 香港-t 75
+      - 香港-t 76
+      - 香港-t 78
+      - 香港-t2 79
+      - 香港-t2 80
+      - 香港-tg 81
+      - 香港-t2 82
+      - 香港-t 84
+      - 香港-t 85
+      - 香港- 86
+      - 香港-t 87
+      - 香港-t 89
+      - 香港- 91
+      - 香港-t92
+      - 香港-t 93
+      - 香港-2 94
+      - 香港-t 95
+      - 香港-t2 96
+      - 香港-t2 97
+      - 香港-t2 98
+      - 香港-t2 99
+      - 香港-tg 101
+      - 香港-t104
+      - 香港-t 105
+      - 香港-t2 106
+      - 香港- 107
+      - 香港- 109
+      - 香港-t2 110
+      - 香港- 111
+      - 香港- 112
+      - 香港- 113
+      - 香港- 114
+      - 香港- 115
+      - 法国-t
+      - 法国-t2 2
+      - 法国-t 5
+      - 法国-t 7
+      - 法国- 9
+      - 德国-t 2
+      - 德国- 5
+      - 台湾-t 2
+      - 台湾- 9
+      - 台湾- 14
+      - 台湾-15
+      - 台湾- 16
+      - 台湾-t 17
+      - 台湾- 18
+      - 台湾- 20
+      - 台湾-t25
+      - 台湾-t 26
+      - 台湾-t28
+      - 台湾-29
+      - 台湾-t 34
+      - 台湾-t 35
+      - 台湾-t 43
+      - 台湾-t46
+      - 台湾-t 47
+      - 台湾-t 49
+      - 台湾 53
+      - 阿根廷 6
       - US-Openit.ml
       - AU-Openit.ml
       - US-Openit.ml 2
@@ -85,6 +709,214 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 越南
+      - 越南2
+      - 越南3
+      - 越南5
+      - 越南6
+      - 越南7
+      - 越南8
+      - 越南10
+      - 越南 11
+      - 越南 13
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国-7
+      - 美国- 8
+      - 美国- 9
+      - 美国 11
+      - 美国- 14
+      - 美国- 17
+      - 美国-19
+      - 美国 20
+      - 美国- 21
+      - 美国- 22
+      - 美国- 23
+      - 美国-2 24
+      - 美国- 25
+      - 美国- 29
+      - 美国- 32
+      - 美国- 35
+      - 美国- 36
+      - 美国-37
+      - 美国-40
+      - 美国-43
+      - 美国- 44
+      - 美国- 46
+      - 美国- 50
+      - 泰国-t
+      - 泰国-2 2
+      - 泰国- 4
+      - 泰国 5
+      - 泰国- 6
+      - 泰国 7
+      - 泰国- 9
+      - 泰国-t 10
+      - 新加坡-
+      - 新加坡-t 2
+      - 新加坡- 4
+      - 新加坡-2 6
+      - 新加坡- 7
+      - 新加坡- 9
+      - 新加坡-t2 10
+      - 新加坡-2 11
+      - 新加坡-t2 12
+      - 新加坡-t 13
+      - 新加坡-t 14
+      - 新加坡-2 17
+      - 新加坡- 18
+      - 新加坡-t20
+      - 新加坡-t 24
+      - 新加坡- 25
+      - 新加坡- 29
+      - 新加坡-0
+      - 新加坡-t33
+      - 新加坡-t 36
+      - 新加坡-t2 40
+      - 菲律宾-x2
+      - 菲律宾- 3
+      - 菲律宾- 4
+      - 菲律宾-t 5
+      - 韩国-t
+      - 韩国-t 2
+      - 韩国-4
+      - 韩国- 5
+      - 韩国-t7
+      - 韩国- 9
+      - 韩国-t10
+      - 韩国-2 11
+      - 日本-t 2
+      - 日本- 3
+      - 日本- 4
+      - 日本-2 5
+      - 日本-t 6
+      - 日本-t 7
+      - 日本-t 10
+      - 日本- 13
+      - 日本-2 14
+      - 日本 15
+      - 日本-t 16
+      - 日本- 17
+      - 日本- 18
+      - 日本-t 34
+      - 日本-t 37
+      - 日本-t 43
+      - 日本- 44
+      - 日本-t48
+      - 日本-49
+      - 香港-t 2
+      - 香港-t 3
+      - 香港- 4
+      - 香港-t 6
+      - 香港-t 9
+      - 香港-t 11
+      - 香港-t12
+      - 香港-t13
+      - 香港-t 14
+      - 香港-t 15
+      - 香港- 16
+      - 香港- 18
+      - 香港- 22
+      - 香港- 23
+      - 香港- 25
+      - 香港-t 26
+      - 香港-t 27
+      - 香港-t 28
+      - 香港-t29
+      - 香港-t 30
+      - 香港-t 31
+      - 香港-t 32
+      - 香港-g 33
+      - 香港-t37
+      - 香港-t 40
+      - 香港-t2 41
+      - 香港-t2 42
+      - 香港- 43
+      - 香港-t2 44
+      - 香港-t 49
+      - 香港-t 51
+      - 香港-t2 52
+      - 香港-t2 53
+      - 香港-t2 54
+      - 香港-2 55
+      - 香港-2 57
+      - 香港-t 58
+      - 香港-t 60
+      - 香港- 61
+      - 香港-2 62
+      - 香港-t 64
+      - 香港- 65
+      - 香港-t 66
+      - 香港- 67
+      - 香港-t 68
+      - 香港-69
+      - 香港-t 70
+      - 香港 71
+      - 香港-t 72
+      - 香港-t 73
+      - 香港-t 74
+      - 香港-t 75
+      - 香港-t 76
+      - 香港-t 78
+      - 香港-t2 79
+      - 香港-t2 80
+      - 香港-tg 81
+      - 香港-t2 82
+      - 香港-t 84
+      - 香港-t 85
+      - 香港- 86
+      - 香港-t 87
+      - 香港-t 89
+      - 香港- 91
+      - 香港-t92
+      - 香港-t 93
+      - 香港-2 94
+      - 香港-t 95
+      - 香港-t2 96
+      - 香港-t2 97
+      - 香港-t2 98
+      - 香港-t2 99
+      - 香港-tg 101
+      - 香港-t104
+      - 香港-t 105
+      - 香港-t2 106
+      - 香港- 107
+      - 香港- 109
+      - 香港-t2 110
+      - 香港- 111
+      - 香港- 112
+      - 香港- 113
+      - 香港- 114
+      - 香港- 115
+      - 法国-t
+      - 法国-t2 2
+      - 法国-t 5
+      - 法国-t 7
+      - 法国- 9
+      - 德国-t 2
+      - 德国- 5
+      - 台湾-t 2
+      - 台湾- 9
+      - 台湾- 14
+      - 台湾-15
+      - 台湾- 16
+      - 台湾-t 17
+      - 台湾- 18
+      - 台湾- 20
+      - 台湾-t25
+      - 台湾-t 26
+      - 台湾-t28
+      - 台湾-29
+      - 台湾-t 34
+      - 台湾-t 35
+      - 台湾-t 43
+      - 台湾-t46
+      - 台湾-t 47
+      - 台湾-t 49
+      - 台湾 53
+      - 阿根廷 6
       - US-Openit.ml
       - AU-Openit.ml
       - US-Openit.ml 2
@@ -124,6 +956,214 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 越南
+      - 越南2
+      - 越南3
+      - 越南5
+      - 越南6
+      - 越南7
+      - 越南8
+      - 越南10
+      - 越南 11
+      - 越南 13
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国-7
+      - 美国- 8
+      - 美国- 9
+      - 美国 11
+      - 美国- 14
+      - 美国- 17
+      - 美国-19
+      - 美国 20
+      - 美国- 21
+      - 美国- 22
+      - 美国- 23
+      - 美国-2 24
+      - 美国- 25
+      - 美国- 29
+      - 美国- 32
+      - 美国- 35
+      - 美国- 36
+      - 美国-37
+      - 美国-40
+      - 美国-43
+      - 美国- 44
+      - 美国- 46
+      - 美国- 50
+      - 泰国-t
+      - 泰国-2 2
+      - 泰国- 4
+      - 泰国 5
+      - 泰国- 6
+      - 泰国 7
+      - 泰国- 9
+      - 泰国-t 10
+      - 新加坡-
+      - 新加坡-t 2
+      - 新加坡- 4
+      - 新加坡-2 6
+      - 新加坡- 7
+      - 新加坡- 9
+      - 新加坡-t2 10
+      - 新加坡-2 11
+      - 新加坡-t2 12
+      - 新加坡-t 13
+      - 新加坡-t 14
+      - 新加坡-2 17
+      - 新加坡- 18
+      - 新加坡-t20
+      - 新加坡-t 24
+      - 新加坡- 25
+      - 新加坡- 29
+      - 新加坡-0
+      - 新加坡-t33
+      - 新加坡-t 36
+      - 新加坡-t2 40
+      - 菲律宾-x2
+      - 菲律宾- 3
+      - 菲律宾- 4
+      - 菲律宾-t 5
+      - 韩国-t
+      - 韩国-t 2
+      - 韩国-4
+      - 韩国- 5
+      - 韩国-t7
+      - 韩国- 9
+      - 韩国-t10
+      - 韩国-2 11
+      - 日本-t 2
+      - 日本- 3
+      - 日本- 4
+      - 日本-2 5
+      - 日本-t 6
+      - 日本-t 7
+      - 日本-t 10
+      - 日本- 13
+      - 日本-2 14
+      - 日本 15
+      - 日本-t 16
+      - 日本- 17
+      - 日本- 18
+      - 日本-t 34
+      - 日本-t 37
+      - 日本-t 43
+      - 日本- 44
+      - 日本-t48
+      - 日本-49
+      - 香港-t 2
+      - 香港-t 3
+      - 香港- 4
+      - 香港-t 6
+      - 香港-t 9
+      - 香港-t 11
+      - 香港-t12
+      - 香港-t13
+      - 香港-t 14
+      - 香港-t 15
+      - 香港- 16
+      - 香港- 18
+      - 香港- 22
+      - 香港- 23
+      - 香港- 25
+      - 香港-t 26
+      - 香港-t 27
+      - 香港-t 28
+      - 香港-t29
+      - 香港-t 30
+      - 香港-t 31
+      - 香港-t 32
+      - 香港-g 33
+      - 香港-t37
+      - 香港-t 40
+      - 香港-t2 41
+      - 香港-t2 42
+      - 香港- 43
+      - 香港-t2 44
+      - 香港-t 49
+      - 香港-t 51
+      - 香港-t2 52
+      - 香港-t2 53
+      - 香港-t2 54
+      - 香港-2 55
+      - 香港-2 57
+      - 香港-t 58
+      - 香港-t 60
+      - 香港- 61
+      - 香港-2 62
+      - 香港-t 64
+      - 香港- 65
+      - 香港-t 66
+      - 香港- 67
+      - 香港-t 68
+      - 香港-69
+      - 香港-t 70
+      - 香港 71
+      - 香港-t 72
+      - 香港-t 73
+      - 香港-t 74
+      - 香港-t 75
+      - 香港-t 76
+      - 香港-t 78
+      - 香港-t2 79
+      - 香港-t2 80
+      - 香港-tg 81
+      - 香港-t2 82
+      - 香港-t 84
+      - 香港-t 85
+      - 香港- 86
+      - 香港-t 87
+      - 香港-t 89
+      - 香港- 91
+      - 香港-t92
+      - 香港-t 93
+      - 香港-2 94
+      - 香港-t 95
+      - 香港-t2 96
+      - 香港-t2 97
+      - 香港-t2 98
+      - 香港-t2 99
+      - 香港-tg 101
+      - 香港-t104
+      - 香港-t 105
+      - 香港-t2 106
+      - 香港- 107
+      - 香港- 109
+      - 香港-t2 110
+      - 香港- 111
+      - 香港- 112
+      - 香港- 113
+      - 香港- 114
+      - 香港- 115
+      - 法国-t
+      - 法国-t2 2
+      - 法国-t 5
+      - 法国-t 7
+      - 法国- 9
+      - 德国-t 2
+      - 德国- 5
+      - 台湾-t 2
+      - 台湾- 9
+      - 台湾- 14
+      - 台湾-15
+      - 台湾- 16
+      - 台湾-t 17
+      - 台湾- 18
+      - 台湾- 20
+      - 台湾-t25
+      - 台湾-t 26
+      - 台湾-t28
+      - 台湾-29
+      - 台湾-t 34
+      - 台湾-t 35
+      - 台湾-t 43
+      - 台湾-t46
+      - 台湾-t 47
+      - 台湾-t 49
+      - 台湾 53
+      - 阿根廷 6
       - US-Openit.ml
       - AU-Openit.ml
       - US-Openit.ml 2
@@ -149,6 +1189,109 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港-t 2
+      - 香港-t 3
+      - 香港- 4
+      - 香港-t 6
+      - 香港-t 9
+      - 香港-t 11
+      - 香港-t12
+      - 香港-t13
+      - 香港-t 14
+      - 香港-t 15
+      - 香港- 16
+      - 香港- 18
+      - 香港- 22
+      - 香港- 23
+      - 香港- 25
+      - 香港-t 26
+      - 香港-t 27
+      - 香港-t 28
+      - 香港-t29
+      - 香港-t 30
+      - 香港-t 31
+      - 香港-t 32
+      - 香港-g 33
+      - 香港-t37
+      - 香港-t 40
+      - 香港-t2 41
+      - 香港-t2 42
+      - 香港- 43
+      - 香港-t2 44
+      - 香港-t 49
+      - 香港-t 51
+      - 香港-t2 52
+      - 香港-t2 53
+      - 香港-t2 54
+      - 香港-2 55
+      - 香港-2 57
+      - 香港-t 58
+      - 香港-t 60
+      - 香港- 61
+      - 香港-2 62
+      - 香港-t 64
+      - 香港- 65
+      - 香港-t 66
+      - 香港- 67
+      - 香港-t 68
+      - 香港-69
+      - 香港-t 70
+      - 香港 71
+      - 香港-t 72
+      - 香港-t 73
+      - 香港-t 74
+      - 香港-t 75
+      - 香港-t 76
+      - 香港-t 78
+      - 香港-t2 79
+      - 香港-t2 80
+      - 香港-tg 81
+      - 香港-t2 82
+      - 香港-t 84
+      - 香港-t 85
+      - 香港- 86
+      - 香港-t 87
+      - 香港-t 89
+      - 香港- 91
+      - 香港-t92
+      - 香港-t 93
+      - 香港-2 94
+      - 香港-t 95
+      - 香港-t2 96
+      - 香港-t2 97
+      - 香港-t2 98
+      - 香港-t2 99
+      - 香港-tg 101
+      - 香港-t104
+      - 香港-t 105
+      - 香港-t2 106
+      - 香港- 107
+      - 香港- 109
+      - 香港-t2 110
+      - 香港- 111
+      - 香港- 112
+      - 香港- 113
+      - 香港- 114
+      - 香港- 115
+      - 台湾-t 2
+      - 台湾- 9
+      - 台湾- 14
+      - 台湾-15
+      - 台湾- 16
+      - 台湾-t 17
+      - 台湾- 18
+      - 台湾- 20
+      - 台湾-t25
+      - 台湾-t 26
+      - 台湾-t28
+      - 台湾-29
+      - 台湾-t 34
+      - 台湾-t 35
+      - 台湾-t 43
+      - 台湾-t46
+      - 台湾-t 47
+      - 台湾-t 49
+      - 台湾 53
       - TG@p2psharing A香港HK ⇄ 隧道中转
       - TG@p2psharing B香港HK ⇄ 隧道中转
       - TG@p2psharing C香港HK ⇄ 隧道中转
@@ -163,6 +1306,214 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 越南
+      - 越南2
+      - 越南3
+      - 越南5
+      - 越南6
+      - 越南7
+      - 越南8
+      - 越南10
+      - 越南 11
+      - 越南 13
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国-7
+      - 美国- 8
+      - 美国- 9
+      - 美国 11
+      - 美国- 14
+      - 美国- 17
+      - 美国-19
+      - 美国 20
+      - 美国- 21
+      - 美国- 22
+      - 美国- 23
+      - 美国-2 24
+      - 美国- 25
+      - 美国- 29
+      - 美国- 32
+      - 美国- 35
+      - 美国- 36
+      - 美国-37
+      - 美国-40
+      - 美国-43
+      - 美国- 44
+      - 美国- 46
+      - 美国- 50
+      - 泰国-t
+      - 泰国-2 2
+      - 泰国- 4
+      - 泰国 5
+      - 泰国- 6
+      - 泰国 7
+      - 泰国- 9
+      - 泰国-t 10
+      - 新加坡-
+      - 新加坡-t 2
+      - 新加坡- 4
+      - 新加坡-2 6
+      - 新加坡- 7
+      - 新加坡- 9
+      - 新加坡-t2 10
+      - 新加坡-2 11
+      - 新加坡-t2 12
+      - 新加坡-t 13
+      - 新加坡-t 14
+      - 新加坡-2 17
+      - 新加坡- 18
+      - 新加坡-t20
+      - 新加坡-t 24
+      - 新加坡- 25
+      - 新加坡- 29
+      - 新加坡-0
+      - 新加坡-t33
+      - 新加坡-t 36
+      - 新加坡-t2 40
+      - 菲律宾-x2
+      - 菲律宾- 3
+      - 菲律宾- 4
+      - 菲律宾-t 5
+      - 韩国-t
+      - 韩国-t 2
+      - 韩国-4
+      - 韩国- 5
+      - 韩国-t7
+      - 韩国- 9
+      - 韩国-t10
+      - 韩国-2 11
+      - 日本-t 2
+      - 日本- 3
+      - 日本- 4
+      - 日本-2 5
+      - 日本-t 6
+      - 日本-t 7
+      - 日本-t 10
+      - 日本- 13
+      - 日本-2 14
+      - 日本 15
+      - 日本-t 16
+      - 日本- 17
+      - 日本- 18
+      - 日本-t 34
+      - 日本-t 37
+      - 日本-t 43
+      - 日本- 44
+      - 日本-t48
+      - 日本-49
+      - 香港-t 2
+      - 香港-t 3
+      - 香港- 4
+      - 香港-t 6
+      - 香港-t 9
+      - 香港-t 11
+      - 香港-t12
+      - 香港-t13
+      - 香港-t 14
+      - 香港-t 15
+      - 香港- 16
+      - 香港- 18
+      - 香港- 22
+      - 香港- 23
+      - 香港- 25
+      - 香港-t 26
+      - 香港-t 27
+      - 香港-t 28
+      - 香港-t29
+      - 香港-t 30
+      - 香港-t 31
+      - 香港-t 32
+      - 香港-g 33
+      - 香港-t37
+      - 香港-t 40
+      - 香港-t2 41
+      - 香港-t2 42
+      - 香港- 43
+      - 香港-t2 44
+      - 香港-t 49
+      - 香港-t 51
+      - 香港-t2 52
+      - 香港-t2 53
+      - 香港-t2 54
+      - 香港-2 55
+      - 香港-2 57
+      - 香港-t 58
+      - 香港-t 60
+      - 香港- 61
+      - 香港-2 62
+      - 香港-t 64
+      - 香港- 65
+      - 香港-t 66
+      - 香港- 67
+      - 香港-t 68
+      - 香港-69
+      - 香港-t 70
+      - 香港 71
+      - 香港-t 72
+      - 香港-t 73
+      - 香港-t 74
+      - 香港-t 75
+      - 香港-t 76
+      - 香港-t 78
+      - 香港-t2 79
+      - 香港-t2 80
+      - 香港-tg 81
+      - 香港-t2 82
+      - 香港-t 84
+      - 香港-t 85
+      - 香港- 86
+      - 香港-t 87
+      - 香港-t 89
+      - 香港- 91
+      - 香港-t92
+      - 香港-t 93
+      - 香港-2 94
+      - 香港-t 95
+      - 香港-t2 96
+      - 香港-t2 97
+      - 香港-t2 98
+      - 香港-t2 99
+      - 香港-tg 101
+      - 香港-t104
+      - 香港-t 105
+      - 香港-t2 106
+      - 香港- 107
+      - 香港- 109
+      - 香港-t2 110
+      - 香港- 111
+      - 香港- 112
+      - 香港- 113
+      - 香港- 114
+      - 香港- 115
+      - 法国-t
+      - 法国-t2 2
+      - 法国-t 5
+      - 法国-t 7
+      - 法国- 9
+      - 德国-t 2
+      - 德国- 5
+      - 台湾-t 2
+      - 台湾- 9
+      - 台湾- 14
+      - 台湾-15
+      - 台湾- 16
+      - 台湾-t 17
+      - 台湾- 18
+      - 台湾- 20
+      - 台湾-t25
+      - 台湾-t 26
+      - 台湾-t28
+      - 台湾-29
+      - 台湾-t 34
+      - 台湾-t 35
+      - 台湾-t 43
+      - 台湾-t46
+      - 台湾-t 47
+      - 台湾-t 49
+      - 台湾 53
+      - 阿根廷 6
       - US-Openit.ml
       - AU-Openit.ml
       - US-Openit.ml 2
@@ -189,6 +1540,214 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 越南
+      - 越南2
+      - 越南3
+      - 越南5
+      - 越南6
+      - 越南7
+      - 越南8
+      - 越南10
+      - 越南 11
+      - 越南 13
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国-7
+      - 美国- 8
+      - 美国- 9
+      - 美国 11
+      - 美国- 14
+      - 美国- 17
+      - 美国-19
+      - 美国 20
+      - 美国- 21
+      - 美国- 22
+      - 美国- 23
+      - 美国-2 24
+      - 美国- 25
+      - 美国- 29
+      - 美国- 32
+      - 美国- 35
+      - 美国- 36
+      - 美国-37
+      - 美国-40
+      - 美国-43
+      - 美国- 44
+      - 美国- 46
+      - 美国- 50
+      - 泰国-t
+      - 泰国-2 2
+      - 泰国- 4
+      - 泰国 5
+      - 泰国- 6
+      - 泰国 7
+      - 泰国- 9
+      - 泰国-t 10
+      - 新加坡-
+      - 新加坡-t 2
+      - 新加坡- 4
+      - 新加坡-2 6
+      - 新加坡- 7
+      - 新加坡- 9
+      - 新加坡-t2 10
+      - 新加坡-2 11
+      - 新加坡-t2 12
+      - 新加坡-t 13
+      - 新加坡-t 14
+      - 新加坡-2 17
+      - 新加坡- 18
+      - 新加坡-t20
+      - 新加坡-t 24
+      - 新加坡- 25
+      - 新加坡- 29
+      - 新加坡-0
+      - 新加坡-t33
+      - 新加坡-t 36
+      - 新加坡-t2 40
+      - 菲律宾-x2
+      - 菲律宾- 3
+      - 菲律宾- 4
+      - 菲律宾-t 5
+      - 韩国-t
+      - 韩国-t 2
+      - 韩国-4
+      - 韩国- 5
+      - 韩国-t7
+      - 韩国- 9
+      - 韩国-t10
+      - 韩国-2 11
+      - 日本-t 2
+      - 日本- 3
+      - 日本- 4
+      - 日本-2 5
+      - 日本-t 6
+      - 日本-t 7
+      - 日本-t 10
+      - 日本- 13
+      - 日本-2 14
+      - 日本 15
+      - 日本-t 16
+      - 日本- 17
+      - 日本- 18
+      - 日本-t 34
+      - 日本-t 37
+      - 日本-t 43
+      - 日本- 44
+      - 日本-t48
+      - 日本-49
+      - 香港-t 2
+      - 香港-t 3
+      - 香港- 4
+      - 香港-t 6
+      - 香港-t 9
+      - 香港-t 11
+      - 香港-t12
+      - 香港-t13
+      - 香港-t 14
+      - 香港-t 15
+      - 香港- 16
+      - 香港- 18
+      - 香港- 22
+      - 香港- 23
+      - 香港- 25
+      - 香港-t 26
+      - 香港-t 27
+      - 香港-t 28
+      - 香港-t29
+      - 香港-t 30
+      - 香港-t 31
+      - 香港-t 32
+      - 香港-g 33
+      - 香港-t37
+      - 香港-t 40
+      - 香港-t2 41
+      - 香港-t2 42
+      - 香港- 43
+      - 香港-t2 44
+      - 香港-t 49
+      - 香港-t 51
+      - 香港-t2 52
+      - 香港-t2 53
+      - 香港-t2 54
+      - 香港-2 55
+      - 香港-2 57
+      - 香港-t 58
+      - 香港-t 60
+      - 香港- 61
+      - 香港-2 62
+      - 香港-t 64
+      - 香港- 65
+      - 香港-t 66
+      - 香港- 67
+      - 香港-t 68
+      - 香港-69
+      - 香港-t 70
+      - 香港 71
+      - 香港-t 72
+      - 香港-t 73
+      - 香港-t 74
+      - 香港-t 75
+      - 香港-t 76
+      - 香港-t 78
+      - 香港-t2 79
+      - 香港-t2 80
+      - 香港-tg 81
+      - 香港-t2 82
+      - 香港-t 84
+      - 香港-t 85
+      - 香港- 86
+      - 香港-t 87
+      - 香港-t 89
+      - 香港- 91
+      - 香港-t92
+      - 香港-t 93
+      - 香港-2 94
+      - 香港-t 95
+      - 香港-t2 96
+      - 香港-t2 97
+      - 香港-t2 98
+      - 香港-t2 99
+      - 香港-tg 101
+      - 香港-t104
+      - 香港-t 105
+      - 香港-t2 106
+      - 香港- 107
+      - 香港- 109
+      - 香港-t2 110
+      - 香港- 111
+      - 香港- 112
+      - 香港- 113
+      - 香港- 114
+      - 香港- 115
+      - 法国-t
+      - 法国-t2 2
+      - 法国-t 5
+      - 法国-t 7
+      - 法国- 9
+      - 德国-t 2
+      - 德国- 5
+      - 台湾-t 2
+      - 台湾- 9
+      - 台湾- 14
+      - 台湾-15
+      - 台湾- 16
+      - 台湾-t 17
+      - 台湾- 18
+      - 台湾- 20
+      - 台湾-t25
+      - 台湾-t 26
+      - 台湾-t28
+      - 台湾-29
+      - 台湾-t 34
+      - 台湾-t 35
+      - 台湾-t 43
+      - 台湾-t46
+      - 台湾-t 47
+      - 台湾-t 49
+      - 台湾 53
+      - 阿根廷 6
       - US-Openit.ml
       - AU-Openit.ml
       - US-Openit.ml 2
@@ -216,6 +1775,214 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 越南
+      - 越南2
+      - 越南3
+      - 越南5
+      - 越南6
+      - 越南7
+      - 越南8
+      - 越南10
+      - 越南 11
+      - 越南 13
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国-7
+      - 美国- 8
+      - 美国- 9
+      - 美国 11
+      - 美国- 14
+      - 美国- 17
+      - 美国-19
+      - 美国 20
+      - 美国- 21
+      - 美国- 22
+      - 美国- 23
+      - 美国-2 24
+      - 美国- 25
+      - 美国- 29
+      - 美国- 32
+      - 美国- 35
+      - 美国- 36
+      - 美国-37
+      - 美国-40
+      - 美国-43
+      - 美国- 44
+      - 美国- 46
+      - 美国- 50
+      - 泰国-t
+      - 泰国-2 2
+      - 泰国- 4
+      - 泰国 5
+      - 泰国- 6
+      - 泰国 7
+      - 泰国- 9
+      - 泰国-t 10
+      - 新加坡-
+      - 新加坡-t 2
+      - 新加坡- 4
+      - 新加坡-2 6
+      - 新加坡- 7
+      - 新加坡- 9
+      - 新加坡-t2 10
+      - 新加坡-2 11
+      - 新加坡-t2 12
+      - 新加坡-t 13
+      - 新加坡-t 14
+      - 新加坡-2 17
+      - 新加坡- 18
+      - 新加坡-t20
+      - 新加坡-t 24
+      - 新加坡- 25
+      - 新加坡- 29
+      - 新加坡-0
+      - 新加坡-t33
+      - 新加坡-t 36
+      - 新加坡-t2 40
+      - 菲律宾-x2
+      - 菲律宾- 3
+      - 菲律宾- 4
+      - 菲律宾-t 5
+      - 韩国-t
+      - 韩国-t 2
+      - 韩国-4
+      - 韩国- 5
+      - 韩国-t7
+      - 韩国- 9
+      - 韩国-t10
+      - 韩国-2 11
+      - 日本-t 2
+      - 日本- 3
+      - 日本- 4
+      - 日本-2 5
+      - 日本-t 6
+      - 日本-t 7
+      - 日本-t 10
+      - 日本- 13
+      - 日本-2 14
+      - 日本 15
+      - 日本-t 16
+      - 日本- 17
+      - 日本- 18
+      - 日本-t 34
+      - 日本-t 37
+      - 日本-t 43
+      - 日本- 44
+      - 日本-t48
+      - 日本-49
+      - 香港-t 2
+      - 香港-t 3
+      - 香港- 4
+      - 香港-t 6
+      - 香港-t 9
+      - 香港-t 11
+      - 香港-t12
+      - 香港-t13
+      - 香港-t 14
+      - 香港-t 15
+      - 香港- 16
+      - 香港- 18
+      - 香港- 22
+      - 香港- 23
+      - 香港- 25
+      - 香港-t 26
+      - 香港-t 27
+      - 香港-t 28
+      - 香港-t29
+      - 香港-t 30
+      - 香港-t 31
+      - 香港-t 32
+      - 香港-g 33
+      - 香港-t37
+      - 香港-t 40
+      - 香港-t2 41
+      - 香港-t2 42
+      - 香港- 43
+      - 香港-t2 44
+      - 香港-t 49
+      - 香港-t 51
+      - 香港-t2 52
+      - 香港-t2 53
+      - 香港-t2 54
+      - 香港-2 55
+      - 香港-2 57
+      - 香港-t 58
+      - 香港-t 60
+      - 香港- 61
+      - 香港-2 62
+      - 香港-t 64
+      - 香港- 65
+      - 香港-t 66
+      - 香港- 67
+      - 香港-t 68
+      - 香港-69
+      - 香港-t 70
+      - 香港 71
+      - 香港-t 72
+      - 香港-t 73
+      - 香港-t 74
+      - 香港-t 75
+      - 香港-t 76
+      - 香港-t 78
+      - 香港-t2 79
+      - 香港-t2 80
+      - 香港-tg 81
+      - 香港-t2 82
+      - 香港-t 84
+      - 香港-t 85
+      - 香港- 86
+      - 香港-t 87
+      - 香港-t 89
+      - 香港- 91
+      - 香港-t92
+      - 香港-t 93
+      - 香港-2 94
+      - 香港-t 95
+      - 香港-t2 96
+      - 香港-t2 97
+      - 香港-t2 98
+      - 香港-t2 99
+      - 香港-tg 101
+      - 香港-t104
+      - 香港-t 105
+      - 香港-t2 106
+      - 香港- 107
+      - 香港- 109
+      - 香港-t2 110
+      - 香港- 111
+      - 香港- 112
+      - 香港- 113
+      - 香港- 114
+      - 香港- 115
+      - 法国-t
+      - 法国-t2 2
+      - 法国-t 5
+      - 法国-t 7
+      - 法国- 9
+      - 德国-t 2
+      - 德国- 5
+      - 台湾-t 2
+      - 台湾- 9
+      - 台湾- 14
+      - 台湾-15
+      - 台湾- 16
+      - 台湾-t 17
+      - 台湾- 18
+      - 台湾- 20
+      - 台湾-t25
+      - 台湾-t 26
+      - 台湾-t28
+      - 台湾-29
+      - 台湾-t 34
+      - 台湾-t 35
+      - 台湾-t 43
+      - 台湾-t46
+      - 台湾-t 47
+      - 台湾-t 49
+      - 台湾 53
+      - 阿根廷 6
       - US-Openit.ml
       - AU-Openit.ml
       - US-Openit.ml 2
@@ -252,6 +2019,214 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 越南
+      - 越南2
+      - 越南3
+      - 越南5
+      - 越南6
+      - 越南7
+      - 越南8
+      - 越南10
+      - 越南 11
+      - 越南 13
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国-7
+      - 美国- 8
+      - 美国- 9
+      - 美国 11
+      - 美国- 14
+      - 美国- 17
+      - 美国-19
+      - 美国 20
+      - 美国- 21
+      - 美国- 22
+      - 美国- 23
+      - 美国-2 24
+      - 美国- 25
+      - 美国- 29
+      - 美国- 32
+      - 美国- 35
+      - 美国- 36
+      - 美国-37
+      - 美国-40
+      - 美国-43
+      - 美国- 44
+      - 美国- 46
+      - 美国- 50
+      - 泰国-t
+      - 泰国-2 2
+      - 泰国- 4
+      - 泰国 5
+      - 泰国- 6
+      - 泰国 7
+      - 泰国- 9
+      - 泰国-t 10
+      - 新加坡-
+      - 新加坡-t 2
+      - 新加坡- 4
+      - 新加坡-2 6
+      - 新加坡- 7
+      - 新加坡- 9
+      - 新加坡-t2 10
+      - 新加坡-2 11
+      - 新加坡-t2 12
+      - 新加坡-t 13
+      - 新加坡-t 14
+      - 新加坡-2 17
+      - 新加坡- 18
+      - 新加坡-t20
+      - 新加坡-t 24
+      - 新加坡- 25
+      - 新加坡- 29
+      - 新加坡-0
+      - 新加坡-t33
+      - 新加坡-t 36
+      - 新加坡-t2 40
+      - 菲律宾-x2
+      - 菲律宾- 3
+      - 菲律宾- 4
+      - 菲律宾-t 5
+      - 韩国-t
+      - 韩国-t 2
+      - 韩国-4
+      - 韩国- 5
+      - 韩国-t7
+      - 韩国- 9
+      - 韩国-t10
+      - 韩国-2 11
+      - 日本-t 2
+      - 日本- 3
+      - 日本- 4
+      - 日本-2 5
+      - 日本-t 6
+      - 日本-t 7
+      - 日本-t 10
+      - 日本- 13
+      - 日本-2 14
+      - 日本 15
+      - 日本-t 16
+      - 日本- 17
+      - 日本- 18
+      - 日本-t 34
+      - 日本-t 37
+      - 日本-t 43
+      - 日本- 44
+      - 日本-t48
+      - 日本-49
+      - 香港-t 2
+      - 香港-t 3
+      - 香港- 4
+      - 香港-t 6
+      - 香港-t 9
+      - 香港-t 11
+      - 香港-t12
+      - 香港-t13
+      - 香港-t 14
+      - 香港-t 15
+      - 香港- 16
+      - 香港- 18
+      - 香港- 22
+      - 香港- 23
+      - 香港- 25
+      - 香港-t 26
+      - 香港-t 27
+      - 香港-t 28
+      - 香港-t29
+      - 香港-t 30
+      - 香港-t 31
+      - 香港-t 32
+      - 香港-g 33
+      - 香港-t37
+      - 香港-t 40
+      - 香港-t2 41
+      - 香港-t2 42
+      - 香港- 43
+      - 香港-t2 44
+      - 香港-t 49
+      - 香港-t 51
+      - 香港-t2 52
+      - 香港-t2 53
+      - 香港-t2 54
+      - 香港-2 55
+      - 香港-2 57
+      - 香港-t 58
+      - 香港-t 60
+      - 香港- 61
+      - 香港-2 62
+      - 香港-t 64
+      - 香港- 65
+      - 香港-t 66
+      - 香港- 67
+      - 香港-t 68
+      - 香港-69
+      - 香港-t 70
+      - 香港 71
+      - 香港-t 72
+      - 香港-t 73
+      - 香港-t 74
+      - 香港-t 75
+      - 香港-t 76
+      - 香港-t 78
+      - 香港-t2 79
+      - 香港-t2 80
+      - 香港-tg 81
+      - 香港-t2 82
+      - 香港-t 84
+      - 香港-t 85
+      - 香港- 86
+      - 香港-t 87
+      - 香港-t 89
+      - 香港- 91
+      - 香港-t92
+      - 香港-t 93
+      - 香港-2 94
+      - 香港-t 95
+      - 香港-t2 96
+      - 香港-t2 97
+      - 香港-t2 98
+      - 香港-t2 99
+      - 香港-tg 101
+      - 香港-t104
+      - 香港-t 105
+      - 香港-t2 106
+      - 香港- 107
+      - 香港- 109
+      - 香港-t2 110
+      - 香港- 111
+      - 香港- 112
+      - 香港- 113
+      - 香港- 114
+      - 香港- 115
+      - 法国-t
+      - 法国-t2 2
+      - 法国-t 5
+      - 法国-t 7
+      - 法国- 9
+      - 德国-t 2
+      - 德国- 5
+      - 台湾-t 2
+      - 台湾- 9
+      - 台湾- 14
+      - 台湾-15
+      - 台湾- 16
+      - 台湾-t 17
+      - 台湾- 18
+      - 台湾- 20
+      - 台湾-t25
+      - 台湾-t 26
+      - 台湾-t28
+      - 台湾-29
+      - 台湾-t 34
+      - 台湾-t 35
+      - 台湾-t 43
+      - 台湾-t46
+      - 台湾-t 47
+      - 台湾-t 49
+      - 台湾 53
+      - 阿根廷 6
       - US-Openit.ml
       - AU-Openit.ml
       - US-Openit.ml 2
