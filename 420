@@ -5,11 +5,26 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK-Openit.ml, server: hk1.qingyun123.xyz, port: 10000, type: trojan, password: 9ef6f63a-2f8c-4240-8e60-b51183ee03fd, sni: hk1.qingyun123.xyz, skip-cert-verify: true, udp: true}
   - {name: US-Openit.ml, server: 8.ezydfdd.com, port: 443, type: vmess, uuid: dc0887b9-4c05-428c-adce-4235d1636341, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 8.ezydfdd.com}, udp: true}
   - {name: AU-Openit.ml, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: SG-Openit.ml, server: awssg.yeem.cc, port: 21210, type: trojan, password: 59c465d4-e3ad-4a30-9067-887786a2ca2d, sni: awssg.yeem.cc, skip-cert-verify: true, udp: true}
   - {name: US-Openit.ml 2, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing A香港HK ⇄ 隧道中转, server: www.hgzz.xyz, port: 2020, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: TG@p2psharing B香港HK ⇄ 隧道中转, server: www.hgzz.xyz, port: 2120, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: TG@p2psharing C香港HK ⇄ 隧道中转, server: www.hgzz.xyz, port: 899, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: TG@p2psharing D香港HK ⇄ 隧道中转, server: www.hgzz.xyz, port: 161, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: TG@p2psharing E香港HK ⇄ 隧道中转, server: www.hgzz.xyz, port: 2219, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: TG@p2psharing 越南VN ⇄ 隧道中转A（ℕF）, server: zz.gzyd.xyz, port: 6765, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: TG@p2psharing 香港VIP专线★1, server: www.hgzz.xyz, port: 4141, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: TG@p2psharing 香港VIP专线★2, server: www.hgzz.xyz, port: 4949, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 俄罗斯-隧道中转, server: dog.newhost.cc, port: 10692, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: 印度 孟买-来点玛莎拉, server: dog.newhost.cc, port: 10693, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: "日本隧道[视频]", server: dog.newhost.cc, port: 10255, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: "香港HGC[原生]", server: dog.newhost.cc, port: 10256, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: HK-Openit.ml, server: hk1.qingyun123.xyz, port: 10000, type: trojan, password: 9ef6f63a-2f8c-4240-8e60-b51183ee03fd, sni: hk1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml 3, server: 8.ezydfdd.com, port: 443, type: vmess, uuid: dc0887b9-4c05-428c-adce-4235d1636341, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 8.ezydfdd.com}, udp: true}
+  - {name: AU-Openit.ml 2, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: SG-Openit.ml, server: awssg.yeem.cc, port: 21210, type: trojan, password: 59c465d4-e3ad-4a30-9067-887786a2ca2d, sni: awssg.yeem.cc, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml 2 2, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: true, udp: true}
   - {name: HK-Openit.ml 2, server: hk1.qingyun123.xyz, port: 10000, type: trojan, password: 9ef6f63a-2f8c-4240-8e60-b51183ee03fd, sni: hk1.qingyun123.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -17,22 +32,52 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK-Openit.ml
       - US-Openit.ml
       - AU-Openit.ml
-      - SG-Openit.ml
       - US-Openit.ml 2
+      - TG@p2psharing A香港HK ⇄ 隧道中转
+      - TG@p2psharing B香港HK ⇄ 隧道中转
+      - TG@p2psharing C香港HK ⇄ 隧道中转
+      - TG@p2psharing D香港HK ⇄ 隧道中转
+      - TG@p2psharing E香港HK ⇄ 隧道中转
+      - TG@p2psharing 越南VN ⇄ 隧道中转A（ℕF）
+      - TG@p2psharing 香港VIP专线★1
+      - TG@p2psharing 香港VIP专线★2
+      - 俄罗斯-隧道中转
+      - 印度 孟买-来点玛莎拉
+      - 日本隧道[视频]
+      - 香港HGC[原生]
+      - HK-Openit.ml
+      - US-Openit.ml 3
+      - AU-Openit.ml 2
+      - SG-Openit.ml
+      - US-Openit.ml 2 2
       - HK-Openit.ml 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK-Openit.ml
       - US-Openit.ml
       - AU-Openit.ml
-      - SG-Openit.ml
       - US-Openit.ml 2
+      - TG@p2psharing A香港HK ⇄ 隧道中转
+      - TG@p2psharing B香港HK ⇄ 隧道中转
+      - TG@p2psharing C香港HK ⇄ 隧道中转
+      - TG@p2psharing D香港HK ⇄ 隧道中转
+      - TG@p2psharing E香港HK ⇄ 隧道中转
+      - TG@p2psharing 越南VN ⇄ 隧道中转A（ℕF）
+      - TG@p2psharing 香港VIP专线★1
+      - TG@p2psharing 香港VIP专线★2
+      - 俄罗斯-隧道中转
+      - 印度 孟买-来点玛莎拉
+      - 日本隧道[视频]
+      - 香港HGC[原生]
+      - HK-Openit.ml
+      - US-Openit.ml 3
+      - AU-Openit.ml 2
+      - SG-Openit.ml
+      - US-Openit.ml 2 2
       - HK-Openit.ml 2
   - name: 🎥 NETFLIX
     type: select
@@ -40,11 +85,26 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK-Openit.ml
       - US-Openit.ml
       - AU-Openit.ml
-      - SG-Openit.ml
       - US-Openit.ml 2
+      - TG@p2psharing A香港HK ⇄ 隧道中转
+      - TG@p2psharing B香港HK ⇄ 隧道中转
+      - TG@p2psharing C香港HK ⇄ 隧道中转
+      - TG@p2psharing D香港HK ⇄ 隧道中转
+      - TG@p2psharing E香港HK ⇄ 隧道中转
+      - TG@p2psharing 越南VN ⇄ 隧道中转A（ℕF）
+      - TG@p2psharing 香港VIP专线★1
+      - TG@p2psharing 香港VIP专线★2
+      - 俄罗斯-隧道中转
+      - 印度 孟买-来点玛莎拉
+      - 日本隧道[视频]
+      - 香港HGC[原生]
+      - HK-Openit.ml
+      - US-Openit.ml 3
+      - AU-Openit.ml 2
+      - SG-Openit.ml
+      - US-Openit.ml 2 2
       - HK-Openit.ml 2
   - name: ⛔️ 广告拦截
     type: select
@@ -64,38 +124,91 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK-Openit.ml
       - US-Openit.ml
       - AU-Openit.ml
-      - SG-Openit.ml
       - US-Openit.ml 2
+      - TG@p2psharing A香港HK ⇄ 隧道中转
+      - TG@p2psharing B香港HK ⇄ 隧道中转
+      - TG@p2psharing C香港HK ⇄ 隧道中转
+      - TG@p2psharing D香港HK ⇄ 隧道中转
+      - TG@p2psharing E香港HK ⇄ 隧道中转
+      - TG@p2psharing 越南VN ⇄ 隧道中转A（ℕF）
+      - TG@p2psharing 香港VIP专线★1
+      - TG@p2psharing 香港VIP专线★2
+      - 俄罗斯-隧道中转
+      - 印度 孟买-来点玛莎拉
+      - 日本隧道[视频]
+      - 香港HGC[原生]
+      - HK-Openit.ml
+      - US-Openit.ml 3
+      - AU-Openit.ml 2
+      - SG-Openit.ml
+      - US-Openit.ml 2 2
       - HK-Openit.ml 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - TG@p2psharing A香港HK ⇄ 隧道中转
+      - TG@p2psharing B香港HK ⇄ 隧道中转
+      - TG@p2psharing C香港HK ⇄ 隧道中转
+      - TG@p2psharing D香港HK ⇄ 隧道中转
+      - TG@p2psharing E香港HK ⇄ 隧道中转
+      - TG@p2psharing 香港VIP专线★1
+      - TG@p2psharing 香港VIP专线★2
+      - 香港HGC[原生]
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK-Openit.ml
       - US-Openit.ml
       - AU-Openit.ml
-      - SG-Openit.ml
       - US-Openit.ml 2
+      - TG@p2psharing A香港HK ⇄ 隧道中转
+      - TG@p2psharing B香港HK ⇄ 隧道中转
+      - TG@p2psharing C香港HK ⇄ 隧道中转
+      - TG@p2psharing D香港HK ⇄ 隧道中转
+      - TG@p2psharing E香港HK ⇄ 隧道中转
+      - TG@p2psharing 越南VN ⇄ 隧道中转A（ℕF）
+      - TG@p2psharing 香港VIP专线★1
+      - TG@p2psharing 香港VIP专线★2
+      - 俄罗斯-隧道中转
+      - 印度 孟买-来点玛莎拉
+      - 日本隧道[视频]
+      - 香港HGC[原生]
+      - HK-Openit.ml
+      - US-Openit.ml 3
+      - AU-Openit.ml 2
+      - SG-Openit.ml
+      - US-Openit.ml 2 2
       - HK-Openit.ml 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK-Openit.ml
       - US-Openit.ml
       - AU-Openit.ml
-      - SG-Openit.ml
       - US-Openit.ml 2
+      - TG@p2psharing A香港HK ⇄ 隧道中转
+      - TG@p2psharing B香港HK ⇄ 隧道中转
+      - TG@p2psharing C香港HK ⇄ 隧道中转
+      - TG@p2psharing D香港HK ⇄ 隧道中转
+      - TG@p2psharing E香港HK ⇄ 隧道中转
+      - TG@p2psharing 越南VN ⇄ 隧道中转A（ℕF）
+      - TG@p2psharing 香港VIP专线★1
+      - TG@p2psharing 香港VIP专线★2
+      - 俄罗斯-隧道中转
+      - 印度 孟买-来点玛莎拉
+      - 日本隧道[视频]
+      - 香港HGC[原生]
+      - HK-Openit.ml
+      - US-Openit.ml 3
+      - AU-Openit.ml 2
+      - SG-Openit.ml
+      - US-Openit.ml 2 2
       - HK-Openit.ml 2
   - name: 🍎 苹果服务
     type: select
@@ -103,11 +216,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK-Openit.ml
       - US-Openit.ml
       - AU-Openit.ml
-      - SG-Openit.ml
       - US-Openit.ml 2
+      - TG@p2psharing A香港HK ⇄ 隧道中转
+      - TG@p2psharing B香港HK ⇄ 隧道中转
+      - TG@p2psharing C香港HK ⇄ 隧道中转
+      - TG@p2psharing D香港HK ⇄ 隧道中转
+      - TG@p2psharing E香港HK ⇄ 隧道中转
+      - TG@p2psharing 越南VN ⇄ 隧道中转A（ℕF）
+      - TG@p2psharing 香港VIP专线★1
+      - TG@p2psharing 香港VIP专线★2
+      - 俄罗斯-隧道中转
+      - 印度 孟买-来点玛莎拉
+      - 日本隧道[视频]
+      - 香港HGC[原生]
+      - HK-Openit.ml
+      - US-Openit.ml 3
+      - AU-Openit.ml 2
+      - SG-Openit.ml
+      - US-Openit.ml 2 2
       - HK-Openit.ml 2
   - name: 🎯 全球直连
     type: select
@@ -124,11 +252,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK-Openit.ml
       - US-Openit.ml
       - AU-Openit.ml
-      - SG-Openit.ml
       - US-Openit.ml 2
+      - TG@p2psharing A香港HK ⇄ 隧道中转
+      - TG@p2psharing B香港HK ⇄ 隧道中转
+      - TG@p2psharing C香港HK ⇄ 隧道中转
+      - TG@p2psharing D香港HK ⇄ 隧道中转
+      - TG@p2psharing E香港HK ⇄ 隧道中转
+      - TG@p2psharing 越南VN ⇄ 隧道中转A（ℕF）
+      - TG@p2psharing 香港VIP专线★1
+      - TG@p2psharing 香港VIP专线★2
+      - 俄罗斯-隧道中转
+      - 印度 孟买-来点玛莎拉
+      - 日本隧道[视频]
+      - 香港HGC[原生]
+      - HK-Openit.ml
+      - US-Openit.ml 3
+      - AU-Openit.ml 2
+      - SG-Openit.ml
+      - US-Openit.ml 2 2
       - HK-Openit.ml 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
