@@ -5,883 +5,243 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 德国1, server: 120.232.82.202, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 德国2, server: v4zx.v6speed.com, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 德国3, server: 124.71.118.225, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 法国1, server: v4zx.v6speed.com, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 法国2, server: 124.71.118.225, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 菲律宾1, server: aflzz-us.yixuedianzishu.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 菲律宾2, server: 120.232.82.202, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 菲律宾3, server: fliplc.getxlx.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 菲律宾4, server: sgiplcv1.hntgxxjc.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 菲律宾5, server: ggiplc01.jfjfhg.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 菲律宾6, server: v4zx.v6speed.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 菲律宾7, server: sgiplc01.hntgxxjc.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 菲律宾8, server: huaweibgp.hntgxxjc.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 韩国1, server: fliplc.getxlx.com, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 韩国2, server: gzjpiplc.hntgxxjc.com, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 韩国3, server: ggiplc03.jfjfhg.com, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 韩国 4, server: 120.240.168.126, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 韩国 5, server: 124.71.118.225, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 美国1, server: fliplc.getxlx.com, port: 38504, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 美国2, server: 124.71.118.225, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 美国3, server: ggiplc01.jfjfhg.com, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 美国4, server: gzjpiplc.hntgxxjc.com, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 美国5, server: 124.71.118.225, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 美国6, server: 124.71.118.225, port: 38501, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 美国7, server: hknf2.qingyun123.xyz, port: 10070, type: trojan, password: 85f1f2fc-42e7-48a0-a6a2-a8bccb0d64cd, sni: hknf2.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本1, server: 124.71.118.225, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 日本 2, server: 120.232.82.202, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 日本3, server: aflzz-us.yixuedianzishu.com, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 日本4, server: fliplc.getxlx.com, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 日本5, server: hinet-iplc.hntgxxjc.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 日本6, server: sgiplc01.hntgxxjc.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 日本7, server: 124.71.118.225, port: 38303, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 日本8, server: 124.71.118.225, port: 38302, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 日本9, server: 120.240.168.126, port: 38302, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 日本10, server: ggiplc01.jfjfhg.com, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 台湾1, server: huaweibgp.hntgxxjc.com, port: 38105, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 台湾2, server: gzjpiplc.hntgxxjc.com, port: 38105, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 台湾3, server: 124.71.118.225, port: 38105, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 台湾4, server: aflzz-sg.yixuedianzishu.com, port: 38105, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 台湾5, server: 120.232.82.202, port: 38105, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 台湾6, server: gzjpiplc.hntgxxjc.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 台湾7, server: v4zx.v6speed.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 台湾8, server: aflzz-us.yixuedianzishu.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 台湾9, server: 124.71.118.225, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 台湾10, server: v4zx.v6speed.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 台湾11, server: ggiplc01.jfjfhg.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 台湾12, server: fliplc.getxlx.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 台湾13, server: 124.71.118.225, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 台湾14, server: aflzz-us.yixuedianzishu.com, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 台湾15, server: sgiplc01.hntgxxjc.com, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 台湾16, server: 124.71.118.225, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 台湾17, server: huaweibgp.hntgxxjc.com, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 台湾18, server: 120.232.82.202, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 台湾 20, server: aflzz-us.yixuedianzishu.com, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 台湾 21, server: fliplc.getxlx.com, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 泰国1, server: 120.240.168.126, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 泰国2, server: huaweibgp.hntgxxjc.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 泰国3, server: v4zx.v6speed.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 泰国4, server: 124.71.118.225, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港1, server: gzjpiplc.hntgxxjc.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港2, server: hinet-iplc.hntgxxjc.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港3, server: ggiplc03.jfjfhg.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港4, server: huaweibgp.hntgxxjc.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港5, server: ggiplc01.jfjfhg.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港6, server: aflzz-us.yixuedianzishu.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港7, server: aflzz-us.yixuedianzishu.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港8, server: huaweibgp.hntgxxjc.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港9, server: ggiplc03.jfjfhg.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港10, server: 120.232.82.202, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港11, server: 124.71.118.225, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港12, server: hinet-iplc.hntgxxjc.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港13, server: gzjpiplc.hntgxxjc.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港14, server: ggiplc01.jfjfhg.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港15, server: huaweibgp.hntgxxjc.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港16, server: flcn.yixuedianzishu.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港17, server: 120.232.82.202, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港18, server: fliplc.getxlx.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港19, server: 120.240.168.126, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港20, server: v4zx.v6speed.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港21, server: ggiplc03.jfjfhg.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港22, server: aflzz-us.yixuedianzishu.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港23, server: gzjpiplc.hntgxxjc.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港24, server: 124.71.118.225, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港25, server: sgiplc01.hntgxxjc.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港26, server: ggiplc03.jfjfhg.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港27, server: hinet-iplc.hntgxxjc.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港28, server: ggiplc01.jfjfhg.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港29, server: v4zx.v6speed.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港30, server: fliplc.getxlx.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港31, server: aflzz-us.yixuedianzishu.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港32, server: sgiplc01.hntgxxjc.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港33, server: sgiplcv1.hntgxxjc.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港34, server: 124.71.118.225, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港35, server: 120.232.82.202, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港36, server: ggiplc03.jfjfhg.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港37, server: huaweibgp.hntgxxjc.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港38, server: fliplc.getxlx.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港39, server: sgiplcv1.hntgxxjc.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港40, server: hinet-iplc.hntgxxjc.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港41, server: 120.232.82.202, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港42, server: gzjpiplc.hntgxxjc.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港43, server: 124.71.118.225, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港44, server: aflzz-us.yixuedianzishu.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港45, server: ggiplc01.jfjfhg.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港46, server: huaweibgp.hntgxxjc.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港47, server: ggiplc03.jfjfhg.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港48, server: v4zx.v6speed.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港49, server: aflzz-us.yixuedianzishu.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港50, server: ggiplc01.jfjfhg.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港51, server: fliplc.getxlx.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港52, server: gzjpiplc.hntgxxjc.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港53, server: sgiplcv1.hntgxxjc.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港54, server: 120.232.82.202, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港55, server: hinet-iplc.hntgxxjc.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港56, server: 124.71.118.225, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港57, server: ggiplc01.jfjfhg.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港58, server: hinet-iplc.hntgxxjc.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港59, server: fliplc.getxlx.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港60, server: huaweibgp.hntgxxjc.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港61, server: sgiplcv1.hntgxxjc.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港62, server: gzjpiplc.hntgxxjc.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港63, server: aflzz-us.yixuedianzishu.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港64, server: sgiplc01.hntgxxjc.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港65, server: 124.71.118.225, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港 66, server: huaweibgp.hntgxxjc.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港 67, server: 120.240.168.126, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港68, server: sgiplc01.hntgxxjc.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港 69, server: aflzz-us.yixuedianzishu.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港70, server: hinet-iplc.hntgxxjc.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港71, server: sgiplcv1.hntgxxjc.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港72, server: 124.71.118.225, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港73, server: fliplc.getxlx.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港 74, server: gzjpiplc.hntgxxjc.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港75, server: hinet-iplc.hntgxxjc.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港76, server: sgiplcv1.hntgxxjc.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港77, server: v4zx.v6speed.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港78, server: 120.232.82.202, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港79, server: 124.71.118.225, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港80, server: aflzz-us.yixuedianzishu.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港81, server: ggiplc03.jfjfhg.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港82, server: sgiplcv1.hntgxxjc.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港83, server: hinet-iplc.hntgxxjc.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港84, server: huaweibgp.hntgxxjc.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港86, server: v4zx.v6speed.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港87, server: ggiplc01.jfjfhg.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港88, server: sgiplc01.hntgxxjc.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 香港89, server: 124.71.118.225, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 新加坡1, server: v4zx.v6speed.com, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 新加坡2, server: 124.71.118.225, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 新加坡3, server: 124.71.118.225, port: 38202, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 印度, server: 124.71.118.225, port: 38613, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 越南1, server: sgiplcv1.hntgxxjc.com, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 越南 2, server: fliplc.getxlx.com, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 越南3, server: 124.71.118.225, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 越南4, server: ggiplc03.jfjfhg.com, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
-  - {name: 中国1, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 中国2, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 中国3, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 中国4, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: DE-Openit.ml, server: deu001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, sni: deu001.laxiyun.com, skip-cert-verify: true, udp: true}
-  - {name: GB-Openit.ml, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan33.free4444.xyz, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 2, server: docs.defun.us, port: 443, type: trojan, password: WEMagdSekdGBxh6g, sni: docs.defun.us, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 3, server: shop-one.defun.us, port: 443, type: trojan, password: OEfntmUGHmwQnNGr, sni: shop-one.defun.us, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 4, server: shop-two.defun.us, port: 8080, type: trojan, password: OzKXGbFNHwAurRQ0, sni: shop-two.defun.us, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 5, server: meet-one.defun.us, port: 443, type: trojan, password: INvx7sPho8PyTLS6, sni: meet-one.defun.us, skip-cert-verify: true, udp: true}
-  - {name: GB-Openit.ml 2, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 6, server: us003.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, sni: us003.laxiyun.com, skip-cert-verify: true, udp: true}
-  - {name: AU-Openit.ml, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 7, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: IN-Openit.ml, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 8, server: miner-two.pickaxe.sh, port: 443, type: trojan, password: YzJI2mQftXqA6ZH4, sni: miner-two.pickaxe.sh, skip-cert-verify: true, udp: true}
-  - {name: KR-Openit.ml, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: TW-Openit.ml, server: taiwjing.kuli888.xyz, port: 520, type: trojan, password: 5e8c99a7-2c7b-3e0e-a3c9-3c5b41cb7101, sni: taiwjing.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 9, server: us-01.pickaxe.sh, port: 443, type: trojan, password: VQcup0dd7ulkb1pV, sni: us-01.pickaxe.sh, skip-cert-verify: true, udp: true}
-  - {name: US1, server: 183.232.56.182, port: 11805, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: US2, server: 183.232.56.182, port: 35247, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: RU, server: 183.232.56.182, port: 22848, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: US3, server: 183.232.56.182, port: 11804, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: SG1, server: 183.232.56.182, port: 11851, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: SG2, server: 183.232.56.182, port: 11846, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: SG3, server: 183.232.56.182, port: 11807, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: JP1, server: 183.232.56.182, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: JP2, server: 183.232.56.182, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: TW1, server: 183.232.56.182, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: HK1, server: 183.232.56.182, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: KR, server: 183.232.29.152, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: US4, server: 183.232.29.152, port: 35247, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: US5, server: 183.232.29.152, port: 11805, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: US6, server: 183.232.29.152, port: 11804, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: SG4, server: 183.232.29.152, port: 11846, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: SG5, server: 183.232.29.152, port: 11851, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: SG6, server: 183.232.29.152, port: 11807, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: JP3, server: 183.232.29.152, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: JP4, server: 183.232.29.152, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: TW2, server: 183.232.29.152, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: HK2, server: 183.232.29.152, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: HK2/IPLC, server: hkbali.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
-  - {name: SG1/IEPL, server: kr3-zx.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
-  - {name: SG2/IEPL, server: mmkr1ss.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
-  - {name: HK3/IPLC, server: hkt2dyn.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
-  - {name: SG3/IEPL, server: xjp2-zx.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
-  - {name: HK5/IEPL, server: hk3cm.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
-  - {name: SG4/IEPL, server: xjpmiaosj.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
-  - {name: TW-VM_4, server: gc1.criskaka.com, port: 45658, type: vmess, uuid: 9aac58a0-f5ef-4a9d-e493-850373c9f73e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾29, server: gc1.criskaka.com, port: 45658, type: vmess, uuid: 9aac58a0-f5ef-4a9d-e493-850373c9f73e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾32, server: fs.keaiyun.top, port: 55154, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾33, server: fs.keaiyun.top, port: 55155, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港1 2, server: s250.s2022.xyz, port: 27073, type: trojan, password: 5a0c130c-31f7-31dc-89c3-5c26865d56f9, sni: s250.s2022.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港2 2, server: s47.s2022.xyz, port: 23498, type: trojan, password: 5a0c130c-31f7-31dc-89c3-5c26865d56f9, sni: s47.s2022.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港3 2, server: s231.s2022.xyz, port: 35859, type: trojan, password: 5a0c130c-31f7-31dc-89c3-5c26865d56f9, sni: s231.s2022.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港4 2, server: s201.s2022.xyz, port: 29004, type: trojan, password: 5a0c130c-31f7-31dc-89c3-5c26865d56f9, sni: s201.s2022.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港5 2, server: s253.s2022.xyz, port: 25221, type: trojan, password: 5a0c130c-31f7-31dc-89c3-5c26865d56f9, sni: s253.s2022.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港8 2, server: s233.s2022.xyz, port: 39747, type: trojan, password: 5a0c130c-31f7-31dc-89c3-5c26865d56f9, sni: s233.s2022.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港9 2, server: s238.s2022.xyz, port: 37826, type: trojan, password: 5a0c130c-31f7-31dc-89c3-5c26865d56f9, sni: s238.s2022.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 美国丨Trojan, server: us.kuli888.xyz, port: 35256, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: us.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 香港丨Trojan丨06, server: az06dcjhh.kuli888.xyz, port: 443, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: az06dcjhh.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 香港丨Trojan丨1丨落地, server: az01.kuli888.xyz, port: 443, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: az01.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 香港丨Trojan丨沪港3, server: v1hugang3.kuli888.xyz, port: 11150, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: v1hugang3.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 香港丨Trojan丨沪港中继丨4, server: v1hugang4.kuli888.xyz, port: 11151, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: v1hugang4.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 香港丨Trojan丨沪港中继丨5, server: v1hugang5.kuli888.xyz, port: 10028, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: v1hugang5.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 香港丨Trojan丨深港中继1, server: v1shengang.kuli888.xyz, port: 52016, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: v1shengang.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 俄罗斯丨伯力丨02, server: els01.kuli888.xyz, port: 10020, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: els01.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 印度丨湖南-印度丨中继, server: ydzhongzhuan.kuli888.xyz, port: 52023, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: ydzhongzhuan.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 台湾丨BGP中继丨01丨原生丨600Mbps, server: tw05.kulime.space, port: 10005, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: tw05.kulime.space, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 台湾丨BGP中继丨02丨原生丨600Mbps, server: bgptw02.kuli888.xyz, port: 10006, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: bgptw02.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 台湾丨Trojan丨静丨深台中继3, server: vip2shentai.kuli888.xyz, port: 32103, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: vip2shentai.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 台湾丨原生丨三网直连, server: tw03.kuli888.xyz, port: 35256, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: tw03.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 台湾丨原生丨深台中继丨1, server: guangzhou.kuli888.xyz, port: 52004, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: guangzhou.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 台湾丨原生丨深台中继丨2, server: guangzhou.kuli888.xyz, port: 52006, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: guangzhou.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 台湾丨彰化丨600m, server: zhanghua.kuli888.xyz, port: 443, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: zhanghua.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 新加坡丨深新中继丨1Gbps, server: xinjp.kulime.space, port: 10017, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: xinjp.kulime.space, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 新加坡丨湖南-新加坡丨中继, server: changsha.kulime.space, port: 52010, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: changsha.kulime.space, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 日本IIJ丨沪日中继02丨原生, server: jp05.kulime.space, port: 52021, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: jp05.kulime.space, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 日本IIJ丨沪日中继丨原生, server: jp05.kulime.space, port: 10014, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: jp05.kulime.space, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 日本丨上海-日本ntt丨中继, server: shlt.kulime.space, port: 52022, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: shlt.kulime.space, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 日本丨原生丨深日中继, server: srzhongji.kuli888.xyz, port: 52014, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: srzhongji.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 日本丨原生丨湖南-日本丨中继, server: changsha.kulime.space, port: 52011, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: changsha.kulime.space, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 日本丨大阪丨原生, server: yinghua02.kuli888.xyz, port: 443, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: yinghua02.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 日本丨湖南-大阪丨中继, server: azjp.kuli888.xyz, port: 52040, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: azjp.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 美国丨BGP中继丨01丨原生, server: usz.kulime.space, port: 32392, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: usz.kulime.space, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 美国丨CN2丨02丨原生, server: us02.kulime.space, port: 32400, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: us02.kulime.space, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 美国丨微软丨沪美中继, server: bgp.kuli888.xyz, port: 52007, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: bgp.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 越南丨Netflix新加坡区, server: yuenan.kuli888.xyz, port: 11152, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: yuenan.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 韩国丨原生丨湖南-韩国丨中继丨, server: changsha.kulime.space, port: 52012, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: changsha.kulime.space, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 韩国丨微软丨沪韩中继丨原生丨1Gbps, server: huhan01.kuli888.xyz, port: 52348, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: huhan01.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 香港丨BGP中继丨01丨HKT丨1Gbps, server: v2bgp01.kuli888.xyz, port: 10009, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: v2bgp01.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 香港丨BGP中继丨02丨HKT丨1Gbps, server: bgpwr.kulime.space, port: 11152, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: bgpwr.kulime.space, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 香港丨BGP中继丨03丨HGC丨1Gbps, server: zhongji.kulime.space, port: 10022, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: zhongji.kulime.space, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 香港丨BGP中继丨04丨流媒体专用, server: v2bgp04.kuli888.xyz, port: 52020, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: v2bgp04.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 香港丨BGP中继丨05丨深港丨1Gbps, server: hugang03.kuli888.xyz, port: 20025, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: hugang03.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 香港丨BGP微软丨02, server: bgpwz02.kuli888.xyz, port: 20000, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: bgpwz02.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 香港丨BGP微软丨1丨1Gbps, server: bgp.kuli888.xyz, port: 32405, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: bgp.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 香港丨HGC丨原生丨移动中继, server: guangzhou.kuli888.xyz, port: 52100, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: guangzhou.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 香港丨HKG丨原生丨移动优化丨, server: hk05.kuli888.xyz, port: 580, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: hk05.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 香港丨专线丨原生丨1Gbps, server: dmit.kuli888.xyz, port: 20026, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: dmit.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 香港丨原生丨湖南-香港丨中继, server: changsha01.kuli888.xyz, port: 52013, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: changsha01.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 香港丨微軟丨广州中继, server: guang01.kuli888.xyz, port: 32370, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: guang01.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 香港丨微软丨3丨2Gbps, server: az04.kuli888.xyz, port: 520, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: az04.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 香港丨微软丨Trojan丨移动中继, server: guangzhou.kuli888.xyz, port: 52001, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: guangzhou.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 香港丨微软丨上海-香港丨, server: bgp.kuli888.xyz, port: 52008, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: bgp.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 马来西亚丨原生丨移动中继, server: malai01.kuli888.xyz, port: 52034, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: malai01.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯-隧道中转, server: dog.newhost.cc, port: 10692, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: 印度 孟买-来点玛莎拉, server: dog.newhost.cc, port: 10693, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: "台湾 Hinet [原生]", server: cu.newhost.cc, port: 10661, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: 德国  tuboshu.live 赞助, server: dog.newhost.cc, port: 10282, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: 新加坡 流媒体解锁, server: cu.newhost.cc, port: 10660, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: "日本隧道[视频]", server: dog.newhost.cc, port: 10255, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: 美国 流媒体视频, server: dog.newhost.cc, port: 10287, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: "香港HGC[原生]", server: dog.newhost.cc, port: 10256, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国1
-      - 德国2
-      - 德国3
-      - 法国1
-      - 法国2
-      - 菲律宾1
-      - 菲律宾2
-      - 菲律宾3
-      - 菲律宾4
-      - 菲律宾5
-      - 菲律宾6
-      - 菲律宾7
-      - 菲律宾8
-      - 韩国1
-      - 韩国2
-      - 韩国3
-      - 韩国 4
-      - 韩国 5
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 美国5
-      - 美国6
-      - 美国7
-      - 日本1
-      - 日本 2
-      - 日本3
-      - 日本4
-      - 日本5
-      - 日本6
-      - 日本7
-      - 日本8
-      - 日本9
-      - 日本10
-      - 台湾1
-      - 台湾2
-      - 台湾3
-      - 台湾4
-      - 台湾5
-      - 台湾6
-      - 台湾7
-      - 台湾8
-      - 台湾9
-      - 台湾10
-      - 台湾11
-      - 台湾12
-      - 台湾13
-      - 台湾14
-      - 台湾15
-      - 台湾16
-      - 台湾17
-      - 台湾18
-      - 台湾 20
-      - 台湾 21
-      - 泰国1
-      - 泰国2
-      - 泰国3
-      - 泰国4
-      - 香港1
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港5
-      - 香港6
-      - 香港7
-      - 香港8
-      - 香港9
-      - 香港10
-      - 香港11
-      - 香港12
-      - 香港13
-      - 香港14
-      - 香港15
-      - 香港16
-      - 香港17
-      - 香港18
-      - 香港19
-      - 香港20
-      - 香港21
-      - 香港22
-      - 香港23
-      - 香港24
-      - 香港25
-      - 香港26
-      - 香港27
-      - 香港28
-      - 香港29
-      - 香港30
-      - 香港31
-      - 香港32
-      - 香港33
-      - 香港34
-      - 香港35
-      - 香港36
-      - 香港37
-      - 香港38
-      - 香港39
-      - 香港40
-      - 香港41
-      - 香港42
-      - 香港43
-      - 香港44
-      - 香港45
-      - 香港46
-      - 香港47
-      - 香港48
-      - 香港49
-      - 香港50
-      - 香港51
-      - 香港52
-      - 香港53
-      - 香港54
-      - 香港55
-      - 香港56
-      - 香港57
-      - 香港58
-      - 香港59
-      - 香港60
-      - 香港61
-      - 香港62
-      - 香港63
-      - 香港64
-      - 香港65
-      - 香港 66
-      - 香港 67
-      - 香港68
-      - 香港 69
-      - 香港70
-      - 香港71
-      - 香港72
-      - 香港73
-      - 香港 74
-      - 香港75
-      - 香港76
-      - 香港77
-      - 香港78
-      - 香港79
-      - 香港80
-      - 香港81
-      - 香港82
-      - 香港83
-      - 香港84
-      - 香港86
-      - 香港87
-      - 香港88
-      - 香港89
-      - 新加坡1
-      - 新加坡2
-      - 新加坡3
-      - 印度
-      - 越南1
-      - 越南 2
-      - 越南3
-      - 越南4
-      - 中国1
-      - 中国2
-      - 中国3
-      - 中国4
-      - DE-Openit.ml
-      - GB-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - GB-Openit.ml 2
-      - US-Openit.ml 6
-      - AU-Openit.ml
-      - US-Openit.ml 7
-      - IN-Openit.ml
-      - US-Openit.ml 8
-      - KR-Openit.ml
-      - TW-Openit.ml
-      - US-Openit.ml 9
-      - US1
-      - US2
-      - RU
-      - US3
-      - SG1
-      - SG2
-      - SG3
-      - JP1
-      - JP2
-      - TW1
-      - HK1
-      - KR
-      - US4
-      - US5
-      - US6
-      - SG4
-      - SG5
-      - SG6
-      - JP3
-      - JP4
-      - TW2
-      - HK2
-      - HK2/IPLC
-      - SG1/IEPL
-      - SG2/IEPL
-      - HK3/IPLC
-      - SG3/IEPL
-      - HK5/IEPL
-      - SG4/IEPL
-      - TW-VM_4
-      - 台湾29
-      - 台湾32
-      - 台湾33
-      - 香港1 2
-      - 香港2 2
-      - 香港3 2
-      - 香港4 2
-      - 香港5 2
-      - 香港8 2
-      - 香港9 2
+      - TG@p2psharing 美国丨Trojan
+      - TG@p2psharing 香港丨Trojan丨06
+      - TG@p2psharing 香港丨Trojan丨1丨落地
+      - TG@p2psharing 香港丨Trojan丨沪港3
+      - TG@p2psharing 香港丨Trojan丨沪港中继丨4
+      - TG@p2psharing 香港丨Trojan丨沪港中继丨5
+      - TG@p2psharing 香港丨Trojan丨深港中继1
+      - TG@p2psharing 俄罗斯丨伯力丨02
+      - TG@p2psharing 印度丨湖南-印度丨中继
+      - TG@p2psharing 台湾丨BGP中继丨01丨原生丨600Mbps
+      - TG@p2psharing 台湾丨BGP中继丨02丨原生丨600Mbps
+      - TG@p2psharing 台湾丨Trojan丨静丨深台中继3
+      - TG@p2psharing 台湾丨原生丨三网直连
+      - TG@p2psharing 台湾丨原生丨深台中继丨1
+      - TG@p2psharing 台湾丨原生丨深台中继丨2
+      - TG@p2psharing 台湾丨彰化丨600m
+      - TG@p2psharing 新加坡丨深新中继丨1Gbps
+      - TG@p2psharing 新加坡丨湖南-新加坡丨中继
+      - TG@p2psharing 日本IIJ丨沪日中继02丨原生
+      - TG@p2psharing 日本IIJ丨沪日中继丨原生
+      - TG@p2psharing 日本丨上海-日本ntt丨中继
+      - TG@p2psharing 日本丨原生丨深日中继
+      - TG@p2psharing 日本丨原生丨湖南-日本丨中继
+      - TG@p2psharing 日本丨大阪丨原生
+      - TG@p2psharing 日本丨湖南-大阪丨中继
+      - TG@p2psharing 美国丨BGP中继丨01丨原生
+      - TG@p2psharing 美国丨CN2丨02丨原生
+      - TG@p2psharing 美国丨微软丨沪美中继
+      - TG@p2psharing 越南丨Netflix新加坡区
+      - TG@p2psharing 韩国丨原生丨湖南-韩国丨中继丨
+      - TG@p2psharing 韩国丨微软丨沪韩中继丨原生丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨01丨HKT丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨02丨HKT丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨03丨HGC丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨04丨流媒体专用
+      - TG@p2psharing 香港丨BGP中继丨05丨深港丨1Gbps
+      - TG@p2psharing 香港丨BGP微软丨02
+      - TG@p2psharing 香港丨BGP微软丨1丨1Gbps
+      - TG@p2psharing 香港丨HGC丨原生丨移动中继
+      - TG@p2psharing 香港丨HKG丨原生丨移动优化丨
+      - TG@p2psharing 香港丨专线丨原生丨1Gbps
+      - TG@p2psharing 香港丨原生丨湖南-香港丨中继
+      - TG@p2psharing 香港丨微軟丨广州中继
+      - TG@p2psharing 香港丨微软丨3丨2Gbps
+      - TG@p2psharing 香港丨微软丨Trojan丨移动中继
+      - TG@p2psharing 香港丨微软丨上海-香港丨
+      - TG@p2psharing 马来西亚丨原生丨移动中继
+      - 俄罗斯-隧道中转
+      - 印度 孟买-来点玛莎拉
+      - 台湾 Hinet [原生]
+      - 德国  tuboshu.live 赞助
+      - 新加坡 流媒体解锁
+      - 日本隧道[视频]
+      - 美国 流媒体视频
+      - 香港HGC[原生]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 德国1
-      - 德国2
-      - 德国3
-      - 法国1
-      - 法国2
-      - 菲律宾1
-      - 菲律宾2
-      - 菲律宾3
-      - 菲律宾4
-      - 菲律宾5
-      - 菲律宾6
-      - 菲律宾7
-      - 菲律宾8
-      - 韩国1
-      - 韩国2
-      - 韩国3
-      - 韩国 4
-      - 韩国 5
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 美国5
-      - 美国6
-      - 美国7
-      - 日本1
-      - 日本 2
-      - 日本3
-      - 日本4
-      - 日本5
-      - 日本6
-      - 日本7
-      - 日本8
-      - 日本9
-      - 日本10
-      - 台湾1
-      - 台湾2
-      - 台湾3
-      - 台湾4
-      - 台湾5
-      - 台湾6
-      - 台湾7
-      - 台湾8
-      - 台湾9
-      - 台湾10
-      - 台湾11
-      - 台湾12
-      - 台湾13
-      - 台湾14
-      - 台湾15
-      - 台湾16
-      - 台湾17
-      - 台湾18
-      - 台湾 20
-      - 台湾 21
-      - 泰国1
-      - 泰国2
-      - 泰国3
-      - 泰国4
-      - 香港1
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港5
-      - 香港6
-      - 香港7
-      - 香港8
-      - 香港9
-      - 香港10
-      - 香港11
-      - 香港12
-      - 香港13
-      - 香港14
-      - 香港15
-      - 香港16
-      - 香港17
-      - 香港18
-      - 香港19
-      - 香港20
-      - 香港21
-      - 香港22
-      - 香港23
-      - 香港24
-      - 香港25
-      - 香港26
-      - 香港27
-      - 香港28
-      - 香港29
-      - 香港30
-      - 香港31
-      - 香港32
-      - 香港33
-      - 香港34
-      - 香港35
-      - 香港36
-      - 香港37
-      - 香港38
-      - 香港39
-      - 香港40
-      - 香港41
-      - 香港42
-      - 香港43
-      - 香港44
-      - 香港45
-      - 香港46
-      - 香港47
-      - 香港48
-      - 香港49
-      - 香港50
-      - 香港51
-      - 香港52
-      - 香港53
-      - 香港54
-      - 香港55
-      - 香港56
-      - 香港57
-      - 香港58
-      - 香港59
-      - 香港60
-      - 香港61
-      - 香港62
-      - 香港63
-      - 香港64
-      - 香港65
-      - 香港 66
-      - 香港 67
-      - 香港68
-      - 香港 69
-      - 香港70
-      - 香港71
-      - 香港72
-      - 香港73
-      - 香港 74
-      - 香港75
-      - 香港76
-      - 香港77
-      - 香港78
-      - 香港79
-      - 香港80
-      - 香港81
-      - 香港82
-      - 香港83
-      - 香港84
-      - 香港86
-      - 香港87
-      - 香港88
-      - 香港89
-      - 新加坡1
-      - 新加坡2
-      - 新加坡3
-      - 印度
-      - 越南1
-      - 越南 2
-      - 越南3
-      - 越南4
-      - 中国1
-      - 中国2
-      - 中国3
-      - 中国4
-      - DE-Openit.ml
-      - GB-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - GB-Openit.ml 2
-      - US-Openit.ml 6
-      - AU-Openit.ml
-      - US-Openit.ml 7
-      - IN-Openit.ml
-      - US-Openit.ml 8
-      - KR-Openit.ml
-      - TW-Openit.ml
-      - US-Openit.ml 9
-      - US1
-      - US2
-      - RU
-      - US3
-      - SG1
-      - SG2
-      - SG3
-      - JP1
-      - JP2
-      - TW1
-      - HK1
-      - KR
-      - US4
-      - US5
-      - US6
-      - SG4
-      - SG5
-      - SG6
-      - JP3
-      - JP4
-      - TW2
-      - HK2
-      - HK2/IPLC
-      - SG1/IEPL
-      - SG2/IEPL
-      - HK3/IPLC
-      - SG3/IEPL
-      - HK5/IEPL
-      - SG4/IEPL
-      - TW-VM_4
-      - 台湾29
-      - 台湾32
-      - 台湾33
-      - 香港1 2
-      - 香港2 2
-      - 香港3 2
-      - 香港4 2
-      - 香港5 2
-      - 香港8 2
-      - 香港9 2
+      - TG@p2psharing 美国丨Trojan
+      - TG@p2psharing 香港丨Trojan丨06
+      - TG@p2psharing 香港丨Trojan丨1丨落地
+      - TG@p2psharing 香港丨Trojan丨沪港3
+      - TG@p2psharing 香港丨Trojan丨沪港中继丨4
+      - TG@p2psharing 香港丨Trojan丨沪港中继丨5
+      - TG@p2psharing 香港丨Trojan丨深港中继1
+      - TG@p2psharing 俄罗斯丨伯力丨02
+      - TG@p2psharing 印度丨湖南-印度丨中继
+      - TG@p2psharing 台湾丨BGP中继丨01丨原生丨600Mbps
+      - TG@p2psharing 台湾丨BGP中继丨02丨原生丨600Mbps
+      - TG@p2psharing 台湾丨Trojan丨静丨深台中继3
+      - TG@p2psharing 台湾丨原生丨三网直连
+      - TG@p2psharing 台湾丨原生丨深台中继丨1
+      - TG@p2psharing 台湾丨原生丨深台中继丨2
+      - TG@p2psharing 台湾丨彰化丨600m
+      - TG@p2psharing 新加坡丨深新中继丨1Gbps
+      - TG@p2psharing 新加坡丨湖南-新加坡丨中继
+      - TG@p2psharing 日本IIJ丨沪日中继02丨原生
+      - TG@p2psharing 日本IIJ丨沪日中继丨原生
+      - TG@p2psharing 日本丨上海-日本ntt丨中继
+      - TG@p2psharing 日本丨原生丨深日中继
+      - TG@p2psharing 日本丨原生丨湖南-日本丨中继
+      - TG@p2psharing 日本丨大阪丨原生
+      - TG@p2psharing 日本丨湖南-大阪丨中继
+      - TG@p2psharing 美国丨BGP中继丨01丨原生
+      - TG@p2psharing 美国丨CN2丨02丨原生
+      - TG@p2psharing 美国丨微软丨沪美中继
+      - TG@p2psharing 越南丨Netflix新加坡区
+      - TG@p2psharing 韩国丨原生丨湖南-韩国丨中继丨
+      - TG@p2psharing 韩国丨微软丨沪韩中继丨原生丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨01丨HKT丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨02丨HKT丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨03丨HGC丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨04丨流媒体专用
+      - TG@p2psharing 香港丨BGP中继丨05丨深港丨1Gbps
+      - TG@p2psharing 香港丨BGP微软丨02
+      - TG@p2psharing 香港丨BGP微软丨1丨1Gbps
+      - TG@p2psharing 香港丨HGC丨原生丨移动中继
+      - TG@p2psharing 香港丨HKG丨原生丨移动优化丨
+      - TG@p2psharing 香港丨专线丨原生丨1Gbps
+      - TG@p2psharing 香港丨原生丨湖南-香港丨中继
+      - TG@p2psharing 香港丨微軟丨广州中继
+      - TG@p2psharing 香港丨微软丨3丨2Gbps
+      - TG@p2psharing 香港丨微软丨Trojan丨移动中继
+      - TG@p2psharing 香港丨微软丨上海-香港丨
+      - TG@p2psharing 马来西亚丨原生丨移动中继
+      - 俄罗斯-隧道中转
+      - 印度 孟买-来点玛莎拉
+      - 台湾 Hinet [原生]
+      - 德国  tuboshu.live 赞助
+      - 新加坡 流媒体解锁
+      - 日本隧道[视频]
+      - 美国 流媒体视频
+      - 香港HGC[原生]
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国1
-      - 德国2
-      - 德国3
-      - 法国1
-      - 法国2
-      - 菲律宾1
-      - 菲律宾2
-      - 菲律宾3
-      - 菲律宾4
-      - 菲律宾5
-      - 菲律宾6
-      - 菲律宾7
-      - 菲律宾8
-      - 韩国1
-      - 韩国2
-      - 韩国3
-      - 韩国 4
-      - 韩国 5
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 美国5
-      - 美国6
-      - 美国7
-      - 日本1
-      - 日本 2
-      - 日本3
-      - 日本4
-      - 日本5
-      - 日本6
-      - 日本7
-      - 日本8
-      - 日本9
-      - 日本10
-      - 台湾1
-      - 台湾2
-      - 台湾3
-      - 台湾4
-      - 台湾5
-      - 台湾6
-      - 台湾7
-      - 台湾8
-      - 台湾9
-      - 台湾10
-      - 台湾11
-      - 台湾12
-      - 台湾13
-      - 台湾14
-      - 台湾15
-      - 台湾16
-      - 台湾17
-      - 台湾18
-      - 台湾 20
-      - 台湾 21
-      - 泰国1
-      - 泰国2
-      - 泰国3
-      - 泰国4
-      - 香港1
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港5
-      - 香港6
-      - 香港7
-      - 香港8
-      - 香港9
-      - 香港10
-      - 香港11
-      - 香港12
-      - 香港13
-      - 香港14
-      - 香港15
-      - 香港16
-      - 香港17
-      - 香港18
-      - 香港19
-      - 香港20
-      - 香港21
-      - 香港22
-      - 香港23
-      - 香港24
-      - 香港25
-      - 香港26
-      - 香港27
-      - 香港28
-      - 香港29
-      - 香港30
-      - 香港31
-      - 香港32
-      - 香港33
-      - 香港34
-      - 香港35
-      - 香港36
-      - 香港37
-      - 香港38
-      - 香港39
-      - 香港40
-      - 香港41
-      - 香港42
-      - 香港43
-      - 香港44
-      - 香港45
-      - 香港46
-      - 香港47
-      - 香港48
-      - 香港49
-      - 香港50
-      - 香港51
-      - 香港52
-      - 香港53
-      - 香港54
-      - 香港55
-      - 香港56
-      - 香港57
-      - 香港58
-      - 香港59
-      - 香港60
-      - 香港61
-      - 香港62
-      - 香港63
-      - 香港64
-      - 香港65
-      - 香港 66
-      - 香港 67
-      - 香港68
-      - 香港 69
-      - 香港70
-      - 香港71
-      - 香港72
-      - 香港73
-      - 香港 74
-      - 香港75
-      - 香港76
-      - 香港77
-      - 香港78
-      - 香港79
-      - 香港80
-      - 香港81
-      - 香港82
-      - 香港83
-      - 香港84
-      - 香港86
-      - 香港87
-      - 香港88
-      - 香港89
-      - 新加坡1
-      - 新加坡2
-      - 新加坡3
-      - 印度
-      - 越南1
-      - 越南 2
-      - 越南3
-      - 越南4
-      - 中国1
-      - 中国2
-      - 中国3
-      - 中国4
-      - DE-Openit.ml
-      - GB-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - GB-Openit.ml 2
-      - US-Openit.ml 6
-      - AU-Openit.ml
-      - US-Openit.ml 7
-      - IN-Openit.ml
-      - US-Openit.ml 8
-      - KR-Openit.ml
-      - TW-Openit.ml
-      - US-Openit.ml 9
-      - US1
-      - US2
-      - RU
-      - US3
-      - SG1
-      - SG2
-      - SG3
-      - JP1
-      - JP2
-      - TW1
-      - HK1
-      - KR
-      - US4
-      - US5
-      - US6
-      - SG4
-      - SG5
-      - SG6
-      - JP3
-      - JP4
-      - TW2
-      - HK2
-      - HK2/IPLC
-      - SG1/IEPL
-      - SG2/IEPL
-      - HK3/IPLC
-      - SG3/IEPL
-      - HK5/IEPL
-      - SG4/IEPL
-      - TW-VM_4
-      - 台湾29
-      - 台湾32
-      - 台湾33
-      - 香港1 2
-      - 香港2 2
-      - 香港3 2
-      - 香港4 2
-      - 香港5 2
-      - 香港8 2
-      - 香港9 2
+      - TG@p2psharing 美国丨Trojan
+      - TG@p2psharing 香港丨Trojan丨06
+      - TG@p2psharing 香港丨Trojan丨1丨落地
+      - TG@p2psharing 香港丨Trojan丨沪港3
+      - TG@p2psharing 香港丨Trojan丨沪港中继丨4
+      - TG@p2psharing 香港丨Trojan丨沪港中继丨5
+      - TG@p2psharing 香港丨Trojan丨深港中继1
+      - TG@p2psharing 俄罗斯丨伯力丨02
+      - TG@p2psharing 印度丨湖南-印度丨中继
+      - TG@p2psharing 台湾丨BGP中继丨01丨原生丨600Mbps
+      - TG@p2psharing 台湾丨BGP中继丨02丨原生丨600Mbps
+      - TG@p2psharing 台湾丨Trojan丨静丨深台中继3
+      - TG@p2psharing 台湾丨原生丨三网直连
+      - TG@p2psharing 台湾丨原生丨深台中继丨1
+      - TG@p2psharing 台湾丨原生丨深台中继丨2
+      - TG@p2psharing 台湾丨彰化丨600m
+      - TG@p2psharing 新加坡丨深新中继丨1Gbps
+      - TG@p2psharing 新加坡丨湖南-新加坡丨中继
+      - TG@p2psharing 日本IIJ丨沪日中继02丨原生
+      - TG@p2psharing 日本IIJ丨沪日中继丨原生
+      - TG@p2psharing 日本丨上海-日本ntt丨中继
+      - TG@p2psharing 日本丨原生丨深日中继
+      - TG@p2psharing 日本丨原生丨湖南-日本丨中继
+      - TG@p2psharing 日本丨大阪丨原生
+      - TG@p2psharing 日本丨湖南-大阪丨中继
+      - TG@p2psharing 美国丨BGP中继丨01丨原生
+      - TG@p2psharing 美国丨CN2丨02丨原生
+      - TG@p2psharing 美国丨微软丨沪美中继
+      - TG@p2psharing 越南丨Netflix新加坡区
+      - TG@p2psharing 韩国丨原生丨湖南-韩国丨中继丨
+      - TG@p2psharing 韩国丨微软丨沪韩中继丨原生丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨01丨HKT丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨02丨HKT丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨03丨HGC丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨04丨流媒体专用
+      - TG@p2psharing 香港丨BGP中继丨05丨深港丨1Gbps
+      - TG@p2psharing 香港丨BGP微软丨02
+      - TG@p2psharing 香港丨BGP微软丨1丨1Gbps
+      - TG@p2psharing 香港丨HGC丨原生丨移动中继
+      - TG@p2psharing 香港丨HKG丨原生丨移动优化丨
+      - TG@p2psharing 香港丨专线丨原生丨1Gbps
+      - TG@p2psharing 香港丨原生丨湖南-香港丨中继
+      - TG@p2psharing 香港丨微軟丨广州中继
+      - TG@p2psharing 香港丨微软丨3丨2Gbps
+      - TG@p2psharing 香港丨微软丨Trojan丨移动中继
+      - TG@p2psharing 香港丨微软丨上海-香港丨
+      - TG@p2psharing 马来西亚丨原生丨移动中继
+      - 俄罗斯-隧道中转
+      - 印度 孟买-来点玛莎拉
+      - 台湾 Hinet [原生]
+      - 德国  tuboshu.live 赞助
+      - 新加坡 流媒体解锁
+      - 日本隧道[视频]
+      - 美国 流媒体视频
+      - 香港HGC[原生]
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -900,1005 +260,277 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国1
-      - 德国2
-      - 德国3
-      - 法国1
-      - 法国2
-      - 菲律宾1
-      - 菲律宾2
-      - 菲律宾3
-      - 菲律宾4
-      - 菲律宾5
-      - 菲律宾6
-      - 菲律宾7
-      - 菲律宾8
-      - 韩国1
-      - 韩国2
-      - 韩国3
-      - 韩国 4
-      - 韩国 5
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 美国5
-      - 美国6
-      - 美国7
-      - 日本1
-      - 日本 2
-      - 日本3
-      - 日本4
-      - 日本5
-      - 日本6
-      - 日本7
-      - 日本8
-      - 日本9
-      - 日本10
-      - 台湾1
-      - 台湾2
-      - 台湾3
-      - 台湾4
-      - 台湾5
-      - 台湾6
-      - 台湾7
-      - 台湾8
-      - 台湾9
-      - 台湾10
-      - 台湾11
-      - 台湾12
-      - 台湾13
-      - 台湾14
-      - 台湾15
-      - 台湾16
-      - 台湾17
-      - 台湾18
-      - 台湾 20
-      - 台湾 21
-      - 泰国1
-      - 泰国2
-      - 泰国3
-      - 泰国4
-      - 香港1
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港5
-      - 香港6
-      - 香港7
-      - 香港8
-      - 香港9
-      - 香港10
-      - 香港11
-      - 香港12
-      - 香港13
-      - 香港14
-      - 香港15
-      - 香港16
-      - 香港17
-      - 香港18
-      - 香港19
-      - 香港20
-      - 香港21
-      - 香港22
-      - 香港23
-      - 香港24
-      - 香港25
-      - 香港26
-      - 香港27
-      - 香港28
-      - 香港29
-      - 香港30
-      - 香港31
-      - 香港32
-      - 香港33
-      - 香港34
-      - 香港35
-      - 香港36
-      - 香港37
-      - 香港38
-      - 香港39
-      - 香港40
-      - 香港41
-      - 香港42
-      - 香港43
-      - 香港44
-      - 香港45
-      - 香港46
-      - 香港47
-      - 香港48
-      - 香港49
-      - 香港50
-      - 香港51
-      - 香港52
-      - 香港53
-      - 香港54
-      - 香港55
-      - 香港56
-      - 香港57
-      - 香港58
-      - 香港59
-      - 香港60
-      - 香港61
-      - 香港62
-      - 香港63
-      - 香港64
-      - 香港65
-      - 香港 66
-      - 香港 67
-      - 香港68
-      - 香港 69
-      - 香港70
-      - 香港71
-      - 香港72
-      - 香港73
-      - 香港 74
-      - 香港75
-      - 香港76
-      - 香港77
-      - 香港78
-      - 香港79
-      - 香港80
-      - 香港81
-      - 香港82
-      - 香港83
-      - 香港84
-      - 香港86
-      - 香港87
-      - 香港88
-      - 香港89
-      - 新加坡1
-      - 新加坡2
-      - 新加坡3
-      - 印度
-      - 越南1
-      - 越南 2
-      - 越南3
-      - 越南4
-      - 中国1
-      - 中国2
-      - 中国3
-      - 中国4
-      - DE-Openit.ml
-      - GB-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - GB-Openit.ml 2
-      - US-Openit.ml 6
-      - AU-Openit.ml
-      - US-Openit.ml 7
-      - IN-Openit.ml
-      - US-Openit.ml 8
-      - KR-Openit.ml
-      - TW-Openit.ml
-      - US-Openit.ml 9
-      - US1
-      - US2
-      - RU
-      - US3
-      - SG1
-      - SG2
-      - SG3
-      - JP1
-      - JP2
-      - TW1
-      - HK1
-      - KR
-      - US4
-      - US5
-      - US6
-      - SG4
-      - SG5
-      - SG6
-      - JP3
-      - JP4
-      - TW2
-      - HK2
-      - HK2/IPLC
-      - SG1/IEPL
-      - SG2/IEPL
-      - HK3/IPLC
-      - SG3/IEPL
-      - HK5/IEPL
-      - SG4/IEPL
-      - TW-VM_4
-      - 台湾29
-      - 台湾32
-      - 台湾33
-      - 香港1 2
-      - 香港2 2
-      - 香港3 2
-      - 香港4 2
-      - 香港5 2
-      - 香港8 2
-      - 香港9 2
+      - TG@p2psharing 美国丨Trojan
+      - TG@p2psharing 香港丨Trojan丨06
+      - TG@p2psharing 香港丨Trojan丨1丨落地
+      - TG@p2psharing 香港丨Trojan丨沪港3
+      - TG@p2psharing 香港丨Trojan丨沪港中继丨4
+      - TG@p2psharing 香港丨Trojan丨沪港中继丨5
+      - TG@p2psharing 香港丨Trojan丨深港中继1
+      - TG@p2psharing 俄罗斯丨伯力丨02
+      - TG@p2psharing 印度丨湖南-印度丨中继
+      - TG@p2psharing 台湾丨BGP中继丨01丨原生丨600Mbps
+      - TG@p2psharing 台湾丨BGP中继丨02丨原生丨600Mbps
+      - TG@p2psharing 台湾丨Trojan丨静丨深台中继3
+      - TG@p2psharing 台湾丨原生丨三网直连
+      - TG@p2psharing 台湾丨原生丨深台中继丨1
+      - TG@p2psharing 台湾丨原生丨深台中继丨2
+      - TG@p2psharing 台湾丨彰化丨600m
+      - TG@p2psharing 新加坡丨深新中继丨1Gbps
+      - TG@p2psharing 新加坡丨湖南-新加坡丨中继
+      - TG@p2psharing 日本IIJ丨沪日中继02丨原生
+      - TG@p2psharing 日本IIJ丨沪日中继丨原生
+      - TG@p2psharing 日本丨上海-日本ntt丨中继
+      - TG@p2psharing 日本丨原生丨深日中继
+      - TG@p2psharing 日本丨原生丨湖南-日本丨中继
+      - TG@p2psharing 日本丨大阪丨原生
+      - TG@p2psharing 日本丨湖南-大阪丨中继
+      - TG@p2psharing 美国丨BGP中继丨01丨原生
+      - TG@p2psharing 美国丨CN2丨02丨原生
+      - TG@p2psharing 美国丨微软丨沪美中继
+      - TG@p2psharing 越南丨Netflix新加坡区
+      - TG@p2psharing 韩国丨原生丨湖南-韩国丨中继丨
+      - TG@p2psharing 韩国丨微软丨沪韩中继丨原生丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨01丨HKT丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨02丨HKT丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨03丨HGC丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨04丨流媒体专用
+      - TG@p2psharing 香港丨BGP中继丨05丨深港丨1Gbps
+      - TG@p2psharing 香港丨BGP微软丨02
+      - TG@p2psharing 香港丨BGP微软丨1丨1Gbps
+      - TG@p2psharing 香港丨HGC丨原生丨移动中继
+      - TG@p2psharing 香港丨HKG丨原生丨移动优化丨
+      - TG@p2psharing 香港丨专线丨原生丨1Gbps
+      - TG@p2psharing 香港丨原生丨湖南-香港丨中继
+      - TG@p2psharing 香港丨微軟丨广州中继
+      - TG@p2psharing 香港丨微软丨3丨2Gbps
+      - TG@p2psharing 香港丨微软丨Trojan丨移动中继
+      - TG@p2psharing 香港丨微软丨上海-香港丨
+      - TG@p2psharing 马来西亚丨原生丨移动中继
+      - 俄罗斯-隧道中转
+      - 印度 孟买-来点玛莎拉
+      - 台湾 Hinet [原生]
+      - 德国  tuboshu.live 赞助
+      - 新加坡 流媒体解锁
+      - 日本隧道[视频]
+      - 美国 流媒体视频
+      - 香港HGC[原生]
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾1
-      - 台湾2
-      - 台湾3
-      - 台湾4
-      - 台湾5
-      - 台湾6
-      - 台湾7
-      - 台湾8
-      - 台湾9
-      - 台湾10
-      - 台湾11
-      - 台湾12
-      - 台湾13
-      - 台湾14
-      - 台湾15
-      - 台湾16
-      - 台湾17
-      - 台湾18
-      - 台湾 20
-      - 台湾 21
-      - 香港1
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港5
-      - 香港6
-      - 香港7
-      - 香港8
-      - 香港9
-      - 香港10
-      - 香港11
-      - 香港12
-      - 香港13
-      - 香港14
-      - 香港15
-      - 香港16
-      - 香港17
-      - 香港18
-      - 香港19
-      - 香港20
-      - 香港21
-      - 香港22
-      - 香港23
-      - 香港24
-      - 香港25
-      - 香港26
-      - 香港27
-      - 香港28
-      - 香港29
-      - 香港30
-      - 香港31
-      - 香港32
-      - 香港33
-      - 香港34
-      - 香港35
-      - 香港36
-      - 香港37
-      - 香港38
-      - 香港39
-      - 香港40
-      - 香港41
-      - 香港42
-      - 香港43
-      - 香港44
-      - 香港45
-      - 香港46
-      - 香港47
-      - 香港48
-      - 香港49
-      - 香港50
-      - 香港51
-      - 香港52
-      - 香港53
-      - 香港54
-      - 香港55
-      - 香港56
-      - 香港57
-      - 香港58
-      - 香港59
-      - 香港60
-      - 香港61
-      - 香港62
-      - 香港63
-      - 香港64
-      - 香港65
-      - 香港 66
-      - 香港 67
-      - 香港68
-      - 香港 69
-      - 香港70
-      - 香港71
-      - 香港72
-      - 香港73
-      - 香港 74
-      - 香港75
-      - 香港76
-      - 香港77
-      - 香港78
-      - 香港79
-      - 香港80
-      - 香港81
-      - 香港82
-      - 香港83
-      - 香港84
-      - 香港86
-      - 香港87
-      - 香港88
-      - 香港89
-      - 台湾29
-      - 台湾32
-      - 台湾33
-      - 香港1 2
-      - 香港2 2
-      - 香港3 2
-      - 香港4 2
-      - 香港5 2
-      - 香港8 2
-      - 香港9 2
+      - TG@p2psharing 香港丨Trojan丨06
+      - TG@p2psharing 香港丨Trojan丨1丨落地
+      - TG@p2psharing 香港丨Trojan丨沪港3
+      - TG@p2psharing 香港丨Trojan丨沪港中继丨4
+      - TG@p2psharing 香港丨Trojan丨沪港中继丨5
+      - TG@p2psharing 香港丨Trojan丨深港中继1
+      - TG@p2psharing 台湾丨BGP中继丨01丨原生丨600Mbps
+      - TG@p2psharing 台湾丨BGP中继丨02丨原生丨600Mbps
+      - TG@p2psharing 台湾丨Trojan丨静丨深台中继3
+      - TG@p2psharing 台湾丨原生丨三网直连
+      - TG@p2psharing 台湾丨原生丨深台中继丨1
+      - TG@p2psharing 台湾丨原生丨深台中继丨2
+      - TG@p2psharing 台湾丨彰化丨600m
+      - TG@p2psharing 香港丨BGP中继丨01丨HKT丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨02丨HKT丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨03丨HGC丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨04丨流媒体专用
+      - TG@p2psharing 香港丨BGP中继丨05丨深港丨1Gbps
+      - TG@p2psharing 香港丨BGP微软丨02
+      - TG@p2psharing 香港丨BGP微软丨1丨1Gbps
+      - TG@p2psharing 香港丨HGC丨原生丨移动中继
+      - TG@p2psharing 香港丨HKG丨原生丨移动优化丨
+      - TG@p2psharing 香港丨专线丨原生丨1Gbps
+      - TG@p2psharing 香港丨原生丨湖南-香港丨中继
+      - TG@p2psharing 香港丨微軟丨广州中继
+      - TG@p2psharing 香港丨微软丨3丨2Gbps
+      - TG@p2psharing 香港丨微软丨Trojan丨移动中继
+      - TG@p2psharing 香港丨微软丨上海-香港丨
+      - 台湾 Hinet [原生]
+      - 香港HGC[原生]
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 德国1
-      - 德国2
-      - 德国3
-      - 法国1
-      - 法国2
-      - 菲律宾1
-      - 菲律宾2
-      - 菲律宾3
-      - 菲律宾4
-      - 菲律宾5
-      - 菲律宾6
-      - 菲律宾7
-      - 菲律宾8
-      - 韩国1
-      - 韩国2
-      - 韩国3
-      - 韩国 4
-      - 韩国 5
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 美国5
-      - 美国6
-      - 美国7
-      - 日本1
-      - 日本 2
-      - 日本3
-      - 日本4
-      - 日本5
-      - 日本6
-      - 日本7
-      - 日本8
-      - 日本9
-      - 日本10
-      - 台湾1
-      - 台湾2
-      - 台湾3
-      - 台湾4
-      - 台湾5
-      - 台湾6
-      - 台湾7
-      - 台湾8
-      - 台湾9
-      - 台湾10
-      - 台湾11
-      - 台湾12
-      - 台湾13
-      - 台湾14
-      - 台湾15
-      - 台湾16
-      - 台湾17
-      - 台湾18
-      - 台湾 20
-      - 台湾 21
-      - 泰国1
-      - 泰国2
-      - 泰国3
-      - 泰国4
-      - 香港1
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港5
-      - 香港6
-      - 香港7
-      - 香港8
-      - 香港9
-      - 香港10
-      - 香港11
-      - 香港12
-      - 香港13
-      - 香港14
-      - 香港15
-      - 香港16
-      - 香港17
-      - 香港18
-      - 香港19
-      - 香港20
-      - 香港21
-      - 香港22
-      - 香港23
-      - 香港24
-      - 香港25
-      - 香港26
-      - 香港27
-      - 香港28
-      - 香港29
-      - 香港30
-      - 香港31
-      - 香港32
-      - 香港33
-      - 香港34
-      - 香港35
-      - 香港36
-      - 香港37
-      - 香港38
-      - 香港39
-      - 香港40
-      - 香港41
-      - 香港42
-      - 香港43
-      - 香港44
-      - 香港45
-      - 香港46
-      - 香港47
-      - 香港48
-      - 香港49
-      - 香港50
-      - 香港51
-      - 香港52
-      - 香港53
-      - 香港54
-      - 香港55
-      - 香港56
-      - 香港57
-      - 香港58
-      - 香港59
-      - 香港60
-      - 香港61
-      - 香港62
-      - 香港63
-      - 香港64
-      - 香港65
-      - 香港 66
-      - 香港 67
-      - 香港68
-      - 香港 69
-      - 香港70
-      - 香港71
-      - 香港72
-      - 香港73
-      - 香港 74
-      - 香港75
-      - 香港76
-      - 香港77
-      - 香港78
-      - 香港79
-      - 香港80
-      - 香港81
-      - 香港82
-      - 香港83
-      - 香港84
-      - 香港86
-      - 香港87
-      - 香港88
-      - 香港89
-      - 新加坡1
-      - 新加坡2
-      - 新加坡3
-      - 印度
-      - 越南1
-      - 越南 2
-      - 越南3
-      - 越南4
-      - 中国1
-      - 中国2
-      - 中国3
-      - 中国4
-      - DE-Openit.ml
-      - GB-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - GB-Openit.ml 2
-      - US-Openit.ml 6
-      - AU-Openit.ml
-      - US-Openit.ml 7
-      - IN-Openit.ml
-      - US-Openit.ml 8
-      - KR-Openit.ml
-      - TW-Openit.ml
-      - US-Openit.ml 9
-      - US1
-      - US2
-      - RU
-      - US3
-      - SG1
-      - SG2
-      - SG3
-      - JP1
-      - JP2
-      - TW1
-      - HK1
-      - KR
-      - US4
-      - US5
-      - US6
-      - SG4
-      - SG5
-      - SG6
-      - JP3
-      - JP4
-      - TW2
-      - HK2
-      - HK2/IPLC
-      - SG1/IEPL
-      - SG2/IEPL
-      - HK3/IPLC
-      - SG3/IEPL
-      - HK5/IEPL
-      - SG4/IEPL
-      - TW-VM_4
-      - 台湾29
-      - 台湾32
-      - 台湾33
-      - 香港1 2
-      - 香港2 2
-      - 香港3 2
-      - 香港4 2
-      - 香港5 2
-      - 香港8 2
-      - 香港9 2
+      - TG@p2psharing 美国丨Trojan
+      - TG@p2psharing 香港丨Trojan丨06
+      - TG@p2psharing 香港丨Trojan丨1丨落地
+      - TG@p2psharing 香港丨Trojan丨沪港3
+      - TG@p2psharing 香港丨Trojan丨沪港中继丨4
+      - TG@p2psharing 香港丨Trojan丨沪港中继丨5
+      - TG@p2psharing 香港丨Trojan丨深港中继1
+      - TG@p2psharing 俄罗斯丨伯力丨02
+      - TG@p2psharing 印度丨湖南-印度丨中继
+      - TG@p2psharing 台湾丨BGP中继丨01丨原生丨600Mbps
+      - TG@p2psharing 台湾丨BGP中继丨02丨原生丨600Mbps
+      - TG@p2psharing 台湾丨Trojan丨静丨深台中继3
+      - TG@p2psharing 台湾丨原生丨三网直连
+      - TG@p2psharing 台湾丨原生丨深台中继丨1
+      - TG@p2psharing 台湾丨原生丨深台中继丨2
+      - TG@p2psharing 台湾丨彰化丨600m
+      - TG@p2psharing 新加坡丨深新中继丨1Gbps
+      - TG@p2psharing 新加坡丨湖南-新加坡丨中继
+      - TG@p2psharing 日本IIJ丨沪日中继02丨原生
+      - TG@p2psharing 日本IIJ丨沪日中继丨原生
+      - TG@p2psharing 日本丨上海-日本ntt丨中继
+      - TG@p2psharing 日本丨原生丨深日中继
+      - TG@p2psharing 日本丨原生丨湖南-日本丨中继
+      - TG@p2psharing 日本丨大阪丨原生
+      - TG@p2psharing 日本丨湖南-大阪丨中继
+      - TG@p2psharing 美国丨BGP中继丨01丨原生
+      - TG@p2psharing 美国丨CN2丨02丨原生
+      - TG@p2psharing 美国丨微软丨沪美中继
+      - TG@p2psharing 越南丨Netflix新加坡区
+      - TG@p2psharing 韩国丨原生丨湖南-韩国丨中继丨
+      - TG@p2psharing 韩国丨微软丨沪韩中继丨原生丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨01丨HKT丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨02丨HKT丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨03丨HGC丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨04丨流媒体专用
+      - TG@p2psharing 香港丨BGP中继丨05丨深港丨1Gbps
+      - TG@p2psharing 香港丨BGP微软丨02
+      - TG@p2psharing 香港丨BGP微软丨1丨1Gbps
+      - TG@p2psharing 香港丨HGC丨原生丨移动中继
+      - TG@p2psharing 香港丨HKG丨原生丨移动优化丨
+      - TG@p2psharing 香港丨专线丨原生丨1Gbps
+      - TG@p2psharing 香港丨原生丨湖南-香港丨中继
+      - TG@p2psharing 香港丨微軟丨广州中继
+      - TG@p2psharing 香港丨微软丨3丨2Gbps
+      - TG@p2psharing 香港丨微软丨Trojan丨移动中继
+      - TG@p2psharing 香港丨微软丨上海-香港丨
+      - TG@p2psharing 马来西亚丨原生丨移动中继
+      - 俄罗斯-隧道中转
+      - 印度 孟买-来点玛莎拉
+      - 台湾 Hinet [原生]
+      - 德国  tuboshu.live 赞助
+      - 新加坡 流媒体解锁
+      - 日本隧道[视频]
+      - 美国 流媒体视频
+      - 香港HGC[原生]
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 德国1
-      - 德国2
-      - 德国3
-      - 法国1
-      - 法国2
-      - 菲律宾1
-      - 菲律宾2
-      - 菲律宾3
-      - 菲律宾4
-      - 菲律宾5
-      - 菲律宾6
-      - 菲律宾7
-      - 菲律宾8
-      - 韩国1
-      - 韩国2
-      - 韩国3
-      - 韩国 4
-      - 韩国 5
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 美国5
-      - 美国6
-      - 美国7
-      - 日本1
-      - 日本 2
-      - 日本3
-      - 日本4
-      - 日本5
-      - 日本6
-      - 日本7
-      - 日本8
-      - 日本9
-      - 日本10
-      - 台湾1
-      - 台湾2
-      - 台湾3
-      - 台湾4
-      - 台湾5
-      - 台湾6
-      - 台湾7
-      - 台湾8
-      - 台湾9
-      - 台湾10
-      - 台湾11
-      - 台湾12
-      - 台湾13
-      - 台湾14
-      - 台湾15
-      - 台湾16
-      - 台湾17
-      - 台湾18
-      - 台湾 20
-      - 台湾 21
-      - 泰国1
-      - 泰国2
-      - 泰国3
-      - 泰国4
-      - 香港1
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港5
-      - 香港6
-      - 香港7
-      - 香港8
-      - 香港9
-      - 香港10
-      - 香港11
-      - 香港12
-      - 香港13
-      - 香港14
-      - 香港15
-      - 香港16
-      - 香港17
-      - 香港18
-      - 香港19
-      - 香港20
-      - 香港21
-      - 香港22
-      - 香港23
-      - 香港24
-      - 香港25
-      - 香港26
-      - 香港27
-      - 香港28
-      - 香港29
-      - 香港30
-      - 香港31
-      - 香港32
-      - 香港33
-      - 香港34
-      - 香港35
-      - 香港36
-      - 香港37
-      - 香港38
-      - 香港39
-      - 香港40
-      - 香港41
-      - 香港42
-      - 香港43
-      - 香港44
-      - 香港45
-      - 香港46
-      - 香港47
-      - 香港48
-      - 香港49
-      - 香港50
-      - 香港51
-      - 香港52
-      - 香港53
-      - 香港54
-      - 香港55
-      - 香港56
-      - 香港57
-      - 香港58
-      - 香港59
-      - 香港60
-      - 香港61
-      - 香港62
-      - 香港63
-      - 香港64
-      - 香港65
-      - 香港 66
-      - 香港 67
-      - 香港68
-      - 香港 69
-      - 香港70
-      - 香港71
-      - 香港72
-      - 香港73
-      - 香港 74
-      - 香港75
-      - 香港76
-      - 香港77
-      - 香港78
-      - 香港79
-      - 香港80
-      - 香港81
-      - 香港82
-      - 香港83
-      - 香港84
-      - 香港86
-      - 香港87
-      - 香港88
-      - 香港89
-      - 新加坡1
-      - 新加坡2
-      - 新加坡3
-      - 印度
-      - 越南1
-      - 越南 2
-      - 越南3
-      - 越南4
-      - 中国1
-      - 中国2
-      - 中国3
-      - 中国4
-      - DE-Openit.ml
-      - GB-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - GB-Openit.ml 2
-      - US-Openit.ml 6
-      - AU-Openit.ml
-      - US-Openit.ml 7
-      - IN-Openit.ml
-      - US-Openit.ml 8
-      - KR-Openit.ml
-      - TW-Openit.ml
-      - US-Openit.ml 9
-      - US1
-      - US2
-      - RU
-      - US3
-      - SG1
-      - SG2
-      - SG3
-      - JP1
-      - JP2
-      - TW1
-      - HK1
-      - KR
-      - US4
-      - US5
-      - US6
-      - SG4
-      - SG5
-      - SG6
-      - JP3
-      - JP4
-      - TW2
-      - HK2
-      - HK2/IPLC
-      - SG1/IEPL
-      - SG2/IEPL
-      - HK3/IPLC
-      - SG3/IEPL
-      - HK5/IEPL
-      - SG4/IEPL
-      - TW-VM_4
-      - 台湾29
-      - 台湾32
-      - 台湾33
-      - 香港1 2
-      - 香港2 2
-      - 香港3 2
-      - 香港4 2
-      - 香港5 2
-      - 香港8 2
-      - 香港9 2
+      - TG@p2psharing 美国丨Trojan
+      - TG@p2psharing 香港丨Trojan丨06
+      - TG@p2psharing 香港丨Trojan丨1丨落地
+      - TG@p2psharing 香港丨Trojan丨沪港3
+      - TG@p2psharing 香港丨Trojan丨沪港中继丨4
+      - TG@p2psharing 香港丨Trojan丨沪港中继丨5
+      - TG@p2psharing 香港丨Trojan丨深港中继1
+      - TG@p2psharing 俄罗斯丨伯力丨02
+      - TG@p2psharing 印度丨湖南-印度丨中继
+      - TG@p2psharing 台湾丨BGP中继丨01丨原生丨600Mbps
+      - TG@p2psharing 台湾丨BGP中继丨02丨原生丨600Mbps
+      - TG@p2psharing 台湾丨Trojan丨静丨深台中继3
+      - TG@p2psharing 台湾丨原生丨三网直连
+      - TG@p2psharing 台湾丨原生丨深台中继丨1
+      - TG@p2psharing 台湾丨原生丨深台中继丨2
+      - TG@p2psharing 台湾丨彰化丨600m
+      - TG@p2psharing 新加坡丨深新中继丨1Gbps
+      - TG@p2psharing 新加坡丨湖南-新加坡丨中继
+      - TG@p2psharing 日本IIJ丨沪日中继02丨原生
+      - TG@p2psharing 日本IIJ丨沪日中继丨原生
+      - TG@p2psharing 日本丨上海-日本ntt丨中继
+      - TG@p2psharing 日本丨原生丨深日中继
+      - TG@p2psharing 日本丨原生丨湖南-日本丨中继
+      - TG@p2psharing 日本丨大阪丨原生
+      - TG@p2psharing 日本丨湖南-大阪丨中继
+      - TG@p2psharing 美国丨BGP中继丨01丨原生
+      - TG@p2psharing 美国丨CN2丨02丨原生
+      - TG@p2psharing 美国丨微软丨沪美中继
+      - TG@p2psharing 越南丨Netflix新加坡区
+      - TG@p2psharing 韩国丨原生丨湖南-韩国丨中继丨
+      - TG@p2psharing 韩国丨微软丨沪韩中继丨原生丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨01丨HKT丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨02丨HKT丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨03丨HGC丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨04丨流媒体专用
+      - TG@p2psharing 香港丨BGP中继丨05丨深港丨1Gbps
+      - TG@p2psharing 香港丨BGP微软丨02
+      - TG@p2psharing 香港丨BGP微软丨1丨1Gbps
+      - TG@p2psharing 香港丨HGC丨原生丨移动中继
+      - TG@p2psharing 香港丨HKG丨原生丨移动优化丨
+      - TG@p2psharing 香港丨专线丨原生丨1Gbps
+      - TG@p2psharing 香港丨原生丨湖南-香港丨中继
+      - TG@p2psharing 香港丨微軟丨广州中继
+      - TG@p2psharing 香港丨微软丨3丨2Gbps
+      - TG@p2psharing 香港丨微软丨Trojan丨移动中继
+      - TG@p2psharing 香港丨微软丨上海-香港丨
+      - TG@p2psharing 马来西亚丨原生丨移动中继
+      - 俄罗斯-隧道中转
+      - 印度 孟买-来点玛莎拉
+      - 台湾 Hinet [原生]
+      - 德国  tuboshu.live 赞助
+      - 新加坡 流媒体解锁
+      - 日本隧道[视频]
+      - 美国 流媒体视频
+      - 香港HGC[原生]
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 德国1
-      - 德国2
-      - 德国3
-      - 法国1
-      - 法国2
-      - 菲律宾1
-      - 菲律宾2
-      - 菲律宾3
-      - 菲律宾4
-      - 菲律宾5
-      - 菲律宾6
-      - 菲律宾7
-      - 菲律宾8
-      - 韩国1
-      - 韩国2
-      - 韩国3
-      - 韩国 4
-      - 韩国 5
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 美国5
-      - 美国6
-      - 美国7
-      - 日本1
-      - 日本 2
-      - 日本3
-      - 日本4
-      - 日本5
-      - 日本6
-      - 日本7
-      - 日本8
-      - 日本9
-      - 日本10
-      - 台湾1
-      - 台湾2
-      - 台湾3
-      - 台湾4
-      - 台湾5
-      - 台湾6
-      - 台湾7
-      - 台湾8
-      - 台湾9
-      - 台湾10
-      - 台湾11
-      - 台湾12
-      - 台湾13
-      - 台湾14
-      - 台湾15
-      - 台湾16
-      - 台湾17
-      - 台湾18
-      - 台湾 20
-      - 台湾 21
-      - 泰国1
-      - 泰国2
-      - 泰国3
-      - 泰国4
-      - 香港1
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港5
-      - 香港6
-      - 香港7
-      - 香港8
-      - 香港9
-      - 香港10
-      - 香港11
-      - 香港12
-      - 香港13
-      - 香港14
-      - 香港15
-      - 香港16
-      - 香港17
-      - 香港18
-      - 香港19
-      - 香港20
-      - 香港21
-      - 香港22
-      - 香港23
-      - 香港24
-      - 香港25
-      - 香港26
-      - 香港27
-      - 香港28
-      - 香港29
-      - 香港30
-      - 香港31
-      - 香港32
-      - 香港33
-      - 香港34
-      - 香港35
-      - 香港36
-      - 香港37
-      - 香港38
-      - 香港39
-      - 香港40
-      - 香港41
-      - 香港42
-      - 香港43
-      - 香港44
-      - 香港45
-      - 香港46
-      - 香港47
-      - 香港48
-      - 香港49
-      - 香港50
-      - 香港51
-      - 香港52
-      - 香港53
-      - 香港54
-      - 香港55
-      - 香港56
-      - 香港57
-      - 香港58
-      - 香港59
-      - 香港60
-      - 香港61
-      - 香港62
-      - 香港63
-      - 香港64
-      - 香港65
-      - 香港 66
-      - 香港 67
-      - 香港68
-      - 香港 69
-      - 香港70
-      - 香港71
-      - 香港72
-      - 香港73
-      - 香港 74
-      - 香港75
-      - 香港76
-      - 香港77
-      - 香港78
-      - 香港79
-      - 香港80
-      - 香港81
-      - 香港82
-      - 香港83
-      - 香港84
-      - 香港86
-      - 香港87
-      - 香港88
-      - 香港89
-      - 新加坡1
-      - 新加坡2
-      - 新加坡3
-      - 印度
-      - 越南1
-      - 越南 2
-      - 越南3
-      - 越南4
-      - 中国1
-      - 中国2
-      - 中国3
-      - 中国4
-      - DE-Openit.ml
-      - GB-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - GB-Openit.ml 2
-      - US-Openit.ml 6
-      - AU-Openit.ml
-      - US-Openit.ml 7
-      - IN-Openit.ml
-      - US-Openit.ml 8
-      - KR-Openit.ml
-      - TW-Openit.ml
-      - US-Openit.ml 9
-      - US1
-      - US2
-      - RU
-      - US3
-      - SG1
-      - SG2
-      - SG3
-      - JP1
-      - JP2
-      - TW1
-      - HK1
-      - KR
-      - US4
-      - US5
-      - US6
-      - SG4
-      - SG5
-      - SG6
-      - JP3
-      - JP4
-      - TW2
-      - HK2
-      - HK2/IPLC
-      - SG1/IEPL
-      - SG2/IEPL
-      - HK3/IPLC
-      - SG3/IEPL
-      - HK5/IEPL
-      - SG4/IEPL
-      - TW-VM_4
-      - 台湾29
-      - 台湾32
-      - 台湾33
-      - 香港1 2
-      - 香港2 2
-      - 香港3 2
-      - 香港4 2
-      - 香港5 2
-      - 香港8 2
-      - 香港9 2
+      - TG@p2psharing 美国丨Trojan
+      - TG@p2psharing 香港丨Trojan丨06
+      - TG@p2psharing 香港丨Trojan丨1丨落地
+      - TG@p2psharing 香港丨Trojan丨沪港3
+      - TG@p2psharing 香港丨Trojan丨沪港中继丨4
+      - TG@p2psharing 香港丨Trojan丨沪港中继丨5
+      - TG@p2psharing 香港丨Trojan丨深港中继1
+      - TG@p2psharing 俄罗斯丨伯力丨02
+      - TG@p2psharing 印度丨湖南-印度丨中继
+      - TG@p2psharing 台湾丨BGP中继丨01丨原生丨600Mbps
+      - TG@p2psharing 台湾丨BGP中继丨02丨原生丨600Mbps
+      - TG@p2psharing 台湾丨Trojan丨静丨深台中继3
+      - TG@p2psharing 台湾丨原生丨三网直连
+      - TG@p2psharing 台湾丨原生丨深台中继丨1
+      - TG@p2psharing 台湾丨原生丨深台中继丨2
+      - TG@p2psharing 台湾丨彰化丨600m
+      - TG@p2psharing 新加坡丨深新中继丨1Gbps
+      - TG@p2psharing 新加坡丨湖南-新加坡丨中继
+      - TG@p2psharing 日本IIJ丨沪日中继02丨原生
+      - TG@p2psharing 日本IIJ丨沪日中继丨原生
+      - TG@p2psharing 日本丨上海-日本ntt丨中继
+      - TG@p2psharing 日本丨原生丨深日中继
+      - TG@p2psharing 日本丨原生丨湖南-日本丨中继
+      - TG@p2psharing 日本丨大阪丨原生
+      - TG@p2psharing 日本丨湖南-大阪丨中继
+      - TG@p2psharing 美国丨BGP中继丨01丨原生
+      - TG@p2psharing 美国丨CN2丨02丨原生
+      - TG@p2psharing 美国丨微软丨沪美中继
+      - TG@p2psharing 越南丨Netflix新加坡区
+      - TG@p2psharing 韩国丨原生丨湖南-韩国丨中继丨
+      - TG@p2psharing 韩国丨微软丨沪韩中继丨原生丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨01丨HKT丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨02丨HKT丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨03丨HGC丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨04丨流媒体专用
+      - TG@p2psharing 香港丨BGP中继丨05丨深港丨1Gbps
+      - TG@p2psharing 香港丨BGP微软丨02
+      - TG@p2psharing 香港丨BGP微软丨1丨1Gbps
+      - TG@p2psharing 香港丨HGC丨原生丨移动中继
+      - TG@p2psharing 香港丨HKG丨原生丨移动优化丨
+      - TG@p2psharing 香港丨专线丨原生丨1Gbps
+      - TG@p2psharing 香港丨原生丨湖南-香港丨中继
+      - TG@p2psharing 香港丨微軟丨广州中继
+      - TG@p2psharing 香港丨微软丨3丨2Gbps
+      - TG@p2psharing 香港丨微软丨Trojan丨移动中继
+      - TG@p2psharing 香港丨微软丨上海-香港丨
+      - TG@p2psharing 马来西亚丨原生丨移动中继
+      - 俄罗斯-隧道中转
+      - 印度 孟买-来点玛莎拉
+      - 台湾 Hinet [原生]
+      - 德国  tuboshu.live 赞助
+      - 新加坡 流媒体解锁
+      - 日本隧道[视频]
+      - 美国 流媒体视频
+      - 香港HGC[原生]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1914,221 +546,61 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 德国1
-      - 德国2
-      - 德国3
-      - 法国1
-      - 法国2
-      - 菲律宾1
-      - 菲律宾2
-      - 菲律宾3
-      - 菲律宾4
-      - 菲律宾5
-      - 菲律宾6
-      - 菲律宾7
-      - 菲律宾8
-      - 韩国1
-      - 韩国2
-      - 韩国3
-      - 韩国 4
-      - 韩国 5
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 美国5
-      - 美国6
-      - 美国7
-      - 日本1
-      - 日本 2
-      - 日本3
-      - 日本4
-      - 日本5
-      - 日本6
-      - 日本7
-      - 日本8
-      - 日本9
-      - 日本10
-      - 台湾1
-      - 台湾2
-      - 台湾3
-      - 台湾4
-      - 台湾5
-      - 台湾6
-      - 台湾7
-      - 台湾8
-      - 台湾9
-      - 台湾10
-      - 台湾11
-      - 台湾12
-      - 台湾13
-      - 台湾14
-      - 台湾15
-      - 台湾16
-      - 台湾17
-      - 台湾18
-      - 台湾 20
-      - 台湾 21
-      - 泰国1
-      - 泰国2
-      - 泰国3
-      - 泰国4
-      - 香港1
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港5
-      - 香港6
-      - 香港7
-      - 香港8
-      - 香港9
-      - 香港10
-      - 香港11
-      - 香港12
-      - 香港13
-      - 香港14
-      - 香港15
-      - 香港16
-      - 香港17
-      - 香港18
-      - 香港19
-      - 香港20
-      - 香港21
-      - 香港22
-      - 香港23
-      - 香港24
-      - 香港25
-      - 香港26
-      - 香港27
-      - 香港28
-      - 香港29
-      - 香港30
-      - 香港31
-      - 香港32
-      - 香港33
-      - 香港34
-      - 香港35
-      - 香港36
-      - 香港37
-      - 香港38
-      - 香港39
-      - 香港40
-      - 香港41
-      - 香港42
-      - 香港43
-      - 香港44
-      - 香港45
-      - 香港46
-      - 香港47
-      - 香港48
-      - 香港49
-      - 香港50
-      - 香港51
-      - 香港52
-      - 香港53
-      - 香港54
-      - 香港55
-      - 香港56
-      - 香港57
-      - 香港58
-      - 香港59
-      - 香港60
-      - 香港61
-      - 香港62
-      - 香港63
-      - 香港64
-      - 香港65
-      - 香港 66
-      - 香港 67
-      - 香港68
-      - 香港 69
-      - 香港70
-      - 香港71
-      - 香港72
-      - 香港73
-      - 香港 74
-      - 香港75
-      - 香港76
-      - 香港77
-      - 香港78
-      - 香港79
-      - 香港80
-      - 香港81
-      - 香港82
-      - 香港83
-      - 香港84
-      - 香港86
-      - 香港87
-      - 香港88
-      - 香港89
-      - 新加坡1
-      - 新加坡2
-      - 新加坡3
-      - 印度
-      - 越南1
-      - 越南 2
-      - 越南3
-      - 越南4
-      - 中国1
-      - 中国2
-      - 中国3
-      - 中国4
-      - DE-Openit.ml
-      - GB-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - GB-Openit.ml 2
-      - US-Openit.ml 6
-      - AU-Openit.ml
-      - US-Openit.ml 7
-      - IN-Openit.ml
-      - US-Openit.ml 8
-      - KR-Openit.ml
-      - TW-Openit.ml
-      - US-Openit.ml 9
-      - US1
-      - US2
-      - RU
-      - US3
-      - SG1
-      - SG2
-      - SG3
-      - JP1
-      - JP2
-      - TW1
-      - HK1
-      - KR
-      - US4
-      - US5
-      - US6
-      - SG4
-      - SG5
-      - SG6
-      - JP3
-      - JP4
-      - TW2
-      - HK2
-      - HK2/IPLC
-      - SG1/IEPL
-      - SG2/IEPL
-      - HK3/IPLC
-      - SG3/IEPL
-      - HK5/IEPL
-      - SG4/IEPL
-      - TW-VM_4
-      - 台湾29
-      - 台湾32
-      - 台湾33
-      - 香港1 2
-      - 香港2 2
-      - 香港3 2
-      - 香港4 2
-      - 香港5 2
-      - 香港8 2
-      - 香港9 2
+      - TG@p2psharing 美国丨Trojan
+      - TG@p2psharing 香港丨Trojan丨06
+      - TG@p2psharing 香港丨Trojan丨1丨落地
+      - TG@p2psharing 香港丨Trojan丨沪港3
+      - TG@p2psharing 香港丨Trojan丨沪港中继丨4
+      - TG@p2psharing 香港丨Trojan丨沪港中继丨5
+      - TG@p2psharing 香港丨Trojan丨深港中继1
+      - TG@p2psharing 俄罗斯丨伯力丨02
+      - TG@p2psharing 印度丨湖南-印度丨中继
+      - TG@p2psharing 台湾丨BGP中继丨01丨原生丨600Mbps
+      - TG@p2psharing 台湾丨BGP中继丨02丨原生丨600Mbps
+      - TG@p2psharing 台湾丨Trojan丨静丨深台中继3
+      - TG@p2psharing 台湾丨原生丨三网直连
+      - TG@p2psharing 台湾丨原生丨深台中继丨1
+      - TG@p2psharing 台湾丨原生丨深台中继丨2
+      - TG@p2psharing 台湾丨彰化丨600m
+      - TG@p2psharing 新加坡丨深新中继丨1Gbps
+      - TG@p2psharing 新加坡丨湖南-新加坡丨中继
+      - TG@p2psharing 日本IIJ丨沪日中继02丨原生
+      - TG@p2psharing 日本IIJ丨沪日中继丨原生
+      - TG@p2psharing 日本丨上海-日本ntt丨中继
+      - TG@p2psharing 日本丨原生丨深日中继
+      - TG@p2psharing 日本丨原生丨湖南-日本丨中继
+      - TG@p2psharing 日本丨大阪丨原生
+      - TG@p2psharing 日本丨湖南-大阪丨中继
+      - TG@p2psharing 美国丨BGP中继丨01丨原生
+      - TG@p2psharing 美国丨CN2丨02丨原生
+      - TG@p2psharing 美国丨微软丨沪美中继
+      - TG@p2psharing 越南丨Netflix新加坡区
+      - TG@p2psharing 韩国丨原生丨湖南-韩国丨中继丨
+      - TG@p2psharing 韩国丨微软丨沪韩中继丨原生丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨01丨HKT丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨02丨HKT丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨03丨HGC丨1Gbps
+      - TG@p2psharing 香港丨BGP中继丨04丨流媒体专用
+      - TG@p2psharing 香港丨BGP中继丨05丨深港丨1Gbps
+      - TG@p2psharing 香港丨BGP微软丨02
+      - TG@p2psharing 香港丨BGP微软丨1丨1Gbps
+      - TG@p2psharing 香港丨HGC丨原生丨移动中继
+      - TG@p2psharing 香港丨HKG丨原生丨移动优化丨
+      - TG@p2psharing 香港丨专线丨原生丨1Gbps
+      - TG@p2psharing 香港丨原生丨湖南-香港丨中继
+      - TG@p2psharing 香港丨微軟丨广州中继
+      - TG@p2psharing 香港丨微软丨3丨2Gbps
+      - TG@p2psharing 香港丨微软丨Trojan丨移动中继
+      - TG@p2psharing 香港丨微软丨上海-香港丨
+      - TG@p2psharing 马来西亚丨原生丨移动中继
+      - 俄罗斯-隧道中转
+      - 印度 孟买-来点玛莎拉
+      - 台湾 Hinet [原生]
+      - 德国  tuboshu.live 赞助
+      - 新加坡 流媒体解锁
+      - 日本隧道[视频]
+      - 美国 流媒体视频
+      - 香港HGC[原生]
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
