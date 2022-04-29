@@ -5,243 +5,47 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: TG@p2psharing 美国丨Trojan, server: us.kuli888.xyz, port: 35256, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: us.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 香港丨Trojan丨06, server: az06dcjhh.kuli888.xyz, port: 443, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: az06dcjhh.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 香港丨Trojan丨1丨落地, server: az01.kuli888.xyz, port: 443, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: az01.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 香港丨Trojan丨沪港3, server: v1hugang3.kuli888.xyz, port: 11150, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: v1hugang3.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 香港丨Trojan丨沪港中继丨4, server: v1hugang4.kuli888.xyz, port: 11151, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: v1hugang4.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 香港丨Trojan丨沪港中继丨5, server: v1hugang5.kuli888.xyz, port: 10028, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: v1hugang5.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 香港丨Trojan丨深港中继1, server: v1shengang.kuli888.xyz, port: 52016, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: v1shengang.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 俄罗斯丨伯力丨02, server: els01.kuli888.xyz, port: 10020, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: els01.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 印度丨湖南-印度丨中继, server: ydzhongzhuan.kuli888.xyz, port: 52023, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: ydzhongzhuan.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 台湾丨BGP中继丨01丨原生丨600Mbps, server: tw05.kulime.space, port: 10005, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: tw05.kulime.space, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 台湾丨BGP中继丨02丨原生丨600Mbps, server: bgptw02.kuli888.xyz, port: 10006, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: bgptw02.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 台湾丨Trojan丨静丨深台中继3, server: vip2shentai.kuli888.xyz, port: 32103, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: vip2shentai.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 台湾丨原生丨三网直连, server: tw03.kuli888.xyz, port: 35256, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: tw03.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 台湾丨原生丨深台中继丨1, server: guangzhou.kuli888.xyz, port: 52004, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: guangzhou.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 台湾丨原生丨深台中继丨2, server: guangzhou.kuli888.xyz, port: 52006, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: guangzhou.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 台湾丨彰化丨600m, server: zhanghua.kuli888.xyz, port: 443, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: zhanghua.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 新加坡丨深新中继丨1Gbps, server: xinjp.kulime.space, port: 10017, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: xinjp.kulime.space, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 新加坡丨湖南-新加坡丨中继, server: changsha.kulime.space, port: 52010, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: changsha.kulime.space, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 日本IIJ丨沪日中继02丨原生, server: jp05.kulime.space, port: 52021, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: jp05.kulime.space, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 日本IIJ丨沪日中继丨原生, server: jp05.kulime.space, port: 10014, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: jp05.kulime.space, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 日本丨上海-日本ntt丨中继, server: shlt.kulime.space, port: 52022, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: shlt.kulime.space, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 日本丨原生丨深日中继, server: srzhongji.kuli888.xyz, port: 52014, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: srzhongji.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 日本丨原生丨湖南-日本丨中继, server: changsha.kulime.space, port: 52011, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: changsha.kulime.space, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 日本丨大阪丨原生, server: yinghua02.kuli888.xyz, port: 443, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: yinghua02.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 日本丨湖南-大阪丨中继, server: azjp.kuli888.xyz, port: 52040, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: azjp.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 美国丨BGP中继丨01丨原生, server: usz.kulime.space, port: 32392, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: usz.kulime.space, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 美国丨CN2丨02丨原生, server: us02.kulime.space, port: 32400, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: us02.kulime.space, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 美国丨微软丨沪美中继, server: bgp.kuli888.xyz, port: 52007, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: bgp.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 越南丨Netflix新加坡区, server: yuenan.kuli888.xyz, port: 11152, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: yuenan.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 韩国丨原生丨湖南-韩国丨中继丨, server: changsha.kulime.space, port: 52012, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: changsha.kulime.space, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 韩国丨微软丨沪韩中继丨原生丨1Gbps, server: huhan01.kuli888.xyz, port: 52348, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: huhan01.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 香港丨BGP中继丨01丨HKT丨1Gbps, server: v2bgp01.kuli888.xyz, port: 10009, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: v2bgp01.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 香港丨BGP中继丨02丨HKT丨1Gbps, server: bgpwr.kulime.space, port: 11152, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: bgpwr.kulime.space, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 香港丨BGP中继丨03丨HGC丨1Gbps, server: zhongji.kulime.space, port: 10022, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: zhongji.kulime.space, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 香港丨BGP中继丨04丨流媒体专用, server: v2bgp04.kuli888.xyz, port: 52020, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: v2bgp04.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 香港丨BGP中继丨05丨深港丨1Gbps, server: hugang03.kuli888.xyz, port: 20025, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: hugang03.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 香港丨BGP微软丨02, server: bgpwz02.kuli888.xyz, port: 20000, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: bgpwz02.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 香港丨BGP微软丨1丨1Gbps, server: bgp.kuli888.xyz, port: 32405, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: bgp.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 香港丨HGC丨原生丨移动中继, server: guangzhou.kuli888.xyz, port: 52100, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: guangzhou.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 香港丨HKG丨原生丨移动优化丨, server: hk05.kuli888.xyz, port: 580, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: hk05.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 香港丨专线丨原生丨1Gbps, server: dmit.kuli888.xyz, port: 20026, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: dmit.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 香港丨原生丨湖南-香港丨中继, server: changsha01.kuli888.xyz, port: 52013, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: changsha01.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 香港丨微軟丨广州中继, server: guang01.kuli888.xyz, port: 32370, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: guang01.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 香港丨微软丨3丨2Gbps, server: az04.kuli888.xyz, port: 520, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: az04.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 香港丨微软丨Trojan丨移动中继, server: guangzhou.kuli888.xyz, port: 52001, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: guangzhou.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 香港丨微软丨上海-香港丨, server: bgp.kuli888.xyz, port: 52008, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: bgp.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG@p2psharing 马来西亚丨原生丨移动中继, server: malai01.kuli888.xyz, port: 52034, type: trojan, password: df5e17e8-a64c-3a3d-95ce-7d8b0dc86afb, sni: malai01.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯-隧道中转, server: dog.newhost.cc, port: 10692, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 印度 孟买-来点玛莎拉, server: dog.newhost.cc, port: 10693, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "台湾 Hinet [原生]", server: cu.newhost.cc, port: 10661, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 德国  tuboshu.live 赞助, server: dog.newhost.cc, port: 10282, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 新加坡 流媒体解锁, server: cu.newhost.cc, port: 10660, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "日本隧道[视频]", server: dog.newhost.cc, port: 10255, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 美国 流媒体视频, server: dog.newhost.cc, port: 10287, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "香港HGC[原生]", server: dog.newhost.cc, port: 10256, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: HK-Openit.ml, server: hk1.qingyun123.xyz, port: 10000, type: trojan, password: 9ef6f63a-2f8c-4240-8e60-b51183ee03fd, sni: hk1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml, server: 8.ezydfdd.com, port: 443, type: vmess, uuid: dc0887b9-4c05-428c-adce-4235d1636341, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 8.ezydfdd.com}, udp: true}
+  - {name: AU-Openit.ml, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: SG-Openit.ml, server: awssg.yeem.cc, port: 21210, type: trojan, password: 59c465d4-e3ad-4a30-9067-887786a2ca2d, sni: awssg.yeem.cc, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml 2, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: HK-Openit.ml 2, server: hk1.qingyun123.xyz, port: 10000, type: trojan, password: 9ef6f63a-2f8c-4240-8e60-b51183ee03fd, sni: hk1.qingyun123.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG@p2psharing 美国丨Trojan
-      - TG@p2psharing 香港丨Trojan丨06
-      - TG@p2psharing 香港丨Trojan丨1丨落地
-      - TG@p2psharing 香港丨Trojan丨沪港3
-      - TG@p2psharing 香港丨Trojan丨沪港中继丨4
-      - TG@p2psharing 香港丨Trojan丨沪港中继丨5
-      - TG@p2psharing 香港丨Trojan丨深港中继1
-      - TG@p2psharing 俄罗斯丨伯力丨02
-      - TG@p2psharing 印度丨湖南-印度丨中继
-      - TG@p2psharing 台湾丨BGP中继丨01丨原生丨600Mbps
-      - TG@p2psharing 台湾丨BGP中继丨02丨原生丨600Mbps
-      - TG@p2psharing 台湾丨Trojan丨静丨深台中继3
-      - TG@p2psharing 台湾丨原生丨三网直连
-      - TG@p2psharing 台湾丨原生丨深台中继丨1
-      - TG@p2psharing 台湾丨原生丨深台中继丨2
-      - TG@p2psharing 台湾丨彰化丨600m
-      - TG@p2psharing 新加坡丨深新中继丨1Gbps
-      - TG@p2psharing 新加坡丨湖南-新加坡丨中继
-      - TG@p2psharing 日本IIJ丨沪日中继02丨原生
-      - TG@p2psharing 日本IIJ丨沪日中继丨原生
-      - TG@p2psharing 日本丨上海-日本ntt丨中继
-      - TG@p2psharing 日本丨原生丨深日中继
-      - TG@p2psharing 日本丨原生丨湖南-日本丨中继
-      - TG@p2psharing 日本丨大阪丨原生
-      - TG@p2psharing 日本丨湖南-大阪丨中继
-      - TG@p2psharing 美国丨BGP中继丨01丨原生
-      - TG@p2psharing 美国丨CN2丨02丨原生
-      - TG@p2psharing 美国丨微软丨沪美中继
-      - TG@p2psharing 越南丨Netflix新加坡区
-      - TG@p2psharing 韩国丨原生丨湖南-韩国丨中继丨
-      - TG@p2psharing 韩国丨微软丨沪韩中继丨原生丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨01丨HKT丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨02丨HKT丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨03丨HGC丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨04丨流媒体专用
-      - TG@p2psharing 香港丨BGP中继丨05丨深港丨1Gbps
-      - TG@p2psharing 香港丨BGP微软丨02
-      - TG@p2psharing 香港丨BGP微软丨1丨1Gbps
-      - TG@p2psharing 香港丨HGC丨原生丨移动中继
-      - TG@p2psharing 香港丨HKG丨原生丨移动优化丨
-      - TG@p2psharing 香港丨专线丨原生丨1Gbps
-      - TG@p2psharing 香港丨原生丨湖南-香港丨中继
-      - TG@p2psharing 香港丨微軟丨广州中继
-      - TG@p2psharing 香港丨微软丨3丨2Gbps
-      - TG@p2psharing 香港丨微软丨Trojan丨移动中继
-      - TG@p2psharing 香港丨微软丨上海-香港丨
-      - TG@p2psharing 马来西亚丨原生丨移动中继
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 台湾 Hinet [原生]
-      - 德国  tuboshu.live 赞助
-      - 新加坡 流媒体解锁
-      - 日本隧道[视频]
-      - 美国 流媒体视频
-      - 香港HGC[原生]
+      - HK-Openit.ml
+      - US-Openit.ml
+      - AU-Openit.ml
+      - SG-Openit.ml
+      - US-Openit.ml 2
+      - HK-Openit.ml 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - TG@p2psharing 美国丨Trojan
-      - TG@p2psharing 香港丨Trojan丨06
-      - TG@p2psharing 香港丨Trojan丨1丨落地
-      - TG@p2psharing 香港丨Trojan丨沪港3
-      - TG@p2psharing 香港丨Trojan丨沪港中继丨4
-      - TG@p2psharing 香港丨Trojan丨沪港中继丨5
-      - TG@p2psharing 香港丨Trojan丨深港中继1
-      - TG@p2psharing 俄罗斯丨伯力丨02
-      - TG@p2psharing 印度丨湖南-印度丨中继
-      - TG@p2psharing 台湾丨BGP中继丨01丨原生丨600Mbps
-      - TG@p2psharing 台湾丨BGP中继丨02丨原生丨600Mbps
-      - TG@p2psharing 台湾丨Trojan丨静丨深台中继3
-      - TG@p2psharing 台湾丨原生丨三网直连
-      - TG@p2psharing 台湾丨原生丨深台中继丨1
-      - TG@p2psharing 台湾丨原生丨深台中继丨2
-      - TG@p2psharing 台湾丨彰化丨600m
-      - TG@p2psharing 新加坡丨深新中继丨1Gbps
-      - TG@p2psharing 新加坡丨湖南-新加坡丨中继
-      - TG@p2psharing 日本IIJ丨沪日中继02丨原生
-      - TG@p2psharing 日本IIJ丨沪日中继丨原生
-      - TG@p2psharing 日本丨上海-日本ntt丨中继
-      - TG@p2psharing 日本丨原生丨深日中继
-      - TG@p2psharing 日本丨原生丨湖南-日本丨中继
-      - TG@p2psharing 日本丨大阪丨原生
-      - TG@p2psharing 日本丨湖南-大阪丨中继
-      - TG@p2psharing 美国丨BGP中继丨01丨原生
-      - TG@p2psharing 美国丨CN2丨02丨原生
-      - TG@p2psharing 美国丨微软丨沪美中继
-      - TG@p2psharing 越南丨Netflix新加坡区
-      - TG@p2psharing 韩国丨原生丨湖南-韩国丨中继丨
-      - TG@p2psharing 韩国丨微软丨沪韩中继丨原生丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨01丨HKT丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨02丨HKT丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨03丨HGC丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨04丨流媒体专用
-      - TG@p2psharing 香港丨BGP中继丨05丨深港丨1Gbps
-      - TG@p2psharing 香港丨BGP微软丨02
-      - TG@p2psharing 香港丨BGP微软丨1丨1Gbps
-      - TG@p2psharing 香港丨HGC丨原生丨移动中继
-      - TG@p2psharing 香港丨HKG丨原生丨移动优化丨
-      - TG@p2psharing 香港丨专线丨原生丨1Gbps
-      - TG@p2psharing 香港丨原生丨湖南-香港丨中继
-      - TG@p2psharing 香港丨微軟丨广州中继
-      - TG@p2psharing 香港丨微软丨3丨2Gbps
-      - TG@p2psharing 香港丨微软丨Trojan丨移动中继
-      - TG@p2psharing 香港丨微软丨上海-香港丨
-      - TG@p2psharing 马来西亚丨原生丨移动中继
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 台湾 Hinet [原生]
-      - 德国  tuboshu.live 赞助
-      - 新加坡 流媒体解锁
-      - 日本隧道[视频]
-      - 美国 流媒体视频
-      - 香港HGC[原生]
+      - HK-Openit.ml
+      - US-Openit.ml
+      - AU-Openit.ml
+      - SG-Openit.ml
+      - US-Openit.ml 2
+      - HK-Openit.ml 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG@p2psharing 美国丨Trojan
-      - TG@p2psharing 香港丨Trojan丨06
-      - TG@p2psharing 香港丨Trojan丨1丨落地
-      - TG@p2psharing 香港丨Trojan丨沪港3
-      - TG@p2psharing 香港丨Trojan丨沪港中继丨4
-      - TG@p2psharing 香港丨Trojan丨沪港中继丨5
-      - TG@p2psharing 香港丨Trojan丨深港中继1
-      - TG@p2psharing 俄罗斯丨伯力丨02
-      - TG@p2psharing 印度丨湖南-印度丨中继
-      - TG@p2psharing 台湾丨BGP中继丨01丨原生丨600Mbps
-      - TG@p2psharing 台湾丨BGP中继丨02丨原生丨600Mbps
-      - TG@p2psharing 台湾丨Trojan丨静丨深台中继3
-      - TG@p2psharing 台湾丨原生丨三网直连
-      - TG@p2psharing 台湾丨原生丨深台中继丨1
-      - TG@p2psharing 台湾丨原生丨深台中继丨2
-      - TG@p2psharing 台湾丨彰化丨600m
-      - TG@p2psharing 新加坡丨深新中继丨1Gbps
-      - TG@p2psharing 新加坡丨湖南-新加坡丨中继
-      - TG@p2psharing 日本IIJ丨沪日中继02丨原生
-      - TG@p2psharing 日本IIJ丨沪日中继丨原生
-      - TG@p2psharing 日本丨上海-日本ntt丨中继
-      - TG@p2psharing 日本丨原生丨深日中继
-      - TG@p2psharing 日本丨原生丨湖南-日本丨中继
-      - TG@p2psharing 日本丨大阪丨原生
-      - TG@p2psharing 日本丨湖南-大阪丨中继
-      - TG@p2psharing 美国丨BGP中继丨01丨原生
-      - TG@p2psharing 美国丨CN2丨02丨原生
-      - TG@p2psharing 美国丨微软丨沪美中继
-      - TG@p2psharing 越南丨Netflix新加坡区
-      - TG@p2psharing 韩国丨原生丨湖南-韩国丨中继丨
-      - TG@p2psharing 韩国丨微软丨沪韩中继丨原生丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨01丨HKT丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨02丨HKT丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨03丨HGC丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨04丨流媒体专用
-      - TG@p2psharing 香港丨BGP中继丨05丨深港丨1Gbps
-      - TG@p2psharing 香港丨BGP微软丨02
-      - TG@p2psharing 香港丨BGP微软丨1丨1Gbps
-      - TG@p2psharing 香港丨HGC丨原生丨移动中继
-      - TG@p2psharing 香港丨HKG丨原生丨移动优化丨
-      - TG@p2psharing 香港丨专线丨原生丨1Gbps
-      - TG@p2psharing 香港丨原生丨湖南-香港丨中继
-      - TG@p2psharing 香港丨微軟丨广州中继
-      - TG@p2psharing 香港丨微软丨3丨2Gbps
-      - TG@p2psharing 香港丨微软丨Trojan丨移动中继
-      - TG@p2psharing 香港丨微软丨上海-香港丨
-      - TG@p2psharing 马来西亚丨原生丨移动中继
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 台湾 Hinet [原生]
-      - 德国  tuboshu.live 赞助
-      - 新加坡 流媒体解锁
-      - 日本隧道[视频]
-      - 美国 流媒体视频
-      - 香港HGC[原生]
+      - HK-Openit.ml
+      - US-Openit.ml
+      - AU-Openit.ml
+      - SG-Openit.ml
+      - US-Openit.ml 2
+      - HK-Openit.ml 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -260,277 +64,51 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG@p2psharing 美国丨Trojan
-      - TG@p2psharing 香港丨Trojan丨06
-      - TG@p2psharing 香港丨Trojan丨1丨落地
-      - TG@p2psharing 香港丨Trojan丨沪港3
-      - TG@p2psharing 香港丨Trojan丨沪港中继丨4
-      - TG@p2psharing 香港丨Trojan丨沪港中继丨5
-      - TG@p2psharing 香港丨Trojan丨深港中继1
-      - TG@p2psharing 俄罗斯丨伯力丨02
-      - TG@p2psharing 印度丨湖南-印度丨中继
-      - TG@p2psharing 台湾丨BGP中继丨01丨原生丨600Mbps
-      - TG@p2psharing 台湾丨BGP中继丨02丨原生丨600Mbps
-      - TG@p2psharing 台湾丨Trojan丨静丨深台中继3
-      - TG@p2psharing 台湾丨原生丨三网直连
-      - TG@p2psharing 台湾丨原生丨深台中继丨1
-      - TG@p2psharing 台湾丨原生丨深台中继丨2
-      - TG@p2psharing 台湾丨彰化丨600m
-      - TG@p2psharing 新加坡丨深新中继丨1Gbps
-      - TG@p2psharing 新加坡丨湖南-新加坡丨中继
-      - TG@p2psharing 日本IIJ丨沪日中继02丨原生
-      - TG@p2psharing 日本IIJ丨沪日中继丨原生
-      - TG@p2psharing 日本丨上海-日本ntt丨中继
-      - TG@p2psharing 日本丨原生丨深日中继
-      - TG@p2psharing 日本丨原生丨湖南-日本丨中继
-      - TG@p2psharing 日本丨大阪丨原生
-      - TG@p2psharing 日本丨湖南-大阪丨中继
-      - TG@p2psharing 美国丨BGP中继丨01丨原生
-      - TG@p2psharing 美国丨CN2丨02丨原生
-      - TG@p2psharing 美国丨微软丨沪美中继
-      - TG@p2psharing 越南丨Netflix新加坡区
-      - TG@p2psharing 韩国丨原生丨湖南-韩国丨中继丨
-      - TG@p2psharing 韩国丨微软丨沪韩中继丨原生丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨01丨HKT丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨02丨HKT丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨03丨HGC丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨04丨流媒体专用
-      - TG@p2psharing 香港丨BGP中继丨05丨深港丨1Gbps
-      - TG@p2psharing 香港丨BGP微软丨02
-      - TG@p2psharing 香港丨BGP微软丨1丨1Gbps
-      - TG@p2psharing 香港丨HGC丨原生丨移动中继
-      - TG@p2psharing 香港丨HKG丨原生丨移动优化丨
-      - TG@p2psharing 香港丨专线丨原生丨1Gbps
-      - TG@p2psharing 香港丨原生丨湖南-香港丨中继
-      - TG@p2psharing 香港丨微軟丨广州中继
-      - TG@p2psharing 香港丨微软丨3丨2Gbps
-      - TG@p2psharing 香港丨微软丨Trojan丨移动中继
-      - TG@p2psharing 香港丨微软丨上海-香港丨
-      - TG@p2psharing 马来西亚丨原生丨移动中继
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 台湾 Hinet [原生]
-      - 德国  tuboshu.live 赞助
-      - 新加坡 流媒体解锁
-      - 日本隧道[视频]
-      - 美国 流媒体视频
-      - 香港HGC[原生]
+      - HK-Openit.ml
+      - US-Openit.ml
+      - AU-Openit.ml
+      - SG-Openit.ml
+      - US-Openit.ml 2
+      - HK-Openit.ml 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - TG@p2psharing 香港丨Trojan丨06
-      - TG@p2psharing 香港丨Trojan丨1丨落地
-      - TG@p2psharing 香港丨Trojan丨沪港3
-      - TG@p2psharing 香港丨Trojan丨沪港中继丨4
-      - TG@p2psharing 香港丨Trojan丨沪港中继丨5
-      - TG@p2psharing 香港丨Trojan丨深港中继1
-      - TG@p2psharing 台湾丨BGP中继丨01丨原生丨600Mbps
-      - TG@p2psharing 台湾丨BGP中继丨02丨原生丨600Mbps
-      - TG@p2psharing 台湾丨Trojan丨静丨深台中继3
-      - TG@p2psharing 台湾丨原生丨三网直连
-      - TG@p2psharing 台湾丨原生丨深台中继丨1
-      - TG@p2psharing 台湾丨原生丨深台中继丨2
-      - TG@p2psharing 台湾丨彰化丨600m
-      - TG@p2psharing 香港丨BGP中继丨01丨HKT丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨02丨HKT丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨03丨HGC丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨04丨流媒体专用
-      - TG@p2psharing 香港丨BGP中继丨05丨深港丨1Gbps
-      - TG@p2psharing 香港丨BGP微软丨02
-      - TG@p2psharing 香港丨BGP微软丨1丨1Gbps
-      - TG@p2psharing 香港丨HGC丨原生丨移动中继
-      - TG@p2psharing 香港丨HKG丨原生丨移动优化丨
-      - TG@p2psharing 香港丨专线丨原生丨1Gbps
-      - TG@p2psharing 香港丨原生丨湖南-香港丨中继
-      - TG@p2psharing 香港丨微軟丨广州中继
-      - TG@p2psharing 香港丨微软丨3丨2Gbps
-      - TG@p2psharing 香港丨微软丨Trojan丨移动中继
-      - TG@p2psharing 香港丨微软丨上海-香港丨
-      - 台湾 Hinet [原生]
-      - 香港HGC[原生]
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - TG@p2psharing 美国丨Trojan
-      - TG@p2psharing 香港丨Trojan丨06
-      - TG@p2psharing 香港丨Trojan丨1丨落地
-      - TG@p2psharing 香港丨Trojan丨沪港3
-      - TG@p2psharing 香港丨Trojan丨沪港中继丨4
-      - TG@p2psharing 香港丨Trojan丨沪港中继丨5
-      - TG@p2psharing 香港丨Trojan丨深港中继1
-      - TG@p2psharing 俄罗斯丨伯力丨02
-      - TG@p2psharing 印度丨湖南-印度丨中继
-      - TG@p2psharing 台湾丨BGP中继丨01丨原生丨600Mbps
-      - TG@p2psharing 台湾丨BGP中继丨02丨原生丨600Mbps
-      - TG@p2psharing 台湾丨Trojan丨静丨深台中继3
-      - TG@p2psharing 台湾丨原生丨三网直连
-      - TG@p2psharing 台湾丨原生丨深台中继丨1
-      - TG@p2psharing 台湾丨原生丨深台中继丨2
-      - TG@p2psharing 台湾丨彰化丨600m
-      - TG@p2psharing 新加坡丨深新中继丨1Gbps
-      - TG@p2psharing 新加坡丨湖南-新加坡丨中继
-      - TG@p2psharing 日本IIJ丨沪日中继02丨原生
-      - TG@p2psharing 日本IIJ丨沪日中继丨原生
-      - TG@p2psharing 日本丨上海-日本ntt丨中继
-      - TG@p2psharing 日本丨原生丨深日中继
-      - TG@p2psharing 日本丨原生丨湖南-日本丨中继
-      - TG@p2psharing 日本丨大阪丨原生
-      - TG@p2psharing 日本丨湖南-大阪丨中继
-      - TG@p2psharing 美国丨BGP中继丨01丨原生
-      - TG@p2psharing 美国丨CN2丨02丨原生
-      - TG@p2psharing 美国丨微软丨沪美中继
-      - TG@p2psharing 越南丨Netflix新加坡区
-      - TG@p2psharing 韩国丨原生丨湖南-韩国丨中继丨
-      - TG@p2psharing 韩国丨微软丨沪韩中继丨原生丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨01丨HKT丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨02丨HKT丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨03丨HGC丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨04丨流媒体专用
-      - TG@p2psharing 香港丨BGP中继丨05丨深港丨1Gbps
-      - TG@p2psharing 香港丨BGP微软丨02
-      - TG@p2psharing 香港丨BGP微软丨1丨1Gbps
-      - TG@p2psharing 香港丨HGC丨原生丨移动中继
-      - TG@p2psharing 香港丨HKG丨原生丨移动优化丨
-      - TG@p2psharing 香港丨专线丨原生丨1Gbps
-      - TG@p2psharing 香港丨原生丨湖南-香港丨中继
-      - TG@p2psharing 香港丨微軟丨广州中继
-      - TG@p2psharing 香港丨微软丨3丨2Gbps
-      - TG@p2psharing 香港丨微软丨Trojan丨移动中继
-      - TG@p2psharing 香港丨微软丨上海-香港丨
-      - TG@p2psharing 马来西亚丨原生丨移动中继
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 台湾 Hinet [原生]
-      - 德国  tuboshu.live 赞助
-      - 新加坡 流媒体解锁
-      - 日本隧道[视频]
-      - 美国 流媒体视频
-      - 香港HGC[原生]
+      - HK-Openit.ml
+      - US-Openit.ml
+      - AU-Openit.ml
+      - SG-Openit.ml
+      - US-Openit.ml 2
+      - HK-Openit.ml 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - TG@p2psharing 美国丨Trojan
-      - TG@p2psharing 香港丨Trojan丨06
-      - TG@p2psharing 香港丨Trojan丨1丨落地
-      - TG@p2psharing 香港丨Trojan丨沪港3
-      - TG@p2psharing 香港丨Trojan丨沪港中继丨4
-      - TG@p2psharing 香港丨Trojan丨沪港中继丨5
-      - TG@p2psharing 香港丨Trojan丨深港中继1
-      - TG@p2psharing 俄罗斯丨伯力丨02
-      - TG@p2psharing 印度丨湖南-印度丨中继
-      - TG@p2psharing 台湾丨BGP中继丨01丨原生丨600Mbps
-      - TG@p2psharing 台湾丨BGP中继丨02丨原生丨600Mbps
-      - TG@p2psharing 台湾丨Trojan丨静丨深台中继3
-      - TG@p2psharing 台湾丨原生丨三网直连
-      - TG@p2psharing 台湾丨原生丨深台中继丨1
-      - TG@p2psharing 台湾丨原生丨深台中继丨2
-      - TG@p2psharing 台湾丨彰化丨600m
-      - TG@p2psharing 新加坡丨深新中继丨1Gbps
-      - TG@p2psharing 新加坡丨湖南-新加坡丨中继
-      - TG@p2psharing 日本IIJ丨沪日中继02丨原生
-      - TG@p2psharing 日本IIJ丨沪日中继丨原生
-      - TG@p2psharing 日本丨上海-日本ntt丨中继
-      - TG@p2psharing 日本丨原生丨深日中继
-      - TG@p2psharing 日本丨原生丨湖南-日本丨中继
-      - TG@p2psharing 日本丨大阪丨原生
-      - TG@p2psharing 日本丨湖南-大阪丨中继
-      - TG@p2psharing 美国丨BGP中继丨01丨原生
-      - TG@p2psharing 美国丨CN2丨02丨原生
-      - TG@p2psharing 美国丨微软丨沪美中继
-      - TG@p2psharing 越南丨Netflix新加坡区
-      - TG@p2psharing 韩国丨原生丨湖南-韩国丨中继丨
-      - TG@p2psharing 韩国丨微软丨沪韩中继丨原生丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨01丨HKT丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨02丨HKT丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨03丨HGC丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨04丨流媒体专用
-      - TG@p2psharing 香港丨BGP中继丨05丨深港丨1Gbps
-      - TG@p2psharing 香港丨BGP微软丨02
-      - TG@p2psharing 香港丨BGP微软丨1丨1Gbps
-      - TG@p2psharing 香港丨HGC丨原生丨移动中继
-      - TG@p2psharing 香港丨HKG丨原生丨移动优化丨
-      - TG@p2psharing 香港丨专线丨原生丨1Gbps
-      - TG@p2psharing 香港丨原生丨湖南-香港丨中继
-      - TG@p2psharing 香港丨微軟丨广州中继
-      - TG@p2psharing 香港丨微软丨3丨2Gbps
-      - TG@p2psharing 香港丨微软丨Trojan丨移动中继
-      - TG@p2psharing 香港丨微软丨上海-香港丨
-      - TG@p2psharing 马来西亚丨原生丨移动中继
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 台湾 Hinet [原生]
-      - 德国  tuboshu.live 赞助
-      - 新加坡 流媒体解锁
-      - 日本隧道[视频]
-      - 美国 流媒体视频
-      - 香港HGC[原生]
+      - HK-Openit.ml
+      - US-Openit.ml
+      - AU-Openit.ml
+      - SG-Openit.ml
+      - US-Openit.ml 2
+      - HK-Openit.ml 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG@p2psharing 美国丨Trojan
-      - TG@p2psharing 香港丨Trojan丨06
-      - TG@p2psharing 香港丨Trojan丨1丨落地
-      - TG@p2psharing 香港丨Trojan丨沪港3
-      - TG@p2psharing 香港丨Trojan丨沪港中继丨4
-      - TG@p2psharing 香港丨Trojan丨沪港中继丨5
-      - TG@p2psharing 香港丨Trojan丨深港中继1
-      - TG@p2psharing 俄罗斯丨伯力丨02
-      - TG@p2psharing 印度丨湖南-印度丨中继
-      - TG@p2psharing 台湾丨BGP中继丨01丨原生丨600Mbps
-      - TG@p2psharing 台湾丨BGP中继丨02丨原生丨600Mbps
-      - TG@p2psharing 台湾丨Trojan丨静丨深台中继3
-      - TG@p2psharing 台湾丨原生丨三网直连
-      - TG@p2psharing 台湾丨原生丨深台中继丨1
-      - TG@p2psharing 台湾丨原生丨深台中继丨2
-      - TG@p2psharing 台湾丨彰化丨600m
-      - TG@p2psharing 新加坡丨深新中继丨1Gbps
-      - TG@p2psharing 新加坡丨湖南-新加坡丨中继
-      - TG@p2psharing 日本IIJ丨沪日中继02丨原生
-      - TG@p2psharing 日本IIJ丨沪日中继丨原生
-      - TG@p2psharing 日本丨上海-日本ntt丨中继
-      - TG@p2psharing 日本丨原生丨深日中继
-      - TG@p2psharing 日本丨原生丨湖南-日本丨中继
-      - TG@p2psharing 日本丨大阪丨原生
-      - TG@p2psharing 日本丨湖南-大阪丨中继
-      - TG@p2psharing 美国丨BGP中继丨01丨原生
-      - TG@p2psharing 美国丨CN2丨02丨原生
-      - TG@p2psharing 美国丨微软丨沪美中继
-      - TG@p2psharing 越南丨Netflix新加坡区
-      - TG@p2psharing 韩国丨原生丨湖南-韩国丨中继丨
-      - TG@p2psharing 韩国丨微软丨沪韩中继丨原生丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨01丨HKT丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨02丨HKT丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨03丨HGC丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨04丨流媒体专用
-      - TG@p2psharing 香港丨BGP中继丨05丨深港丨1Gbps
-      - TG@p2psharing 香港丨BGP微软丨02
-      - TG@p2psharing 香港丨BGP微软丨1丨1Gbps
-      - TG@p2psharing 香港丨HGC丨原生丨移动中继
-      - TG@p2psharing 香港丨HKG丨原生丨移动优化丨
-      - TG@p2psharing 香港丨专线丨原生丨1Gbps
-      - TG@p2psharing 香港丨原生丨湖南-香港丨中继
-      - TG@p2psharing 香港丨微軟丨广州中继
-      - TG@p2psharing 香港丨微软丨3丨2Gbps
-      - TG@p2psharing 香港丨微软丨Trojan丨移动中继
-      - TG@p2psharing 香港丨微软丨上海-香港丨
-      - TG@p2psharing 马来西亚丨原生丨移动中继
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 台湾 Hinet [原生]
-      - 德国  tuboshu.live 赞助
-      - 新加坡 流媒体解锁
-      - 日本隧道[视频]
-      - 美国 流媒体视频
-      - 香港HGC[原生]
+      - HK-Openit.ml
+      - US-Openit.ml
+      - AU-Openit.ml
+      - SG-Openit.ml
+      - US-Openit.ml 2
+      - HK-Openit.ml 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -546,61 +124,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG@p2psharing 美国丨Trojan
-      - TG@p2psharing 香港丨Trojan丨06
-      - TG@p2psharing 香港丨Trojan丨1丨落地
-      - TG@p2psharing 香港丨Trojan丨沪港3
-      - TG@p2psharing 香港丨Trojan丨沪港中继丨4
-      - TG@p2psharing 香港丨Trojan丨沪港中继丨5
-      - TG@p2psharing 香港丨Trojan丨深港中继1
-      - TG@p2psharing 俄罗斯丨伯力丨02
-      - TG@p2psharing 印度丨湖南-印度丨中继
-      - TG@p2psharing 台湾丨BGP中继丨01丨原生丨600Mbps
-      - TG@p2psharing 台湾丨BGP中继丨02丨原生丨600Mbps
-      - TG@p2psharing 台湾丨Trojan丨静丨深台中继3
-      - TG@p2psharing 台湾丨原生丨三网直连
-      - TG@p2psharing 台湾丨原生丨深台中继丨1
-      - TG@p2psharing 台湾丨原生丨深台中继丨2
-      - TG@p2psharing 台湾丨彰化丨600m
-      - TG@p2psharing 新加坡丨深新中继丨1Gbps
-      - TG@p2psharing 新加坡丨湖南-新加坡丨中继
-      - TG@p2psharing 日本IIJ丨沪日中继02丨原生
-      - TG@p2psharing 日本IIJ丨沪日中继丨原生
-      - TG@p2psharing 日本丨上海-日本ntt丨中继
-      - TG@p2psharing 日本丨原生丨深日中继
-      - TG@p2psharing 日本丨原生丨湖南-日本丨中继
-      - TG@p2psharing 日本丨大阪丨原生
-      - TG@p2psharing 日本丨湖南-大阪丨中继
-      - TG@p2psharing 美国丨BGP中继丨01丨原生
-      - TG@p2psharing 美国丨CN2丨02丨原生
-      - TG@p2psharing 美国丨微软丨沪美中继
-      - TG@p2psharing 越南丨Netflix新加坡区
-      - TG@p2psharing 韩国丨原生丨湖南-韩国丨中继丨
-      - TG@p2psharing 韩国丨微软丨沪韩中继丨原生丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨01丨HKT丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨02丨HKT丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨03丨HGC丨1Gbps
-      - TG@p2psharing 香港丨BGP中继丨04丨流媒体专用
-      - TG@p2psharing 香港丨BGP中继丨05丨深港丨1Gbps
-      - TG@p2psharing 香港丨BGP微软丨02
-      - TG@p2psharing 香港丨BGP微软丨1丨1Gbps
-      - TG@p2psharing 香港丨HGC丨原生丨移动中继
-      - TG@p2psharing 香港丨HKG丨原生丨移动优化丨
-      - TG@p2psharing 香港丨专线丨原生丨1Gbps
-      - TG@p2psharing 香港丨原生丨湖南-香港丨中继
-      - TG@p2psharing 香港丨微軟丨广州中继
-      - TG@p2psharing 香港丨微软丨3丨2Gbps
-      - TG@p2psharing 香港丨微软丨Trojan丨移动中继
-      - TG@p2psharing 香港丨微软丨上海-香港丨
-      - TG@p2psharing 马来西亚丨原生丨移动中继
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 台湾 Hinet [原生]
-      - 德国  tuboshu.live 赞助
-      - 新加坡 流媒体解锁
-      - 日本隧道[视频]
-      - 美国 流媒体视频
-      - 香港HGC[原生]
+      - HK-Openit.ml
+      - US-Openit.ml
+      - AU-Openit.ml
+      - SG-Openit.ml
+      - US-Openit.ml 2
+      - HK-Openit.ml 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
