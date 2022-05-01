@@ -19,10 +19,10 @@ proxies:
   - {name: JP-Openit.ml 2, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: JP-Openit.ml 3, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: JP-Openit.ml 4, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 英国-tg频道:@bpjzx2 5, server: 120.240.168.126, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 英国-tg频道:@bpjzx2 6, server: huaweibgp.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 英国-tg频道:@bpjzx2 7, server: gzjpiplc.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 英国-tg频道:@bpjzx2 11, server: 120.232.82.202, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 英国5, server: 120.240.168.126, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 英国6, server: huaweibgp.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 英国7, server: gzjpiplc.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 英国11, server: 120.232.82.202, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
   - {name: RELAY-Openit.ml 3, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
   - {name: RELAY-Openit.ml 4, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
   - {name: RELAY-Openit.ml 5, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
@@ -69,10 +69,10 @@ proxy-groups:
       - JP-Openit.ml 2
       - JP-Openit.ml 3
       - JP-Openit.ml 4
-      - 英国-tg频道:@bpjzx2 5
-      - 英国-tg频道:@bpjzx2 6
-      - 英国-tg频道:@bpjzx2 7
-      - 英国-tg频道:@bpjzx2 11
+      - 英国5
+      - 英国6
+      - 英国7
+      - 英国11
       - RELAY-Openit.ml 3
       - RELAY-Openit.ml 4
       - RELAY-Openit.ml 5
@@ -118,10 +118,10 @@ proxy-groups:
       - JP-Openit.ml 2
       - JP-Openit.ml 3
       - JP-Openit.ml 4
-      - 英国-tg频道:@bpjzx2 5
-      - 英国-tg频道:@bpjzx2 6
-      - 英国-tg频道:@bpjzx2 7
-      - 英国-tg频道:@bpjzx2 11
+      - 英国5
+      - 英国6
+      - 英国7
+      - 英国11
       - RELAY-Openit.ml 3
       - RELAY-Openit.ml 4
       - RELAY-Openit.ml 5
@@ -168,10 +168,10 @@ proxy-groups:
       - JP-Openit.ml 2
       - JP-Openit.ml 3
       - JP-Openit.ml 4
-      - 英国-tg频道:@bpjzx2 5
-      - 英国-tg频道:@bpjzx2 6
-      - 英国-tg频道:@bpjzx2 7
-      - 英国-tg频道:@bpjzx2 11
+      - 英国5
+      - 英国6
+      - 英国7
+      - 英国11
       - RELAY-Openit.ml 3
       - RELAY-Openit.ml 4
       - RELAY-Openit.ml 5
@@ -230,10 +230,10 @@ proxy-groups:
       - JP-Openit.ml 2
       - JP-Openit.ml 3
       - JP-Openit.ml 4
-      - 英国-tg频道:@bpjzx2 5
-      - 英国-tg频道:@bpjzx2 6
-      - 英国-tg频道:@bpjzx2 7
-      - 英国-tg频道:@bpjzx2 11
+      - 英国5
+      - 英国6
+      - 英国7
+      - 英国11
       - RELAY-Openit.ml 3
       - RELAY-Openit.ml 4
       - RELAY-Openit.ml 5
@@ -285,10 +285,10 @@ proxy-groups:
       - JP-Openit.ml 2
       - JP-Openit.ml 3
       - JP-Openit.ml 4
-      - 英国-tg频道:@bpjzx2 5
-      - 英国-tg频道:@bpjzx2 6
-      - 英国-tg频道:@bpjzx2 7
-      - 英国-tg频道:@bpjzx2 11
+      - 英国5
+      - 英国6
+      - 英国7
+      - 英国11
       - RELAY-Openit.ml 3
       - RELAY-Openit.ml 4
       - RELAY-Openit.ml 5
@@ -334,10 +334,10 @@ proxy-groups:
       - JP-Openit.ml 2
       - JP-Openit.ml 3
       - JP-Openit.ml 4
-      - 英国-tg频道:@bpjzx2 5
-      - 英国-tg频道:@bpjzx2 6
-      - 英国-tg频道:@bpjzx2 7
-      - 英国-tg频道:@bpjzx2 11
+      - 英国5
+      - 英国6
+      - 英国7
+      - 英国11
       - RELAY-Openit.ml 3
       - RELAY-Openit.ml 4
       - RELAY-Openit.ml 5
@@ -384,10 +384,10 @@ proxy-groups:
       - JP-Openit.ml 2
       - JP-Openit.ml 3
       - JP-Openit.ml 4
-      - 英国-tg频道:@bpjzx2 5
-      - 英国-tg频道:@bpjzx2 6
-      - 英国-tg频道:@bpjzx2 7
-      - 英国-tg频道:@bpjzx2 11
+      - 英国5
+      - 英国6
+      - 英国7
+      - 英国11
       - RELAY-Openit.ml 3
       - RELAY-Openit.ml 4
       - RELAY-Openit.ml 5
@@ -443,10 +443,10 @@ proxy-groups:
       - JP-Openit.ml 2
       - JP-Openit.ml 3
       - JP-Openit.ml 4
-      - 英国-tg频道:@bpjzx2 5
-      - 英国-tg频道:@bpjzx2 6
-      - 英国-tg频道:@bpjzx2 7
-      - 英国-tg频道:@bpjzx2 11
+      - 英国5
+      - 英国6
+      - 英国7
+      - 英国11
       - RELAY-Openit.ml 3
       - RELAY-Openit.ml 4
       - RELAY-Openit.ml 5
