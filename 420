@@ -5,279 +5,335 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: RELAY-Openit.ml, server: sgiplcv1.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: RELAY-Openit.ml 2, server: huaweibgp.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: RELAY-Openit.ml 3, server: ggiplc03.jfjfhg.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: RELAY-Openit.ml 4, server: x.gotout.work, port: 30012, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
-  - {name: RELAY-Openit.ml 5, server: x.gotout.work, port: 30041, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
-  - {name: RELAY-Openit.ml 6, server: x.gotout.work, port: 30021, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
-  - {name: US-Openit.ml, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US-Openit.ml 2, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US-Openit.ml 3, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US-Openit.ml 4, server: 38.68.135.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US-Openit.ml 5, server: 38.68.135.19, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US-Openit.ml 6, server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US-Openit.ml 7, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: RELAY-Openit.ml 7, server: x.gotout.work, port: 30061, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
-  - {name: JP-Openit.ml, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 8, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: IN-Openit.ml, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 2, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: TW-Openit.ml, server: tw.node.qchwnd.moe, port: 44608, type: trojan, password: f422be13-9143-4266-b355-ff004658853e, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 9, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-106.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: IN-Openit.ml 2, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: FR-Openit.ml, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
-  - {name: SG-Openit.ml, server: awssg.yeem.cc, port: 21210, type: trojan, password: 59c465d4-e3ad-4a30-9067-887786a2ca2d, sni: awssg.yeem.cc, skip-cert-verify: true, udp: true}
-  - {name: SG-Openit.ml 2, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 8, server: cn.speedabc.xyz, port: 42011, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 9, server: cn.speedabc.xyz, port: 32002, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 3, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, sni: jgwdj2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 10, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 11, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 10, server: cn.speedabc.xyz, port: 42004, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 11, server: cn.speedabc.xyz, port: 42006, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
-  - {name: RO-Openit.ml, server: jp.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: jp.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: GB-Openit.ml, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 4, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: SG-Openit.ml 3, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: IN-Openit.ml 3, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: GB-Openit.ml 2, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 2 2, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 3 2, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 4 2, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 英国5, server: 120.240.168.126, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 英国6, server: huaweibgp.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 英国7, server: gzjpiplc.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 英国11, server: 120.232.82.202, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: RELAY-Openit.ml 3 2, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: RELAY-Openit.ml 4 2, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: RELAY-Openit.ml 5 2, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: RELAY-Openit.ml 6 2, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: US-Openit.ml 4 2, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US-Openit.ml 5 2, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US-Openit.ml 6 2, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US-Openit.ml 7 2, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: RELAY-Openit.ml 7 2, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: US-Openit.ml 8 2, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US-Openit.ml 9 2, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: AU-Openit.ml, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 8 2, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: RELAY-Openit.ml 2 2, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: RELAY-Openit.ml 3 2 2, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: US-Openit.ml 2 2, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US-Openit.ml 4 2 2, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US-Openit.ml 6 2 2, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: RELAY-Openit.ml 4 2 2, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: US-Openit.ml 7 2 2, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA-, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: CA-l 2, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA-Ol 3, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CA- 4, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CA- 5, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CA-l 6, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CA-l 7, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CA- 8, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: RELAY-l 3, server: 120.233.10.230, port: 50200, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: RELAYl 4, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: KR-l 4, server: 158.247.205.87, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: RELAY- 5, server: 120.233.10.230, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: RELAY-Ol 6, server: 120.233.10.230, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: RELAY-l 7, server: 120.233.10.230, port: 50100, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: US- 6, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US- 7, server: 38.68.135.19, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US-l 8, server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US- 9, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US- 10, server: 38.68.135.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US-l 11, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 3, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _PL_波兰 7, server: 217.30.10.65, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: RELAY-l 8, server: x.gotout.work, port: 30031, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
+  - {name: RELAY-l 9, server: x.gotout.work, port: 30041, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
+  - {name: RELAY-l 10, server: x.gotout.work, port: 30021, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
+  - {name: RELAY-l 11, server: x.gotout.work, port: 30061, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
+  - {name: KR- 5, server: 158.247.205.87, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: KR-l 6, server: 158.247.205.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: KR-l 7, server: 158.247.205.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: KR-l 8, server: 158.247.205.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: KR-l 9, server: 158.247.205.87, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: KR-l 10, server: 158.247.205.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: KR-l 11, server: 158.247.205.87, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: KR-l 12, server: 158.247.205.87, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: KR-l 13, server: 158.247.205.87, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: KR-l 14, server: 158.247.205.87, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: KR-l 15, server: 158.247.205.87, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: KR-l 16, server: 158.247.205.87, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US-l 12, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: KR-l 17, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP-l, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: FR-l, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: SG-l, server: awssg.yeem.cc, port: 21210, type: trojan, password: 59c465d4-e3ad-4a30-9067-887786a2ca2d, sni: awssg.yeem.cc, skip-cert-verify: true, udp: true}
+  - {name: SG-l 2, server: sg-sr-114.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-114.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: IN-l, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: SG- 3, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, sni: cp-asus.ml, skip-cert-verify: true, udp: true}
+  - {name: IN-l 2, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: GB-l, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US- 13, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: GB-l 2, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: GB-l 3, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-l 14, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: KR-l 18, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: RELAY-l 4, server: x.gotout.work, port: 30012, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
+  - {name: JP-l 2, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-l 8 2, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-l 9, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-106.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: IN-l 2 2, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: SG-l 2 2, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: RELAY-l 8 2, server: cn.speedabc.xyz, port: 42011, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-l 9 2, server: cn.speedabc.xyz, port: 32002, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
+  - {name: JP-l 3, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, sni: jgwdj2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-l 11 2, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: RELAY-l 10 2, server: cn.speedabc.xyz, port: 42004, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-l 11 2, server: cn.speedabc.xyz, port: 42006, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
+  - {name: RO-l, server: jp.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: jp.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: GB-l 4, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP- 4, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP- 2, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP-l 4 2, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: RELAY-l 3 2, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: RELAY-l 4 2, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: RELAY- 5 2, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: RELAY-l 6 2, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: US-l 5 2, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US-7 2, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: RELAY-l 7 2, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: US-l 8 2 2, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RELAY-Openit.ml
-      - RELAY-Openit.ml 2
-      - RELAY-Openit.ml 3
-      - RELAY-Openit.ml 4
-      - RELAY-Openit.ml 5
-      - RELAY-Openit.ml 6
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
-      - RELAY-Openit.ml 7
-      - JP-Openit.ml
-      - US-Openit.ml 8
-      - IN-Openit.ml
-      - JP-Openit.ml 2
-      - TW-Openit.ml
-      - US-Openit.ml 9
-      - IN-Openit.ml 2
-      - FR-Openit.ml
-      - SG-Openit.ml
-      - SG-Openit.ml 2
-      - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 9
-      - JP-Openit.ml 3
-      - US-Openit.ml 10
-      - US-Openit.ml 11
-      - RELAY-Openit.ml 10
-      - RELAY-Openit.ml 11
-      - RO-Openit.ml
-      - GB-Openit.ml
-      - JP-Openit.ml 4
-      - SG-Openit.ml 3
-      - IN-Openit.ml 3
-      - GB-Openit.ml 2
-      - JP-Openit.ml 2 2
-      - JP-Openit.ml 3 2
-      - JP-Openit.ml 4 2
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
-      - RELAY-Openit.ml 3 2
-      - RELAY-Openit.ml 4 2
-      - RELAY-Openit.ml 5 2
-      - RELAY-Openit.ml 6 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 5 2
-      - US-Openit.ml 6 2
-      - US-Openit.ml 7 2
-      - RELAY-Openit.ml 7 2
-      - US-Openit.ml 8 2
-      - US-Openit.ml 9 2
-      - AU-Openit.ml
-      - RELAY-Openit.ml 8 2
-      - RELAY-Openit.ml 2 2
-      - RELAY-Openit.ml 3 2 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2 2
-      - US-Openit.ml 6 2 2
-      - RELAY-Openit.ml 4 2 2
-      - US-Openit.ml 7 2 2
+      - CA-
+      - CA-l 2
+      - CA-Ol 3
+      - CA- 4
+      - CA- 5
+      - CA-l 6
+      - CA-l 7
+      - CA- 8
+      - RELAY-l 3
+      - RELAYl 4
+      - KR-l 4
+      - RELAY- 5
+      - RELAY-Ol 6
+      - RELAY-l 7
+      - US- 6
+      - US- 7
+      - US-l 8
+      - US- 9
+      - US- 10
+      - US-l 11
+      - _US_美国 3
+      - _PL_波兰 7
+      - RELAY-l 8
+      - RELAY-l 9
+      - RELAY-l 10
+      - RELAY-l 11
+      - KR- 5
+      - KR-l 6
+      - KR-l 7
+      - KR-l 8
+      - KR-l 9
+      - KR-l 10
+      - KR-l 11
+      - KR-l 12
+      - KR-l 13
+      - KR-l 14
+      - KR-l 15
+      - KR-l 16
+      - US-l 12
+      - KR-l 17
+      - JP-l
+      - FR-l
+      - SG-l
+      - SG-l 2
+      - IN-l
+      - SG- 3
+      - IN-l 2
+      - GB-l
+      - US- 13
+      - GB-l 2
+      - GB-l 3
+      - US-l 14
+      - KR-l 18
+      - RELAY-l 4
+      - JP-l 2
+      - US-l 8 2
+      - US-l 9
+      - IN-l 2 2
+      - SG-l 2 2
+      - RELAY-l 8 2
+      - RELAY-l 9 2
+      - JP-l 3
+      - US-l 11 2
+      - RELAY-l 10 2
+      - RELAY-l 11 2
+      - RO-l
+      - GB-l 4
+      - JP- 4
+      - JP- 2
+      - JP-l 4 2
+      - RELAY-l 3 2
+      - RELAY-l 4 2
+      - RELAY- 5 2
+      - RELAY-l 6 2
+      - US-l 5 2
+      - US-7 2
+      - RELAY-l 7 2
+      - US-l 8 2 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - RELAY-Openit.ml
-      - RELAY-Openit.ml 2
-      - RELAY-Openit.ml 3
-      - RELAY-Openit.ml 4
-      - RELAY-Openit.ml 5
-      - RELAY-Openit.ml 6
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
-      - RELAY-Openit.ml 7
-      - JP-Openit.ml
-      - US-Openit.ml 8
-      - IN-Openit.ml
-      - JP-Openit.ml 2
-      - TW-Openit.ml
-      - US-Openit.ml 9
-      - IN-Openit.ml 2
-      - FR-Openit.ml
-      - SG-Openit.ml
-      - SG-Openit.ml 2
-      - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 9
-      - JP-Openit.ml 3
-      - US-Openit.ml 10
-      - US-Openit.ml 11
-      - RELAY-Openit.ml 10
-      - RELAY-Openit.ml 11
-      - RO-Openit.ml
-      - GB-Openit.ml
-      - JP-Openit.ml 4
-      - SG-Openit.ml 3
-      - IN-Openit.ml 3
-      - GB-Openit.ml 2
-      - JP-Openit.ml 2 2
-      - JP-Openit.ml 3 2
-      - JP-Openit.ml 4 2
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
-      - RELAY-Openit.ml 3 2
-      - RELAY-Openit.ml 4 2
-      - RELAY-Openit.ml 5 2
-      - RELAY-Openit.ml 6 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 5 2
-      - US-Openit.ml 6 2
-      - US-Openit.ml 7 2
-      - RELAY-Openit.ml 7 2
-      - US-Openit.ml 8 2
-      - US-Openit.ml 9 2
-      - AU-Openit.ml
-      - RELAY-Openit.ml 8 2
-      - RELAY-Openit.ml 2 2
-      - RELAY-Openit.ml 3 2 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2 2
-      - US-Openit.ml 6 2 2
-      - RELAY-Openit.ml 4 2 2
-      - US-Openit.ml 7 2 2
+      - CA-
+      - CA-l 2
+      - CA-Ol 3
+      - CA- 4
+      - CA- 5
+      - CA-l 6
+      - CA-l 7
+      - CA- 8
+      - RELAY-l 3
+      - RELAYl 4
+      - KR-l 4
+      - RELAY- 5
+      - RELAY-Ol 6
+      - RELAY-l 7
+      - US- 6
+      - US- 7
+      - US-l 8
+      - US- 9
+      - US- 10
+      - US-l 11
+      - _US_美国 3
+      - _PL_波兰 7
+      - RELAY-l 8
+      - RELAY-l 9
+      - RELAY-l 10
+      - RELAY-l 11
+      - KR- 5
+      - KR-l 6
+      - KR-l 7
+      - KR-l 8
+      - KR-l 9
+      - KR-l 10
+      - KR-l 11
+      - KR-l 12
+      - KR-l 13
+      - KR-l 14
+      - KR-l 15
+      - KR-l 16
+      - US-l 12
+      - KR-l 17
+      - JP-l
+      - FR-l
+      - SG-l
+      - SG-l 2
+      - IN-l
+      - SG- 3
+      - IN-l 2
+      - GB-l
+      - US- 13
+      - GB-l 2
+      - GB-l 3
+      - US-l 14
+      - KR-l 18
+      - RELAY-l 4
+      - JP-l 2
+      - US-l 8 2
+      - US-l 9
+      - IN-l 2 2
+      - SG-l 2 2
+      - RELAY-l 8 2
+      - RELAY-l 9 2
+      - JP-l 3
+      - US-l 11 2
+      - RELAY-l 10 2
+      - RELAY-l 11 2
+      - RO-l
+      - GB-l 4
+      - JP- 4
+      - JP- 2
+      - JP-l 4 2
+      - RELAY-l 3 2
+      - RELAY-l 4 2
+      - RELAY- 5 2
+      - RELAY-l 6 2
+      - US-l 5 2
+      - US-7 2
+      - RELAY-l 7 2
+      - US-l 8 2 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RELAY-Openit.ml
-      - RELAY-Openit.ml 2
-      - RELAY-Openit.ml 3
-      - RELAY-Openit.ml 4
-      - RELAY-Openit.ml 5
-      - RELAY-Openit.ml 6
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
-      - RELAY-Openit.ml 7
-      - JP-Openit.ml
-      - US-Openit.ml 8
-      - IN-Openit.ml
-      - JP-Openit.ml 2
-      - TW-Openit.ml
-      - US-Openit.ml 9
-      - IN-Openit.ml 2
-      - FR-Openit.ml
-      - SG-Openit.ml
-      - SG-Openit.ml 2
-      - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 9
-      - JP-Openit.ml 3
-      - US-Openit.ml 10
-      - US-Openit.ml 11
-      - RELAY-Openit.ml 10
-      - RELAY-Openit.ml 11
-      - RO-Openit.ml
-      - GB-Openit.ml
-      - JP-Openit.ml 4
-      - SG-Openit.ml 3
-      - IN-Openit.ml 3
-      - GB-Openit.ml 2
-      - JP-Openit.ml 2 2
-      - JP-Openit.ml 3 2
-      - JP-Openit.ml 4 2
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
-      - RELAY-Openit.ml 3 2
-      - RELAY-Openit.ml 4 2
-      - RELAY-Openit.ml 5 2
-      - RELAY-Openit.ml 6 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 5 2
-      - US-Openit.ml 6 2
-      - US-Openit.ml 7 2
-      - RELAY-Openit.ml 7 2
-      - US-Openit.ml 8 2
-      - US-Openit.ml 9 2
-      - AU-Openit.ml
-      - RELAY-Openit.ml 8 2
-      - RELAY-Openit.ml 2 2
-      - RELAY-Openit.ml 3 2 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2 2
-      - US-Openit.ml 6 2 2
-      - RELAY-Openit.ml 4 2 2
-      - US-Openit.ml 7 2 2
+      - CA-
+      - CA-l 2
+      - CA-Ol 3
+      - CA- 4
+      - CA- 5
+      - CA-l 6
+      - CA-l 7
+      - CA- 8
+      - RELAY-l 3
+      - RELAYl 4
+      - KR-l 4
+      - RELAY- 5
+      - RELAY-Ol 6
+      - RELAY-l 7
+      - US- 6
+      - US- 7
+      - US-l 8
+      - US- 9
+      - US- 10
+      - US-l 11
+      - _US_美国 3
+      - _PL_波兰 7
+      - RELAY-l 8
+      - RELAY-l 9
+      - RELAY-l 10
+      - RELAY-l 11
+      - KR- 5
+      - KR-l 6
+      - KR-l 7
+      - KR-l 8
+      - KR-l 9
+      - KR-l 10
+      - KR-l 11
+      - KR-l 12
+      - KR-l 13
+      - KR-l 14
+      - KR-l 15
+      - KR-l 16
+      - US-l 12
+      - KR-l 17
+      - JP-l
+      - FR-l
+      - SG-l
+      - SG-l 2
+      - IN-l
+      - SG- 3
+      - IN-l 2
+      - GB-l
+      - US- 13
+      - GB-l 2
+      - GB-l 3
+      - US-l 14
+      - KR-l 18
+      - RELAY-l 4
+      - JP-l 2
+      - US-l 8 2
+      - US-l 9
+      - IN-l 2 2
+      - SG-l 2 2
+      - RELAY-l 8 2
+      - RELAY-l 9 2
+      - JP-l 3
+      - US-l 11 2
+      - RELAY-l 10 2
+      - RELAY-l 11 2
+      - RO-l
+      - GB-l 4
+      - JP- 4
+      - JP- 2
+      - JP-l 4 2
+      - RELAY-l 3 2
+      - RELAY-l 4 2
+      - RELAY- 5 2
+      - RELAY-l 6 2
+      - US-l 5 2
+      - US-7 2
+      - RELAY-l 7 2
+      - US-l 8 2 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -296,70 +352,84 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RELAY-Openit.ml
-      - RELAY-Openit.ml 2
-      - RELAY-Openit.ml 3
-      - RELAY-Openit.ml 4
-      - RELAY-Openit.ml 5
-      - RELAY-Openit.ml 6
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
-      - RELAY-Openit.ml 7
-      - JP-Openit.ml
-      - US-Openit.ml 8
-      - IN-Openit.ml
-      - JP-Openit.ml 2
-      - TW-Openit.ml
-      - US-Openit.ml 9
-      - IN-Openit.ml 2
-      - FR-Openit.ml
-      - SG-Openit.ml
-      - SG-Openit.ml 2
-      - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 9
-      - JP-Openit.ml 3
-      - US-Openit.ml 10
-      - US-Openit.ml 11
-      - RELAY-Openit.ml 10
-      - RELAY-Openit.ml 11
-      - RO-Openit.ml
-      - GB-Openit.ml
-      - JP-Openit.ml 4
-      - SG-Openit.ml 3
-      - IN-Openit.ml 3
-      - GB-Openit.ml 2
-      - JP-Openit.ml 2 2
-      - JP-Openit.ml 3 2
-      - JP-Openit.ml 4 2
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
-      - RELAY-Openit.ml 3 2
-      - RELAY-Openit.ml 4 2
-      - RELAY-Openit.ml 5 2
-      - RELAY-Openit.ml 6 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 5 2
-      - US-Openit.ml 6 2
-      - US-Openit.ml 7 2
-      - RELAY-Openit.ml 7 2
-      - US-Openit.ml 8 2
-      - US-Openit.ml 9 2
-      - AU-Openit.ml
-      - RELAY-Openit.ml 8 2
-      - RELAY-Openit.ml 2 2
-      - RELAY-Openit.ml 3 2 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2 2
-      - US-Openit.ml 6 2 2
-      - RELAY-Openit.ml 4 2 2
-      - US-Openit.ml 7 2 2
+      - CA-
+      - CA-l 2
+      - CA-Ol 3
+      - CA- 4
+      - CA- 5
+      - CA-l 6
+      - CA-l 7
+      - CA- 8
+      - RELAY-l 3
+      - RELAYl 4
+      - KR-l 4
+      - RELAY- 5
+      - RELAY-Ol 6
+      - RELAY-l 7
+      - US- 6
+      - US- 7
+      - US-l 8
+      - US- 9
+      - US- 10
+      - US-l 11
+      - _US_美国 3
+      - _PL_波兰 7
+      - RELAY-l 8
+      - RELAY-l 9
+      - RELAY-l 10
+      - RELAY-l 11
+      - KR- 5
+      - KR-l 6
+      - KR-l 7
+      - KR-l 8
+      - KR-l 9
+      - KR-l 10
+      - KR-l 11
+      - KR-l 12
+      - KR-l 13
+      - KR-l 14
+      - KR-l 15
+      - KR-l 16
+      - US-l 12
+      - KR-l 17
+      - JP-l
+      - FR-l
+      - SG-l
+      - SG-l 2
+      - IN-l
+      - SG- 3
+      - IN-l 2
+      - GB-l
+      - US- 13
+      - GB-l 2
+      - GB-l 3
+      - US-l 14
+      - KR-l 18
+      - RELAY-l 4
+      - JP-l 2
+      - US-l 8 2
+      - US-l 9
+      - IN-l 2 2
+      - SG-l 2 2
+      - RELAY-l 8 2
+      - RELAY-l 9 2
+      - JP-l 3
+      - US-l 11 2
+      - RELAY-l 10 2
+      - RELAY-l 11 2
+      - RO-l
+      - GB-l 4
+      - JP- 4
+      - JP- 2
+      - JP-l 4 2
+      - RELAY-l 3 2
+      - RELAY-l 4 2
+      - RELAY- 5 2
+      - RELAY-l 6 2
+      - US-l 5 2
+      - US-7 2
+      - RELAY-l 7 2
+      - US-l 8 2 2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -370,209 +440,251 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - RELAY-Openit.ml
-      - RELAY-Openit.ml 2
-      - RELAY-Openit.ml 3
-      - RELAY-Openit.ml 4
-      - RELAY-Openit.ml 5
-      - RELAY-Openit.ml 6
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
-      - RELAY-Openit.ml 7
-      - JP-Openit.ml
-      - US-Openit.ml 8
-      - IN-Openit.ml
-      - JP-Openit.ml 2
-      - TW-Openit.ml
-      - US-Openit.ml 9
-      - IN-Openit.ml 2
-      - FR-Openit.ml
-      - SG-Openit.ml
-      - SG-Openit.ml 2
-      - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 9
-      - JP-Openit.ml 3
-      - US-Openit.ml 10
-      - US-Openit.ml 11
-      - RELAY-Openit.ml 10
-      - RELAY-Openit.ml 11
-      - RO-Openit.ml
-      - GB-Openit.ml
-      - JP-Openit.ml 4
-      - SG-Openit.ml 3
-      - IN-Openit.ml 3
-      - GB-Openit.ml 2
-      - JP-Openit.ml 2 2
-      - JP-Openit.ml 3 2
-      - JP-Openit.ml 4 2
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
-      - RELAY-Openit.ml 3 2
-      - RELAY-Openit.ml 4 2
-      - RELAY-Openit.ml 5 2
-      - RELAY-Openit.ml 6 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 5 2
-      - US-Openit.ml 6 2
-      - US-Openit.ml 7 2
-      - RELAY-Openit.ml 7 2
-      - US-Openit.ml 8 2
-      - US-Openit.ml 9 2
-      - AU-Openit.ml
-      - RELAY-Openit.ml 8 2
-      - RELAY-Openit.ml 2 2
-      - RELAY-Openit.ml 3 2 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2 2
-      - US-Openit.ml 6 2 2
-      - RELAY-Openit.ml 4 2 2
-      - US-Openit.ml 7 2 2
+      - CA-
+      - CA-l 2
+      - CA-Ol 3
+      - CA- 4
+      - CA- 5
+      - CA-l 6
+      - CA-l 7
+      - CA- 8
+      - RELAY-l 3
+      - RELAYl 4
+      - KR-l 4
+      - RELAY- 5
+      - RELAY-Ol 6
+      - RELAY-l 7
+      - US- 6
+      - US- 7
+      - US-l 8
+      - US- 9
+      - US- 10
+      - US-l 11
+      - _US_美国 3
+      - _PL_波兰 7
+      - RELAY-l 8
+      - RELAY-l 9
+      - RELAY-l 10
+      - RELAY-l 11
+      - KR- 5
+      - KR-l 6
+      - KR-l 7
+      - KR-l 8
+      - KR-l 9
+      - KR-l 10
+      - KR-l 11
+      - KR-l 12
+      - KR-l 13
+      - KR-l 14
+      - KR-l 15
+      - KR-l 16
+      - US-l 12
+      - KR-l 17
+      - JP-l
+      - FR-l
+      - SG-l
+      - SG-l 2
+      - IN-l
+      - SG- 3
+      - IN-l 2
+      - GB-l
+      - US- 13
+      - GB-l 2
+      - GB-l 3
+      - US-l 14
+      - KR-l 18
+      - RELAY-l 4
+      - JP-l 2
+      - US-l 8 2
+      - US-l 9
+      - IN-l 2 2
+      - SG-l 2 2
+      - RELAY-l 8 2
+      - RELAY-l 9 2
+      - JP-l 3
+      - US-l 11 2
+      - RELAY-l 10 2
+      - RELAY-l 11 2
+      - RO-l
+      - GB-l 4
+      - JP- 4
+      - JP- 2
+      - JP-l 4 2
+      - RELAY-l 3 2
+      - RELAY-l 4 2
+      - RELAY- 5 2
+      - RELAY-l 6 2
+      - US-l 5 2
+      - US-7 2
+      - RELAY-l 7 2
+      - US-l 8 2 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - RELAY-Openit.ml
-      - RELAY-Openit.ml 2
-      - RELAY-Openit.ml 3
-      - RELAY-Openit.ml 4
-      - RELAY-Openit.ml 5
-      - RELAY-Openit.ml 6
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
-      - RELAY-Openit.ml 7
-      - JP-Openit.ml
-      - US-Openit.ml 8
-      - IN-Openit.ml
-      - JP-Openit.ml 2
-      - TW-Openit.ml
-      - US-Openit.ml 9
-      - IN-Openit.ml 2
-      - FR-Openit.ml
-      - SG-Openit.ml
-      - SG-Openit.ml 2
-      - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 9
-      - JP-Openit.ml 3
-      - US-Openit.ml 10
-      - US-Openit.ml 11
-      - RELAY-Openit.ml 10
-      - RELAY-Openit.ml 11
-      - RO-Openit.ml
-      - GB-Openit.ml
-      - JP-Openit.ml 4
-      - SG-Openit.ml 3
-      - IN-Openit.ml 3
-      - GB-Openit.ml 2
-      - JP-Openit.ml 2 2
-      - JP-Openit.ml 3 2
-      - JP-Openit.ml 4 2
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
-      - RELAY-Openit.ml 3 2
-      - RELAY-Openit.ml 4 2
-      - RELAY-Openit.ml 5 2
-      - RELAY-Openit.ml 6 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 5 2
-      - US-Openit.ml 6 2
-      - US-Openit.ml 7 2
-      - RELAY-Openit.ml 7 2
-      - US-Openit.ml 8 2
-      - US-Openit.ml 9 2
-      - AU-Openit.ml
-      - RELAY-Openit.ml 8 2
-      - RELAY-Openit.ml 2 2
-      - RELAY-Openit.ml 3 2 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2 2
-      - US-Openit.ml 6 2 2
-      - RELAY-Openit.ml 4 2 2
-      - US-Openit.ml 7 2 2
+      - CA-
+      - CA-l 2
+      - CA-Ol 3
+      - CA- 4
+      - CA- 5
+      - CA-l 6
+      - CA-l 7
+      - CA- 8
+      - RELAY-l 3
+      - RELAYl 4
+      - KR-l 4
+      - RELAY- 5
+      - RELAY-Ol 6
+      - RELAY-l 7
+      - US- 6
+      - US- 7
+      - US-l 8
+      - US- 9
+      - US- 10
+      - US-l 11
+      - _US_美国 3
+      - _PL_波兰 7
+      - RELAY-l 8
+      - RELAY-l 9
+      - RELAY-l 10
+      - RELAY-l 11
+      - KR- 5
+      - KR-l 6
+      - KR-l 7
+      - KR-l 8
+      - KR-l 9
+      - KR-l 10
+      - KR-l 11
+      - KR-l 12
+      - KR-l 13
+      - KR-l 14
+      - KR-l 15
+      - KR-l 16
+      - US-l 12
+      - KR-l 17
+      - JP-l
+      - FR-l
+      - SG-l
+      - SG-l 2
+      - IN-l
+      - SG- 3
+      - IN-l 2
+      - GB-l
+      - US- 13
+      - GB-l 2
+      - GB-l 3
+      - US-l 14
+      - KR-l 18
+      - RELAY-l 4
+      - JP-l 2
+      - US-l 8 2
+      - US-l 9
+      - IN-l 2 2
+      - SG-l 2 2
+      - RELAY-l 8 2
+      - RELAY-l 9 2
+      - JP-l 3
+      - US-l 11 2
+      - RELAY-l 10 2
+      - RELAY-l 11 2
+      - RO-l
+      - GB-l 4
+      - JP- 4
+      - JP- 2
+      - JP-l 4 2
+      - RELAY-l 3 2
+      - RELAY-l 4 2
+      - RELAY- 5 2
+      - RELAY-l 6 2
+      - US-l 5 2
+      - US-7 2
+      - RELAY-l 7 2
+      - US-l 8 2 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RELAY-Openit.ml
-      - RELAY-Openit.ml 2
-      - RELAY-Openit.ml 3
-      - RELAY-Openit.ml 4
-      - RELAY-Openit.ml 5
-      - RELAY-Openit.ml 6
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
-      - RELAY-Openit.ml 7
-      - JP-Openit.ml
-      - US-Openit.ml 8
-      - IN-Openit.ml
-      - JP-Openit.ml 2
-      - TW-Openit.ml
-      - US-Openit.ml 9
-      - IN-Openit.ml 2
-      - FR-Openit.ml
-      - SG-Openit.ml
-      - SG-Openit.ml 2
-      - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 9
-      - JP-Openit.ml 3
-      - US-Openit.ml 10
-      - US-Openit.ml 11
-      - RELAY-Openit.ml 10
-      - RELAY-Openit.ml 11
-      - RO-Openit.ml
-      - GB-Openit.ml
-      - JP-Openit.ml 4
-      - SG-Openit.ml 3
-      - IN-Openit.ml 3
-      - GB-Openit.ml 2
-      - JP-Openit.ml 2 2
-      - JP-Openit.ml 3 2
-      - JP-Openit.ml 4 2
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
-      - RELAY-Openit.ml 3 2
-      - RELAY-Openit.ml 4 2
-      - RELAY-Openit.ml 5 2
-      - RELAY-Openit.ml 6 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 5 2
-      - US-Openit.ml 6 2
-      - US-Openit.ml 7 2
-      - RELAY-Openit.ml 7 2
-      - US-Openit.ml 8 2
-      - US-Openit.ml 9 2
-      - AU-Openit.ml
-      - RELAY-Openit.ml 8 2
-      - RELAY-Openit.ml 2 2
-      - RELAY-Openit.ml 3 2 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2 2
-      - US-Openit.ml 6 2 2
-      - RELAY-Openit.ml 4 2 2
-      - US-Openit.ml 7 2 2
+      - CA-
+      - CA-l 2
+      - CA-Ol 3
+      - CA- 4
+      - CA- 5
+      - CA-l 6
+      - CA-l 7
+      - CA- 8
+      - RELAY-l 3
+      - RELAYl 4
+      - KR-l 4
+      - RELAY- 5
+      - RELAY-Ol 6
+      - RELAY-l 7
+      - US- 6
+      - US- 7
+      - US-l 8
+      - US- 9
+      - US- 10
+      - US-l 11
+      - _US_美国 3
+      - _PL_波兰 7
+      - RELAY-l 8
+      - RELAY-l 9
+      - RELAY-l 10
+      - RELAY-l 11
+      - KR- 5
+      - KR-l 6
+      - KR-l 7
+      - KR-l 8
+      - KR-l 9
+      - KR-l 10
+      - KR-l 11
+      - KR-l 12
+      - KR-l 13
+      - KR-l 14
+      - KR-l 15
+      - KR-l 16
+      - US-l 12
+      - KR-l 17
+      - JP-l
+      - FR-l
+      - SG-l
+      - SG-l 2
+      - IN-l
+      - SG- 3
+      - IN-l 2
+      - GB-l
+      - US- 13
+      - GB-l 2
+      - GB-l 3
+      - US-l 14
+      - KR-l 18
+      - RELAY-l 4
+      - JP-l 2
+      - US-l 8 2
+      - US-l 9
+      - IN-l 2 2
+      - SG-l 2 2
+      - RELAY-l 8 2
+      - RELAY-l 9 2
+      - JP-l 3
+      - US-l 11 2
+      - RELAY-l 10 2
+      - RELAY-l 11 2
+      - RO-l
+      - GB-l 4
+      - JP- 4
+      - JP- 2
+      - JP-l 4 2
+      - RELAY-l 3 2
+      - RELAY-l 4 2
+      - RELAY- 5 2
+      - RELAY-l 6 2
+      - US-l 5 2
+      - US-7 2
+      - RELAY-l 7 2
+      - US-l 8 2 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -588,70 +700,84 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RELAY-Openit.ml
-      - RELAY-Openit.ml 2
-      - RELAY-Openit.ml 3
-      - RELAY-Openit.ml 4
-      - RELAY-Openit.ml 5
-      - RELAY-Openit.ml 6
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
-      - RELAY-Openit.ml 7
-      - JP-Openit.ml
-      - US-Openit.ml 8
-      - IN-Openit.ml
-      - JP-Openit.ml 2
-      - TW-Openit.ml
-      - US-Openit.ml 9
-      - IN-Openit.ml 2
-      - FR-Openit.ml
-      - SG-Openit.ml
-      - SG-Openit.ml 2
-      - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 9
-      - JP-Openit.ml 3
-      - US-Openit.ml 10
-      - US-Openit.ml 11
-      - RELAY-Openit.ml 10
-      - RELAY-Openit.ml 11
-      - RO-Openit.ml
-      - GB-Openit.ml
-      - JP-Openit.ml 4
-      - SG-Openit.ml 3
-      - IN-Openit.ml 3
-      - GB-Openit.ml 2
-      - JP-Openit.ml 2 2
-      - JP-Openit.ml 3 2
-      - JP-Openit.ml 4 2
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
-      - RELAY-Openit.ml 3 2
-      - RELAY-Openit.ml 4 2
-      - RELAY-Openit.ml 5 2
-      - RELAY-Openit.ml 6 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 5 2
-      - US-Openit.ml 6 2
-      - US-Openit.ml 7 2
-      - RELAY-Openit.ml 7 2
-      - US-Openit.ml 8 2
-      - US-Openit.ml 9 2
-      - AU-Openit.ml
-      - RELAY-Openit.ml 8 2
-      - RELAY-Openit.ml 2 2
-      - RELAY-Openit.ml 3 2 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2 2
-      - US-Openit.ml 6 2 2
-      - RELAY-Openit.ml 4 2 2
-      - US-Openit.ml 7 2 2
+      - CA-
+      - CA-l 2
+      - CA-Ol 3
+      - CA- 4
+      - CA- 5
+      - CA-l 6
+      - CA-l 7
+      - CA- 8
+      - RELAY-l 3
+      - RELAYl 4
+      - KR-l 4
+      - RELAY- 5
+      - RELAY-Ol 6
+      - RELAY-l 7
+      - US- 6
+      - US- 7
+      - US-l 8
+      - US- 9
+      - US- 10
+      - US-l 11
+      - _US_美国 3
+      - _PL_波兰 7
+      - RELAY-l 8
+      - RELAY-l 9
+      - RELAY-l 10
+      - RELAY-l 11
+      - KR- 5
+      - KR-l 6
+      - KR-l 7
+      - KR-l 8
+      - KR-l 9
+      - KR-l 10
+      - KR-l 11
+      - KR-l 12
+      - KR-l 13
+      - KR-l 14
+      - KR-l 15
+      - KR-l 16
+      - US-l 12
+      - KR-l 17
+      - JP-l
+      - FR-l
+      - SG-l
+      - SG-l 2
+      - IN-l
+      - SG- 3
+      - IN-l 2
+      - GB-l
+      - US- 13
+      - GB-l 2
+      - GB-l 3
+      - US-l 14
+      - KR-l 18
+      - RELAY-l 4
+      - JP-l 2
+      - US-l 8 2
+      - US-l 9
+      - IN-l 2 2
+      - SG-l 2 2
+      - RELAY-l 8 2
+      - RELAY-l 9 2
+      - JP-l 3
+      - US-l 11 2
+      - RELAY-l 10 2
+      - RELAY-l 11 2
+      - RO-l
+      - GB-l 4
+      - JP- 4
+      - JP- 2
+      - JP-l 4 2
+      - RELAY-l 3 2
+      - RELAY-l 4 2
+      - RELAY- 5 2
+      - RELAY-l 6 2
+      - US-l 5 2
+      - US-7 2
+      - RELAY-l 7 2
+      - US-l 8 2 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
