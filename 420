@@ -5,199 +5,279 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: RELAY-Openit.ml, server: sgiplcv1.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: RELAY-Openit.ml 2, server: huaweibgp.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: RELAY-Openit.ml 3, server: ggiplc03.jfjfhg.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: RELAY-Openit.ml 4, server: x.gotout.work, port: 30012, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
+  - {name: RELAY-Openit.ml 5, server: x.gotout.work, port: 30041, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
+  - {name: RELAY-Openit.ml 6, server: x.gotout.work, port: 30021, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
+  - {name: US-Openit.ml, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US-Openit.ml 2, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US-Openit.ml 3, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US-Openit.ml 4, server: 38.68.135.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US-Openit.ml 5, server: 38.68.135.19, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US-Openit.ml 6, server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US-Openit.ml 7, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: RELAY-Openit.ml 7, server: x.gotout.work, port: 30061, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
+  - {name: JP-Openit.ml, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml 8, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: IN-Openit.ml, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml 2, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: TW-Openit.ml, server: tw.node.qchwnd.moe, port: 44608, type: trojan, password: f422be13-9143-4266-b355-ff004658853e, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml 9, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-106.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: IN-Openit.ml 2, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: FR-Openit.ml, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: SG-Openit.ml, server: awssg.yeem.cc, port: 21210, type: trojan, password: 59c465d4-e3ad-4a30-9067-887786a2ca2d, sni: awssg.yeem.cc, skip-cert-verify: true, udp: true}
+  - {name: SG-Openit.ml 2, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 8, server: cn.speedabc.xyz, port: 42011, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 9, server: cn.speedabc.xyz, port: 32002, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml 3, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, sni: jgwdj2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml 10, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml 11, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 10, server: cn.speedabc.xyz, port: 42004, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 11, server: cn.speedabc.xyz, port: 42006, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
   - {name: RO-Openit.ml, server: jp.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: jp.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml, server: misaka1433.tk, port: 443, type: trojan, password: YcQgIbGZNNd1PwsF, sni: misaka1433.tk, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 2, server: tj-12.t8737.shop, port: 11223, type: trojan, password: 76216dcd-b3c1-42fa-b68c-2ef031355aeb, sni: tj-12.t8737.shop, skip-cert-verify: true, udp: true}
   - {name: GB-Openit.ml, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: SG-Openit.ml, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: IN-Openit.ml, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml 4, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: SG-Openit.ml 3, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: IN-Openit.ml 3, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: GB-Openit.ml 2, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 2, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 3, server: hk.omgwtf.website, port: 443, type: trojan, password: t4UzK3V1dXXumlz8, sni: hk.omgwtf.website, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 2, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 3, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 4, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml 2 2, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml 3 2, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml 4 2, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: 英国5, server: 120.240.168.126, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
   - {name: 英国6, server: huaweibgp.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
   - {name: 英国7, server: gzjpiplc.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
   - {name: 英国11, server: 120.232.82.202, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: RELAY-Openit.ml 3, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: RELAY-Openit.ml 4, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: RELAY-Openit.ml 5, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: RELAY-Openit.ml 6, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: US-Openit.ml 4, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US-Openit.ml 5, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US-Openit.ml 6, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US-Openit.ml 7, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: RELAY-Openit.ml 7, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: US-Openit.ml 8, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "[🇯🇵][TR][日]", server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 9, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 5, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: AU-Openit.ml, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 8, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: RELAY-Openit.ml 2 2, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: RELAY-Openit.ml 3 2, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: US-Openit.ml 2 2, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US-Openit.ml 4 2, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: RELAY-Openit.ml 3 2, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: RELAY-Openit.ml 4 2, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: RELAY-Openit.ml 5 2, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: RELAY-Openit.ml 6 2, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: US-Openit.ml 4 2, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US-Openit.ml 5 2, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: US-Openit.ml 6 2, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: RELAY-Openit.ml 4 2, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: US-Openit.ml 7 2, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 俄罗斯-隧道中转, server: dog.newhost.cc, port: 10692, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 印度 孟买-来点玛莎拉, server: dog.newhost.cc, port: 10693, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "日本隧道[视频]", server: dog.newhost.cc, port: 10255, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "香港HGC[原生]", server: dog.newhost.cc, port: 10256, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: US-Openit.ml 7 2, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: RELAY-Openit.ml 7 2, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: US-Openit.ml 8 2, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US-Openit.ml 9 2, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: AU-Openit.ml, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 8 2, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: RELAY-Openit.ml 2 2, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: RELAY-Openit.ml 3 2 2, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: US-Openit.ml 2 2, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US-Openit.ml 4 2 2, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US-Openit.ml 6 2 2, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: RELAY-Openit.ml 4 2 2, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: US-Openit.ml 7 2 2, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RO-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - GB-Openit.ml
-      - JP-Openit.ml
-      - SG-Openit.ml
-      - IN-Openit.ml
-      - GB-Openit.ml 2
       - RELAY-Openit.ml
       - RELAY-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 2
-      - JP-Openit.ml 3
-      - JP-Openit.ml 4
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
       - RELAY-Openit.ml 3
       - RELAY-Openit.ml 4
       - RELAY-Openit.ml 5
       - RELAY-Openit.ml 6
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
       - US-Openit.ml 4
       - US-Openit.ml 5
       - US-Openit.ml 6
       - US-Openit.ml 7
       - RELAY-Openit.ml 7
+      - JP-Openit.ml
       - US-Openit.ml 8
-      - "[🇯🇵][TR][日]"
+      - IN-Openit.ml
+      - JP-Openit.ml 2
+      - TW-Openit.ml
       - US-Openit.ml 9
-      - JP-Openit.ml 5
-      - AU-Openit.ml
+      - IN-Openit.ml 2
+      - FR-Openit.ml
+      - SG-Openit.ml
+      - SG-Openit.ml 2
       - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 2 2
+      - RELAY-Openit.ml 9
+      - JP-Openit.ml 3
+      - US-Openit.ml 10
+      - US-Openit.ml 11
+      - RELAY-Openit.ml 10
+      - RELAY-Openit.ml 11
+      - RO-Openit.ml
+      - GB-Openit.ml
+      - JP-Openit.ml 4
+      - SG-Openit.ml 3
+      - IN-Openit.ml 3
+      - GB-Openit.ml 2
+      - JP-Openit.ml 2 2
+      - JP-Openit.ml 3 2
+      - JP-Openit.ml 4 2
+      - 英国5
+      - 英国6
+      - 英国7
+      - 英国11
       - RELAY-Openit.ml 3 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 6 2
       - RELAY-Openit.ml 4 2
+      - RELAY-Openit.ml 5 2
+      - RELAY-Openit.ml 6 2
+      - US-Openit.ml 4 2
+      - US-Openit.ml 5 2
+      - US-Openit.ml 6 2
       - US-Openit.ml 7 2
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 日本隧道[视频]
-      - 香港HGC[原生]
+      - RELAY-Openit.ml 7 2
+      - US-Openit.ml 8 2
+      - US-Openit.ml 9 2
+      - AU-Openit.ml
+      - RELAY-Openit.ml 8 2
+      - RELAY-Openit.ml 2 2
+      - RELAY-Openit.ml 3 2 2
+      - US-Openit.ml 2 2
+      - US-Openit.ml 4 2 2
+      - US-Openit.ml 6 2 2
+      - RELAY-Openit.ml 4 2 2
+      - US-Openit.ml 7 2 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - RO-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - GB-Openit.ml
-      - JP-Openit.ml
-      - SG-Openit.ml
-      - IN-Openit.ml
-      - GB-Openit.ml 2
       - RELAY-Openit.ml
       - RELAY-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 2
-      - JP-Openit.ml 3
-      - JP-Openit.ml 4
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
       - RELAY-Openit.ml 3
       - RELAY-Openit.ml 4
       - RELAY-Openit.ml 5
       - RELAY-Openit.ml 6
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
       - US-Openit.ml 4
       - US-Openit.ml 5
       - US-Openit.ml 6
       - US-Openit.ml 7
       - RELAY-Openit.ml 7
+      - JP-Openit.ml
       - US-Openit.ml 8
-      - "[🇯🇵][TR][日]"
+      - IN-Openit.ml
+      - JP-Openit.ml 2
+      - TW-Openit.ml
       - US-Openit.ml 9
-      - JP-Openit.ml 5
-      - AU-Openit.ml
+      - IN-Openit.ml 2
+      - FR-Openit.ml
+      - SG-Openit.ml
+      - SG-Openit.ml 2
       - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 2 2
+      - RELAY-Openit.ml 9
+      - JP-Openit.ml 3
+      - US-Openit.ml 10
+      - US-Openit.ml 11
+      - RELAY-Openit.ml 10
+      - RELAY-Openit.ml 11
+      - RO-Openit.ml
+      - GB-Openit.ml
+      - JP-Openit.ml 4
+      - SG-Openit.ml 3
+      - IN-Openit.ml 3
+      - GB-Openit.ml 2
+      - JP-Openit.ml 2 2
+      - JP-Openit.ml 3 2
+      - JP-Openit.ml 4 2
+      - 英国5
+      - 英国6
+      - 英国7
+      - 英国11
       - RELAY-Openit.ml 3 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 6 2
       - RELAY-Openit.ml 4 2
+      - RELAY-Openit.ml 5 2
+      - RELAY-Openit.ml 6 2
+      - US-Openit.ml 4 2
+      - US-Openit.ml 5 2
+      - US-Openit.ml 6 2
       - US-Openit.ml 7 2
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 日本隧道[视频]
-      - 香港HGC[原生]
+      - RELAY-Openit.ml 7 2
+      - US-Openit.ml 8 2
+      - US-Openit.ml 9 2
+      - AU-Openit.ml
+      - RELAY-Openit.ml 8 2
+      - RELAY-Openit.ml 2 2
+      - RELAY-Openit.ml 3 2 2
+      - US-Openit.ml 2 2
+      - US-Openit.ml 4 2 2
+      - US-Openit.ml 6 2 2
+      - RELAY-Openit.ml 4 2 2
+      - US-Openit.ml 7 2 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RO-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - GB-Openit.ml
-      - JP-Openit.ml
-      - SG-Openit.ml
-      - IN-Openit.ml
-      - GB-Openit.ml 2
       - RELAY-Openit.ml
       - RELAY-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 2
-      - JP-Openit.ml 3
-      - JP-Openit.ml 4
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
       - RELAY-Openit.ml 3
       - RELAY-Openit.ml 4
       - RELAY-Openit.ml 5
       - RELAY-Openit.ml 6
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
       - US-Openit.ml 4
       - US-Openit.ml 5
       - US-Openit.ml 6
       - US-Openit.ml 7
       - RELAY-Openit.ml 7
+      - JP-Openit.ml
       - US-Openit.ml 8
-      - "[🇯🇵][TR][日]"
+      - IN-Openit.ml
+      - JP-Openit.ml 2
+      - TW-Openit.ml
       - US-Openit.ml 9
-      - JP-Openit.ml 5
-      - AU-Openit.ml
+      - IN-Openit.ml 2
+      - FR-Openit.ml
+      - SG-Openit.ml
+      - SG-Openit.ml 2
       - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 2 2
+      - RELAY-Openit.ml 9
+      - JP-Openit.ml 3
+      - US-Openit.ml 10
+      - US-Openit.ml 11
+      - RELAY-Openit.ml 10
+      - RELAY-Openit.ml 11
+      - RO-Openit.ml
+      - GB-Openit.ml
+      - JP-Openit.ml 4
+      - SG-Openit.ml 3
+      - IN-Openit.ml 3
+      - GB-Openit.ml 2
+      - JP-Openit.ml 2 2
+      - JP-Openit.ml 3 2
+      - JP-Openit.ml 4 2
+      - 英国5
+      - 英国6
+      - 英国7
+      - 英国11
       - RELAY-Openit.ml 3 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 6 2
       - RELAY-Openit.ml 4 2
+      - RELAY-Openit.ml 5 2
+      - RELAY-Openit.ml 6 2
+      - US-Openit.ml 4 2
+      - US-Openit.ml 5 2
+      - US-Openit.ml 6 2
       - US-Openit.ml 7 2
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 日本隧道[视频]
-      - 香港HGC[原生]
+      - RELAY-Openit.ml 7 2
+      - US-Openit.ml 8 2
+      - US-Openit.ml 9 2
+      - AU-Openit.ml
+      - RELAY-Openit.ml 8 2
+      - RELAY-Openit.ml 2 2
+      - RELAY-Openit.ml 3 2 2
+      - US-Openit.ml 2 2
+      - US-Openit.ml 4 2 2
+      - US-Openit.ml 6 2 2
+      - RELAY-Openit.ml 4 2 2
+      - US-Openit.ml 7 2 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -216,204 +296,283 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RO-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - GB-Openit.ml
-      - JP-Openit.ml
-      - SG-Openit.ml
-      - IN-Openit.ml
-      - GB-Openit.ml 2
       - RELAY-Openit.ml
       - RELAY-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 2
-      - JP-Openit.ml 3
-      - JP-Openit.ml 4
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
       - RELAY-Openit.ml 3
       - RELAY-Openit.ml 4
       - RELAY-Openit.ml 5
       - RELAY-Openit.ml 6
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
       - US-Openit.ml 4
       - US-Openit.ml 5
       - US-Openit.ml 6
       - US-Openit.ml 7
       - RELAY-Openit.ml 7
+      - JP-Openit.ml
       - US-Openit.ml 8
-      - "[🇯🇵][TR][日]"
+      - IN-Openit.ml
+      - JP-Openit.ml 2
+      - TW-Openit.ml
       - US-Openit.ml 9
-      - JP-Openit.ml 5
-      - AU-Openit.ml
+      - IN-Openit.ml 2
+      - FR-Openit.ml
+      - SG-Openit.ml
+      - SG-Openit.ml 2
       - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 2 2
+      - RELAY-Openit.ml 9
+      - JP-Openit.ml 3
+      - US-Openit.ml 10
+      - US-Openit.ml 11
+      - RELAY-Openit.ml 10
+      - RELAY-Openit.ml 11
+      - RO-Openit.ml
+      - GB-Openit.ml
+      - JP-Openit.ml 4
+      - SG-Openit.ml 3
+      - IN-Openit.ml 3
+      - GB-Openit.ml 2
+      - JP-Openit.ml 2 2
+      - JP-Openit.ml 3 2
+      - JP-Openit.ml 4 2
+      - 英国5
+      - 英国6
+      - 英国7
+      - 英国11
       - RELAY-Openit.ml 3 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 6 2
       - RELAY-Openit.ml 4 2
+      - RELAY-Openit.ml 5 2
+      - RELAY-Openit.ml 6 2
+      - US-Openit.ml 4 2
+      - US-Openit.ml 5 2
+      - US-Openit.ml 6 2
       - US-Openit.ml 7 2
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 日本隧道[视频]
-      - 香港HGC[原生]
+      - RELAY-Openit.ml 7 2
+      - US-Openit.ml 8 2
+      - US-Openit.ml 9 2
+      - AU-Openit.ml
+      - RELAY-Openit.ml 8 2
+      - RELAY-Openit.ml 2 2
+      - RELAY-Openit.ml 3 2 2
+      - US-Openit.ml 2 2
+      - US-Openit.ml 4 2 2
+      - US-Openit.ml 6 2 2
+      - RELAY-Openit.ml 4 2 2
+      - US-Openit.ml 7 2 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港HGC[原生]
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - RO-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - GB-Openit.ml
-      - JP-Openit.ml
-      - SG-Openit.ml
-      - IN-Openit.ml
-      - GB-Openit.ml 2
       - RELAY-Openit.ml
       - RELAY-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 2
-      - JP-Openit.ml 3
-      - JP-Openit.ml 4
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
       - RELAY-Openit.ml 3
       - RELAY-Openit.ml 4
       - RELAY-Openit.ml 5
       - RELAY-Openit.ml 6
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
       - US-Openit.ml 4
       - US-Openit.ml 5
       - US-Openit.ml 6
       - US-Openit.ml 7
       - RELAY-Openit.ml 7
+      - JP-Openit.ml
       - US-Openit.ml 8
-      - "[🇯🇵][TR][日]"
+      - IN-Openit.ml
+      - JP-Openit.ml 2
+      - TW-Openit.ml
       - US-Openit.ml 9
-      - JP-Openit.ml 5
-      - AU-Openit.ml
+      - IN-Openit.ml 2
+      - FR-Openit.ml
+      - SG-Openit.ml
+      - SG-Openit.ml 2
       - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 2 2
+      - RELAY-Openit.ml 9
+      - JP-Openit.ml 3
+      - US-Openit.ml 10
+      - US-Openit.ml 11
+      - RELAY-Openit.ml 10
+      - RELAY-Openit.ml 11
+      - RO-Openit.ml
+      - GB-Openit.ml
+      - JP-Openit.ml 4
+      - SG-Openit.ml 3
+      - IN-Openit.ml 3
+      - GB-Openit.ml 2
+      - JP-Openit.ml 2 2
+      - JP-Openit.ml 3 2
+      - JP-Openit.ml 4 2
+      - 英国5
+      - 英国6
+      - 英国7
+      - 英国11
       - RELAY-Openit.ml 3 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 6 2
       - RELAY-Openit.ml 4 2
+      - RELAY-Openit.ml 5 2
+      - RELAY-Openit.ml 6 2
+      - US-Openit.ml 4 2
+      - US-Openit.ml 5 2
+      - US-Openit.ml 6 2
       - US-Openit.ml 7 2
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 日本隧道[视频]
-      - 香港HGC[原生]
+      - RELAY-Openit.ml 7 2
+      - US-Openit.ml 8 2
+      - US-Openit.ml 9 2
+      - AU-Openit.ml
+      - RELAY-Openit.ml 8 2
+      - RELAY-Openit.ml 2 2
+      - RELAY-Openit.ml 3 2 2
+      - US-Openit.ml 2 2
+      - US-Openit.ml 4 2 2
+      - US-Openit.ml 6 2 2
+      - RELAY-Openit.ml 4 2 2
+      - US-Openit.ml 7 2 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - RO-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - GB-Openit.ml
-      - JP-Openit.ml
-      - SG-Openit.ml
-      - IN-Openit.ml
-      - GB-Openit.ml 2
       - RELAY-Openit.ml
       - RELAY-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 2
-      - JP-Openit.ml 3
-      - JP-Openit.ml 4
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
       - RELAY-Openit.ml 3
       - RELAY-Openit.ml 4
       - RELAY-Openit.ml 5
       - RELAY-Openit.ml 6
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
       - US-Openit.ml 4
       - US-Openit.ml 5
       - US-Openit.ml 6
       - US-Openit.ml 7
       - RELAY-Openit.ml 7
+      - JP-Openit.ml
       - US-Openit.ml 8
-      - "[🇯🇵][TR][日]"
+      - IN-Openit.ml
+      - JP-Openit.ml 2
+      - TW-Openit.ml
       - US-Openit.ml 9
-      - JP-Openit.ml 5
-      - AU-Openit.ml
+      - IN-Openit.ml 2
+      - FR-Openit.ml
+      - SG-Openit.ml
+      - SG-Openit.ml 2
       - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 2 2
+      - RELAY-Openit.ml 9
+      - JP-Openit.ml 3
+      - US-Openit.ml 10
+      - US-Openit.ml 11
+      - RELAY-Openit.ml 10
+      - RELAY-Openit.ml 11
+      - RO-Openit.ml
+      - GB-Openit.ml
+      - JP-Openit.ml 4
+      - SG-Openit.ml 3
+      - IN-Openit.ml 3
+      - GB-Openit.ml 2
+      - JP-Openit.ml 2 2
+      - JP-Openit.ml 3 2
+      - JP-Openit.ml 4 2
+      - 英国5
+      - 英国6
+      - 英国7
+      - 英国11
       - RELAY-Openit.ml 3 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 6 2
       - RELAY-Openit.ml 4 2
+      - RELAY-Openit.ml 5 2
+      - RELAY-Openit.ml 6 2
+      - US-Openit.ml 4 2
+      - US-Openit.ml 5 2
+      - US-Openit.ml 6 2
       - US-Openit.ml 7 2
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 日本隧道[视频]
-      - 香港HGC[原生]
+      - RELAY-Openit.ml 7 2
+      - US-Openit.ml 8 2
+      - US-Openit.ml 9 2
+      - AU-Openit.ml
+      - RELAY-Openit.ml 8 2
+      - RELAY-Openit.ml 2 2
+      - RELAY-Openit.ml 3 2 2
+      - US-Openit.ml 2 2
+      - US-Openit.ml 4 2 2
+      - US-Openit.ml 6 2 2
+      - RELAY-Openit.ml 4 2 2
+      - US-Openit.ml 7 2 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RO-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - GB-Openit.ml
-      - JP-Openit.ml
-      - SG-Openit.ml
-      - IN-Openit.ml
-      - GB-Openit.ml 2
       - RELAY-Openit.ml
       - RELAY-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 2
-      - JP-Openit.ml 3
-      - JP-Openit.ml 4
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
       - RELAY-Openit.ml 3
       - RELAY-Openit.ml 4
       - RELAY-Openit.ml 5
       - RELAY-Openit.ml 6
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
       - US-Openit.ml 4
       - US-Openit.ml 5
       - US-Openit.ml 6
       - US-Openit.ml 7
       - RELAY-Openit.ml 7
+      - JP-Openit.ml
       - US-Openit.ml 8
-      - "[🇯🇵][TR][日]"
+      - IN-Openit.ml
+      - JP-Openit.ml 2
+      - TW-Openit.ml
       - US-Openit.ml 9
-      - JP-Openit.ml 5
-      - AU-Openit.ml
+      - IN-Openit.ml 2
+      - FR-Openit.ml
+      - SG-Openit.ml
+      - SG-Openit.ml 2
       - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 2 2
+      - RELAY-Openit.ml 9
+      - JP-Openit.ml 3
+      - US-Openit.ml 10
+      - US-Openit.ml 11
+      - RELAY-Openit.ml 10
+      - RELAY-Openit.ml 11
+      - RO-Openit.ml
+      - GB-Openit.ml
+      - JP-Openit.ml 4
+      - SG-Openit.ml 3
+      - IN-Openit.ml 3
+      - GB-Openit.ml 2
+      - JP-Openit.ml 2 2
+      - JP-Openit.ml 3 2
+      - JP-Openit.ml 4 2
+      - 英国5
+      - 英国6
+      - 英国7
+      - 英国11
       - RELAY-Openit.ml 3 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 6 2
       - RELAY-Openit.ml 4 2
+      - RELAY-Openit.ml 5 2
+      - RELAY-Openit.ml 6 2
+      - US-Openit.ml 4 2
+      - US-Openit.ml 5 2
+      - US-Openit.ml 6 2
       - US-Openit.ml 7 2
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 日本隧道[视频]
-      - 香港HGC[原生]
+      - RELAY-Openit.ml 7 2
+      - US-Openit.ml 8 2
+      - US-Openit.ml 9 2
+      - AU-Openit.ml
+      - RELAY-Openit.ml 8 2
+      - RELAY-Openit.ml 2 2
+      - RELAY-Openit.ml 3 2 2
+      - US-Openit.ml 2 2
+      - US-Openit.ml 4 2 2
+      - US-Openit.ml 6 2 2
+      - RELAY-Openit.ml 4 2 2
+      - US-Openit.ml 7 2 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -429,50 +588,70 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RO-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - GB-Openit.ml
-      - JP-Openit.ml
-      - SG-Openit.ml
-      - IN-Openit.ml
-      - GB-Openit.ml 2
       - RELAY-Openit.ml
       - RELAY-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 2
-      - JP-Openit.ml 3
-      - JP-Openit.ml 4
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
       - RELAY-Openit.ml 3
       - RELAY-Openit.ml 4
       - RELAY-Openit.ml 5
       - RELAY-Openit.ml 6
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
       - US-Openit.ml 4
       - US-Openit.ml 5
       - US-Openit.ml 6
       - US-Openit.ml 7
       - RELAY-Openit.ml 7
+      - JP-Openit.ml
       - US-Openit.ml 8
-      - "[🇯🇵][TR][日]"
+      - IN-Openit.ml
+      - JP-Openit.ml 2
+      - TW-Openit.ml
       - US-Openit.ml 9
-      - JP-Openit.ml 5
-      - AU-Openit.ml
+      - IN-Openit.ml 2
+      - FR-Openit.ml
+      - SG-Openit.ml
+      - SG-Openit.ml 2
       - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 2 2
+      - RELAY-Openit.ml 9
+      - JP-Openit.ml 3
+      - US-Openit.ml 10
+      - US-Openit.ml 11
+      - RELAY-Openit.ml 10
+      - RELAY-Openit.ml 11
+      - RO-Openit.ml
+      - GB-Openit.ml
+      - JP-Openit.ml 4
+      - SG-Openit.ml 3
+      - IN-Openit.ml 3
+      - GB-Openit.ml 2
+      - JP-Openit.ml 2 2
+      - JP-Openit.ml 3 2
+      - JP-Openit.ml 4 2
+      - 英国5
+      - 英国6
+      - 英国7
+      - 英国11
       - RELAY-Openit.ml 3 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 6 2
       - RELAY-Openit.ml 4 2
+      - RELAY-Openit.ml 5 2
+      - RELAY-Openit.ml 6 2
+      - US-Openit.ml 4 2
+      - US-Openit.ml 5 2
+      - US-Openit.ml 6 2
       - US-Openit.ml 7 2
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 日本隧道[视频]
-      - 香港HGC[原生]
+      - RELAY-Openit.ml 7 2
+      - US-Openit.ml 8 2
+      - US-Openit.ml 9 2
+      - AU-Openit.ml
+      - RELAY-Openit.ml 8 2
+      - RELAY-Openit.ml 2 2
+      - RELAY-Openit.ml 3 2 2
+      - US-Openit.ml 2 2
+      - US-Openit.ml 4 2 2
+      - US-Openit.ml 6 2 2
+      - RELAY-Openit.ml 4 2 2
+      - US-Openit.ml 7 2 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
