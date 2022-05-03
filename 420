@@ -5,6 +5,46 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: _US_美国_35, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _PL_波兰_21, server: 217.30.10.67, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
+  - {name: _US_美国_39, server: 169.197.142.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国_16, server: 152.89.210.84, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: _PL_波兰_23, server: 217.30.10.67, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: _PL_波兰_27, server: 217.30.10.67, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: _US_美国_34, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _GB_英国_17, server: 152.89.210.84, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: _DE_德国_48, server: 5.183.179.167, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: _JP_日本_18, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: RELAY-Openit.ml, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _DE_德国_15, server: 5.183.179.167, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: _DE_德国_46, server: 5.183.179.167, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: _DE_德国_47, server: 5.183.179.167, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: _DE_德国_49, server: 5.183.179.167, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: _DE_德国_5, server: 5.183.179.145, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: _DE_德国_45, server: 5.183.179.167, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: _DE_德国_50, server: 5.183.179.167, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: _AU_澳大利亚_12, server: 185.167.116.253, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: US-Openit.ml, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan33.free4444.xyz, skip-cert-verify: true, udp: true}
+  - {name: FR-Openit.ml, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 新加坡, server: awssg.yeem.cc, port: 21210, type: trojan, password: 59c465d4-e3ad-4a30-9067-887786a2ca2d, sni: awssg.yeem.cc, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan]", server: 140.238.231.9, port: 443, type: trojan, password: O3hQcnNKAE, skip-cert-verify: true, udp: true}
+  - {name: AU-, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚 2, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: IN-l, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP-l, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 马来西亚), server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港3, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: KR-l, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP- 2, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP- 3, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, sni: jgwdj2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: IN- 2, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP-l 4, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: "[SSR]", server: eif7aet4.nodeinfo.icu, port: 1097, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
+  - {name: "[SSR] 2", server: ie2ohyai.nodeinfo.icu, port: 6008, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
+  - {name: "[SSR] 3", server: iemeith7.nodeinfo.icu, port: 2507, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
+  - {name: "[SSR] 4", server: puf6no0k.nodeinfo.icu, port: 2604, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
+  - {name: "[SSR] 5", server: quohvop8.nodeinfo.icu, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
   - {name: V1 | A AUTO, server: x-cm.gotout.work, port: 31001, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: V1 | ARG, server: x-cu.gotout.work, port: 31919, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: V1 | CA, server: x-cu.gotout.work, port: 31918, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -40,21 +80,21 @@ proxies:
   - {name: V2 Native | SG BGP, server: x-cc.gotout.work, port: 32431, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: V2 Native | TW BGP, server: x-cn2.gotout.work, port: 32231, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: V2 | US BGP, server: x-cn2.gotout.work, port: 32631, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CA-Openit.ml, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CA-Openit.ml 2, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CA-Openit.ml 3, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CA-Openit.ml 4, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CA-Openit.ml 5, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CA-Openit.ml 6, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CA-Openit.ml 7, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CA-Openit.ml 8, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US-Openit.ml, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US-Openit.ml 2, server: 38.68.135.19, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US-Openit.ml 3, server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US-Openit.ml 4, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US-Openit.ml 5, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US-Openit.ml 6, server: 38.68.135.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US-Openit.ml 7, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA-l, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: CA-l 2, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA-l 3, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CAl 4, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CA-l 5, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CA-l 6, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CA-l 7, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CA-l 8, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US-ml 2, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US-l 2 2, server: 38.68.135.19, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US-l 3, server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US-l 4, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US-l 5, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US-l 6, server: 38.68.135.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US-l 7, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: V1 | HK IEPL Game | sup, server: x5.gotout.work, port: 11349, type: ss, cipher: aes-256-gcm, password: xvdldnmyxjf, udp: true}
   - {name: V2 IEPL Game | HK1, server: x.gotout.work, port: 30011, type: ss, cipher: aes-256-gcm, password: xvdldnmyxjf, udp: true}
   - {name: V2 IEPL Game | HK2, server: x.gotout.work, port: 30012, type: ss, cipher: aes-256-gcm, password: xvdldnmyxjf, udp: true}
@@ -69,10 +109,10 @@ proxies:
   - {name: V3 IEPL BGP Game | TW1, server: x-mm.gotout.work, port: 30521, type: ss, cipher: aes-256-gcm, password: xvdldnmyxjf, udp: true}
   - {name: V3 IEPL BGP Game | US1, server: x.gotout.work, port: 30561, type: ss, cipher: aes-256-gcm, password: xvdldnmyxjf, udp: true}
   - {name: V3 IEPL BGP Game | US2 GIA x10, server: x-mm.gotout.work, port: 30561, type: ss, cipher: aes-256-gcm, password: xvdldnmyxjf, udp: true}
-  - {name: JP-Openit.ml, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 8, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: FR-Openit.ml, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 9, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-106.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: JPl 5, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US- 8, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: FR-l 2, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: US-l 9, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-106.mitoption.com, skip-cert-verify: true, udp: true}
   - {name: 波兰, server: 217.30.10.65, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
   - {name: UK, server: 152.89.210.84, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
   - {name: UK2, server: 152.89.210.84, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
@@ -96,7 +136,7 @@ proxies:
   - {name: RELAY-Ol 6, server: 120.233.10.230, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
   - {name: RELAY-l 7, server: 120.233.10.230, port: 50100, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
   - {name: _US_美国 3, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: JP-l, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP-l 2, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: SG-l, server: awssg.yeem.cc, port: 21210, type: trojan, password: 59c465d4-e3ad-4a30-9067-887786a2ca2d, sni: awssg.yeem.cc, skip-cert-verify: true, udp: true}
   - {name: SG-l 2, server: sg-sr-114.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-114.mitoption.com, skip-cert-verify: true, udp: true}
   - {name: SG- 3, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, sni: cp-asus.ml, skip-cert-verify: true, udp: true}
@@ -105,7 +145,7 @@ proxies:
   - {name: GB-l 3, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: US-l 14, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: KR-l 18, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP-l 2, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP-l 2 2, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: IN-l 2 2, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: JP-l 3, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, sni: jgwdj2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: US-l 11 2, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
@@ -123,6 +163,46 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _US_美国_35
+      - _PL_波兰_21
+      - _US_美国_39
+      - _GB_英国_16
+      - _PL_波兰_23
+      - _PL_波兰_27
+      - _US_美国_34
+      - _GB_英国_17
+      - _DE_德国_48
+      - _JP_日本_18
+      - RELAY-Openit.ml
+      - _DE_德国_15
+      - _DE_德国_46
+      - _DE_德国_47
+      - _DE_德国_49
+      - _DE_德国_5
+      - _DE_德国_45
+      - _DE_德国_50
+      - _AU_澳大利亚_12
+      - US-Openit.ml
+      - FR-Openit.ml
+      - 新加坡
+      - 澳大利亚
+      - "[Trojan]"
+      - AU-
+      - 澳大利亚 2
+      - IN-l
+      - JP-l
+      - 马来西亚)
+      - 香港3
+      - KR-l
+      - JP- 2
+      - JP- 3
+      - IN- 2
+      - JP-l 4
+      - "[SSR]"
+      - "[SSR] 2"
+      - "[SSR] 3"
+      - "[SSR] 4"
+      - "[SSR] 5"
       - V1 | A AUTO
       - V1 | ARG
       - V1 | CA
@@ -158,21 +238,21 @@ proxy-groups:
       - V2 Native | SG BGP
       - V2 Native | TW BGP
       - V2 | US BGP
-      - CA-Openit.ml
-      - CA-Openit.ml 2
-      - CA-Openit.ml 3
-      - CA-Openit.ml 4
-      - CA-Openit.ml 5
-      - CA-Openit.ml 6
-      - CA-Openit.ml 7
-      - CA-Openit.ml 8
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
+      - CA-l
+      - CA-l 2
+      - CA-l 3
+      - CAl 4
+      - CA-l 5
+      - CA-l 6
+      - CA-l 7
+      - CA-l 8
+      - US-ml 2
+      - US-l 2 2
+      - US-l 3
+      - US-l 4
+      - US-l 5
+      - US-l 6
+      - US-l 7
       - V1 | HK IEPL Game | sup
       - V2 IEPL Game | HK1
       - V2 IEPL Game | HK2
@@ -187,10 +267,10 @@ proxy-groups:
       - V3 IEPL BGP Game | TW1
       - V3 IEPL BGP Game | US1
       - V3 IEPL BGP Game | US2 GIA x10
-      - JP-Openit.ml
-      - US-Openit.ml 8
-      - FR-Openit.ml
-      - US-Openit.ml 9
+      - JPl 5
+      - US- 8
+      - FR-l 2
+      - US-l 9
       - 波兰
       - UK
       - UK2
@@ -214,7 +294,7 @@ proxy-groups:
       - RELAY-Ol 6
       - RELAY-l 7
       - _US_美国 3
-      - JP-l
+      - JP-l 2
       - SG-l
       - SG-l 2
       - SG- 3
@@ -223,7 +303,7 @@ proxy-groups:
       - GB-l 3
       - US-l 14
       - KR-l 18
-      - JP-l 2
+      - JP-l 2 2
       - IN-l 2 2
       - JP-l 3
       - US-l 11 2
@@ -240,6 +320,46 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - _US_美国_35
+      - _PL_波兰_21
+      - _US_美国_39
+      - _GB_英国_16
+      - _PL_波兰_23
+      - _PL_波兰_27
+      - _US_美国_34
+      - _GB_英国_17
+      - _DE_德国_48
+      - _JP_日本_18
+      - RELAY-Openit.ml
+      - _DE_德国_15
+      - _DE_德国_46
+      - _DE_德国_47
+      - _DE_德国_49
+      - _DE_德国_5
+      - _DE_德国_45
+      - _DE_德国_50
+      - _AU_澳大利亚_12
+      - US-Openit.ml
+      - FR-Openit.ml
+      - 新加坡
+      - 澳大利亚
+      - "[Trojan]"
+      - AU-
+      - 澳大利亚 2
+      - IN-l
+      - JP-l
+      - 马来西亚)
+      - 香港3
+      - KR-l
+      - JP- 2
+      - JP- 3
+      - IN- 2
+      - JP-l 4
+      - "[SSR]"
+      - "[SSR] 2"
+      - "[SSR] 3"
+      - "[SSR] 4"
+      - "[SSR] 5"
       - V1 | A AUTO
       - V1 | ARG
       - V1 | CA
@@ -275,21 +395,21 @@ proxy-groups:
       - V2 Native | SG BGP
       - V2 Native | TW BGP
       - V2 | US BGP
-      - CA-Openit.ml
-      - CA-Openit.ml 2
-      - CA-Openit.ml 3
-      - CA-Openit.ml 4
-      - CA-Openit.ml 5
-      - CA-Openit.ml 6
-      - CA-Openit.ml 7
-      - CA-Openit.ml 8
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
+      - CA-l
+      - CA-l 2
+      - CA-l 3
+      - CAl 4
+      - CA-l 5
+      - CA-l 6
+      - CA-l 7
+      - CA-l 8
+      - US-ml 2
+      - US-l 2 2
+      - US-l 3
+      - US-l 4
+      - US-l 5
+      - US-l 6
+      - US-l 7
       - V1 | HK IEPL Game | sup
       - V2 IEPL Game | HK1
       - V2 IEPL Game | HK2
@@ -304,10 +424,10 @@ proxy-groups:
       - V3 IEPL BGP Game | TW1
       - V3 IEPL BGP Game | US1
       - V3 IEPL BGP Game | US2 GIA x10
-      - JP-Openit.ml
-      - US-Openit.ml 8
-      - FR-Openit.ml
-      - US-Openit.ml 9
+      - JPl 5
+      - US- 8
+      - FR-l 2
+      - US-l 9
       - 波兰
       - UK
       - UK2
@@ -331,7 +451,7 @@ proxy-groups:
       - RELAY-Ol 6
       - RELAY-l 7
       - _US_美国 3
-      - JP-l
+      - JP-l 2
       - SG-l
       - SG-l 2
       - SG- 3
@@ -340,7 +460,7 @@ proxy-groups:
       - GB-l 3
       - US-l 14
       - KR-l 18
-      - JP-l 2
+      - JP-l 2 2
       - IN-l 2 2
       - JP-l 3
       - US-l 11 2
@@ -358,6 +478,46 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _US_美国_35
+      - _PL_波兰_21
+      - _US_美国_39
+      - _GB_英国_16
+      - _PL_波兰_23
+      - _PL_波兰_27
+      - _US_美国_34
+      - _GB_英国_17
+      - _DE_德国_48
+      - _JP_日本_18
+      - RELAY-Openit.ml
+      - _DE_德国_15
+      - _DE_德国_46
+      - _DE_德国_47
+      - _DE_德国_49
+      - _DE_德国_5
+      - _DE_德国_45
+      - _DE_德国_50
+      - _AU_澳大利亚_12
+      - US-Openit.ml
+      - FR-Openit.ml
+      - 新加坡
+      - 澳大利亚
+      - "[Trojan]"
+      - AU-
+      - 澳大利亚 2
+      - IN-l
+      - JP-l
+      - 马来西亚)
+      - 香港3
+      - KR-l
+      - JP- 2
+      - JP- 3
+      - IN- 2
+      - JP-l 4
+      - "[SSR]"
+      - "[SSR] 2"
+      - "[SSR] 3"
+      - "[SSR] 4"
+      - "[SSR] 5"
       - V1 | A AUTO
       - V1 | ARG
       - V1 | CA
@@ -393,21 +553,21 @@ proxy-groups:
       - V2 Native | SG BGP
       - V2 Native | TW BGP
       - V2 | US BGP
-      - CA-Openit.ml
-      - CA-Openit.ml 2
-      - CA-Openit.ml 3
-      - CA-Openit.ml 4
-      - CA-Openit.ml 5
-      - CA-Openit.ml 6
-      - CA-Openit.ml 7
-      - CA-Openit.ml 8
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
+      - CA-l
+      - CA-l 2
+      - CA-l 3
+      - CAl 4
+      - CA-l 5
+      - CA-l 6
+      - CA-l 7
+      - CA-l 8
+      - US-ml 2
+      - US-l 2 2
+      - US-l 3
+      - US-l 4
+      - US-l 5
+      - US-l 6
+      - US-l 7
       - V1 | HK IEPL Game | sup
       - V2 IEPL Game | HK1
       - V2 IEPL Game | HK2
@@ -422,10 +582,10 @@ proxy-groups:
       - V3 IEPL BGP Game | TW1
       - V3 IEPL BGP Game | US1
       - V3 IEPL BGP Game | US2 GIA x10
-      - JP-Openit.ml
-      - US-Openit.ml 8
-      - FR-Openit.ml
-      - US-Openit.ml 9
+      - JPl 5
+      - US- 8
+      - FR-l 2
+      - US-l 9
       - 波兰
       - UK
       - UK2
@@ -449,7 +609,7 @@ proxy-groups:
       - RELAY-Ol 6
       - RELAY-l 7
       - _US_美国 3
-      - JP-l
+      - JP-l 2
       - SG-l
       - SG-l 2
       - SG- 3
@@ -458,7 +618,7 @@ proxy-groups:
       - GB-l 3
       - US-l 14
       - KR-l 18
-      - JP-l 2
+      - JP-l 2 2
       - IN-l 2 2
       - JP-l 3
       - US-l 11 2
@@ -488,6 +648,46 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _US_美国_35
+      - _PL_波兰_21
+      - _US_美国_39
+      - _GB_英国_16
+      - _PL_波兰_23
+      - _PL_波兰_27
+      - _US_美国_34
+      - _GB_英国_17
+      - _DE_德国_48
+      - _JP_日本_18
+      - RELAY-Openit.ml
+      - _DE_德国_15
+      - _DE_德国_46
+      - _DE_德国_47
+      - _DE_德国_49
+      - _DE_德国_5
+      - _DE_德国_45
+      - _DE_德国_50
+      - _AU_澳大利亚_12
+      - US-Openit.ml
+      - FR-Openit.ml
+      - 新加坡
+      - 澳大利亚
+      - "[Trojan]"
+      - AU-
+      - 澳大利亚 2
+      - IN-l
+      - JP-l
+      - 马来西亚)
+      - 香港3
+      - KR-l
+      - JP- 2
+      - JP- 3
+      - IN- 2
+      - JP-l 4
+      - "[SSR]"
+      - "[SSR] 2"
+      - "[SSR] 3"
+      - "[SSR] 4"
+      - "[SSR] 5"
       - V1 | A AUTO
       - V1 | ARG
       - V1 | CA
@@ -523,21 +723,21 @@ proxy-groups:
       - V2 Native | SG BGP
       - V2 Native | TW BGP
       - V2 | US BGP
-      - CA-Openit.ml
-      - CA-Openit.ml 2
-      - CA-Openit.ml 3
-      - CA-Openit.ml 4
-      - CA-Openit.ml 5
-      - CA-Openit.ml 6
-      - CA-Openit.ml 7
-      - CA-Openit.ml 8
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
+      - CA-l
+      - CA-l 2
+      - CA-l 3
+      - CAl 4
+      - CA-l 5
+      - CA-l 6
+      - CA-l 7
+      - CA-l 8
+      - US-ml 2
+      - US-l 2 2
+      - US-l 3
+      - US-l 4
+      - US-l 5
+      - US-l 6
+      - US-l 7
       - V1 | HK IEPL Game | sup
       - V2 IEPL Game | HK1
       - V2 IEPL Game | HK2
@@ -552,10 +752,10 @@ proxy-groups:
       - V3 IEPL BGP Game | TW1
       - V3 IEPL BGP Game | US1
       - V3 IEPL BGP Game | US2 GIA x10
-      - JP-Openit.ml
-      - US-Openit.ml 8
-      - FR-Openit.ml
-      - US-Openit.ml 9
+      - JPl 5
+      - US- 8
+      - FR-l 2
+      - US-l 9
       - 波兰
       - UK
       - UK2
@@ -579,7 +779,7 @@ proxy-groups:
       - RELAY-Ol 6
       - RELAY-l 7
       - _US_美国 3
-      - JP-l
+      - JP-l 2
       - SG-l
       - SG-l 2
       - SG- 3
@@ -588,7 +788,7 @@ proxy-groups:
       - GB-l 3
       - US-l 14
       - KR-l 18
-      - JP-l 2
+      - JP-l 2 2
       - IN-l 2 2
       - JP-l 3
       - US-l 11 2
@@ -604,12 +804,53 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - _US_美国_35
+      - _PL_波兰_21
+      - _US_美国_39
+      - _GB_英国_16
+      - _PL_波兰_23
+      - _PL_波兰_27
+      - _US_美国_34
+      - _GB_英国_17
+      - _DE_德国_48
+      - _JP_日本_18
+      - RELAY-Openit.ml
+      - _DE_德国_15
+      - _DE_德国_46
+      - _DE_德国_47
+      - _DE_德国_49
+      - _DE_德国_5
+      - _DE_德国_45
+      - _DE_德国_50
+      - _AU_澳大利亚_12
+      - US-Openit.ml
+      - FR-Openit.ml
+      - 新加坡
+      - 澳大利亚
+      - "[Trojan]"
+      - AU-
+      - 澳大利亚 2
+      - IN-l
+      - JP-l
+      - 马来西亚)
+      - 香港3
+      - KR-l
+      - JP- 2
+      - JP- 3
+      - IN- 2
+      - JP-l 4
+      - "[SSR]"
+      - "[SSR] 2"
+      - "[SSR] 3"
+      - "[SSR] 4"
+      - "[SSR] 5"
       - V1 | A AUTO
       - V1 | ARG
       - V1 | CA
@@ -645,21 +886,21 @@ proxy-groups:
       - V2 Native | SG BGP
       - V2 Native | TW BGP
       - V2 | US BGP
-      - CA-Openit.ml
-      - CA-Openit.ml 2
-      - CA-Openit.ml 3
-      - CA-Openit.ml 4
-      - CA-Openit.ml 5
-      - CA-Openit.ml 6
-      - CA-Openit.ml 7
-      - CA-Openit.ml 8
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
+      - CA-l
+      - CA-l 2
+      - CA-l 3
+      - CAl 4
+      - CA-l 5
+      - CA-l 6
+      - CA-l 7
+      - CA-l 8
+      - US-ml 2
+      - US-l 2 2
+      - US-l 3
+      - US-l 4
+      - US-l 5
+      - US-l 6
+      - US-l 7
       - V1 | HK IEPL Game | sup
       - V2 IEPL Game | HK1
       - V2 IEPL Game | HK2
@@ -674,10 +915,10 @@ proxy-groups:
       - V3 IEPL BGP Game | TW1
       - V3 IEPL BGP Game | US1
       - V3 IEPL BGP Game | US2 GIA x10
-      - JP-Openit.ml
-      - US-Openit.ml 8
-      - FR-Openit.ml
-      - US-Openit.ml 9
+      - JPl 5
+      - US- 8
+      - FR-l 2
+      - US-l 9
       - 波兰
       - UK
       - UK2
@@ -701,7 +942,7 @@ proxy-groups:
       - RELAY-Ol 6
       - RELAY-l 7
       - _US_美国 3
-      - JP-l
+      - JP-l 2
       - SG-l
       - SG-l 2
       - SG- 3
@@ -710,7 +951,7 @@ proxy-groups:
       - GB-l 3
       - US-l 14
       - KR-l 18
-      - JP-l 2
+      - JP-l 2 2
       - IN-l 2 2
       - JP-l 3
       - US-l 11 2
@@ -727,6 +968,46 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - _US_美国_35
+      - _PL_波兰_21
+      - _US_美国_39
+      - _GB_英国_16
+      - _PL_波兰_23
+      - _PL_波兰_27
+      - _US_美国_34
+      - _GB_英国_17
+      - _DE_德国_48
+      - _JP_日本_18
+      - RELAY-Openit.ml
+      - _DE_德国_15
+      - _DE_德国_46
+      - _DE_德国_47
+      - _DE_德国_49
+      - _DE_德国_5
+      - _DE_德国_45
+      - _DE_德国_50
+      - _AU_澳大利亚_12
+      - US-Openit.ml
+      - FR-Openit.ml
+      - 新加坡
+      - 澳大利亚
+      - "[Trojan]"
+      - AU-
+      - 澳大利亚 2
+      - IN-l
+      - JP-l
+      - 马来西亚)
+      - 香港3
+      - KR-l
+      - JP- 2
+      - JP- 3
+      - IN- 2
+      - JP-l 4
+      - "[SSR]"
+      - "[SSR] 2"
+      - "[SSR] 3"
+      - "[SSR] 4"
+      - "[SSR] 5"
       - V1 | A AUTO
       - V1 | ARG
       - V1 | CA
@@ -762,21 +1043,21 @@ proxy-groups:
       - V2 Native | SG BGP
       - V2 Native | TW BGP
       - V2 | US BGP
-      - CA-Openit.ml
-      - CA-Openit.ml 2
-      - CA-Openit.ml 3
-      - CA-Openit.ml 4
-      - CA-Openit.ml 5
-      - CA-Openit.ml 6
-      - CA-Openit.ml 7
-      - CA-Openit.ml 8
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
+      - CA-l
+      - CA-l 2
+      - CA-l 3
+      - CAl 4
+      - CA-l 5
+      - CA-l 6
+      - CA-l 7
+      - CA-l 8
+      - US-ml 2
+      - US-l 2 2
+      - US-l 3
+      - US-l 4
+      - US-l 5
+      - US-l 6
+      - US-l 7
       - V1 | HK IEPL Game | sup
       - V2 IEPL Game | HK1
       - V2 IEPL Game | HK2
@@ -791,10 +1072,10 @@ proxy-groups:
       - V3 IEPL BGP Game | TW1
       - V3 IEPL BGP Game | US1
       - V3 IEPL BGP Game | US2 GIA x10
-      - JP-Openit.ml
-      - US-Openit.ml 8
-      - FR-Openit.ml
-      - US-Openit.ml 9
+      - JPl 5
+      - US- 8
+      - FR-l 2
+      - US-l 9
       - 波兰
       - UK
       - UK2
@@ -818,7 +1099,7 @@ proxy-groups:
       - RELAY-Ol 6
       - RELAY-l 7
       - _US_美国 3
-      - JP-l
+      - JP-l 2
       - SG-l
       - SG-l 2
       - SG- 3
@@ -827,7 +1108,7 @@ proxy-groups:
       - GB-l 3
       - US-l 14
       - KR-l 18
-      - JP-l 2
+      - JP-l 2 2
       - IN-l 2 2
       - JP-l 3
       - US-l 11 2
@@ -845,6 +1126,46 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - _US_美国_35
+      - _PL_波兰_21
+      - _US_美国_39
+      - _GB_英国_16
+      - _PL_波兰_23
+      - _PL_波兰_27
+      - _US_美国_34
+      - _GB_英国_17
+      - _DE_德国_48
+      - _JP_日本_18
+      - RELAY-Openit.ml
+      - _DE_德国_15
+      - _DE_德国_46
+      - _DE_德国_47
+      - _DE_德国_49
+      - _DE_德国_5
+      - _DE_德国_45
+      - _DE_德国_50
+      - _AU_澳大利亚_12
+      - US-Openit.ml
+      - FR-Openit.ml
+      - 新加坡
+      - 澳大利亚
+      - "[Trojan]"
+      - AU-
+      - 澳大利亚 2
+      - IN-l
+      - JP-l
+      - 马来西亚)
+      - 香港3
+      - KR-l
+      - JP- 2
+      - JP- 3
+      - IN- 2
+      - JP-l 4
+      - "[SSR]"
+      - "[SSR] 2"
+      - "[SSR] 3"
+      - "[SSR] 4"
+      - "[SSR] 5"
       - V1 | A AUTO
       - V1 | ARG
       - V1 | CA
@@ -880,21 +1201,21 @@ proxy-groups:
       - V2 Native | SG BGP
       - V2 Native | TW BGP
       - V2 | US BGP
-      - CA-Openit.ml
-      - CA-Openit.ml 2
-      - CA-Openit.ml 3
-      - CA-Openit.ml 4
-      - CA-Openit.ml 5
-      - CA-Openit.ml 6
-      - CA-Openit.ml 7
-      - CA-Openit.ml 8
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
+      - CA-l
+      - CA-l 2
+      - CA-l 3
+      - CAl 4
+      - CA-l 5
+      - CA-l 6
+      - CA-l 7
+      - CA-l 8
+      - US-ml 2
+      - US-l 2 2
+      - US-l 3
+      - US-l 4
+      - US-l 5
+      - US-l 6
+      - US-l 7
       - V1 | HK IEPL Game | sup
       - V2 IEPL Game | HK1
       - V2 IEPL Game | HK2
@@ -909,10 +1230,10 @@ proxy-groups:
       - V3 IEPL BGP Game | TW1
       - V3 IEPL BGP Game | US1
       - V3 IEPL BGP Game | US2 GIA x10
-      - JP-Openit.ml
-      - US-Openit.ml 8
-      - FR-Openit.ml
-      - US-Openit.ml 9
+      - JPl 5
+      - US- 8
+      - FR-l 2
+      - US-l 9
       - 波兰
       - UK
       - UK2
@@ -936,7 +1257,7 @@ proxy-groups:
       - RELAY-Ol 6
       - RELAY-l 7
       - _US_美国 3
-      - JP-l
+      - JP-l 2
       - SG-l
       - SG-l 2
       - SG- 3
@@ -945,7 +1266,7 @@ proxy-groups:
       - GB-l 3
       - US-l 14
       - KR-l 18
-      - JP-l 2
+      - JP-l 2 2
       - IN-l 2 2
       - JP-l 3
       - US-l 11 2
@@ -972,6 +1293,46 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - _US_美国_35
+      - _PL_波兰_21
+      - _US_美国_39
+      - _GB_英国_16
+      - _PL_波兰_23
+      - _PL_波兰_27
+      - _US_美国_34
+      - _GB_英国_17
+      - _DE_德国_48
+      - _JP_日本_18
+      - RELAY-Openit.ml
+      - _DE_德国_15
+      - _DE_德国_46
+      - _DE_德国_47
+      - _DE_德国_49
+      - _DE_德国_5
+      - _DE_德国_45
+      - _DE_德国_50
+      - _AU_澳大利亚_12
+      - US-Openit.ml
+      - FR-Openit.ml
+      - 新加坡
+      - 澳大利亚
+      - "[Trojan]"
+      - AU-
+      - 澳大利亚 2
+      - IN-l
+      - JP-l
+      - 马来西亚)
+      - 香港3
+      - KR-l
+      - JP- 2
+      - JP- 3
+      - IN- 2
+      - JP-l 4
+      - "[SSR]"
+      - "[SSR] 2"
+      - "[SSR] 3"
+      - "[SSR] 4"
+      - "[SSR] 5"
       - V1 | A AUTO
       - V1 | ARG
       - V1 | CA
@@ -1007,21 +1368,21 @@ proxy-groups:
       - V2 Native | SG BGP
       - V2 Native | TW BGP
       - V2 | US BGP
-      - CA-Openit.ml
-      - CA-Openit.ml 2
-      - CA-Openit.ml 3
-      - CA-Openit.ml 4
-      - CA-Openit.ml 5
-      - CA-Openit.ml 6
-      - CA-Openit.ml 7
-      - CA-Openit.ml 8
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
+      - CA-l
+      - CA-l 2
+      - CA-l 3
+      - CAl 4
+      - CA-l 5
+      - CA-l 6
+      - CA-l 7
+      - CA-l 8
+      - US-ml 2
+      - US-l 2 2
+      - US-l 3
+      - US-l 4
+      - US-l 5
+      - US-l 6
+      - US-l 7
       - V1 | HK IEPL Game | sup
       - V2 IEPL Game | HK1
       - V2 IEPL Game | HK2
@@ -1036,10 +1397,10 @@ proxy-groups:
       - V3 IEPL BGP Game | TW1
       - V3 IEPL BGP Game | US1
       - V3 IEPL BGP Game | US2 GIA x10
-      - JP-Openit.ml
-      - US-Openit.ml 8
-      - FR-Openit.ml
-      - US-Openit.ml 9
+      - JPl 5
+      - US- 8
+      - FR-l 2
+      - US-l 9
       - 波兰
       - UK
       - UK2
@@ -1063,7 +1424,7 @@ proxy-groups:
       - RELAY-Ol 6
       - RELAY-l 7
       - _US_美国 3
-      - JP-l
+      - JP-l 2
       - SG-l
       - SG-l 2
       - SG- 3
@@ -1072,7 +1433,7 @@ proxy-groups:
       - GB-l 3
       - US-l 14
       - KR-l 18
-      - JP-l 2
+      - JP-l 2 2
       - IN-l 2 2
       - JP-l 3
       - US-l 11 2
