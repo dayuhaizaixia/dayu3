@@ -5,659 +5,331 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CA, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA-Openit.ml, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: CA-Openit.ml 2, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA-Openit.ml 3, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CA-Openit.ml 4, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CA-Openit.ml 5, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CA-Openit.ml 6, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CA-Openit.ml 7, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CA-Openit.ml 8, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US-Openit.ml, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US-Openit.ml 2, server: 38.68.135.19, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US-Openit.ml 3, server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US-Openit.ml 4, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US-Openit.ml 5, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US-Openit.ml 6, server: 38.68.135.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US-Openit.ml 7, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: V1 | HK IEPL Game | sup, server: x5.gotout.work, port: 11349, type: ss, cipher: aes-256-gcm, password: xvdldnmyxjf, udp: true}
+  - {name: V2 IEPL Game | HK1, server: x.gotout.work, port: 30011, type: ss, cipher: aes-256-gcm, password: xvdldnmyxjf, udp: true}
+  - {name: V2 IEPL Game | HK2, server: x.gotout.work, port: 30012, type: ss, cipher: aes-256-gcm, password: xvdldnmyxjf, udp: true}
+  - {name: V2 IEPL Game | JP1, server: x.gotout.work, port: 30031, type: ss, cipher: aes-256-gcm, password: xvdldnmyxjf, udp: true}
+  - {name: V2 IEPL Game | KR1, server: x.gotout.work, port: 30051, type: ss, cipher: aes-256-gcm, password: xvdldnmyxjf, udp: true}
+  - {name: V2 IEPL Game | SG1, server: x.gotout.work, port: 30041, type: ss, cipher: aes-256-gcm, password: xvdldnmyxjf, udp: true}
+  - {name: V2 IEPL Game | TW1, server: x.gotout.work, port: 30021, type: ss, cipher: aes-256-gcm, password: xvdldnmyxjf, udp: true}
+  - {name: V2 IPLC Game | US1, server: x.gotout.work, port: 30061, type: ss, cipher: aes-256-gcm, password: xvdldnmyxjf, udp: true}
+  - {name: V3 IEPL BGP Game | HK1, server: x-mm.gotout.work, port: 30511, type: ss, cipher: aes-256-gcm, password: xvdldnmyxjf, udp: true}
+  - {name: V3 IEPL BGP Game | JP1, server: x-mm.gotout.work, port: 30531, type: ss, cipher: aes-256-gcm, password: xvdldnmyxjf, udp: true}
+  - {name: V3 IEPL BGP Game | KR1, server: x-mm.gotout.work, port: 30551, type: ss, cipher: aes-256-gcm, password: xvdldnmyxjf, udp: true}
+  - {name: V3 IEPL BGP Game | TW1, server: x-mm.gotout.work, port: 30521, type: ss, cipher: aes-256-gcm, password: xvdldnmyxjf, udp: true}
+  - {name: V3 IEPL BGP Game | US1, server: x.gotout.work, port: 30561, type: ss, cipher: aes-256-gcm, password: xvdldnmyxjf, udp: true}
+  - {name: V3 IEPL BGP Game | US2 GIA x10, server: x-mm.gotout.work, port: 30561, type: ss, cipher: aes-256-gcm, password: xvdldnmyxjf, udp: true}
+  - {name: JP-Openit.ml, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml 8, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: FR-Openit.ml, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml 9, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-106.mitoption.com, skip-cert-verify: true, udp: true}
   - {name: 波兰, server: 217.30.10.65, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: CA1, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: UK, server: 152.89.210.84, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
   - {name: UK2, server: 152.89.210.84, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
   - {name: US2, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 波兰2, server: 217.30.10.65, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: CA3, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: DE, server: 5.183.179.167, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
   - {name: 波兰3, server: 217.30.10.65, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
   - {name: JP, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US2 2, server: 38.68.135.19, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: DE2, server: 5.183.179.167, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
   - {name: DE3, server: 5.183.179.167, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
   - {name: DE4, server: 5.183.179.167, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: CA4, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CA5, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: AU, server: 185.167.116.253, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
   - {name: AU2, server: 185.167.116.253, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
   - {name: US3, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: DE5, server: 5.183.179.167, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
   - {name: DE6, server: 5.183.179.167, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
   - {name: DE7, server: 5.183.179.145, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: US4, server: 120.232.193.103, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: JP2, server: 120.232.193.100, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: JP12, server: 120.232.193.91, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: TW, server: 120.232.193.96, port: 65522, type: trojan, password: 432f5543-80ad-300a-84d4-cac0797e4e8f, skip-cert-verify: true, udp: true}
-  - {name: TW2, server: 120.232.193.96, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: HK, server: 120.232.193.91, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: HK2, server: 120.232.193.99, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: HK3, server: 120.232.193.96, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: HK4, server: 120.232.193.99, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: HK5, server: 120.232.193.95, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: HK6, server: 183.232.163.31, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: GB, server: 120.232.193.97, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: US5, server: 120.232.192.59, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: US6, server: 120.232.192.62, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: JP3, server: 120.232.193.92, port: 4572, type: trojan, password: 432f5543-80ad-300a-84d4-cac0797e4e8f, skip-cert-verify: true, udp: true}
-  - {name: TW3, server: 120.232.192.69, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: HK7, server: 120.232.192.59, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: HK8, server: 120.232.193.92, port: 4571, type: trojan, password: 432f5543-80ad-300a-84d4-cac0797e4e8f, skip-cert-verify: true, udp: true}
-  - {name: HK9, server: 120.232.193.92, port: 4567, type: trojan, password: 432f5543-80ad-300a-84d4-cac0797e4e8f, skip-cert-verify: true, udp: true}
-  - {name: RU, server: 116.129.254.34, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: KR, server: 116.129.254.28, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: US7, server: 116.129.254.15, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: US8, server: 116.129.254.13, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: US9, server: 116.129.254.12, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: JP4, server: 116.129.254.7, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: JP5, server: 116.129.254.13, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: JP6, server: 116.129.254.16, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: JP 7, server: 116.129.254.7, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: HK10, server: 116.129.254.5, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: HK11, server: 116.129.254.15, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: HK12, server: 116.129.254.25, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: HK13, server: 116.129.254.16, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: GB 2, server: 116.129.254.25, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: UK3, server: 116.129.254.34, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: IEPL-HK t.me/rufeng_fx, server: 42.157.196.248, port: 45322, type: trojan, password: 432f5543-80ad-300a-84d4-cac0797e4e8f, skip-cert-verify: true, udp: true}
-  - {name: IEPL-HK2 t.me/rufeng_fx, server: 211.99.100.26, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: IEPL-HK3 t.me/rufeng_fx, server: 42.157.196.245, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: IEPL-HK4 t.me/rufeng_fx, server: 42.157.196.243, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: IEPL-HK5 t.me/rufeng_fx, server: 42.157.196.248, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: IEPL-HK6 t.me/rufeng_fx, server: 42.157.196.249, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: IEPL-HK7 t.me/rufeng_fx, server: 42.157.196.247, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: IEPL-HK8 t.me/rufeng_fx, server: 211.99.100.20, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: IEPL-HK9 t.me/rufeng_fx, server: 42.157.196.194, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: IEPL-HK10 t.me/rufeng_fx, server: 42.157.196.246, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: IEPL-HK11 t.me/rufeng_fx, server: 42.157.196.249, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: IEPL-HK12 t.me/rufeng_fx, server: 42.157.196.245, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: IEPL-HK13 t.me/rufeng_fx, server: 211.99.100.21, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: GB3, server: 116.129.253.148, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: US10, server: 116.129.253.160, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: JP8, server: 116.129.253.138, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: JP9, server: 116.129.254.5, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: HK14, server: 116.129.253.193, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: HK15, server: 116.129.253.139, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: HK16, server: 116.129.253.137, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: HK17, server: 116.129.253.149, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: HK18, server: 116.129.253.139, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: HK19, server: 116.129.253.137, port: 33954, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: GB4, server: 116.129.253.148, port: 63955, type: ss, cipher: chacha20-ietf, password: xQOCD5, udp: true}
-  - {name: CA-, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CA-l 2, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CA-Ol 3, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CA- 4, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CA- 5, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CA-l 6, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CA-l 7, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CA- 8, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: RELAY-l 3, server: 120.233.10.230, port: 50200, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
   - {name: RELAYl 4, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: KR-l 4, server: 158.247.205.87, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: RELAY- 5, server: 120.233.10.230, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
   - {name: RELAY-Ol 6, server: 120.233.10.230, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
   - {name: RELAY-l 7, server: 120.233.10.230, port: 50100, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: US- 6, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US- 7, server: 38.68.135.19, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US-l 8, server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US- 9, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US- 10, server: 38.68.135.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US-l 11, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _US_美国 3, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _PL_波兰 7, server: 217.30.10.65, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: RELAY-l 8, server: x.gotout.work, port: 30031, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
-  - {name: RELAY-l 9, server: x.gotout.work, port: 30041, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
-  - {name: RELAY-l 10, server: x.gotout.work, port: 30021, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
-  - {name: RELAY-l 11, server: x.gotout.work, port: 30061, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
-  - {name: KR- 5, server: 158.247.205.87, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: KR-l 6, server: 158.247.205.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: KR-l 7, server: 158.247.205.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: KR-l 8, server: 158.247.205.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: KR-l 9, server: 158.247.205.87, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: KR-l 10, server: 158.247.205.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: KR-l 11, server: 158.247.205.87, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: KR-l 12, server: 158.247.205.87, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: KR-l 13, server: 158.247.205.87, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: KR-l 14, server: 158.247.205.87, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: KR-l 15, server: 158.247.205.87, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: KR-l 16, server: 158.247.205.87, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US-l 12, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: KR-l 17, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: JP-l, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: FR-l, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
   - {name: SG-l, server: awssg.yeem.cc, port: 21210, type: trojan, password: 59c465d4-e3ad-4a30-9067-887786a2ca2d, sni: awssg.yeem.cc, skip-cert-verify: true, udp: true}
   - {name: SG-l 2, server: sg-sr-114.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-114.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: IN-l, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: SG- 3, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, sni: cp-asus.ml, skip-cert-verify: true, udp: true}
-  - {name: IN-l 2, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: GB-l, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: US- 13, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: true, udp: true}
   - {name: GB-l 2, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: GB-l 3, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: US-l 14, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: KR-l 18, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: RELAY-l 4, server: x.gotout.work, port: 30012, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
   - {name: JP-l 2, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-l 8 2, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-l 9, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-106.mitoption.com, skip-cert-verify: true, udp: true}
   - {name: IN-l 2 2, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: SG-l 2 2, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: RELAY-l 8 2, server: cn.speedabc.xyz, port: 42011, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-l 9 2, server: cn.speedabc.xyz, port: 32002, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
   - {name: JP-l 3, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, sni: jgwdj2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: US-l 11 2, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: RELAY-l 10 2, server: cn.speedabc.xyz, port: 42004, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-l 11 2, server: cn.speedabc.xyz, port: 42006, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
   - {name: RO-l, server: jp.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: jp.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: GB-l 4, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: JP- 4, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP- 2, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP-l 4 2, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: RELAY-l 3 2, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
   - {name: RELAY-l 4 2, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
   - {name: RELAY- 5 2, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
   - {name: RELAY-l 6 2, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
   - {name: US-l 5 2, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US-7 2, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: RELAY-l 7 2, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: US-l 8 2 2, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CA
+      - CA-Openit.ml
+      - CA-Openit.ml 2
+      - CA-Openit.ml 3
+      - CA-Openit.ml 4
+      - CA-Openit.ml 5
+      - CA-Openit.ml 6
+      - CA-Openit.ml 7
+      - CA-Openit.ml 8
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - US-Openit.ml 4
+      - US-Openit.ml 5
+      - US-Openit.ml 6
+      - US-Openit.ml 7
+      - V1 | HK IEPL Game | sup
+      - V2 IEPL Game | HK1
+      - V2 IEPL Game | HK2
+      - V2 IEPL Game | JP1
+      - V2 IEPL Game | KR1
+      - V2 IEPL Game | SG1
+      - V2 IEPL Game | TW1
+      - V2 IPLC Game | US1
+      - V3 IEPL BGP Game | HK1
+      - V3 IEPL BGP Game | JP1
+      - V3 IEPL BGP Game | KR1
+      - V3 IEPL BGP Game | TW1
+      - V3 IEPL BGP Game | US1
+      - V3 IEPL BGP Game | US2 GIA x10
+      - JP-Openit.ml
+      - US-Openit.ml 8
+      - FR-Openit.ml
+      - US-Openit.ml 9
       - 波兰
-      - CA1
       - UK
       - UK2
       - US2
       - 波兰2
-      - CA3
       - DE
       - 波兰3
       - JP
-      - US2 2
       - DE2
       - DE3
       - DE4
-      - CA4
-      - CA5
       - AU
       - AU2
       - US3
       - DE5
       - DE6
       - DE7
-      - US4
-      - JP2
-      - JP12
-      - TW
-      - TW2
-      - HK
-      - HK2
-      - HK3
-      - HK4
-      - HK5
-      - HK6
-      - GB
-      - US5
-      - US6
-      - JP3
-      - TW3
-      - HK7
-      - HK8
-      - HK9
-      - RU
-      - KR
-      - US7
-      - US8
-      - US9
-      - JP4
-      - JP5
-      - JP6
-      - JP 7
-      - HK10
-      - HK11
-      - HK12
-      - HK13
-      - GB 2
-      - UK3
-      - IEPL-HK t.me/rufeng_fx
-      - IEPL-HK2 t.me/rufeng_fx
-      - IEPL-HK3 t.me/rufeng_fx
-      - IEPL-HK4 t.me/rufeng_fx
-      - IEPL-HK5 t.me/rufeng_fx
-      - IEPL-HK6 t.me/rufeng_fx
-      - IEPL-HK7 t.me/rufeng_fx
-      - IEPL-HK8 t.me/rufeng_fx
-      - IEPL-HK9 t.me/rufeng_fx
-      - IEPL-HK10 t.me/rufeng_fx
-      - IEPL-HK11 t.me/rufeng_fx
-      - IEPL-HK12 t.me/rufeng_fx
-      - IEPL-HK13 t.me/rufeng_fx
-      - GB3
-      - US10
-      - JP8
-      - JP9
-      - HK14
-      - HK15
-      - HK16
-      - HK17
-      - HK18
-      - HK19
-      - GB4
-      - CA-
-      - CA-l 2
-      - CA-Ol 3
-      - CA- 4
-      - CA- 5
-      - CA-l 6
-      - CA-l 7
-      - CA- 8
       - RELAY-l 3
       - RELAYl 4
-      - KR-l 4
       - RELAY- 5
       - RELAY-Ol 6
       - RELAY-l 7
-      - US- 6
-      - US- 7
-      - US-l 8
-      - US- 9
-      - US- 10
-      - US-l 11
       - _US_美国 3
-      - _PL_波兰 7
-      - RELAY-l 8
-      - RELAY-l 9
-      - RELAY-l 10
-      - RELAY-l 11
-      - KR- 5
-      - KR-l 6
-      - KR-l 7
-      - KR-l 8
-      - KR-l 9
-      - KR-l 10
-      - KR-l 11
-      - KR-l 12
-      - KR-l 13
-      - KR-l 14
-      - KR-l 15
-      - KR-l 16
-      - US-l 12
-      - KR-l 17
       - JP-l
-      - FR-l
       - SG-l
       - SG-l 2
-      - IN-l
       - SG- 3
-      - IN-l 2
-      - GB-l
       - US- 13
       - GB-l 2
       - GB-l 3
       - US-l 14
       - KR-l 18
-      - RELAY-l 4
       - JP-l 2
-      - US-l 8 2
-      - US-l 9
       - IN-l 2 2
-      - SG-l 2 2
-      - RELAY-l 8 2
-      - RELAY-l 9 2
       - JP-l 3
       - US-l 11 2
-      - RELAY-l 10 2
-      - RELAY-l 11 2
       - RO-l
-      - GB-l 4
       - JP- 4
-      - JP- 2
-      - JP-l 4 2
       - RELAY-l 3 2
       - RELAY-l 4 2
       - RELAY- 5 2
       - RELAY-l 6 2
       - US-l 5 2
-      - US-7 2
       - RELAY-l 7 2
-      - US-l 8 2 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CA
+      - CA-Openit.ml
+      - CA-Openit.ml 2
+      - CA-Openit.ml 3
+      - CA-Openit.ml 4
+      - CA-Openit.ml 5
+      - CA-Openit.ml 6
+      - CA-Openit.ml 7
+      - CA-Openit.ml 8
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - US-Openit.ml 4
+      - US-Openit.ml 5
+      - US-Openit.ml 6
+      - US-Openit.ml 7
+      - V1 | HK IEPL Game | sup
+      - V2 IEPL Game | HK1
+      - V2 IEPL Game | HK2
+      - V2 IEPL Game | JP1
+      - V2 IEPL Game | KR1
+      - V2 IEPL Game | SG1
+      - V2 IEPL Game | TW1
+      - V2 IPLC Game | US1
+      - V3 IEPL BGP Game | HK1
+      - V3 IEPL BGP Game | JP1
+      - V3 IEPL BGP Game | KR1
+      - V3 IEPL BGP Game | TW1
+      - V3 IEPL BGP Game | US1
+      - V3 IEPL BGP Game | US2 GIA x10
+      - JP-Openit.ml
+      - US-Openit.ml 8
+      - FR-Openit.ml
+      - US-Openit.ml 9
       - 波兰
-      - CA1
       - UK
       - UK2
       - US2
       - 波兰2
-      - CA3
       - DE
       - 波兰3
       - JP
-      - US2 2
       - DE2
       - DE3
       - DE4
-      - CA4
-      - CA5
       - AU
       - AU2
       - US3
       - DE5
       - DE6
       - DE7
-      - US4
-      - JP2
-      - JP12
-      - TW
-      - TW2
-      - HK
-      - HK2
-      - HK3
-      - HK4
-      - HK5
-      - HK6
-      - GB
-      - US5
-      - US6
-      - JP3
-      - TW3
-      - HK7
-      - HK8
-      - HK9
-      - RU
-      - KR
-      - US7
-      - US8
-      - US9
-      - JP4
-      - JP5
-      - JP6
-      - JP 7
-      - HK10
-      - HK11
-      - HK12
-      - HK13
-      - GB 2
-      - UK3
-      - IEPL-HK t.me/rufeng_fx
-      - IEPL-HK2 t.me/rufeng_fx
-      - IEPL-HK3 t.me/rufeng_fx
-      - IEPL-HK4 t.me/rufeng_fx
-      - IEPL-HK5 t.me/rufeng_fx
-      - IEPL-HK6 t.me/rufeng_fx
-      - IEPL-HK7 t.me/rufeng_fx
-      - IEPL-HK8 t.me/rufeng_fx
-      - IEPL-HK9 t.me/rufeng_fx
-      - IEPL-HK10 t.me/rufeng_fx
-      - IEPL-HK11 t.me/rufeng_fx
-      - IEPL-HK12 t.me/rufeng_fx
-      - IEPL-HK13 t.me/rufeng_fx
-      - GB3
-      - US10
-      - JP8
-      - JP9
-      - HK14
-      - HK15
-      - HK16
-      - HK17
-      - HK18
-      - HK19
-      - GB4
-      - CA-
-      - CA-l 2
-      - CA-Ol 3
-      - CA- 4
-      - CA- 5
-      - CA-l 6
-      - CA-l 7
-      - CA- 8
       - RELAY-l 3
       - RELAYl 4
-      - KR-l 4
       - RELAY- 5
       - RELAY-Ol 6
       - RELAY-l 7
-      - US- 6
-      - US- 7
-      - US-l 8
-      - US- 9
-      - US- 10
-      - US-l 11
       - _US_美国 3
-      - _PL_波兰 7
-      - RELAY-l 8
-      - RELAY-l 9
-      - RELAY-l 10
-      - RELAY-l 11
-      - KR- 5
-      - KR-l 6
-      - KR-l 7
-      - KR-l 8
-      - KR-l 9
-      - KR-l 10
-      - KR-l 11
-      - KR-l 12
-      - KR-l 13
-      - KR-l 14
-      - KR-l 15
-      - KR-l 16
-      - US-l 12
-      - KR-l 17
       - JP-l
-      - FR-l
       - SG-l
       - SG-l 2
-      - IN-l
       - SG- 3
-      - IN-l 2
-      - GB-l
       - US- 13
       - GB-l 2
       - GB-l 3
       - US-l 14
       - KR-l 18
-      - RELAY-l 4
       - JP-l 2
-      - US-l 8 2
-      - US-l 9
       - IN-l 2 2
-      - SG-l 2 2
-      - RELAY-l 8 2
-      - RELAY-l 9 2
       - JP-l 3
       - US-l 11 2
-      - RELAY-l 10 2
-      - RELAY-l 11 2
       - RO-l
-      - GB-l 4
       - JP- 4
-      - JP- 2
-      - JP-l 4 2
       - RELAY-l 3 2
       - RELAY-l 4 2
       - RELAY- 5 2
       - RELAY-l 6 2
       - US-l 5 2
-      - US-7 2
       - RELAY-l 7 2
-      - US-l 8 2 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CA
+      - CA-Openit.ml
+      - CA-Openit.ml 2
+      - CA-Openit.ml 3
+      - CA-Openit.ml 4
+      - CA-Openit.ml 5
+      - CA-Openit.ml 6
+      - CA-Openit.ml 7
+      - CA-Openit.ml 8
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - US-Openit.ml 4
+      - US-Openit.ml 5
+      - US-Openit.ml 6
+      - US-Openit.ml 7
+      - V1 | HK IEPL Game | sup
+      - V2 IEPL Game | HK1
+      - V2 IEPL Game | HK2
+      - V2 IEPL Game | JP1
+      - V2 IEPL Game | KR1
+      - V2 IEPL Game | SG1
+      - V2 IEPL Game | TW1
+      - V2 IPLC Game | US1
+      - V3 IEPL BGP Game | HK1
+      - V3 IEPL BGP Game | JP1
+      - V3 IEPL BGP Game | KR1
+      - V3 IEPL BGP Game | TW1
+      - V3 IEPL BGP Game | US1
+      - V3 IEPL BGP Game | US2 GIA x10
+      - JP-Openit.ml
+      - US-Openit.ml 8
+      - FR-Openit.ml
+      - US-Openit.ml 9
       - 波兰
-      - CA1
       - UK
       - UK2
       - US2
       - 波兰2
-      - CA3
       - DE
       - 波兰3
       - JP
-      - US2 2
       - DE2
       - DE3
       - DE4
-      - CA4
-      - CA5
       - AU
       - AU2
       - US3
       - DE5
       - DE6
       - DE7
-      - US4
-      - JP2
-      - JP12
-      - TW
-      - TW2
-      - HK
-      - HK2
-      - HK3
-      - HK4
-      - HK5
-      - HK6
-      - GB
-      - US5
-      - US6
-      - JP3
-      - TW3
-      - HK7
-      - HK8
-      - HK9
-      - RU
-      - KR
-      - US7
-      - US8
-      - US9
-      - JP4
-      - JP5
-      - JP6
-      - JP 7
-      - HK10
-      - HK11
-      - HK12
-      - HK13
-      - GB 2
-      - UK3
-      - IEPL-HK t.me/rufeng_fx
-      - IEPL-HK2 t.me/rufeng_fx
-      - IEPL-HK3 t.me/rufeng_fx
-      - IEPL-HK4 t.me/rufeng_fx
-      - IEPL-HK5 t.me/rufeng_fx
-      - IEPL-HK6 t.me/rufeng_fx
-      - IEPL-HK7 t.me/rufeng_fx
-      - IEPL-HK8 t.me/rufeng_fx
-      - IEPL-HK9 t.me/rufeng_fx
-      - IEPL-HK10 t.me/rufeng_fx
-      - IEPL-HK11 t.me/rufeng_fx
-      - IEPL-HK12 t.me/rufeng_fx
-      - IEPL-HK13 t.me/rufeng_fx
-      - GB3
-      - US10
-      - JP8
-      - JP9
-      - HK14
-      - HK15
-      - HK16
-      - HK17
-      - HK18
-      - HK19
-      - GB4
-      - CA-
-      - CA-l 2
-      - CA-Ol 3
-      - CA- 4
-      - CA- 5
-      - CA-l 6
-      - CA-l 7
-      - CA- 8
       - RELAY-l 3
       - RELAYl 4
-      - KR-l 4
       - RELAY- 5
       - RELAY-Ol 6
       - RELAY-l 7
-      - US- 6
-      - US- 7
-      - US-l 8
-      - US- 9
-      - US- 10
-      - US-l 11
       - _US_美国 3
-      - _PL_波兰 7
-      - RELAY-l 8
-      - RELAY-l 9
-      - RELAY-l 10
-      - RELAY-l 11
-      - KR- 5
-      - KR-l 6
-      - KR-l 7
-      - KR-l 8
-      - KR-l 9
-      - KR-l 10
-      - KR-l 11
-      - KR-l 12
-      - KR-l 13
-      - KR-l 14
-      - KR-l 15
-      - KR-l 16
-      - US-l 12
-      - KR-l 17
       - JP-l
-      - FR-l
       - SG-l
       - SG-l 2
-      - IN-l
       - SG- 3
-      - IN-l 2
-      - GB-l
       - US- 13
       - GB-l 2
       - GB-l 3
       - US-l 14
       - KR-l 18
-      - RELAY-l 4
       - JP-l 2
-      - US-l 8 2
-      - US-l 9
       - IN-l 2 2
-      - SG-l 2 2
-      - RELAY-l 8 2
-      - RELAY-l 9 2
       - JP-l 3
       - US-l 11 2
-      - RELAY-l 10 2
-      - RELAY-l 11 2
       - RO-l
-      - GB-l 4
       - JP- 4
-      - JP- 2
-      - JP-l 4 2
       - RELAY-l 3 2
       - RELAY-l 4 2
       - RELAY- 5 2
       - RELAY-l 6 2
       - US-l 5 2
-      - US-7 2
       - RELAY-l 7 2
-      - US-l 8 2 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -676,165 +348,83 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CA
+      - CA-Openit.ml
+      - CA-Openit.ml 2
+      - CA-Openit.ml 3
+      - CA-Openit.ml 4
+      - CA-Openit.ml 5
+      - CA-Openit.ml 6
+      - CA-Openit.ml 7
+      - CA-Openit.ml 8
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - US-Openit.ml 4
+      - US-Openit.ml 5
+      - US-Openit.ml 6
+      - US-Openit.ml 7
+      - V1 | HK IEPL Game | sup
+      - V2 IEPL Game | HK1
+      - V2 IEPL Game | HK2
+      - V2 IEPL Game | JP1
+      - V2 IEPL Game | KR1
+      - V2 IEPL Game | SG1
+      - V2 IEPL Game | TW1
+      - V2 IPLC Game | US1
+      - V3 IEPL BGP Game | HK1
+      - V3 IEPL BGP Game | JP1
+      - V3 IEPL BGP Game | KR1
+      - V3 IEPL BGP Game | TW1
+      - V3 IEPL BGP Game | US1
+      - V3 IEPL BGP Game | US2 GIA x10
+      - JP-Openit.ml
+      - US-Openit.ml 8
+      - FR-Openit.ml
+      - US-Openit.ml 9
       - 波兰
-      - CA1
       - UK
       - UK2
       - US2
       - 波兰2
-      - CA3
       - DE
       - 波兰3
       - JP
-      - US2 2
       - DE2
       - DE3
       - DE4
-      - CA4
-      - CA5
       - AU
       - AU2
       - US3
       - DE5
       - DE6
       - DE7
-      - US4
-      - JP2
-      - JP12
-      - TW
-      - TW2
-      - HK
-      - HK2
-      - HK3
-      - HK4
-      - HK5
-      - HK6
-      - GB
-      - US5
-      - US6
-      - JP3
-      - TW3
-      - HK7
-      - HK8
-      - HK9
-      - RU
-      - KR
-      - US7
-      - US8
-      - US9
-      - JP4
-      - JP5
-      - JP6
-      - JP 7
-      - HK10
-      - HK11
-      - HK12
-      - HK13
-      - GB 2
-      - UK3
-      - IEPL-HK t.me/rufeng_fx
-      - IEPL-HK2 t.me/rufeng_fx
-      - IEPL-HK3 t.me/rufeng_fx
-      - IEPL-HK4 t.me/rufeng_fx
-      - IEPL-HK5 t.me/rufeng_fx
-      - IEPL-HK6 t.me/rufeng_fx
-      - IEPL-HK7 t.me/rufeng_fx
-      - IEPL-HK8 t.me/rufeng_fx
-      - IEPL-HK9 t.me/rufeng_fx
-      - IEPL-HK10 t.me/rufeng_fx
-      - IEPL-HK11 t.me/rufeng_fx
-      - IEPL-HK12 t.me/rufeng_fx
-      - IEPL-HK13 t.me/rufeng_fx
-      - GB3
-      - US10
-      - JP8
-      - JP9
-      - HK14
-      - HK15
-      - HK16
-      - HK17
-      - HK18
-      - HK19
-      - GB4
-      - CA-
-      - CA-l 2
-      - CA-Ol 3
-      - CA- 4
-      - CA- 5
-      - CA-l 6
-      - CA-l 7
-      - CA- 8
       - RELAY-l 3
       - RELAYl 4
-      - KR-l 4
       - RELAY- 5
       - RELAY-Ol 6
       - RELAY-l 7
-      - US- 6
-      - US- 7
-      - US-l 8
-      - US- 9
-      - US- 10
-      - US-l 11
       - _US_美国 3
-      - _PL_波兰 7
-      - RELAY-l 8
-      - RELAY-l 9
-      - RELAY-l 10
-      - RELAY-l 11
-      - KR- 5
-      - KR-l 6
-      - KR-l 7
-      - KR-l 8
-      - KR-l 9
-      - KR-l 10
-      - KR-l 11
-      - KR-l 12
-      - KR-l 13
-      - KR-l 14
-      - KR-l 15
-      - KR-l 16
-      - US-l 12
-      - KR-l 17
       - JP-l
-      - FR-l
       - SG-l
       - SG-l 2
-      - IN-l
       - SG- 3
-      - IN-l 2
-      - GB-l
       - US- 13
       - GB-l 2
       - GB-l 3
       - US-l 14
       - KR-l 18
-      - RELAY-l 4
       - JP-l 2
-      - US-l 8 2
-      - US-l 9
       - IN-l 2 2
-      - SG-l 2 2
-      - RELAY-l 8 2
-      - RELAY-l 9 2
       - JP-l 3
       - US-l 11 2
-      - RELAY-l 10 2
-      - RELAY-l 11 2
       - RO-l
-      - GB-l 4
       - JP- 4
-      - JP- 2
-      - JP-l 4 2
       - RELAY-l 3 2
       - RELAY-l 4 2
       - RELAY- 5 2
       - RELAY-l 6 2
       - US-l 5 2
-      - US-7 2
       - RELAY-l 7 2
-      - US-l 8 2 2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -845,494 +435,248 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CA
+      - CA-Openit.ml
+      - CA-Openit.ml 2
+      - CA-Openit.ml 3
+      - CA-Openit.ml 4
+      - CA-Openit.ml 5
+      - CA-Openit.ml 6
+      - CA-Openit.ml 7
+      - CA-Openit.ml 8
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - US-Openit.ml 4
+      - US-Openit.ml 5
+      - US-Openit.ml 6
+      - US-Openit.ml 7
+      - V1 | HK IEPL Game | sup
+      - V2 IEPL Game | HK1
+      - V2 IEPL Game | HK2
+      - V2 IEPL Game | JP1
+      - V2 IEPL Game | KR1
+      - V2 IEPL Game | SG1
+      - V2 IEPL Game | TW1
+      - V2 IPLC Game | US1
+      - V3 IEPL BGP Game | HK1
+      - V3 IEPL BGP Game | JP1
+      - V3 IEPL BGP Game | KR1
+      - V3 IEPL BGP Game | TW1
+      - V3 IEPL BGP Game | US1
+      - V3 IEPL BGP Game | US2 GIA x10
+      - JP-Openit.ml
+      - US-Openit.ml 8
+      - FR-Openit.ml
+      - US-Openit.ml 9
       - 波兰
-      - CA1
       - UK
       - UK2
       - US2
       - 波兰2
-      - CA3
       - DE
       - 波兰3
       - JP
-      - US2 2
       - DE2
       - DE3
       - DE4
-      - CA4
-      - CA5
       - AU
       - AU2
       - US3
       - DE5
       - DE6
       - DE7
-      - US4
-      - JP2
-      - JP12
-      - TW
-      - TW2
-      - HK
-      - HK2
-      - HK3
-      - HK4
-      - HK5
-      - HK6
-      - GB
-      - US5
-      - US6
-      - JP3
-      - TW3
-      - HK7
-      - HK8
-      - HK9
-      - RU
-      - KR
-      - US7
-      - US8
-      - US9
-      - JP4
-      - JP5
-      - JP6
-      - JP 7
-      - HK10
-      - HK11
-      - HK12
-      - HK13
-      - GB 2
-      - UK3
-      - IEPL-HK t.me/rufeng_fx
-      - IEPL-HK2 t.me/rufeng_fx
-      - IEPL-HK3 t.me/rufeng_fx
-      - IEPL-HK4 t.me/rufeng_fx
-      - IEPL-HK5 t.me/rufeng_fx
-      - IEPL-HK6 t.me/rufeng_fx
-      - IEPL-HK7 t.me/rufeng_fx
-      - IEPL-HK8 t.me/rufeng_fx
-      - IEPL-HK9 t.me/rufeng_fx
-      - IEPL-HK10 t.me/rufeng_fx
-      - IEPL-HK11 t.me/rufeng_fx
-      - IEPL-HK12 t.me/rufeng_fx
-      - IEPL-HK13 t.me/rufeng_fx
-      - GB3
-      - US10
-      - JP8
-      - JP9
-      - HK14
-      - HK15
-      - HK16
-      - HK17
-      - HK18
-      - HK19
-      - GB4
-      - CA-
-      - CA-l 2
-      - CA-Ol 3
-      - CA- 4
-      - CA- 5
-      - CA-l 6
-      - CA-l 7
-      - CA- 8
       - RELAY-l 3
       - RELAYl 4
-      - KR-l 4
       - RELAY- 5
       - RELAY-Ol 6
       - RELAY-l 7
-      - US- 6
-      - US- 7
-      - US-l 8
-      - US- 9
-      - US- 10
-      - US-l 11
       - _US_美国 3
-      - _PL_波兰 7
-      - RELAY-l 8
-      - RELAY-l 9
-      - RELAY-l 10
-      - RELAY-l 11
-      - KR- 5
-      - KR-l 6
-      - KR-l 7
-      - KR-l 8
-      - KR-l 9
-      - KR-l 10
-      - KR-l 11
-      - KR-l 12
-      - KR-l 13
-      - KR-l 14
-      - KR-l 15
-      - KR-l 16
-      - US-l 12
-      - KR-l 17
       - JP-l
-      - FR-l
       - SG-l
       - SG-l 2
-      - IN-l
       - SG- 3
-      - IN-l 2
-      - GB-l
       - US- 13
       - GB-l 2
       - GB-l 3
       - US-l 14
       - KR-l 18
-      - RELAY-l 4
       - JP-l 2
-      - US-l 8 2
-      - US-l 9
       - IN-l 2 2
-      - SG-l 2 2
-      - RELAY-l 8 2
-      - RELAY-l 9 2
       - JP-l 3
       - US-l 11 2
-      - RELAY-l 10 2
-      - RELAY-l 11 2
       - RO-l
-      - GB-l 4
       - JP- 4
-      - JP- 2
-      - JP-l 4 2
       - RELAY-l 3 2
       - RELAY-l 4 2
       - RELAY- 5 2
       - RELAY-l 6 2
       - US-l 5 2
-      - US-7 2
       - RELAY-l 7 2
-      - US-l 8 2 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CA
+      - CA-Openit.ml
+      - CA-Openit.ml 2
+      - CA-Openit.ml 3
+      - CA-Openit.ml 4
+      - CA-Openit.ml 5
+      - CA-Openit.ml 6
+      - CA-Openit.ml 7
+      - CA-Openit.ml 8
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - US-Openit.ml 4
+      - US-Openit.ml 5
+      - US-Openit.ml 6
+      - US-Openit.ml 7
+      - V1 | HK IEPL Game | sup
+      - V2 IEPL Game | HK1
+      - V2 IEPL Game | HK2
+      - V2 IEPL Game | JP1
+      - V2 IEPL Game | KR1
+      - V2 IEPL Game | SG1
+      - V2 IEPL Game | TW1
+      - V2 IPLC Game | US1
+      - V3 IEPL BGP Game | HK1
+      - V3 IEPL BGP Game | JP1
+      - V3 IEPL BGP Game | KR1
+      - V3 IEPL BGP Game | TW1
+      - V3 IEPL BGP Game | US1
+      - V3 IEPL BGP Game | US2 GIA x10
+      - JP-Openit.ml
+      - US-Openit.ml 8
+      - FR-Openit.ml
+      - US-Openit.ml 9
       - 波兰
-      - CA1
       - UK
       - UK2
       - US2
       - 波兰2
-      - CA3
       - DE
       - 波兰3
       - JP
-      - US2 2
       - DE2
       - DE3
       - DE4
-      - CA4
-      - CA5
       - AU
       - AU2
       - US3
       - DE5
       - DE6
       - DE7
-      - US4
-      - JP2
-      - JP12
-      - TW
-      - TW2
-      - HK
-      - HK2
-      - HK3
-      - HK4
-      - HK5
-      - HK6
-      - GB
-      - US5
-      - US6
-      - JP3
-      - TW3
-      - HK7
-      - HK8
-      - HK9
-      - RU
-      - KR
-      - US7
-      - US8
-      - US9
-      - JP4
-      - JP5
-      - JP6
-      - JP 7
-      - HK10
-      - HK11
-      - HK12
-      - HK13
-      - GB 2
-      - UK3
-      - IEPL-HK t.me/rufeng_fx
-      - IEPL-HK2 t.me/rufeng_fx
-      - IEPL-HK3 t.me/rufeng_fx
-      - IEPL-HK4 t.me/rufeng_fx
-      - IEPL-HK5 t.me/rufeng_fx
-      - IEPL-HK6 t.me/rufeng_fx
-      - IEPL-HK7 t.me/rufeng_fx
-      - IEPL-HK8 t.me/rufeng_fx
-      - IEPL-HK9 t.me/rufeng_fx
-      - IEPL-HK10 t.me/rufeng_fx
-      - IEPL-HK11 t.me/rufeng_fx
-      - IEPL-HK12 t.me/rufeng_fx
-      - IEPL-HK13 t.me/rufeng_fx
-      - GB3
-      - US10
-      - JP8
-      - JP9
-      - HK14
-      - HK15
-      - HK16
-      - HK17
-      - HK18
-      - HK19
-      - GB4
-      - CA-
-      - CA-l 2
-      - CA-Ol 3
-      - CA- 4
-      - CA- 5
-      - CA-l 6
-      - CA-l 7
-      - CA- 8
       - RELAY-l 3
       - RELAYl 4
-      - KR-l 4
       - RELAY- 5
       - RELAY-Ol 6
       - RELAY-l 7
-      - US- 6
-      - US- 7
-      - US-l 8
-      - US- 9
-      - US- 10
-      - US-l 11
       - _US_美国 3
-      - _PL_波兰 7
-      - RELAY-l 8
-      - RELAY-l 9
-      - RELAY-l 10
-      - RELAY-l 11
-      - KR- 5
-      - KR-l 6
-      - KR-l 7
-      - KR-l 8
-      - KR-l 9
-      - KR-l 10
-      - KR-l 11
-      - KR-l 12
-      - KR-l 13
-      - KR-l 14
-      - KR-l 15
-      - KR-l 16
-      - US-l 12
-      - KR-l 17
       - JP-l
-      - FR-l
       - SG-l
       - SG-l 2
-      - IN-l
       - SG- 3
-      - IN-l 2
-      - GB-l
       - US- 13
       - GB-l 2
       - GB-l 3
       - US-l 14
       - KR-l 18
-      - RELAY-l 4
       - JP-l 2
-      - US-l 8 2
-      - US-l 9
       - IN-l 2 2
-      - SG-l 2 2
-      - RELAY-l 8 2
-      - RELAY-l 9 2
       - JP-l 3
       - US-l 11 2
-      - RELAY-l 10 2
-      - RELAY-l 11 2
       - RO-l
-      - GB-l 4
       - JP- 4
-      - JP- 2
-      - JP-l 4 2
       - RELAY-l 3 2
       - RELAY-l 4 2
       - RELAY- 5 2
       - RELAY-l 6 2
       - US-l 5 2
-      - US-7 2
       - RELAY-l 7 2
-      - US-l 8 2 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CA
+      - CA-Openit.ml
+      - CA-Openit.ml 2
+      - CA-Openit.ml 3
+      - CA-Openit.ml 4
+      - CA-Openit.ml 5
+      - CA-Openit.ml 6
+      - CA-Openit.ml 7
+      - CA-Openit.ml 8
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - US-Openit.ml 4
+      - US-Openit.ml 5
+      - US-Openit.ml 6
+      - US-Openit.ml 7
+      - V1 | HK IEPL Game | sup
+      - V2 IEPL Game | HK1
+      - V2 IEPL Game | HK2
+      - V2 IEPL Game | JP1
+      - V2 IEPL Game | KR1
+      - V2 IEPL Game | SG1
+      - V2 IEPL Game | TW1
+      - V2 IPLC Game | US1
+      - V3 IEPL BGP Game | HK1
+      - V3 IEPL BGP Game | JP1
+      - V3 IEPL BGP Game | KR1
+      - V3 IEPL BGP Game | TW1
+      - V3 IEPL BGP Game | US1
+      - V3 IEPL BGP Game | US2 GIA x10
+      - JP-Openit.ml
+      - US-Openit.ml 8
+      - FR-Openit.ml
+      - US-Openit.ml 9
       - 波兰
-      - CA1
       - UK
       - UK2
       - US2
       - 波兰2
-      - CA3
       - DE
       - 波兰3
       - JP
-      - US2 2
       - DE2
       - DE3
       - DE4
-      - CA4
-      - CA5
       - AU
       - AU2
       - US3
       - DE5
       - DE6
       - DE7
-      - US4
-      - JP2
-      - JP12
-      - TW
-      - TW2
-      - HK
-      - HK2
-      - HK3
-      - HK4
-      - HK5
-      - HK6
-      - GB
-      - US5
-      - US6
-      - JP3
-      - TW3
-      - HK7
-      - HK8
-      - HK9
-      - RU
-      - KR
-      - US7
-      - US8
-      - US9
-      - JP4
-      - JP5
-      - JP6
-      - JP 7
-      - HK10
-      - HK11
-      - HK12
-      - HK13
-      - GB 2
-      - UK3
-      - IEPL-HK t.me/rufeng_fx
-      - IEPL-HK2 t.me/rufeng_fx
-      - IEPL-HK3 t.me/rufeng_fx
-      - IEPL-HK4 t.me/rufeng_fx
-      - IEPL-HK5 t.me/rufeng_fx
-      - IEPL-HK6 t.me/rufeng_fx
-      - IEPL-HK7 t.me/rufeng_fx
-      - IEPL-HK8 t.me/rufeng_fx
-      - IEPL-HK9 t.me/rufeng_fx
-      - IEPL-HK10 t.me/rufeng_fx
-      - IEPL-HK11 t.me/rufeng_fx
-      - IEPL-HK12 t.me/rufeng_fx
-      - IEPL-HK13 t.me/rufeng_fx
-      - GB3
-      - US10
-      - JP8
-      - JP9
-      - HK14
-      - HK15
-      - HK16
-      - HK17
-      - HK18
-      - HK19
-      - GB4
-      - CA-
-      - CA-l 2
-      - CA-Ol 3
-      - CA- 4
-      - CA- 5
-      - CA-l 6
-      - CA-l 7
-      - CA- 8
       - RELAY-l 3
       - RELAYl 4
-      - KR-l 4
       - RELAY- 5
       - RELAY-Ol 6
       - RELAY-l 7
-      - US- 6
-      - US- 7
-      - US-l 8
-      - US- 9
-      - US- 10
-      - US-l 11
       - _US_美国 3
-      - _PL_波兰 7
-      - RELAY-l 8
-      - RELAY-l 9
-      - RELAY-l 10
-      - RELAY-l 11
-      - KR- 5
-      - KR-l 6
-      - KR-l 7
-      - KR-l 8
-      - KR-l 9
-      - KR-l 10
-      - KR-l 11
-      - KR-l 12
-      - KR-l 13
-      - KR-l 14
-      - KR-l 15
-      - KR-l 16
-      - US-l 12
-      - KR-l 17
       - JP-l
-      - FR-l
       - SG-l
       - SG-l 2
-      - IN-l
       - SG- 3
-      - IN-l 2
-      - GB-l
       - US- 13
       - GB-l 2
       - GB-l 3
       - US-l 14
       - KR-l 18
-      - RELAY-l 4
       - JP-l 2
-      - US-l 8 2
-      - US-l 9
       - IN-l 2 2
-      - SG-l 2 2
-      - RELAY-l 8 2
-      - RELAY-l 9 2
       - JP-l 3
       - US-l 11 2
-      - RELAY-l 10 2
-      - RELAY-l 11 2
       - RO-l
-      - GB-l 4
       - JP- 4
-      - JP- 2
-      - JP-l 4 2
       - RELAY-l 3 2
       - RELAY-l 4 2
       - RELAY- 5 2
       - RELAY-l 6 2
       - US-l 5 2
-      - US-7 2
       - RELAY-l 7 2
-      - US-l 8 2 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1348,165 +692,83 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CA
+      - CA-Openit.ml
+      - CA-Openit.ml 2
+      - CA-Openit.ml 3
+      - CA-Openit.ml 4
+      - CA-Openit.ml 5
+      - CA-Openit.ml 6
+      - CA-Openit.ml 7
+      - CA-Openit.ml 8
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - US-Openit.ml 4
+      - US-Openit.ml 5
+      - US-Openit.ml 6
+      - US-Openit.ml 7
+      - V1 | HK IEPL Game | sup
+      - V2 IEPL Game | HK1
+      - V2 IEPL Game | HK2
+      - V2 IEPL Game | JP1
+      - V2 IEPL Game | KR1
+      - V2 IEPL Game | SG1
+      - V2 IEPL Game | TW1
+      - V2 IPLC Game | US1
+      - V3 IEPL BGP Game | HK1
+      - V3 IEPL BGP Game | JP1
+      - V3 IEPL BGP Game | KR1
+      - V3 IEPL BGP Game | TW1
+      - V3 IEPL BGP Game | US1
+      - V3 IEPL BGP Game | US2 GIA x10
+      - JP-Openit.ml
+      - US-Openit.ml 8
+      - FR-Openit.ml
+      - US-Openit.ml 9
       - 波兰
-      - CA1
       - UK
       - UK2
       - US2
       - 波兰2
-      - CA3
       - DE
       - 波兰3
       - JP
-      - US2 2
       - DE2
       - DE3
       - DE4
-      - CA4
-      - CA5
       - AU
       - AU2
       - US3
       - DE5
       - DE6
       - DE7
-      - US4
-      - JP2
-      - JP12
-      - TW
-      - TW2
-      - HK
-      - HK2
-      - HK3
-      - HK4
-      - HK5
-      - HK6
-      - GB
-      - US5
-      - US6
-      - JP3
-      - TW3
-      - HK7
-      - HK8
-      - HK9
-      - RU
-      - KR
-      - US7
-      - US8
-      - US9
-      - JP4
-      - JP5
-      - JP6
-      - JP 7
-      - HK10
-      - HK11
-      - HK12
-      - HK13
-      - GB 2
-      - UK3
-      - IEPL-HK t.me/rufeng_fx
-      - IEPL-HK2 t.me/rufeng_fx
-      - IEPL-HK3 t.me/rufeng_fx
-      - IEPL-HK4 t.me/rufeng_fx
-      - IEPL-HK5 t.me/rufeng_fx
-      - IEPL-HK6 t.me/rufeng_fx
-      - IEPL-HK7 t.me/rufeng_fx
-      - IEPL-HK8 t.me/rufeng_fx
-      - IEPL-HK9 t.me/rufeng_fx
-      - IEPL-HK10 t.me/rufeng_fx
-      - IEPL-HK11 t.me/rufeng_fx
-      - IEPL-HK12 t.me/rufeng_fx
-      - IEPL-HK13 t.me/rufeng_fx
-      - GB3
-      - US10
-      - JP8
-      - JP9
-      - HK14
-      - HK15
-      - HK16
-      - HK17
-      - HK18
-      - HK19
-      - GB4
-      - CA-
-      - CA-l 2
-      - CA-Ol 3
-      - CA- 4
-      - CA- 5
-      - CA-l 6
-      - CA-l 7
-      - CA- 8
       - RELAY-l 3
       - RELAYl 4
-      - KR-l 4
       - RELAY- 5
       - RELAY-Ol 6
       - RELAY-l 7
-      - US- 6
-      - US- 7
-      - US-l 8
-      - US- 9
-      - US- 10
-      - US-l 11
       - _US_美国 3
-      - _PL_波兰 7
-      - RELAY-l 8
-      - RELAY-l 9
-      - RELAY-l 10
-      - RELAY-l 11
-      - KR- 5
-      - KR-l 6
-      - KR-l 7
-      - KR-l 8
-      - KR-l 9
-      - KR-l 10
-      - KR-l 11
-      - KR-l 12
-      - KR-l 13
-      - KR-l 14
-      - KR-l 15
-      - KR-l 16
-      - US-l 12
-      - KR-l 17
       - JP-l
-      - FR-l
       - SG-l
       - SG-l 2
-      - IN-l
       - SG- 3
-      - IN-l 2
-      - GB-l
       - US- 13
       - GB-l 2
       - GB-l 3
       - US-l 14
       - KR-l 18
-      - RELAY-l 4
       - JP-l 2
-      - US-l 8 2
-      - US-l 9
       - IN-l 2 2
-      - SG-l 2 2
-      - RELAY-l 8 2
-      - RELAY-l 9 2
       - JP-l 3
       - US-l 11 2
-      - RELAY-l 10 2
-      - RELAY-l 11 2
       - RO-l
-      - GB-l 4
       - JP- 4
-      - JP- 2
-      - JP-l 4 2
       - RELAY-l 3 2
       - RELAY-l 4 2
       - RELAY- 5 2
       - RELAY-l 6 2
       - US-l 5 2
-      - US-7 2
       - RELAY-l 7 2
-      - US-l 8 2 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
