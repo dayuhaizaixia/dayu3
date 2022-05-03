@@ -15,7 +15,7 @@ proxies:
   - {name: _GB_英国_17, server: 152.89.210.84, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
   - {name: _DE_德国_48, server: 5.183.179.167, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
   - {name: _JP_日本_18, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: RELAY-Openit.ml, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: RELAY-l, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: _DE_德国_15, server: 5.183.179.167, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
   - {name: _DE_德国_46, server: 5.183.179.167, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
   - {name: _DE_德国_47, server: 5.183.179.167, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
@@ -24,8 +24,8 @@ proxies:
   - {name: _DE_德国_45, server: 5.183.179.167, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
   - {name: _DE_德国_50, server: 5.183.179.167, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
   - {name: _AU_澳大利亚_12, server: 185.167.116.253, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: US-Openit.ml, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan33.free4444.xyz, skip-cert-verify: true, udp: true}
-  - {name: FR-Openit.ml, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: US-l, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan33.free4444.xyz, skip-cert-verify: true, udp: true}
+  - {name: FR-l, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
   - {name: 新加坡, server: awssg.yeem.cc, port: 21210, type: trojan, password: 59c465d4-e3ad-4a30-9067-887786a2ca2d, sni: awssg.yeem.cc, skip-cert-verify: true, udp: true}
   - {name: 澳大利亚, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: "[Trojan]", server: 140.238.231.9, port: 443, type: trojan, password: O3hQcnNKAE, skip-cert-verify: true, udp: true}
@@ -173,7 +173,7 @@ proxy-groups:
       - _GB_英国_17
       - _DE_德国_48
       - _JP_日本_18
-      - RELAY-Openit.ml
+      - RELAY-l
       - _DE_德国_15
       - _DE_德国_46
       - _DE_德国_47
@@ -182,8 +182,8 @@ proxy-groups:
       - _DE_德国_45
       - _DE_德国_50
       - _AU_澳大利亚_12
-      - US-Openit.ml
-      - FR-Openit.ml
+      - US-l
+      - FR-l
       - 新加坡
       - 澳大利亚
       - "[Trojan]"
@@ -330,7 +330,7 @@ proxy-groups:
       - _GB_英国_17
       - _DE_德国_48
       - _JP_日本_18
-      - RELAY-Openit.ml
+      - RELAY-l
       - _DE_德国_15
       - _DE_德国_46
       - _DE_德国_47
@@ -339,8 +339,8 @@ proxy-groups:
       - _DE_德国_45
       - _DE_德国_50
       - _AU_澳大利亚_12
-      - US-Openit.ml
-      - FR-Openit.ml
+      - US-l
+      - FR-l
       - 新加坡
       - 澳大利亚
       - "[Trojan]"
@@ -488,7 +488,7 @@ proxy-groups:
       - _GB_英国_17
       - _DE_德国_48
       - _JP_日本_18
-      - RELAY-Openit.ml
+      - RELAY-l
       - _DE_德国_15
       - _DE_德国_46
       - _DE_德国_47
@@ -497,8 +497,8 @@ proxy-groups:
       - _DE_德国_45
       - _DE_德国_50
       - _AU_澳大利亚_12
-      - US-Openit.ml
-      - FR-Openit.ml
+      - US-l
+      - FR-l
       - 新加坡
       - 澳大利亚
       - "[Trojan]"
@@ -658,7 +658,7 @@ proxy-groups:
       - _GB_英国_17
       - _DE_德国_48
       - _JP_日本_18
-      - RELAY-Openit.ml
+      - RELAY-l
       - _DE_德国_15
       - _DE_德国_46
       - _DE_德国_47
@@ -667,8 +667,8 @@ proxy-groups:
       - _DE_德国_45
       - _DE_德国_50
       - _AU_澳大利亚_12
-      - US-Openit.ml
-      - FR-Openit.ml
+      - US-l
+      - FR-l
       - 新加坡
       - 澳大利亚
       - "[Trojan]"
@@ -821,7 +821,7 @@ proxy-groups:
       - _GB_英国_17
       - _DE_德国_48
       - _JP_日本_18
-      - RELAY-Openit.ml
+      - RELAY-l
       - _DE_德国_15
       - _DE_德国_46
       - _DE_德国_47
@@ -830,8 +830,8 @@ proxy-groups:
       - _DE_德国_45
       - _DE_德国_50
       - _AU_澳大利亚_12
-      - US-Openit.ml
-      - FR-Openit.ml
+      - US-l
+      - FR-l
       - 新加坡
       - 澳大利亚
       - "[Trojan]"
@@ -978,7 +978,7 @@ proxy-groups:
       - _GB_英国_17
       - _DE_德国_48
       - _JP_日本_18
-      - RELAY-Openit.ml
+      - RELAY-l
       - _DE_德国_15
       - _DE_德国_46
       - _DE_德国_47
@@ -987,8 +987,8 @@ proxy-groups:
       - _DE_德国_45
       - _DE_德国_50
       - _AU_澳大利亚_12
-      - US-Openit.ml
-      - FR-Openit.ml
+      - US-l
+      - FR-l
       - 新加坡
       - 澳大利亚
       - "[Trojan]"
@@ -1136,7 +1136,7 @@ proxy-groups:
       - _GB_英国_17
       - _DE_德国_48
       - _JP_日本_18
-      - RELAY-Openit.ml
+      - RELAY-l
       - _DE_德国_15
       - _DE_德国_46
       - _DE_德国_47
@@ -1145,8 +1145,8 @@ proxy-groups:
       - _DE_德国_45
       - _DE_德国_50
       - _AU_澳大利亚_12
-      - US-Openit.ml
-      - FR-Openit.ml
+      - US-l
+      - FR-l
       - 新加坡
       - 澳大利亚
       - "[Trojan]"
@@ -1303,7 +1303,7 @@ proxy-groups:
       - _GB_英国_17
       - _DE_德国_48
       - _JP_日本_18
-      - RELAY-Openit.ml
+      - RELAY-l
       - _DE_德国_15
       - _DE_德国_46
       - _DE_德国_47
@@ -1312,8 +1312,8 @@ proxy-groups:
       - _DE_德国_45
       - _DE_德国_50
       - _AU_澳大利亚_12
-      - US-Openit.ml
-      - FR-Openit.ml
+      - US-l
+      - FR-l
       - 新加坡
       - 澳大利亚
       - "[Trojan]"
