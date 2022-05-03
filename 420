@@ -5,6 +5,41 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: V1 | A AUTO, server: x-cm.gotout.work, port: 31001, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | ARG, server: x-cu.gotout.work, port: 31919, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | CA, server: x-cu.gotout.work, port: 31918, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | CH1, server: x-cu.gotout.work, port: 31914, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | DE, server: x-cu.gotout.work, port: 31916, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | FR, server: x-cu.gotout.work, port: 31917, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | GB A1, server: x-cu.gotout.work, port: 31915, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | GB B1, server: x-cm.gotout.work, port: 31925, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | HK A1, server: x-cu.gotout.work, port: 31111, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | HK A2, server: x-cu.gotout.work, port: 31112, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | HK A3, server: x-cu.gotout.work, port: 31113, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: x-cu.gotout.work}, udp: true}
+  - {name: V1 | HK B1, server: x-cm.gotout.work, port: 31121, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | HK B2, server: x-cm.gotout.work, port: 31122, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | HK B3, server: x-cm.gotout.work, port: 31123, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: x-cm.gotout.work}, udp: true}
+  - {name: V1 | JP A1, server: x-cu.gotout.work, port: 31311, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | JP A2 Native, server: x-cu.gotout.work, port: 31313, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | JP B1, server: x-cm.gotout.work, port: 31321, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | KR A1, server: x-cu.gotout.work, port: 31511, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | KR B1, server: x-cm.gotout.work, port: 31521, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | NL1, server: x-cu.gotout.work, port: 31913, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | RU A1, server: x-cu.gotout.work, port: 31711, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | SG A1, server: x-cu.gotout.work, port: 31411, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | SG B1, server: x-cm.gotout.work, port: 31421, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | TR1, server: x-cu.gotout.work, port: 31911, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | TW A1, server: x-cu.gotout.work, port: 31211, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | TW B1, server: x-cm.gotout.work, port: 31221, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | US A1, server: x-cu.gotout.work, port: 31611, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | US A2, server: x-cu.gotout.work, port: 31612, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | US B1, server: x-cm.gotout.work, port: 31621, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1 | US B2, server: x-cm.gotout.work, port: 31622, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V2 Native | HK BGP, server: x-cc.gotout.work, port: 32131, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: x-cc.gotout.work}, udp: true}
+  - {name: V2 Native | JP BGP, server: x-cn2.gotout.work, port: 32333, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V2 Native | SG BGP, server: x-cc.gotout.work, port: 32431, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V2 Native | TW BGP, server: x-cn2.gotout.work, port: 32231, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V2 | US BGP, server: x-cn2.gotout.work, port: 32631, type: vmess, uuid: 38e84801-8001-3d81-aeed-2605ea1a5372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: CA-Openit.ml, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: CA-Openit.ml 2, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: CA-Openit.ml 3, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
@@ -88,6 +123,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - V1 | A AUTO
+      - V1 | ARG
+      - V1 | CA
+      - V1 | CH1
+      - V1 | DE
+      - V1 | FR
+      - V1 | GB A1
+      - V1 | GB B1
+      - V1 | HK A1
+      - V1 | HK A2
+      - V1 | HK A3
+      - V1 | HK B1
+      - V1 | HK B2
+      - V1 | HK B3
+      - V1 | JP A1
+      - V1 | JP A2 Native
+      - V1 | JP B1
+      - V1 | KR A1
+      - V1 | KR B1
+      - V1 | NL1
+      - V1 | RU A1
+      - V1 | SG A1
+      - V1 | SG B1
+      - V1 | TR1
+      - V1 | TW A1
+      - V1 | TW B1
+      - V1 | US A1
+      - V1 | US A2
+      - V1 | US B1
+      - V1 | US B2
+      - V2 Native | HK BGP
+      - V2 Native | JP BGP
+      - V2 Native | SG BGP
+      - V2 Native | TW BGP
+      - V2 | US BGP
       - CA-Openit.ml
       - CA-Openit.ml 2
       - CA-Openit.ml 3
@@ -170,6 +240,41 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - V1 | A AUTO
+      - V1 | ARG
+      - V1 | CA
+      - V1 | CH1
+      - V1 | DE
+      - V1 | FR
+      - V1 | GB A1
+      - V1 | GB B1
+      - V1 | HK A1
+      - V1 | HK A2
+      - V1 | HK A3
+      - V1 | HK B1
+      - V1 | HK B2
+      - V1 | HK B3
+      - V1 | JP A1
+      - V1 | JP A2 Native
+      - V1 | JP B1
+      - V1 | KR A1
+      - V1 | KR B1
+      - V1 | NL1
+      - V1 | RU A1
+      - V1 | SG A1
+      - V1 | SG B1
+      - V1 | TR1
+      - V1 | TW A1
+      - V1 | TW B1
+      - V1 | US A1
+      - V1 | US A2
+      - V1 | US B1
+      - V1 | US B2
+      - V2 Native | HK BGP
+      - V2 Native | JP BGP
+      - V2 Native | SG BGP
+      - V2 Native | TW BGP
+      - V2 | US BGP
       - CA-Openit.ml
       - CA-Openit.ml 2
       - CA-Openit.ml 3
@@ -253,6 +358,41 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - V1 | A AUTO
+      - V1 | ARG
+      - V1 | CA
+      - V1 | CH1
+      - V1 | DE
+      - V1 | FR
+      - V1 | GB A1
+      - V1 | GB B1
+      - V1 | HK A1
+      - V1 | HK A2
+      - V1 | HK A3
+      - V1 | HK B1
+      - V1 | HK B2
+      - V1 | HK B3
+      - V1 | JP A1
+      - V1 | JP A2 Native
+      - V1 | JP B1
+      - V1 | KR A1
+      - V1 | KR B1
+      - V1 | NL1
+      - V1 | RU A1
+      - V1 | SG A1
+      - V1 | SG B1
+      - V1 | TR1
+      - V1 | TW A1
+      - V1 | TW B1
+      - V1 | US A1
+      - V1 | US A2
+      - V1 | US B1
+      - V1 | US B2
+      - V2 Native | HK BGP
+      - V2 Native | JP BGP
+      - V2 Native | SG BGP
+      - V2 Native | TW BGP
+      - V2 | US BGP
       - CA-Openit.ml
       - CA-Openit.ml 2
       - CA-Openit.ml 3
@@ -348,6 +488,41 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - V1 | A AUTO
+      - V1 | ARG
+      - V1 | CA
+      - V1 | CH1
+      - V1 | DE
+      - V1 | FR
+      - V1 | GB A1
+      - V1 | GB B1
+      - V1 | HK A1
+      - V1 | HK A2
+      - V1 | HK A3
+      - V1 | HK B1
+      - V1 | HK B2
+      - V1 | HK B3
+      - V1 | JP A1
+      - V1 | JP A2 Native
+      - V1 | JP B1
+      - V1 | KR A1
+      - V1 | KR B1
+      - V1 | NL1
+      - V1 | RU A1
+      - V1 | SG A1
+      - V1 | SG B1
+      - V1 | TR1
+      - V1 | TW A1
+      - V1 | TW B1
+      - V1 | US A1
+      - V1 | US A2
+      - V1 | US B1
+      - V1 | US B2
+      - V2 Native | HK BGP
+      - V2 Native | JP BGP
+      - V2 Native | SG BGP
+      - V2 Native | TW BGP
+      - V2 | US BGP
       - CA-Openit.ml
       - CA-Openit.ml 2
       - CA-Openit.ml 3
@@ -435,6 +610,41 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - V1 | A AUTO
+      - V1 | ARG
+      - V1 | CA
+      - V1 | CH1
+      - V1 | DE
+      - V1 | FR
+      - V1 | GB A1
+      - V1 | GB B1
+      - V1 | HK A1
+      - V1 | HK A2
+      - V1 | HK A3
+      - V1 | HK B1
+      - V1 | HK B2
+      - V1 | HK B3
+      - V1 | JP A1
+      - V1 | JP A2 Native
+      - V1 | JP B1
+      - V1 | KR A1
+      - V1 | KR B1
+      - V1 | NL1
+      - V1 | RU A1
+      - V1 | SG A1
+      - V1 | SG B1
+      - V1 | TR1
+      - V1 | TW A1
+      - V1 | TW B1
+      - V1 | US A1
+      - V1 | US A2
+      - V1 | US B1
+      - V1 | US B2
+      - V2 Native | HK BGP
+      - V2 Native | JP BGP
+      - V2 Native | SG BGP
+      - V2 Native | TW BGP
+      - V2 | US BGP
       - CA-Openit.ml
       - CA-Openit.ml 2
       - CA-Openit.ml 3
@@ -517,6 +727,41 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - V1 | A AUTO
+      - V1 | ARG
+      - V1 | CA
+      - V1 | CH1
+      - V1 | DE
+      - V1 | FR
+      - V1 | GB A1
+      - V1 | GB B1
+      - V1 | HK A1
+      - V1 | HK A2
+      - V1 | HK A3
+      - V1 | HK B1
+      - V1 | HK B2
+      - V1 | HK B3
+      - V1 | JP A1
+      - V1 | JP A2 Native
+      - V1 | JP B1
+      - V1 | KR A1
+      - V1 | KR B1
+      - V1 | NL1
+      - V1 | RU A1
+      - V1 | SG A1
+      - V1 | SG B1
+      - V1 | TR1
+      - V1 | TW A1
+      - V1 | TW B1
+      - V1 | US A1
+      - V1 | US A2
+      - V1 | US B1
+      - V1 | US B2
+      - V2 Native | HK BGP
+      - V2 Native | JP BGP
+      - V2 Native | SG BGP
+      - V2 Native | TW BGP
+      - V2 | US BGP
       - CA-Openit.ml
       - CA-Openit.ml 2
       - CA-Openit.ml 3
@@ -600,6 +845,41 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - V1 | A AUTO
+      - V1 | ARG
+      - V1 | CA
+      - V1 | CH1
+      - V1 | DE
+      - V1 | FR
+      - V1 | GB A1
+      - V1 | GB B1
+      - V1 | HK A1
+      - V1 | HK A2
+      - V1 | HK A3
+      - V1 | HK B1
+      - V1 | HK B2
+      - V1 | HK B3
+      - V1 | JP A1
+      - V1 | JP A2 Native
+      - V1 | JP B1
+      - V1 | KR A1
+      - V1 | KR B1
+      - V1 | NL1
+      - V1 | RU A1
+      - V1 | SG A1
+      - V1 | SG B1
+      - V1 | TR1
+      - V1 | TW A1
+      - V1 | TW B1
+      - V1 | US A1
+      - V1 | US A2
+      - V1 | US B1
+      - V1 | US B2
+      - V2 Native | HK BGP
+      - V2 Native | JP BGP
+      - V2 Native | SG BGP
+      - V2 Native | TW BGP
+      - V2 | US BGP
       - CA-Openit.ml
       - CA-Openit.ml 2
       - CA-Openit.ml 3
@@ -692,6 +972,41 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - V1 | A AUTO
+      - V1 | ARG
+      - V1 | CA
+      - V1 | CH1
+      - V1 | DE
+      - V1 | FR
+      - V1 | GB A1
+      - V1 | GB B1
+      - V1 | HK A1
+      - V1 | HK A2
+      - V1 | HK A3
+      - V1 | HK B1
+      - V1 | HK B2
+      - V1 | HK B3
+      - V1 | JP A1
+      - V1 | JP A2 Native
+      - V1 | JP B1
+      - V1 | KR A1
+      - V1 | KR B1
+      - V1 | NL1
+      - V1 | RU A1
+      - V1 | SG A1
+      - V1 | SG B1
+      - V1 | TR1
+      - V1 | TW A1
+      - V1 | TW B1
+      - V1 | US A1
+      - V1 | US A2
+      - V1 | US B1
+      - V1 | US B2
+      - V2 Native | HK BGP
+      - V2 Native | JP BGP
+      - V2 Native | SG BGP
+      - V2 Native | TW BGP
+      - V2 | US BGP
       - CA-Openit.ml
       - CA-Openit.ml 2
       - CA-Openit.ml 3
