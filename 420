@@ -98,19 +98,19 @@ proxies:
   - {name: US-l 11 2, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: US-l, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan33.free4444.xyz, skip-cert-verify: true, udp: true}
   - {name: "[Trojan]", server: 140.238.231.9, port: 443, type: trojan, password: O3hQcnNKAE, skip-cert-verify: true, udp: true}
-  - {name: IN-Openit.ml, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: HK-Openit.ml, server: azhk.f2s.bp2022.top, port: 443, type: trojan, password: d8c36e7c-8fd5-4671-9603-d689784547db, sni: azhk.f2s.bp2022.top, skip-cert-verify: true, udp: true}
-  - {name: IN-Openit.ml 2, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: SG-Openit.ml, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: AU-Openit.ml, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: GB-Openit.ml, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: FR-Openit.ml, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 2, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 2, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 3, server: o7cx6bd6t4yjiqsm.xiongsonglin.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: o7cx6bd6t4yjiqsm.xiongsonglin.com, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 3, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: IN-, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: HK-l, server: azhk.f2s.bp2022.top, port: 443, type: trojan, password: d8c36e7c-8fd5-4671-9603-d689784547db, sni: azhk.f2s.bp2022.top, skip-cert-verify: true, udp: true}
+  - {name: IN- 2, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: SG-l, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: JP-Ol, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: AU-l, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: GBl, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: FR-ml, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: JP-l 2 2, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-l 2, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-l 3 2, server: o7cx6bd6t4yjiqsm.xiongsonglin.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: o7cx6bd6t4yjiqsm.xiongsonglin.com, skip-cert-verify: true, udp: true}
+  - {name: JP-l 3, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: "[SSR] 2", server: ie2ohyai.nodeinfo.icu, port: 6008, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
   - {name: "[SSR] 4", server: puf6no0k.nodeinfo.icu, port: 2604, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
   - {name: "[SSR] 3", server: iemeith7.nodeinfo.icu, port: 2507, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
@@ -215,19 +215,19 @@ proxy-groups:
       - US-l 11 2
       - US-l
       - "[Trojan]"
-      - IN-Openit.ml
-      - HK-Openit.ml
-      - IN-Openit.ml 2
-      - SG-Openit.ml
-      - JP-Openit.ml
-      - AU-Openit.ml
-      - GB-Openit.ml
-      - FR-Openit.ml
-      - JP-Openit.ml 2
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 3
+      - IN-
+      - HK-l
+      - IN- 2
+      - SG-l
+      - JP-Ol
+      - AU-l
+      - GBl
+      - FR-ml
+      - JP-l 2 2
+      - US-
+      - US-l 2
+      - US-l 3 2
+      - JP-l 3
       - "[SSR] 2"
       - "[SSR] 4"
       - "[SSR] 3"
@@ -331,19 +331,19 @@ proxy-groups:
       - US-l 11 2
       - US-l
       - "[Trojan]"
-      - IN-Openit.ml
-      - HK-Openit.ml
-      - IN-Openit.ml 2
-      - SG-Openit.ml
-      - JP-Openit.ml
-      - AU-Openit.ml
-      - GB-Openit.ml
-      - FR-Openit.ml
-      - JP-Openit.ml 2
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 3
+      - IN-
+      - HK-l
+      - IN- 2
+      - SG-l
+      - JP-Ol
+      - AU-l
+      - GBl
+      - FR-ml
+      - JP-l 2 2
+      - US-
+      - US-l 2
+      - US-l 3 2
+      - JP-l 3
       - "[SSR] 2"
       - "[SSR] 4"
       - "[SSR] 3"
@@ -448,19 +448,19 @@ proxy-groups:
       - US-l 11 2
       - US-l
       - "[Trojan]"
-      - IN-Openit.ml
-      - HK-Openit.ml
-      - IN-Openit.ml 2
-      - SG-Openit.ml
-      - JP-Openit.ml
-      - AU-Openit.ml
-      - GB-Openit.ml
-      - FR-Openit.ml
-      - JP-Openit.ml 2
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 3
+      - IN-
+      - HK-l
+      - IN- 2
+      - SG-l
+      - JP-Ol
+      - AU-l
+      - GBl
+      - FR-ml
+      - JP-l 2 2
+      - US-
+      - US-l 2
+      - US-l 3 2
+      - JP-l 3
       - "[SSR] 2"
       - "[SSR] 4"
       - "[SSR] 3"
@@ -577,19 +577,19 @@ proxy-groups:
       - US-l 11 2
       - US-l
       - "[Trojan]"
-      - IN-Openit.ml
-      - HK-Openit.ml
-      - IN-Openit.ml 2
-      - SG-Openit.ml
-      - JP-Openit.ml
-      - AU-Openit.ml
-      - GB-Openit.ml
-      - FR-Openit.ml
-      - JP-Openit.ml 2
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 3
+      - IN-
+      - HK-l
+      - IN- 2
+      - SG-l
+      - JP-Ol
+      - AU-l
+      - GBl
+      - FR-ml
+      - JP-l 2 2
+      - US-
+      - US-l 2
+      - US-l 3 2
+      - JP-l 3
       - "[SSR] 2"
       - "[SSR] 4"
       - "[SSR] 3"
@@ -698,19 +698,19 @@ proxy-groups:
       - US-l 11 2
       - US-l
       - "[Trojan]"
-      - IN-Openit.ml
-      - HK-Openit.ml
-      - IN-Openit.ml 2
-      - SG-Openit.ml
-      - JP-Openit.ml
-      - AU-Openit.ml
-      - GB-Openit.ml
-      - FR-Openit.ml
-      - JP-Openit.ml 2
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 3
+      - IN-
+      - HK-l
+      - IN- 2
+      - SG-l
+      - JP-Ol
+      - AU-l
+      - GBl
+      - FR-ml
+      - JP-l 2 2
+      - US-
+      - US-l 2
+      - US-l 3 2
+      - JP-l 3
       - "[SSR] 2"
       - "[SSR] 4"
       - "[SSR] 3"
@@ -814,19 +814,19 @@ proxy-groups:
       - US-l 11 2
       - US-l
       - "[Trojan]"
-      - IN-Openit.ml
-      - HK-Openit.ml
-      - IN-Openit.ml 2
-      - SG-Openit.ml
-      - JP-Openit.ml
-      - AU-Openit.ml
-      - GB-Openit.ml
-      - FR-Openit.ml
-      - JP-Openit.ml 2
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 3
+      - IN-
+      - HK-l
+      - IN- 2
+      - SG-l
+      - JP-Ol
+      - AU-l
+      - GBl
+      - FR-ml
+      - JP-l 2 2
+      - US-
+      - US-l 2
+      - US-l 3 2
+      - JP-l 3
       - "[SSR] 2"
       - "[SSR] 4"
       - "[SSR] 3"
@@ -931,19 +931,19 @@ proxy-groups:
       - US-l 11 2
       - US-l
       - "[Trojan]"
-      - IN-Openit.ml
-      - HK-Openit.ml
-      - IN-Openit.ml 2
-      - SG-Openit.ml
-      - JP-Openit.ml
-      - AU-Openit.ml
-      - GB-Openit.ml
-      - FR-Openit.ml
-      - JP-Openit.ml 2
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 3
+      - IN-
+      - HK-l
+      - IN- 2
+      - SG-l
+      - JP-Ol
+      - AU-l
+      - GBl
+      - FR-ml
+      - JP-l 2 2
+      - US-
+      - US-l 2
+      - US-l 3 2
+      - JP-l 3
       - "[SSR] 2"
       - "[SSR] 4"
       - "[SSR] 3"
@@ -1057,19 +1057,19 @@ proxy-groups:
       - US-l 11 2
       - US-l
       - "[Trojan]"
-      - IN-Openit.ml
-      - HK-Openit.ml
-      - IN-Openit.ml 2
-      - SG-Openit.ml
-      - JP-Openit.ml
-      - AU-Openit.ml
-      - GB-Openit.ml
-      - FR-Openit.ml
-      - JP-Openit.ml 2
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 3
+      - IN-
+      - HK-l
+      - IN- 2
+      - SG-l
+      - JP-Ol
+      - AU-l
+      - GBl
+      - FR-ml
+      - JP-l 2 2
+      - US-
+      - US-l 2
+      - US-l 3 2
+      - JP-l 3
       - "[SSR] 2"
       - "[SSR] 4"
       - "[SSR] 3"
