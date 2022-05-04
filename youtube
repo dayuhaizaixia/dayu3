@@ -5,199 +5,583 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: RO-Openit.ml, server: jp.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: jp.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml, server: misaka1433.tk, port: 443, type: trojan, password: YcQgIbGZNNd1PwsF, sni: misaka1433.tk, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 2, server: tj-12.t8737.shop, port: 11223, type: trojan, password: 76216dcd-b3c1-42fa-b68c-2ef031355aeb, sni: tj-12.t8737.shop, skip-cert-verify: true, udp: true}
-  - {name: GB-Openit.ml, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: SG-Openit.ml, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: IN-Openit.ml, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: GB-Openit.ml 2, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 2, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 3, server: hk.omgwtf.website, port: 443, type: trojan, password: t4UzK3V1dXXumlz8, sni: hk.omgwtf.website, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 2, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 3, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 4, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 英国5, server: 120.240.168.126, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 英国6, server: huaweibgp.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 英国7, server: gzjpiplc.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 英国11, server: 120.232.82.202, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: RELAY-Openit.ml 3, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: RELAY-Openit.ml 4, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: RELAY-Openit.ml 5, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: RELAY-Openit.ml 6, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: US-Openit.ml 4, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US-Openit.ml 5, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US-Openit.ml 6, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US-Openit.ml 7, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: RELAY-Openit.ml 7, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: US-Openit.ml 8, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "[🇯🇵][TR][日]", server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 9, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 5, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: AU-Openit.ml, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 8, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: RELAY-Openit.ml 2 2, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: RELAY-Openit.ml 3 2, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: US-Openit.ml 2 2, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US-Openit.ml 4 2, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US-Openit.ml 6 2, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: RELAY-Openit.ml 4 2, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: US-Openit.ml 7 2, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 俄罗斯-隧道中转, server: dog.newhost.cc, port: 10692, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 印度 孟买-来点玛莎拉, server: dog.newhost.cc, port: 10693, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "日本隧道[视频]", server: dog.newhost.cc, port: 10255, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "香港HGC[原生]", server: dog.newhost.cc, port: 10256, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6014:4GW72K, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: US2, server: tj-12.t8737.shop, port: 11223, type: trojan, password: 76216dcd-b3c1-42fa-b68c-2ef031355aeb, sni: tj-12.t8737.shop, skip-cert-verify: true, udp: true}
+  - {name: GB-2, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: RELAY-2, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: US-4, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: AU-, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: RELAY- 5, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: SG-, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: US-l 6, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: RELAY 6, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: JP- 5, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP-l, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US- 2, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: RELAY-l 3, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: US-l 4 2, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US- 7, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ROl, server: jp.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: jp.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: GB112, server: 152.89.210.105, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: LT113, server: 213.183.53.200, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: LT_116, server: 213.183.53.200, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: LT_146, server: 213.183.53.200, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: LT_147, server: 213.183.53.200, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: LT_138, server: 213.183.53.177, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: LT_164, server: 213.183.53.200, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: LT_94, server: 213.183.53.200, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: LT_198, server: 213.183.53.177, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: LT_158, server: 213.183.53.177, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: LT_184, server: 213.183.53.177, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: LT_207, server: 213.183.53.177, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: GB_196, server: 152.89.210.105, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: LT108, server: 213.183.53.200, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: LT_157, server: 213.183.53.200, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: LT167, server: 213.183.53.200, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: LT_189, server: 213.183.53.177, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: LT_202, server: 213.183.53.200, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: LT19, server: 213.183.53.200, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: LT_16, server: 213.183.53.200, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: LT208, server: 213.183.53.177, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: LT_110, server: 213.183.53.200, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: LT_200, server: 213.183.53.200, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: LT_194, server: 213.183.53.200, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: LT_102, server: 213.183.53.200, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: LT_142, server: 213.183.53.177, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: LT_141, server: 213.183.53.177, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: LT_195, server: 213.183.53.177, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: LT_119, server: 213.183.53.177, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: LT_177, server: 213.183.53.177, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: LT_33, server: 213.183.53.177, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: LT_168, server: 213.183.53.177, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: LT_89, server: 213.183.53.177, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: LT__61, server: 213.183.53.177, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: LT_193, server: 213.183.53.177, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: LT_101, server: 213.183.53.177, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: LT__95, server: 213.183.53.177, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: Relay_🇨🇳CN_2435, server: n04.boom.party, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 312545:qazqaz00, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: LT_174, server: 213.183.53.177, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: LT_188, server: 213.183.53.177, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: LT_38, server: 213.183.53.177, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: LT_44, server: 213.183.53.177, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: LT_63, server: 213.183.53.200, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: LT_104, server: 213.183.53.200, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: LT_169, server: 213.183.53.177, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: LT_192, server: 213.183.53.200, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: LT_80, server: 213.183.53.200, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: LT_37, server: 213.183.53.200, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: LT_48, server: 213.183.53.200, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: LT_20, server: 213.183.53.200, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: LT_161, server: 213.183.53.200, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: LT_203, server: 213.183.53.200, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: LT_143, server: 213.183.53.200, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: LT_154, server: 213.183.53.200, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: LT_178, server: 213.183.53.200, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: LT_43, server: 213.183.53.177, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: LT_109, server: 213.183.53.177, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: CN_50, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_65, server: 103.98.73.12, port: 5005, type: vmess, uuid: ecf9bfdf-5fc5-4040-eb9f-eaec282c478b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ythe54, ws-headers: {Host: 103.98.73.12}, udp: true}
+  - {name: TW-132, server: twa.cloudv2.top, port: 8884, type: vmess, uuid: 1009EC04-9D1E-49F7-2AB4-1B05050F0DF2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_117, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: DE_577+__46, server: 5.183.179.140, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: FR_89_24, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: DE_559_30, server: 5.183.179.140, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: LT_113542, server: 213.183.63.219, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: IL_841_, server: ru1.lolvps.xyz, port: 40040, type: vmess, uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /6129CFHR, ws-headers: {Host: ru1.lolvps.xyz}, udp: true}
+  - {name: DE_74, server: 5.183.179.167, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: GB__71, server: 152.89.210.84, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: RO__156, server: 185.126.116.117, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: RO__187, server: 185.126.116.117, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: LT_105, server: 213.183.63.218, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: _13130, server: 217.30.10.67, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: CY__81, server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: NB, server: 45.141.102.51, port: 33689, type: vmess, uuid: 5bff6f03-1d6f-4ef0-8320-3a4dd7eb4cc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: LT_204, server: 213.183.63.219, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: RO_124, server: 185.126.116.117, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: RU_205, server: 217.30.10.67, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: RO_139, server: 185.126.116.117, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: DE_151, server: 5.183.179.167, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: RO_191, server: 185.126.116.117, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: RO_134, server: 185.126.116.117, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: CZ-41, server: 194.87.99.122, port: 62560, type: vmess, uuid: e19c03f6-97b9-4c2b-a42d-19daea18d849, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB__47, server: 152.89.210.105, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: DE_145, server: 5.183.179.170, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: RO_15, server: 185.126.116.117, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: RO_183, server: 185.126.116.117, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: DE_82, server: 5.183.179.140, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: RO_90, server: 185.126.116.117, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: RO_93, server: 185.126.116.117, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: DE_83, server: 5.183.179.170, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: DE_175, server: 5.183.179.140, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: RU_17, server: 217.30.10.66, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: LT_111, server: 213.183.63.219, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: DE_64, server: 5.183.179.170, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: RO_86, server: 185.126.116.117, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: RO_171, server: 185.126.116.117, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: DE_135, server: 5.183.179.167, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: LT_5, server: 213.183.63.218, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: NL_13, server: 213.183.51.172, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: DE_209, server: 5.183.179.167, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: RO_103, server: 185.126.116.117, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: DE_172, server: 5.183.179.167, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: US_215, server: 38.68.135.19, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_91, server: 38.68.135.19, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: RO_125, server: 185.126.116.117, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: NL_155, server: 213.183.51.172, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: _32_185, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: CN_55, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_14, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: DE_92, server: 5.183.179.146, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: CN_152, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_122, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CNn_10, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: US_22, server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: LT114, server: 213.183.63.218, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: CN_23, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay__77, server: twa.cloudv2.top, port: 8884, type: vmess, uuid: 1009EC04-9D1E-49F7-2AB4-1B05050F0DF2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_67, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_7, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_12, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_9, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: NL_79, server: 213.183.59.229, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: CN_123, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_11, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RO-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - GB-Openit.ml
-      - JP-Openit.ml
-      - SG-Openit.ml
-      - IN-Openit.ml
-      - GB-Openit.ml 2
-      - RELAY-Openit.ml
-      - RELAY-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 2
-      - JP-Openit.ml 3
-      - JP-Openit.ml 4
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
-      - RELAY-Openit.ml 3
-      - RELAY-Openit.ml 4
-      - RELAY-Openit.ml 5
-      - RELAY-Openit.ml 6
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
-      - RELAY-Openit.ml 7
-      - US-Openit.ml 8
-      - "[🇯🇵][TR][日]"
-      - US-Openit.ml 9
-      - JP-Openit.ml 5
-      - AU-Openit.ml
-      - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 2 2
-      - RELAY-Openit.ml 3 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 6 2
-      - RELAY-Openit.ml 4 2
-      - US-Openit.ml 7 2
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 日本隧道[视频]
-      - 香港HGC[原生]
+      - US2
+      - GB-2
+      - RELAY-2
+      - US-4
+      - AU-
+      - RELAY- 5
+      - SG-
+      - US-l 6
+      - RELAY 6
+      - JP- 5
+      - JP-l
+      - US- 2
+      - RELAY-l 3
+      - US-l 4 2
+      - US- 7
+      - ROl
+      - GB112
+      - LT113
+      - LT_116
+      - LT_146
+      - LT_147
+      - LT_138
+      - LT_164
+      - LT_94
+      - LT_198
+      - LT_158
+      - LT_184
+      - LT_207
+      - GB_196
+      - LT108
+      - LT_157
+      - LT167
+      - LT_189
+      - LT_202
+      - LT19
+      - LT_16
+      - LT208
+      - LT_110
+      - LT_200
+      - LT_194
+      - LT_102
+      - LT_142
+      - LT_141
+      - LT_195
+      - LT_119
+      - LT_177
+      - LT_33
+      - LT_168
+      - LT_89
+      - LT__61
+      - LT_193
+      - LT_101
+      - LT__95
+      - Relay_🇨🇳CN_2435
+      - LT_174
+      - LT_188
+      - LT_38
+      - LT_44
+      - LT_63
+      - LT_104
+      - LT_169
+      - LT_192
+      - LT_80
+      - LT_37
+      - LT_48
+      - LT_20
+      - LT_161
+      - LT_203
+      - LT_143
+      - LT_154
+      - LT_178
+      - LT_43
+      - LT_109
+      - CN_50
+      - TW_65
+      - TW-132
+      - Relay_🇺🇸US-🇺🇸US_117
+      - DE_577+__46
+      - FR_89_24
+      - DE_559_30
+      - LT_113542
+      - IL_841_
+      - DE_74
+      - GB__71
+      - RO__156
+      - RO__187
+      - LT_105
+      - _13130
+      - CY__81
+      - NB
+      - LT_204
+      - RO_124
+      - RU_205
+      - RO_139
+      - DE_151
+      - RO_191
+      - RO_134
+      - CZ-41
+      - GB__47
+      - DE_145
+      - RO_15
+      - RO_183
+      - DE_82
+      - RO_90
+      - RO_93
+      - DE_83
+      - DE_175
+      - RU_17
+      - LT_111
+      - DE_64
+      - RO_86
+      - RO_171
+      - DE_135
+      - LT_5
+      - NL_13
+      - DE_209
+      - RO_103
+      - DE_172
+      - US_215
+      - US_91
+      - RO_125
+      - NL_155
+      - _32_185
+      - CN_55
+      - CN_14
+      - DE_92
+      - CN_152
+      - CN_122
+      - CNn_10
+      - US_22
+      - LT114
+      - CN_23
+      - Relay__77
+      - CN_67
+      - CN_7
+      - CN_12
+      - CN_9
+      - NL_79
+      - CN_123
+      - CN_11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - RO-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - GB-Openit.ml
-      - JP-Openit.ml
-      - SG-Openit.ml
-      - IN-Openit.ml
-      - GB-Openit.ml 2
-      - RELAY-Openit.ml
-      - RELAY-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 2
-      - JP-Openit.ml 3
-      - JP-Openit.ml 4
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
-      - RELAY-Openit.ml 3
-      - RELAY-Openit.ml 4
-      - RELAY-Openit.ml 5
-      - RELAY-Openit.ml 6
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
-      - RELAY-Openit.ml 7
-      - US-Openit.ml 8
-      - "[🇯🇵][TR][日]"
-      - US-Openit.ml 9
-      - JP-Openit.ml 5
-      - AU-Openit.ml
-      - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 2 2
-      - RELAY-Openit.ml 3 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 6 2
-      - RELAY-Openit.ml 4 2
-      - US-Openit.ml 7 2
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 日本隧道[视频]
-      - 香港HGC[原生]
+      - US2
+      - GB-2
+      - RELAY-2
+      - US-4
+      - AU-
+      - RELAY- 5
+      - SG-
+      - US-l 6
+      - RELAY 6
+      - JP- 5
+      - JP-l
+      - US- 2
+      - RELAY-l 3
+      - US-l 4 2
+      - US- 7
+      - ROl
+      - GB112
+      - LT113
+      - LT_116
+      - LT_146
+      - LT_147
+      - LT_138
+      - LT_164
+      - LT_94
+      - LT_198
+      - LT_158
+      - LT_184
+      - LT_207
+      - GB_196
+      - LT108
+      - LT_157
+      - LT167
+      - LT_189
+      - LT_202
+      - LT19
+      - LT_16
+      - LT208
+      - LT_110
+      - LT_200
+      - LT_194
+      - LT_102
+      - LT_142
+      - LT_141
+      - LT_195
+      - LT_119
+      - LT_177
+      - LT_33
+      - LT_168
+      - LT_89
+      - LT__61
+      - LT_193
+      - LT_101
+      - LT__95
+      - Relay_🇨🇳CN_2435
+      - LT_174
+      - LT_188
+      - LT_38
+      - LT_44
+      - LT_63
+      - LT_104
+      - LT_169
+      - LT_192
+      - LT_80
+      - LT_37
+      - LT_48
+      - LT_20
+      - LT_161
+      - LT_203
+      - LT_143
+      - LT_154
+      - LT_178
+      - LT_43
+      - LT_109
+      - CN_50
+      - TW_65
+      - TW-132
+      - Relay_🇺🇸US-🇺🇸US_117
+      - DE_577+__46
+      - FR_89_24
+      - DE_559_30
+      - LT_113542
+      - IL_841_
+      - DE_74
+      - GB__71
+      - RO__156
+      - RO__187
+      - LT_105
+      - _13130
+      - CY__81
+      - NB
+      - LT_204
+      - RO_124
+      - RU_205
+      - RO_139
+      - DE_151
+      - RO_191
+      - RO_134
+      - CZ-41
+      - GB__47
+      - DE_145
+      - RO_15
+      - RO_183
+      - DE_82
+      - RO_90
+      - RO_93
+      - DE_83
+      - DE_175
+      - RU_17
+      - LT_111
+      - DE_64
+      - RO_86
+      - RO_171
+      - DE_135
+      - LT_5
+      - NL_13
+      - DE_209
+      - RO_103
+      - DE_172
+      - US_215
+      - US_91
+      - RO_125
+      - NL_155
+      - _32_185
+      - CN_55
+      - CN_14
+      - DE_92
+      - CN_152
+      - CN_122
+      - CNn_10
+      - US_22
+      - LT114
+      - CN_23
+      - Relay__77
+      - CN_67
+      - CN_7
+      - CN_12
+      - CN_9
+      - NL_79
+      - CN_123
+      - CN_11
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RO-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - GB-Openit.ml
-      - JP-Openit.ml
-      - SG-Openit.ml
-      - IN-Openit.ml
-      - GB-Openit.ml 2
-      - RELAY-Openit.ml
-      - RELAY-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 2
-      - JP-Openit.ml 3
-      - JP-Openit.ml 4
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
-      - RELAY-Openit.ml 3
-      - RELAY-Openit.ml 4
-      - RELAY-Openit.ml 5
-      - RELAY-Openit.ml 6
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
-      - RELAY-Openit.ml 7
-      - US-Openit.ml 8
-      - "[🇯🇵][TR][日]"
-      - US-Openit.ml 9
-      - JP-Openit.ml 5
-      - AU-Openit.ml
-      - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 2 2
-      - RELAY-Openit.ml 3 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 6 2
-      - RELAY-Openit.ml 4 2
-      - US-Openit.ml 7 2
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 日本隧道[视频]
-      - 香港HGC[原生]
+      - US2
+      - GB-2
+      - RELAY-2
+      - US-4
+      - AU-
+      - RELAY- 5
+      - SG-
+      - US-l 6
+      - RELAY 6
+      - JP- 5
+      - JP-l
+      - US- 2
+      - RELAY-l 3
+      - US-l 4 2
+      - US- 7
+      - ROl
+      - GB112
+      - LT113
+      - LT_116
+      - LT_146
+      - LT_147
+      - LT_138
+      - LT_164
+      - LT_94
+      - LT_198
+      - LT_158
+      - LT_184
+      - LT_207
+      - GB_196
+      - LT108
+      - LT_157
+      - LT167
+      - LT_189
+      - LT_202
+      - LT19
+      - LT_16
+      - LT208
+      - LT_110
+      - LT_200
+      - LT_194
+      - LT_102
+      - LT_142
+      - LT_141
+      - LT_195
+      - LT_119
+      - LT_177
+      - LT_33
+      - LT_168
+      - LT_89
+      - LT__61
+      - LT_193
+      - LT_101
+      - LT__95
+      - Relay_🇨🇳CN_2435
+      - LT_174
+      - LT_188
+      - LT_38
+      - LT_44
+      - LT_63
+      - LT_104
+      - LT_169
+      - LT_192
+      - LT_80
+      - LT_37
+      - LT_48
+      - LT_20
+      - LT_161
+      - LT_203
+      - LT_143
+      - LT_154
+      - LT_178
+      - LT_43
+      - LT_109
+      - CN_50
+      - TW_65
+      - TW-132
+      - Relay_🇺🇸US-🇺🇸US_117
+      - DE_577+__46
+      - FR_89_24
+      - DE_559_30
+      - LT_113542
+      - IL_841_
+      - DE_74
+      - GB__71
+      - RO__156
+      - RO__187
+      - LT_105
+      - _13130
+      - CY__81
+      - NB
+      - LT_204
+      - RO_124
+      - RU_205
+      - RO_139
+      - DE_151
+      - RO_191
+      - RO_134
+      - CZ-41
+      - GB__47
+      - DE_145
+      - RO_15
+      - RO_183
+      - DE_82
+      - RO_90
+      - RO_93
+      - DE_83
+      - DE_175
+      - RU_17
+      - LT_111
+      - DE_64
+      - RO_86
+      - RO_171
+      - DE_135
+      - LT_5
+      - NL_13
+      - DE_209
+      - RO_103
+      - DE_172
+      - US_215
+      - US_91
+      - RO_125
+      - NL_155
+      - _32_185
+      - CN_55
+      - CN_14
+      - DE_92
+      - CN_152
+      - CN_122
+      - CNn_10
+      - US_22
+      - LT114
+      - CN_23
+      - Relay__77
+      - CN_67
+      - CN_7
+      - CN_12
+      - CN_9
+      - NL_79
+      - CN_123
+      - CN_11
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -216,204 +600,587 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RO-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - GB-Openit.ml
-      - JP-Openit.ml
-      - SG-Openit.ml
-      - IN-Openit.ml
-      - GB-Openit.ml 2
-      - RELAY-Openit.ml
-      - RELAY-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 2
-      - JP-Openit.ml 3
-      - JP-Openit.ml 4
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
-      - RELAY-Openit.ml 3
-      - RELAY-Openit.ml 4
-      - RELAY-Openit.ml 5
-      - RELAY-Openit.ml 6
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
-      - RELAY-Openit.ml 7
-      - US-Openit.ml 8
-      - "[🇯🇵][TR][日]"
-      - US-Openit.ml 9
-      - JP-Openit.ml 5
-      - AU-Openit.ml
-      - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 2 2
-      - RELAY-Openit.ml 3 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 6 2
-      - RELAY-Openit.ml 4 2
-      - US-Openit.ml 7 2
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 日本隧道[视频]
-      - 香港HGC[原生]
+      - US2
+      - GB-2
+      - RELAY-2
+      - US-4
+      - AU-
+      - RELAY- 5
+      - SG-
+      - US-l 6
+      - RELAY 6
+      - JP- 5
+      - JP-l
+      - US- 2
+      - RELAY-l 3
+      - US-l 4 2
+      - US- 7
+      - ROl
+      - GB112
+      - LT113
+      - LT_116
+      - LT_146
+      - LT_147
+      - LT_138
+      - LT_164
+      - LT_94
+      - LT_198
+      - LT_158
+      - LT_184
+      - LT_207
+      - GB_196
+      - LT108
+      - LT_157
+      - LT167
+      - LT_189
+      - LT_202
+      - LT19
+      - LT_16
+      - LT208
+      - LT_110
+      - LT_200
+      - LT_194
+      - LT_102
+      - LT_142
+      - LT_141
+      - LT_195
+      - LT_119
+      - LT_177
+      - LT_33
+      - LT_168
+      - LT_89
+      - LT__61
+      - LT_193
+      - LT_101
+      - LT__95
+      - Relay_🇨🇳CN_2435
+      - LT_174
+      - LT_188
+      - LT_38
+      - LT_44
+      - LT_63
+      - LT_104
+      - LT_169
+      - LT_192
+      - LT_80
+      - LT_37
+      - LT_48
+      - LT_20
+      - LT_161
+      - LT_203
+      - LT_143
+      - LT_154
+      - LT_178
+      - LT_43
+      - LT_109
+      - CN_50
+      - TW_65
+      - TW-132
+      - Relay_🇺🇸US-🇺🇸US_117
+      - DE_577+__46
+      - FR_89_24
+      - DE_559_30
+      - LT_113542
+      - IL_841_
+      - DE_74
+      - GB__71
+      - RO__156
+      - RO__187
+      - LT_105
+      - _13130
+      - CY__81
+      - NB
+      - LT_204
+      - RO_124
+      - RU_205
+      - RO_139
+      - DE_151
+      - RO_191
+      - RO_134
+      - CZ-41
+      - GB__47
+      - DE_145
+      - RO_15
+      - RO_183
+      - DE_82
+      - RO_90
+      - RO_93
+      - DE_83
+      - DE_175
+      - RU_17
+      - LT_111
+      - DE_64
+      - RO_86
+      - RO_171
+      - DE_135
+      - LT_5
+      - NL_13
+      - DE_209
+      - RO_103
+      - DE_172
+      - US_215
+      - US_91
+      - RO_125
+      - NL_155
+      - _32_185
+      - CN_55
+      - CN_14
+      - DE_92
+      - CN_152
+      - CN_122
+      - CNn_10
+      - US_22
+      - LT114
+      - CN_23
+      - Relay__77
+      - CN_67
+      - CN_7
+      - CN_12
+      - CN_9
+      - NL_79
+      - CN_123
+      - CN_11
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港HGC[原生]
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - RO-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - GB-Openit.ml
-      - JP-Openit.ml
-      - SG-Openit.ml
-      - IN-Openit.ml
-      - GB-Openit.ml 2
-      - RELAY-Openit.ml
-      - RELAY-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 2
-      - JP-Openit.ml 3
-      - JP-Openit.ml 4
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
-      - RELAY-Openit.ml 3
-      - RELAY-Openit.ml 4
-      - RELAY-Openit.ml 5
-      - RELAY-Openit.ml 6
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
-      - RELAY-Openit.ml 7
-      - US-Openit.ml 8
-      - "[🇯🇵][TR][日]"
-      - US-Openit.ml 9
-      - JP-Openit.ml 5
-      - AU-Openit.ml
-      - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 2 2
-      - RELAY-Openit.ml 3 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 6 2
-      - RELAY-Openit.ml 4 2
-      - US-Openit.ml 7 2
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 日本隧道[视频]
-      - 香港HGC[原生]
+      - US2
+      - GB-2
+      - RELAY-2
+      - US-4
+      - AU-
+      - RELAY- 5
+      - SG-
+      - US-l 6
+      - RELAY 6
+      - JP- 5
+      - JP-l
+      - US- 2
+      - RELAY-l 3
+      - US-l 4 2
+      - US- 7
+      - ROl
+      - GB112
+      - LT113
+      - LT_116
+      - LT_146
+      - LT_147
+      - LT_138
+      - LT_164
+      - LT_94
+      - LT_198
+      - LT_158
+      - LT_184
+      - LT_207
+      - GB_196
+      - LT108
+      - LT_157
+      - LT167
+      - LT_189
+      - LT_202
+      - LT19
+      - LT_16
+      - LT208
+      - LT_110
+      - LT_200
+      - LT_194
+      - LT_102
+      - LT_142
+      - LT_141
+      - LT_195
+      - LT_119
+      - LT_177
+      - LT_33
+      - LT_168
+      - LT_89
+      - LT__61
+      - LT_193
+      - LT_101
+      - LT__95
+      - Relay_🇨🇳CN_2435
+      - LT_174
+      - LT_188
+      - LT_38
+      - LT_44
+      - LT_63
+      - LT_104
+      - LT_169
+      - LT_192
+      - LT_80
+      - LT_37
+      - LT_48
+      - LT_20
+      - LT_161
+      - LT_203
+      - LT_143
+      - LT_154
+      - LT_178
+      - LT_43
+      - LT_109
+      - CN_50
+      - TW_65
+      - TW-132
+      - Relay_🇺🇸US-🇺🇸US_117
+      - DE_577+__46
+      - FR_89_24
+      - DE_559_30
+      - LT_113542
+      - IL_841_
+      - DE_74
+      - GB__71
+      - RO__156
+      - RO__187
+      - LT_105
+      - _13130
+      - CY__81
+      - NB
+      - LT_204
+      - RO_124
+      - RU_205
+      - RO_139
+      - DE_151
+      - RO_191
+      - RO_134
+      - CZ-41
+      - GB__47
+      - DE_145
+      - RO_15
+      - RO_183
+      - DE_82
+      - RO_90
+      - RO_93
+      - DE_83
+      - DE_175
+      - RU_17
+      - LT_111
+      - DE_64
+      - RO_86
+      - RO_171
+      - DE_135
+      - LT_5
+      - NL_13
+      - DE_209
+      - RO_103
+      - DE_172
+      - US_215
+      - US_91
+      - RO_125
+      - NL_155
+      - _32_185
+      - CN_55
+      - CN_14
+      - DE_92
+      - CN_152
+      - CN_122
+      - CNn_10
+      - US_22
+      - LT114
+      - CN_23
+      - Relay__77
+      - CN_67
+      - CN_7
+      - CN_12
+      - CN_9
+      - NL_79
+      - CN_123
+      - CN_11
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - RO-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - GB-Openit.ml
-      - JP-Openit.ml
-      - SG-Openit.ml
-      - IN-Openit.ml
-      - GB-Openit.ml 2
-      - RELAY-Openit.ml
-      - RELAY-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 2
-      - JP-Openit.ml 3
-      - JP-Openit.ml 4
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
-      - RELAY-Openit.ml 3
-      - RELAY-Openit.ml 4
-      - RELAY-Openit.ml 5
-      - RELAY-Openit.ml 6
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
-      - RELAY-Openit.ml 7
-      - US-Openit.ml 8
-      - "[🇯🇵][TR][日]"
-      - US-Openit.ml 9
-      - JP-Openit.ml 5
-      - AU-Openit.ml
-      - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 2 2
-      - RELAY-Openit.ml 3 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 6 2
-      - RELAY-Openit.ml 4 2
-      - US-Openit.ml 7 2
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 日本隧道[视频]
-      - 香港HGC[原生]
+      - US2
+      - GB-2
+      - RELAY-2
+      - US-4
+      - AU-
+      - RELAY- 5
+      - SG-
+      - US-l 6
+      - RELAY 6
+      - JP- 5
+      - JP-l
+      - US- 2
+      - RELAY-l 3
+      - US-l 4 2
+      - US- 7
+      - ROl
+      - GB112
+      - LT113
+      - LT_116
+      - LT_146
+      - LT_147
+      - LT_138
+      - LT_164
+      - LT_94
+      - LT_198
+      - LT_158
+      - LT_184
+      - LT_207
+      - GB_196
+      - LT108
+      - LT_157
+      - LT167
+      - LT_189
+      - LT_202
+      - LT19
+      - LT_16
+      - LT208
+      - LT_110
+      - LT_200
+      - LT_194
+      - LT_102
+      - LT_142
+      - LT_141
+      - LT_195
+      - LT_119
+      - LT_177
+      - LT_33
+      - LT_168
+      - LT_89
+      - LT__61
+      - LT_193
+      - LT_101
+      - LT__95
+      - Relay_🇨🇳CN_2435
+      - LT_174
+      - LT_188
+      - LT_38
+      - LT_44
+      - LT_63
+      - LT_104
+      - LT_169
+      - LT_192
+      - LT_80
+      - LT_37
+      - LT_48
+      - LT_20
+      - LT_161
+      - LT_203
+      - LT_143
+      - LT_154
+      - LT_178
+      - LT_43
+      - LT_109
+      - CN_50
+      - TW_65
+      - TW-132
+      - Relay_🇺🇸US-🇺🇸US_117
+      - DE_577+__46
+      - FR_89_24
+      - DE_559_30
+      - LT_113542
+      - IL_841_
+      - DE_74
+      - GB__71
+      - RO__156
+      - RO__187
+      - LT_105
+      - _13130
+      - CY__81
+      - NB
+      - LT_204
+      - RO_124
+      - RU_205
+      - RO_139
+      - DE_151
+      - RO_191
+      - RO_134
+      - CZ-41
+      - GB__47
+      - DE_145
+      - RO_15
+      - RO_183
+      - DE_82
+      - RO_90
+      - RO_93
+      - DE_83
+      - DE_175
+      - RU_17
+      - LT_111
+      - DE_64
+      - RO_86
+      - RO_171
+      - DE_135
+      - LT_5
+      - NL_13
+      - DE_209
+      - RO_103
+      - DE_172
+      - US_215
+      - US_91
+      - RO_125
+      - NL_155
+      - _32_185
+      - CN_55
+      - CN_14
+      - DE_92
+      - CN_152
+      - CN_122
+      - CNn_10
+      - US_22
+      - LT114
+      - CN_23
+      - Relay__77
+      - CN_67
+      - CN_7
+      - CN_12
+      - CN_9
+      - NL_79
+      - CN_123
+      - CN_11
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RO-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - GB-Openit.ml
-      - JP-Openit.ml
-      - SG-Openit.ml
-      - IN-Openit.ml
-      - GB-Openit.ml 2
-      - RELAY-Openit.ml
-      - RELAY-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 2
-      - JP-Openit.ml 3
-      - JP-Openit.ml 4
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
-      - RELAY-Openit.ml 3
-      - RELAY-Openit.ml 4
-      - RELAY-Openit.ml 5
-      - RELAY-Openit.ml 6
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
-      - RELAY-Openit.ml 7
-      - US-Openit.ml 8
-      - "[🇯🇵][TR][日]"
-      - US-Openit.ml 9
-      - JP-Openit.ml 5
-      - AU-Openit.ml
-      - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 2 2
-      - RELAY-Openit.ml 3 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 6 2
-      - RELAY-Openit.ml 4 2
-      - US-Openit.ml 7 2
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 日本隧道[视频]
-      - 香港HGC[原生]
+      - US2
+      - GB-2
+      - RELAY-2
+      - US-4
+      - AU-
+      - RELAY- 5
+      - SG-
+      - US-l 6
+      - RELAY 6
+      - JP- 5
+      - JP-l
+      - US- 2
+      - RELAY-l 3
+      - US-l 4 2
+      - US- 7
+      - ROl
+      - GB112
+      - LT113
+      - LT_116
+      - LT_146
+      - LT_147
+      - LT_138
+      - LT_164
+      - LT_94
+      - LT_198
+      - LT_158
+      - LT_184
+      - LT_207
+      - GB_196
+      - LT108
+      - LT_157
+      - LT167
+      - LT_189
+      - LT_202
+      - LT19
+      - LT_16
+      - LT208
+      - LT_110
+      - LT_200
+      - LT_194
+      - LT_102
+      - LT_142
+      - LT_141
+      - LT_195
+      - LT_119
+      - LT_177
+      - LT_33
+      - LT_168
+      - LT_89
+      - LT__61
+      - LT_193
+      - LT_101
+      - LT__95
+      - Relay_🇨🇳CN_2435
+      - LT_174
+      - LT_188
+      - LT_38
+      - LT_44
+      - LT_63
+      - LT_104
+      - LT_169
+      - LT_192
+      - LT_80
+      - LT_37
+      - LT_48
+      - LT_20
+      - LT_161
+      - LT_203
+      - LT_143
+      - LT_154
+      - LT_178
+      - LT_43
+      - LT_109
+      - CN_50
+      - TW_65
+      - TW-132
+      - Relay_🇺🇸US-🇺🇸US_117
+      - DE_577+__46
+      - FR_89_24
+      - DE_559_30
+      - LT_113542
+      - IL_841_
+      - DE_74
+      - GB__71
+      - RO__156
+      - RO__187
+      - LT_105
+      - _13130
+      - CY__81
+      - NB
+      - LT_204
+      - RO_124
+      - RU_205
+      - RO_139
+      - DE_151
+      - RO_191
+      - RO_134
+      - CZ-41
+      - GB__47
+      - DE_145
+      - RO_15
+      - RO_183
+      - DE_82
+      - RO_90
+      - RO_93
+      - DE_83
+      - DE_175
+      - RU_17
+      - LT_111
+      - DE_64
+      - RO_86
+      - RO_171
+      - DE_135
+      - LT_5
+      - NL_13
+      - DE_209
+      - RO_103
+      - DE_172
+      - US_215
+      - US_91
+      - RO_125
+      - NL_155
+      - _32_185
+      - CN_55
+      - CN_14
+      - DE_92
+      - CN_152
+      - CN_122
+      - CNn_10
+      - US_22
+      - LT114
+      - CN_23
+      - Relay__77
+      - CN_67
+      - CN_7
+      - CN_12
+      - CN_9
+      - NL_79
+      - CN_123
+      - CN_11
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -429,50 +1196,146 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RO-Openit.ml
-      - US-Openit.ml
-      - US-Openit.ml 2
-      - GB-Openit.ml
-      - JP-Openit.ml
-      - SG-Openit.ml
-      - IN-Openit.ml
-      - GB-Openit.ml 2
-      - RELAY-Openit.ml
-      - RELAY-Openit.ml 2
-      - US-Openit.ml 3
-      - JP-Openit.ml 2
-      - JP-Openit.ml 3
-      - JP-Openit.ml 4
-      - 英国5
-      - 英国6
-      - 英国7
-      - 英国11
-      - RELAY-Openit.ml 3
-      - RELAY-Openit.ml 4
-      - RELAY-Openit.ml 5
-      - RELAY-Openit.ml 6
-      - US-Openit.ml 4
-      - US-Openit.ml 5
-      - US-Openit.ml 6
-      - US-Openit.ml 7
-      - RELAY-Openit.ml 7
-      - US-Openit.ml 8
-      - "[🇯🇵][TR][日]"
-      - US-Openit.ml 9
-      - JP-Openit.ml 5
-      - AU-Openit.ml
-      - RELAY-Openit.ml 8
-      - RELAY-Openit.ml 2 2
-      - RELAY-Openit.ml 3 2
-      - US-Openit.ml 2 2
-      - US-Openit.ml 4 2
-      - US-Openit.ml 6 2
-      - RELAY-Openit.ml 4 2
-      - US-Openit.ml 7 2
-      - 俄罗斯-隧道中转
-      - 印度 孟买-来点玛莎拉
-      - 日本隧道[视频]
-      - 香港HGC[原生]
+      - US2
+      - GB-2
+      - RELAY-2
+      - US-4
+      - AU-
+      - RELAY- 5
+      - SG-
+      - US-l 6
+      - RELAY 6
+      - JP- 5
+      - JP-l
+      - US- 2
+      - RELAY-l 3
+      - US-l 4 2
+      - US- 7
+      - ROl
+      - GB112
+      - LT113
+      - LT_116
+      - LT_146
+      - LT_147
+      - LT_138
+      - LT_164
+      - LT_94
+      - LT_198
+      - LT_158
+      - LT_184
+      - LT_207
+      - GB_196
+      - LT108
+      - LT_157
+      - LT167
+      - LT_189
+      - LT_202
+      - LT19
+      - LT_16
+      - LT208
+      - LT_110
+      - LT_200
+      - LT_194
+      - LT_102
+      - LT_142
+      - LT_141
+      - LT_195
+      - LT_119
+      - LT_177
+      - LT_33
+      - LT_168
+      - LT_89
+      - LT__61
+      - LT_193
+      - LT_101
+      - LT__95
+      - Relay_🇨🇳CN_2435
+      - LT_174
+      - LT_188
+      - LT_38
+      - LT_44
+      - LT_63
+      - LT_104
+      - LT_169
+      - LT_192
+      - LT_80
+      - LT_37
+      - LT_48
+      - LT_20
+      - LT_161
+      - LT_203
+      - LT_143
+      - LT_154
+      - LT_178
+      - LT_43
+      - LT_109
+      - CN_50
+      - TW_65
+      - TW-132
+      - Relay_🇺🇸US-🇺🇸US_117
+      - DE_577+__46
+      - FR_89_24
+      - DE_559_30
+      - LT_113542
+      - IL_841_
+      - DE_74
+      - GB__71
+      - RO__156
+      - RO__187
+      - LT_105
+      - _13130
+      - CY__81
+      - NB
+      - LT_204
+      - RO_124
+      - RU_205
+      - RO_139
+      - DE_151
+      - RO_191
+      - RO_134
+      - CZ-41
+      - GB__47
+      - DE_145
+      - RO_15
+      - RO_183
+      - DE_82
+      - RO_90
+      - RO_93
+      - DE_83
+      - DE_175
+      - RU_17
+      - LT_111
+      - DE_64
+      - RO_86
+      - RO_171
+      - DE_135
+      - LT_5
+      - NL_13
+      - DE_209
+      - RO_103
+      - DE_172
+      - US_215
+      - US_91
+      - RO_125
+      - NL_155
+      - _32_185
+      - CN_55
+      - CN_14
+      - DE_92
+      - CN_152
+      - CN_122
+      - CNn_10
+      - US_22
+      - LT114
+      - CN_23
+      - Relay__77
+      - CN_67
+      - CN_7
+      - CN_12
+      - CN_9
+      - NL_79
+      - CN_123
+      - CN_11
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
