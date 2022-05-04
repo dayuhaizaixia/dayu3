@@ -5,1023 +5,467 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 洛杉矶, server: 101.230.149.7, port: 1157, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 洛杉矶 2, server: 101.230.149.10, port: 1155, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 洛杉矶 3, server: 101.230.149.8, port: 1152, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 洛杉矶 4, server: 101.230.149.8, port: 1151, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 洛杉矶 5, server: 101.230.149.10, port: 1154, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 洛杉矶 6, server: 101.230.149.10, port: 1153, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 洛杉矶 7, server: 101.230.149.7, port: 1153, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 洛杉矶- 8, server: 101.230.149.9, port: 1152, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 首尔, server: 101.230.149.8, port: 2506, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 首尔 2, server: 101.230.149.8, port: 2507, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 首尔-2 3, server: 101.230.149.7, port: 2302, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 首尔-t2 4, server: 101.230.149.10, port: 2301, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 首尔- 5, server: 101.230.149.9, port: 2506, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 首尔- 6, server: 101.230.149.9, port: 2507, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 首尔- 7, server: 101.230.149.10, port: 2302, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 首尔-t8, server: 101.230.149.8, port: 2302, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 首尔 9, server: 101.230.149.7, port: 2507, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 首尔- 10, server: 101.230.149.9, port: 2303, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡, server: 101.230.149.9, port: 2203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡-2, server: 101.230.149.10, port: 2201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡- 3, server: 101.230.149.7, port: 2202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡 4, server: 101.230.149.9, port: 2201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡-t 5, server: 120.233.10.153, port: 1001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡- 6, server: 120.233.10.153, port: 3201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡7, server: 120.233.10.152, port: 3201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡 8, server: 120.233.10.153, port: 2002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡 9, server: 120.233.10.153, port: 3203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡- 10, server: 120.233.10.153, port: 1004, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡- 11, server: 120.233.10.153, port: 3211, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡-t12, server: 120.233.10.153, port: 3209, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡-13, server: 120.233.10.152, port: 1002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡 14, server: 120.233.10.153, port: 1002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡-t 15, server: 120.233.10.152, port: 1001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡- 16, server: 120.233.10.152, port: 3212, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡- 17, server: 120.233.10.152, port: 3210, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡- 18, server: 120.233.10.153, port: 3212, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡- 19, server: 120.233.10.152, port: 1003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡-20, server: 120.233.10.153, port: 1003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡- 21, server: 120.233.10.152, port: 3209, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡-t2 22, server: 120.233.10.152, port: 3211, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡- 23, server: 120.233.10.153, port: 3210, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡-t 24, server: 120.233.10.152, port: 1004, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡- 25, server: 120.233.10.152, port: 3203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡 26, server: 120.233.10.152, port: 2002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡-2 27, server: 120.232.215.251, port: 3204, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡- 28, server: 120.232.215.196, port: 3211, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡-29, server: 120.232.215.196, port: 3209, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡2 30, server: 120.232.214.29, port: 2201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡-31, server: 120.232.215.251, port: 3212, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡- 32, server: 120.232.215.251, port: 3209, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡 33, server: 120.232.215.196, port: 2002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡-2 34, server: 120.232.215.251, port: 3211, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡-35, server: 120.232.215.147, port: 3201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡- 36, server: 120.232.215.147, port: 1004, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡-t 37, server: 120.232.215.251, port: 2002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡 38, server: 120.232.215.251, port: 3203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡-2 39, server: 120.232.214.247, port: 2002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡- 40, server: 120.232.215.147, port: 3211, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡- 41, server: 120.232.215.251, port: 3201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡 42, server: 120.232.214.247, port: 3201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡-t2 43, server: 120.232.214.247, port: 3210, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡 44, server: 120.232.215.147, port: 3203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡- 45, server: 120.232.215.196, port: 1004, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡2 46, server: 120.232.214.247, port: 1003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡2 47, server: 120.232.214.247, port: 3204, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡-2 48, server: 120.232.215.251, port: 1004, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡2 49, server: 120.232.214.247, port: 3203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡50, server: 120.232.215.147, port: 2002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡- 51, server: 120.232.214.247, port: 1001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡- 52, server: 120.232.215.147, port: 1001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡- 53, server: 120.232.215.147, port: 1002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡 54, server: 120.232.215.147, port: 1003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-, server: 101.230.149.7, port: 2106, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 2, server: 101.230.149.7, port: 2107, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-t 3, server: 101.230.149.9, port: 2108, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-4, server: 101.230.149.8, port: 2107, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-t 5, server: 101.230.149.7, port: 2109, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 6, server: 101.230.149.9, port: 2109, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港2 7, server: 101.230.149.7, port: 2104, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 8, server: 101.230.149.8, port: 2105, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-t 9, server: 120.233.10.153, port: 6014, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 10, server: 120.233.10.152, port: 6021, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 11, server: 120.233.10.152, port: 6002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 12, server: 120.233.10.153, port: 6009, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-t 13, server: 120.233.10.152, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 14, server: 120.233.10.152, port: 6009, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 15, server: 120.233.10.153, port: 6006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 16, server: 120.233.10.153, port: 6017, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-17, server: 120.233.10.152, port: 6006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 18, server: 120.233.10.152, port: 6013, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港 19, server: 120.233.10.152, port: 6012, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港 20, server: 120.233.10.152, port: 3725, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-tg 21, server: 120.233.10.152, port: 3726, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-t22, server: 120.233.10.152, port: 6011, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 23, server: 120.233.10.153, port: 3726, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 24, server: 120.233.10.152, port: 6010, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港 25, server: 120.233.10.152, port: 6003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 26, server: 120.233.10.152, port: 6015, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 27, server: 120.232.215.196, port: 6014, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港 28, server: 120.232.215.251, port: 6014, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 29, server: 120.232.215.251, port: 6021, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 30, server: 120.232.215.196, port: 6021, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 31, server: 120.232.214.247, port: 6014, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 32, server: 120.232.215.147, port: 6021, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-t 33, server: 120.232.214.247, port: 6021, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-t34, server: 120.232.215.196, port: 6002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港 35, server: 120.232.215.251, port: 6002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 36, server: 120.232.215.196, port: 6007, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-t 37, server: 120.232.214.247, port: 6002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-t 38, server: 120.232.215.147, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-t 39, server: 120.232.215.196, port: 6006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 40, server: 120.232.215.196, port: 6005, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-2 41, server: 120.232.215.147, port: 6018, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-2 42, server: 120.232.214.247, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-t 43, server: 120.232.215.147, port: 6022, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-t 44, server: 120.232.215.251, port: 6006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-tg2 45, server: 120.232.214.247, port: 6005, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-t2 46, server: 120.232.215.251, port: 6005, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-tg 47, server: 120.232.214.247, port: 6006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-tg 48, server: 120.232.215.147, port: 6006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-t2 49, server: 120.232.215.147, port: 6005, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-2 50, server: 120.232.214.247, port: 3725, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-2 51, server: 120.232.214.247, port: 3726, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-tg2 52, server: 120.232.215.251, port: 3726, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 53, server: 120.232.215.196, port: 3726, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 54, server: 120.232.215.251, port: 3725, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-tg2 55, server: 120.232.215.147, port: 3725, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-2 56, server: 183.232.56.176, port: 2103, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-t 57, server: 120.232.215.147, port: 6010, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-2 58, server: 120.232.215.147, port: 3726, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-t 59, server: 120.232.215.147, port: 6011, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-2 60, server: 120.232.215.196, port: 6001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-t2 61, server: 120.232.215.251, port: 6003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 62, server: 120.232.215.196, port: 6003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-t2 63, server: 120.232.214.247, port: 6001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港 64, server: 120.232.214.247, port: 6003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-】 65, server: 120.232.215.147, port: 6003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-】66, server: 120.232.215.251, port: 6001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-69, server: 120.232.215.196, port: 6004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-70, server: 120.232.215.251, port: 6004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港- 71, server: 120.232.215.147, port: 6015, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 台湾-t, server: 101.230.149.9, port: 1116, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 台湾- 2, server: 101.230.149.8, port: 1115, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 台湾-t 3, server: 101.230.149.9, port: 1114, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 台湾- 4, server: 101.230.149.7, port: 1114, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 台湾-t5, server: 101.230.149.8, port: 1114, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 台湾-2 6, server: 101.230.149.10, port: 1116, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 台湾-7, server: 101.230.149.10, port: 1114, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 台湾- 8, server: 101.230.149.9, port: 1113, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 台湾-t 9, server: 120.233.10.152, port: 6502, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 台湾-t 10, server: 120.233.10.153, port: 700, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 德国-2, server: 101.230.149.7, port: 2403, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 加利福尼亚-, server: 101.230.149.8, port: 1158, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 菲律宾-, server: 101.230.149.10, port: 1105, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 东京-, server: 101.230.149.8, port: 2601, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 东京 2, server: 101.230.149.7, port: 2602, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 东京- 3, server: 101.230.149.9, port: 2601, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 东京- 4, server: 101.230.149.7, port: 2604, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 东京 5, server: 101.230.149.9, port: 2602, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 加拿大2, server: 101.230.149.10, port: 1103, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 加利福尼亚- 2, server: 120.233.10.153, port: 1098, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 加利福尼亚- 3, server: 120.233.10.152, port: 1098, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 213256:851205623, obfs-param: t.me/vpnhat, udp: true}
-  - {name: _US_美国_35, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _PL_波兰_21, server: 217.30.10.67, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
-  - {name: _US_美国_39, server: 169.197.142.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国_16, server: 152.89.210.84, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: _PL_波兰_23, server: 217.30.10.67, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: _PL_波兰_27, server: 217.30.10.67, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: _US_美国_34, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _GB_英国_17, server: 152.89.210.84, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: _DE_德国_48, server: 5.183.179.167, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: _JP_日本_18, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: RELAY-l, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _DE_德国_15, server: 5.183.179.167, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: _DE_德国_46, server: 5.183.179.167, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: _DE_德国_47, server: 5.183.179.167, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: _DE_德国_49, server: 5.183.179.167, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: _DE_德国_5, server: 5.183.179.145, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: _DE_德国_45, server: 5.183.179.167, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: _DE_德国_50, server: 5.183.179.167, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: _AU_澳大利亚_12, server: 185.167.116.253, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: US-l, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan33.free4444.xyz, skip-cert-verify: true, udp: true}
-  - {name: FR-l, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
-  - {name: 新加坡 2, server: awssg.yeem.cc, port: 21210, type: trojan, password: 59c465d4-e3ad-4a30-9067-887786a2ca2d, sni: awssg.yeem.cc, skip-cert-verify: true, udp: true}
-  - {name: 澳大利亚, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan]", server: 140.238.231.9, port: 443, type: trojan, password: O3hQcnNKAE, skip-cert-verify: true, udp: true}
-  - {name: AU-, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 澳大利亚 2, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: IN-l, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP-l, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 马来西亚), server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港3, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: KR-l, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP- 2, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP- 3, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, sni: jgwdj2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: IN- 2, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP-l 4, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: "[SSR]", server: eif7aet4.nodeinfo.icu, port: 1097, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
-  - {name: "[SSR] 2", server: ie2ohyai.nodeinfo.icu, port: 6008, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
-  - {name: "[SSR] 3", server: iemeith7.nodeinfo.icu, port: 2507, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
-  - {name: "[SSR] 4", server: puf6no0k.nodeinfo.icu, port: 2604, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
-  - {name: "[SSR] 5", server: quohvop8.nodeinfo.icu, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
-  - {name: CA-l, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CA-l 2, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CA-l 3, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CAl 4, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CA-l 5, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CA-l 6, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CA-l 7, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CA-l 8, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US-ml 2, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US-l 2 2, server: 38.68.135.19, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: US-l 3, server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: US-l 4, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US-l 5, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US-l 6, server: 38.68.135.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US-l 7, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US- 8, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-l 9, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-106.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: 波兰, server: 217.30.10.65, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: UK2, server: 152.89.210.84, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: US2, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 波兰2, server: 217.30.10.65, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: 波兰3, server: 217.30.10.65, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: DE2, server: 5.183.179.167, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: AU, server: 185.167.116.253, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
-  - {name: AU2, server: 185.167.116.253, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: US3, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: RELAY-l 3, server: 120.233.10.230, port: 50200, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: RELAYl 4, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: RELAY- 5, server: 120.233.10.230, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: RELAY-Ol 6, server: 120.233.10.230, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: RELAY-l 7, server: 120.233.10.230, port: 50100, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
   - {name: _US_美国 3, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: RELAY- 5, server: 120.233.10.230, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: _JP_日本_18, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CA-l 7, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 波兰2, server: 217.30.10.65, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: _US_美国_35, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _PL_波兰_27, server: 217.30.10.67, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: _PL_波兰_21, server: 217.30.10.67, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
+  - {name: RELAYl 4, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: CA-l 2, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA-l 5, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CA-l 6, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CA-l 8, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: RELAY-Ol 6, server: 120.233.10.230, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: CA-l, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: RELAY-l 6 2, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: _GB_英国_17, server: 152.89.210.84, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: _GB_英国_16, server: 152.89.210.84, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: CA-l 3, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: RELAY- 5 2, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: _DE_德国_47, server: 5.183.179.167, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: _DE_德国_46, server: 5.183.179.167, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: _DE_德国_49, server: 5.183.179.167, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: _DE_德国_50, server: 5.183.179.167, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: DE2, server: 5.183.179.167, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: _DE_德国_48, server: 5.183.179.167, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: _DE_德国_5, server: 5.183.179.145, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: US3, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _DE_德国_15, server: 5.183.179.167, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: _DE_德国_45, server: 5.183.179.167, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: UK2, server: 152.89.210.84, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: _US_美国_39, server: 169.197.142.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: RELAY-l, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: RELAY-l 7, server: 120.233.10.230, port: 50100, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: US-l 5 2, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: AU2, server: 185.167.116.253, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: _US_美国_34, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US-ml 2, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US-l 7, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: RELAY-l 3, server: 120.233.10.230, port: 50200, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: CAl 4, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: RELAY-l 7 2, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: US-l 5, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US2, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US-l 6, server: 38.68.135.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: RELAY-l 3 2, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: "[🇨🇳][SS][中]", server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "[🇨🇦][SS][加]", server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "[🇨🇦][SS][加] 2", server: 198.57.27.225, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "[🇬🇧][SS][寻]", server: 152.89.210.84, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: "[🇬🇧][SS][寻] 2", server: 152.89.210.84, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: "[🇨🇦][SS][加] 3", server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "[🇺🇸][SS][美]", server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "[🇺🇸][SS][美] 2", server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA-Openit.ml, server: 198.57.27.225, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "[🇯🇵][SS][日]", server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CA-Openit.ml 2, server: 198.57.27.225, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "[🇵🇱][SS][寻]", server: 217.30.10.67, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: CA-Openit.ml 3, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "[🇨🇦][SS][加] 4", server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "[🇨🇦][SS][加] 5", server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "[🇨🇦][SS][加] 6", server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "[🇵🇱][SS][寻] 2", server: 217.30.10.67, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: "[🇨🇦][SS][加] 7", server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "[🇵🇱][SS][寻] 3", server: 217.30.10.67, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: "[🇨🇦][SS][加] 8", server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: CA-Openit.ml 4, server: 198.57.27.225, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CA-Openit.ml 5, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "[🇨🇦][SS][加] 9", server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "[🇩🇪][SS][寻]", server: 5.183.179.140, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: AU-, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-l 14, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP-l, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: FR-l, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: IN-l, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US- 13, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: JP- 2, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: GB-l 3, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US- 8, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: GB-l 2, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: SG- 3, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, sni: cp-asus.ml, skip-cert-verify: true, udp: true}
+  - {name: RO-l, server: jp.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: jp.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: KR-l, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: JP-l 2, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: SG-l 2, server: sg-sr-114.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-114.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: SG- 3, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, sni: cp-asus.ml, skip-cert-verify: true, udp: true}
-  - {name: US- 13, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: GB-l 2, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: GB-l 3, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-l 14, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: IN-l 2 2, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 2, server: awssg.yeem.cc, port: 21210, type: trojan, password: 59c465d4-e3ad-4a30-9067-887786a2ca2d, sni: awssg.yeem.cc, skip-cert-verify: true, udp: true}
   - {name: US-l 11 2, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: RO-l, server: jp.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: jp.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: RELAY-l 3 2, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: RELAY-l 4 2, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: RELAY- 5 2, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: RELAY-l 6 2, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: US-l 5 2, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: RELAY-l 7 2, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: US-l, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan33.free4444.xyz, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan]", server: 140.238.231.9, port: 443, type: trojan, password: O3hQcnNKAE, skip-cert-verify: true, udp: true}
+  - {name: IN-Openit.ml, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: HK-Openit.ml, server: azhk.f2s.bp2022.top, port: 443, type: trojan, password: d8c36e7c-8fd5-4671-9603-d689784547db, sni: azhk.f2s.bp2022.top, skip-cert-verify: true, udp: true}
+  - {name: IN-Openit.ml 2, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: SG-Openit.ml, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: AU-Openit.ml, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: GB-Openit.ml, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: FR-Openit.ml, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml 2, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml 2, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml 3, server: o7cx6bd6t4yjiqsm.xiongsonglin.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: o7cx6bd6t4yjiqsm.xiongsonglin.com, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml 3, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: "[SSR] 2", server: ie2ohyai.nodeinfo.icu, port: 6008, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
+  - {name: "[SSR] 4", server: puf6no0k.nodeinfo.icu, port: 2604, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
+  - {name: "[SSR] 3", server: iemeith7.nodeinfo.icu, port: 2507, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
+  - {name: "[SSR]", server: eif7aet4.nodeinfo.icu, port: 1097, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
+  - {name: "[SSR] 5", server: quohvop8.nodeinfo.icu, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 洛杉矶
-      - 洛杉矶 2
-      - 洛杉矶 3
-      - 洛杉矶 4
-      - 洛杉矶 5
-      - 洛杉矶 6
-      - 洛杉矶 7
-      - 洛杉矶- 8
-      - 首尔
-      - 首尔 2
-      - 首尔-2 3
-      - 首尔-t2 4
-      - 首尔- 5
-      - 首尔- 6
-      - 首尔- 7
-      - 首尔-t8
-      - 首尔 9
-      - 首尔- 10
-      - 新加坡
-      - 新加坡-2
-      - 新加坡- 3
-      - 新加坡 4
-      - 新加坡-t 5
-      - 新加坡- 6
-      - 新加坡7
-      - 新加坡 8
-      - 新加坡 9
-      - 新加坡- 10
-      - 新加坡- 11
-      - 新加坡-t12
-      - 新加坡-13
-      - 新加坡 14
-      - 新加坡-t 15
-      - 新加坡- 16
-      - 新加坡- 17
-      - 新加坡- 18
-      - 新加坡- 19
-      - 新加坡-20
-      - 新加坡- 21
-      - 新加坡-t2 22
-      - 新加坡- 23
-      - 新加坡-t 24
-      - 新加坡- 25
-      - 新加坡 26
-      - 新加坡-2 27
-      - 新加坡- 28
-      - 新加坡-29
-      - 新加坡2 30
-      - 新加坡-31
-      - 新加坡- 32
-      - 新加坡 33
-      - 新加坡-2 34
-      - 新加坡-35
-      - 新加坡- 36
-      - 新加坡-t 37
-      - 新加坡 38
-      - 新加坡-2 39
-      - 新加坡- 40
-      - 新加坡- 41
-      - 新加坡 42
-      - 新加坡-t2 43
-      - 新加坡 44
-      - 新加坡- 45
-      - 新加坡2 46
-      - 新加坡2 47
-      - 新加坡-2 48
-      - 新加坡2 49
-      - 新加坡50
-      - 新加坡- 51
-      - 新加坡- 52
-      - 新加坡- 53
-      - 新加坡 54
-      - 香港-
-      - 香港- 2
-      - 香港-t 3
-      - 香港-4
-      - 香港-t 5
-      - 香港- 6
-      - 香港2 7
-      - 香港- 8
-      - 香港-t 9
-      - 香港- 10
-      - 香港- 11
-      - 香港- 12
-      - 香港-t 13
-      - 香港- 14
-      - 香港- 15
-      - 香港- 16
-      - 香港-17
-      - 香港- 18
-      - 香港 19
-      - 香港 20
-      - 香港-tg 21
-      - 香港-t22
-      - 香港- 23
-      - 香港- 24
-      - 香港 25
-      - 香港- 26
-      - 香港- 27
-      - 香港 28
-      - 香港- 29
-      - 香港- 30
-      - 香港- 31
-      - 香港- 32
-      - 香港-t 33
-      - 香港-t34
-      - 香港 35
-      - 香港- 36
-      - 香港-t 37
-      - 香港-t 38
-      - 香港-t 39
-      - 香港- 40
-      - 香港-2 41
-      - 香港-2 42
-      - 香港-t 43
-      - 香港-t 44
-      - 香港-tg2 45
-      - 香港-t2 46
-      - 香港-tg 47
-      - 香港-tg 48
-      - 香港-t2 49
-      - 香港-2 50
-      - 香港-2 51
-      - 香港-tg2 52
-      - 香港- 53
-      - 香港- 54
-      - 香港-tg2 55
-      - 香港-2 56
-      - 香港-t 57
-      - 香港-2 58
-      - 香港-t 59
-      - 香港-2 60
-      - 香港-t2 61
-      - 香港- 62
-      - 香港-t2 63
-      - 香港 64
-      - 香港-】 65
-      - 香港-】66
-      - 香港-69
-      - 香港-70
-      - 香港- 71
-      - 台湾-t
-      - 台湾- 2
-      - 台湾-t 3
-      - 台湾- 4
-      - 台湾-t5
-      - 台湾-2 6
-      - 台湾-7
-      - 台湾- 8
-      - 台湾-t 9
-      - 台湾-t 10
-      - 德国-2
-      - 加利福尼亚-
-      - 菲律宾-
-      - 东京-
-      - 东京 2
-      - 东京- 3
-      - 东京- 4
-      - 东京 5
-      - 加拿大2
-      - 加利福尼亚- 2
-      - 加利福尼亚- 3
-      - _US_美国_35
-      - _PL_波兰_21
-      - _US_美国_39
-      - _GB_英国_16
-      - _PL_波兰_23
-      - _PL_波兰_27
-      - _US_美国_34
-      - _GB_英国_17
-      - _DE_德国_48
-      - _JP_日本_18
-      - RELAY-l
-      - _DE_德国_15
-      - _DE_德国_46
-      - _DE_德国_47
-      - _DE_德国_49
-      - _DE_德国_5
-      - _DE_德国_45
-      - _DE_德国_50
-      - _AU_澳大利亚_12
-      - US-l
-      - FR-l
-      - 新加坡 2
-      - 澳大利亚
-      - "[Trojan]"
-      - AU-
-      - 澳大利亚 2
-      - IN-l
-      - JP-l
-      - 马来西亚)
-      - 香港3
-      - KR-l
-      - JP- 2
-      - JP- 3
-      - IN- 2
-      - JP-l 4
-      - "[SSR]"
-      - "[SSR] 2"
-      - "[SSR] 3"
-      - "[SSR] 4"
-      - "[SSR] 5"
-      - CA-l
-      - CA-l 2
-      - CA-l 3
-      - CAl 4
-      - CA-l 5
-      - CA-l 6
-      - CA-l 7
-      - CA-l 8
-      - US-ml 2
-      - US-l 2 2
       - US-l 3
       - US-l 4
-      - US-l 5
-      - US-l 6
-      - US-l 7
-      - US- 8
-      - US-l 9
-      - 波兰
-      - UK2
-      - US2
-      - 波兰2
-      - 波兰3
-      - DE2
-      - AU
-      - AU2
-      - US3
-      - RELAY-l 3
-      - RELAYl 4
-      - RELAY- 5
-      - RELAY-Ol 6
-      - RELAY-l 7
       - _US_美国 3
+      - RELAY- 5
+      - _JP_日本_18
+      - CA-l 7
+      - 波兰2
+      - _US_美国_35
+      - _PL_波兰_27
+      - _PL_波兰_21
+      - RELAYl 4
+      - CA-l 2
+      - CA-l 5
+      - CA-l 6
+      - CA-l 8
+      - RELAY-Ol 6
+      - CA-l
+      - RELAY-l 6 2
+      - _GB_英国_17
+      - _GB_英国_16
+      - CA-l 3
+      - RELAY- 5 2
+      - _DE_德国_47
+      - _DE_德国_46
+      - _DE_德国_49
+      - _DE_德国_50
+      - DE2
+      - _DE_德国_48
+      - _DE_德国_5
+      - US3
+      - _DE_德国_15
+      - _DE_德国_45
+      - UK2
+      - _US_美国_39
+      - RELAY-l
+      - RELAY-l 7
+      - US-l 5 2
+      - AU2
+      - _US_美国_34
+      - US-ml 2
+      - US-l 7
+      - RELAY-l 3
+      - CAl 4
+      - RELAY-l 7 2
+      - US-l 5
+      - US2
+      - US-l 6
+      - RELAY-l 3 2
+      - "[🇨🇳][SS][中]"
+      - "[🇨🇦][SS][加]"
+      - "[🇨🇦][SS][加] 2"
+      - "[🇬🇧][SS][寻]"
+      - "[🇬🇧][SS][寻] 2"
+      - "[🇨🇦][SS][加] 3"
+      - "[🇺🇸][SS][美]"
+      - "[🇺🇸][SS][美] 2"
+      - CA-Openit.ml
+      - "[🇯🇵][SS][日]"
+      - CA-Openit.ml 2
+      - "[🇵🇱][SS][寻]"
+      - CA-Openit.ml 3
+      - "[🇨🇦][SS][加] 4"
+      - "[🇨🇦][SS][加] 5"
+      - "[🇨🇦][SS][加] 6"
+      - "[🇵🇱][SS][寻] 2"
+      - "[🇨🇦][SS][加] 7"
+      - "[🇵🇱][SS][寻] 3"
+      - "[🇨🇦][SS][加] 8"
+      - CA-Openit.ml 4
+      - CA-Openit.ml 5
+      - "[🇨🇦][SS][加] 9"
+      - "[🇩🇪][SS][寻]"
+      - AU-
+      - 澳大利亚
+      - US-l 14
+      - JP-l
+      - FR-l
+      - IN-l
+      - US- 13
+      - JP- 2
+      - GB-l 3
+      - US- 8
+      - GB-l 2
+      - SG- 3
+      - RO-l
+      - KR-l
       - JP-l 2
       - SG-l 2
-      - SG- 3
-      - US- 13
-      - GB-l 2
-      - GB-l 3
-      - US-l 14
       - IN-l 2 2
+      - 新加坡 2
       - US-l 11 2
-      - RO-l
-      - RELAY-l 3 2
-      - RELAY-l 4 2
-      - RELAY- 5 2
-      - RELAY-l 6 2
-      - US-l 5 2
-      - RELAY-l 7 2
+      - US-l
+      - "[Trojan]"
+      - IN-Openit.ml
+      - HK-Openit.ml
+      - IN-Openit.ml 2
+      - SG-Openit.ml
+      - JP-Openit.ml
+      - AU-Openit.ml
+      - GB-Openit.ml
+      - FR-Openit.ml
+      - JP-Openit.ml 2
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - JP-Openit.ml 3
+      - "[SSR] 2"
+      - "[SSR] 4"
+      - "[SSR] 3"
+      - "[SSR]"
+      - "[SSR] 5"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 洛杉矶
-      - 洛杉矶 2
-      - 洛杉矶 3
-      - 洛杉矶 4
-      - 洛杉矶 5
-      - 洛杉矶 6
-      - 洛杉矶 7
-      - 洛杉矶- 8
-      - 首尔
-      - 首尔 2
-      - 首尔-2 3
-      - 首尔-t2 4
-      - 首尔- 5
-      - 首尔- 6
-      - 首尔- 7
-      - 首尔-t8
-      - 首尔 9
-      - 首尔- 10
-      - 新加坡
-      - 新加坡-2
-      - 新加坡- 3
-      - 新加坡 4
-      - 新加坡-t 5
-      - 新加坡- 6
-      - 新加坡7
-      - 新加坡 8
-      - 新加坡 9
-      - 新加坡- 10
-      - 新加坡- 11
-      - 新加坡-t12
-      - 新加坡-13
-      - 新加坡 14
-      - 新加坡-t 15
-      - 新加坡- 16
-      - 新加坡- 17
-      - 新加坡- 18
-      - 新加坡- 19
-      - 新加坡-20
-      - 新加坡- 21
-      - 新加坡-t2 22
-      - 新加坡- 23
-      - 新加坡-t 24
-      - 新加坡- 25
-      - 新加坡 26
-      - 新加坡-2 27
-      - 新加坡- 28
-      - 新加坡-29
-      - 新加坡2 30
-      - 新加坡-31
-      - 新加坡- 32
-      - 新加坡 33
-      - 新加坡-2 34
-      - 新加坡-35
-      - 新加坡- 36
-      - 新加坡-t 37
-      - 新加坡 38
-      - 新加坡-2 39
-      - 新加坡- 40
-      - 新加坡- 41
-      - 新加坡 42
-      - 新加坡-t2 43
-      - 新加坡 44
-      - 新加坡- 45
-      - 新加坡2 46
-      - 新加坡2 47
-      - 新加坡-2 48
-      - 新加坡2 49
-      - 新加坡50
-      - 新加坡- 51
-      - 新加坡- 52
-      - 新加坡- 53
-      - 新加坡 54
-      - 香港-
-      - 香港- 2
-      - 香港-t 3
-      - 香港-4
-      - 香港-t 5
-      - 香港- 6
-      - 香港2 7
-      - 香港- 8
-      - 香港-t 9
-      - 香港- 10
-      - 香港- 11
-      - 香港- 12
-      - 香港-t 13
-      - 香港- 14
-      - 香港- 15
-      - 香港- 16
-      - 香港-17
-      - 香港- 18
-      - 香港 19
-      - 香港 20
-      - 香港-tg 21
-      - 香港-t22
-      - 香港- 23
-      - 香港- 24
-      - 香港 25
-      - 香港- 26
-      - 香港- 27
-      - 香港 28
-      - 香港- 29
-      - 香港- 30
-      - 香港- 31
-      - 香港- 32
-      - 香港-t 33
-      - 香港-t34
-      - 香港 35
-      - 香港- 36
-      - 香港-t 37
-      - 香港-t 38
-      - 香港-t 39
-      - 香港- 40
-      - 香港-2 41
-      - 香港-2 42
-      - 香港-t 43
-      - 香港-t 44
-      - 香港-tg2 45
-      - 香港-t2 46
-      - 香港-tg 47
-      - 香港-tg 48
-      - 香港-t2 49
-      - 香港-2 50
-      - 香港-2 51
-      - 香港-tg2 52
-      - 香港- 53
-      - 香港- 54
-      - 香港-tg2 55
-      - 香港-2 56
-      - 香港-t 57
-      - 香港-2 58
-      - 香港-t 59
-      - 香港-2 60
-      - 香港-t2 61
-      - 香港- 62
-      - 香港-t2 63
-      - 香港 64
-      - 香港-】 65
-      - 香港-】66
-      - 香港-69
-      - 香港-70
-      - 香港- 71
-      - 台湾-t
-      - 台湾- 2
-      - 台湾-t 3
-      - 台湾- 4
-      - 台湾-t5
-      - 台湾-2 6
-      - 台湾-7
-      - 台湾- 8
-      - 台湾-t 9
-      - 台湾-t 10
-      - 德国-2
-      - 加利福尼亚-
-      - 菲律宾-
-      - 东京-
-      - 东京 2
-      - 东京- 3
-      - 东京- 4
-      - 东京 5
-      - 加拿大2
-      - 加利福尼亚- 2
-      - 加利福尼亚- 3
-      - _US_美国_35
-      - _PL_波兰_21
-      - _US_美国_39
-      - _GB_英国_16
-      - _PL_波兰_23
-      - _PL_波兰_27
-      - _US_美国_34
-      - _GB_英国_17
-      - _DE_德国_48
-      - _JP_日本_18
-      - RELAY-l
-      - _DE_德国_15
-      - _DE_德国_46
-      - _DE_德国_47
-      - _DE_德国_49
-      - _DE_德国_5
-      - _DE_德国_45
-      - _DE_德国_50
-      - _AU_澳大利亚_12
-      - US-l
-      - FR-l
-      - 新加坡 2
-      - 澳大利亚
-      - "[Trojan]"
-      - AU-
-      - 澳大利亚 2
-      - IN-l
-      - JP-l
-      - 马来西亚)
-      - 香港3
-      - KR-l
-      - JP- 2
-      - JP- 3
-      - IN- 2
-      - JP-l 4
-      - "[SSR]"
-      - "[SSR] 2"
-      - "[SSR] 3"
-      - "[SSR] 4"
-      - "[SSR] 5"
-      - CA-l
-      - CA-l 2
-      - CA-l 3
-      - CAl 4
-      - CA-l 5
-      - CA-l 6
-      - CA-l 7
-      - CA-l 8
-      - US-ml 2
-      - US-l 2 2
       - US-l 3
       - US-l 4
-      - US-l 5
-      - US-l 6
-      - US-l 7
-      - US- 8
-      - US-l 9
-      - 波兰
-      - UK2
-      - US2
-      - 波兰2
-      - 波兰3
-      - DE2
-      - AU
-      - AU2
-      - US3
-      - RELAY-l 3
-      - RELAYl 4
-      - RELAY- 5
-      - RELAY-Ol 6
-      - RELAY-l 7
       - _US_美国 3
+      - RELAY- 5
+      - _JP_日本_18
+      - CA-l 7
+      - 波兰2
+      - _US_美国_35
+      - _PL_波兰_27
+      - _PL_波兰_21
+      - RELAYl 4
+      - CA-l 2
+      - CA-l 5
+      - CA-l 6
+      - CA-l 8
+      - RELAY-Ol 6
+      - CA-l
+      - RELAY-l 6 2
+      - _GB_英国_17
+      - _GB_英国_16
+      - CA-l 3
+      - RELAY- 5 2
+      - _DE_德国_47
+      - _DE_德国_46
+      - _DE_德国_49
+      - _DE_德国_50
+      - DE2
+      - _DE_德国_48
+      - _DE_德国_5
+      - US3
+      - _DE_德国_15
+      - _DE_德国_45
+      - UK2
+      - _US_美国_39
+      - RELAY-l
+      - RELAY-l 7
+      - US-l 5 2
+      - AU2
+      - _US_美国_34
+      - US-ml 2
+      - US-l 7
+      - RELAY-l 3
+      - CAl 4
+      - RELAY-l 7 2
+      - US-l 5
+      - US2
+      - US-l 6
+      - RELAY-l 3 2
+      - "[🇨🇳][SS][中]"
+      - "[🇨🇦][SS][加]"
+      - "[🇨🇦][SS][加] 2"
+      - "[🇬🇧][SS][寻]"
+      - "[🇬🇧][SS][寻] 2"
+      - "[🇨🇦][SS][加] 3"
+      - "[🇺🇸][SS][美]"
+      - "[🇺🇸][SS][美] 2"
+      - CA-Openit.ml
+      - "[🇯🇵][SS][日]"
+      - CA-Openit.ml 2
+      - "[🇵🇱][SS][寻]"
+      - CA-Openit.ml 3
+      - "[🇨🇦][SS][加] 4"
+      - "[🇨🇦][SS][加] 5"
+      - "[🇨🇦][SS][加] 6"
+      - "[🇵🇱][SS][寻] 2"
+      - "[🇨🇦][SS][加] 7"
+      - "[🇵🇱][SS][寻] 3"
+      - "[🇨🇦][SS][加] 8"
+      - CA-Openit.ml 4
+      - CA-Openit.ml 5
+      - "[🇨🇦][SS][加] 9"
+      - "[🇩🇪][SS][寻]"
+      - AU-
+      - 澳大利亚
+      - US-l 14
+      - JP-l
+      - FR-l
+      - IN-l
+      - US- 13
+      - JP- 2
+      - GB-l 3
+      - US- 8
+      - GB-l 2
+      - SG- 3
+      - RO-l
+      - KR-l
       - JP-l 2
       - SG-l 2
-      - SG- 3
-      - US- 13
-      - GB-l 2
-      - GB-l 3
-      - US-l 14
       - IN-l 2 2
+      - 新加坡 2
       - US-l 11 2
-      - RO-l
-      - RELAY-l 3 2
-      - RELAY-l 4 2
-      - RELAY- 5 2
-      - RELAY-l 6 2
-      - US-l 5 2
-      - RELAY-l 7 2
+      - US-l
+      - "[Trojan]"
+      - IN-Openit.ml
+      - HK-Openit.ml
+      - IN-Openit.ml 2
+      - SG-Openit.ml
+      - JP-Openit.ml
+      - AU-Openit.ml
+      - GB-Openit.ml
+      - FR-Openit.ml
+      - JP-Openit.ml 2
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - JP-Openit.ml 3
+      - "[SSR] 2"
+      - "[SSR] 4"
+      - "[SSR] 3"
+      - "[SSR]"
+      - "[SSR] 5"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 洛杉矶
-      - 洛杉矶 2
-      - 洛杉矶 3
-      - 洛杉矶 4
-      - 洛杉矶 5
-      - 洛杉矶 6
-      - 洛杉矶 7
-      - 洛杉矶- 8
-      - 首尔
-      - 首尔 2
-      - 首尔-2 3
-      - 首尔-t2 4
-      - 首尔- 5
-      - 首尔- 6
-      - 首尔- 7
-      - 首尔-t8
-      - 首尔 9
-      - 首尔- 10
-      - 新加坡
-      - 新加坡-2
-      - 新加坡- 3
-      - 新加坡 4
-      - 新加坡-t 5
-      - 新加坡- 6
-      - 新加坡7
-      - 新加坡 8
-      - 新加坡 9
-      - 新加坡- 10
-      - 新加坡- 11
-      - 新加坡-t12
-      - 新加坡-13
-      - 新加坡 14
-      - 新加坡-t 15
-      - 新加坡- 16
-      - 新加坡- 17
-      - 新加坡- 18
-      - 新加坡- 19
-      - 新加坡-20
-      - 新加坡- 21
-      - 新加坡-t2 22
-      - 新加坡- 23
-      - 新加坡-t 24
-      - 新加坡- 25
-      - 新加坡 26
-      - 新加坡-2 27
-      - 新加坡- 28
-      - 新加坡-29
-      - 新加坡2 30
-      - 新加坡-31
-      - 新加坡- 32
-      - 新加坡 33
-      - 新加坡-2 34
-      - 新加坡-35
-      - 新加坡- 36
-      - 新加坡-t 37
-      - 新加坡 38
-      - 新加坡-2 39
-      - 新加坡- 40
-      - 新加坡- 41
-      - 新加坡 42
-      - 新加坡-t2 43
-      - 新加坡 44
-      - 新加坡- 45
-      - 新加坡2 46
-      - 新加坡2 47
-      - 新加坡-2 48
-      - 新加坡2 49
-      - 新加坡50
-      - 新加坡- 51
-      - 新加坡- 52
-      - 新加坡- 53
-      - 新加坡 54
-      - 香港-
-      - 香港- 2
-      - 香港-t 3
-      - 香港-4
-      - 香港-t 5
-      - 香港- 6
-      - 香港2 7
-      - 香港- 8
-      - 香港-t 9
-      - 香港- 10
-      - 香港- 11
-      - 香港- 12
-      - 香港-t 13
-      - 香港- 14
-      - 香港- 15
-      - 香港- 16
-      - 香港-17
-      - 香港- 18
-      - 香港 19
-      - 香港 20
-      - 香港-tg 21
-      - 香港-t22
-      - 香港- 23
-      - 香港- 24
-      - 香港 25
-      - 香港- 26
-      - 香港- 27
-      - 香港 28
-      - 香港- 29
-      - 香港- 30
-      - 香港- 31
-      - 香港- 32
-      - 香港-t 33
-      - 香港-t34
-      - 香港 35
-      - 香港- 36
-      - 香港-t 37
-      - 香港-t 38
-      - 香港-t 39
-      - 香港- 40
-      - 香港-2 41
-      - 香港-2 42
-      - 香港-t 43
-      - 香港-t 44
-      - 香港-tg2 45
-      - 香港-t2 46
-      - 香港-tg 47
-      - 香港-tg 48
-      - 香港-t2 49
-      - 香港-2 50
-      - 香港-2 51
-      - 香港-tg2 52
-      - 香港- 53
-      - 香港- 54
-      - 香港-tg2 55
-      - 香港-2 56
-      - 香港-t 57
-      - 香港-2 58
-      - 香港-t 59
-      - 香港-2 60
-      - 香港-t2 61
-      - 香港- 62
-      - 香港-t2 63
-      - 香港 64
-      - 香港-】 65
-      - 香港-】66
-      - 香港-69
-      - 香港-70
-      - 香港- 71
-      - 台湾-t
-      - 台湾- 2
-      - 台湾-t 3
-      - 台湾- 4
-      - 台湾-t5
-      - 台湾-2 6
-      - 台湾-7
-      - 台湾- 8
-      - 台湾-t 9
-      - 台湾-t 10
-      - 德国-2
-      - 加利福尼亚-
-      - 菲律宾-
-      - 东京-
-      - 东京 2
-      - 东京- 3
-      - 东京- 4
-      - 东京 5
-      - 加拿大2
-      - 加利福尼亚- 2
-      - 加利福尼亚- 3
-      - _US_美国_35
-      - _PL_波兰_21
-      - _US_美国_39
-      - _GB_英国_16
-      - _PL_波兰_23
-      - _PL_波兰_27
-      - _US_美国_34
-      - _GB_英国_17
-      - _DE_德国_48
-      - _JP_日本_18
-      - RELAY-l
-      - _DE_德国_15
-      - _DE_德国_46
-      - _DE_德国_47
-      - _DE_德国_49
-      - _DE_德国_5
-      - _DE_德国_45
-      - _DE_德国_50
-      - _AU_澳大利亚_12
-      - US-l
-      - FR-l
-      - 新加坡 2
-      - 澳大利亚
-      - "[Trojan]"
-      - AU-
-      - 澳大利亚 2
-      - IN-l
-      - JP-l
-      - 马来西亚)
-      - 香港3
-      - KR-l
-      - JP- 2
-      - JP- 3
-      - IN- 2
-      - JP-l 4
-      - "[SSR]"
-      - "[SSR] 2"
-      - "[SSR] 3"
-      - "[SSR] 4"
-      - "[SSR] 5"
-      - CA-l
-      - CA-l 2
-      - CA-l 3
-      - CAl 4
-      - CA-l 5
-      - CA-l 6
-      - CA-l 7
-      - CA-l 8
-      - US-ml 2
-      - US-l 2 2
       - US-l 3
       - US-l 4
-      - US-l 5
-      - US-l 6
-      - US-l 7
-      - US- 8
-      - US-l 9
-      - 波兰
-      - UK2
-      - US2
-      - 波兰2
-      - 波兰3
-      - DE2
-      - AU
-      - AU2
-      - US3
-      - RELAY-l 3
-      - RELAYl 4
-      - RELAY- 5
-      - RELAY-Ol 6
-      - RELAY-l 7
       - _US_美国 3
+      - RELAY- 5
+      - _JP_日本_18
+      - CA-l 7
+      - 波兰2
+      - _US_美国_35
+      - _PL_波兰_27
+      - _PL_波兰_21
+      - RELAYl 4
+      - CA-l 2
+      - CA-l 5
+      - CA-l 6
+      - CA-l 8
+      - RELAY-Ol 6
+      - CA-l
+      - RELAY-l 6 2
+      - _GB_英国_17
+      - _GB_英国_16
+      - CA-l 3
+      - RELAY- 5 2
+      - _DE_德国_47
+      - _DE_德国_46
+      - _DE_德国_49
+      - _DE_德国_50
+      - DE2
+      - _DE_德国_48
+      - _DE_德国_5
+      - US3
+      - _DE_德国_15
+      - _DE_德国_45
+      - UK2
+      - _US_美国_39
+      - RELAY-l
+      - RELAY-l 7
+      - US-l 5 2
+      - AU2
+      - _US_美国_34
+      - US-ml 2
+      - US-l 7
+      - RELAY-l 3
+      - CAl 4
+      - RELAY-l 7 2
+      - US-l 5
+      - US2
+      - US-l 6
+      - RELAY-l 3 2
+      - "[🇨🇳][SS][中]"
+      - "[🇨🇦][SS][加]"
+      - "[🇨🇦][SS][加] 2"
+      - "[🇬🇧][SS][寻]"
+      - "[🇬🇧][SS][寻] 2"
+      - "[🇨🇦][SS][加] 3"
+      - "[🇺🇸][SS][美]"
+      - "[🇺🇸][SS][美] 2"
+      - CA-Openit.ml
+      - "[🇯🇵][SS][日]"
+      - CA-Openit.ml 2
+      - "[🇵🇱][SS][寻]"
+      - CA-Openit.ml 3
+      - "[🇨🇦][SS][加] 4"
+      - "[🇨🇦][SS][加] 5"
+      - "[🇨🇦][SS][加] 6"
+      - "[🇵🇱][SS][寻] 2"
+      - "[🇨🇦][SS][加] 7"
+      - "[🇵🇱][SS][寻] 3"
+      - "[🇨🇦][SS][加] 8"
+      - CA-Openit.ml 4
+      - CA-Openit.ml 5
+      - "[🇨🇦][SS][加] 9"
+      - "[🇩🇪][SS][寻]"
+      - AU-
+      - 澳大利亚
+      - US-l 14
+      - JP-l
+      - FR-l
+      - IN-l
+      - US- 13
+      - JP- 2
+      - GB-l 3
+      - US- 8
+      - GB-l 2
+      - SG- 3
+      - RO-l
+      - KR-l
       - JP-l 2
       - SG-l 2
-      - SG- 3
-      - US- 13
-      - GB-l 2
-      - GB-l 3
-      - US-l 14
       - IN-l 2 2
+      - 新加坡 2
       - US-l 11 2
-      - RO-l
-      - RELAY-l 3 2
-      - RELAY-l 4 2
-      - RELAY- 5 2
-      - RELAY-l 6 2
-      - US-l 5 2
-      - RELAY-l 7 2
+      - US-l
+      - "[Trojan]"
+      - IN-Openit.ml
+      - HK-Openit.ml
+      - IN-Openit.ml 2
+      - SG-Openit.ml
+      - JP-Openit.ml
+      - AU-Openit.ml
+      - GB-Openit.ml
+      - FR-Openit.ml
+      - JP-Openit.ml 2
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - JP-Openit.ml 3
+      - "[SSR] 2"
+      - "[SSR] 4"
+      - "[SSR] 3"
+      - "[SSR]"
+      - "[SSR] 5"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -1040,1107 +484,471 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 洛杉矶
-      - 洛杉矶 2
-      - 洛杉矶 3
-      - 洛杉矶 4
-      - 洛杉矶 5
-      - 洛杉矶 6
-      - 洛杉矶 7
-      - 洛杉矶- 8
-      - 首尔
-      - 首尔 2
-      - 首尔-2 3
-      - 首尔-t2 4
-      - 首尔- 5
-      - 首尔- 6
-      - 首尔- 7
-      - 首尔-t8
-      - 首尔 9
-      - 首尔- 10
-      - 新加坡
-      - 新加坡-2
-      - 新加坡- 3
-      - 新加坡 4
-      - 新加坡-t 5
-      - 新加坡- 6
-      - 新加坡7
-      - 新加坡 8
-      - 新加坡 9
-      - 新加坡- 10
-      - 新加坡- 11
-      - 新加坡-t12
-      - 新加坡-13
-      - 新加坡 14
-      - 新加坡-t 15
-      - 新加坡- 16
-      - 新加坡- 17
-      - 新加坡- 18
-      - 新加坡- 19
-      - 新加坡-20
-      - 新加坡- 21
-      - 新加坡-t2 22
-      - 新加坡- 23
-      - 新加坡-t 24
-      - 新加坡- 25
-      - 新加坡 26
-      - 新加坡-2 27
-      - 新加坡- 28
-      - 新加坡-29
-      - 新加坡2 30
-      - 新加坡-31
-      - 新加坡- 32
-      - 新加坡 33
-      - 新加坡-2 34
-      - 新加坡-35
-      - 新加坡- 36
-      - 新加坡-t 37
-      - 新加坡 38
-      - 新加坡-2 39
-      - 新加坡- 40
-      - 新加坡- 41
-      - 新加坡 42
-      - 新加坡-t2 43
-      - 新加坡 44
-      - 新加坡- 45
-      - 新加坡2 46
-      - 新加坡2 47
-      - 新加坡-2 48
-      - 新加坡2 49
-      - 新加坡50
-      - 新加坡- 51
-      - 新加坡- 52
-      - 新加坡- 53
-      - 新加坡 54
-      - 香港-
-      - 香港- 2
-      - 香港-t 3
-      - 香港-4
-      - 香港-t 5
-      - 香港- 6
-      - 香港2 7
-      - 香港- 8
-      - 香港-t 9
-      - 香港- 10
-      - 香港- 11
-      - 香港- 12
-      - 香港-t 13
-      - 香港- 14
-      - 香港- 15
-      - 香港- 16
-      - 香港-17
-      - 香港- 18
-      - 香港 19
-      - 香港 20
-      - 香港-tg 21
-      - 香港-t22
-      - 香港- 23
-      - 香港- 24
-      - 香港 25
-      - 香港- 26
-      - 香港- 27
-      - 香港 28
-      - 香港- 29
-      - 香港- 30
-      - 香港- 31
-      - 香港- 32
-      - 香港-t 33
-      - 香港-t34
-      - 香港 35
-      - 香港- 36
-      - 香港-t 37
-      - 香港-t 38
-      - 香港-t 39
-      - 香港- 40
-      - 香港-2 41
-      - 香港-2 42
-      - 香港-t 43
-      - 香港-t 44
-      - 香港-tg2 45
-      - 香港-t2 46
-      - 香港-tg 47
-      - 香港-tg 48
-      - 香港-t2 49
-      - 香港-2 50
-      - 香港-2 51
-      - 香港-tg2 52
-      - 香港- 53
-      - 香港- 54
-      - 香港-tg2 55
-      - 香港-2 56
-      - 香港-t 57
-      - 香港-2 58
-      - 香港-t 59
-      - 香港-2 60
-      - 香港-t2 61
-      - 香港- 62
-      - 香港-t2 63
-      - 香港 64
-      - 香港-】 65
-      - 香港-】66
-      - 香港-69
-      - 香港-70
-      - 香港- 71
-      - 台湾-t
-      - 台湾- 2
-      - 台湾-t 3
-      - 台湾- 4
-      - 台湾-t5
-      - 台湾-2 6
-      - 台湾-7
-      - 台湾- 8
-      - 台湾-t 9
-      - 台湾-t 10
-      - 德国-2
-      - 加利福尼亚-
-      - 菲律宾-
-      - 东京-
-      - 东京 2
-      - 东京- 3
-      - 东京- 4
-      - 东京 5
-      - 加拿大2
-      - 加利福尼亚- 2
-      - 加利福尼亚- 3
-      - _US_美国_35
-      - _PL_波兰_21
-      - _US_美国_39
-      - _GB_英国_16
-      - _PL_波兰_23
-      - _PL_波兰_27
-      - _US_美国_34
-      - _GB_英国_17
-      - _DE_德国_48
-      - _JP_日本_18
-      - RELAY-l
-      - _DE_德国_15
-      - _DE_德国_46
-      - _DE_德国_47
-      - _DE_德国_49
-      - _DE_德国_5
-      - _DE_德国_45
-      - _DE_德国_50
-      - _AU_澳大利亚_12
-      - US-l
-      - FR-l
-      - 新加坡 2
-      - 澳大利亚
-      - "[Trojan]"
-      - AU-
-      - 澳大利亚 2
-      - IN-l
-      - JP-l
-      - 马来西亚)
-      - 香港3
-      - KR-l
-      - JP- 2
-      - JP- 3
-      - IN- 2
-      - JP-l 4
-      - "[SSR]"
-      - "[SSR] 2"
-      - "[SSR] 3"
-      - "[SSR] 4"
-      - "[SSR] 5"
-      - CA-l
-      - CA-l 2
-      - CA-l 3
-      - CAl 4
-      - CA-l 5
-      - CA-l 6
-      - CA-l 7
-      - CA-l 8
-      - US-ml 2
-      - US-l 2 2
       - US-l 3
       - US-l 4
-      - US-l 5
-      - US-l 6
-      - US-l 7
-      - US- 8
-      - US-l 9
-      - 波兰
-      - UK2
-      - US2
-      - 波兰2
-      - 波兰3
-      - DE2
-      - AU
-      - AU2
-      - US3
-      - RELAY-l 3
-      - RELAYl 4
-      - RELAY- 5
-      - RELAY-Ol 6
-      - RELAY-l 7
       - _US_美国 3
+      - RELAY- 5
+      - _JP_日本_18
+      - CA-l 7
+      - 波兰2
+      - _US_美国_35
+      - _PL_波兰_27
+      - _PL_波兰_21
+      - RELAYl 4
+      - CA-l 2
+      - CA-l 5
+      - CA-l 6
+      - CA-l 8
+      - RELAY-Ol 6
+      - CA-l
+      - RELAY-l 6 2
+      - _GB_英国_17
+      - _GB_英国_16
+      - CA-l 3
+      - RELAY- 5 2
+      - _DE_德国_47
+      - _DE_德国_46
+      - _DE_德国_49
+      - _DE_德国_50
+      - DE2
+      - _DE_德国_48
+      - _DE_德国_5
+      - US3
+      - _DE_德国_15
+      - _DE_德国_45
+      - UK2
+      - _US_美国_39
+      - RELAY-l
+      - RELAY-l 7
+      - US-l 5 2
+      - AU2
+      - _US_美国_34
+      - US-ml 2
+      - US-l 7
+      - RELAY-l 3
+      - CAl 4
+      - RELAY-l 7 2
+      - US-l 5
+      - US2
+      - US-l 6
+      - RELAY-l 3 2
+      - "[🇨🇳][SS][中]"
+      - "[🇨🇦][SS][加]"
+      - "[🇨🇦][SS][加] 2"
+      - "[🇬🇧][SS][寻]"
+      - "[🇬🇧][SS][寻] 2"
+      - "[🇨🇦][SS][加] 3"
+      - "[🇺🇸][SS][美]"
+      - "[🇺🇸][SS][美] 2"
+      - CA-Openit.ml
+      - "[🇯🇵][SS][日]"
+      - CA-Openit.ml 2
+      - "[🇵🇱][SS][寻]"
+      - CA-Openit.ml 3
+      - "[🇨🇦][SS][加] 4"
+      - "[🇨🇦][SS][加] 5"
+      - "[🇨🇦][SS][加] 6"
+      - "[🇵🇱][SS][寻] 2"
+      - "[🇨🇦][SS][加] 7"
+      - "[🇵🇱][SS][寻] 3"
+      - "[🇨🇦][SS][加] 8"
+      - CA-Openit.ml 4
+      - CA-Openit.ml 5
+      - "[🇨🇦][SS][加] 9"
+      - "[🇩🇪][SS][寻]"
+      - AU-
+      - 澳大利亚
+      - US-l 14
+      - JP-l
+      - FR-l
+      - IN-l
+      - US- 13
+      - JP- 2
+      - GB-l 3
+      - US- 8
+      - GB-l 2
+      - SG- 3
+      - RO-l
+      - KR-l
       - JP-l 2
       - SG-l 2
-      - SG- 3
-      - US- 13
-      - GB-l 2
-      - GB-l 3
-      - US-l 14
       - IN-l 2 2
+      - 新加坡 2
       - US-l 11 2
-      - RO-l
-      - RELAY-l 3 2
-      - RELAY-l 4 2
-      - RELAY- 5 2
-      - RELAY-l 6 2
-      - US-l 5 2
-      - RELAY-l 7 2
+      - US-l
+      - "[Trojan]"
+      - IN-Openit.ml
+      - HK-Openit.ml
+      - IN-Openit.ml 2
+      - SG-Openit.ml
+      - JP-Openit.ml
+      - AU-Openit.ml
+      - GB-Openit.ml
+      - FR-Openit.ml
+      - JP-Openit.ml 2
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - JP-Openit.ml 3
+      - "[SSR] 2"
+      - "[SSR] 4"
+      - "[SSR] 3"
+      - "[SSR]"
+      - "[SSR] 5"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港-
-      - 香港- 2
-      - 香港-t 3
-      - 香港-4
-      - 香港-t 5
-      - 香港- 6
-      - 香港2 7
-      - 香港- 8
-      - 香港-t 9
-      - 香港- 10
-      - 香港- 11
-      - 香港- 12
-      - 香港-t 13
-      - 香港- 14
-      - 香港- 15
-      - 香港- 16
-      - 香港-17
-      - 香港- 18
-      - 香港 19
-      - 香港 20
-      - 香港-tg 21
-      - 香港-t22
-      - 香港- 23
-      - 香港- 24
-      - 香港 25
-      - 香港- 26
-      - 香港- 27
-      - 香港 28
-      - 香港- 29
-      - 香港- 30
-      - 香港- 31
-      - 香港- 32
-      - 香港-t 33
-      - 香港-t34
-      - 香港 35
-      - 香港- 36
-      - 香港-t 37
-      - 香港-t 38
-      - 香港-t 39
-      - 香港- 40
-      - 香港-2 41
-      - 香港-2 42
-      - 香港-t 43
-      - 香港-t 44
-      - 香港-tg2 45
-      - 香港-t2 46
-      - 香港-tg 47
-      - 香港-tg 48
-      - 香港-t2 49
-      - 香港-2 50
-      - 香港-2 51
-      - 香港-tg2 52
-      - 香港- 53
-      - 香港- 54
-      - 香港-tg2 55
-      - 香港-2 56
-      - 香港-t 57
-      - 香港-2 58
-      - 香港-t 59
-      - 香港-2 60
-      - 香港-t2 61
-      - 香港- 62
-      - 香港-t2 63
-      - 香港 64
-      - 香港-】 65
-      - 香港-】66
-      - 香港-69
-      - 香港-70
-      - 香港- 71
-      - 台湾-t
-      - 台湾- 2
-      - 台湾-t 3
-      - 台湾- 4
-      - 台湾-t5
-      - 台湾-2 6
-      - 台湾-7
-      - 台湾- 8
-      - 台湾-t 9
-      - 台湾-t 10
-      - 香港3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 洛杉矶
-      - 洛杉矶 2
-      - 洛杉矶 3
-      - 洛杉矶 4
-      - 洛杉矶 5
-      - 洛杉矶 6
-      - 洛杉矶 7
-      - 洛杉矶- 8
-      - 首尔
-      - 首尔 2
-      - 首尔-2 3
-      - 首尔-t2 4
-      - 首尔- 5
-      - 首尔- 6
-      - 首尔- 7
-      - 首尔-t8
-      - 首尔 9
-      - 首尔- 10
-      - 新加坡
-      - 新加坡-2
-      - 新加坡- 3
-      - 新加坡 4
-      - 新加坡-t 5
-      - 新加坡- 6
-      - 新加坡7
-      - 新加坡 8
-      - 新加坡 9
-      - 新加坡- 10
-      - 新加坡- 11
-      - 新加坡-t12
-      - 新加坡-13
-      - 新加坡 14
-      - 新加坡-t 15
-      - 新加坡- 16
-      - 新加坡- 17
-      - 新加坡- 18
-      - 新加坡- 19
-      - 新加坡-20
-      - 新加坡- 21
-      - 新加坡-t2 22
-      - 新加坡- 23
-      - 新加坡-t 24
-      - 新加坡- 25
-      - 新加坡 26
-      - 新加坡-2 27
-      - 新加坡- 28
-      - 新加坡-29
-      - 新加坡2 30
-      - 新加坡-31
-      - 新加坡- 32
-      - 新加坡 33
-      - 新加坡-2 34
-      - 新加坡-35
-      - 新加坡- 36
-      - 新加坡-t 37
-      - 新加坡 38
-      - 新加坡-2 39
-      - 新加坡- 40
-      - 新加坡- 41
-      - 新加坡 42
-      - 新加坡-t2 43
-      - 新加坡 44
-      - 新加坡- 45
-      - 新加坡2 46
-      - 新加坡2 47
-      - 新加坡-2 48
-      - 新加坡2 49
-      - 新加坡50
-      - 新加坡- 51
-      - 新加坡- 52
-      - 新加坡- 53
-      - 新加坡 54
-      - 香港-
-      - 香港- 2
-      - 香港-t 3
-      - 香港-4
-      - 香港-t 5
-      - 香港- 6
-      - 香港2 7
-      - 香港- 8
-      - 香港-t 9
-      - 香港- 10
-      - 香港- 11
-      - 香港- 12
-      - 香港-t 13
-      - 香港- 14
-      - 香港- 15
-      - 香港- 16
-      - 香港-17
-      - 香港- 18
-      - 香港 19
-      - 香港 20
-      - 香港-tg 21
-      - 香港-t22
-      - 香港- 23
-      - 香港- 24
-      - 香港 25
-      - 香港- 26
-      - 香港- 27
-      - 香港 28
-      - 香港- 29
-      - 香港- 30
-      - 香港- 31
-      - 香港- 32
-      - 香港-t 33
-      - 香港-t34
-      - 香港 35
-      - 香港- 36
-      - 香港-t 37
-      - 香港-t 38
-      - 香港-t 39
-      - 香港- 40
-      - 香港-2 41
-      - 香港-2 42
-      - 香港-t 43
-      - 香港-t 44
-      - 香港-tg2 45
-      - 香港-t2 46
-      - 香港-tg 47
-      - 香港-tg 48
-      - 香港-t2 49
-      - 香港-2 50
-      - 香港-2 51
-      - 香港-tg2 52
-      - 香港- 53
-      - 香港- 54
-      - 香港-tg2 55
-      - 香港-2 56
-      - 香港-t 57
-      - 香港-2 58
-      - 香港-t 59
-      - 香港-2 60
-      - 香港-t2 61
-      - 香港- 62
-      - 香港-t2 63
-      - 香港 64
-      - 香港-】 65
-      - 香港-】66
-      - 香港-69
-      - 香港-70
-      - 香港- 71
-      - 台湾-t
-      - 台湾- 2
-      - 台湾-t 3
-      - 台湾- 4
-      - 台湾-t5
-      - 台湾-2 6
-      - 台湾-7
-      - 台湾- 8
-      - 台湾-t 9
-      - 台湾-t 10
-      - 德国-2
-      - 加利福尼亚-
-      - 菲律宾-
-      - 东京-
-      - 东京 2
-      - 东京- 3
-      - 东京- 4
-      - 东京 5
-      - 加拿大2
-      - 加利福尼亚- 2
-      - 加利福尼亚- 3
-      - _US_美国_35
-      - _PL_波兰_21
-      - _US_美国_39
-      - _GB_英国_16
-      - _PL_波兰_23
-      - _PL_波兰_27
-      - _US_美国_34
-      - _GB_英国_17
-      - _DE_德国_48
-      - _JP_日本_18
-      - RELAY-l
-      - _DE_德国_15
-      - _DE_德国_46
-      - _DE_德国_47
-      - _DE_德国_49
-      - _DE_德国_5
-      - _DE_德国_45
-      - _DE_德国_50
-      - _AU_澳大利亚_12
-      - US-l
-      - FR-l
-      - 新加坡 2
-      - 澳大利亚
-      - "[Trojan]"
-      - AU-
-      - 澳大利亚 2
-      - IN-l
-      - JP-l
-      - 马来西亚)
-      - 香港3
-      - KR-l
-      - JP- 2
-      - JP- 3
-      - IN- 2
-      - JP-l 4
-      - "[SSR]"
-      - "[SSR] 2"
-      - "[SSR] 3"
-      - "[SSR] 4"
-      - "[SSR] 5"
-      - CA-l
-      - CA-l 2
-      - CA-l 3
-      - CAl 4
-      - CA-l 5
-      - CA-l 6
-      - CA-l 7
-      - CA-l 8
-      - US-ml 2
-      - US-l 2 2
       - US-l 3
       - US-l 4
-      - US-l 5
-      - US-l 6
-      - US-l 7
-      - US- 8
-      - US-l 9
-      - 波兰
-      - UK2
-      - US2
-      - 波兰2
-      - 波兰3
-      - DE2
-      - AU
-      - AU2
-      - US3
-      - RELAY-l 3
-      - RELAYl 4
-      - RELAY- 5
-      - RELAY-Ol 6
-      - RELAY-l 7
       - _US_美国 3
+      - RELAY- 5
+      - _JP_日本_18
+      - CA-l 7
+      - 波兰2
+      - _US_美国_35
+      - _PL_波兰_27
+      - _PL_波兰_21
+      - RELAYl 4
+      - CA-l 2
+      - CA-l 5
+      - CA-l 6
+      - CA-l 8
+      - RELAY-Ol 6
+      - CA-l
+      - RELAY-l 6 2
+      - _GB_英国_17
+      - _GB_英国_16
+      - CA-l 3
+      - RELAY- 5 2
+      - _DE_德国_47
+      - _DE_德国_46
+      - _DE_德国_49
+      - _DE_德国_50
+      - DE2
+      - _DE_德国_48
+      - _DE_德国_5
+      - US3
+      - _DE_德国_15
+      - _DE_德国_45
+      - UK2
+      - _US_美国_39
+      - RELAY-l
+      - RELAY-l 7
+      - US-l 5 2
+      - AU2
+      - _US_美国_34
+      - US-ml 2
+      - US-l 7
+      - RELAY-l 3
+      - CAl 4
+      - RELAY-l 7 2
+      - US-l 5
+      - US2
+      - US-l 6
+      - RELAY-l 3 2
+      - "[🇨🇳][SS][中]"
+      - "[🇨🇦][SS][加]"
+      - "[🇨🇦][SS][加] 2"
+      - "[🇬🇧][SS][寻]"
+      - "[🇬🇧][SS][寻] 2"
+      - "[🇨🇦][SS][加] 3"
+      - "[🇺🇸][SS][美]"
+      - "[🇺🇸][SS][美] 2"
+      - CA-Openit.ml
+      - "[🇯🇵][SS][日]"
+      - CA-Openit.ml 2
+      - "[🇵🇱][SS][寻]"
+      - CA-Openit.ml 3
+      - "[🇨🇦][SS][加] 4"
+      - "[🇨🇦][SS][加] 5"
+      - "[🇨🇦][SS][加] 6"
+      - "[🇵🇱][SS][寻] 2"
+      - "[🇨🇦][SS][加] 7"
+      - "[🇵🇱][SS][寻] 3"
+      - "[🇨🇦][SS][加] 8"
+      - CA-Openit.ml 4
+      - CA-Openit.ml 5
+      - "[🇨🇦][SS][加] 9"
+      - "[🇩🇪][SS][寻]"
+      - AU-
+      - 澳大利亚
+      - US-l 14
+      - JP-l
+      - FR-l
+      - IN-l
+      - US- 13
+      - JP- 2
+      - GB-l 3
+      - US- 8
+      - GB-l 2
+      - SG- 3
+      - RO-l
+      - KR-l
       - JP-l 2
       - SG-l 2
-      - SG- 3
-      - US- 13
-      - GB-l 2
-      - GB-l 3
-      - US-l 14
       - IN-l 2 2
+      - 新加坡 2
       - US-l 11 2
-      - RO-l
-      - RELAY-l 3 2
-      - RELAY-l 4 2
-      - RELAY- 5 2
-      - RELAY-l 6 2
-      - US-l 5 2
-      - RELAY-l 7 2
+      - US-l
+      - "[Trojan]"
+      - IN-Openit.ml
+      - HK-Openit.ml
+      - IN-Openit.ml 2
+      - SG-Openit.ml
+      - JP-Openit.ml
+      - AU-Openit.ml
+      - GB-Openit.ml
+      - FR-Openit.ml
+      - JP-Openit.ml 2
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - JP-Openit.ml 3
+      - "[SSR] 2"
+      - "[SSR] 4"
+      - "[SSR] 3"
+      - "[SSR]"
+      - "[SSR] 5"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 洛杉矶
-      - 洛杉矶 2
-      - 洛杉矶 3
-      - 洛杉矶 4
-      - 洛杉矶 5
-      - 洛杉矶 6
-      - 洛杉矶 7
-      - 洛杉矶- 8
-      - 首尔
-      - 首尔 2
-      - 首尔-2 3
-      - 首尔-t2 4
-      - 首尔- 5
-      - 首尔- 6
-      - 首尔- 7
-      - 首尔-t8
-      - 首尔 9
-      - 首尔- 10
-      - 新加坡
-      - 新加坡-2
-      - 新加坡- 3
-      - 新加坡 4
-      - 新加坡-t 5
-      - 新加坡- 6
-      - 新加坡7
-      - 新加坡 8
-      - 新加坡 9
-      - 新加坡- 10
-      - 新加坡- 11
-      - 新加坡-t12
-      - 新加坡-13
-      - 新加坡 14
-      - 新加坡-t 15
-      - 新加坡- 16
-      - 新加坡- 17
-      - 新加坡- 18
-      - 新加坡- 19
-      - 新加坡-20
-      - 新加坡- 21
-      - 新加坡-t2 22
-      - 新加坡- 23
-      - 新加坡-t 24
-      - 新加坡- 25
-      - 新加坡 26
-      - 新加坡-2 27
-      - 新加坡- 28
-      - 新加坡-29
-      - 新加坡2 30
-      - 新加坡-31
-      - 新加坡- 32
-      - 新加坡 33
-      - 新加坡-2 34
-      - 新加坡-35
-      - 新加坡- 36
-      - 新加坡-t 37
-      - 新加坡 38
-      - 新加坡-2 39
-      - 新加坡- 40
-      - 新加坡- 41
-      - 新加坡 42
-      - 新加坡-t2 43
-      - 新加坡 44
-      - 新加坡- 45
-      - 新加坡2 46
-      - 新加坡2 47
-      - 新加坡-2 48
-      - 新加坡2 49
-      - 新加坡50
-      - 新加坡- 51
-      - 新加坡- 52
-      - 新加坡- 53
-      - 新加坡 54
-      - 香港-
-      - 香港- 2
-      - 香港-t 3
-      - 香港-4
-      - 香港-t 5
-      - 香港- 6
-      - 香港2 7
-      - 香港- 8
-      - 香港-t 9
-      - 香港- 10
-      - 香港- 11
-      - 香港- 12
-      - 香港-t 13
-      - 香港- 14
-      - 香港- 15
-      - 香港- 16
-      - 香港-17
-      - 香港- 18
-      - 香港 19
-      - 香港 20
-      - 香港-tg 21
-      - 香港-t22
-      - 香港- 23
-      - 香港- 24
-      - 香港 25
-      - 香港- 26
-      - 香港- 27
-      - 香港 28
-      - 香港- 29
-      - 香港- 30
-      - 香港- 31
-      - 香港- 32
-      - 香港-t 33
-      - 香港-t34
-      - 香港 35
-      - 香港- 36
-      - 香港-t 37
-      - 香港-t 38
-      - 香港-t 39
-      - 香港- 40
-      - 香港-2 41
-      - 香港-2 42
-      - 香港-t 43
-      - 香港-t 44
-      - 香港-tg2 45
-      - 香港-t2 46
-      - 香港-tg 47
-      - 香港-tg 48
-      - 香港-t2 49
-      - 香港-2 50
-      - 香港-2 51
-      - 香港-tg2 52
-      - 香港- 53
-      - 香港- 54
-      - 香港-tg2 55
-      - 香港-2 56
-      - 香港-t 57
-      - 香港-2 58
-      - 香港-t 59
-      - 香港-2 60
-      - 香港-t2 61
-      - 香港- 62
-      - 香港-t2 63
-      - 香港 64
-      - 香港-】 65
-      - 香港-】66
-      - 香港-69
-      - 香港-70
-      - 香港- 71
-      - 台湾-t
-      - 台湾- 2
-      - 台湾-t 3
-      - 台湾- 4
-      - 台湾-t5
-      - 台湾-2 6
-      - 台湾-7
-      - 台湾- 8
-      - 台湾-t 9
-      - 台湾-t 10
-      - 德国-2
-      - 加利福尼亚-
-      - 菲律宾-
-      - 东京-
-      - 东京 2
-      - 东京- 3
-      - 东京- 4
-      - 东京 5
-      - 加拿大2
-      - 加利福尼亚- 2
-      - 加利福尼亚- 3
-      - _US_美国_35
-      - _PL_波兰_21
-      - _US_美国_39
-      - _GB_英国_16
-      - _PL_波兰_23
-      - _PL_波兰_27
-      - _US_美国_34
-      - _GB_英国_17
-      - _DE_德国_48
-      - _JP_日本_18
-      - RELAY-l
-      - _DE_德国_15
-      - _DE_德国_46
-      - _DE_德国_47
-      - _DE_德国_49
-      - _DE_德国_5
-      - _DE_德国_45
-      - _DE_德国_50
-      - _AU_澳大利亚_12
-      - US-l
-      - FR-l
-      - 新加坡 2
-      - 澳大利亚
-      - "[Trojan]"
-      - AU-
-      - 澳大利亚 2
-      - IN-l
-      - JP-l
-      - 马来西亚)
-      - 香港3
-      - KR-l
-      - JP- 2
-      - JP- 3
-      - IN- 2
-      - JP-l 4
-      - "[SSR]"
-      - "[SSR] 2"
-      - "[SSR] 3"
-      - "[SSR] 4"
-      - "[SSR] 5"
-      - CA-l
-      - CA-l 2
-      - CA-l 3
-      - CAl 4
-      - CA-l 5
-      - CA-l 6
-      - CA-l 7
-      - CA-l 8
-      - US-ml 2
-      - US-l 2 2
       - US-l 3
       - US-l 4
-      - US-l 5
-      - US-l 6
-      - US-l 7
-      - US- 8
-      - US-l 9
-      - 波兰
-      - UK2
-      - US2
-      - 波兰2
-      - 波兰3
-      - DE2
-      - AU
-      - AU2
-      - US3
-      - RELAY-l 3
-      - RELAYl 4
-      - RELAY- 5
-      - RELAY-Ol 6
-      - RELAY-l 7
       - _US_美国 3
+      - RELAY- 5
+      - _JP_日本_18
+      - CA-l 7
+      - 波兰2
+      - _US_美国_35
+      - _PL_波兰_27
+      - _PL_波兰_21
+      - RELAYl 4
+      - CA-l 2
+      - CA-l 5
+      - CA-l 6
+      - CA-l 8
+      - RELAY-Ol 6
+      - CA-l
+      - RELAY-l 6 2
+      - _GB_英国_17
+      - _GB_英国_16
+      - CA-l 3
+      - RELAY- 5 2
+      - _DE_德国_47
+      - _DE_德国_46
+      - _DE_德国_49
+      - _DE_德国_50
+      - DE2
+      - _DE_德国_48
+      - _DE_德国_5
+      - US3
+      - _DE_德国_15
+      - _DE_德国_45
+      - UK2
+      - _US_美国_39
+      - RELAY-l
+      - RELAY-l 7
+      - US-l 5 2
+      - AU2
+      - _US_美国_34
+      - US-ml 2
+      - US-l 7
+      - RELAY-l 3
+      - CAl 4
+      - RELAY-l 7 2
+      - US-l 5
+      - US2
+      - US-l 6
+      - RELAY-l 3 2
+      - "[🇨🇳][SS][中]"
+      - "[🇨🇦][SS][加]"
+      - "[🇨🇦][SS][加] 2"
+      - "[🇬🇧][SS][寻]"
+      - "[🇬🇧][SS][寻] 2"
+      - "[🇨🇦][SS][加] 3"
+      - "[🇺🇸][SS][美]"
+      - "[🇺🇸][SS][美] 2"
+      - CA-Openit.ml
+      - "[🇯🇵][SS][日]"
+      - CA-Openit.ml 2
+      - "[🇵🇱][SS][寻]"
+      - CA-Openit.ml 3
+      - "[🇨🇦][SS][加] 4"
+      - "[🇨🇦][SS][加] 5"
+      - "[🇨🇦][SS][加] 6"
+      - "[🇵🇱][SS][寻] 2"
+      - "[🇨🇦][SS][加] 7"
+      - "[🇵🇱][SS][寻] 3"
+      - "[🇨🇦][SS][加] 8"
+      - CA-Openit.ml 4
+      - CA-Openit.ml 5
+      - "[🇨🇦][SS][加] 9"
+      - "[🇩🇪][SS][寻]"
+      - AU-
+      - 澳大利亚
+      - US-l 14
+      - JP-l
+      - FR-l
+      - IN-l
+      - US- 13
+      - JP- 2
+      - GB-l 3
+      - US- 8
+      - GB-l 2
+      - SG- 3
+      - RO-l
+      - KR-l
       - JP-l 2
       - SG-l 2
-      - SG- 3
-      - US- 13
-      - GB-l 2
-      - GB-l 3
-      - US-l 14
       - IN-l 2 2
+      - 新加坡 2
       - US-l 11 2
-      - RO-l
-      - RELAY-l 3 2
-      - RELAY-l 4 2
-      - RELAY- 5 2
-      - RELAY-l 6 2
-      - US-l 5 2
-      - RELAY-l 7 2
+      - US-l
+      - "[Trojan]"
+      - IN-Openit.ml
+      - HK-Openit.ml
+      - IN-Openit.ml 2
+      - SG-Openit.ml
+      - JP-Openit.ml
+      - AU-Openit.ml
+      - GB-Openit.ml
+      - FR-Openit.ml
+      - JP-Openit.ml 2
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - JP-Openit.ml 3
+      - "[SSR] 2"
+      - "[SSR] 4"
+      - "[SSR] 3"
+      - "[SSR]"
+      - "[SSR] 5"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 洛杉矶
-      - 洛杉矶 2
-      - 洛杉矶 3
-      - 洛杉矶 4
-      - 洛杉矶 5
-      - 洛杉矶 6
-      - 洛杉矶 7
-      - 洛杉矶- 8
-      - 首尔
-      - 首尔 2
-      - 首尔-2 3
-      - 首尔-t2 4
-      - 首尔- 5
-      - 首尔- 6
-      - 首尔- 7
-      - 首尔-t8
-      - 首尔 9
-      - 首尔- 10
-      - 新加坡
-      - 新加坡-2
-      - 新加坡- 3
-      - 新加坡 4
-      - 新加坡-t 5
-      - 新加坡- 6
-      - 新加坡7
-      - 新加坡 8
-      - 新加坡 9
-      - 新加坡- 10
-      - 新加坡- 11
-      - 新加坡-t12
-      - 新加坡-13
-      - 新加坡 14
-      - 新加坡-t 15
-      - 新加坡- 16
-      - 新加坡- 17
-      - 新加坡- 18
-      - 新加坡- 19
-      - 新加坡-20
-      - 新加坡- 21
-      - 新加坡-t2 22
-      - 新加坡- 23
-      - 新加坡-t 24
-      - 新加坡- 25
-      - 新加坡 26
-      - 新加坡-2 27
-      - 新加坡- 28
-      - 新加坡-29
-      - 新加坡2 30
-      - 新加坡-31
-      - 新加坡- 32
-      - 新加坡 33
-      - 新加坡-2 34
-      - 新加坡-35
-      - 新加坡- 36
-      - 新加坡-t 37
-      - 新加坡 38
-      - 新加坡-2 39
-      - 新加坡- 40
-      - 新加坡- 41
-      - 新加坡 42
-      - 新加坡-t2 43
-      - 新加坡 44
-      - 新加坡- 45
-      - 新加坡2 46
-      - 新加坡2 47
-      - 新加坡-2 48
-      - 新加坡2 49
-      - 新加坡50
-      - 新加坡- 51
-      - 新加坡- 52
-      - 新加坡- 53
-      - 新加坡 54
-      - 香港-
-      - 香港- 2
-      - 香港-t 3
-      - 香港-4
-      - 香港-t 5
-      - 香港- 6
-      - 香港2 7
-      - 香港- 8
-      - 香港-t 9
-      - 香港- 10
-      - 香港- 11
-      - 香港- 12
-      - 香港-t 13
-      - 香港- 14
-      - 香港- 15
-      - 香港- 16
-      - 香港-17
-      - 香港- 18
-      - 香港 19
-      - 香港 20
-      - 香港-tg 21
-      - 香港-t22
-      - 香港- 23
-      - 香港- 24
-      - 香港 25
-      - 香港- 26
-      - 香港- 27
-      - 香港 28
-      - 香港- 29
-      - 香港- 30
-      - 香港- 31
-      - 香港- 32
-      - 香港-t 33
-      - 香港-t34
-      - 香港 35
-      - 香港- 36
-      - 香港-t 37
-      - 香港-t 38
-      - 香港-t 39
-      - 香港- 40
-      - 香港-2 41
-      - 香港-2 42
-      - 香港-t 43
-      - 香港-t 44
-      - 香港-tg2 45
-      - 香港-t2 46
-      - 香港-tg 47
-      - 香港-tg 48
-      - 香港-t2 49
-      - 香港-2 50
-      - 香港-2 51
-      - 香港-tg2 52
-      - 香港- 53
-      - 香港- 54
-      - 香港-tg2 55
-      - 香港-2 56
-      - 香港-t 57
-      - 香港-2 58
-      - 香港-t 59
-      - 香港-2 60
-      - 香港-t2 61
-      - 香港- 62
-      - 香港-t2 63
-      - 香港 64
-      - 香港-】 65
-      - 香港-】66
-      - 香港-69
-      - 香港-70
-      - 香港- 71
-      - 台湾-t
-      - 台湾- 2
-      - 台湾-t 3
-      - 台湾- 4
-      - 台湾-t5
-      - 台湾-2 6
-      - 台湾-7
-      - 台湾- 8
-      - 台湾-t 9
-      - 台湾-t 10
-      - 德国-2
-      - 加利福尼亚-
-      - 菲律宾-
-      - 东京-
-      - 东京 2
-      - 东京- 3
-      - 东京- 4
-      - 东京 5
-      - 加拿大2
-      - 加利福尼亚- 2
-      - 加利福尼亚- 3
-      - _US_美国_35
-      - _PL_波兰_21
-      - _US_美国_39
-      - _GB_英国_16
-      - _PL_波兰_23
-      - _PL_波兰_27
-      - _US_美国_34
-      - _GB_英国_17
-      - _DE_德国_48
-      - _JP_日本_18
-      - RELAY-l
-      - _DE_德国_15
-      - _DE_德国_46
-      - _DE_德国_47
-      - _DE_德国_49
-      - _DE_德国_5
-      - _DE_德国_45
-      - _DE_德国_50
-      - _AU_澳大利亚_12
-      - US-l
-      - FR-l
-      - 新加坡 2
-      - 澳大利亚
-      - "[Trojan]"
-      - AU-
-      - 澳大利亚 2
-      - IN-l
-      - JP-l
-      - 马来西亚)
-      - 香港3
-      - KR-l
-      - JP- 2
-      - JP- 3
-      - IN- 2
-      - JP-l 4
-      - "[SSR]"
-      - "[SSR] 2"
-      - "[SSR] 3"
-      - "[SSR] 4"
-      - "[SSR] 5"
-      - CA-l
-      - CA-l 2
-      - CA-l 3
-      - CAl 4
-      - CA-l 5
-      - CA-l 6
-      - CA-l 7
-      - CA-l 8
-      - US-ml 2
-      - US-l 2 2
       - US-l 3
       - US-l 4
-      - US-l 5
-      - US-l 6
-      - US-l 7
-      - US- 8
-      - US-l 9
-      - 波兰
-      - UK2
-      - US2
-      - 波兰2
-      - 波兰3
-      - DE2
-      - AU
-      - AU2
-      - US3
-      - RELAY-l 3
-      - RELAYl 4
-      - RELAY- 5
-      - RELAY-Ol 6
-      - RELAY-l 7
       - _US_美国 3
+      - RELAY- 5
+      - _JP_日本_18
+      - CA-l 7
+      - 波兰2
+      - _US_美国_35
+      - _PL_波兰_27
+      - _PL_波兰_21
+      - RELAYl 4
+      - CA-l 2
+      - CA-l 5
+      - CA-l 6
+      - CA-l 8
+      - RELAY-Ol 6
+      - CA-l
+      - RELAY-l 6 2
+      - _GB_英国_17
+      - _GB_英国_16
+      - CA-l 3
+      - RELAY- 5 2
+      - _DE_德国_47
+      - _DE_德国_46
+      - _DE_德国_49
+      - _DE_德国_50
+      - DE2
+      - _DE_德国_48
+      - _DE_德国_5
+      - US3
+      - _DE_德国_15
+      - _DE_德国_45
+      - UK2
+      - _US_美国_39
+      - RELAY-l
+      - RELAY-l 7
+      - US-l 5 2
+      - AU2
+      - _US_美国_34
+      - US-ml 2
+      - US-l 7
+      - RELAY-l 3
+      - CAl 4
+      - RELAY-l 7 2
+      - US-l 5
+      - US2
+      - US-l 6
+      - RELAY-l 3 2
+      - "[🇨🇳][SS][中]"
+      - "[🇨🇦][SS][加]"
+      - "[🇨🇦][SS][加] 2"
+      - "[🇬🇧][SS][寻]"
+      - "[🇬🇧][SS][寻] 2"
+      - "[🇨🇦][SS][加] 3"
+      - "[🇺🇸][SS][美]"
+      - "[🇺🇸][SS][美] 2"
+      - CA-Openit.ml
+      - "[🇯🇵][SS][日]"
+      - CA-Openit.ml 2
+      - "[🇵🇱][SS][寻]"
+      - CA-Openit.ml 3
+      - "[🇨🇦][SS][加] 4"
+      - "[🇨🇦][SS][加] 5"
+      - "[🇨🇦][SS][加] 6"
+      - "[🇵🇱][SS][寻] 2"
+      - "[🇨🇦][SS][加] 7"
+      - "[🇵🇱][SS][寻] 3"
+      - "[🇨🇦][SS][加] 8"
+      - CA-Openit.ml 4
+      - CA-Openit.ml 5
+      - "[🇨🇦][SS][加] 9"
+      - "[🇩🇪][SS][寻]"
+      - AU-
+      - 澳大利亚
+      - US-l 14
+      - JP-l
+      - FR-l
+      - IN-l
+      - US- 13
+      - JP- 2
+      - GB-l 3
+      - US- 8
+      - GB-l 2
+      - SG- 3
+      - RO-l
+      - KR-l
       - JP-l 2
       - SG-l 2
-      - SG- 3
-      - US- 13
-      - GB-l 2
-      - GB-l 3
-      - US-l 14
       - IN-l 2 2
+      - 新加坡 2
       - US-l 11 2
-      - RO-l
-      - RELAY-l 3 2
-      - RELAY-l 4 2
-      - RELAY- 5 2
-      - RELAY-l 6 2
-      - US-l 5 2
-      - RELAY-l 7 2
+      - US-l
+      - "[Trojan]"
+      - IN-Openit.ml
+      - HK-Openit.ml
+      - IN-Openit.ml 2
+      - SG-Openit.ml
+      - JP-Openit.ml
+      - AU-Openit.ml
+      - GB-Openit.ml
+      - FR-Openit.ml
+      - JP-Openit.ml 2
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - JP-Openit.ml 3
+      - "[SSR] 2"
+      - "[SSR] 4"
+      - "[SSR] 3"
+      - "[SSR]"
+      - "[SSR] 5"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2156,256 +964,117 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 洛杉矶
-      - 洛杉矶 2
-      - 洛杉矶 3
-      - 洛杉矶 4
-      - 洛杉矶 5
-      - 洛杉矶 6
-      - 洛杉矶 7
-      - 洛杉矶- 8
-      - 首尔
-      - 首尔 2
-      - 首尔-2 3
-      - 首尔-t2 4
-      - 首尔- 5
-      - 首尔- 6
-      - 首尔- 7
-      - 首尔-t8
-      - 首尔 9
-      - 首尔- 10
-      - 新加坡
-      - 新加坡-2
-      - 新加坡- 3
-      - 新加坡 4
-      - 新加坡-t 5
-      - 新加坡- 6
-      - 新加坡7
-      - 新加坡 8
-      - 新加坡 9
-      - 新加坡- 10
-      - 新加坡- 11
-      - 新加坡-t12
-      - 新加坡-13
-      - 新加坡 14
-      - 新加坡-t 15
-      - 新加坡- 16
-      - 新加坡- 17
-      - 新加坡- 18
-      - 新加坡- 19
-      - 新加坡-20
-      - 新加坡- 21
-      - 新加坡-t2 22
-      - 新加坡- 23
-      - 新加坡-t 24
-      - 新加坡- 25
-      - 新加坡 26
-      - 新加坡-2 27
-      - 新加坡- 28
-      - 新加坡-29
-      - 新加坡2 30
-      - 新加坡-31
-      - 新加坡- 32
-      - 新加坡 33
-      - 新加坡-2 34
-      - 新加坡-35
-      - 新加坡- 36
-      - 新加坡-t 37
-      - 新加坡 38
-      - 新加坡-2 39
-      - 新加坡- 40
-      - 新加坡- 41
-      - 新加坡 42
-      - 新加坡-t2 43
-      - 新加坡 44
-      - 新加坡- 45
-      - 新加坡2 46
-      - 新加坡2 47
-      - 新加坡-2 48
-      - 新加坡2 49
-      - 新加坡50
-      - 新加坡- 51
-      - 新加坡- 52
-      - 新加坡- 53
-      - 新加坡 54
-      - 香港-
-      - 香港- 2
-      - 香港-t 3
-      - 香港-4
-      - 香港-t 5
-      - 香港- 6
-      - 香港2 7
-      - 香港- 8
-      - 香港-t 9
-      - 香港- 10
-      - 香港- 11
-      - 香港- 12
-      - 香港-t 13
-      - 香港- 14
-      - 香港- 15
-      - 香港- 16
-      - 香港-17
-      - 香港- 18
-      - 香港 19
-      - 香港 20
-      - 香港-tg 21
-      - 香港-t22
-      - 香港- 23
-      - 香港- 24
-      - 香港 25
-      - 香港- 26
-      - 香港- 27
-      - 香港 28
-      - 香港- 29
-      - 香港- 30
-      - 香港- 31
-      - 香港- 32
-      - 香港-t 33
-      - 香港-t34
-      - 香港 35
-      - 香港- 36
-      - 香港-t 37
-      - 香港-t 38
-      - 香港-t 39
-      - 香港- 40
-      - 香港-2 41
-      - 香港-2 42
-      - 香港-t 43
-      - 香港-t 44
-      - 香港-tg2 45
-      - 香港-t2 46
-      - 香港-tg 47
-      - 香港-tg 48
-      - 香港-t2 49
-      - 香港-2 50
-      - 香港-2 51
-      - 香港-tg2 52
-      - 香港- 53
-      - 香港- 54
-      - 香港-tg2 55
-      - 香港-2 56
-      - 香港-t 57
-      - 香港-2 58
-      - 香港-t 59
-      - 香港-2 60
-      - 香港-t2 61
-      - 香港- 62
-      - 香港-t2 63
-      - 香港 64
-      - 香港-】 65
-      - 香港-】66
-      - 香港-69
-      - 香港-70
-      - 香港- 71
-      - 台湾-t
-      - 台湾- 2
-      - 台湾-t 3
-      - 台湾- 4
-      - 台湾-t5
-      - 台湾-2 6
-      - 台湾-7
-      - 台湾- 8
-      - 台湾-t 9
-      - 台湾-t 10
-      - 德国-2
-      - 加利福尼亚-
-      - 菲律宾-
-      - 东京-
-      - 东京 2
-      - 东京- 3
-      - 东京- 4
-      - 东京 5
-      - 加拿大2
-      - 加利福尼亚- 2
-      - 加利福尼亚- 3
-      - _US_美国_35
-      - _PL_波兰_21
-      - _US_美国_39
-      - _GB_英国_16
-      - _PL_波兰_23
-      - _PL_波兰_27
-      - _US_美国_34
-      - _GB_英国_17
-      - _DE_德国_48
-      - _JP_日本_18
-      - RELAY-l
-      - _DE_德国_15
-      - _DE_德国_46
-      - _DE_德国_47
-      - _DE_德国_49
-      - _DE_德国_5
-      - _DE_德国_45
-      - _DE_德国_50
-      - _AU_澳大利亚_12
-      - US-l
-      - FR-l
-      - 新加坡 2
-      - 澳大利亚
-      - "[Trojan]"
-      - AU-
-      - 澳大利亚 2
-      - IN-l
-      - JP-l
-      - 马来西亚)
-      - 香港3
-      - KR-l
-      - JP- 2
-      - JP- 3
-      - IN- 2
-      - JP-l 4
-      - "[SSR]"
-      - "[SSR] 2"
-      - "[SSR] 3"
-      - "[SSR] 4"
-      - "[SSR] 5"
-      - CA-l
-      - CA-l 2
-      - CA-l 3
-      - CAl 4
-      - CA-l 5
-      - CA-l 6
-      - CA-l 7
-      - CA-l 8
-      - US-ml 2
-      - US-l 2 2
       - US-l 3
       - US-l 4
-      - US-l 5
-      - US-l 6
-      - US-l 7
-      - US- 8
-      - US-l 9
-      - 波兰
-      - UK2
-      - US2
-      - 波兰2
-      - 波兰3
-      - DE2
-      - AU
-      - AU2
-      - US3
-      - RELAY-l 3
-      - RELAYl 4
-      - RELAY- 5
-      - RELAY-Ol 6
-      - RELAY-l 7
       - _US_美国 3
+      - RELAY- 5
+      - _JP_日本_18
+      - CA-l 7
+      - 波兰2
+      - _US_美国_35
+      - _PL_波兰_27
+      - _PL_波兰_21
+      - RELAYl 4
+      - CA-l 2
+      - CA-l 5
+      - CA-l 6
+      - CA-l 8
+      - RELAY-Ol 6
+      - CA-l
+      - RELAY-l 6 2
+      - _GB_英国_17
+      - _GB_英国_16
+      - CA-l 3
+      - RELAY- 5 2
+      - _DE_德国_47
+      - _DE_德国_46
+      - _DE_德国_49
+      - _DE_德国_50
+      - DE2
+      - _DE_德国_48
+      - _DE_德国_5
+      - US3
+      - _DE_德国_15
+      - _DE_德国_45
+      - UK2
+      - _US_美国_39
+      - RELAY-l
+      - RELAY-l 7
+      - US-l 5 2
+      - AU2
+      - _US_美国_34
+      - US-ml 2
+      - US-l 7
+      - RELAY-l 3
+      - CAl 4
+      - RELAY-l 7 2
+      - US-l 5
+      - US2
+      - US-l 6
+      - RELAY-l 3 2
+      - "[🇨🇳][SS][中]"
+      - "[🇨🇦][SS][加]"
+      - "[🇨🇦][SS][加] 2"
+      - "[🇬🇧][SS][寻]"
+      - "[🇬🇧][SS][寻] 2"
+      - "[🇨🇦][SS][加] 3"
+      - "[🇺🇸][SS][美]"
+      - "[🇺🇸][SS][美] 2"
+      - CA-Openit.ml
+      - "[🇯🇵][SS][日]"
+      - CA-Openit.ml 2
+      - "[🇵🇱][SS][寻]"
+      - CA-Openit.ml 3
+      - "[🇨🇦][SS][加] 4"
+      - "[🇨🇦][SS][加] 5"
+      - "[🇨🇦][SS][加] 6"
+      - "[🇵🇱][SS][寻] 2"
+      - "[🇨🇦][SS][加] 7"
+      - "[🇵🇱][SS][寻] 3"
+      - "[🇨🇦][SS][加] 8"
+      - CA-Openit.ml 4
+      - CA-Openit.ml 5
+      - "[🇨🇦][SS][加] 9"
+      - "[🇩🇪][SS][寻]"
+      - AU-
+      - 澳大利亚
+      - US-l 14
+      - JP-l
+      - FR-l
+      - IN-l
+      - US- 13
+      - JP- 2
+      - GB-l 3
+      - US- 8
+      - GB-l 2
+      - SG- 3
+      - RO-l
+      - KR-l
       - JP-l 2
       - SG-l 2
-      - SG- 3
-      - US- 13
-      - GB-l 2
-      - GB-l 3
-      - US-l 14
       - IN-l 2 2
+      - 新加坡 2
       - US-l 11 2
-      - RO-l
-      - RELAY-l 3 2
-      - RELAY-l 4 2
-      - RELAY- 5 2
-      - RELAY-l 6 2
-      - US-l 5 2
-      - RELAY-l 7 2
+      - US-l
+      - "[Trojan]"
+      - IN-Openit.ml
+      - HK-Openit.ml
+      - IN-Openit.ml 2
+      - SG-Openit.ml
+      - JP-Openit.ml
+      - AU-Openit.ml
+      - GB-Openit.ml
+      - FR-Openit.ml
+      - JP-Openit.ml 2
+      - US-Openit.ml
+      - US-Openit.ml 2
+      - US-Openit.ml 3
+      - JP-Openit.ml 3
+      - "[SSR] 2"
+      - "[SSR] 4"
+      - "[SSR] 3"
+      - "[SSR]"
+      - "[SSR] 5"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
