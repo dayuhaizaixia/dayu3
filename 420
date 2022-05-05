@@ -5,6 +5,127 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: ‌‌加拿大, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "[🇨🇦][SS][加]", server: 198.57.27.225, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大)(Public), server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "[🇯🇵][SS][日]", server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "[🇨🇦][SS][加] 2", server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CN_42+TGatpeekfun_4, server: 120.233.10.230, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: NL_1321, server: 213.183.51.172, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: DE_675, server: 5.183.179.167, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: DE_583, server: 5.183.179.140, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: DE_278+_10_38Mb_98, server: 5.183.179.140, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: DE_540, server: 5.183.179.167, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: DE_551, server: 5.183.179.167, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: GB_29630, server: 152.89.210.84, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: LT_1070, server: 213.183.63.219, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: DE_485, server: 5.183.179.140, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: LT_1097, server: 213.183.63.219, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: DE_515, server: 5.183.179.167, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: DE_513, server: 5.183.179.167, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: DE_507, server: 5.183.179.167, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: DE_495, server: 5.183.179.140, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: DE_606, server: 5.183.179.170, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: LT_114+TGatpeekfun_74, server: 213.183.63.219, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: DE_561, server: 5.183.179.167, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: DE_528, server: 5.183.179.140, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: DE_488, server: 5.183.179.166, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: DE_521, server: 5.183.179.166, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: RU_1479, server: 217.30.10.67, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: DE_654, server: 5.183.179.170, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: DE_624, server: 5.183.179.166, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: DE_484, server: 5.183.179.166, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: NL_1267, server: 213.183.51.172, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: RU_1448, server: 217.30.10.67, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
+  - {name: DE_609, server: 5.183.179.166, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: RU_1542, server: 217.30.10.67, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: RU_530+_40_88Mb_92, server: 217.30.10.67, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: DE_514, server: 5.183.179.167, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: NL_1241, server: 213.183.51.172, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: DE_637, server: 5.183.179.170, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: DE_572, server: 5.183.179.166, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: DE_564, server: 5.183.179.166, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: DE_304+_11_36Mb_104, server: 5.183.179.140, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: NL_1301, server: 213.183.59.229, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: DE_202+_11_46Mb_102, server: 5.183.179.140, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: DE_546, server: 5.183.179.167, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: DE_500, server: 5.183.179.166, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: DE_203+_11_51Mb_97, server: 5.183.179.140, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: DE_587, server: 5.183.179.166, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: DE_589, server: 5.183.179.166, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: RO_1264+_55_37Mb_157, server: 62.216.91.232, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: NL_1260, server: 213.183.51.172, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: RU_1523, server: 217.30.10.67, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: DE_472, server: 5.183.179.170, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: RU_174+TGatpeekfun_90, server: 217.30.10.67, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: DE_527, server: 5.183.179.170, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: RO_1262+_18_60Mb_43, server: 185.126.116.117, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: US_630+_11_86Mb_38, server: 167.172.135.97, port: 25453, type: ss, cipher: aes-256-cfb, password: a40ff797db5c4b948cfe5a5234a0e74c, udp: true}
+  - {name: LT_1116, server: 213.183.63.218, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: RU_1514, server: 217.30.10.67, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: CA-53, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: DE_277+_11_47Mb_103, server: 5.183.179.140, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: DE_491, server: 5.183.179.166, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: DE_305+_11_54Mb_101, server: 5.183.179.140, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: DE_643, server: 5.183.179.170, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: DE_517, server: 5.183.179.166, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: DE_565, server: 5.183.179.166, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: DE_630, server: 5.183.179.170, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: LT_1126, server: 213.183.63.218, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: NL_1255, server: 213.183.59.229, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: CN_435, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_416, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: NL_1257, server: 213.183.59.229, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: CN_55, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_44, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_25, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_57, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_23, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_52, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_47, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_45, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_56, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_51, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_53, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_29, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: DE_523, server: 5.183.179.166, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: DE_611, server: 5.183.179.140, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: CN_31, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: LT_1074, server: 213.183.63.218, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: CN_32, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: LT_1119, server: 213.183.63.218, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: LT_1045, server: 213.183.63.218, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: ZZ_3883, server: 169.197.142.99, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: LT_874, server: 213.183.63.218, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: LT_1057, server: 213.183.63.218, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: LT_1070 2, server: 213.183.63.218, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: AU-, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-106.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: KR-12, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: FR-l, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: SG-16, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚2, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 土耳其, server: 84.54.13.134, port: 470, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, skip-cert-verify: true, udp: true}
+  - {name: 美国), server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, sni: jgwdj2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US39, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: US36, server: 45.61.184.184, port: 6520, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, skip-cert-verify: true, udp: true}
+  - {name: 加拿大 2, server: 209.209.11.112, port: 4586, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, skip-cert-verify: true, udp: true}
+  - {name: US-33, server: o7cx6bd6t4yjiqsm.xiongsonglin.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: o7cx6bd6t4yjiqsm.xiongsonglin.com, skip-cert-verify: true, udp: true}
+  - {name: 美国) 2, server: 198.211.45.184, port: 4586, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, skip-cert-verify: true, udp: true}
+  - {name: JP-6, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: IN-7, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: SG-17, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, sni: cp-asus.ml, skip-cert-verify: true, udp: true}
+  - {name: US-2, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan33.free4444.xyz, skip-cert-verify: true, udp: true}
+  - {name: IN-1, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: AU-3, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: GB-l1, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP-17, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: IN5, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: GB-2, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP-16, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP-4, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: AU), server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: HK-5, server: 20.24.76.30, port: 12377, type: trojan, password: eea18f08-ec15-456f-a70b-232c72879ded, skip-cert-verify: true, udp: true}
   - {name: US-l 3, server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: US-l 4, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _US_美国 3, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
@@ -54,15 +175,15 @@ proxies:
   - {name: US-l 6, server: 38.68.135.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: RELAY-l 3 2, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
   - {name: "[🇨🇳][SS][中]", server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "[🇨🇦][SS][加]", server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "[🇨🇦][SS][加] 2", server: 198.57.27.225, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "[🇨🇦][SS][加] 3", server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "[🇨🇦][SS][加] 2 2", server: 198.57.27.225, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: "[🇬🇧][SS][寻]", server: 152.89.210.84, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
   - {name: "[🇬🇧][SS][寻] 2", server: 152.89.210.84, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: "[🇨🇦][SS][加] 3", server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "[🇨🇦][SS][加] 3 2", server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: "[🇺🇸][SS][美]", server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: "[🇺🇸][SS][美] 2", server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: CA-Openit.ml, server: 198.57.27.225, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "[🇯🇵][SS][日]", server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "[🇯🇵][SS][日] 2", server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: CA-Openit.ml 2, server: 198.57.27.225, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: "[🇵🇱][SS][寻]", server: 217.30.10.67, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
   - {name: CA-Openit.ml 3, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
@@ -77,11 +198,11 @@ proxies:
   - {name: CA-Openit.ml 5, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: "[🇨🇦][SS][加] 9", server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: "[🇩🇪][SS][寻]", server: 5.183.179.140, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: AU-, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: AU- 2, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: 澳大利亚, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: US-l 14, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: JP-l, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: FR-l, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: FR-l 2, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
   - {name: IN-l, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: US- 13, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: true, udp: true}
   - {name: JP- 2, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: true, udp: true}
@@ -107,7 +228,7 @@ proxies:
   - {name: GBl, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: FR-ml, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
   - {name: JP-l 2 2, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US- 2, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: US-l 2, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: US-l 3 2, server: o7cx6bd6t4yjiqsm.xiongsonglin.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: o7cx6bd6t4yjiqsm.xiongsonglin.com, skip-cert-verify: true, udp: true}
   - {name: JP-l 3, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
@@ -122,6 +243,127 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - ‌‌加拿大
+      - "[🇨🇦][SS][加]"
+      - 加拿大)(Public)
+      - "[🇯🇵][SS][日]"
+      - "[🇨🇦][SS][加] 2"
+      - CN_42+TGatpeekfun_4
+      - NL_1321
+      - DE_675
+      - DE_583
+      - DE_278+_10_38Mb_98
+      - DE_540
+      - DE_551
+      - GB_29630
+      - LT_1070
+      - DE_485
+      - LT_1097
+      - DE_515
+      - DE_513
+      - DE_507
+      - DE_495
+      - DE_606
+      - LT_114+TGatpeekfun_74
+      - DE_561
+      - DE_528
+      - DE_488
+      - DE_521
+      - RU_1479
+      - DE_654
+      - DE_624
+      - DE_484
+      - NL_1267
+      - RU_1448
+      - DE_609
+      - RU_1542
+      - RU_530+_40_88Mb_92
+      - DE_514
+      - NL_1241
+      - DE_637
+      - DE_572
+      - DE_564
+      - DE_304+_11_36Mb_104
+      - NL_1301
+      - DE_202+_11_46Mb_102
+      - DE_546
+      - DE_500
+      - DE_203+_11_51Mb_97
+      - DE_587
+      - DE_589
+      - RO_1264+_55_37Mb_157
+      - NL_1260
+      - RU_1523
+      - DE_472
+      - RU_174+TGatpeekfun_90
+      - DE_527
+      - RO_1262+_18_60Mb_43
+      - US_630+_11_86Mb_38
+      - LT_1116
+      - RU_1514
+      - CA-53
+      - DE_277+_11_47Mb_103
+      - DE_491
+      - DE_305+_11_54Mb_101
+      - DE_643
+      - DE_517
+      - DE_565
+      - DE_630
+      - LT_1126
+      - NL_1255
+      - CN_435
+      - CN_416
+      - NL_1257
+      - CN_55
+      - CN_44
+      - CN_25
+      - CN_57
+      - CN_23
+      - CN_52
+      - CN_47
+      - CN_45
+      - CN_56
+      - CN_51
+      - CN_53
+      - CN_29
+      - DE_523
+      - DE_611
+      - CN_31
+      - LT_1074
+      - CN_32
+      - LT_1119
+      - LT_1045
+      - ZZ_3883
+      - LT_874
+      - LT_1057
+      - LT_1070 2
+      - AU-
+      - US-
+      - KR-12
+      - FR-l
+      - SG-16
+      - 澳大利亚2
+      - 土耳其
+      - 美国)
+      - US39
+      - US36
+      - 加拿大 2
+      - US-33
+      - 美国) 2
+      - JP-6
+      - IN-7
+      - SG-17
+      - US-2
+      - IN-1
+      - AU-3
+      - GB-l1
+      - JP-17
+      - IN5
+      - GB-2
+      - JP-16
+      - JP-4
+      - AU)
+      - HK-5
       - US-l 3
       - US-l 4
       - _US_美国 3
@@ -171,15 +413,15 @@ proxy-groups:
       - US-l 6
       - RELAY-l 3 2
       - "[🇨🇳][SS][中]"
-      - "[🇨🇦][SS][加]"
-      - "[🇨🇦][SS][加] 2"
+      - "[🇨🇦][SS][加] 3"
+      - "[🇨🇦][SS][加] 2 2"
       - "[🇬🇧][SS][寻]"
       - "[🇬🇧][SS][寻] 2"
-      - "[🇨🇦][SS][加] 3"
+      - "[🇨🇦][SS][加] 3 2"
       - "[🇺🇸][SS][美]"
       - "[🇺🇸][SS][美] 2"
       - CA-Openit.ml
-      - "[🇯🇵][SS][日]"
+      - "[🇯🇵][SS][日] 2"
       - CA-Openit.ml 2
       - "[🇵🇱][SS][寻]"
       - CA-Openit.ml 3
@@ -194,11 +436,11 @@ proxy-groups:
       - CA-Openit.ml 5
       - "[🇨🇦][SS][加] 9"
       - "[🇩🇪][SS][寻]"
-      - AU-
+      - AU- 2
       - 澳大利亚
       - US-l 14
       - JP-l
-      - FR-l
+      - FR-l 2
       - IN-l
       - US- 13
       - JP- 2
@@ -224,7 +466,7 @@ proxy-groups:
       - GBl
       - FR-ml
       - JP-l 2 2
-      - US-
+      - US- 2
       - US-l 2
       - US-l 3 2
       - JP-l 3
@@ -238,6 +480,127 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - ‌‌加拿大
+      - "[🇨🇦][SS][加]"
+      - 加拿大)(Public)
+      - "[🇯🇵][SS][日]"
+      - "[🇨🇦][SS][加] 2"
+      - CN_42+TGatpeekfun_4
+      - NL_1321
+      - DE_675
+      - DE_583
+      - DE_278+_10_38Mb_98
+      - DE_540
+      - DE_551
+      - GB_29630
+      - LT_1070
+      - DE_485
+      - LT_1097
+      - DE_515
+      - DE_513
+      - DE_507
+      - DE_495
+      - DE_606
+      - LT_114+TGatpeekfun_74
+      - DE_561
+      - DE_528
+      - DE_488
+      - DE_521
+      - RU_1479
+      - DE_654
+      - DE_624
+      - DE_484
+      - NL_1267
+      - RU_1448
+      - DE_609
+      - RU_1542
+      - RU_530+_40_88Mb_92
+      - DE_514
+      - NL_1241
+      - DE_637
+      - DE_572
+      - DE_564
+      - DE_304+_11_36Mb_104
+      - NL_1301
+      - DE_202+_11_46Mb_102
+      - DE_546
+      - DE_500
+      - DE_203+_11_51Mb_97
+      - DE_587
+      - DE_589
+      - RO_1264+_55_37Mb_157
+      - NL_1260
+      - RU_1523
+      - DE_472
+      - RU_174+TGatpeekfun_90
+      - DE_527
+      - RO_1262+_18_60Mb_43
+      - US_630+_11_86Mb_38
+      - LT_1116
+      - RU_1514
+      - CA-53
+      - DE_277+_11_47Mb_103
+      - DE_491
+      - DE_305+_11_54Mb_101
+      - DE_643
+      - DE_517
+      - DE_565
+      - DE_630
+      - LT_1126
+      - NL_1255
+      - CN_435
+      - CN_416
+      - NL_1257
+      - CN_55
+      - CN_44
+      - CN_25
+      - CN_57
+      - CN_23
+      - CN_52
+      - CN_47
+      - CN_45
+      - CN_56
+      - CN_51
+      - CN_53
+      - CN_29
+      - DE_523
+      - DE_611
+      - CN_31
+      - LT_1074
+      - CN_32
+      - LT_1119
+      - LT_1045
+      - ZZ_3883
+      - LT_874
+      - LT_1057
+      - LT_1070 2
+      - AU-
+      - US-
+      - KR-12
+      - FR-l
+      - SG-16
+      - 澳大利亚2
+      - 土耳其
+      - 美国)
+      - US39
+      - US36
+      - 加拿大 2
+      - US-33
+      - 美国) 2
+      - JP-6
+      - IN-7
+      - SG-17
+      - US-2
+      - IN-1
+      - AU-3
+      - GB-l1
+      - JP-17
+      - IN5
+      - GB-2
+      - JP-16
+      - JP-4
+      - AU)
+      - HK-5
       - US-l 3
       - US-l 4
       - _US_美国 3
@@ -287,15 +650,15 @@ proxy-groups:
       - US-l 6
       - RELAY-l 3 2
       - "[🇨🇳][SS][中]"
-      - "[🇨🇦][SS][加]"
-      - "[🇨🇦][SS][加] 2"
+      - "[🇨🇦][SS][加] 3"
+      - "[🇨🇦][SS][加] 2 2"
       - "[🇬🇧][SS][寻]"
       - "[🇬🇧][SS][寻] 2"
-      - "[🇨🇦][SS][加] 3"
+      - "[🇨🇦][SS][加] 3 2"
       - "[🇺🇸][SS][美]"
       - "[🇺🇸][SS][美] 2"
       - CA-Openit.ml
-      - "[🇯🇵][SS][日]"
+      - "[🇯🇵][SS][日] 2"
       - CA-Openit.ml 2
       - "[🇵🇱][SS][寻]"
       - CA-Openit.ml 3
@@ -310,11 +673,11 @@ proxy-groups:
       - CA-Openit.ml 5
       - "[🇨🇦][SS][加] 9"
       - "[🇩🇪][SS][寻]"
-      - AU-
+      - AU- 2
       - 澳大利亚
       - US-l 14
       - JP-l
-      - FR-l
+      - FR-l 2
       - IN-l
       - US- 13
       - JP- 2
@@ -340,7 +703,7 @@ proxy-groups:
       - GBl
       - FR-ml
       - JP-l 2 2
-      - US-
+      - US- 2
       - US-l 2
       - US-l 3 2
       - JP-l 3
@@ -355,6 +718,127 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - ‌‌加拿大
+      - "[🇨🇦][SS][加]"
+      - 加拿大)(Public)
+      - "[🇯🇵][SS][日]"
+      - "[🇨🇦][SS][加] 2"
+      - CN_42+TGatpeekfun_4
+      - NL_1321
+      - DE_675
+      - DE_583
+      - DE_278+_10_38Mb_98
+      - DE_540
+      - DE_551
+      - GB_29630
+      - LT_1070
+      - DE_485
+      - LT_1097
+      - DE_515
+      - DE_513
+      - DE_507
+      - DE_495
+      - DE_606
+      - LT_114+TGatpeekfun_74
+      - DE_561
+      - DE_528
+      - DE_488
+      - DE_521
+      - RU_1479
+      - DE_654
+      - DE_624
+      - DE_484
+      - NL_1267
+      - RU_1448
+      - DE_609
+      - RU_1542
+      - RU_530+_40_88Mb_92
+      - DE_514
+      - NL_1241
+      - DE_637
+      - DE_572
+      - DE_564
+      - DE_304+_11_36Mb_104
+      - NL_1301
+      - DE_202+_11_46Mb_102
+      - DE_546
+      - DE_500
+      - DE_203+_11_51Mb_97
+      - DE_587
+      - DE_589
+      - RO_1264+_55_37Mb_157
+      - NL_1260
+      - RU_1523
+      - DE_472
+      - RU_174+TGatpeekfun_90
+      - DE_527
+      - RO_1262+_18_60Mb_43
+      - US_630+_11_86Mb_38
+      - LT_1116
+      - RU_1514
+      - CA-53
+      - DE_277+_11_47Mb_103
+      - DE_491
+      - DE_305+_11_54Mb_101
+      - DE_643
+      - DE_517
+      - DE_565
+      - DE_630
+      - LT_1126
+      - NL_1255
+      - CN_435
+      - CN_416
+      - NL_1257
+      - CN_55
+      - CN_44
+      - CN_25
+      - CN_57
+      - CN_23
+      - CN_52
+      - CN_47
+      - CN_45
+      - CN_56
+      - CN_51
+      - CN_53
+      - CN_29
+      - DE_523
+      - DE_611
+      - CN_31
+      - LT_1074
+      - CN_32
+      - LT_1119
+      - LT_1045
+      - ZZ_3883
+      - LT_874
+      - LT_1057
+      - LT_1070 2
+      - AU-
+      - US-
+      - KR-12
+      - FR-l
+      - SG-16
+      - 澳大利亚2
+      - 土耳其
+      - 美国)
+      - US39
+      - US36
+      - 加拿大 2
+      - US-33
+      - 美国) 2
+      - JP-6
+      - IN-7
+      - SG-17
+      - US-2
+      - IN-1
+      - AU-3
+      - GB-l1
+      - JP-17
+      - IN5
+      - GB-2
+      - JP-16
+      - JP-4
+      - AU)
+      - HK-5
       - US-l 3
       - US-l 4
       - _US_美国 3
@@ -404,15 +888,15 @@ proxy-groups:
       - US-l 6
       - RELAY-l 3 2
       - "[🇨🇳][SS][中]"
-      - "[🇨🇦][SS][加]"
-      - "[🇨🇦][SS][加] 2"
+      - "[🇨🇦][SS][加] 3"
+      - "[🇨🇦][SS][加] 2 2"
       - "[🇬🇧][SS][寻]"
       - "[🇬🇧][SS][寻] 2"
-      - "[🇨🇦][SS][加] 3"
+      - "[🇨🇦][SS][加] 3 2"
       - "[🇺🇸][SS][美]"
       - "[🇺🇸][SS][美] 2"
       - CA-Openit.ml
-      - "[🇯🇵][SS][日]"
+      - "[🇯🇵][SS][日] 2"
       - CA-Openit.ml 2
       - "[🇵🇱][SS][寻]"
       - CA-Openit.ml 3
@@ -427,11 +911,11 @@ proxy-groups:
       - CA-Openit.ml 5
       - "[🇨🇦][SS][加] 9"
       - "[🇩🇪][SS][寻]"
-      - AU-
+      - AU- 2
       - 澳大利亚
       - US-l 14
       - JP-l
-      - FR-l
+      - FR-l 2
       - IN-l
       - US- 13
       - JP- 2
@@ -457,7 +941,7 @@ proxy-groups:
       - GBl
       - FR-ml
       - JP-l 2 2
-      - US-
+      - US- 2
       - US-l 2
       - US-l 3 2
       - JP-l 3
@@ -484,6 +968,127 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - ‌‌加拿大
+      - "[🇨🇦][SS][加]"
+      - 加拿大)(Public)
+      - "[🇯🇵][SS][日]"
+      - "[🇨🇦][SS][加] 2"
+      - CN_42+TGatpeekfun_4
+      - NL_1321
+      - DE_675
+      - DE_583
+      - DE_278+_10_38Mb_98
+      - DE_540
+      - DE_551
+      - GB_29630
+      - LT_1070
+      - DE_485
+      - LT_1097
+      - DE_515
+      - DE_513
+      - DE_507
+      - DE_495
+      - DE_606
+      - LT_114+TGatpeekfun_74
+      - DE_561
+      - DE_528
+      - DE_488
+      - DE_521
+      - RU_1479
+      - DE_654
+      - DE_624
+      - DE_484
+      - NL_1267
+      - RU_1448
+      - DE_609
+      - RU_1542
+      - RU_530+_40_88Mb_92
+      - DE_514
+      - NL_1241
+      - DE_637
+      - DE_572
+      - DE_564
+      - DE_304+_11_36Mb_104
+      - NL_1301
+      - DE_202+_11_46Mb_102
+      - DE_546
+      - DE_500
+      - DE_203+_11_51Mb_97
+      - DE_587
+      - DE_589
+      - RO_1264+_55_37Mb_157
+      - NL_1260
+      - RU_1523
+      - DE_472
+      - RU_174+TGatpeekfun_90
+      - DE_527
+      - RO_1262+_18_60Mb_43
+      - US_630+_11_86Mb_38
+      - LT_1116
+      - RU_1514
+      - CA-53
+      - DE_277+_11_47Mb_103
+      - DE_491
+      - DE_305+_11_54Mb_101
+      - DE_643
+      - DE_517
+      - DE_565
+      - DE_630
+      - LT_1126
+      - NL_1255
+      - CN_435
+      - CN_416
+      - NL_1257
+      - CN_55
+      - CN_44
+      - CN_25
+      - CN_57
+      - CN_23
+      - CN_52
+      - CN_47
+      - CN_45
+      - CN_56
+      - CN_51
+      - CN_53
+      - CN_29
+      - DE_523
+      - DE_611
+      - CN_31
+      - LT_1074
+      - CN_32
+      - LT_1119
+      - LT_1045
+      - ZZ_3883
+      - LT_874
+      - LT_1057
+      - LT_1070 2
+      - AU-
+      - US-
+      - KR-12
+      - FR-l
+      - SG-16
+      - 澳大利亚2
+      - 土耳其
+      - 美国)
+      - US39
+      - US36
+      - 加拿大 2
+      - US-33
+      - 美国) 2
+      - JP-6
+      - IN-7
+      - SG-17
+      - US-2
+      - IN-1
+      - AU-3
+      - GB-l1
+      - JP-17
+      - IN5
+      - GB-2
+      - JP-16
+      - JP-4
+      - AU)
+      - HK-5
       - US-l 3
       - US-l 4
       - _US_美国 3
@@ -533,15 +1138,15 @@ proxy-groups:
       - US-l 6
       - RELAY-l 3 2
       - "[🇨🇳][SS][中]"
-      - "[🇨🇦][SS][加]"
-      - "[🇨🇦][SS][加] 2"
+      - "[🇨🇦][SS][加] 3"
+      - "[🇨🇦][SS][加] 2 2"
       - "[🇬🇧][SS][寻]"
       - "[🇬🇧][SS][寻] 2"
-      - "[🇨🇦][SS][加] 3"
+      - "[🇨🇦][SS][加] 3 2"
       - "[🇺🇸][SS][美]"
       - "[🇺🇸][SS][美] 2"
       - CA-Openit.ml
-      - "[🇯🇵][SS][日]"
+      - "[🇯🇵][SS][日] 2"
       - CA-Openit.ml 2
       - "[🇵🇱][SS][寻]"
       - CA-Openit.ml 3
@@ -556,11 +1161,11 @@ proxy-groups:
       - CA-Openit.ml 5
       - "[🇨🇦][SS][加] 9"
       - "[🇩🇪][SS][寻]"
-      - AU-
+      - AU- 2
       - 澳大利亚
       - US-l 14
       - JP-l
-      - FR-l
+      - FR-l 2
       - IN-l
       - US- 13
       - JP- 2
@@ -586,7 +1191,7 @@ proxy-groups:
       - GBl
       - FR-ml
       - JP-l 2 2
-      - US-
+      - US- 2
       - US-l 2
       - US-l 3 2
       - JP-l 3
@@ -605,6 +1210,127 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - ‌‌加拿大
+      - "[🇨🇦][SS][加]"
+      - 加拿大)(Public)
+      - "[🇯🇵][SS][日]"
+      - "[🇨🇦][SS][加] 2"
+      - CN_42+TGatpeekfun_4
+      - NL_1321
+      - DE_675
+      - DE_583
+      - DE_278+_10_38Mb_98
+      - DE_540
+      - DE_551
+      - GB_29630
+      - LT_1070
+      - DE_485
+      - LT_1097
+      - DE_515
+      - DE_513
+      - DE_507
+      - DE_495
+      - DE_606
+      - LT_114+TGatpeekfun_74
+      - DE_561
+      - DE_528
+      - DE_488
+      - DE_521
+      - RU_1479
+      - DE_654
+      - DE_624
+      - DE_484
+      - NL_1267
+      - RU_1448
+      - DE_609
+      - RU_1542
+      - RU_530+_40_88Mb_92
+      - DE_514
+      - NL_1241
+      - DE_637
+      - DE_572
+      - DE_564
+      - DE_304+_11_36Mb_104
+      - NL_1301
+      - DE_202+_11_46Mb_102
+      - DE_546
+      - DE_500
+      - DE_203+_11_51Mb_97
+      - DE_587
+      - DE_589
+      - RO_1264+_55_37Mb_157
+      - NL_1260
+      - RU_1523
+      - DE_472
+      - RU_174+TGatpeekfun_90
+      - DE_527
+      - RO_1262+_18_60Mb_43
+      - US_630+_11_86Mb_38
+      - LT_1116
+      - RU_1514
+      - CA-53
+      - DE_277+_11_47Mb_103
+      - DE_491
+      - DE_305+_11_54Mb_101
+      - DE_643
+      - DE_517
+      - DE_565
+      - DE_630
+      - LT_1126
+      - NL_1255
+      - CN_435
+      - CN_416
+      - NL_1257
+      - CN_55
+      - CN_44
+      - CN_25
+      - CN_57
+      - CN_23
+      - CN_52
+      - CN_47
+      - CN_45
+      - CN_56
+      - CN_51
+      - CN_53
+      - CN_29
+      - DE_523
+      - DE_611
+      - CN_31
+      - LT_1074
+      - CN_32
+      - LT_1119
+      - LT_1045
+      - ZZ_3883
+      - LT_874
+      - LT_1057
+      - LT_1070 2
+      - AU-
+      - US-
+      - KR-12
+      - FR-l
+      - SG-16
+      - 澳大利亚2
+      - 土耳其
+      - 美国)
+      - US39
+      - US36
+      - 加拿大 2
+      - US-33
+      - 美国) 2
+      - JP-6
+      - IN-7
+      - SG-17
+      - US-2
+      - IN-1
+      - AU-3
+      - GB-l1
+      - JP-17
+      - IN5
+      - GB-2
+      - JP-16
+      - JP-4
+      - AU)
+      - HK-5
       - US-l 3
       - US-l 4
       - _US_美国 3
@@ -654,15 +1380,15 @@ proxy-groups:
       - US-l 6
       - RELAY-l 3 2
       - "[🇨🇳][SS][中]"
-      - "[🇨🇦][SS][加]"
-      - "[🇨🇦][SS][加] 2"
+      - "[🇨🇦][SS][加] 3"
+      - "[🇨🇦][SS][加] 2 2"
       - "[🇬🇧][SS][寻]"
       - "[🇬🇧][SS][寻] 2"
-      - "[🇨🇦][SS][加] 3"
+      - "[🇨🇦][SS][加] 3 2"
       - "[🇺🇸][SS][美]"
       - "[🇺🇸][SS][美] 2"
       - CA-Openit.ml
-      - "[🇯🇵][SS][日]"
+      - "[🇯🇵][SS][日] 2"
       - CA-Openit.ml 2
       - "[🇵🇱][SS][寻]"
       - CA-Openit.ml 3
@@ -677,11 +1403,11 @@ proxy-groups:
       - CA-Openit.ml 5
       - "[🇨🇦][SS][加] 9"
       - "[🇩🇪][SS][寻]"
-      - AU-
+      - AU- 2
       - 澳大利亚
       - US-l 14
       - JP-l
-      - FR-l
+      - FR-l 2
       - IN-l
       - US- 13
       - JP- 2
@@ -707,7 +1433,7 @@ proxy-groups:
       - GBl
       - FR-ml
       - JP-l 2 2
-      - US-
+      - US- 2
       - US-l 2
       - US-l 3 2
       - JP-l 3
@@ -721,6 +1447,127 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - ‌‌加拿大
+      - "[🇨🇦][SS][加]"
+      - 加拿大)(Public)
+      - "[🇯🇵][SS][日]"
+      - "[🇨🇦][SS][加] 2"
+      - CN_42+TGatpeekfun_4
+      - NL_1321
+      - DE_675
+      - DE_583
+      - DE_278+_10_38Mb_98
+      - DE_540
+      - DE_551
+      - GB_29630
+      - LT_1070
+      - DE_485
+      - LT_1097
+      - DE_515
+      - DE_513
+      - DE_507
+      - DE_495
+      - DE_606
+      - LT_114+TGatpeekfun_74
+      - DE_561
+      - DE_528
+      - DE_488
+      - DE_521
+      - RU_1479
+      - DE_654
+      - DE_624
+      - DE_484
+      - NL_1267
+      - RU_1448
+      - DE_609
+      - RU_1542
+      - RU_530+_40_88Mb_92
+      - DE_514
+      - NL_1241
+      - DE_637
+      - DE_572
+      - DE_564
+      - DE_304+_11_36Mb_104
+      - NL_1301
+      - DE_202+_11_46Mb_102
+      - DE_546
+      - DE_500
+      - DE_203+_11_51Mb_97
+      - DE_587
+      - DE_589
+      - RO_1264+_55_37Mb_157
+      - NL_1260
+      - RU_1523
+      - DE_472
+      - RU_174+TGatpeekfun_90
+      - DE_527
+      - RO_1262+_18_60Mb_43
+      - US_630+_11_86Mb_38
+      - LT_1116
+      - RU_1514
+      - CA-53
+      - DE_277+_11_47Mb_103
+      - DE_491
+      - DE_305+_11_54Mb_101
+      - DE_643
+      - DE_517
+      - DE_565
+      - DE_630
+      - LT_1126
+      - NL_1255
+      - CN_435
+      - CN_416
+      - NL_1257
+      - CN_55
+      - CN_44
+      - CN_25
+      - CN_57
+      - CN_23
+      - CN_52
+      - CN_47
+      - CN_45
+      - CN_56
+      - CN_51
+      - CN_53
+      - CN_29
+      - DE_523
+      - DE_611
+      - CN_31
+      - LT_1074
+      - CN_32
+      - LT_1119
+      - LT_1045
+      - ZZ_3883
+      - LT_874
+      - LT_1057
+      - LT_1070 2
+      - AU-
+      - US-
+      - KR-12
+      - FR-l
+      - SG-16
+      - 澳大利亚2
+      - 土耳其
+      - 美国)
+      - US39
+      - US36
+      - 加拿大 2
+      - US-33
+      - 美国) 2
+      - JP-6
+      - IN-7
+      - SG-17
+      - US-2
+      - IN-1
+      - AU-3
+      - GB-l1
+      - JP-17
+      - IN5
+      - GB-2
+      - JP-16
+      - JP-4
+      - AU)
+      - HK-5
       - US-l 3
       - US-l 4
       - _US_美国 3
@@ -770,15 +1617,15 @@ proxy-groups:
       - US-l 6
       - RELAY-l 3 2
       - "[🇨🇳][SS][中]"
-      - "[🇨🇦][SS][加]"
-      - "[🇨🇦][SS][加] 2"
+      - "[🇨🇦][SS][加] 3"
+      - "[🇨🇦][SS][加] 2 2"
       - "[🇬🇧][SS][寻]"
       - "[🇬🇧][SS][寻] 2"
-      - "[🇨🇦][SS][加] 3"
+      - "[🇨🇦][SS][加] 3 2"
       - "[🇺🇸][SS][美]"
       - "[🇺🇸][SS][美] 2"
       - CA-Openit.ml
-      - "[🇯🇵][SS][日]"
+      - "[🇯🇵][SS][日] 2"
       - CA-Openit.ml 2
       - "[🇵🇱][SS][寻]"
       - CA-Openit.ml 3
@@ -793,11 +1640,11 @@ proxy-groups:
       - CA-Openit.ml 5
       - "[🇨🇦][SS][加] 9"
       - "[🇩🇪][SS][寻]"
-      - AU-
+      - AU- 2
       - 澳大利亚
       - US-l 14
       - JP-l
-      - FR-l
+      - FR-l 2
       - IN-l
       - US- 13
       - JP- 2
@@ -823,7 +1670,7 @@ proxy-groups:
       - GBl
       - FR-ml
       - JP-l 2 2
-      - US-
+      - US- 2
       - US-l 2
       - US-l 3 2
       - JP-l 3
@@ -838,6 +1685,127 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - ‌‌加拿大
+      - "[🇨🇦][SS][加]"
+      - 加拿大)(Public)
+      - "[🇯🇵][SS][日]"
+      - "[🇨🇦][SS][加] 2"
+      - CN_42+TGatpeekfun_4
+      - NL_1321
+      - DE_675
+      - DE_583
+      - DE_278+_10_38Mb_98
+      - DE_540
+      - DE_551
+      - GB_29630
+      - LT_1070
+      - DE_485
+      - LT_1097
+      - DE_515
+      - DE_513
+      - DE_507
+      - DE_495
+      - DE_606
+      - LT_114+TGatpeekfun_74
+      - DE_561
+      - DE_528
+      - DE_488
+      - DE_521
+      - RU_1479
+      - DE_654
+      - DE_624
+      - DE_484
+      - NL_1267
+      - RU_1448
+      - DE_609
+      - RU_1542
+      - RU_530+_40_88Mb_92
+      - DE_514
+      - NL_1241
+      - DE_637
+      - DE_572
+      - DE_564
+      - DE_304+_11_36Mb_104
+      - NL_1301
+      - DE_202+_11_46Mb_102
+      - DE_546
+      - DE_500
+      - DE_203+_11_51Mb_97
+      - DE_587
+      - DE_589
+      - RO_1264+_55_37Mb_157
+      - NL_1260
+      - RU_1523
+      - DE_472
+      - RU_174+TGatpeekfun_90
+      - DE_527
+      - RO_1262+_18_60Mb_43
+      - US_630+_11_86Mb_38
+      - LT_1116
+      - RU_1514
+      - CA-53
+      - DE_277+_11_47Mb_103
+      - DE_491
+      - DE_305+_11_54Mb_101
+      - DE_643
+      - DE_517
+      - DE_565
+      - DE_630
+      - LT_1126
+      - NL_1255
+      - CN_435
+      - CN_416
+      - NL_1257
+      - CN_55
+      - CN_44
+      - CN_25
+      - CN_57
+      - CN_23
+      - CN_52
+      - CN_47
+      - CN_45
+      - CN_56
+      - CN_51
+      - CN_53
+      - CN_29
+      - DE_523
+      - DE_611
+      - CN_31
+      - LT_1074
+      - CN_32
+      - LT_1119
+      - LT_1045
+      - ZZ_3883
+      - LT_874
+      - LT_1057
+      - LT_1070 2
+      - AU-
+      - US-
+      - KR-12
+      - FR-l
+      - SG-16
+      - 澳大利亚2
+      - 土耳其
+      - 美国)
+      - US39
+      - US36
+      - 加拿大 2
+      - US-33
+      - 美国) 2
+      - JP-6
+      - IN-7
+      - SG-17
+      - US-2
+      - IN-1
+      - AU-3
+      - GB-l1
+      - JP-17
+      - IN5
+      - GB-2
+      - JP-16
+      - JP-4
+      - AU)
+      - HK-5
       - US-l 3
       - US-l 4
       - _US_美国 3
@@ -887,15 +1855,15 @@ proxy-groups:
       - US-l 6
       - RELAY-l 3 2
       - "[🇨🇳][SS][中]"
-      - "[🇨🇦][SS][加]"
-      - "[🇨🇦][SS][加] 2"
+      - "[🇨🇦][SS][加] 3"
+      - "[🇨🇦][SS][加] 2 2"
       - "[🇬🇧][SS][寻]"
       - "[🇬🇧][SS][寻] 2"
-      - "[🇨🇦][SS][加] 3"
+      - "[🇨🇦][SS][加] 3 2"
       - "[🇺🇸][SS][美]"
       - "[🇺🇸][SS][美] 2"
       - CA-Openit.ml
-      - "[🇯🇵][SS][日]"
+      - "[🇯🇵][SS][日] 2"
       - CA-Openit.ml 2
       - "[🇵🇱][SS][寻]"
       - CA-Openit.ml 3
@@ -910,11 +1878,11 @@ proxy-groups:
       - CA-Openit.ml 5
       - "[🇨🇦][SS][加] 9"
       - "[🇩🇪][SS][寻]"
-      - AU-
+      - AU- 2
       - 澳大利亚
       - US-l 14
       - JP-l
-      - FR-l
+      - FR-l 2
       - IN-l
       - US- 13
       - JP- 2
@@ -940,7 +1908,7 @@ proxy-groups:
       - GBl
       - FR-ml
       - JP-l 2 2
-      - US-
+      - US- 2
       - US-l 2
       - US-l 3 2
       - JP-l 3
@@ -964,6 +1932,127 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - ‌‌加拿大
+      - "[🇨🇦][SS][加]"
+      - 加拿大)(Public)
+      - "[🇯🇵][SS][日]"
+      - "[🇨🇦][SS][加] 2"
+      - CN_42+TGatpeekfun_4
+      - NL_1321
+      - DE_675
+      - DE_583
+      - DE_278+_10_38Mb_98
+      - DE_540
+      - DE_551
+      - GB_29630
+      - LT_1070
+      - DE_485
+      - LT_1097
+      - DE_515
+      - DE_513
+      - DE_507
+      - DE_495
+      - DE_606
+      - LT_114+TGatpeekfun_74
+      - DE_561
+      - DE_528
+      - DE_488
+      - DE_521
+      - RU_1479
+      - DE_654
+      - DE_624
+      - DE_484
+      - NL_1267
+      - RU_1448
+      - DE_609
+      - RU_1542
+      - RU_530+_40_88Mb_92
+      - DE_514
+      - NL_1241
+      - DE_637
+      - DE_572
+      - DE_564
+      - DE_304+_11_36Mb_104
+      - NL_1301
+      - DE_202+_11_46Mb_102
+      - DE_546
+      - DE_500
+      - DE_203+_11_51Mb_97
+      - DE_587
+      - DE_589
+      - RO_1264+_55_37Mb_157
+      - NL_1260
+      - RU_1523
+      - DE_472
+      - RU_174+TGatpeekfun_90
+      - DE_527
+      - RO_1262+_18_60Mb_43
+      - US_630+_11_86Mb_38
+      - LT_1116
+      - RU_1514
+      - CA-53
+      - DE_277+_11_47Mb_103
+      - DE_491
+      - DE_305+_11_54Mb_101
+      - DE_643
+      - DE_517
+      - DE_565
+      - DE_630
+      - LT_1126
+      - NL_1255
+      - CN_435
+      - CN_416
+      - NL_1257
+      - CN_55
+      - CN_44
+      - CN_25
+      - CN_57
+      - CN_23
+      - CN_52
+      - CN_47
+      - CN_45
+      - CN_56
+      - CN_51
+      - CN_53
+      - CN_29
+      - DE_523
+      - DE_611
+      - CN_31
+      - LT_1074
+      - CN_32
+      - LT_1119
+      - LT_1045
+      - ZZ_3883
+      - LT_874
+      - LT_1057
+      - LT_1070 2
+      - AU-
+      - US-
+      - KR-12
+      - FR-l
+      - SG-16
+      - 澳大利亚2
+      - 土耳其
+      - 美国)
+      - US39
+      - US36
+      - 加拿大 2
+      - US-33
+      - 美国) 2
+      - JP-6
+      - IN-7
+      - SG-17
+      - US-2
+      - IN-1
+      - AU-3
+      - GB-l1
+      - JP-17
+      - IN5
+      - GB-2
+      - JP-16
+      - JP-4
+      - AU)
+      - HK-5
       - US-l 3
       - US-l 4
       - _US_美国 3
@@ -1013,15 +2102,15 @@ proxy-groups:
       - US-l 6
       - RELAY-l 3 2
       - "[🇨🇳][SS][中]"
-      - "[🇨🇦][SS][加]"
-      - "[🇨🇦][SS][加] 2"
+      - "[🇨🇦][SS][加] 3"
+      - "[🇨🇦][SS][加] 2 2"
       - "[🇬🇧][SS][寻]"
       - "[🇬🇧][SS][寻] 2"
-      - "[🇨🇦][SS][加] 3"
+      - "[🇨🇦][SS][加] 3 2"
       - "[🇺🇸][SS][美]"
       - "[🇺🇸][SS][美] 2"
       - CA-Openit.ml
-      - "[🇯🇵][SS][日]"
+      - "[🇯🇵][SS][日] 2"
       - CA-Openit.ml 2
       - "[🇵🇱][SS][寻]"
       - CA-Openit.ml 3
@@ -1036,11 +2125,11 @@ proxy-groups:
       - CA-Openit.ml 5
       - "[🇨🇦][SS][加] 9"
       - "[🇩🇪][SS][寻]"
-      - AU-
+      - AU- 2
       - 澳大利亚
       - US-l 14
       - JP-l
-      - FR-l
+      - FR-l 2
       - IN-l
       - US- 13
       - JP- 2
@@ -1066,7 +2155,7 @@ proxy-groups:
       - GBl
       - FR-ml
       - JP-l 2 2
-      - US-
+      - US- 2
       - US-l 2
       - US-l 3 2
       - JP-l 3
