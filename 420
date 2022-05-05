@@ -5,6 +5,80 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 中国_Relay_1, server: 117.50.31.245, port: 617, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_2, server: 117.50.31.245, port: 615, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_3, server: 117.50.31.245, port: 618, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_4, server: 117.50.31.245, port: 614, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_5, server: 117.50.31.245, port: 613, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay-6, server: 117.50.31.245, port: 610, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relayr_7, server: 117.50.31.245, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_8, server: 117.50.31.245, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_9, server: 117.50.31.245, port: 544, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_10, server: 117.50.31.245, port: 612, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relayr_11, server: 117.50.31.245, port: 603, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_12, server: 117.50.31.245, port: 620, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 香港_Relay_13, server: 218.102.220.230, port: 443, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 香港_Relay_14, server: 116.49.231.122, port: 443, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_15, server: 120.232.190.30, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_16, server: 120.236.180.11, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Rela_17, server: 120.236.180.14, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_18, server: 120.236.180.14, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_19, server: 183.236.60.182, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relayr_20, server: 183.236.60.136, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_21, server: 183.236.60.134, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_22, server: 120.232.190.30, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_23, server: 120.236.180.13, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Rela_24, server: 183.236.60.182, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_25, server: 183.236.60.181, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_26, server: 120.236.180.12, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_27, server: 183.236.60.153, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_28, server: 183.236.60.153, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_29, server: 183.236.60.134, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_30, server: 183.236.60.134, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_31, server: 125.94.37.110, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_32, server: 120.236.180.11, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_33, server: 120.236.180.14, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_34, server: 183.236.60.182, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_35, server: 183.236.60.181, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_36, server: 183.236.60.181, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_37, server: 120.236.180.12, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_38, server: 120.236.180.12, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_39, server: 183.236.60.178, port: 601, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_40, server: 183.236.60.178, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_41, server: 183.236.60.178, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_42, server: 183.236.60.153, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_43, server: 183.236.60.145, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_44, server: 183.236.60.136, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_45, server: 183.236.60.136, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_46, server: 139.227.190.220, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_47, server: 139.227.190.220, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_48, server: 139.227.190.220, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_49, server: 139.227.190.220, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_50, server: 139.227.190.104, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_51, server: 139.227.190.104, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_52, server: 139.227.190.104, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_53, server: 139.227.190.104, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_54, server: 139.227.190.104, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_55, server: 139.227.190.228, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_56, server: 139.227.190.228, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relayr_57, server: 139.227.190.228, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Rela_58, server: 139.227.190.228, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Rela_59, server: 139.227.191.193, port: 569, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_60, server: 139.227.191.193, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_61, server: 139.227.191.193, port: 567, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_62, server: 139.227.191.193, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay63, server: 139.227.191.193, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_64, server: 139.227.191.193, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_65, server: 125.94.37.110, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_66, server: 139.227.190.202, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_67, server: 116.162.33.239, port: 567, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_68, server: 116.162.33.239, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_69, server: 116.162.33.239, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_70, server: 116.162.33.239, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Rela_71, server: 116.162.33.239, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relayr_72, server: 116.162.33.239, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_73, server: 116.162.33.239, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 中国_Relay_74, server: 116.162.33.239, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
   - {name: GF A, server: yzbgp.tencentvideos.us, port: 23301, type: trojan, password: 0a4804d3-fae3-4e66-a45f-21ae87d18ff7, sni: yzbgp.tencentvideos.us, skip-cert-verify: true, udp: true}
   - {name: GF B, server: yzbgp.tencentvideos.us, port: 23302, type: trojan, password: 0a4804d3-fae3-4e66-a45f-21ae87d18ff7, sni: yzbgp.tencentvideos.us, skip-cert-verify: true, udp: true}
   - {name: AF A, server: us-relay-a.tencentvideos.us, port: 23321, type: trojan, password: 0a4804d3-fae3-4e66-a45f-21ae87d18ff7, sni: us-relay-a.tencentvideos.us, skip-cert-verify: true, udp: true}
@@ -194,6 +268,80 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 中国_Relay_1
+      - 中国_Relay_2
+      - 中国_Relay_3
+      - 中国_Relay_4
+      - 中国_Relay_5
+      - 中国_Relay-6
+      - 中国_Relayr_7
+      - 中国_Relay_8
+      - 中国_Relay_9
+      - 中国_Relay_10
+      - 中国_Relayr_11
+      - 中国_Relay_12
+      - 香港_Relay_13
+      - 香港_Relay_14
+      - 中国_Relay_15
+      - 中国_Relay_16
+      - 中国_Rela_17
+      - 中国_Relay_18
+      - 中国_Relay_19
+      - 中国_Relayr_20
+      - 中国_Relay_21
+      - 中国_Relay_22
+      - 中国_Relay_23
+      - 中国_Rela_24
+      - 中国_Relay_25
+      - 中国_Relay_26
+      - 中国_Relay_27
+      - 中国_Relay_28
+      - 中国_Relay_29
+      - 中国_Relay_30
+      - 中国_Relay_31
+      - 中国_Relay_32
+      - 中国_Relay_33
+      - 中国_Relay_34
+      - 中国_Relay_35
+      - 中国_Relay_36
+      - 中国_Relay_37
+      - 中国_Relay_38
+      - 中国_Relay_39
+      - 中国_Relay_40
+      - 中国_Relay_41
+      - 中国_Relay_42
+      - 中国_Relay_43
+      - 中国_Relay_44
+      - 中国_Relay_45
+      - 中国_Relay_46
+      - 中国_Relay_47
+      - 中国_Relay_48
+      - 中国_Relay_49
+      - 中国_Relay_50
+      - 中国_Relay_51
+      - 中国_Relay_52
+      - 中国_Relay_53
+      - 中国_Relay_54
+      - 中国_Relay_55
+      - 中国_Relay_56
+      - 中国_Relayr_57
+      - 中国_Rela_58
+      - 中国_Rela_59
+      - 中国_Relay_60
+      - 中国_Relay_61
+      - 中国_Relay_62
+      - 中国_Relay63
+      - 中国_Relay_64
+      - 中国_Relay_65
+      - 中国_Relay_66
+      - 中国_Relay_67
+      - 中国_Relay_68
+      - 中国_Relay_69
+      - 中国_Relay_70
+      - 中国_Rela_71
+      - 中国_Relayr_72
+      - 中国_Relay_73
+      - 中国_Relay_74
       - GF A
       - GF B
       - AF A
@@ -382,6 +530,80 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 中国_Relay_1
+      - 中国_Relay_2
+      - 中国_Relay_3
+      - 中国_Relay_4
+      - 中国_Relay_5
+      - 中国_Relay-6
+      - 中国_Relayr_7
+      - 中国_Relay_8
+      - 中国_Relay_9
+      - 中国_Relay_10
+      - 中国_Relayr_11
+      - 中国_Relay_12
+      - 香港_Relay_13
+      - 香港_Relay_14
+      - 中国_Relay_15
+      - 中国_Relay_16
+      - 中国_Rela_17
+      - 中国_Relay_18
+      - 中国_Relay_19
+      - 中国_Relayr_20
+      - 中国_Relay_21
+      - 中国_Relay_22
+      - 中国_Relay_23
+      - 中国_Rela_24
+      - 中国_Relay_25
+      - 中国_Relay_26
+      - 中国_Relay_27
+      - 中国_Relay_28
+      - 中国_Relay_29
+      - 中国_Relay_30
+      - 中国_Relay_31
+      - 中国_Relay_32
+      - 中国_Relay_33
+      - 中国_Relay_34
+      - 中国_Relay_35
+      - 中国_Relay_36
+      - 中国_Relay_37
+      - 中国_Relay_38
+      - 中国_Relay_39
+      - 中国_Relay_40
+      - 中国_Relay_41
+      - 中国_Relay_42
+      - 中国_Relay_43
+      - 中国_Relay_44
+      - 中国_Relay_45
+      - 中国_Relay_46
+      - 中国_Relay_47
+      - 中国_Relay_48
+      - 中国_Relay_49
+      - 中国_Relay_50
+      - 中国_Relay_51
+      - 中国_Relay_52
+      - 中国_Relay_53
+      - 中国_Relay_54
+      - 中国_Relay_55
+      - 中国_Relay_56
+      - 中国_Relayr_57
+      - 中国_Rela_58
+      - 中国_Rela_59
+      - 中国_Relay_60
+      - 中国_Relay_61
+      - 中国_Relay_62
+      - 中国_Relay63
+      - 中国_Relay_64
+      - 中国_Relay_65
+      - 中国_Relay_66
+      - 中国_Relay_67
+      - 中国_Relay_68
+      - 中国_Relay_69
+      - 中国_Relay_70
+      - 中国_Rela_71
+      - 中国_Relayr_72
+      - 中国_Relay_73
+      - 中国_Relay_74
       - GF A
       - GF B
       - AF A
@@ -571,6 +793,80 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 中国_Relay_1
+      - 中国_Relay_2
+      - 中国_Relay_3
+      - 中国_Relay_4
+      - 中国_Relay_5
+      - 中国_Relay-6
+      - 中国_Relayr_7
+      - 中国_Relay_8
+      - 中国_Relay_9
+      - 中国_Relay_10
+      - 中国_Relayr_11
+      - 中国_Relay_12
+      - 香港_Relay_13
+      - 香港_Relay_14
+      - 中国_Relay_15
+      - 中国_Relay_16
+      - 中国_Rela_17
+      - 中国_Relay_18
+      - 中国_Relay_19
+      - 中国_Relayr_20
+      - 中国_Relay_21
+      - 中国_Relay_22
+      - 中国_Relay_23
+      - 中国_Rela_24
+      - 中国_Relay_25
+      - 中国_Relay_26
+      - 中国_Relay_27
+      - 中国_Relay_28
+      - 中国_Relay_29
+      - 中国_Relay_30
+      - 中国_Relay_31
+      - 中国_Relay_32
+      - 中国_Relay_33
+      - 中国_Relay_34
+      - 中国_Relay_35
+      - 中国_Relay_36
+      - 中国_Relay_37
+      - 中国_Relay_38
+      - 中国_Relay_39
+      - 中国_Relay_40
+      - 中国_Relay_41
+      - 中国_Relay_42
+      - 中国_Relay_43
+      - 中国_Relay_44
+      - 中国_Relay_45
+      - 中国_Relay_46
+      - 中国_Relay_47
+      - 中国_Relay_48
+      - 中国_Relay_49
+      - 中国_Relay_50
+      - 中国_Relay_51
+      - 中国_Relay_52
+      - 中国_Relay_53
+      - 中国_Relay_54
+      - 中国_Relay_55
+      - 中国_Relay_56
+      - 中国_Relayr_57
+      - 中国_Rela_58
+      - 中国_Rela_59
+      - 中国_Relay_60
+      - 中国_Relay_61
+      - 中国_Relay_62
+      - 中国_Relay63
+      - 中国_Relay_64
+      - 中国_Relay_65
+      - 中国_Relay_66
+      - 中国_Relay_67
+      - 中国_Relay_68
+      - 中国_Relay_69
+      - 中国_Relay_70
+      - 中国_Rela_71
+      - 中国_Relayr_72
+      - 中国_Relay_73
+      - 中国_Relay_74
       - GF A
       - GF B
       - AF A
@@ -772,6 +1068,80 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 中国_Relay_1
+      - 中国_Relay_2
+      - 中国_Relay_3
+      - 中国_Relay_4
+      - 中国_Relay_5
+      - 中国_Relay-6
+      - 中国_Relayr_7
+      - 中国_Relay_8
+      - 中国_Relay_9
+      - 中国_Relay_10
+      - 中国_Relayr_11
+      - 中国_Relay_12
+      - 香港_Relay_13
+      - 香港_Relay_14
+      - 中国_Relay_15
+      - 中国_Relay_16
+      - 中国_Rela_17
+      - 中国_Relay_18
+      - 中国_Relay_19
+      - 中国_Relayr_20
+      - 中国_Relay_21
+      - 中国_Relay_22
+      - 中国_Relay_23
+      - 中国_Rela_24
+      - 中国_Relay_25
+      - 中国_Relay_26
+      - 中国_Relay_27
+      - 中国_Relay_28
+      - 中国_Relay_29
+      - 中国_Relay_30
+      - 中国_Relay_31
+      - 中国_Relay_32
+      - 中国_Relay_33
+      - 中国_Relay_34
+      - 中国_Relay_35
+      - 中国_Relay_36
+      - 中国_Relay_37
+      - 中国_Relay_38
+      - 中国_Relay_39
+      - 中国_Relay_40
+      - 中国_Relay_41
+      - 中国_Relay_42
+      - 中国_Relay_43
+      - 中国_Relay_44
+      - 中国_Relay_45
+      - 中国_Relay_46
+      - 中国_Relay_47
+      - 中国_Relay_48
+      - 中国_Relay_49
+      - 中国_Relay_50
+      - 中国_Relay_51
+      - 中国_Relay_52
+      - 中国_Relay_53
+      - 中国_Relay_54
+      - 中国_Relay_55
+      - 中国_Relay_56
+      - 中国_Relayr_57
+      - 中国_Rela_58
+      - 中国_Rela_59
+      - 中国_Relay_60
+      - 中国_Relay_61
+      - 中国_Relay_62
+      - 中国_Relay63
+      - 中国_Relay_64
+      - 中国_Relay_65
+      - 中国_Relay_66
+      - 中国_Relay_67
+      - 中国_Relay_68
+      - 中国_Relay_69
+      - 中国_Relay_70
+      - 中国_Rela_71
+      - 中国_Relayr_72
+      - 中国_Relay_73
+      - 中国_Relay_74
       - GF A
       - GF B
       - AF A
@@ -959,12 +1329,88 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港_Relay_13
+      - 香港_Relay_14
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 中国_Relay_1
+      - 中国_Relay_2
+      - 中国_Relay_3
+      - 中国_Relay_4
+      - 中国_Relay_5
+      - 中国_Relay-6
+      - 中国_Relayr_7
+      - 中国_Relay_8
+      - 中国_Relay_9
+      - 中国_Relay_10
+      - 中国_Relayr_11
+      - 中国_Relay_12
+      - 香港_Relay_13
+      - 香港_Relay_14
+      - 中国_Relay_15
+      - 中国_Relay_16
+      - 中国_Rela_17
+      - 中国_Relay_18
+      - 中国_Relay_19
+      - 中国_Relayr_20
+      - 中国_Relay_21
+      - 中国_Relay_22
+      - 中国_Relay_23
+      - 中国_Rela_24
+      - 中国_Relay_25
+      - 中国_Relay_26
+      - 中国_Relay_27
+      - 中国_Relay_28
+      - 中国_Relay_29
+      - 中国_Relay_30
+      - 中国_Relay_31
+      - 中国_Relay_32
+      - 中国_Relay_33
+      - 中国_Relay_34
+      - 中国_Relay_35
+      - 中国_Relay_36
+      - 中国_Relay_37
+      - 中国_Relay_38
+      - 中国_Relay_39
+      - 中国_Relay_40
+      - 中国_Relay_41
+      - 中国_Relay_42
+      - 中国_Relay_43
+      - 中国_Relay_44
+      - 中国_Relay_45
+      - 中国_Relay_46
+      - 中国_Relay_47
+      - 中国_Relay_48
+      - 中国_Relay_49
+      - 中国_Relay_50
+      - 中国_Relay_51
+      - 中国_Relay_52
+      - 中国_Relay_53
+      - 中国_Relay_54
+      - 中国_Relay_55
+      - 中国_Relay_56
+      - 中国_Relayr_57
+      - 中国_Rela_58
+      - 中国_Rela_59
+      - 中国_Relay_60
+      - 中国_Relay_61
+      - 中国_Relay_62
+      - 中国_Relay63
+      - 中国_Relay_64
+      - 中国_Relay_65
+      - 中国_Relay_66
+      - 中国_Relay_67
+      - 中国_Relay_68
+      - 中国_Relay_69
+      - 中国_Relay_70
+      - 中国_Rela_71
+      - 中国_Relayr_72
+      - 中国_Relay_73
+      - 中国_Relay_74
       - GF A
       - GF B
       - AF A
@@ -1153,6 +1599,80 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 中国_Relay_1
+      - 中国_Relay_2
+      - 中国_Relay_3
+      - 中国_Relay_4
+      - 中国_Relay_5
+      - 中国_Relay-6
+      - 中国_Relayr_7
+      - 中国_Relay_8
+      - 中国_Relay_9
+      - 中国_Relay_10
+      - 中国_Relayr_11
+      - 中国_Relay_12
+      - 香港_Relay_13
+      - 香港_Relay_14
+      - 中国_Relay_15
+      - 中国_Relay_16
+      - 中国_Rela_17
+      - 中国_Relay_18
+      - 中国_Relay_19
+      - 中国_Relayr_20
+      - 中国_Relay_21
+      - 中国_Relay_22
+      - 中国_Relay_23
+      - 中国_Rela_24
+      - 中国_Relay_25
+      - 中国_Relay_26
+      - 中国_Relay_27
+      - 中国_Relay_28
+      - 中国_Relay_29
+      - 中国_Relay_30
+      - 中国_Relay_31
+      - 中国_Relay_32
+      - 中国_Relay_33
+      - 中国_Relay_34
+      - 中国_Relay_35
+      - 中国_Relay_36
+      - 中国_Relay_37
+      - 中国_Relay_38
+      - 中国_Relay_39
+      - 中国_Relay_40
+      - 中国_Relay_41
+      - 中国_Relay_42
+      - 中国_Relay_43
+      - 中国_Relay_44
+      - 中国_Relay_45
+      - 中国_Relay_46
+      - 中国_Relay_47
+      - 中国_Relay_48
+      - 中国_Relay_49
+      - 中国_Relay_50
+      - 中国_Relay_51
+      - 中国_Relay_52
+      - 中国_Relay_53
+      - 中国_Relay_54
+      - 中国_Relay_55
+      - 中国_Relay_56
+      - 中国_Relayr_57
+      - 中国_Rela_58
+      - 中国_Rela_59
+      - 中国_Relay_60
+      - 中国_Relay_61
+      - 中国_Relay_62
+      - 中国_Relay63
+      - 中国_Relay_64
+      - 中国_Relay_65
+      - 中国_Relay_66
+      - 中国_Relay_67
+      - 中国_Relay_68
+      - 中国_Relay_69
+      - 中国_Relay_70
+      - 中国_Rela_71
+      - 中国_Relayr_72
+      - 中国_Relay_73
+      - 中国_Relay_74
       - GF A
       - GF B
       - AF A
@@ -1342,6 +1862,80 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 中国_Relay_1
+      - 中国_Relay_2
+      - 中国_Relay_3
+      - 中国_Relay_4
+      - 中国_Relay_5
+      - 中国_Relay-6
+      - 中国_Relayr_7
+      - 中国_Relay_8
+      - 中国_Relay_9
+      - 中国_Relay_10
+      - 中国_Relayr_11
+      - 中国_Relay_12
+      - 香港_Relay_13
+      - 香港_Relay_14
+      - 中国_Relay_15
+      - 中国_Relay_16
+      - 中国_Rela_17
+      - 中国_Relay_18
+      - 中国_Relay_19
+      - 中国_Relayr_20
+      - 中国_Relay_21
+      - 中国_Relay_22
+      - 中国_Relay_23
+      - 中国_Rela_24
+      - 中国_Relay_25
+      - 中国_Relay_26
+      - 中国_Relay_27
+      - 中国_Relay_28
+      - 中国_Relay_29
+      - 中国_Relay_30
+      - 中国_Relay_31
+      - 中国_Relay_32
+      - 中国_Relay_33
+      - 中国_Relay_34
+      - 中国_Relay_35
+      - 中国_Relay_36
+      - 中国_Relay_37
+      - 中国_Relay_38
+      - 中国_Relay_39
+      - 中国_Relay_40
+      - 中国_Relay_41
+      - 中国_Relay_42
+      - 中国_Relay_43
+      - 中国_Relay_44
+      - 中国_Relay_45
+      - 中国_Relay_46
+      - 中国_Relay_47
+      - 中国_Relay_48
+      - 中国_Relay_49
+      - 中国_Relay_50
+      - 中国_Relay_51
+      - 中国_Relay_52
+      - 中国_Relay_53
+      - 中国_Relay_54
+      - 中国_Relay_55
+      - 中国_Relay_56
+      - 中国_Relayr_57
+      - 中国_Rela_58
+      - 中国_Rela_59
+      - 中国_Relay_60
+      - 中国_Relay_61
+      - 中国_Relay_62
+      - 中国_Relay63
+      - 中国_Relay_64
+      - 中国_Relay_65
+      - 中国_Relay_66
+      - 中国_Relay_67
+      - 中国_Relay_68
+      - 中国_Relay_69
+      - 中国_Relay_70
+      - 中国_Rela_71
+      - 中国_Relayr_72
+      - 中国_Relay_73
+      - 中国_Relay_74
       - GF A
       - GF B
       - AF A
@@ -1540,6 +2134,80 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 中国_Relay_1
+      - 中国_Relay_2
+      - 中国_Relay_3
+      - 中国_Relay_4
+      - 中国_Relay_5
+      - 中国_Relay-6
+      - 中国_Relayr_7
+      - 中国_Relay_8
+      - 中国_Relay_9
+      - 中国_Relay_10
+      - 中国_Relayr_11
+      - 中国_Relay_12
+      - 香港_Relay_13
+      - 香港_Relay_14
+      - 中国_Relay_15
+      - 中国_Relay_16
+      - 中国_Rela_17
+      - 中国_Relay_18
+      - 中国_Relay_19
+      - 中国_Relayr_20
+      - 中国_Relay_21
+      - 中国_Relay_22
+      - 中国_Relay_23
+      - 中国_Rela_24
+      - 中国_Relay_25
+      - 中国_Relay_26
+      - 中国_Relay_27
+      - 中国_Relay_28
+      - 中国_Relay_29
+      - 中国_Relay_30
+      - 中国_Relay_31
+      - 中国_Relay_32
+      - 中国_Relay_33
+      - 中国_Relay_34
+      - 中国_Relay_35
+      - 中国_Relay_36
+      - 中国_Relay_37
+      - 中国_Relay_38
+      - 中国_Relay_39
+      - 中国_Relay_40
+      - 中国_Relay_41
+      - 中国_Relay_42
+      - 中国_Relay_43
+      - 中国_Relay_44
+      - 中国_Relay_45
+      - 中国_Relay_46
+      - 中国_Relay_47
+      - 中国_Relay_48
+      - 中国_Relay_49
+      - 中国_Relay_50
+      - 中国_Relay_51
+      - 中国_Relay_52
+      - 中国_Relay_53
+      - 中国_Relay_54
+      - 中国_Relay_55
+      - 中国_Relay_56
+      - 中国_Relayr_57
+      - 中国_Rela_58
+      - 中国_Rela_59
+      - 中国_Relay_60
+      - 中国_Relay_61
+      - 中国_Relay_62
+      - 中国_Relay63
+      - 中国_Relay_64
+      - 中国_Relay_65
+      - 中国_Relay_66
+      - 中国_Relay_67
+      - 中国_Relay_68
+      - 中国_Relay_69
+      - 中国_Relay_70
+      - 中国_Rela_71
+      - 中国_Relayr_72
+      - 中国_Relay_73
+      - 中国_Relay_74
       - GF A
       - GF B
       - AF A
