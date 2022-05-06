@@ -23,7 +23,6 @@ proxies:
   - {name: _US_美国 3, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: RU_1675, server: 217.30.10.66, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
   - {name: FR-l, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
-  - {name: FR_89, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
   - {name: IN-1, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: IN-7, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: "[🇯🇵][SS][日]", server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
@@ -45,7 +44,6 @@ proxies:
   - {name: LT_1070, server: 213.183.63.219, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
   - {name: 中国_Relay_50, server: 139.227.190.104, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
   - {name: LT_1070 3, server: 213.183.63.219, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: LT_1009, server: 213.183.63.219, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
   - {name: 中国_Relay_52, server: 139.227.190.104, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
   - {name: US-2, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan33.free4444.xyz, skip-cert-verify: true, udp: true}
   - {name: 中国_Relay_54, server: 139.227.190.104, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
@@ -70,7 +68,6 @@ proxies:
   - {name: _GB_英国_16, server: 152.89.210.84, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
   - {name: CA-53, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: CA_12, server: 198.57.27.225, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA_18, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: _GB_英国_17, server: 152.89.210.84, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
   - {name: DE_514, server: 5.183.179.167, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
   - {name: CA_14, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
@@ -79,7 +76,6 @@ proxies:
   - {name: CA_16, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: CAl 4, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: CA-l 6, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "[🇨🇦][SS][加]", server: 198.57.27.225, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: DE_654, server: 5.183.179.170, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
   - {name: 加拿大)(Public), server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 中国_Relay_68, server: 116.162.33.239, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
@@ -87,13 +83,11 @@ proxies:
   - {name: "[🇨🇦][SS][加] 2", server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 中国_Relay_73, server: 116.162.33.239, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
   - {name: DE_523, server: 5.183.179.166, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: ‌‌加拿大, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: 中国_Relay_69, server: 116.162.33.239, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
   - {name: CA-l, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: DE_530, server: 5.183.179.146, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
   - {name: 中国_Rela_71, server: 116.162.33.239, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
   - {name: DE_664, server: 5.183.179.137, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: CA-l 7, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: DE_278+_10_38Mb_98, server: 5.183.179.140, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
   - {name: DE_564, server: 5.183.179.166, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
   - {name: _DE_德国_50, server: 5.183.179.167, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
@@ -124,7 +118,6 @@ proxies:
   - {name: NL_1301, server: 213.183.59.229, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
   - {name: DE_587, server: 5.183.179.166, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
   - {name: DE_491, server: 5.183.179.166, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: NL_1321, server: 213.183.51.172, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
   - {name: ZZ_3883, server: 169.197.142.99, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: NL_1255, server: 213.183.59.229, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
   - {name: DE_611, server: 5.183.179.140, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
@@ -150,7 +143,6 @@ proxies:
   - {name: US-ml 2, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: DE_527, server: 5.183.179.170, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
   - {name: 中国_Relay_29, server: 183.236.60.134, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
-  - {name: CA_19, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: 中国_Relay_15, server: 120.232.190.30, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
   - {name: 中国_Relay_22, server: 120.232.190.30, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
   - {name: 中国_Relay_35, server: 183.236.60.181, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
@@ -163,7 +155,6 @@ proxies:
   - {name: 中国_Relay_38, server: 120.236.180.12, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
   - {name: 中国_Relay_25, server: 183.236.60.181, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
   - {name: JP-17, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: CA_156, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: 中国_Relay_30, server: 183.236.60.134, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
   - {name: 中国_Relay_40, server: 183.236.60.178, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
   - {name: "[SSR]", server: eif7aet4.nodeinfo.icu, port: 1097, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
@@ -176,7 +167,6 @@ proxies:
   - {name: 中国_Relay_28, server: 183.236.60.153, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
   - {name: LT_1020, server: 213.183.63.218, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
   - {name: 中国_Relay_41, server: 183.236.60.178, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
-  - {name: LT_1119, server: 213.183.63.218, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
   - {name: CN_48, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 中国_Relay_26, server: 120.236.180.12, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
   - {name: KRl_5, server: 129.154.48.221, port: 37372, type: vmess, uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -200,7 +190,6 @@ proxies:
   - {name: CN_54, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 中国_Relay63, server: 139.227.191.193, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
   - {name: US-l 3, server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_210, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: LT_1070 2, server: 213.183.63.218, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
   - {name: RU_165, server: 217.30.10.67, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
   - {name: LT_874, server: 213.183.63.218, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
@@ -213,7 +202,6 @@ proxies:
   - {name: 中国_Relay_16, server: 120.236.180.11, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
   - {name: Relay_🇰🇷KR-🇰🇷KR39, server: v2-4.godlight.xyz, port: 50497, type: vmess, uuid: 07ea283e-bbe8-466f-a268-c5819763a9bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /g1641hvx, ws-headers: {Host: v2-4.godlight.xyz}, udp: true}
   - {name: 中国_Relay_36, server: 183.236.60.181, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: t.me/vpnhat, udp: true}
-  - {name: CA_211, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: CA-Openit.ml, server: 198.57.27.225, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: _DE_德国_15, server: 5.183.179.167, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
   - {name: DE_675, server: 5.183.179.167, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
@@ -230,46 +218,108 @@ proxies:
   - {name: AU_01, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: CN_07, server: gzbgp.gia.wiki, port: 30222, type: trojan, password: d1eb7f64-30f8-4bfd-8fe9-f7e46962afdb, sni: gzbgp.gia.wiki, skip-cert-verify: true, udp: true}
   - {name: CN_08, server: gzbgp.gia.wiki, port: 30223, type: trojan, password: PiunBKswME, sni: gzbgp.gia.wiki, skip-cert-verify: true, udp: true}
-  - {name: FR_20, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
   - {name: GB_20, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: GB_21, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: GB_22, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: HK_24, server: 20.24.76.30, port: 12377, type: trojan, password: eea18f08-ec15-456f-a70b-232c72879ded, skip-cert-verify: true, udp: true}
-  - {name: IN_27, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: IN_28, server: 140.238.231.9, port: 443, type: trojan, password: O3hQcnNKAE, skip-cert-verify: true, udp: true}
-  - {name: IN_28 2, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: JP_33, server: aling.gq, port: 443, type: trojan, password: f727337d-52af-4cf9-b260-26ac9a23ddc2, sni: aling.gq, skip-cert-verify: true, udp: true}
   - {name: US_71, server: tj-12.t8737.shop, port: 11223, type: trojan, password: 76216dcd-b3c1-42fa-b68c-2ef031355aeb, sni: tj-12.t8737.shop, skip-cert-verify: true, udp: true}
   - {name: AU, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: AU- 2, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: CA-l 3, server: 209.209.11.112, port: 4586, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, skip-cert-verify: true, udp: true}
   - {name: GB-l, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: JP-4 2, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: JP-5, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP-6, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, sni: jgwdj2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP- 7, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP-8, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: KR- 5, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: KR- 6, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: KR- 7, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: SG- 3, server: 0001.sg.genzpn.com, port: 443, type: trojan, password: 85a173a6-cbac-44b7-83b7-0c53d4aadf93, sni: 0001.sg.genzpn.com, skip-cert-verify: true, udp: true}
-  - {name: SG- 4, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, sni: cp-asus.ml, skip-cert-verify: true, udp: true}
   - {name: TR-1, server: 84.54.13.134, port: 470, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, skip-cert-verify: true, udp: true}
-  - {name: US- 8 2, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan33.free4444.xyz, skip-cert-verify: true, udp: true}
   - {name: US-9, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: US-10, server: 0001.us.genzpn.com, port: 443, type: trojan, password: 85a173a6-cbac-44b7-83b7-0c53d4aadf93, sni: 0001.us.genzpn.com, skip-cert-verify: true, udp: true}
-  - {name: US- 11, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: US-12, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: US-13, server: 45.61.184.184, port: 6520, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, skip-cert-verify: true, udp: true}
   - {name: US- 14, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: US- 15, server: 198.211.45.184, port: 4586, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, skip-cert-verify: true, udp: true}
-  - {name: CA_01, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CA_02, server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA_03, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CA_04, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: CN_05, server: gz.syhwdz.top, port: 35018, type: ss, cipher: aes-256-gcm, password: arielherself, udp: true}
-  - {name: JP_29, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: KR_34, server: 132.226.20.79, port: 4666, type: ss, cipher: aes-128-gcm, password: PaSR4XPkpAdJphKP, udp: true}
+  - {name: CA, server: 134.195.196.245, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: CA2, server: 134.195.196.245, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US, server: 167.88.63.21, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US2 2, server: 167.88.63.17, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US3 2, server: 38.75.137.11, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US4, server: 38.68.134.62, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US5, server: 38.75.137.88, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US6, server: 38.91.101.14, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US7, server: 38.75.136.135, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA3, server: 134.195.196.155, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CA4, server: 134.195.196.162, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US8, server: 38.75.137.11, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US9, server: 38.75.137.88, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US10, server: 38.91.100.208, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US11, server: 38.75.136.135, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US12, server: 38.75.136.135, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US13, server: 38.91.101.14, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US14, server: 167.88.63.44, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US15, server: 38.75.137.11, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US16, server: 38.68.134.62, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CA5, server: 134.195.196.155, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US17, server: 38.91.101.14, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: CA6, server: 134.195.196.162, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US18, server: 38.91.100.208, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US9 2, server: 38.75.137.88, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US20, server: 167.88.63.44, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US21, server: 167.88.63.59, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US22, server: 38.75.137.88, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US23, server: 38.75.137.88, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US24, server: 38.75.137.88, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US25, server: 38.68.134.62, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US26, server: 38.75.137.88, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US27, server: 38.91.101.14, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US28, server: 38.75.137.11, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US29, server: 38.75.136.135, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US0, server: 38.75.137.11, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US31, server: 167.88.63.44, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US32, server: 167.88.63.21, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US33, server: 38.75.137.11, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US34, server: 38.75.136.135, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US35, server: 38.75.137.88, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US36, server: 167.88.63.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: CA7, server: 134.195.196.162, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US37, server: 38.68.134.62, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CA8, server: 134.195.196.162, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US8 2, server: 38.91.101.14, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US39 2, server: 167.88.63.44, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US40, server: 38.75.137.88, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US41, server: 38.75.137.88, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US42, server: 167.88.63.44, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US43, server: 38.75.136.135, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US44, server: 38.75.136.135, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: CA9, server: 134.195.196.155, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US45, server: 38.75.136.135, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA10, server: 134.195.196.155, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US46, server: 38.75.137.88, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US47, server: 38.75.137.88, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CA11, server: 134.195.196.168, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US48, server: 167.88.63.17, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US49, server: 38.91.101.14, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US50, server: 38.75.137.88, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US51, server: 38.68.134.62, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US52, server: 167.88.63.59, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US53, server: 38.91.101.14, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US54, server: 38.75.137.11, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US55, server: 38.75.137.88, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US56, server: 38.75.136.135, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US57, server: 38.91.101.14, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CA12, server: 134.195.196.16, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US58, server: 38.91.101.14, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US59, server: 167.88.63.59, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US60, server: 38.68.134.62, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US61, server: 38.75.137.11, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US62, server: 38.91.100.208, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US63, server: 38.68.134.62, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US64, server: 38.91.101.14, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US65, server: 38.75.136.135, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US66, server: 38.75.137.88, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US67, server: 38.75.137.88, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US68, server: 38.75.137.11, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US69, server: 38.75.137.88, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US70, server: 38.75.137.88, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -294,7 +344,6 @@ proxy-groups:
       - _US_美国 3
       - RU_1675
       - FR-l
-      - FR_89
       - IN-1
       - IN-7
       - "[🇯🇵][SS][日]"
@@ -316,7 +365,6 @@ proxy-groups:
       - LT_1070
       - 中国_Relay_50
       - LT_1070 3
-      - LT_1009
       - 中国_Relay_52
       - US-2
       - 中国_Relay_54
@@ -341,7 +389,6 @@ proxy-groups:
       - _GB_英国_16
       - CA-53
       - CA_12
-      - CA_18
       - _GB_英国_17
       - DE_514
       - CA_14
@@ -350,7 +397,6 @@ proxy-groups:
       - CA_16
       - CAl 4
       - CA-l 6
-      - "[🇨🇦][SS][加]"
       - DE_654
       - 加拿大)(Public)
       - 中国_Relay_68
@@ -358,13 +404,11 @@ proxy-groups:
       - "[🇨🇦][SS][加] 2"
       - 中国_Relay_73
       - DE_523
-      - ‌‌加拿大
       - 中国_Relay_69
       - CA-l
       - DE_530
       - 中国_Rela_71
       - DE_664
-      - CA-l 7
       - DE_278+_10_38Mb_98
       - DE_564
       - _DE_德国_50
@@ -395,7 +439,6 @@ proxy-groups:
       - NL_1301
       - DE_587
       - DE_491
-      - NL_1321
       - ZZ_3883
       - NL_1255
       - DE_611
@@ -421,7 +464,6 @@ proxy-groups:
       - US-ml 2
       - DE_527
       - 中国_Relay_29
-      - CA_19
       - 中国_Relay_15
       - 中国_Relay_22
       - 中国_Relay_35
@@ -434,7 +476,6 @@ proxy-groups:
       - 中国_Relay_38
       - 中国_Relay_25
       - JP-17
-      - CA_156
       - 中国_Relay_30
       - 中国_Relay_40
       - "[SSR]"
@@ -447,7 +488,6 @@ proxy-groups:
       - 中国_Relay_28
       - LT_1020
       - 中国_Relay_41
-      - LT_1119
       - CN_48
       - 中国_Relay_26
       - KRl_5
@@ -471,7 +511,6 @@ proxy-groups:
       - CN_54
       - 中国_Relay63
       - US-l 3
-      - US_210
       - LT_1070 2
       - RU_165
       - LT_874
@@ -484,7 +523,6 @@ proxy-groups:
       - 中国_Relay_16
       - Relay_🇰🇷KR-🇰🇷KR39
       - 中国_Relay_36
-      - CA_211
       - CA-Openit.ml
       - _DE_德国_15
       - DE_675
@@ -501,46 +539,108 @@ proxy-groups:
       - AU_01
       - CN_07
       - CN_08
-      - FR_20
       - GB_20
       - GB_21
-      - GB_22
-      - HK_24
-      - IN_27
-      - IN_28
-      - IN_28 2
       - JP_33
       - US_71
       - AU
-      - AU- 2
       - CA-l 3
       - GB-l
       - JP-4 2
       - JP-5
-      - JP-6
-      - JP- 7
-      - JP-8
       - KR- 5
-      - KR- 6
       - KR- 7
       - SG- 3
-      - SG- 4
       - TR-1
-      - US- 8 2
       - US-9
       - US-10
-      - US- 11
-      - US-12
       - US-13
       - US- 14
       - US- 15
-      - CA_01
-      - CA_02
-      - CA_03
-      - CA_04
       - CN_05
-      - JP_29
       - KR_34
+      - CA
+      - CA2
+      - US
+      - US2 2
+      - US3 2
+      - US4
+      - US5
+      - US6
+      - US7
+      - CA3
+      - CA4
+      - US8
+      - US9
+      - US10
+      - US11
+      - US12
+      - US13
+      - US14
+      - US15
+      - US16
+      - CA5
+      - US17
+      - CA6
+      - US18
+      - US9 2
+      - US20
+      - US21
+      - US22
+      - US23
+      - US24
+      - US25
+      - US26
+      - US27
+      - US28
+      - US29
+      - US0
+      - US31
+      - US32
+      - US33
+      - US34
+      - US35
+      - US36
+      - CA7
+      - US37
+      - CA8
+      - US8 2
+      - US39 2
+      - US40
+      - US41
+      - US42
+      - US43
+      - US44
+      - CA9
+      - US45
+      - CA10
+      - US46
+      - US47
+      - CA11
+      - US48
+      - US49
+      - US50
+      - US51
+      - US52
+      - US53
+      - US54
+      - US55
+      - US56
+      - US57
+      - CA12
+      - US58
+      - US59
+      - US60
+      - US61
+      - US62
+      - US63
+      - US64
+      - US65
+      - US66
+      - US67
+      - US68
+      - US69
+      - US70
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -564,7 +664,6 @@ proxy-groups:
       - _US_美国 3
       - RU_1675
       - FR-l
-      - FR_89
       - IN-1
       - IN-7
       - "[🇯🇵][SS][日]"
@@ -586,7 +685,6 @@ proxy-groups:
       - LT_1070
       - 中国_Relay_50
       - LT_1070 3
-      - LT_1009
       - 中国_Relay_52
       - US-2
       - 中国_Relay_54
@@ -611,7 +709,6 @@ proxy-groups:
       - _GB_英国_16
       - CA-53
       - CA_12
-      - CA_18
       - _GB_英国_17
       - DE_514
       - CA_14
@@ -620,7 +717,6 @@ proxy-groups:
       - CA_16
       - CAl 4
       - CA-l 6
-      - "[🇨🇦][SS][加]"
       - DE_654
       - 加拿大)(Public)
       - 中国_Relay_68
@@ -628,13 +724,11 @@ proxy-groups:
       - "[🇨🇦][SS][加] 2"
       - 中国_Relay_73
       - DE_523
-      - ‌‌加拿大
       - 中国_Relay_69
       - CA-l
       - DE_530
       - 中国_Rela_71
       - DE_664
-      - CA-l 7
       - DE_278+_10_38Mb_98
       - DE_564
       - _DE_德国_50
@@ -665,7 +759,6 @@ proxy-groups:
       - NL_1301
       - DE_587
       - DE_491
-      - NL_1321
       - ZZ_3883
       - NL_1255
       - DE_611
@@ -691,7 +784,6 @@ proxy-groups:
       - US-ml 2
       - DE_527
       - 中国_Relay_29
-      - CA_19
       - 中国_Relay_15
       - 中国_Relay_22
       - 中国_Relay_35
@@ -704,7 +796,6 @@ proxy-groups:
       - 中国_Relay_38
       - 中国_Relay_25
       - JP-17
-      - CA_156
       - 中国_Relay_30
       - 中国_Relay_40
       - "[SSR]"
@@ -717,7 +808,6 @@ proxy-groups:
       - 中国_Relay_28
       - LT_1020
       - 中国_Relay_41
-      - LT_1119
       - CN_48
       - 中国_Relay_26
       - KRl_5
@@ -741,7 +831,6 @@ proxy-groups:
       - CN_54
       - 中国_Relay63
       - US-l 3
-      - US_210
       - LT_1070 2
       - RU_165
       - LT_874
@@ -754,7 +843,6 @@ proxy-groups:
       - 中国_Relay_16
       - Relay_🇰🇷KR-🇰🇷KR39
       - 中国_Relay_36
-      - CA_211
       - CA-Openit.ml
       - _DE_德国_15
       - DE_675
@@ -771,46 +859,108 @@ proxy-groups:
       - AU_01
       - CN_07
       - CN_08
-      - FR_20
       - GB_20
       - GB_21
-      - GB_22
-      - HK_24
-      - IN_27
-      - IN_28
-      - IN_28 2
       - JP_33
       - US_71
       - AU
-      - AU- 2
       - CA-l 3
       - GB-l
       - JP-4 2
       - JP-5
-      - JP-6
-      - JP- 7
-      - JP-8
       - KR- 5
-      - KR- 6
       - KR- 7
       - SG- 3
-      - SG- 4
       - TR-1
-      - US- 8 2
       - US-9
       - US-10
-      - US- 11
-      - US-12
       - US-13
       - US- 14
       - US- 15
-      - CA_01
-      - CA_02
-      - CA_03
-      - CA_04
       - CN_05
-      - JP_29
       - KR_34
+      - CA
+      - CA2
+      - US
+      - US2 2
+      - US3 2
+      - US4
+      - US5
+      - US6
+      - US7
+      - CA3
+      - CA4
+      - US8
+      - US9
+      - US10
+      - US11
+      - US12
+      - US13
+      - US14
+      - US15
+      - US16
+      - CA5
+      - US17
+      - CA6
+      - US18
+      - US9 2
+      - US20
+      - US21
+      - US22
+      - US23
+      - US24
+      - US25
+      - US26
+      - US27
+      - US28
+      - US29
+      - US0
+      - US31
+      - US32
+      - US33
+      - US34
+      - US35
+      - US36
+      - CA7
+      - US37
+      - CA8
+      - US8 2
+      - US39 2
+      - US40
+      - US41
+      - US42
+      - US43
+      - US44
+      - CA9
+      - US45
+      - CA10
+      - US46
+      - US47
+      - CA11
+      - US48
+      - US49
+      - US50
+      - US51
+      - US52
+      - US53
+      - US54
+      - US55
+      - US56
+      - US57
+      - CA12
+      - US58
+      - US59
+      - US60
+      - US61
+      - US62
+      - US63
+      - US64
+      - US65
+      - US66
+      - US67
+      - US68
+      - US69
+      - US70
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -835,7 +985,6 @@ proxy-groups:
       - _US_美国 3
       - RU_1675
       - FR-l
-      - FR_89
       - IN-1
       - IN-7
       - "[🇯🇵][SS][日]"
@@ -857,7 +1006,6 @@ proxy-groups:
       - LT_1070
       - 中国_Relay_50
       - LT_1070 3
-      - LT_1009
       - 中国_Relay_52
       - US-2
       - 中国_Relay_54
@@ -882,7 +1030,6 @@ proxy-groups:
       - _GB_英国_16
       - CA-53
       - CA_12
-      - CA_18
       - _GB_英国_17
       - DE_514
       - CA_14
@@ -891,7 +1038,6 @@ proxy-groups:
       - CA_16
       - CAl 4
       - CA-l 6
-      - "[🇨🇦][SS][加]"
       - DE_654
       - 加拿大)(Public)
       - 中国_Relay_68
@@ -899,13 +1045,11 @@ proxy-groups:
       - "[🇨🇦][SS][加] 2"
       - 中国_Relay_73
       - DE_523
-      - ‌‌加拿大
       - 中国_Relay_69
       - CA-l
       - DE_530
       - 中国_Rela_71
       - DE_664
-      - CA-l 7
       - DE_278+_10_38Mb_98
       - DE_564
       - _DE_德国_50
@@ -936,7 +1080,6 @@ proxy-groups:
       - NL_1301
       - DE_587
       - DE_491
-      - NL_1321
       - ZZ_3883
       - NL_1255
       - DE_611
@@ -962,7 +1105,6 @@ proxy-groups:
       - US-ml 2
       - DE_527
       - 中国_Relay_29
-      - CA_19
       - 中国_Relay_15
       - 中国_Relay_22
       - 中国_Relay_35
@@ -975,7 +1117,6 @@ proxy-groups:
       - 中国_Relay_38
       - 中国_Relay_25
       - JP-17
-      - CA_156
       - 中国_Relay_30
       - 中国_Relay_40
       - "[SSR]"
@@ -988,7 +1129,6 @@ proxy-groups:
       - 中国_Relay_28
       - LT_1020
       - 中国_Relay_41
-      - LT_1119
       - CN_48
       - 中国_Relay_26
       - KRl_5
@@ -1012,7 +1152,6 @@ proxy-groups:
       - CN_54
       - 中国_Relay63
       - US-l 3
-      - US_210
       - LT_1070 2
       - RU_165
       - LT_874
@@ -1025,7 +1164,6 @@ proxy-groups:
       - 中国_Relay_16
       - Relay_🇰🇷KR-🇰🇷KR39
       - 中国_Relay_36
-      - CA_211
       - CA-Openit.ml
       - _DE_德国_15
       - DE_675
@@ -1042,46 +1180,108 @@ proxy-groups:
       - AU_01
       - CN_07
       - CN_08
-      - FR_20
       - GB_20
       - GB_21
-      - GB_22
-      - HK_24
-      - IN_27
-      - IN_28
-      - IN_28 2
       - JP_33
       - US_71
       - AU
-      - AU- 2
       - CA-l 3
       - GB-l
       - JP-4 2
       - JP-5
-      - JP-6
-      - JP- 7
-      - JP-8
       - KR- 5
-      - KR- 6
       - KR- 7
       - SG- 3
-      - SG- 4
       - TR-1
-      - US- 8 2
       - US-9
       - US-10
-      - US- 11
-      - US-12
       - US-13
       - US- 14
       - US- 15
-      - CA_01
-      - CA_02
-      - CA_03
-      - CA_04
       - CN_05
-      - JP_29
       - KR_34
+      - CA
+      - CA2
+      - US
+      - US2 2
+      - US3 2
+      - US4
+      - US5
+      - US6
+      - US7
+      - CA3
+      - CA4
+      - US8
+      - US9
+      - US10
+      - US11
+      - US12
+      - US13
+      - US14
+      - US15
+      - US16
+      - CA5
+      - US17
+      - CA6
+      - US18
+      - US9 2
+      - US20
+      - US21
+      - US22
+      - US23
+      - US24
+      - US25
+      - US26
+      - US27
+      - US28
+      - US29
+      - US0
+      - US31
+      - US32
+      - US33
+      - US34
+      - US35
+      - US36
+      - CA7
+      - US37
+      - CA8
+      - US8 2
+      - US39 2
+      - US40
+      - US41
+      - US42
+      - US43
+      - US44
+      - CA9
+      - US45
+      - CA10
+      - US46
+      - US47
+      - CA11
+      - US48
+      - US49
+      - US50
+      - US51
+      - US52
+      - US53
+      - US54
+      - US55
+      - US56
+      - US57
+      - CA12
+      - US58
+      - US59
+      - US60
+      - US61
+      - US62
+      - US63
+      - US64
+      - US65
+      - US66
+      - US67
+      - US68
+      - US69
+      - US70
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -1118,7 +1318,6 @@ proxy-groups:
       - _US_美国 3
       - RU_1675
       - FR-l
-      - FR_89
       - IN-1
       - IN-7
       - "[🇯🇵][SS][日]"
@@ -1140,7 +1339,6 @@ proxy-groups:
       - LT_1070
       - 中国_Relay_50
       - LT_1070 3
-      - LT_1009
       - 中国_Relay_52
       - US-2
       - 中国_Relay_54
@@ -1165,7 +1363,6 @@ proxy-groups:
       - _GB_英国_16
       - CA-53
       - CA_12
-      - CA_18
       - _GB_英国_17
       - DE_514
       - CA_14
@@ -1174,7 +1371,6 @@ proxy-groups:
       - CA_16
       - CAl 4
       - CA-l 6
-      - "[🇨🇦][SS][加]"
       - DE_654
       - 加拿大)(Public)
       - 中国_Relay_68
@@ -1182,13 +1378,11 @@ proxy-groups:
       - "[🇨🇦][SS][加] 2"
       - 中国_Relay_73
       - DE_523
-      - ‌‌加拿大
       - 中国_Relay_69
       - CA-l
       - DE_530
       - 中国_Rela_71
       - DE_664
-      - CA-l 7
       - DE_278+_10_38Mb_98
       - DE_564
       - _DE_德国_50
@@ -1219,7 +1413,6 @@ proxy-groups:
       - NL_1301
       - DE_587
       - DE_491
-      - NL_1321
       - ZZ_3883
       - NL_1255
       - DE_611
@@ -1245,7 +1438,6 @@ proxy-groups:
       - US-ml 2
       - DE_527
       - 中国_Relay_29
-      - CA_19
       - 中国_Relay_15
       - 中国_Relay_22
       - 中国_Relay_35
@@ -1258,7 +1450,6 @@ proxy-groups:
       - 中国_Relay_38
       - 中国_Relay_25
       - JP-17
-      - CA_156
       - 中国_Relay_30
       - 中国_Relay_40
       - "[SSR]"
@@ -1271,7 +1462,6 @@ proxy-groups:
       - 中国_Relay_28
       - LT_1020
       - 中国_Relay_41
-      - LT_1119
       - CN_48
       - 中国_Relay_26
       - KRl_5
@@ -1295,7 +1485,6 @@ proxy-groups:
       - CN_54
       - 中国_Relay63
       - US-l 3
-      - US_210
       - LT_1070 2
       - RU_165
       - LT_874
@@ -1308,7 +1497,6 @@ proxy-groups:
       - 中国_Relay_16
       - Relay_🇰🇷KR-🇰🇷KR39
       - 中国_Relay_36
-      - CA_211
       - CA-Openit.ml
       - _DE_德国_15
       - DE_675
@@ -1325,46 +1513,108 @@ proxy-groups:
       - AU_01
       - CN_07
       - CN_08
-      - FR_20
       - GB_20
       - GB_21
-      - GB_22
-      - HK_24
-      - IN_27
-      - IN_28
-      - IN_28 2
       - JP_33
       - US_71
       - AU
-      - AU- 2
       - CA-l 3
       - GB-l
       - JP-4 2
       - JP-5
-      - JP-6
-      - JP- 7
-      - JP-8
       - KR- 5
-      - KR- 6
       - KR- 7
       - SG- 3
-      - SG- 4
       - TR-1
-      - US- 8 2
       - US-9
       - US-10
-      - US- 11
-      - US-12
       - US-13
       - US- 14
       - US- 15
-      - CA_01
-      - CA_02
-      - CA_03
-      - CA_04
       - CN_05
-      - JP_29
       - KR_34
+      - CA
+      - CA2
+      - US
+      - US2 2
+      - US3 2
+      - US4
+      - US5
+      - US6
+      - US7
+      - CA3
+      - CA4
+      - US8
+      - US9
+      - US10
+      - US11
+      - US12
+      - US13
+      - US14
+      - US15
+      - US16
+      - CA5
+      - US17
+      - CA6
+      - US18
+      - US9 2
+      - US20
+      - US21
+      - US22
+      - US23
+      - US24
+      - US25
+      - US26
+      - US27
+      - US28
+      - US29
+      - US0
+      - US31
+      - US32
+      - US33
+      - US34
+      - US35
+      - US36
+      - CA7
+      - US37
+      - CA8
+      - US8 2
+      - US39 2
+      - US40
+      - US41
+      - US42
+      - US43
+      - US44
+      - CA9
+      - US45
+      - CA10
+      - US46
+      - US47
+      - CA11
+      - US48
+      - US49
+      - US50
+      - US51
+      - US52
+      - US53
+      - US54
+      - US55
+      - US56
+      - US57
+      - CA12
+      - US58
+      - US59
+      - US60
+      - US61
+      - US62
+      - US63
+      - US64
+      - US65
+      - US66
+      - US67
+      - US68
+      - US69
+      - US70
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -1394,7 +1644,6 @@ proxy-groups:
       - _US_美国 3
       - RU_1675
       - FR-l
-      - FR_89
       - IN-1
       - IN-7
       - "[🇯🇵][SS][日]"
@@ -1416,7 +1665,6 @@ proxy-groups:
       - LT_1070
       - 中国_Relay_50
       - LT_1070 3
-      - LT_1009
       - 中国_Relay_52
       - US-2
       - 中国_Relay_54
@@ -1441,7 +1689,6 @@ proxy-groups:
       - _GB_英国_16
       - CA-53
       - CA_12
-      - CA_18
       - _GB_英国_17
       - DE_514
       - CA_14
@@ -1450,7 +1697,6 @@ proxy-groups:
       - CA_16
       - CAl 4
       - CA-l 6
-      - "[🇨🇦][SS][加]"
       - DE_654
       - 加拿大)(Public)
       - 中国_Relay_68
@@ -1458,13 +1704,11 @@ proxy-groups:
       - "[🇨🇦][SS][加] 2"
       - 中国_Relay_73
       - DE_523
-      - ‌‌加拿大
       - 中国_Relay_69
       - CA-l
       - DE_530
       - 中国_Rela_71
       - DE_664
-      - CA-l 7
       - DE_278+_10_38Mb_98
       - DE_564
       - _DE_德国_50
@@ -1495,7 +1739,6 @@ proxy-groups:
       - NL_1301
       - DE_587
       - DE_491
-      - NL_1321
       - ZZ_3883
       - NL_1255
       - DE_611
@@ -1521,7 +1764,6 @@ proxy-groups:
       - US-ml 2
       - DE_527
       - 中国_Relay_29
-      - CA_19
       - 中国_Relay_15
       - 中国_Relay_22
       - 中国_Relay_35
@@ -1534,7 +1776,6 @@ proxy-groups:
       - 中国_Relay_38
       - 中国_Relay_25
       - JP-17
-      - CA_156
       - 中国_Relay_30
       - 中国_Relay_40
       - "[SSR]"
@@ -1547,7 +1788,6 @@ proxy-groups:
       - 中国_Relay_28
       - LT_1020
       - 中国_Relay_41
-      - LT_1119
       - CN_48
       - 中国_Relay_26
       - KRl_5
@@ -1571,7 +1811,6 @@ proxy-groups:
       - CN_54
       - 中国_Relay63
       - US-l 3
-      - US_210
       - LT_1070 2
       - RU_165
       - LT_874
@@ -1584,7 +1823,6 @@ proxy-groups:
       - 中国_Relay_16
       - Relay_🇰🇷KR-🇰🇷KR39
       - 中国_Relay_36
-      - CA_211
       - CA-Openit.ml
       - _DE_德国_15
       - DE_675
@@ -1601,46 +1839,108 @@ proxy-groups:
       - AU_01
       - CN_07
       - CN_08
-      - FR_20
       - GB_20
       - GB_21
-      - GB_22
-      - HK_24
-      - IN_27
-      - IN_28
-      - IN_28 2
       - JP_33
       - US_71
       - AU
-      - AU- 2
       - CA-l 3
       - GB-l
       - JP-4 2
       - JP-5
-      - JP-6
-      - JP- 7
-      - JP-8
       - KR- 5
-      - KR- 6
       - KR- 7
       - SG- 3
-      - SG- 4
       - TR-1
-      - US- 8 2
       - US-9
       - US-10
-      - US- 11
-      - US-12
       - US-13
       - US- 14
       - US- 15
-      - CA_01
-      - CA_02
-      - CA_03
-      - CA_04
       - CN_05
-      - JP_29
       - KR_34
+      - CA
+      - CA2
+      - US
+      - US2 2
+      - US3 2
+      - US4
+      - US5
+      - US6
+      - US7
+      - CA3
+      - CA4
+      - US8
+      - US9
+      - US10
+      - US11
+      - US12
+      - US13
+      - US14
+      - US15
+      - US16
+      - CA5
+      - US17
+      - CA6
+      - US18
+      - US9 2
+      - US20
+      - US21
+      - US22
+      - US23
+      - US24
+      - US25
+      - US26
+      - US27
+      - US28
+      - US29
+      - US0
+      - US31
+      - US32
+      - US33
+      - US34
+      - US35
+      - US36
+      - CA7
+      - US37
+      - CA8
+      - US8 2
+      - US39 2
+      - US40
+      - US41
+      - US42
+      - US43
+      - US44
+      - CA9
+      - US45
+      - CA10
+      - US46
+      - US47
+      - CA11
+      - US48
+      - US49
+      - US50
+      - US51
+      - US52
+      - US53
+      - US54
+      - US55
+      - US56
+      - US57
+      - CA12
+      - US58
+      - US59
+      - US60
+      - US61
+      - US62
+      - US63
+      - US64
+      - US65
+      - US66
+      - US67
+      - US68
+      - US69
+      - US70
   - name: 📲 电报信息
     type: select
     proxies:
@@ -1664,7 +1964,6 @@ proxy-groups:
       - _US_美国 3
       - RU_1675
       - FR-l
-      - FR_89
       - IN-1
       - IN-7
       - "[🇯🇵][SS][日]"
@@ -1686,7 +1985,6 @@ proxy-groups:
       - LT_1070
       - 中国_Relay_50
       - LT_1070 3
-      - LT_1009
       - 中国_Relay_52
       - US-2
       - 中国_Relay_54
@@ -1711,7 +2009,6 @@ proxy-groups:
       - _GB_英国_16
       - CA-53
       - CA_12
-      - CA_18
       - _GB_英国_17
       - DE_514
       - CA_14
@@ -1720,7 +2017,6 @@ proxy-groups:
       - CA_16
       - CAl 4
       - CA-l 6
-      - "[🇨🇦][SS][加]"
       - DE_654
       - 加拿大)(Public)
       - 中国_Relay_68
@@ -1728,13 +2024,11 @@ proxy-groups:
       - "[🇨🇦][SS][加] 2"
       - 中国_Relay_73
       - DE_523
-      - ‌‌加拿大
       - 中国_Relay_69
       - CA-l
       - DE_530
       - 中国_Rela_71
       - DE_664
-      - CA-l 7
       - DE_278+_10_38Mb_98
       - DE_564
       - _DE_德国_50
@@ -1765,7 +2059,6 @@ proxy-groups:
       - NL_1301
       - DE_587
       - DE_491
-      - NL_1321
       - ZZ_3883
       - NL_1255
       - DE_611
@@ -1791,7 +2084,6 @@ proxy-groups:
       - US-ml 2
       - DE_527
       - 中国_Relay_29
-      - CA_19
       - 中国_Relay_15
       - 中国_Relay_22
       - 中国_Relay_35
@@ -1804,7 +2096,6 @@ proxy-groups:
       - 中国_Relay_38
       - 中国_Relay_25
       - JP-17
-      - CA_156
       - 中国_Relay_30
       - 中国_Relay_40
       - "[SSR]"
@@ -1817,7 +2108,6 @@ proxy-groups:
       - 中国_Relay_28
       - LT_1020
       - 中国_Relay_41
-      - LT_1119
       - CN_48
       - 中国_Relay_26
       - KRl_5
@@ -1841,7 +2131,6 @@ proxy-groups:
       - CN_54
       - 中国_Relay63
       - US-l 3
-      - US_210
       - LT_1070 2
       - RU_165
       - LT_874
@@ -1854,7 +2143,6 @@ proxy-groups:
       - 中国_Relay_16
       - Relay_🇰🇷KR-🇰🇷KR39
       - 中国_Relay_36
-      - CA_211
       - CA-Openit.ml
       - _DE_德国_15
       - DE_675
@@ -1871,46 +2159,108 @@ proxy-groups:
       - AU_01
       - CN_07
       - CN_08
-      - FR_20
       - GB_20
       - GB_21
-      - GB_22
-      - HK_24
-      - IN_27
-      - IN_28
-      - IN_28 2
       - JP_33
       - US_71
       - AU
-      - AU- 2
       - CA-l 3
       - GB-l
       - JP-4 2
       - JP-5
-      - JP-6
-      - JP- 7
-      - JP-8
       - KR- 5
-      - KR- 6
       - KR- 7
       - SG- 3
-      - SG- 4
       - TR-1
-      - US- 8 2
       - US-9
       - US-10
-      - US- 11
-      - US-12
       - US-13
       - US- 14
       - US- 15
-      - CA_01
-      - CA_02
-      - CA_03
-      - CA_04
       - CN_05
-      - JP_29
       - KR_34
+      - CA
+      - CA2
+      - US
+      - US2 2
+      - US3 2
+      - US4
+      - US5
+      - US6
+      - US7
+      - CA3
+      - CA4
+      - US8
+      - US9
+      - US10
+      - US11
+      - US12
+      - US13
+      - US14
+      - US15
+      - US16
+      - CA5
+      - US17
+      - CA6
+      - US18
+      - US9 2
+      - US20
+      - US21
+      - US22
+      - US23
+      - US24
+      - US25
+      - US26
+      - US27
+      - US28
+      - US29
+      - US0
+      - US31
+      - US32
+      - US33
+      - US34
+      - US35
+      - US36
+      - CA7
+      - US37
+      - CA8
+      - US8 2
+      - US39 2
+      - US40
+      - US41
+      - US42
+      - US43
+      - US44
+      - CA9
+      - US45
+      - CA10
+      - US46
+      - US47
+      - CA11
+      - US48
+      - US49
+      - US50
+      - US51
+      - US52
+      - US53
+      - US54
+      - US55
+      - US56
+      - US57
+      - CA12
+      - US58
+      - US59
+      - US60
+      - US61
+      - US62
+      - US63
+      - US64
+      - US65
+      - US66
+      - US67
+      - US68
+      - US69
+      - US70
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1935,7 +2285,6 @@ proxy-groups:
       - _US_美国 3
       - RU_1675
       - FR-l
-      - FR_89
       - IN-1
       - IN-7
       - "[🇯🇵][SS][日]"
@@ -1957,7 +2306,6 @@ proxy-groups:
       - LT_1070
       - 中国_Relay_50
       - LT_1070 3
-      - LT_1009
       - 中国_Relay_52
       - US-2
       - 中国_Relay_54
@@ -1982,7 +2330,6 @@ proxy-groups:
       - _GB_英国_16
       - CA-53
       - CA_12
-      - CA_18
       - _GB_英国_17
       - DE_514
       - CA_14
@@ -1991,7 +2338,6 @@ proxy-groups:
       - CA_16
       - CAl 4
       - CA-l 6
-      - "[🇨🇦][SS][加]"
       - DE_654
       - 加拿大)(Public)
       - 中国_Relay_68
@@ -1999,13 +2345,11 @@ proxy-groups:
       - "[🇨🇦][SS][加] 2"
       - 中国_Relay_73
       - DE_523
-      - ‌‌加拿大
       - 中国_Relay_69
       - CA-l
       - DE_530
       - 中国_Rela_71
       - DE_664
-      - CA-l 7
       - DE_278+_10_38Mb_98
       - DE_564
       - _DE_德国_50
@@ -2036,7 +2380,6 @@ proxy-groups:
       - NL_1301
       - DE_587
       - DE_491
-      - NL_1321
       - ZZ_3883
       - NL_1255
       - DE_611
@@ -2062,7 +2405,6 @@ proxy-groups:
       - US-ml 2
       - DE_527
       - 中国_Relay_29
-      - CA_19
       - 中国_Relay_15
       - 中国_Relay_22
       - 中国_Relay_35
@@ -2075,7 +2417,6 @@ proxy-groups:
       - 中国_Relay_38
       - 中国_Relay_25
       - JP-17
-      - CA_156
       - 中国_Relay_30
       - 中国_Relay_40
       - "[SSR]"
@@ -2088,7 +2429,6 @@ proxy-groups:
       - 中国_Relay_28
       - LT_1020
       - 中国_Relay_41
-      - LT_1119
       - CN_48
       - 中国_Relay_26
       - KRl_5
@@ -2112,7 +2452,6 @@ proxy-groups:
       - CN_54
       - 中国_Relay63
       - US-l 3
-      - US_210
       - LT_1070 2
       - RU_165
       - LT_874
@@ -2125,7 +2464,6 @@ proxy-groups:
       - 中国_Relay_16
       - Relay_🇰🇷KR-🇰🇷KR39
       - 中国_Relay_36
-      - CA_211
       - CA-Openit.ml
       - _DE_德国_15
       - DE_675
@@ -2142,46 +2480,108 @@ proxy-groups:
       - AU_01
       - CN_07
       - CN_08
-      - FR_20
       - GB_20
       - GB_21
-      - GB_22
-      - HK_24
-      - IN_27
-      - IN_28
-      - IN_28 2
       - JP_33
       - US_71
       - AU
-      - AU- 2
       - CA-l 3
       - GB-l
       - JP-4 2
       - JP-5
-      - JP-6
-      - JP- 7
-      - JP-8
       - KR- 5
-      - KR- 6
       - KR- 7
       - SG- 3
-      - SG- 4
       - TR-1
-      - US- 8 2
       - US-9
       - US-10
-      - US- 11
-      - US-12
       - US-13
       - US- 14
       - US- 15
-      - CA_01
-      - CA_02
-      - CA_03
-      - CA_04
       - CN_05
-      - JP_29
       - KR_34
+      - CA
+      - CA2
+      - US
+      - US2 2
+      - US3 2
+      - US4
+      - US5
+      - US6
+      - US7
+      - CA3
+      - CA4
+      - US8
+      - US9
+      - US10
+      - US11
+      - US12
+      - US13
+      - US14
+      - US15
+      - US16
+      - CA5
+      - US17
+      - CA6
+      - US18
+      - US9 2
+      - US20
+      - US21
+      - US22
+      - US23
+      - US24
+      - US25
+      - US26
+      - US27
+      - US28
+      - US29
+      - US0
+      - US31
+      - US32
+      - US33
+      - US34
+      - US35
+      - US36
+      - CA7
+      - US37
+      - CA8
+      - US8 2
+      - US39 2
+      - US40
+      - US41
+      - US42
+      - US43
+      - US44
+      - CA9
+      - US45
+      - CA10
+      - US46
+      - US47
+      - CA11
+      - US48
+      - US49
+      - US50
+      - US51
+      - US52
+      - US53
+      - US54
+      - US55
+      - US56
+      - US57
+      - CA12
+      - US58
+      - US59
+      - US60
+      - US61
+      - US62
+      - US63
+      - US64
+      - US65
+      - US66
+      - US67
+      - US68
+      - US69
+      - US70
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2215,7 +2615,6 @@ proxy-groups:
       - _US_美国 3
       - RU_1675
       - FR-l
-      - FR_89
       - IN-1
       - IN-7
       - "[🇯🇵][SS][日]"
@@ -2237,7 +2636,6 @@ proxy-groups:
       - LT_1070
       - 中国_Relay_50
       - LT_1070 3
-      - LT_1009
       - 中国_Relay_52
       - US-2
       - 中国_Relay_54
@@ -2262,7 +2660,6 @@ proxy-groups:
       - _GB_英国_16
       - CA-53
       - CA_12
-      - CA_18
       - _GB_英国_17
       - DE_514
       - CA_14
@@ -2271,7 +2668,6 @@ proxy-groups:
       - CA_16
       - CAl 4
       - CA-l 6
-      - "[🇨🇦][SS][加]"
       - DE_654
       - 加拿大)(Public)
       - 中国_Relay_68
@@ -2279,13 +2675,11 @@ proxy-groups:
       - "[🇨🇦][SS][加] 2"
       - 中国_Relay_73
       - DE_523
-      - ‌‌加拿大
       - 中国_Relay_69
       - CA-l
       - DE_530
       - 中国_Rela_71
       - DE_664
-      - CA-l 7
       - DE_278+_10_38Mb_98
       - DE_564
       - _DE_德国_50
@@ -2316,7 +2710,6 @@ proxy-groups:
       - NL_1301
       - DE_587
       - DE_491
-      - NL_1321
       - ZZ_3883
       - NL_1255
       - DE_611
@@ -2342,7 +2735,6 @@ proxy-groups:
       - US-ml 2
       - DE_527
       - 中国_Relay_29
-      - CA_19
       - 中国_Relay_15
       - 中国_Relay_22
       - 中国_Relay_35
@@ -2355,7 +2747,6 @@ proxy-groups:
       - 中国_Relay_38
       - 中国_Relay_25
       - JP-17
-      - CA_156
       - 中国_Relay_30
       - 中国_Relay_40
       - "[SSR]"
@@ -2368,7 +2759,6 @@ proxy-groups:
       - 中国_Relay_28
       - LT_1020
       - 中国_Relay_41
-      - LT_1119
       - CN_48
       - 中国_Relay_26
       - KRl_5
@@ -2392,7 +2782,6 @@ proxy-groups:
       - CN_54
       - 中国_Relay63
       - US-l 3
-      - US_210
       - LT_1070 2
       - RU_165
       - LT_874
@@ -2405,7 +2794,6 @@ proxy-groups:
       - 中国_Relay_16
       - Relay_🇰🇷KR-🇰🇷KR39
       - 中国_Relay_36
-      - CA_211
       - CA-Openit.ml
       - _DE_德国_15
       - DE_675
@@ -2422,46 +2810,108 @@ proxy-groups:
       - AU_01
       - CN_07
       - CN_08
-      - FR_20
       - GB_20
       - GB_21
-      - GB_22
-      - HK_24
-      - IN_27
-      - IN_28
-      - IN_28 2
       - JP_33
       - US_71
       - AU
-      - AU- 2
       - CA-l 3
       - GB-l
       - JP-4 2
       - JP-5
-      - JP-6
-      - JP- 7
-      - JP-8
       - KR- 5
-      - KR- 6
       - KR- 7
       - SG- 3
-      - SG- 4
       - TR-1
-      - US- 8 2
       - US-9
       - US-10
-      - US- 11
-      - US-12
       - US-13
       - US- 14
       - US- 15
-      - CA_01
-      - CA_02
-      - CA_03
-      - CA_04
       - CN_05
-      - JP_29
       - KR_34
+      - CA
+      - CA2
+      - US
+      - US2 2
+      - US3 2
+      - US4
+      - US5
+      - US6
+      - US7
+      - CA3
+      - CA4
+      - US8
+      - US9
+      - US10
+      - US11
+      - US12
+      - US13
+      - US14
+      - US15
+      - US16
+      - CA5
+      - US17
+      - CA6
+      - US18
+      - US9 2
+      - US20
+      - US21
+      - US22
+      - US23
+      - US24
+      - US25
+      - US26
+      - US27
+      - US28
+      - US29
+      - US0
+      - US31
+      - US32
+      - US33
+      - US34
+      - US35
+      - US36
+      - CA7
+      - US37
+      - CA8
+      - US8 2
+      - US39 2
+      - US40
+      - US41
+      - US42
+      - US43
+      - US44
+      - CA9
+      - US45
+      - CA10
+      - US46
+      - US47
+      - CA11
+      - US48
+      - US49
+      - US50
+      - US51
+      - US52
+      - US53
+      - US54
+      - US55
+      - US56
+      - US57
+      - CA12
+      - US58
+      - US59
+      - US60
+      - US61
+      - US62
+      - US63
+      - US64
+      - US65
+      - US66
+      - US67
+      - US68
+      - US69
+      - US70
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
