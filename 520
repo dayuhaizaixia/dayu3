@@ -5,6 +5,35 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: Seoul-31, server: 3.36.17.31, port: 51000, type: ss, cipher: aes-128-gcm, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, udp: true}
+  - {name: 香港34, server: 103.165.85.132, port: 51000, type: ss, cipher: aes-128-gcm, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, udp: true}
+  - {name: SG29, server: 91.229.114.245, port: 51000, type: ss, cipher: aes-128-gcm, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, udp: true}
+  - {name: Fremont1, server: 120.232.214.26, port: 35000, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
+  - {name: Tokyo16, server: 58.32.33.232, port: 35001, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
+  - {name: Fremont15, server: 58.32.33.232, port: 35000, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
+  - {name: SG18, server: 58.32.33.232, port: 35003, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
+  - {name: 香港17, server: 58.32.33.232, port: 35002, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
+  - {name: 台北30, server: 1.164.248.116, port: 51000, type: ss, cipher: aes-128-gcm, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, udp: true}
+  - {name: 台北13, server: 139.227.191.174, port: 35005, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
+  - {name: San27, server: 137.135.10.138, port: 51000, type: ss, cipher: aes-128-gcm, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, udp: true}
+  - {name: Seoul14, server: 139.227.191.174, port: 35007, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
+  - {name: Seoul7, server: 120.232.214.26, port: 35007, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
+  - {name: Tokyo28, server: 13.230.206.182, port: 51000, type: ss, cipher: aes-128-gcm, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, udp: true}
+  - {name: Fremont33, server: 192.81.135.119, port: 51000, type: ss, cipher: aes-128-gcm, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, udp: true}
+  - {name: SG22, server: 120.240.168.120, port: 51001, type: ss, cipher: aes-128-gcm, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, udp: true}
+  - {name: 台北5, server: 120.232.214.26, port: 35005, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
+  - {name: Tokyo2, server: 120.232.214.26, port: 35001, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
+  - {name: Fremont8, server: 139.227.191.174, port: 35000, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
+  - {name: 香港24, server: 120.240.168.120, port: 51003, type: ss, cipher: aes-128-gcm, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, udp: true}
+  - {name: 台北25, server: 120.240.168.120, port: 51004, type: ss, cipher: aes-128-gcm, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, udp: true}
+  - {name: SG11, server: 139.227.191.174, port: 35003, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
+  - {name: SG4, server: 120.232.214.26, port: 35003, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
+  - {name: SG32, server: 20.205.202.37, port: 51000, type: ss, cipher: aes-128-gcm, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, udp: true}
+  - {name: 香港10, server: 139.227.191.174, port: 35002, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
+  - {name: 香港3, server: 120.232.214.26, port: 35002, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
+  - {name: Tokyo23, server: 120.240.168.120, port: 51002, type: ss, cipher: aes-128-gcm, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, udp: true}
+  - {name: Seoul26, server: 120.240.168.120, port: 51005, type: ss, cipher: aes-128-gcm, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, udp: true}
+  - {name: Tokyo_9, server: 139.227.191.174, port: 35001, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
   - {name: 美国, server: 137.135.10.138, port: 51000, type: ss, cipher: aes-128-gcm, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, udp: true}
   - {name: 首尔, server: 3.36.17.31, port: 51000, type: ss, cipher: aes-128-gcm, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, udp: true}
   - {name: 新加坡, server: 120.232.214.26, port: 35003, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
@@ -290,6 +319,35 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Seoul-31
+      - 香港34
+      - SG29
+      - Fremont1
+      - Tokyo16
+      - Fremont15
+      - SG18
+      - 香港17
+      - 台北30
+      - 台北13
+      - San27
+      - Seoul14
+      - Seoul7
+      - Tokyo28
+      - Fremont33
+      - SG22
+      - 台北5
+      - Tokyo2
+      - Fremont8
+      - 香港24
+      - 台北25
+      - SG11
+      - SG4
+      - SG32
+      - 香港10
+      - 香港3
+      - Tokyo23
+      - Seoul26
+      - Tokyo_9
       - 美国
       - 首尔
       - 新加坡
@@ -574,6 +632,35 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - Seoul-31
+      - 香港34
+      - SG29
+      - Fremont1
+      - Tokyo16
+      - Fremont15
+      - SG18
+      - 香港17
+      - 台北30
+      - 台北13
+      - San27
+      - Seoul14
+      - Seoul7
+      - Tokyo28
+      - Fremont33
+      - SG22
+      - 台北5
+      - Tokyo2
+      - Fremont8
+      - 香港24
+      - 台北25
+      - SG11
+      - SG4
+      - SG32
+      - 香港10
+      - 香港3
+      - Tokyo23
+      - Seoul26
+      - Tokyo_9
       - 美国
       - 首尔
       - 新加坡
@@ -859,6 +946,35 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Seoul-31
+      - 香港34
+      - SG29
+      - Fremont1
+      - Tokyo16
+      - Fremont15
+      - SG18
+      - 香港17
+      - 台北30
+      - 台北13
+      - San27
+      - Seoul14
+      - Seoul7
+      - Tokyo28
+      - Fremont33
+      - SG22
+      - 台北5
+      - Tokyo2
+      - Fremont8
+      - 香港24
+      - 台北25
+      - SG11
+      - SG4
+      - SG32
+      - 香港10
+      - 香港3
+      - Tokyo23
+      - Seoul26
+      - Tokyo_9
       - 美国
       - 首尔
       - 新加坡
@@ -1156,6 +1272,35 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Seoul-31
+      - 香港34
+      - SG29
+      - Fremont1
+      - Tokyo16
+      - Fremont15
+      - SG18
+      - 香港17
+      - 台北30
+      - 台北13
+      - San27
+      - Seoul14
+      - Seoul7
+      - Tokyo28
+      - Fremont33
+      - SG22
+      - 台北5
+      - Tokyo2
+      - Fremont8
+      - 香港24
+      - 台北25
+      - SG11
+      - SG4
+      - SG32
+      - 香港10
+      - 香港3
+      - Tokyo23
+      - Seoul26
+      - Tokyo_9
       - 美国
       - 首尔
       - 新加坡
@@ -1439,6 +1584,15 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港34
+      - 香港17
+      - 台北30
+      - 台北13
+      - 台北5
+      - 香港24
+      - 台北25
+      - 香港10
+      - 香港3
       - 香港
       - 香港2
       - 🔰 节点选择
@@ -1447,6 +1601,35 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - Seoul-31
+      - 香港34
+      - SG29
+      - Fremont1
+      - Tokyo16
+      - Fremont15
+      - SG18
+      - 香港17
+      - 台北30
+      - 台北13
+      - San27
+      - Seoul14
+      - Seoul7
+      - Tokyo28
+      - Fremont33
+      - SG22
+      - 台北5
+      - Tokyo2
+      - Fremont8
+      - 香港24
+      - 台北25
+      - SG11
+      - SG4
+      - SG32
+      - 香港10
+      - 香港3
+      - Tokyo23
+      - Seoul26
+      - Tokyo_9
       - 美国
       - 首尔
       - 新加坡
@@ -1731,6 +1914,35 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - Seoul-31
+      - 香港34
+      - SG29
+      - Fremont1
+      - Tokyo16
+      - Fremont15
+      - SG18
+      - 香港17
+      - 台北30
+      - 台北13
+      - San27
+      - Seoul14
+      - Seoul7
+      - Tokyo28
+      - Fremont33
+      - SG22
+      - 台北5
+      - Tokyo2
+      - Fremont8
+      - 香港24
+      - 台北25
+      - SG11
+      - SG4
+      - SG32
+      - 香港10
+      - 香港3
+      - Tokyo23
+      - Seoul26
+      - Tokyo_9
       - 美国
       - 首尔
       - 新加坡
@@ -2016,6 +2228,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Seoul-31
+      - 香港34
+      - SG29
+      - Fremont1
+      - Tokyo16
+      - Fremont15
+      - SG18
+      - 香港17
+      - 台北30
+      - 台北13
+      - San27
+      - Seoul14
+      - Seoul7
+      - Tokyo28
+      - Fremont33
+      - SG22
+      - 台北5
+      - Tokyo2
+      - Fremont8
+      - 香港24
+      - 台北25
+      - SG11
+      - SG4
+      - SG32
+      - 香港10
+      - 香港3
+      - Tokyo23
+      - Seoul26
+      - Tokyo_9
       - 美国
       - 首尔
       - 新加坡
@@ -2310,6 +2551,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Seoul-31
+      - 香港34
+      - SG29
+      - Fremont1
+      - Tokyo16
+      - Fremont15
+      - SG18
+      - 香港17
+      - 台北30
+      - 台北13
+      - San27
+      - Seoul14
+      - Seoul7
+      - Tokyo28
+      - Fremont33
+      - SG22
+      - 台北5
+      - Tokyo2
+      - Fremont8
+      - 香港24
+      - 台北25
+      - SG11
+      - SG4
+      - SG32
+      - 香港10
+      - 香港3
+      - Tokyo23
+      - Seoul26
+      - Tokyo_9
       - 美国
       - 首尔
       - 新加坡
