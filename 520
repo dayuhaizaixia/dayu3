@@ -208,6 +208,69 @@ proxies:
   - {name: VN-l 2, server: 0001.hn.genzpn.com, port: 443, type: trojan, password: 85a173a6-cbac-44b7-83b7-0c53d4aadf93, sni: 0001.hn.genzpn.com, skip-cert-verify: true, udp: true}
   - {name: JP 7, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
   - {name: US-l 22, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 10_TG频道:t.me/ruofeng_fx 75, server: 167.88.63.5, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 11_TG频道:t.me/ruofeng_fx 121, server: 217.30.10.67, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: 18_TG频道:t.me/ruofeng_fx 120, server: 134.195.196.205, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 18_TG频道:t.me/ruofeng_fx 134, server: 134.195.196.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 18_TG频道:t.me/ruofeng_fx_47, server: 217.30.10.67, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: defaultName_17, server: 14.29.124.168, port: 24044, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: defaultName_26, server: 14.29.124.168, port: 24024, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: defaultName_43, server: 14.29.124.168, port: 24080, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: defaultName_83, server: 14.29.124.168, port: 24090, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: GB_TG频道:t.me/ruofeng_fx 739, server: 185.167.117.171, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: GB_TG频道:t.me/ruofeng_fx 742, server: 185.167.117.171, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: GB_TG频道:t.me/ruofeng_fx 748, server: 185.167.117.171, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: GB_TG频道:t.me/ruofeng_fx 750, server: 152.89.210.84, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: GB_TG频道:t.me/ruofeng_fx 751, server: 185.167.117.171, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: GB_TG频道:t.me/ruofeng_fx 752, server: 185.167.117.171, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: GB_TG频道:t.me/ruofeng_fx 756, server: 185.167.117.171, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: GB_TG频道:t.me/ruofeng_fx 758, server: 185.167.117.171, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: GB_TG频道:t.me/ruofeng_fx 759, server: 185.167.117.171, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: GB_TG频道:t.me/ruofeng_fx 765, server: 185.167.117.171, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: GB_TG频道:t.me/ruofeng_fx 766, server: 82.145.41.125, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: GB_TG频道:t.me/ruofeng_fx 767, server: 185.167.117.171, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: LT_TG频道:t.me/ruofeng_fx 1000, server: 213.183.63.218, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: Relay_TG频道:t.me/ruofeng_fx_371, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇨🇳CN_10_15Mb_14, server: 14.29.124.168, port: 24093, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇨🇳CN_36_95Mb_15, server: 14.29.124.168, port: 24087, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇨🇳CN-🇩🇪DE_TG频道:t.me/ruofeng_fx 394, server: relay.gzbgp.entrance1-fp.icu, port: 64008, type: ss, cipher: aes-256-gcm, password: 2e8f2af3-4bec-4adb-b0bf-bb6e503e7003, udp: true}
+  - {name: Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RU_TG频道:t.me/ruofeng_fx 11, server: 217.30.10.66, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: RU_TG频道:t.me/ruofeng_fx 13, server: 217.30.10.65, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: RU_TG频道:t.me/ruofeng_fx 1362, server: 217.30.10.65, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: RU_TG频道:t.me/ruofeng_fx 1363, server: 217.30.10.65, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: RU_TG频道:t.me/ruofeng_fx 1406, server: 217.30.10.65, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: RU_TG频道:t.me/ruofeng_fx 148, server: 217.30.10.66, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: RU_TG频道:t.me/ruofeng_fx 20, server: 217.30.10.65, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: RU_TG频道:t.me/ruofeng_fx 28, server: 217.30.10.66, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: RU_TG频道:t.me/ruofeng_fx 87, server: 217.30.10.65, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: RU_TG频道:t.me/ruofeng_fx 91, server: 217.30.10.65, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: RU_TG频道:t.me/ruofeng_fx 99, server: 217.30.10.65, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: TG频道:t.me/ruofeng_fx 130, server: 38.75.137.88, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: TG频道:t.me/ruofeng_fx_126, server: 152.89.210.84, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: TG频道:t.me/ruofeng_fx_54, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:t.me/ruofeng_fx_62, server: word.12.1.fuckword.club, port: 48744, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:t.me/ruofeng_fx_92, server: 167.172.135.97, port: 25453, type: ss, cipher: aes-256-cfb, password: a40ff797db5c4b948cfe5a5234a0e74c, udp: true}
+  - {name: US_TG频道:t.me/ruofeng_fx 1, server: 172.99.188.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_TG频道:t.me/ruofeng_fx 131, server: 172.99.188.71, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_TG频道:t.me/ruofeng_fx 1682, server: 5.181.234.254, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_TG频道:t.me/ruofeng_fx 1754, server: 172.99.190.61, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_TG频道:t.me/ruofeng_fx 1786, server: 172.99.190.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_TG频道:t.me/ruofeng_fx 23, server: 172.99.188.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_TG频道:t.me/ruofeng_fx 2400, server: 172.99.190.61, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_TG频道:t.me/ruofeng_fx 25, server: 172.99.188.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_TG频道:t.me/ruofeng_fx 29, server: 172.99.188.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_TG频道:t.me/ruofeng_fx 3077, server: 185.153.180.10, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130, udp: true}
+  - {name: US_TG频道:t.me/ruofeng_fx 31, server: 172.99.188.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_TG频道:t.me/ruofeng_fx 68, server: 172.99.188.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_TG频道:t.me/ruofeng_fx 79, server: 172.99.188.71, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_TG频道:t.me/ruofeng_fx 90, server: 172.99.188.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_TG频道:t.me/ruofeng_fx 96, server: 172.99.188.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_TG频道:t.me/ruofeng_fx 988, server: 172.99.190.61, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_TG频道:t.me/ruofeng_fx_104, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国-TG频道:t.me/ruofeng_fx, server: cloudflare-warp.fanqiangvpn.com, port: 443, type: vmess, uuid: ee8d15c0-927d-497a-ba84-65447a790f56, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /www.fanqiangvpn.com, ws-headers: {Host: cloudflare-warp.fanqiangvpn.com}, udp: true}
+  - {name: 日本-tg频道:@bpjzx2, server: v2-1.godlight.xyz, port: 12240, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /j75g1461x, ws-headers: {Host: v2-1.godlight.xyz}, udp: true}
+  - {name: 日本-TG频道:t.me/ruofeng_fx 2, server: 172.105.230.112, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -417,6 +480,69 @@ proxy-groups:
       - VN-l 2
       - JP 7
       - US-l 22
+      - 10_TG频道:t.me/ruofeng_fx 75
+      - 11_TG频道:t.me/ruofeng_fx 121
+      - 18_TG频道:t.me/ruofeng_fx 120
+      - 18_TG频道:t.me/ruofeng_fx 134
+      - 18_TG频道:t.me/ruofeng_fx_47
+      - defaultName_17
+      - defaultName_26
+      - defaultName_43
+      - defaultName_83
+      - GB_TG频道:t.me/ruofeng_fx 739
+      - GB_TG频道:t.me/ruofeng_fx 742
+      - GB_TG频道:t.me/ruofeng_fx 748
+      - GB_TG频道:t.me/ruofeng_fx 750
+      - GB_TG频道:t.me/ruofeng_fx 751
+      - GB_TG频道:t.me/ruofeng_fx 752
+      - GB_TG频道:t.me/ruofeng_fx 756
+      - GB_TG频道:t.me/ruofeng_fx 758
+      - GB_TG频道:t.me/ruofeng_fx 759
+      - GB_TG频道:t.me/ruofeng_fx 765
+      - GB_TG频道:t.me/ruofeng_fx 766
+      - GB_TG频道:t.me/ruofeng_fx 767
+      - LT_TG频道:t.me/ruofeng_fx 1000
+      - Relay_TG频道:t.me/ruofeng_fx_371
+      - Relay_🇨🇳CN_10_15Mb_14
+      - Relay_🇨🇳CN_36_95Mb_15
+      - Relay_🇨🇳CN-🇩🇪DE_TG频道:t.me/ruofeng_fx 394
+      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
+      - RU_TG频道:t.me/ruofeng_fx 11
+      - RU_TG频道:t.me/ruofeng_fx 13
+      - RU_TG频道:t.me/ruofeng_fx 1362
+      - RU_TG频道:t.me/ruofeng_fx 1363
+      - RU_TG频道:t.me/ruofeng_fx 1406
+      - RU_TG频道:t.me/ruofeng_fx 148
+      - RU_TG频道:t.me/ruofeng_fx 20
+      - RU_TG频道:t.me/ruofeng_fx 28
+      - RU_TG频道:t.me/ruofeng_fx 87
+      - RU_TG频道:t.me/ruofeng_fx 91
+      - RU_TG频道:t.me/ruofeng_fx 99
+      - TG频道:t.me/ruofeng_fx 130
+      - TG频道:t.me/ruofeng_fx_126
+      - TG频道:t.me/ruofeng_fx_54
+      - TG频道:t.me/ruofeng_fx_62
+      - TG频道:t.me/ruofeng_fx_92
+      - US_TG频道:t.me/ruofeng_fx 1
+      - US_TG频道:t.me/ruofeng_fx 131
+      - US_TG频道:t.me/ruofeng_fx 1682
+      - US_TG频道:t.me/ruofeng_fx 1754
+      - US_TG频道:t.me/ruofeng_fx 1786
+      - US_TG频道:t.me/ruofeng_fx 23
+      - US_TG频道:t.me/ruofeng_fx 2400
+      - US_TG频道:t.me/ruofeng_fx 25
+      - US_TG频道:t.me/ruofeng_fx 29
+      - US_TG频道:t.me/ruofeng_fx 3077
+      - US_TG频道:t.me/ruofeng_fx 31
+      - US_TG频道:t.me/ruofeng_fx 68
+      - US_TG频道:t.me/ruofeng_fx 79
+      - US_TG频道:t.me/ruofeng_fx 90
+      - US_TG频道:t.me/ruofeng_fx 96
+      - US_TG频道:t.me/ruofeng_fx 988
+      - US_TG频道:t.me/ruofeng_fx_104
+      - 美国-TG频道:t.me/ruofeng_fx
+      - 日本-tg频道:@bpjzx2
+      - 日本-TG频道:t.me/ruofeng_fx 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -625,6 +751,69 @@ proxy-groups:
       - VN-l 2
       - JP 7
       - US-l 22
+      - 10_TG频道:t.me/ruofeng_fx 75
+      - 11_TG频道:t.me/ruofeng_fx 121
+      - 18_TG频道:t.me/ruofeng_fx 120
+      - 18_TG频道:t.me/ruofeng_fx 134
+      - 18_TG频道:t.me/ruofeng_fx_47
+      - defaultName_17
+      - defaultName_26
+      - defaultName_43
+      - defaultName_83
+      - GB_TG频道:t.me/ruofeng_fx 739
+      - GB_TG频道:t.me/ruofeng_fx 742
+      - GB_TG频道:t.me/ruofeng_fx 748
+      - GB_TG频道:t.me/ruofeng_fx 750
+      - GB_TG频道:t.me/ruofeng_fx 751
+      - GB_TG频道:t.me/ruofeng_fx 752
+      - GB_TG频道:t.me/ruofeng_fx 756
+      - GB_TG频道:t.me/ruofeng_fx 758
+      - GB_TG频道:t.me/ruofeng_fx 759
+      - GB_TG频道:t.me/ruofeng_fx 765
+      - GB_TG频道:t.me/ruofeng_fx 766
+      - GB_TG频道:t.me/ruofeng_fx 767
+      - LT_TG频道:t.me/ruofeng_fx 1000
+      - Relay_TG频道:t.me/ruofeng_fx_371
+      - Relay_🇨🇳CN_10_15Mb_14
+      - Relay_🇨🇳CN_36_95Mb_15
+      - Relay_🇨🇳CN-🇩🇪DE_TG频道:t.me/ruofeng_fx 394
+      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
+      - RU_TG频道:t.me/ruofeng_fx 11
+      - RU_TG频道:t.me/ruofeng_fx 13
+      - RU_TG频道:t.me/ruofeng_fx 1362
+      - RU_TG频道:t.me/ruofeng_fx 1363
+      - RU_TG频道:t.me/ruofeng_fx 1406
+      - RU_TG频道:t.me/ruofeng_fx 148
+      - RU_TG频道:t.me/ruofeng_fx 20
+      - RU_TG频道:t.me/ruofeng_fx 28
+      - RU_TG频道:t.me/ruofeng_fx 87
+      - RU_TG频道:t.me/ruofeng_fx 91
+      - RU_TG频道:t.me/ruofeng_fx 99
+      - TG频道:t.me/ruofeng_fx 130
+      - TG频道:t.me/ruofeng_fx_126
+      - TG频道:t.me/ruofeng_fx_54
+      - TG频道:t.me/ruofeng_fx_62
+      - TG频道:t.me/ruofeng_fx_92
+      - US_TG频道:t.me/ruofeng_fx 1
+      - US_TG频道:t.me/ruofeng_fx 131
+      - US_TG频道:t.me/ruofeng_fx 1682
+      - US_TG频道:t.me/ruofeng_fx 1754
+      - US_TG频道:t.me/ruofeng_fx 1786
+      - US_TG频道:t.me/ruofeng_fx 23
+      - US_TG频道:t.me/ruofeng_fx 2400
+      - US_TG频道:t.me/ruofeng_fx 25
+      - US_TG频道:t.me/ruofeng_fx 29
+      - US_TG频道:t.me/ruofeng_fx 3077
+      - US_TG频道:t.me/ruofeng_fx 31
+      - US_TG频道:t.me/ruofeng_fx 68
+      - US_TG频道:t.me/ruofeng_fx 79
+      - US_TG频道:t.me/ruofeng_fx 90
+      - US_TG频道:t.me/ruofeng_fx 96
+      - US_TG频道:t.me/ruofeng_fx 988
+      - US_TG频道:t.me/ruofeng_fx_104
+      - 美国-TG频道:t.me/ruofeng_fx
+      - 日本-tg频道:@bpjzx2
+      - 日本-TG频道:t.me/ruofeng_fx 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -834,6 +1023,69 @@ proxy-groups:
       - VN-l 2
       - JP 7
       - US-l 22
+      - 10_TG频道:t.me/ruofeng_fx 75
+      - 11_TG频道:t.me/ruofeng_fx 121
+      - 18_TG频道:t.me/ruofeng_fx 120
+      - 18_TG频道:t.me/ruofeng_fx 134
+      - 18_TG频道:t.me/ruofeng_fx_47
+      - defaultName_17
+      - defaultName_26
+      - defaultName_43
+      - defaultName_83
+      - GB_TG频道:t.me/ruofeng_fx 739
+      - GB_TG频道:t.me/ruofeng_fx 742
+      - GB_TG频道:t.me/ruofeng_fx 748
+      - GB_TG频道:t.me/ruofeng_fx 750
+      - GB_TG频道:t.me/ruofeng_fx 751
+      - GB_TG频道:t.me/ruofeng_fx 752
+      - GB_TG频道:t.me/ruofeng_fx 756
+      - GB_TG频道:t.me/ruofeng_fx 758
+      - GB_TG频道:t.me/ruofeng_fx 759
+      - GB_TG频道:t.me/ruofeng_fx 765
+      - GB_TG频道:t.me/ruofeng_fx 766
+      - GB_TG频道:t.me/ruofeng_fx 767
+      - LT_TG频道:t.me/ruofeng_fx 1000
+      - Relay_TG频道:t.me/ruofeng_fx_371
+      - Relay_🇨🇳CN_10_15Mb_14
+      - Relay_🇨🇳CN_36_95Mb_15
+      - Relay_🇨🇳CN-🇩🇪DE_TG频道:t.me/ruofeng_fx 394
+      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
+      - RU_TG频道:t.me/ruofeng_fx 11
+      - RU_TG频道:t.me/ruofeng_fx 13
+      - RU_TG频道:t.me/ruofeng_fx 1362
+      - RU_TG频道:t.me/ruofeng_fx 1363
+      - RU_TG频道:t.me/ruofeng_fx 1406
+      - RU_TG频道:t.me/ruofeng_fx 148
+      - RU_TG频道:t.me/ruofeng_fx 20
+      - RU_TG频道:t.me/ruofeng_fx 28
+      - RU_TG频道:t.me/ruofeng_fx 87
+      - RU_TG频道:t.me/ruofeng_fx 91
+      - RU_TG频道:t.me/ruofeng_fx 99
+      - TG频道:t.me/ruofeng_fx 130
+      - TG频道:t.me/ruofeng_fx_126
+      - TG频道:t.me/ruofeng_fx_54
+      - TG频道:t.me/ruofeng_fx_62
+      - TG频道:t.me/ruofeng_fx_92
+      - US_TG频道:t.me/ruofeng_fx 1
+      - US_TG频道:t.me/ruofeng_fx 131
+      - US_TG频道:t.me/ruofeng_fx 1682
+      - US_TG频道:t.me/ruofeng_fx 1754
+      - US_TG频道:t.me/ruofeng_fx 1786
+      - US_TG频道:t.me/ruofeng_fx 23
+      - US_TG频道:t.me/ruofeng_fx 2400
+      - US_TG频道:t.me/ruofeng_fx 25
+      - US_TG频道:t.me/ruofeng_fx 29
+      - US_TG频道:t.me/ruofeng_fx 3077
+      - US_TG频道:t.me/ruofeng_fx 31
+      - US_TG频道:t.me/ruofeng_fx 68
+      - US_TG频道:t.me/ruofeng_fx 79
+      - US_TG频道:t.me/ruofeng_fx 90
+      - US_TG频道:t.me/ruofeng_fx 96
+      - US_TG频道:t.me/ruofeng_fx 988
+      - US_TG频道:t.me/ruofeng_fx_104
+      - 美国-TG频道:t.me/ruofeng_fx
+      - 日本-tg频道:@bpjzx2
+      - 日本-TG频道:t.me/ruofeng_fx 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -1055,6 +1307,69 @@ proxy-groups:
       - VN-l 2
       - JP 7
       - US-l 22
+      - 10_TG频道:t.me/ruofeng_fx 75
+      - 11_TG频道:t.me/ruofeng_fx 121
+      - 18_TG频道:t.me/ruofeng_fx 120
+      - 18_TG频道:t.me/ruofeng_fx 134
+      - 18_TG频道:t.me/ruofeng_fx_47
+      - defaultName_17
+      - defaultName_26
+      - defaultName_43
+      - defaultName_83
+      - GB_TG频道:t.me/ruofeng_fx 739
+      - GB_TG频道:t.me/ruofeng_fx 742
+      - GB_TG频道:t.me/ruofeng_fx 748
+      - GB_TG频道:t.me/ruofeng_fx 750
+      - GB_TG频道:t.me/ruofeng_fx 751
+      - GB_TG频道:t.me/ruofeng_fx 752
+      - GB_TG频道:t.me/ruofeng_fx 756
+      - GB_TG频道:t.me/ruofeng_fx 758
+      - GB_TG频道:t.me/ruofeng_fx 759
+      - GB_TG频道:t.me/ruofeng_fx 765
+      - GB_TG频道:t.me/ruofeng_fx 766
+      - GB_TG频道:t.me/ruofeng_fx 767
+      - LT_TG频道:t.me/ruofeng_fx 1000
+      - Relay_TG频道:t.me/ruofeng_fx_371
+      - Relay_🇨🇳CN_10_15Mb_14
+      - Relay_🇨🇳CN_36_95Mb_15
+      - Relay_🇨🇳CN-🇩🇪DE_TG频道:t.me/ruofeng_fx 394
+      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
+      - RU_TG频道:t.me/ruofeng_fx 11
+      - RU_TG频道:t.me/ruofeng_fx 13
+      - RU_TG频道:t.me/ruofeng_fx 1362
+      - RU_TG频道:t.me/ruofeng_fx 1363
+      - RU_TG频道:t.me/ruofeng_fx 1406
+      - RU_TG频道:t.me/ruofeng_fx 148
+      - RU_TG频道:t.me/ruofeng_fx 20
+      - RU_TG频道:t.me/ruofeng_fx 28
+      - RU_TG频道:t.me/ruofeng_fx 87
+      - RU_TG频道:t.me/ruofeng_fx 91
+      - RU_TG频道:t.me/ruofeng_fx 99
+      - TG频道:t.me/ruofeng_fx 130
+      - TG频道:t.me/ruofeng_fx_126
+      - TG频道:t.me/ruofeng_fx_54
+      - TG频道:t.me/ruofeng_fx_62
+      - TG频道:t.me/ruofeng_fx_92
+      - US_TG频道:t.me/ruofeng_fx 1
+      - US_TG频道:t.me/ruofeng_fx 131
+      - US_TG频道:t.me/ruofeng_fx 1682
+      - US_TG频道:t.me/ruofeng_fx 1754
+      - US_TG频道:t.me/ruofeng_fx 1786
+      - US_TG频道:t.me/ruofeng_fx 23
+      - US_TG频道:t.me/ruofeng_fx 2400
+      - US_TG频道:t.me/ruofeng_fx 25
+      - US_TG频道:t.me/ruofeng_fx 29
+      - US_TG频道:t.me/ruofeng_fx 3077
+      - US_TG频道:t.me/ruofeng_fx 31
+      - US_TG频道:t.me/ruofeng_fx 68
+      - US_TG频道:t.me/ruofeng_fx 79
+      - US_TG频道:t.me/ruofeng_fx 90
+      - US_TG频道:t.me/ruofeng_fx 96
+      - US_TG频道:t.me/ruofeng_fx 988
+      - US_TG频道:t.me/ruofeng_fx_104
+      - 美国-TG频道:t.me/ruofeng_fx
+      - 日本-tg频道:@bpjzx2
+      - 日本-TG频道:t.me/ruofeng_fx 2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -1268,6 +1583,69 @@ proxy-groups:
       - VN-l 2
       - JP 7
       - US-l 22
+      - 10_TG频道:t.me/ruofeng_fx 75
+      - 11_TG频道:t.me/ruofeng_fx 121
+      - 18_TG频道:t.me/ruofeng_fx 120
+      - 18_TG频道:t.me/ruofeng_fx 134
+      - 18_TG频道:t.me/ruofeng_fx_47
+      - defaultName_17
+      - defaultName_26
+      - defaultName_43
+      - defaultName_83
+      - GB_TG频道:t.me/ruofeng_fx 739
+      - GB_TG频道:t.me/ruofeng_fx 742
+      - GB_TG频道:t.me/ruofeng_fx 748
+      - GB_TG频道:t.me/ruofeng_fx 750
+      - GB_TG频道:t.me/ruofeng_fx 751
+      - GB_TG频道:t.me/ruofeng_fx 752
+      - GB_TG频道:t.me/ruofeng_fx 756
+      - GB_TG频道:t.me/ruofeng_fx 758
+      - GB_TG频道:t.me/ruofeng_fx 759
+      - GB_TG频道:t.me/ruofeng_fx 765
+      - GB_TG频道:t.me/ruofeng_fx 766
+      - GB_TG频道:t.me/ruofeng_fx 767
+      - LT_TG频道:t.me/ruofeng_fx 1000
+      - Relay_TG频道:t.me/ruofeng_fx_371
+      - Relay_🇨🇳CN_10_15Mb_14
+      - Relay_🇨🇳CN_36_95Mb_15
+      - Relay_🇨🇳CN-🇩🇪DE_TG频道:t.me/ruofeng_fx 394
+      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
+      - RU_TG频道:t.me/ruofeng_fx 11
+      - RU_TG频道:t.me/ruofeng_fx 13
+      - RU_TG频道:t.me/ruofeng_fx 1362
+      - RU_TG频道:t.me/ruofeng_fx 1363
+      - RU_TG频道:t.me/ruofeng_fx 1406
+      - RU_TG频道:t.me/ruofeng_fx 148
+      - RU_TG频道:t.me/ruofeng_fx 20
+      - RU_TG频道:t.me/ruofeng_fx 28
+      - RU_TG频道:t.me/ruofeng_fx 87
+      - RU_TG频道:t.me/ruofeng_fx 91
+      - RU_TG频道:t.me/ruofeng_fx 99
+      - TG频道:t.me/ruofeng_fx 130
+      - TG频道:t.me/ruofeng_fx_126
+      - TG频道:t.me/ruofeng_fx_54
+      - TG频道:t.me/ruofeng_fx_62
+      - TG频道:t.me/ruofeng_fx_92
+      - US_TG频道:t.me/ruofeng_fx 1
+      - US_TG频道:t.me/ruofeng_fx 131
+      - US_TG频道:t.me/ruofeng_fx 1682
+      - US_TG频道:t.me/ruofeng_fx 1754
+      - US_TG频道:t.me/ruofeng_fx 1786
+      - US_TG频道:t.me/ruofeng_fx 23
+      - US_TG频道:t.me/ruofeng_fx 2400
+      - US_TG频道:t.me/ruofeng_fx 25
+      - US_TG频道:t.me/ruofeng_fx 29
+      - US_TG频道:t.me/ruofeng_fx 3077
+      - US_TG频道:t.me/ruofeng_fx 31
+      - US_TG频道:t.me/ruofeng_fx 68
+      - US_TG频道:t.me/ruofeng_fx 79
+      - US_TG频道:t.me/ruofeng_fx 90
+      - US_TG频道:t.me/ruofeng_fx 96
+      - US_TG频道:t.me/ruofeng_fx 988
+      - US_TG频道:t.me/ruofeng_fx_104
+      - 美国-TG频道:t.me/ruofeng_fx
+      - 日本-tg频道:@bpjzx2
+      - 日本-TG频道:t.me/ruofeng_fx 2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -1476,6 +1854,69 @@ proxy-groups:
       - VN-l 2
       - JP 7
       - US-l 22
+      - 10_TG频道:t.me/ruofeng_fx 75
+      - 11_TG频道:t.me/ruofeng_fx 121
+      - 18_TG频道:t.me/ruofeng_fx 120
+      - 18_TG频道:t.me/ruofeng_fx 134
+      - 18_TG频道:t.me/ruofeng_fx_47
+      - defaultName_17
+      - defaultName_26
+      - defaultName_43
+      - defaultName_83
+      - GB_TG频道:t.me/ruofeng_fx 739
+      - GB_TG频道:t.me/ruofeng_fx 742
+      - GB_TG频道:t.me/ruofeng_fx 748
+      - GB_TG频道:t.me/ruofeng_fx 750
+      - GB_TG频道:t.me/ruofeng_fx 751
+      - GB_TG频道:t.me/ruofeng_fx 752
+      - GB_TG频道:t.me/ruofeng_fx 756
+      - GB_TG频道:t.me/ruofeng_fx 758
+      - GB_TG频道:t.me/ruofeng_fx 759
+      - GB_TG频道:t.me/ruofeng_fx 765
+      - GB_TG频道:t.me/ruofeng_fx 766
+      - GB_TG频道:t.me/ruofeng_fx 767
+      - LT_TG频道:t.me/ruofeng_fx 1000
+      - Relay_TG频道:t.me/ruofeng_fx_371
+      - Relay_🇨🇳CN_10_15Mb_14
+      - Relay_🇨🇳CN_36_95Mb_15
+      - Relay_🇨🇳CN-🇩🇪DE_TG频道:t.me/ruofeng_fx 394
+      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
+      - RU_TG频道:t.me/ruofeng_fx 11
+      - RU_TG频道:t.me/ruofeng_fx 13
+      - RU_TG频道:t.me/ruofeng_fx 1362
+      - RU_TG频道:t.me/ruofeng_fx 1363
+      - RU_TG频道:t.me/ruofeng_fx 1406
+      - RU_TG频道:t.me/ruofeng_fx 148
+      - RU_TG频道:t.me/ruofeng_fx 20
+      - RU_TG频道:t.me/ruofeng_fx 28
+      - RU_TG频道:t.me/ruofeng_fx 87
+      - RU_TG频道:t.me/ruofeng_fx 91
+      - RU_TG频道:t.me/ruofeng_fx 99
+      - TG频道:t.me/ruofeng_fx 130
+      - TG频道:t.me/ruofeng_fx_126
+      - TG频道:t.me/ruofeng_fx_54
+      - TG频道:t.me/ruofeng_fx_62
+      - TG频道:t.me/ruofeng_fx_92
+      - US_TG频道:t.me/ruofeng_fx 1
+      - US_TG频道:t.me/ruofeng_fx 131
+      - US_TG频道:t.me/ruofeng_fx 1682
+      - US_TG频道:t.me/ruofeng_fx 1754
+      - US_TG频道:t.me/ruofeng_fx 1786
+      - US_TG频道:t.me/ruofeng_fx 23
+      - US_TG频道:t.me/ruofeng_fx 2400
+      - US_TG频道:t.me/ruofeng_fx 25
+      - US_TG频道:t.me/ruofeng_fx 29
+      - US_TG频道:t.me/ruofeng_fx 3077
+      - US_TG频道:t.me/ruofeng_fx 31
+      - US_TG频道:t.me/ruofeng_fx 68
+      - US_TG频道:t.me/ruofeng_fx 79
+      - US_TG频道:t.me/ruofeng_fx 90
+      - US_TG频道:t.me/ruofeng_fx 96
+      - US_TG频道:t.me/ruofeng_fx 988
+      - US_TG频道:t.me/ruofeng_fx_104
+      - 美国-TG频道:t.me/ruofeng_fx
+      - 日本-tg频道:@bpjzx2
+      - 日本-TG频道:t.me/ruofeng_fx 2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1685,6 +2126,69 @@ proxy-groups:
       - VN-l 2
       - JP 7
       - US-l 22
+      - 10_TG频道:t.me/ruofeng_fx 75
+      - 11_TG频道:t.me/ruofeng_fx 121
+      - 18_TG频道:t.me/ruofeng_fx 120
+      - 18_TG频道:t.me/ruofeng_fx 134
+      - 18_TG频道:t.me/ruofeng_fx_47
+      - defaultName_17
+      - defaultName_26
+      - defaultName_43
+      - defaultName_83
+      - GB_TG频道:t.me/ruofeng_fx 739
+      - GB_TG频道:t.me/ruofeng_fx 742
+      - GB_TG频道:t.me/ruofeng_fx 748
+      - GB_TG频道:t.me/ruofeng_fx 750
+      - GB_TG频道:t.me/ruofeng_fx 751
+      - GB_TG频道:t.me/ruofeng_fx 752
+      - GB_TG频道:t.me/ruofeng_fx 756
+      - GB_TG频道:t.me/ruofeng_fx 758
+      - GB_TG频道:t.me/ruofeng_fx 759
+      - GB_TG频道:t.me/ruofeng_fx 765
+      - GB_TG频道:t.me/ruofeng_fx 766
+      - GB_TG频道:t.me/ruofeng_fx 767
+      - LT_TG频道:t.me/ruofeng_fx 1000
+      - Relay_TG频道:t.me/ruofeng_fx_371
+      - Relay_🇨🇳CN_10_15Mb_14
+      - Relay_🇨🇳CN_36_95Mb_15
+      - Relay_🇨🇳CN-🇩🇪DE_TG频道:t.me/ruofeng_fx 394
+      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
+      - RU_TG频道:t.me/ruofeng_fx 11
+      - RU_TG频道:t.me/ruofeng_fx 13
+      - RU_TG频道:t.me/ruofeng_fx 1362
+      - RU_TG频道:t.me/ruofeng_fx 1363
+      - RU_TG频道:t.me/ruofeng_fx 1406
+      - RU_TG频道:t.me/ruofeng_fx 148
+      - RU_TG频道:t.me/ruofeng_fx 20
+      - RU_TG频道:t.me/ruofeng_fx 28
+      - RU_TG频道:t.me/ruofeng_fx 87
+      - RU_TG频道:t.me/ruofeng_fx 91
+      - RU_TG频道:t.me/ruofeng_fx 99
+      - TG频道:t.me/ruofeng_fx 130
+      - TG频道:t.me/ruofeng_fx_126
+      - TG频道:t.me/ruofeng_fx_54
+      - TG频道:t.me/ruofeng_fx_62
+      - TG频道:t.me/ruofeng_fx_92
+      - US_TG频道:t.me/ruofeng_fx 1
+      - US_TG频道:t.me/ruofeng_fx 131
+      - US_TG频道:t.me/ruofeng_fx 1682
+      - US_TG频道:t.me/ruofeng_fx 1754
+      - US_TG频道:t.me/ruofeng_fx 1786
+      - US_TG频道:t.me/ruofeng_fx 23
+      - US_TG频道:t.me/ruofeng_fx 2400
+      - US_TG频道:t.me/ruofeng_fx 25
+      - US_TG频道:t.me/ruofeng_fx 29
+      - US_TG频道:t.me/ruofeng_fx 3077
+      - US_TG频道:t.me/ruofeng_fx 31
+      - US_TG频道:t.me/ruofeng_fx 68
+      - US_TG频道:t.me/ruofeng_fx 79
+      - US_TG频道:t.me/ruofeng_fx 90
+      - US_TG频道:t.me/ruofeng_fx 96
+      - US_TG频道:t.me/ruofeng_fx 988
+      - US_TG频道:t.me/ruofeng_fx_104
+      - 美国-TG频道:t.me/ruofeng_fx
+      - 日本-tg频道:@bpjzx2
+      - 日本-TG频道:t.me/ruofeng_fx 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1903,6 +2407,69 @@ proxy-groups:
       - VN-l 2
       - JP 7
       - US-l 22
+      - 10_TG频道:t.me/ruofeng_fx 75
+      - 11_TG频道:t.me/ruofeng_fx 121
+      - 18_TG频道:t.me/ruofeng_fx 120
+      - 18_TG频道:t.me/ruofeng_fx 134
+      - 18_TG频道:t.me/ruofeng_fx_47
+      - defaultName_17
+      - defaultName_26
+      - defaultName_43
+      - defaultName_83
+      - GB_TG频道:t.me/ruofeng_fx 739
+      - GB_TG频道:t.me/ruofeng_fx 742
+      - GB_TG频道:t.me/ruofeng_fx 748
+      - GB_TG频道:t.me/ruofeng_fx 750
+      - GB_TG频道:t.me/ruofeng_fx 751
+      - GB_TG频道:t.me/ruofeng_fx 752
+      - GB_TG频道:t.me/ruofeng_fx 756
+      - GB_TG频道:t.me/ruofeng_fx 758
+      - GB_TG频道:t.me/ruofeng_fx 759
+      - GB_TG频道:t.me/ruofeng_fx 765
+      - GB_TG频道:t.me/ruofeng_fx 766
+      - GB_TG频道:t.me/ruofeng_fx 767
+      - LT_TG频道:t.me/ruofeng_fx 1000
+      - Relay_TG频道:t.me/ruofeng_fx_371
+      - Relay_🇨🇳CN_10_15Mb_14
+      - Relay_🇨🇳CN_36_95Mb_15
+      - Relay_🇨🇳CN-🇩🇪DE_TG频道:t.me/ruofeng_fx 394
+      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
+      - RU_TG频道:t.me/ruofeng_fx 11
+      - RU_TG频道:t.me/ruofeng_fx 13
+      - RU_TG频道:t.me/ruofeng_fx 1362
+      - RU_TG频道:t.me/ruofeng_fx 1363
+      - RU_TG频道:t.me/ruofeng_fx 1406
+      - RU_TG频道:t.me/ruofeng_fx 148
+      - RU_TG频道:t.me/ruofeng_fx 20
+      - RU_TG频道:t.me/ruofeng_fx 28
+      - RU_TG频道:t.me/ruofeng_fx 87
+      - RU_TG频道:t.me/ruofeng_fx 91
+      - RU_TG频道:t.me/ruofeng_fx 99
+      - TG频道:t.me/ruofeng_fx 130
+      - TG频道:t.me/ruofeng_fx_126
+      - TG频道:t.me/ruofeng_fx_54
+      - TG频道:t.me/ruofeng_fx_62
+      - TG频道:t.me/ruofeng_fx_92
+      - US_TG频道:t.me/ruofeng_fx 1
+      - US_TG频道:t.me/ruofeng_fx 131
+      - US_TG频道:t.me/ruofeng_fx 1682
+      - US_TG频道:t.me/ruofeng_fx 1754
+      - US_TG频道:t.me/ruofeng_fx 1786
+      - US_TG频道:t.me/ruofeng_fx 23
+      - US_TG频道:t.me/ruofeng_fx 2400
+      - US_TG频道:t.me/ruofeng_fx 25
+      - US_TG频道:t.me/ruofeng_fx 29
+      - US_TG频道:t.me/ruofeng_fx 3077
+      - US_TG频道:t.me/ruofeng_fx 31
+      - US_TG频道:t.me/ruofeng_fx 68
+      - US_TG频道:t.me/ruofeng_fx 79
+      - US_TG频道:t.me/ruofeng_fx 90
+      - US_TG频道:t.me/ruofeng_fx 96
+      - US_TG频道:t.me/ruofeng_fx 988
+      - US_TG频道:t.me/ruofeng_fx_104
+      - 美国-TG频道:t.me/ruofeng_fx
+      - 日本-tg频道:@bpjzx2
+      - 日本-TG频道:t.me/ruofeng_fx 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
