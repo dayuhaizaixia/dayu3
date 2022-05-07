@@ -5,6 +5,19 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 美国, server: 137.135.10.138, port: 51000, type: ss, cipher: aes-128-gcm, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, udp: true}
+  - {name: 首尔, server: 3.36.17.31, port: 51000, type: ss, cipher: aes-128-gcm, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, udp: true}
+  - {name: 新加坡, server: 120.232.214.26, port: 35003, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
+  - {name: 香港, server: 120.232.214.26, port: 35006, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
+  - {name: 日本, server: 139.227.191.174, port: 35001, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
+  - {name: 日本2, server: 120.240.168.120, port: 51002, type: ss, cipher: aes-128-gcm, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, udp: true}
+  - {name: 日本3, server: 120.232.214.26, port: 35001, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
+  - {name: 日本4, server: 58.32.33.232, port: 35001, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
+  - {name: 日本5, server: 13.230.206.182, port: 51000, type: ss, cipher: aes-128-gcm, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, udp: true}
+  - {name: 香港2, server: 120.240.168.120, port: 51003, type: ss, cipher: aes-128-gcm, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, udp: true}
+  - {name: 新加坡2, server: 139.227.191.174, port: 35003, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
+  - {name: 新加坡3, server: 20.205.202.37, port: 51000, type: ss, cipher: aes-128-gcm, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, udp: true}
+  - {name: 首尔2, server: 139.227.191.174, port: 35007, type: trojan, password: ae93d689-f6ce-429b-9855-4f5744b3dfea, skip-cert-verify: true, udp: true}
   - {name: KR- 7, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: AU, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: AU_01, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
@@ -277,6 +290,19 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国
+      - 首尔
+      - 新加坡
+      - 香港
+      - 日本
+      - 日本2
+      - 日本3
+      - 日本4
+      - 日本5
+      - 香港2
+      - 新加坡2
+      - 新加坡3
+      - 首尔2
       - KR- 7
       - AU
       - AU_01
@@ -548,6 +574,19 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 美国
+      - 首尔
+      - 新加坡
+      - 香港
+      - 日本
+      - 日本2
+      - 日本3
+      - 日本4
+      - 日本5
+      - 香港2
+      - 新加坡2
+      - 新加坡3
+      - 首尔2
       - KR- 7
       - AU
       - AU_01
@@ -820,6 +859,19 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国
+      - 首尔
+      - 新加坡
+      - 香港
+      - 日本
+      - 日本2
+      - 日本3
+      - 日本4
+      - 日本5
+      - 香港2
+      - 新加坡2
+      - 新加坡3
+      - 首尔2
       - KR- 7
       - AU
       - AU_01
@@ -1104,6 +1156,19 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国
+      - 首尔
+      - 新加坡
+      - 香港
+      - 日本
+      - 日本2
+      - 日本3
+      - 日本4
+      - 日本5
+      - 香港2
+      - 新加坡2
+      - 新加坡3
+      - 首尔2
       - KR- 7
       - AU
       - AU_01
@@ -1374,12 +1439,27 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港
+      - 香港2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 美国
+      - 首尔
+      - 新加坡
+      - 香港
+      - 日本
+      - 日本2
+      - 日本3
+      - 日本4
+      - 日本5
+      - 香港2
+      - 新加坡2
+      - 新加坡3
+      - 首尔2
       - KR- 7
       - AU
       - AU_01
@@ -1651,6 +1731,19 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 美国
+      - 首尔
+      - 新加坡
+      - 香港
+      - 日本
+      - 日本2
+      - 日本3
+      - 日本4
+      - 日本5
+      - 香港2
+      - 新加坡2
+      - 新加坡3
+      - 首尔2
       - KR- 7
       - AU
       - AU_01
@@ -1923,6 +2016,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 美国
+      - 首尔
+      - 新加坡
+      - 香港
+      - 日本
+      - 日本2
+      - 日本3
+      - 日本4
+      - 日本5
+      - 香港2
+      - 新加坡2
+      - 新加坡3
+      - 首尔2
       - KR- 7
       - AU
       - AU_01
@@ -2204,6 +2310,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 美国
+      - 首尔
+      - 新加坡
+      - 香港
+      - 日本
+      - 日本2
+      - 日本3
+      - 日本4
+      - 日本5
+      - 香港2
+      - 新加坡2
+      - 新加坡3
+      - 首尔2
       - KR- 7
       - AU
       - AU_01
