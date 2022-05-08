@@ -5,6 +5,254 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: CN_413, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: NL_1140, server: 213.183.59.229, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: LT_1011, server: 213.183.63.218, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: CA_369, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_2652, server: 38.75.136.102, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: LT_1010, server: 213.183.63.221, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: ZZ_4412, server: 169.197.143.157, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_2679, server: 38.75.136.102, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: RU_1293, server: 217.30.10.67, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: LT_1079, server: 213.183.63.221, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: LT_1035r, server: 213.183.63.221, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: LT_1031ar, server: 213.183.63.221, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: LT_1012r, server: 213.183.63.221, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: RU_1332ar, server: 217.30.10.63, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: RU_1344ar, server: 217.30.10.65, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: LT_1015star, server: 213.183.63.221, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: LT_1043tar, server: 213.183.63.221, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: US_2777ar, server: 38.75.136.102, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: LT_958tar, server: 213.183.63.218, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: LT_1034+ar, server: 213.183.63.221, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: RU_1374star, server: 217.30.10.68, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: US_158vstar, server: 38.75.136.102, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: LT_1086star, server: 213.183.63.221, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: LT_1055tar, server: 213.183.63.221, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: ZZ_4449star, server: 169.197.143.157, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: RU_1423star, server: 217.30.10.68, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: LT_976ar, server: 213.183.63.221, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: CA_338vstar, server: 198.57.27.218, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: LT_961star, server: 213.183.63.221, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: LT_1075tar, server: 213.183.63.221, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: RU_1417vstar, server: 217.30.10.68, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: CA_247tar, server: 198.57.27.218, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: NL_115ivstar, server: 213.183.59.185, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: LT_1088star, server: 213.183.63.221, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: DE_598star, server: 5.183.179.148, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: LT_1040star, server: 213.183.63.221, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: US_3187tar, server: 167.88.61.70, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: NL_120ntar, server: 213.183.59.229, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: LT_104star, server: 213.183.63.221, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: RU_1390tar, server: 217.30.10.68, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: RU_1387tar, server: 217.30.10.68, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: LT_977+ar, server: 213.183.63.221, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: LT_969+ar, server: 213.183.63.221, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: RU_1301star, server: 217.30.10.63, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: RU_1392ar, server: 217.30.10.63, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: US_2531+star, server: 167.88.63.71, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: LT_1018nivstar, server: 213.183.63.221, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: LT_1049tar, server: 213.183.63.221, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: LT_1057tar, server: 213.183.63.221, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: LT_1044tar, server: 213.183.63.221, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: US_2557star, server: 38.75.136.102, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: LT_993vstar, server: 213.183.63.221, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: RU_1330vstar, server: 217.30.10.63, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: US_219nivstar, server: 167.88.61.70, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: LT_1056star, server: 213.183.63.221, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: RU_1419ivstar, server: 217.30.10.63, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: LT_966nivtar, server: 213.183.63.221, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: LT_1005tar, server: 213.183.63.221, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: LT_1027tar, server: 213.183.63.221, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: LT_1058, server: 213.183.63.221, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: RU_1313vstar, server: 217.30.10.63, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: LT_1053star, server: 213.183.63.221, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: ZZ_447vstar, server: 169.197.143.157, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: RU_1336vstar, server: 217.30.10.63, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: LT_968star, server: 213.183.63.221, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: RU_132vstar, server: 217.30.10.63, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: RU_1319vstar, server: 217.30.10.63, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: RU_1307vstar, server: 217.30.10.68, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: LT_1046star, server: 213.183.63.221, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: LT_1006star, server: 213.183.63.221, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: LT_1033vstar, server: 213.183.63.221, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: RU_1409tar, server: 217.30.10.63, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: DE_494vstar, server: 5.183.179.148, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: LT_978star, server: 213.183.63.221, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: LT_1021star, server: 213.183.63.221, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: RU_1303ar, server: 217.30.10.63, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: CA_239tar, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: RU_1326star, server: 217.30.10.63, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: CA_243tar, server: 198.57.27.218, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: NL_1204ivstar, server: 213.183.59.218, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: RU_1331star, server: 217.30.10.63, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: RU_1389star, server: 217.30.10.63, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: CA_275tar, server: 198.57.27.218, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_2263tar, server: 38.75.136.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: RU_1384star, server: 217.30.10.68, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: DE_585star, server: 5.183.179.139, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: DE_510star, server: 5.183.179.148, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: RU_1385tar, server: 217.30.10.63, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: RU_1393ivstar, server: 217.30.10.68, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: US_3168vstar, server: 167.88.61.70, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: RU_1292ivstar, server: 217.30.10.63, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: RU_1302tar, server: 217.30.10.63, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: RU_1317tar, server: 217.30.10.63, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: LT_1016r, server: 213.183.63.219, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: RU_1401star, server: 217.30.10.68, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: LT_1070ivstar, server: 213.183.63.219, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: US_3191vstar, server: 38.75.136.102, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: RU_1335vstar, server: 217.30.10.63, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: RU_1406star, server: 217.30.10.68, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: US_2543tar, server: 172.99.190.153, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: LT_982ar, server: 213.183.63.221, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: US_1886vstar, server: 38.75.136.102, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_2346vstar, server: 167.88.63.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: DE_633star, server: 5.183.179.148, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: RU_1404ivstar, server: 217.30.10.68, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: AU_45ar, server: 185.167.116.252, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: DE_63star, server: 5.183.179.141, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: RU_1367star, server: 217.30.10.64, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: US_1591star, server: 167.88.63.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: RU_1311star, server: 217.30.10.63, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: US_2997ivstar, server: 167.88.61.70, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: AU_21star, server: 185.167.116.252, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: LT_1089ivstar, server: 213.183.63.221, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: DE_448star, server: 5.183.179.148, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: US_1543star, server: 172.99.190.153, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: ZZ_3517vstar, server: 169.197.142.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: LT_1061star, server: 213.183.63.221, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: RU_1297star, server: 217.30.10.68, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: AU_54tar, server: 185.167.116.252, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: RU_1339ar, server: 217.30.10.64, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: CA_235nivstar, server: 198.57.27.218, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1570ivstar, server: 38.75.136.102, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_2121nvstar, server: 167.88.61.70, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_2831star, server: 38.114.114.69, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: DE_599star, server: 5.183.179.141, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: DE_659ivstar, server: 5.183.179.141, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: US_1529vstar, server: 167.88.63.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CA_279vstar, server: 198.57.27.218, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_2040ar, server: 38.114.114.67, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: NL_1170tar, server: 213.183.59.185, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: DE_486tar, server: 5.183.179.141, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: RU_1346vstar, server: 217.30.10.64, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: ZZ_4290vstar, server: 169.197.143.157, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA_392star, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: RU_1309star, server: 217.30.10.64, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: US_215ivstar, server: 167.88.63.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA_337tar, server: 198.57.27.218, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: DE_514star, server: 5.183.179.148, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: CA_383tar, server: 198.57.27.218, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: RU_137star, server: 217.30.10.64, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: DE_61star, server: 5.183.179.139, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: US_155vstar, server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_334star, server: 167.88.63.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_21ivstar, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ZZ_354vstar, server: 169.197.143.157, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CA_29ar, server: 198.57.27.218, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_206nivstar, server: 167.88.63.82, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA_244vstar, server: 198.57.27.218, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1857star, server: 167.88.62.68, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1797star, server: 167.88.63.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_2249star, server: 167.88.63.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_2146tar, server: 167.88.63.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_1564ar, server: 172.99.190.153, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_2656star, server: 172.99.190.153, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA_345ivstar, server: 198.57.27.218, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: DE_529nistar, server: 5.183.179.141, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: CA_372vstar, server: 198.57.27.218, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: DE_567star, server: 5.183.179.141, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: CA_194tar, server: 198.57.27.218, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA_308star, server: 198.57.27.218, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA_353vstar, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA_394vstar, server: 198.57.27.218, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: DE_563vstar, server: 5.183.179.148, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: US_3117ivstar, server: 167.88.62.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: CA_391star, server: 198.57.27.218, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CA_266tar, server: 198.57.27.218, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_2259tar, server: 167.88.63.82, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1648ivstar, server: 167.88.63.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: RU_1408vstar, server: 217.30.10.64, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: US_1820star, server: 38.91.100.134, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA_202star, server: 198.57.27.218, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1852vstar, server: 167.88.63.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: DE_520tar, server: 5.183.179.141, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: US_2982vstar, server: 167.88.61.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA_339tar, server: 198.57.27.14, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: NL_1201star, server: 213.183.59.185, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: US_1970tar, server: 38.91.100.134, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_3128star, server: 167.88.61.204, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_1657tar, server: 38.114.114.69, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_158ivstar, server: 167.88.62.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: DE_466ivstar, server: 5.183.179.141, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: DE_552vstar, server: 5.183.179.141, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: US_225ivstar, server: 167.88.61.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_28ivstar, server: 38.114.114.69, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_2278nivstar, server: 167.88.61.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: NL_1173tar, server: 213.183.59.185, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: US_184vstar, server: 167.88.61.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ZZ_438vstar, server: 169.197.143.157, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: DE_588nivstar, server: 5.183.179.139, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: US_268vstar, server: 167.88.61.70, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_306vstar, server: 167.88.62.68, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ZZ_445vstar, server: 169.197.143.157, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ZZ_421ivstar, server: 169.197.143.157, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: DE_59vstar, server: 5.183.179.139, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: US_31ivstar, server: 167.88.61.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_31nivstar, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_27tar, server: 167.88.62.68, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_262star, server: 167.88.62.68, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_338ivstar, server: 38.114.114.69, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_209nivstar, server: 38.114.114.69, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_3165star, server: 167.88.61.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_3004tar, server: 38.114.114.67, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_2682vstar, server: 38.114.114.69, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: NL_1174ivstar, server: 213.183.59.185, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: US_2782ivstar, server: 38.114.114.69, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_2817vstar, server: 38.114.114.69, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: DE_446ar, server: 5.183.179.139, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: US_2704ivstar, server: 167.88.62.68, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ZZ_4396star, server: 169.197.143.157, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_2926tar, server: 38.114.114.67, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_2963vstar, server: 167.88.62.68, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_3809ar, server: 169.197.143.157, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: NL_117ivstar, server: 213.183.59.185, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: ZZ_422ar, server: 169.197.143.157, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_18ivstar, server: 167.88.61.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: NL_119vstar, server: 213.183.59.185, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: US_2847tar, server: 167.88.61.70, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ZZ_4391star, server: 169.197.143.157, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: NL_114star, server: 213.183.59.185, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: US_244vstar, server: 38.114.114.69, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_16star, server: 167.88.61.70, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_210star, server: 38.114.114.69, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_197ivstar, server: 38.114.114.67, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_318vstar, server: 38.114.114.67, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_2908ivstar, server: 38.114.114.69, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_318star, server: 167.88.61.70, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: NL_1149star, server: 213.183.59.185, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: US_323tar, server: 167.88.61.70, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ZZ_4416vstar, server: 169.197.142.39, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_185ivstar, server: 38.114.114.69, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_2887star, server: 38.114.114.69, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_3312ivstar, server: 167.88.61.70, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_328nivstar, server: 38.114.114.69, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_1958ivstar, server: 167.88.61.204, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_2864vstar, server: 167.88.61.70, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_303ivstar, server: 38.114.114.69, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_3252tar, server: 167.88.61.70, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ZZ_443ivstar, server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_1849ivstar, server: 38.114.114.67, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_279tar, server: 38.114.114.69, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_3240tar, server: 167.88.61.70, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_3094star, server: 38.114.114.69, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: DE_508star, server: 5.183.179.139, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: US_280tar, server: 167.88.61.70, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_2454tar, server: 167.88.61.70, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_259tar, server: 167.88.61.70, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1921vstar, server: 167.88.61.70, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_2838tar, server: 167.88.61.70, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: SG TG频道:t.me/ruofeng_fx, server: iplc-hu.mielink-dns.com, port: 664, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 81755:56873eaa-dcd1-3f65-8984-4e208f3e8844, obfs-param: ajax.microsoft.com, udp: true}
   - {name: RU-US TG频道:t.me/ruofeng_fx, server: iplc-su.mielink-dns.com, port: 666, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 81755:56873eaa-dcd1-3f65-8984-4e208f3e8844, obfs-param: ajax.microsoft.com, udp: true}
   - {name: SG1 TG频道:t.me/ruofeng_fx, server: iplc-xiang.mielink-dns.com, port: 664, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 81755:56873eaa-dcd1-3f65-8984-4e208f3e8844, obfs-param: ajax.microsoft.com, udp: true}
@@ -380,6 +628,254 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CN_413
+      - NL_1140
+      - LT_1011
+      - CA_369
+      - US_2652
+      - LT_1010
+      - ZZ_4412
+      - US_2679
+      - RU_1293
+      - LT_1079
+      - LT_1035r
+      - LT_1031ar
+      - LT_1012r
+      - RU_1332ar
+      - RU_1344ar
+      - LT_1015star
+      - LT_1043tar
+      - US_2777ar
+      - LT_958tar
+      - LT_1034+ar
+      - RU_1374star
+      - US_158vstar
+      - LT_1086star
+      - LT_1055tar
+      - ZZ_4449star
+      - RU_1423star
+      - LT_976ar
+      - CA_338vstar
+      - LT_961star
+      - LT_1075tar
+      - RU_1417vstar
+      - CA_247tar
+      - NL_115ivstar
+      - LT_1088star
+      - DE_598star
+      - LT_1040star
+      - US_3187tar
+      - NL_120ntar
+      - LT_104star
+      - RU_1390tar
+      - RU_1387tar
+      - LT_977+ar
+      - LT_969+ar
+      - RU_1301star
+      - RU_1392ar
+      - US_2531+star
+      - LT_1018nivstar
+      - LT_1049tar
+      - LT_1057tar
+      - LT_1044tar
+      - US_2557star
+      - LT_993vstar
+      - RU_1330vstar
+      - US_219nivstar
+      - LT_1056star
+      - RU_1419ivstar
+      - LT_966nivtar
+      - LT_1005tar
+      - LT_1027tar
+      - LT_1058
+      - RU_1313vstar
+      - LT_1053star
+      - ZZ_447vstar
+      - RU_1336vstar
+      - LT_968star
+      - RU_132vstar
+      - RU_1319vstar
+      - RU_1307vstar
+      - LT_1046star
+      - LT_1006star
+      - LT_1033vstar
+      - RU_1409tar
+      - DE_494vstar
+      - LT_978star
+      - LT_1021star
+      - RU_1303ar
+      - CA_239tar
+      - RU_1326star
+      - CA_243tar
+      - NL_1204ivstar
+      - RU_1331star
+      - RU_1389star
+      - CA_275tar
+      - US_2263tar
+      - RU_1384star
+      - DE_585star
+      - DE_510star
+      - RU_1385tar
+      - RU_1393ivstar
+      - US_3168vstar
+      - RU_1292ivstar
+      - RU_1302tar
+      - RU_1317tar
+      - LT_1016r
+      - RU_1401star
+      - LT_1070ivstar
+      - US_3191vstar
+      - RU_1335vstar
+      - RU_1406star
+      - US_2543tar
+      - LT_982ar
+      - US_1886vstar
+      - US_2346vstar
+      - DE_633star
+      - RU_1404ivstar
+      - AU_45ar
+      - DE_63star
+      - RU_1367star
+      - US_1591star
+      - RU_1311star
+      - US_2997ivstar
+      - AU_21star
+      - LT_1089ivstar
+      - DE_448star
+      - US_1543star
+      - ZZ_3517vstar
+      - LT_1061star
+      - RU_1297star
+      - AU_54tar
+      - RU_1339ar
+      - CA_235nivstar
+      - US_1570ivstar
+      - US_2121nvstar
+      - US_2831star
+      - DE_599star
+      - DE_659ivstar
+      - US_1529vstar
+      - CA_279vstar
+      - US_2040ar
+      - NL_1170tar
+      - DE_486tar
+      - RU_1346vstar
+      - ZZ_4290vstar
+      - CA_392star
+      - RU_1309star
+      - US_215ivstar
+      - CA_337tar
+      - DE_514star
+      - CA_383tar
+      - RU_137star
+      - DE_61star
+      - US_155vstar
+      - US_334star
+      - US_21ivstar
+      - ZZ_354vstar
+      - CA_29ar
+      - US_206nivstar
+      - CA_244vstar
+      - US_1857star
+      - US_1797star
+      - US_2249star
+      - US_2146tar
+      - US_1564ar
+      - US_2656star
+      - CA_345ivstar
+      - DE_529nistar
+      - CA_372vstar
+      - DE_567star
+      - CA_194tar
+      - CA_308star
+      - CA_353vstar
+      - CA_394vstar
+      - DE_563vstar
+      - US_3117ivstar
+      - CA_391star
+      - CA_266tar
+      - US_2259tar
+      - US_1648ivstar
+      - RU_1408vstar
+      - US_1820star
+      - CA_202star
+      - US_1852vstar
+      - DE_520tar
+      - US_2982vstar
+      - CA_339tar
+      - NL_1201star
+      - US_1970tar
+      - US_3128star
+      - US_1657tar
+      - US_158ivstar
+      - DE_466ivstar
+      - DE_552vstar
+      - US_225ivstar
+      - US_28ivstar
+      - US_2278nivstar
+      - NL_1173tar
+      - US_184vstar
+      - ZZ_438vstar
+      - DE_588nivstar
+      - US_268vstar
+      - US_306vstar
+      - ZZ_445vstar
+      - ZZ_421ivstar
+      - DE_59vstar
+      - US_31ivstar
+      - US_31nivstar
+      - US_27tar
+      - US_262star
+      - US_338ivstar
+      - US_209nivstar
+      - US_3165star
+      - US_3004tar
+      - US_2682vstar
+      - NL_1174ivstar
+      - US_2782ivstar
+      - US_2817vstar
+      - DE_446ar
+      - US_2704ivstar
+      - ZZ_4396star
+      - US_2926tar
+      - US_2963vstar
+      - ZZ_3809ar
+      - NL_117ivstar
+      - ZZ_422ar
+      - US_18ivstar
+      - NL_119vstar
+      - US_2847tar
+      - ZZ_4391star
+      - NL_114star
+      - US_244vstar
+      - US_16star
+      - US_210star
+      - US_197ivstar
+      - US_318vstar
+      - US_2908ivstar
+      - US_318star
+      - NL_1149star
+      - US_323tar
+      - ZZ_4416vstar
+      - US_185ivstar
+      - US_2887star
+      - US_3312ivstar
+      - US_328nivstar
+      - US_1958ivstar
+      - US_2864vstar
+      - US_303ivstar
+      - US_3252tar
+      - ZZ_443ivstar
+      - US_1849ivstar
+      - US_279tar
+      - US_3240tar
+      - US_3094star
+      - DE_508star
+      - US_280tar
+      - US_2454tar
+      - US_259tar
+      - US_1921vstar
+      - US_2838tar
       - SG TG频道:t.me/ruofeng_fx
       - RU-US TG频道:t.me/ruofeng_fx
       - SG1 TG频道:t.me/ruofeng_fx
@@ -754,6 +1250,254 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - CN_413
+      - NL_1140
+      - LT_1011
+      - CA_369
+      - US_2652
+      - LT_1010
+      - ZZ_4412
+      - US_2679
+      - RU_1293
+      - LT_1079
+      - LT_1035r
+      - LT_1031ar
+      - LT_1012r
+      - RU_1332ar
+      - RU_1344ar
+      - LT_1015star
+      - LT_1043tar
+      - US_2777ar
+      - LT_958tar
+      - LT_1034+ar
+      - RU_1374star
+      - US_158vstar
+      - LT_1086star
+      - LT_1055tar
+      - ZZ_4449star
+      - RU_1423star
+      - LT_976ar
+      - CA_338vstar
+      - LT_961star
+      - LT_1075tar
+      - RU_1417vstar
+      - CA_247tar
+      - NL_115ivstar
+      - LT_1088star
+      - DE_598star
+      - LT_1040star
+      - US_3187tar
+      - NL_120ntar
+      - LT_104star
+      - RU_1390tar
+      - RU_1387tar
+      - LT_977+ar
+      - LT_969+ar
+      - RU_1301star
+      - RU_1392ar
+      - US_2531+star
+      - LT_1018nivstar
+      - LT_1049tar
+      - LT_1057tar
+      - LT_1044tar
+      - US_2557star
+      - LT_993vstar
+      - RU_1330vstar
+      - US_219nivstar
+      - LT_1056star
+      - RU_1419ivstar
+      - LT_966nivtar
+      - LT_1005tar
+      - LT_1027tar
+      - LT_1058
+      - RU_1313vstar
+      - LT_1053star
+      - ZZ_447vstar
+      - RU_1336vstar
+      - LT_968star
+      - RU_132vstar
+      - RU_1319vstar
+      - RU_1307vstar
+      - LT_1046star
+      - LT_1006star
+      - LT_1033vstar
+      - RU_1409tar
+      - DE_494vstar
+      - LT_978star
+      - LT_1021star
+      - RU_1303ar
+      - CA_239tar
+      - RU_1326star
+      - CA_243tar
+      - NL_1204ivstar
+      - RU_1331star
+      - RU_1389star
+      - CA_275tar
+      - US_2263tar
+      - RU_1384star
+      - DE_585star
+      - DE_510star
+      - RU_1385tar
+      - RU_1393ivstar
+      - US_3168vstar
+      - RU_1292ivstar
+      - RU_1302tar
+      - RU_1317tar
+      - LT_1016r
+      - RU_1401star
+      - LT_1070ivstar
+      - US_3191vstar
+      - RU_1335vstar
+      - RU_1406star
+      - US_2543tar
+      - LT_982ar
+      - US_1886vstar
+      - US_2346vstar
+      - DE_633star
+      - RU_1404ivstar
+      - AU_45ar
+      - DE_63star
+      - RU_1367star
+      - US_1591star
+      - RU_1311star
+      - US_2997ivstar
+      - AU_21star
+      - LT_1089ivstar
+      - DE_448star
+      - US_1543star
+      - ZZ_3517vstar
+      - LT_1061star
+      - RU_1297star
+      - AU_54tar
+      - RU_1339ar
+      - CA_235nivstar
+      - US_1570ivstar
+      - US_2121nvstar
+      - US_2831star
+      - DE_599star
+      - DE_659ivstar
+      - US_1529vstar
+      - CA_279vstar
+      - US_2040ar
+      - NL_1170tar
+      - DE_486tar
+      - RU_1346vstar
+      - ZZ_4290vstar
+      - CA_392star
+      - RU_1309star
+      - US_215ivstar
+      - CA_337tar
+      - DE_514star
+      - CA_383tar
+      - RU_137star
+      - DE_61star
+      - US_155vstar
+      - US_334star
+      - US_21ivstar
+      - ZZ_354vstar
+      - CA_29ar
+      - US_206nivstar
+      - CA_244vstar
+      - US_1857star
+      - US_1797star
+      - US_2249star
+      - US_2146tar
+      - US_1564ar
+      - US_2656star
+      - CA_345ivstar
+      - DE_529nistar
+      - CA_372vstar
+      - DE_567star
+      - CA_194tar
+      - CA_308star
+      - CA_353vstar
+      - CA_394vstar
+      - DE_563vstar
+      - US_3117ivstar
+      - CA_391star
+      - CA_266tar
+      - US_2259tar
+      - US_1648ivstar
+      - RU_1408vstar
+      - US_1820star
+      - CA_202star
+      - US_1852vstar
+      - DE_520tar
+      - US_2982vstar
+      - CA_339tar
+      - NL_1201star
+      - US_1970tar
+      - US_3128star
+      - US_1657tar
+      - US_158ivstar
+      - DE_466ivstar
+      - DE_552vstar
+      - US_225ivstar
+      - US_28ivstar
+      - US_2278nivstar
+      - NL_1173tar
+      - US_184vstar
+      - ZZ_438vstar
+      - DE_588nivstar
+      - US_268vstar
+      - US_306vstar
+      - ZZ_445vstar
+      - ZZ_421ivstar
+      - DE_59vstar
+      - US_31ivstar
+      - US_31nivstar
+      - US_27tar
+      - US_262star
+      - US_338ivstar
+      - US_209nivstar
+      - US_3165star
+      - US_3004tar
+      - US_2682vstar
+      - NL_1174ivstar
+      - US_2782ivstar
+      - US_2817vstar
+      - DE_446ar
+      - US_2704ivstar
+      - ZZ_4396star
+      - US_2926tar
+      - US_2963vstar
+      - ZZ_3809ar
+      - NL_117ivstar
+      - ZZ_422ar
+      - US_18ivstar
+      - NL_119vstar
+      - US_2847tar
+      - ZZ_4391star
+      - NL_114star
+      - US_244vstar
+      - US_16star
+      - US_210star
+      - US_197ivstar
+      - US_318vstar
+      - US_2908ivstar
+      - US_318star
+      - NL_1149star
+      - US_323tar
+      - ZZ_4416vstar
+      - US_185ivstar
+      - US_2887star
+      - US_3312ivstar
+      - US_328nivstar
+      - US_1958ivstar
+      - US_2864vstar
+      - US_303ivstar
+      - US_3252tar
+      - ZZ_443ivstar
+      - US_1849ivstar
+      - US_279tar
+      - US_3240tar
+      - US_3094star
+      - DE_508star
+      - US_280tar
+      - US_2454tar
+      - US_259tar
+      - US_1921vstar
+      - US_2838tar
       - SG TG频道:t.me/ruofeng_fx
       - RU-US TG频道:t.me/ruofeng_fx
       - SG1 TG频道:t.me/ruofeng_fx
@@ -1129,6 +1873,254 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CN_413
+      - NL_1140
+      - LT_1011
+      - CA_369
+      - US_2652
+      - LT_1010
+      - ZZ_4412
+      - US_2679
+      - RU_1293
+      - LT_1079
+      - LT_1035r
+      - LT_1031ar
+      - LT_1012r
+      - RU_1332ar
+      - RU_1344ar
+      - LT_1015star
+      - LT_1043tar
+      - US_2777ar
+      - LT_958tar
+      - LT_1034+ar
+      - RU_1374star
+      - US_158vstar
+      - LT_1086star
+      - LT_1055tar
+      - ZZ_4449star
+      - RU_1423star
+      - LT_976ar
+      - CA_338vstar
+      - LT_961star
+      - LT_1075tar
+      - RU_1417vstar
+      - CA_247tar
+      - NL_115ivstar
+      - LT_1088star
+      - DE_598star
+      - LT_1040star
+      - US_3187tar
+      - NL_120ntar
+      - LT_104star
+      - RU_1390tar
+      - RU_1387tar
+      - LT_977+ar
+      - LT_969+ar
+      - RU_1301star
+      - RU_1392ar
+      - US_2531+star
+      - LT_1018nivstar
+      - LT_1049tar
+      - LT_1057tar
+      - LT_1044tar
+      - US_2557star
+      - LT_993vstar
+      - RU_1330vstar
+      - US_219nivstar
+      - LT_1056star
+      - RU_1419ivstar
+      - LT_966nivtar
+      - LT_1005tar
+      - LT_1027tar
+      - LT_1058
+      - RU_1313vstar
+      - LT_1053star
+      - ZZ_447vstar
+      - RU_1336vstar
+      - LT_968star
+      - RU_132vstar
+      - RU_1319vstar
+      - RU_1307vstar
+      - LT_1046star
+      - LT_1006star
+      - LT_1033vstar
+      - RU_1409tar
+      - DE_494vstar
+      - LT_978star
+      - LT_1021star
+      - RU_1303ar
+      - CA_239tar
+      - RU_1326star
+      - CA_243tar
+      - NL_1204ivstar
+      - RU_1331star
+      - RU_1389star
+      - CA_275tar
+      - US_2263tar
+      - RU_1384star
+      - DE_585star
+      - DE_510star
+      - RU_1385tar
+      - RU_1393ivstar
+      - US_3168vstar
+      - RU_1292ivstar
+      - RU_1302tar
+      - RU_1317tar
+      - LT_1016r
+      - RU_1401star
+      - LT_1070ivstar
+      - US_3191vstar
+      - RU_1335vstar
+      - RU_1406star
+      - US_2543tar
+      - LT_982ar
+      - US_1886vstar
+      - US_2346vstar
+      - DE_633star
+      - RU_1404ivstar
+      - AU_45ar
+      - DE_63star
+      - RU_1367star
+      - US_1591star
+      - RU_1311star
+      - US_2997ivstar
+      - AU_21star
+      - LT_1089ivstar
+      - DE_448star
+      - US_1543star
+      - ZZ_3517vstar
+      - LT_1061star
+      - RU_1297star
+      - AU_54tar
+      - RU_1339ar
+      - CA_235nivstar
+      - US_1570ivstar
+      - US_2121nvstar
+      - US_2831star
+      - DE_599star
+      - DE_659ivstar
+      - US_1529vstar
+      - CA_279vstar
+      - US_2040ar
+      - NL_1170tar
+      - DE_486tar
+      - RU_1346vstar
+      - ZZ_4290vstar
+      - CA_392star
+      - RU_1309star
+      - US_215ivstar
+      - CA_337tar
+      - DE_514star
+      - CA_383tar
+      - RU_137star
+      - DE_61star
+      - US_155vstar
+      - US_334star
+      - US_21ivstar
+      - ZZ_354vstar
+      - CA_29ar
+      - US_206nivstar
+      - CA_244vstar
+      - US_1857star
+      - US_1797star
+      - US_2249star
+      - US_2146tar
+      - US_1564ar
+      - US_2656star
+      - CA_345ivstar
+      - DE_529nistar
+      - CA_372vstar
+      - DE_567star
+      - CA_194tar
+      - CA_308star
+      - CA_353vstar
+      - CA_394vstar
+      - DE_563vstar
+      - US_3117ivstar
+      - CA_391star
+      - CA_266tar
+      - US_2259tar
+      - US_1648ivstar
+      - RU_1408vstar
+      - US_1820star
+      - CA_202star
+      - US_1852vstar
+      - DE_520tar
+      - US_2982vstar
+      - CA_339tar
+      - NL_1201star
+      - US_1970tar
+      - US_3128star
+      - US_1657tar
+      - US_158ivstar
+      - DE_466ivstar
+      - DE_552vstar
+      - US_225ivstar
+      - US_28ivstar
+      - US_2278nivstar
+      - NL_1173tar
+      - US_184vstar
+      - ZZ_438vstar
+      - DE_588nivstar
+      - US_268vstar
+      - US_306vstar
+      - ZZ_445vstar
+      - ZZ_421ivstar
+      - DE_59vstar
+      - US_31ivstar
+      - US_31nivstar
+      - US_27tar
+      - US_262star
+      - US_338ivstar
+      - US_209nivstar
+      - US_3165star
+      - US_3004tar
+      - US_2682vstar
+      - NL_1174ivstar
+      - US_2782ivstar
+      - US_2817vstar
+      - DE_446ar
+      - US_2704ivstar
+      - ZZ_4396star
+      - US_2926tar
+      - US_2963vstar
+      - ZZ_3809ar
+      - NL_117ivstar
+      - ZZ_422ar
+      - US_18ivstar
+      - NL_119vstar
+      - US_2847tar
+      - ZZ_4391star
+      - NL_114star
+      - US_244vstar
+      - US_16star
+      - US_210star
+      - US_197ivstar
+      - US_318vstar
+      - US_2908ivstar
+      - US_318star
+      - NL_1149star
+      - US_323tar
+      - ZZ_4416vstar
+      - US_185ivstar
+      - US_2887star
+      - US_3312ivstar
+      - US_328nivstar
+      - US_1958ivstar
+      - US_2864vstar
+      - US_303ivstar
+      - US_3252tar
+      - ZZ_443ivstar
+      - US_1849ivstar
+      - US_279tar
+      - US_3240tar
+      - US_3094star
+      - DE_508star
+      - US_280tar
+      - US_2454tar
+      - US_259tar
+      - US_1921vstar
+      - US_2838tar
       - SG TG频道:t.me/ruofeng_fx
       - RU-US TG频道:t.me/ruofeng_fx
       - SG1 TG频道:t.me/ruofeng_fx
@@ -1516,6 +2508,254 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CN_413
+      - NL_1140
+      - LT_1011
+      - CA_369
+      - US_2652
+      - LT_1010
+      - ZZ_4412
+      - US_2679
+      - RU_1293
+      - LT_1079
+      - LT_1035r
+      - LT_1031ar
+      - LT_1012r
+      - RU_1332ar
+      - RU_1344ar
+      - LT_1015star
+      - LT_1043tar
+      - US_2777ar
+      - LT_958tar
+      - LT_1034+ar
+      - RU_1374star
+      - US_158vstar
+      - LT_1086star
+      - LT_1055tar
+      - ZZ_4449star
+      - RU_1423star
+      - LT_976ar
+      - CA_338vstar
+      - LT_961star
+      - LT_1075tar
+      - RU_1417vstar
+      - CA_247tar
+      - NL_115ivstar
+      - LT_1088star
+      - DE_598star
+      - LT_1040star
+      - US_3187tar
+      - NL_120ntar
+      - LT_104star
+      - RU_1390tar
+      - RU_1387tar
+      - LT_977+ar
+      - LT_969+ar
+      - RU_1301star
+      - RU_1392ar
+      - US_2531+star
+      - LT_1018nivstar
+      - LT_1049tar
+      - LT_1057tar
+      - LT_1044tar
+      - US_2557star
+      - LT_993vstar
+      - RU_1330vstar
+      - US_219nivstar
+      - LT_1056star
+      - RU_1419ivstar
+      - LT_966nivtar
+      - LT_1005tar
+      - LT_1027tar
+      - LT_1058
+      - RU_1313vstar
+      - LT_1053star
+      - ZZ_447vstar
+      - RU_1336vstar
+      - LT_968star
+      - RU_132vstar
+      - RU_1319vstar
+      - RU_1307vstar
+      - LT_1046star
+      - LT_1006star
+      - LT_1033vstar
+      - RU_1409tar
+      - DE_494vstar
+      - LT_978star
+      - LT_1021star
+      - RU_1303ar
+      - CA_239tar
+      - RU_1326star
+      - CA_243tar
+      - NL_1204ivstar
+      - RU_1331star
+      - RU_1389star
+      - CA_275tar
+      - US_2263tar
+      - RU_1384star
+      - DE_585star
+      - DE_510star
+      - RU_1385tar
+      - RU_1393ivstar
+      - US_3168vstar
+      - RU_1292ivstar
+      - RU_1302tar
+      - RU_1317tar
+      - LT_1016r
+      - RU_1401star
+      - LT_1070ivstar
+      - US_3191vstar
+      - RU_1335vstar
+      - RU_1406star
+      - US_2543tar
+      - LT_982ar
+      - US_1886vstar
+      - US_2346vstar
+      - DE_633star
+      - RU_1404ivstar
+      - AU_45ar
+      - DE_63star
+      - RU_1367star
+      - US_1591star
+      - RU_1311star
+      - US_2997ivstar
+      - AU_21star
+      - LT_1089ivstar
+      - DE_448star
+      - US_1543star
+      - ZZ_3517vstar
+      - LT_1061star
+      - RU_1297star
+      - AU_54tar
+      - RU_1339ar
+      - CA_235nivstar
+      - US_1570ivstar
+      - US_2121nvstar
+      - US_2831star
+      - DE_599star
+      - DE_659ivstar
+      - US_1529vstar
+      - CA_279vstar
+      - US_2040ar
+      - NL_1170tar
+      - DE_486tar
+      - RU_1346vstar
+      - ZZ_4290vstar
+      - CA_392star
+      - RU_1309star
+      - US_215ivstar
+      - CA_337tar
+      - DE_514star
+      - CA_383tar
+      - RU_137star
+      - DE_61star
+      - US_155vstar
+      - US_334star
+      - US_21ivstar
+      - ZZ_354vstar
+      - CA_29ar
+      - US_206nivstar
+      - CA_244vstar
+      - US_1857star
+      - US_1797star
+      - US_2249star
+      - US_2146tar
+      - US_1564ar
+      - US_2656star
+      - CA_345ivstar
+      - DE_529nistar
+      - CA_372vstar
+      - DE_567star
+      - CA_194tar
+      - CA_308star
+      - CA_353vstar
+      - CA_394vstar
+      - DE_563vstar
+      - US_3117ivstar
+      - CA_391star
+      - CA_266tar
+      - US_2259tar
+      - US_1648ivstar
+      - RU_1408vstar
+      - US_1820star
+      - CA_202star
+      - US_1852vstar
+      - DE_520tar
+      - US_2982vstar
+      - CA_339tar
+      - NL_1201star
+      - US_1970tar
+      - US_3128star
+      - US_1657tar
+      - US_158ivstar
+      - DE_466ivstar
+      - DE_552vstar
+      - US_225ivstar
+      - US_28ivstar
+      - US_2278nivstar
+      - NL_1173tar
+      - US_184vstar
+      - ZZ_438vstar
+      - DE_588nivstar
+      - US_268vstar
+      - US_306vstar
+      - ZZ_445vstar
+      - ZZ_421ivstar
+      - DE_59vstar
+      - US_31ivstar
+      - US_31nivstar
+      - US_27tar
+      - US_262star
+      - US_338ivstar
+      - US_209nivstar
+      - US_3165star
+      - US_3004tar
+      - US_2682vstar
+      - NL_1174ivstar
+      - US_2782ivstar
+      - US_2817vstar
+      - DE_446ar
+      - US_2704ivstar
+      - ZZ_4396star
+      - US_2926tar
+      - US_2963vstar
+      - ZZ_3809ar
+      - NL_117ivstar
+      - ZZ_422ar
+      - US_18ivstar
+      - NL_119vstar
+      - US_2847tar
+      - ZZ_4391star
+      - NL_114star
+      - US_244vstar
+      - US_16star
+      - US_210star
+      - US_197ivstar
+      - US_318vstar
+      - US_2908ivstar
+      - US_318star
+      - NL_1149star
+      - US_323tar
+      - ZZ_4416vstar
+      - US_185ivstar
+      - US_2887star
+      - US_3312ivstar
+      - US_328nivstar
+      - US_1958ivstar
+      - US_2864vstar
+      - US_303ivstar
+      - US_3252tar
+      - ZZ_443ivstar
+      - US_1849ivstar
+      - US_279tar
+      - US_3240tar
+      - US_3094star
+      - DE_508star
+      - US_280tar
+      - US_2454tar
+      - US_259tar
+      - US_1921vstar
+      - US_2838tar
       - SG TG频道:t.me/ruofeng_fx
       - RU-US TG频道:t.me/ruofeng_fx
       - SG1 TG频道:t.me/ruofeng_fx
@@ -1906,6 +3146,254 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - CN_413
+      - NL_1140
+      - LT_1011
+      - CA_369
+      - US_2652
+      - LT_1010
+      - ZZ_4412
+      - US_2679
+      - RU_1293
+      - LT_1079
+      - LT_1035r
+      - LT_1031ar
+      - LT_1012r
+      - RU_1332ar
+      - RU_1344ar
+      - LT_1015star
+      - LT_1043tar
+      - US_2777ar
+      - LT_958tar
+      - LT_1034+ar
+      - RU_1374star
+      - US_158vstar
+      - LT_1086star
+      - LT_1055tar
+      - ZZ_4449star
+      - RU_1423star
+      - LT_976ar
+      - CA_338vstar
+      - LT_961star
+      - LT_1075tar
+      - RU_1417vstar
+      - CA_247tar
+      - NL_115ivstar
+      - LT_1088star
+      - DE_598star
+      - LT_1040star
+      - US_3187tar
+      - NL_120ntar
+      - LT_104star
+      - RU_1390tar
+      - RU_1387tar
+      - LT_977+ar
+      - LT_969+ar
+      - RU_1301star
+      - RU_1392ar
+      - US_2531+star
+      - LT_1018nivstar
+      - LT_1049tar
+      - LT_1057tar
+      - LT_1044tar
+      - US_2557star
+      - LT_993vstar
+      - RU_1330vstar
+      - US_219nivstar
+      - LT_1056star
+      - RU_1419ivstar
+      - LT_966nivtar
+      - LT_1005tar
+      - LT_1027tar
+      - LT_1058
+      - RU_1313vstar
+      - LT_1053star
+      - ZZ_447vstar
+      - RU_1336vstar
+      - LT_968star
+      - RU_132vstar
+      - RU_1319vstar
+      - RU_1307vstar
+      - LT_1046star
+      - LT_1006star
+      - LT_1033vstar
+      - RU_1409tar
+      - DE_494vstar
+      - LT_978star
+      - LT_1021star
+      - RU_1303ar
+      - CA_239tar
+      - RU_1326star
+      - CA_243tar
+      - NL_1204ivstar
+      - RU_1331star
+      - RU_1389star
+      - CA_275tar
+      - US_2263tar
+      - RU_1384star
+      - DE_585star
+      - DE_510star
+      - RU_1385tar
+      - RU_1393ivstar
+      - US_3168vstar
+      - RU_1292ivstar
+      - RU_1302tar
+      - RU_1317tar
+      - LT_1016r
+      - RU_1401star
+      - LT_1070ivstar
+      - US_3191vstar
+      - RU_1335vstar
+      - RU_1406star
+      - US_2543tar
+      - LT_982ar
+      - US_1886vstar
+      - US_2346vstar
+      - DE_633star
+      - RU_1404ivstar
+      - AU_45ar
+      - DE_63star
+      - RU_1367star
+      - US_1591star
+      - RU_1311star
+      - US_2997ivstar
+      - AU_21star
+      - LT_1089ivstar
+      - DE_448star
+      - US_1543star
+      - ZZ_3517vstar
+      - LT_1061star
+      - RU_1297star
+      - AU_54tar
+      - RU_1339ar
+      - CA_235nivstar
+      - US_1570ivstar
+      - US_2121nvstar
+      - US_2831star
+      - DE_599star
+      - DE_659ivstar
+      - US_1529vstar
+      - CA_279vstar
+      - US_2040ar
+      - NL_1170tar
+      - DE_486tar
+      - RU_1346vstar
+      - ZZ_4290vstar
+      - CA_392star
+      - RU_1309star
+      - US_215ivstar
+      - CA_337tar
+      - DE_514star
+      - CA_383tar
+      - RU_137star
+      - DE_61star
+      - US_155vstar
+      - US_334star
+      - US_21ivstar
+      - ZZ_354vstar
+      - CA_29ar
+      - US_206nivstar
+      - CA_244vstar
+      - US_1857star
+      - US_1797star
+      - US_2249star
+      - US_2146tar
+      - US_1564ar
+      - US_2656star
+      - CA_345ivstar
+      - DE_529nistar
+      - CA_372vstar
+      - DE_567star
+      - CA_194tar
+      - CA_308star
+      - CA_353vstar
+      - CA_394vstar
+      - DE_563vstar
+      - US_3117ivstar
+      - CA_391star
+      - CA_266tar
+      - US_2259tar
+      - US_1648ivstar
+      - RU_1408vstar
+      - US_1820star
+      - CA_202star
+      - US_1852vstar
+      - DE_520tar
+      - US_2982vstar
+      - CA_339tar
+      - NL_1201star
+      - US_1970tar
+      - US_3128star
+      - US_1657tar
+      - US_158ivstar
+      - DE_466ivstar
+      - DE_552vstar
+      - US_225ivstar
+      - US_28ivstar
+      - US_2278nivstar
+      - NL_1173tar
+      - US_184vstar
+      - ZZ_438vstar
+      - DE_588nivstar
+      - US_268vstar
+      - US_306vstar
+      - ZZ_445vstar
+      - ZZ_421ivstar
+      - DE_59vstar
+      - US_31ivstar
+      - US_31nivstar
+      - US_27tar
+      - US_262star
+      - US_338ivstar
+      - US_209nivstar
+      - US_3165star
+      - US_3004tar
+      - US_2682vstar
+      - NL_1174ivstar
+      - US_2782ivstar
+      - US_2817vstar
+      - DE_446ar
+      - US_2704ivstar
+      - ZZ_4396star
+      - US_2926tar
+      - US_2963vstar
+      - ZZ_3809ar
+      - NL_117ivstar
+      - ZZ_422ar
+      - US_18ivstar
+      - NL_119vstar
+      - US_2847tar
+      - ZZ_4391star
+      - NL_114star
+      - US_244vstar
+      - US_16star
+      - US_210star
+      - US_197ivstar
+      - US_318vstar
+      - US_2908ivstar
+      - US_318star
+      - NL_1149star
+      - US_323tar
+      - ZZ_4416vstar
+      - US_185ivstar
+      - US_2887star
+      - US_3312ivstar
+      - US_328nivstar
+      - US_1958ivstar
+      - US_2864vstar
+      - US_303ivstar
+      - US_3252tar
+      - ZZ_443ivstar
+      - US_1849ivstar
+      - US_279tar
+      - US_3240tar
+      - US_3094star
+      - DE_508star
+      - US_280tar
+      - US_2454tar
+      - US_259tar
+      - US_1921vstar
+      - US_2838tar
       - SG TG频道:t.me/ruofeng_fx
       - RU-US TG频道:t.me/ruofeng_fx
       - SG1 TG频道:t.me/ruofeng_fx
@@ -2280,6 +3768,254 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - CN_413
+      - NL_1140
+      - LT_1011
+      - CA_369
+      - US_2652
+      - LT_1010
+      - ZZ_4412
+      - US_2679
+      - RU_1293
+      - LT_1079
+      - LT_1035r
+      - LT_1031ar
+      - LT_1012r
+      - RU_1332ar
+      - RU_1344ar
+      - LT_1015star
+      - LT_1043tar
+      - US_2777ar
+      - LT_958tar
+      - LT_1034+ar
+      - RU_1374star
+      - US_158vstar
+      - LT_1086star
+      - LT_1055tar
+      - ZZ_4449star
+      - RU_1423star
+      - LT_976ar
+      - CA_338vstar
+      - LT_961star
+      - LT_1075tar
+      - RU_1417vstar
+      - CA_247tar
+      - NL_115ivstar
+      - LT_1088star
+      - DE_598star
+      - LT_1040star
+      - US_3187tar
+      - NL_120ntar
+      - LT_104star
+      - RU_1390tar
+      - RU_1387tar
+      - LT_977+ar
+      - LT_969+ar
+      - RU_1301star
+      - RU_1392ar
+      - US_2531+star
+      - LT_1018nivstar
+      - LT_1049tar
+      - LT_1057tar
+      - LT_1044tar
+      - US_2557star
+      - LT_993vstar
+      - RU_1330vstar
+      - US_219nivstar
+      - LT_1056star
+      - RU_1419ivstar
+      - LT_966nivtar
+      - LT_1005tar
+      - LT_1027tar
+      - LT_1058
+      - RU_1313vstar
+      - LT_1053star
+      - ZZ_447vstar
+      - RU_1336vstar
+      - LT_968star
+      - RU_132vstar
+      - RU_1319vstar
+      - RU_1307vstar
+      - LT_1046star
+      - LT_1006star
+      - LT_1033vstar
+      - RU_1409tar
+      - DE_494vstar
+      - LT_978star
+      - LT_1021star
+      - RU_1303ar
+      - CA_239tar
+      - RU_1326star
+      - CA_243tar
+      - NL_1204ivstar
+      - RU_1331star
+      - RU_1389star
+      - CA_275tar
+      - US_2263tar
+      - RU_1384star
+      - DE_585star
+      - DE_510star
+      - RU_1385tar
+      - RU_1393ivstar
+      - US_3168vstar
+      - RU_1292ivstar
+      - RU_1302tar
+      - RU_1317tar
+      - LT_1016r
+      - RU_1401star
+      - LT_1070ivstar
+      - US_3191vstar
+      - RU_1335vstar
+      - RU_1406star
+      - US_2543tar
+      - LT_982ar
+      - US_1886vstar
+      - US_2346vstar
+      - DE_633star
+      - RU_1404ivstar
+      - AU_45ar
+      - DE_63star
+      - RU_1367star
+      - US_1591star
+      - RU_1311star
+      - US_2997ivstar
+      - AU_21star
+      - LT_1089ivstar
+      - DE_448star
+      - US_1543star
+      - ZZ_3517vstar
+      - LT_1061star
+      - RU_1297star
+      - AU_54tar
+      - RU_1339ar
+      - CA_235nivstar
+      - US_1570ivstar
+      - US_2121nvstar
+      - US_2831star
+      - DE_599star
+      - DE_659ivstar
+      - US_1529vstar
+      - CA_279vstar
+      - US_2040ar
+      - NL_1170tar
+      - DE_486tar
+      - RU_1346vstar
+      - ZZ_4290vstar
+      - CA_392star
+      - RU_1309star
+      - US_215ivstar
+      - CA_337tar
+      - DE_514star
+      - CA_383tar
+      - RU_137star
+      - DE_61star
+      - US_155vstar
+      - US_334star
+      - US_21ivstar
+      - ZZ_354vstar
+      - CA_29ar
+      - US_206nivstar
+      - CA_244vstar
+      - US_1857star
+      - US_1797star
+      - US_2249star
+      - US_2146tar
+      - US_1564ar
+      - US_2656star
+      - CA_345ivstar
+      - DE_529nistar
+      - CA_372vstar
+      - DE_567star
+      - CA_194tar
+      - CA_308star
+      - CA_353vstar
+      - CA_394vstar
+      - DE_563vstar
+      - US_3117ivstar
+      - CA_391star
+      - CA_266tar
+      - US_2259tar
+      - US_1648ivstar
+      - RU_1408vstar
+      - US_1820star
+      - CA_202star
+      - US_1852vstar
+      - DE_520tar
+      - US_2982vstar
+      - CA_339tar
+      - NL_1201star
+      - US_1970tar
+      - US_3128star
+      - US_1657tar
+      - US_158ivstar
+      - DE_466ivstar
+      - DE_552vstar
+      - US_225ivstar
+      - US_28ivstar
+      - US_2278nivstar
+      - NL_1173tar
+      - US_184vstar
+      - ZZ_438vstar
+      - DE_588nivstar
+      - US_268vstar
+      - US_306vstar
+      - ZZ_445vstar
+      - ZZ_421ivstar
+      - DE_59vstar
+      - US_31ivstar
+      - US_31nivstar
+      - US_27tar
+      - US_262star
+      - US_338ivstar
+      - US_209nivstar
+      - US_3165star
+      - US_3004tar
+      - US_2682vstar
+      - NL_1174ivstar
+      - US_2782ivstar
+      - US_2817vstar
+      - DE_446ar
+      - US_2704ivstar
+      - ZZ_4396star
+      - US_2926tar
+      - US_2963vstar
+      - ZZ_3809ar
+      - NL_117ivstar
+      - ZZ_422ar
+      - US_18ivstar
+      - NL_119vstar
+      - US_2847tar
+      - ZZ_4391star
+      - NL_114star
+      - US_244vstar
+      - US_16star
+      - US_210star
+      - US_197ivstar
+      - US_318vstar
+      - US_2908ivstar
+      - US_318star
+      - NL_1149star
+      - US_323tar
+      - ZZ_4416vstar
+      - US_185ivstar
+      - US_2887star
+      - US_3312ivstar
+      - US_328nivstar
+      - US_1958ivstar
+      - US_2864vstar
+      - US_303ivstar
+      - US_3252tar
+      - ZZ_443ivstar
+      - US_1849ivstar
+      - US_279tar
+      - US_3240tar
+      - US_3094star
+      - DE_508star
+      - US_280tar
+      - US_2454tar
+      - US_259tar
+      - US_1921vstar
+      - US_2838tar
       - SG TG频道:t.me/ruofeng_fx
       - RU-US TG频道:t.me/ruofeng_fx
       - SG1 TG频道:t.me/ruofeng_fx
@@ -2655,6 +4391,254 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - CN_413
+      - NL_1140
+      - LT_1011
+      - CA_369
+      - US_2652
+      - LT_1010
+      - ZZ_4412
+      - US_2679
+      - RU_1293
+      - LT_1079
+      - LT_1035r
+      - LT_1031ar
+      - LT_1012r
+      - RU_1332ar
+      - RU_1344ar
+      - LT_1015star
+      - LT_1043tar
+      - US_2777ar
+      - LT_958tar
+      - LT_1034+ar
+      - RU_1374star
+      - US_158vstar
+      - LT_1086star
+      - LT_1055tar
+      - ZZ_4449star
+      - RU_1423star
+      - LT_976ar
+      - CA_338vstar
+      - LT_961star
+      - LT_1075tar
+      - RU_1417vstar
+      - CA_247tar
+      - NL_115ivstar
+      - LT_1088star
+      - DE_598star
+      - LT_1040star
+      - US_3187tar
+      - NL_120ntar
+      - LT_104star
+      - RU_1390tar
+      - RU_1387tar
+      - LT_977+ar
+      - LT_969+ar
+      - RU_1301star
+      - RU_1392ar
+      - US_2531+star
+      - LT_1018nivstar
+      - LT_1049tar
+      - LT_1057tar
+      - LT_1044tar
+      - US_2557star
+      - LT_993vstar
+      - RU_1330vstar
+      - US_219nivstar
+      - LT_1056star
+      - RU_1419ivstar
+      - LT_966nivtar
+      - LT_1005tar
+      - LT_1027tar
+      - LT_1058
+      - RU_1313vstar
+      - LT_1053star
+      - ZZ_447vstar
+      - RU_1336vstar
+      - LT_968star
+      - RU_132vstar
+      - RU_1319vstar
+      - RU_1307vstar
+      - LT_1046star
+      - LT_1006star
+      - LT_1033vstar
+      - RU_1409tar
+      - DE_494vstar
+      - LT_978star
+      - LT_1021star
+      - RU_1303ar
+      - CA_239tar
+      - RU_1326star
+      - CA_243tar
+      - NL_1204ivstar
+      - RU_1331star
+      - RU_1389star
+      - CA_275tar
+      - US_2263tar
+      - RU_1384star
+      - DE_585star
+      - DE_510star
+      - RU_1385tar
+      - RU_1393ivstar
+      - US_3168vstar
+      - RU_1292ivstar
+      - RU_1302tar
+      - RU_1317tar
+      - LT_1016r
+      - RU_1401star
+      - LT_1070ivstar
+      - US_3191vstar
+      - RU_1335vstar
+      - RU_1406star
+      - US_2543tar
+      - LT_982ar
+      - US_1886vstar
+      - US_2346vstar
+      - DE_633star
+      - RU_1404ivstar
+      - AU_45ar
+      - DE_63star
+      - RU_1367star
+      - US_1591star
+      - RU_1311star
+      - US_2997ivstar
+      - AU_21star
+      - LT_1089ivstar
+      - DE_448star
+      - US_1543star
+      - ZZ_3517vstar
+      - LT_1061star
+      - RU_1297star
+      - AU_54tar
+      - RU_1339ar
+      - CA_235nivstar
+      - US_1570ivstar
+      - US_2121nvstar
+      - US_2831star
+      - DE_599star
+      - DE_659ivstar
+      - US_1529vstar
+      - CA_279vstar
+      - US_2040ar
+      - NL_1170tar
+      - DE_486tar
+      - RU_1346vstar
+      - ZZ_4290vstar
+      - CA_392star
+      - RU_1309star
+      - US_215ivstar
+      - CA_337tar
+      - DE_514star
+      - CA_383tar
+      - RU_137star
+      - DE_61star
+      - US_155vstar
+      - US_334star
+      - US_21ivstar
+      - ZZ_354vstar
+      - CA_29ar
+      - US_206nivstar
+      - CA_244vstar
+      - US_1857star
+      - US_1797star
+      - US_2249star
+      - US_2146tar
+      - US_1564ar
+      - US_2656star
+      - CA_345ivstar
+      - DE_529nistar
+      - CA_372vstar
+      - DE_567star
+      - CA_194tar
+      - CA_308star
+      - CA_353vstar
+      - CA_394vstar
+      - DE_563vstar
+      - US_3117ivstar
+      - CA_391star
+      - CA_266tar
+      - US_2259tar
+      - US_1648ivstar
+      - RU_1408vstar
+      - US_1820star
+      - CA_202star
+      - US_1852vstar
+      - DE_520tar
+      - US_2982vstar
+      - CA_339tar
+      - NL_1201star
+      - US_1970tar
+      - US_3128star
+      - US_1657tar
+      - US_158ivstar
+      - DE_466ivstar
+      - DE_552vstar
+      - US_225ivstar
+      - US_28ivstar
+      - US_2278nivstar
+      - NL_1173tar
+      - US_184vstar
+      - ZZ_438vstar
+      - DE_588nivstar
+      - US_268vstar
+      - US_306vstar
+      - ZZ_445vstar
+      - ZZ_421ivstar
+      - DE_59vstar
+      - US_31ivstar
+      - US_31nivstar
+      - US_27tar
+      - US_262star
+      - US_338ivstar
+      - US_209nivstar
+      - US_3165star
+      - US_3004tar
+      - US_2682vstar
+      - NL_1174ivstar
+      - US_2782ivstar
+      - US_2817vstar
+      - DE_446ar
+      - US_2704ivstar
+      - ZZ_4396star
+      - US_2926tar
+      - US_2963vstar
+      - ZZ_3809ar
+      - NL_117ivstar
+      - ZZ_422ar
+      - US_18ivstar
+      - NL_119vstar
+      - US_2847tar
+      - ZZ_4391star
+      - NL_114star
+      - US_244vstar
+      - US_16star
+      - US_210star
+      - US_197ivstar
+      - US_318vstar
+      - US_2908ivstar
+      - US_318star
+      - NL_1149star
+      - US_323tar
+      - ZZ_4416vstar
+      - US_185ivstar
+      - US_2887star
+      - US_3312ivstar
+      - US_328nivstar
+      - US_1958ivstar
+      - US_2864vstar
+      - US_303ivstar
+      - US_3252tar
+      - ZZ_443ivstar
+      - US_1849ivstar
+      - US_279tar
+      - US_3240tar
+      - US_3094star
+      - DE_508star
+      - US_280tar
+      - US_2454tar
+      - US_259tar
+      - US_1921vstar
+      - US_2838tar
       - SG TG频道:t.me/ruofeng_fx
       - RU-US TG频道:t.me/ruofeng_fx
       - SG1 TG频道:t.me/ruofeng_fx
@@ -3039,6 +5023,254 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - CN_413
+      - NL_1140
+      - LT_1011
+      - CA_369
+      - US_2652
+      - LT_1010
+      - ZZ_4412
+      - US_2679
+      - RU_1293
+      - LT_1079
+      - LT_1035r
+      - LT_1031ar
+      - LT_1012r
+      - RU_1332ar
+      - RU_1344ar
+      - LT_1015star
+      - LT_1043tar
+      - US_2777ar
+      - LT_958tar
+      - LT_1034+ar
+      - RU_1374star
+      - US_158vstar
+      - LT_1086star
+      - LT_1055tar
+      - ZZ_4449star
+      - RU_1423star
+      - LT_976ar
+      - CA_338vstar
+      - LT_961star
+      - LT_1075tar
+      - RU_1417vstar
+      - CA_247tar
+      - NL_115ivstar
+      - LT_1088star
+      - DE_598star
+      - LT_1040star
+      - US_3187tar
+      - NL_120ntar
+      - LT_104star
+      - RU_1390tar
+      - RU_1387tar
+      - LT_977+ar
+      - LT_969+ar
+      - RU_1301star
+      - RU_1392ar
+      - US_2531+star
+      - LT_1018nivstar
+      - LT_1049tar
+      - LT_1057tar
+      - LT_1044tar
+      - US_2557star
+      - LT_993vstar
+      - RU_1330vstar
+      - US_219nivstar
+      - LT_1056star
+      - RU_1419ivstar
+      - LT_966nivtar
+      - LT_1005tar
+      - LT_1027tar
+      - LT_1058
+      - RU_1313vstar
+      - LT_1053star
+      - ZZ_447vstar
+      - RU_1336vstar
+      - LT_968star
+      - RU_132vstar
+      - RU_1319vstar
+      - RU_1307vstar
+      - LT_1046star
+      - LT_1006star
+      - LT_1033vstar
+      - RU_1409tar
+      - DE_494vstar
+      - LT_978star
+      - LT_1021star
+      - RU_1303ar
+      - CA_239tar
+      - RU_1326star
+      - CA_243tar
+      - NL_1204ivstar
+      - RU_1331star
+      - RU_1389star
+      - CA_275tar
+      - US_2263tar
+      - RU_1384star
+      - DE_585star
+      - DE_510star
+      - RU_1385tar
+      - RU_1393ivstar
+      - US_3168vstar
+      - RU_1292ivstar
+      - RU_1302tar
+      - RU_1317tar
+      - LT_1016r
+      - RU_1401star
+      - LT_1070ivstar
+      - US_3191vstar
+      - RU_1335vstar
+      - RU_1406star
+      - US_2543tar
+      - LT_982ar
+      - US_1886vstar
+      - US_2346vstar
+      - DE_633star
+      - RU_1404ivstar
+      - AU_45ar
+      - DE_63star
+      - RU_1367star
+      - US_1591star
+      - RU_1311star
+      - US_2997ivstar
+      - AU_21star
+      - LT_1089ivstar
+      - DE_448star
+      - US_1543star
+      - ZZ_3517vstar
+      - LT_1061star
+      - RU_1297star
+      - AU_54tar
+      - RU_1339ar
+      - CA_235nivstar
+      - US_1570ivstar
+      - US_2121nvstar
+      - US_2831star
+      - DE_599star
+      - DE_659ivstar
+      - US_1529vstar
+      - CA_279vstar
+      - US_2040ar
+      - NL_1170tar
+      - DE_486tar
+      - RU_1346vstar
+      - ZZ_4290vstar
+      - CA_392star
+      - RU_1309star
+      - US_215ivstar
+      - CA_337tar
+      - DE_514star
+      - CA_383tar
+      - RU_137star
+      - DE_61star
+      - US_155vstar
+      - US_334star
+      - US_21ivstar
+      - ZZ_354vstar
+      - CA_29ar
+      - US_206nivstar
+      - CA_244vstar
+      - US_1857star
+      - US_1797star
+      - US_2249star
+      - US_2146tar
+      - US_1564ar
+      - US_2656star
+      - CA_345ivstar
+      - DE_529nistar
+      - CA_372vstar
+      - DE_567star
+      - CA_194tar
+      - CA_308star
+      - CA_353vstar
+      - CA_394vstar
+      - DE_563vstar
+      - US_3117ivstar
+      - CA_391star
+      - CA_266tar
+      - US_2259tar
+      - US_1648ivstar
+      - RU_1408vstar
+      - US_1820star
+      - CA_202star
+      - US_1852vstar
+      - DE_520tar
+      - US_2982vstar
+      - CA_339tar
+      - NL_1201star
+      - US_1970tar
+      - US_3128star
+      - US_1657tar
+      - US_158ivstar
+      - DE_466ivstar
+      - DE_552vstar
+      - US_225ivstar
+      - US_28ivstar
+      - US_2278nivstar
+      - NL_1173tar
+      - US_184vstar
+      - ZZ_438vstar
+      - DE_588nivstar
+      - US_268vstar
+      - US_306vstar
+      - ZZ_445vstar
+      - ZZ_421ivstar
+      - DE_59vstar
+      - US_31ivstar
+      - US_31nivstar
+      - US_27tar
+      - US_262star
+      - US_338ivstar
+      - US_209nivstar
+      - US_3165star
+      - US_3004tar
+      - US_2682vstar
+      - NL_1174ivstar
+      - US_2782ivstar
+      - US_2817vstar
+      - DE_446ar
+      - US_2704ivstar
+      - ZZ_4396star
+      - US_2926tar
+      - US_2963vstar
+      - ZZ_3809ar
+      - NL_117ivstar
+      - ZZ_422ar
+      - US_18ivstar
+      - NL_119vstar
+      - US_2847tar
+      - ZZ_4391star
+      - NL_114star
+      - US_244vstar
+      - US_16star
+      - US_210star
+      - US_197ivstar
+      - US_318vstar
+      - US_2908ivstar
+      - US_318star
+      - NL_1149star
+      - US_323tar
+      - ZZ_4416vstar
+      - US_185ivstar
+      - US_2887star
+      - US_3312ivstar
+      - US_328nivstar
+      - US_1958ivstar
+      - US_2864vstar
+      - US_303ivstar
+      - US_3252tar
+      - ZZ_443ivstar
+      - US_1849ivstar
+      - US_279tar
+      - US_3240tar
+      - US_3094star
+      - DE_508star
+      - US_280tar
+      - US_2454tar
+      - US_259tar
+      - US_1921vstar
+      - US_2838tar
       - SG TG频道:t.me/ruofeng_fx
       - RU-US TG频道:t.me/ruofeng_fx
       - SG1 TG频道:t.me/ruofeng_fx
