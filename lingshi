@@ -1,4 +1,3 @@
-#!加入telegram频道，获取更多白嫖资源 https://t.me/p2psharing
 port: 7890
 socks-port: 7891
 allow-lan: true
