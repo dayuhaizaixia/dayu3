@@ -43,13 +43,13 @@ proxies:
   - {name: US- 14, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: "[VIP][广港]台湾3", server: gdcm3.relay.qchwnd.moe, port: 44608, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: gdcm3.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: IN-, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: GB_TG频道:t.me/ruofeng_fx 750, server: 152.89.210.84, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: GB_TG频道:t.me/ruofeng_fx+750, server: 152.89.210.84, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
   - {name: JP 7, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
   - {name: "[VIP][沪日]美国2", server: hncu.relay.qchwnd.moe, port: 44611, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: GB_TG频道:t.me/ruofeng_fx 751, server: 185.167.117.171, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: GB_TG频道:t.me/ruofeng_fx+751, server: 185.167.117.171, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
   - {name: "[VIP]韩国4", server: 144.24.76.223, port: 44600, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
   - {name: SG-17, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, sni: cp-asus.ml, skip-cert-verify: true, udp: true}
-  - {name: GB_TG频道:t.me/ruofeng_fx 758, server: 185.167.117.171, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: GB_TG频道:t.me/ruofeng_fx+758, server: 185.167.117.171, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
   - {name: 美国), server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, sni: jgwdj2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: JP2, server: v2-1.godlight.xyz, port: 12240, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /j75g1461x, ws-headers: {Host: v2-1.godlight.xyz}, udp: true}
   - {name: GB_21, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
@@ -66,7 +66,7 @@ proxies:
   - {name: UK23, server: 172.99.190.35, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: UK30, server: 172.99.190.35, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: UK2, server: 172.99.190.35, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: GB_TG频道:t.me/ruofeng_fx 739, server: 185.167.117.171, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: GB_TG频道:t.me/ruofeng_fx+739, server: 185.167.117.171, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
   - {name: UK27, server: 172.99.190.35, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: UK4, server: 172.99.190.35, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: UK26, server: 172.99.190.35, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
@@ -77,7 +77,7 @@ proxies:
   - {name: UK16, server: 172.99.190.35, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: TG频道:t.me/ruofeng_fx_126, server: 152.89.210.84, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
   - {name: US39, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: CA-Openit.ml 4, server: 198.57.27.225, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CA-Openit.ml+4, server: 198.57.27.225, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: CA-, server: 134.195.196.205, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: _GB_英国_17, server: 152.89.210.84, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
   - {name: CA-Openit.ml, server: 198.57.27.225, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
@@ -85,20 +85,20 @@ proxies:
   - {name: CA_12, server: 198.57.27.225, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: CA-53, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: IN5, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 18_TG频道:t.me/ruofeng_fx 134, server: 134.195.196.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 18_TG频道:t.me/ruofeng_fx 120, server: 134.195.196.205, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 18_TG频道:t.me/ruofeng_fx+134, server: 134.195.196.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 18_TG频道:t.me/ruofeng_fx+120, server: 134.195.196.205, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: "[VIP][广港]香港5•HKT", server: gdcm3.relay.qchwnd.moe, port: 44609, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: gdcm3.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: US_TG频道:t.me/ruofeng_fx 3077, server: 185.153.180.10, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130, udp: true}
-  - {name: GB_TG频道:t.me/ruofeng_fx 756, server: 185.167.117.171, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: CA-Openit.ml 2, server: 198.57.27.225, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_TG频道:t.me/ruofeng_fx+3077, server: 185.153.180.10, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130, udp: true}
+  - {name: GB_TG频道:t.me/ruofeng_fx+756, server: 185.167.117.171, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: CA-Openit.ml+2, server: 198.57.27.225, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: KR_34, server: 132.226.20.79, port: 4666, type: ss, cipher: aes-128-gcm, password: PaSR4XPkpAdJphKP, udp: true}
   - {name: Relay_TG频道:t.me/ruofeng_fx_371, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: RELAY-l, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: "[VIP]韩国1", server: 138.2.127.240, port: 44600, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
   - {name: CA_14, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: "[VIP]韩国2", server: 129.154.53.120, port: 44600, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
-  - {name: CA-l 6, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CN_56 2, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CA-l+6, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CN_56+2, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: "[负载均衡]韩国1", server: ocikr.node.qchwnd.moe, port: 44600, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: ocikr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: CN_43, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_48, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
@@ -106,7 +106,7 @@ proxies:
   - {name: CN_426, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_56, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_54, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_48 2, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_48+2, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_49, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_53, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_413, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
@@ -114,14 +114,14 @@ proxies:
   - {name: GB-l, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: CN_57, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_52, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: GB_TG频道:t.me/ruofeng_fx 742, server: 185.167.117.171, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: GB_TG频道:t.me/ruofeng_fx 748, server: 185.167.117.171, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: GB_TG频道:t.me/ruofeng_fx+742, server: 185.167.117.171, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: GB_TG频道:t.me/ruofeng_fx+748, server: 185.167.117.171, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
   - {name: 俄罗斯1, server: ru.node.qchwnd.moe, port: 44606, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "[🇨🇦][SS][加] 2", server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: GB_TG频道:t.me/ruofeng_fx 765, server: 185.167.117.171, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: "[🇨🇦][SS][加]+2", server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: GB_TG频道:t.me/ruofeng_fx+765, server: 185.167.117.171, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
   - {name: US-l 18, server: trojan2.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan2.free4444.xyz, skip-cert-verify: true, udp: true}
   - {name: defaultName_43, server: 14.29.124.168, port: 24080, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CA-l 2, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA-l+2, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: Relay_🇨🇳CN_10_15Mb_14, server: 14.29.124.168, port: 24093, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: JP-17, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: "[VIP][BGP]台湾2", server: azhk.relay.qchwnd.moe, port: 44608, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
@@ -130,8 +130,8 @@ proxies:
   - {name: CN_05, server: gz.syhwdz.top, port: 35018, type: ss, cipher: aes-256-gcm, password: arielherself, udp: true}
   - {name: CN_07, server: gzbgp.gia.wiki, port: 30222, type: trojan, password: d1eb7f64-30f8-4bfd-8fe9-f7e46962afdb, sni: gzbgp.gia.wiki, skip-cert-verify: true, udp: true}
   - {name: KRl_5, server: 129.154.48.221, port: 37372, type: vmess, uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CAl 4, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CA-l 5, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CAl+4, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CA-l+5, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: "[Trojan]", server: 140.238.231.9, port: 443, type: trojan, password: O3hQcnNKAE, skip-cert-verify: true, udp: true}
   - {name: "[VIP][广港]香港3•HGC", server: gdcm3.relay.qchwnd.moe, port: 44601, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: gdcm3.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: "[VIP][沪日]法国", server: hncu.relay.qchwnd.moe, port: 44612, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
@@ -152,6 +152,18 @@ proxies:
   - {name: "[SSR] 2", server: ie2ohyai.nodeinfo.icu, port: 6008, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
   - {name: "[SSR] 4", server: puf6no0k.nodeinfo.icu, port: 2604, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
   - {name: "[SSR] 3", server: iemeith7.nodeinfo.icu, port: 2507, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
+  - {name: CA-TG频道:t.me/ruofengfx+3, server: 134.195.196.205, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: KR-TG频道:t.me/ruofengfx 5, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, sni: jgw2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: KR-TG频道:t.me/ruofengfx 6, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: HK-TG频道:t.me/ruofengfxl 16, server: azure-hk-1.forwardserver.xyz, port: 48851, type: trojan, password: c488b664-a0a5-4a4e-a7e8-a7a41ba04ae9, sni: azure-hk-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
+  - {name: KR-TG频道:t.me/ruofengfx 8, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP-TG频道:t.me/ruofengfx 5, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-TG频道:t.me/ruofengfx 4, server: bai-piao-wang-zhe-iplc.98848.xyz, port: 443, type: trojan, password: a97edd5e-f9c9-4320-a8aa-753dd99d74d4, sni: bai-piao-wang-zhe-iplc.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: FR-TG频道:t.me/ruofengfx, server: fr.node.qchwnd.moe, port: 44612, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: GB-TG频道:t.me/ruofengfx 10, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-TG频道:t.me/ruofengfx 5, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-TG频道:t.me/ruofengfx 6, server: tj-14.t8737.shop, port: 11223, type: trojan, password: 2558e62f-2910-4278-9dc9-1ec5eafc8e57, sni: tj-14.t8737.shop, skip-cert-verify: true, udp: true}
+  - {name: US-TG频道:t.me/ruofengfx 7, server: tj-15.t8737.shop, port: 11223, type: trojan, password: 2558e62f-2910-4278-9dc9-1ec5eafc8e57, sni: tj-15.t8737.shop, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -196,13 +208,13 @@ proxy-groups:
       - US- 14
       - "[VIP][广港]台湾3"
       - IN-
-      - GB_TG频道:t.me/ruofeng_fx 750
+      - GB_TG频道:t.me/ruofeng_fx+750
       - JP 7
       - "[VIP][沪日]美国2"
-      - GB_TG频道:t.me/ruofeng_fx 751
+      - GB_TG频道:t.me/ruofeng_fx+751
       - "[VIP]韩国4"
       - SG-17
-      - GB_TG频道:t.me/ruofeng_fx 758
+      - GB_TG频道:t.me/ruofeng_fx+758
       - 美国)
       - JP2
       - GB_21
@@ -219,7 +231,7 @@ proxy-groups:
       - UK23
       - UK30
       - UK2
-      - GB_TG频道:t.me/ruofeng_fx 739
+      - GB_TG频道:t.me/ruofeng_fx+739
       - UK27
       - UK4
       - UK26
@@ -230,7 +242,7 @@ proxy-groups:
       - UK16
       - TG频道:t.me/ruofeng_fx_126
       - US39
-      - CA-Openit.ml 4
+      - CA-Openit.ml+4
       - CA-
       - _GB_英国_17
       - CA-Openit.ml
@@ -238,20 +250,20 @@ proxy-groups:
       - CA_12
       - CA-53
       - IN5
-      - 18_TG频道:t.me/ruofeng_fx 134
-      - 18_TG频道:t.me/ruofeng_fx 120
+      - 18_TG频道:t.me/ruofeng_fx+134
+      - 18_TG频道:t.me/ruofeng_fx+120
       - "[VIP][广港]香港5•HKT"
-      - US_TG频道:t.me/ruofeng_fx 3077
-      - GB_TG频道:t.me/ruofeng_fx 756
-      - CA-Openit.ml 2
+      - US_TG频道:t.me/ruofeng_fx+3077
+      - GB_TG频道:t.me/ruofeng_fx+756
+      - CA-Openit.ml+2
       - KR_34
       - Relay_TG频道:t.me/ruofeng_fx_371
       - RELAY-l
       - "[VIP]韩国1"
       - CA_14
       - "[VIP]韩国2"
-      - CA-l 6
-      - CN_56 2
+      - CA-l+6
+      - CN_56+2
       - "[负载均衡]韩国1"
       - CN_43
       - CN_48
@@ -259,7 +271,7 @@ proxy-groups:
       - CN_426
       - CN_56
       - CN_54
-      - CN_48 2
+      - CN_48+2
       - CN_49
       - CN_53
       - CN_413
@@ -267,14 +279,14 @@ proxy-groups:
       - GB-l
       - CN_57
       - CN_52
-      - GB_TG频道:t.me/ruofeng_fx 742
-      - GB_TG频道:t.me/ruofeng_fx 748
+      - GB_TG频道:t.me/ruofeng_fx+742
+      - GB_TG频道:t.me/ruofeng_fx+748
       - 俄罗斯1
-      - "[🇨🇦][SS][加] 2"
-      - GB_TG频道:t.me/ruofeng_fx 765
+      - "[🇨🇦][SS][加]+2"
+      - GB_TG频道:t.me/ruofeng_fx+765
       - US-l 18
       - defaultName_43
-      - CA-l 2
+      - CA-l+2
       - Relay_🇨🇳CN_10_15Mb_14
       - JP-17
       - "[VIP][BGP]台湾2"
@@ -283,8 +295,8 @@ proxy-groups:
       - CN_05
       - CN_07
       - KRl_5
-      - CAl 4
-      - CA-l 5
+      - CAl+4
+      - CA-l+5
       - "[Trojan]"
       - "[VIP][广港]香港3•HGC"
       - "[VIP][沪日]法国"
@@ -305,6 +317,18 @@ proxy-groups:
       - "[SSR] 2"
       - "[SSR] 4"
       - "[SSR] 3"
+      - CA-TG频道:t.me/ruofengfx+3
+      - KR-TG频道:t.me/ruofengfx 5
+      - KR-TG频道:t.me/ruofengfx 6
+      - HK-TG频道:t.me/ruofengfxl 16
+      - KR-TG频道:t.me/ruofengfx 8
+      - JP-TG频道:t.me/ruofengfx 5
+      - US-TG频道:t.me/ruofengfx 4
+      - FR-TG频道:t.me/ruofengfx
+      - GB-TG频道:t.me/ruofengfx 10
+      - US-TG频道:t.me/ruofengfx 5
+      - US-TG频道:t.me/ruofengfx 6
+      - US-TG频道:t.me/ruofengfx 7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -348,13 +372,13 @@ proxy-groups:
       - US- 14
       - "[VIP][广港]台湾3"
       - IN-
-      - GB_TG频道:t.me/ruofeng_fx 750
+      - GB_TG频道:t.me/ruofeng_fx+750
       - JP 7
       - "[VIP][沪日]美国2"
-      - GB_TG频道:t.me/ruofeng_fx 751
+      - GB_TG频道:t.me/ruofeng_fx+751
       - "[VIP]韩国4"
       - SG-17
-      - GB_TG频道:t.me/ruofeng_fx 758
+      - GB_TG频道:t.me/ruofeng_fx+758
       - 美国)
       - JP2
       - GB_21
@@ -371,7 +395,7 @@ proxy-groups:
       - UK23
       - UK30
       - UK2
-      - GB_TG频道:t.me/ruofeng_fx 739
+      - GB_TG频道:t.me/ruofeng_fx+739
       - UK27
       - UK4
       - UK26
@@ -382,7 +406,7 @@ proxy-groups:
       - UK16
       - TG频道:t.me/ruofeng_fx_126
       - US39
-      - CA-Openit.ml 4
+      - CA-Openit.ml+4
       - CA-
       - _GB_英国_17
       - CA-Openit.ml
@@ -390,20 +414,20 @@ proxy-groups:
       - CA_12
       - CA-53
       - IN5
-      - 18_TG频道:t.me/ruofeng_fx 134
-      - 18_TG频道:t.me/ruofeng_fx 120
+      - 18_TG频道:t.me/ruofeng_fx+134
+      - 18_TG频道:t.me/ruofeng_fx+120
       - "[VIP][广港]香港5•HKT"
-      - US_TG频道:t.me/ruofeng_fx 3077
-      - GB_TG频道:t.me/ruofeng_fx 756
-      - CA-Openit.ml 2
+      - US_TG频道:t.me/ruofeng_fx+3077
+      - GB_TG频道:t.me/ruofeng_fx+756
+      - CA-Openit.ml+2
       - KR_34
       - Relay_TG频道:t.me/ruofeng_fx_371
       - RELAY-l
       - "[VIP]韩国1"
       - CA_14
       - "[VIP]韩国2"
-      - CA-l 6
-      - CN_56 2
+      - CA-l+6
+      - CN_56+2
       - "[负载均衡]韩国1"
       - CN_43
       - CN_48
@@ -411,7 +435,7 @@ proxy-groups:
       - CN_426
       - CN_56
       - CN_54
-      - CN_48 2
+      - CN_48+2
       - CN_49
       - CN_53
       - CN_413
@@ -419,14 +443,14 @@ proxy-groups:
       - GB-l
       - CN_57
       - CN_52
-      - GB_TG频道:t.me/ruofeng_fx 742
-      - GB_TG频道:t.me/ruofeng_fx 748
+      - GB_TG频道:t.me/ruofeng_fx+742
+      - GB_TG频道:t.me/ruofeng_fx+748
       - 俄罗斯1
-      - "[🇨🇦][SS][加] 2"
-      - GB_TG频道:t.me/ruofeng_fx 765
+      - "[🇨🇦][SS][加]+2"
+      - GB_TG频道:t.me/ruofeng_fx+765
       - US-l 18
       - defaultName_43
-      - CA-l 2
+      - CA-l+2
       - Relay_🇨🇳CN_10_15Mb_14
       - JP-17
       - "[VIP][BGP]台湾2"
@@ -435,8 +459,8 @@ proxy-groups:
       - CN_05
       - CN_07
       - KRl_5
-      - CAl 4
-      - CA-l 5
+      - CAl+4
+      - CA-l+5
       - "[Trojan]"
       - "[VIP][广港]香港3•HGC"
       - "[VIP][沪日]法国"
@@ -457,6 +481,18 @@ proxy-groups:
       - "[SSR] 2"
       - "[SSR] 4"
       - "[SSR] 3"
+      - CA-TG频道:t.me/ruofengfx+3
+      - KR-TG频道:t.me/ruofengfx 5
+      - KR-TG频道:t.me/ruofengfx 6
+      - HK-TG频道:t.me/ruofengfxl 16
+      - KR-TG频道:t.me/ruofengfx 8
+      - JP-TG频道:t.me/ruofengfx 5
+      - US-TG频道:t.me/ruofengfx 4
+      - FR-TG频道:t.me/ruofengfx
+      - GB-TG频道:t.me/ruofengfx 10
+      - US-TG频道:t.me/ruofengfx 5
+      - US-TG频道:t.me/ruofengfx 6
+      - US-TG频道:t.me/ruofengfx 7
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -501,13 +537,13 @@ proxy-groups:
       - US- 14
       - "[VIP][广港]台湾3"
       - IN-
-      - GB_TG频道:t.me/ruofeng_fx 750
+      - GB_TG频道:t.me/ruofeng_fx+750
       - JP 7
       - "[VIP][沪日]美国2"
-      - GB_TG频道:t.me/ruofeng_fx 751
+      - GB_TG频道:t.me/ruofeng_fx+751
       - "[VIP]韩国4"
       - SG-17
-      - GB_TG频道:t.me/ruofeng_fx 758
+      - GB_TG频道:t.me/ruofeng_fx+758
       - 美国)
       - JP2
       - GB_21
@@ -524,7 +560,7 @@ proxy-groups:
       - UK23
       - UK30
       - UK2
-      - GB_TG频道:t.me/ruofeng_fx 739
+      - GB_TG频道:t.me/ruofeng_fx+739
       - UK27
       - UK4
       - UK26
@@ -535,7 +571,7 @@ proxy-groups:
       - UK16
       - TG频道:t.me/ruofeng_fx_126
       - US39
-      - CA-Openit.ml 4
+      - CA-Openit.ml+4
       - CA-
       - _GB_英国_17
       - CA-Openit.ml
@@ -543,20 +579,20 @@ proxy-groups:
       - CA_12
       - CA-53
       - IN5
-      - 18_TG频道:t.me/ruofeng_fx 134
-      - 18_TG频道:t.me/ruofeng_fx 120
+      - 18_TG频道:t.me/ruofeng_fx+134
+      - 18_TG频道:t.me/ruofeng_fx+120
       - "[VIP][广港]香港5•HKT"
-      - US_TG频道:t.me/ruofeng_fx 3077
-      - GB_TG频道:t.me/ruofeng_fx 756
-      - CA-Openit.ml 2
+      - US_TG频道:t.me/ruofeng_fx+3077
+      - GB_TG频道:t.me/ruofeng_fx+756
+      - CA-Openit.ml+2
       - KR_34
       - Relay_TG频道:t.me/ruofeng_fx_371
       - RELAY-l
       - "[VIP]韩国1"
       - CA_14
       - "[VIP]韩国2"
-      - CA-l 6
-      - CN_56 2
+      - CA-l+6
+      - CN_56+2
       - "[负载均衡]韩国1"
       - CN_43
       - CN_48
@@ -564,7 +600,7 @@ proxy-groups:
       - CN_426
       - CN_56
       - CN_54
-      - CN_48 2
+      - CN_48+2
       - CN_49
       - CN_53
       - CN_413
@@ -572,14 +608,14 @@ proxy-groups:
       - GB-l
       - CN_57
       - CN_52
-      - GB_TG频道:t.me/ruofeng_fx 742
-      - GB_TG频道:t.me/ruofeng_fx 748
+      - GB_TG频道:t.me/ruofeng_fx+742
+      - GB_TG频道:t.me/ruofeng_fx+748
       - 俄罗斯1
-      - "[🇨🇦][SS][加] 2"
-      - GB_TG频道:t.me/ruofeng_fx 765
+      - "[🇨🇦][SS][加]+2"
+      - GB_TG频道:t.me/ruofeng_fx+765
       - US-l 18
       - defaultName_43
-      - CA-l 2
+      - CA-l+2
       - Relay_🇨🇳CN_10_15Mb_14
       - JP-17
       - "[VIP][BGP]台湾2"
@@ -588,8 +624,8 @@ proxy-groups:
       - CN_05
       - CN_07
       - KRl_5
-      - CAl 4
-      - CA-l 5
+      - CAl+4
+      - CA-l+5
       - "[Trojan]"
       - "[VIP][广港]香港3•HGC"
       - "[VIP][沪日]法国"
@@ -610,6 +646,18 @@ proxy-groups:
       - "[SSR] 2"
       - "[SSR] 4"
       - "[SSR] 3"
+      - CA-TG频道:t.me/ruofengfx+3
+      - KR-TG频道:t.me/ruofengfx 5
+      - KR-TG频道:t.me/ruofengfx 6
+      - HK-TG频道:t.me/ruofengfxl 16
+      - KR-TG频道:t.me/ruofengfx 8
+      - JP-TG频道:t.me/ruofengfx 5
+      - US-TG频道:t.me/ruofengfx 4
+      - FR-TG频道:t.me/ruofengfx
+      - GB-TG频道:t.me/ruofengfx 10
+      - US-TG频道:t.me/ruofengfx 5
+      - US-TG频道:t.me/ruofengfx 6
+      - US-TG频道:t.me/ruofengfx 7
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -666,13 +714,13 @@ proxy-groups:
       - US- 14
       - "[VIP][广港]台湾3"
       - IN-
-      - GB_TG频道:t.me/ruofeng_fx 750
+      - GB_TG频道:t.me/ruofeng_fx+750
       - JP 7
       - "[VIP][沪日]美国2"
-      - GB_TG频道:t.me/ruofeng_fx 751
+      - GB_TG频道:t.me/ruofeng_fx+751
       - "[VIP]韩国4"
       - SG-17
-      - GB_TG频道:t.me/ruofeng_fx 758
+      - GB_TG频道:t.me/ruofeng_fx+758
       - 美国)
       - JP2
       - GB_21
@@ -689,7 +737,7 @@ proxy-groups:
       - UK23
       - UK30
       - UK2
-      - GB_TG频道:t.me/ruofeng_fx 739
+      - GB_TG频道:t.me/ruofeng_fx+739
       - UK27
       - UK4
       - UK26
@@ -700,7 +748,7 @@ proxy-groups:
       - UK16
       - TG频道:t.me/ruofeng_fx_126
       - US39
-      - CA-Openit.ml 4
+      - CA-Openit.ml+4
       - CA-
       - _GB_英国_17
       - CA-Openit.ml
@@ -708,20 +756,20 @@ proxy-groups:
       - CA_12
       - CA-53
       - IN5
-      - 18_TG频道:t.me/ruofeng_fx 134
-      - 18_TG频道:t.me/ruofeng_fx 120
+      - 18_TG频道:t.me/ruofeng_fx+134
+      - 18_TG频道:t.me/ruofeng_fx+120
       - "[VIP][广港]香港5•HKT"
-      - US_TG频道:t.me/ruofeng_fx 3077
-      - GB_TG频道:t.me/ruofeng_fx 756
-      - CA-Openit.ml 2
+      - US_TG频道:t.me/ruofeng_fx+3077
+      - GB_TG频道:t.me/ruofeng_fx+756
+      - CA-Openit.ml+2
       - KR_34
       - Relay_TG频道:t.me/ruofeng_fx_371
       - RELAY-l
       - "[VIP]韩国1"
       - CA_14
       - "[VIP]韩国2"
-      - CA-l 6
-      - CN_56 2
+      - CA-l+6
+      - CN_56+2
       - "[负载均衡]韩国1"
       - CN_43
       - CN_48
@@ -729,7 +777,7 @@ proxy-groups:
       - CN_426
       - CN_56
       - CN_54
-      - CN_48 2
+      - CN_48+2
       - CN_49
       - CN_53
       - CN_413
@@ -737,14 +785,14 @@ proxy-groups:
       - GB-l
       - CN_57
       - CN_52
-      - GB_TG频道:t.me/ruofeng_fx 742
-      - GB_TG频道:t.me/ruofeng_fx 748
+      - GB_TG频道:t.me/ruofeng_fx+742
+      - GB_TG频道:t.me/ruofeng_fx+748
       - 俄罗斯1
-      - "[🇨🇦][SS][加] 2"
-      - GB_TG频道:t.me/ruofeng_fx 765
+      - "[🇨🇦][SS][加]+2"
+      - GB_TG频道:t.me/ruofeng_fx+765
       - US-l 18
       - defaultName_43
-      - CA-l 2
+      - CA-l+2
       - Relay_🇨🇳CN_10_15Mb_14
       - JP-17
       - "[VIP][BGP]台湾2"
@@ -753,8 +801,8 @@ proxy-groups:
       - CN_05
       - CN_07
       - KRl_5
-      - CAl 4
-      - CA-l 5
+      - CAl+4
+      - CA-l+5
       - "[Trojan]"
       - "[VIP][广港]香港3•HGC"
       - "[VIP][沪日]法国"
@@ -775,6 +823,18 @@ proxy-groups:
       - "[SSR] 2"
       - "[SSR] 4"
       - "[SSR] 3"
+      - CA-TG频道:t.me/ruofengfx+3
+      - KR-TG频道:t.me/ruofengfx 5
+      - KR-TG频道:t.me/ruofengfx 6
+      - HK-TG频道:t.me/ruofengfxl 16
+      - KR-TG频道:t.me/ruofengfx 8
+      - JP-TG频道:t.me/ruofengfx 5
+      - US-TG频道:t.me/ruofengfx 4
+      - FR-TG频道:t.me/ruofengfx
+      - GB-TG频道:t.me/ruofengfx 10
+      - US-TG频道:t.me/ruofengfx 5
+      - US-TG频道:t.me/ruofengfx 6
+      - US-TG频道:t.me/ruofengfx 7
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -844,13 +904,13 @@ proxy-groups:
       - US- 14
       - "[VIP][广港]台湾3"
       - IN-
-      - GB_TG频道:t.me/ruofeng_fx 750
+      - GB_TG频道:t.me/ruofeng_fx+750
       - JP 7
       - "[VIP][沪日]美国2"
-      - GB_TG频道:t.me/ruofeng_fx 751
+      - GB_TG频道:t.me/ruofeng_fx+751
       - "[VIP]韩国4"
       - SG-17
-      - GB_TG频道:t.me/ruofeng_fx 758
+      - GB_TG频道:t.me/ruofeng_fx+758
       - 美国)
       - JP2
       - GB_21
@@ -867,7 +927,7 @@ proxy-groups:
       - UK23
       - UK30
       - UK2
-      - GB_TG频道:t.me/ruofeng_fx 739
+      - GB_TG频道:t.me/ruofeng_fx+739
       - UK27
       - UK4
       - UK26
@@ -878,7 +938,7 @@ proxy-groups:
       - UK16
       - TG频道:t.me/ruofeng_fx_126
       - US39
-      - CA-Openit.ml 4
+      - CA-Openit.ml+4
       - CA-
       - _GB_英国_17
       - CA-Openit.ml
@@ -886,20 +946,20 @@ proxy-groups:
       - CA_12
       - CA-53
       - IN5
-      - 18_TG频道:t.me/ruofeng_fx 134
-      - 18_TG频道:t.me/ruofeng_fx 120
+      - 18_TG频道:t.me/ruofeng_fx+134
+      - 18_TG频道:t.me/ruofeng_fx+120
       - "[VIP][广港]香港5•HKT"
-      - US_TG频道:t.me/ruofeng_fx 3077
-      - GB_TG频道:t.me/ruofeng_fx 756
-      - CA-Openit.ml 2
+      - US_TG频道:t.me/ruofeng_fx+3077
+      - GB_TG频道:t.me/ruofeng_fx+756
+      - CA-Openit.ml+2
       - KR_34
       - Relay_TG频道:t.me/ruofeng_fx_371
       - RELAY-l
       - "[VIP]韩国1"
       - CA_14
       - "[VIP]韩国2"
-      - CA-l 6
-      - CN_56 2
+      - CA-l+6
+      - CN_56+2
       - "[负载均衡]韩国1"
       - CN_43
       - CN_48
@@ -907,7 +967,7 @@ proxy-groups:
       - CN_426
       - CN_56
       - CN_54
-      - CN_48 2
+      - CN_48+2
       - CN_49
       - CN_53
       - CN_413
@@ -915,14 +975,14 @@ proxy-groups:
       - GB-l
       - CN_57
       - CN_52
-      - GB_TG频道:t.me/ruofeng_fx 742
-      - GB_TG频道:t.me/ruofeng_fx 748
+      - GB_TG频道:t.me/ruofeng_fx+742
+      - GB_TG频道:t.me/ruofeng_fx+748
       - 俄罗斯1
-      - "[🇨🇦][SS][加] 2"
-      - GB_TG频道:t.me/ruofeng_fx 765
+      - "[🇨🇦][SS][加]+2"
+      - GB_TG频道:t.me/ruofeng_fx+765
       - US-l 18
       - defaultName_43
-      - CA-l 2
+      - CA-l+2
       - Relay_🇨🇳CN_10_15Mb_14
       - JP-17
       - "[VIP][BGP]台湾2"
@@ -931,8 +991,8 @@ proxy-groups:
       - CN_05
       - CN_07
       - KRl_5
-      - CAl 4
-      - CA-l 5
+      - CAl+4
+      - CA-l+5
       - "[Trojan]"
       - "[VIP][广港]香港3•HGC"
       - "[VIP][沪日]法国"
@@ -953,6 +1013,18 @@ proxy-groups:
       - "[SSR] 2"
       - "[SSR] 4"
       - "[SSR] 3"
+      - CA-TG频道:t.me/ruofengfx+3
+      - KR-TG频道:t.me/ruofengfx 5
+      - KR-TG频道:t.me/ruofengfx 6
+      - HK-TG频道:t.me/ruofengfxl 16
+      - KR-TG频道:t.me/ruofengfx 8
+      - JP-TG频道:t.me/ruofengfx 5
+      - US-TG频道:t.me/ruofengfx 4
+      - FR-TG频道:t.me/ruofengfx
+      - GB-TG频道:t.me/ruofengfx 10
+      - US-TG频道:t.me/ruofengfx 5
+      - US-TG频道:t.me/ruofengfx 6
+      - US-TG频道:t.me/ruofengfx 7
   - name: 📲 电报信息
     type: select
     proxies:
@@ -996,13 +1068,13 @@ proxy-groups:
       - US- 14
       - "[VIP][广港]台湾3"
       - IN-
-      - GB_TG频道:t.me/ruofeng_fx 750
+      - GB_TG频道:t.me/ruofeng_fx+750
       - JP 7
       - "[VIP][沪日]美国2"
-      - GB_TG频道:t.me/ruofeng_fx 751
+      - GB_TG频道:t.me/ruofeng_fx+751
       - "[VIP]韩国4"
       - SG-17
-      - GB_TG频道:t.me/ruofeng_fx 758
+      - GB_TG频道:t.me/ruofeng_fx+758
       - 美国)
       - JP2
       - GB_21
@@ -1019,7 +1091,7 @@ proxy-groups:
       - UK23
       - UK30
       - UK2
-      - GB_TG频道:t.me/ruofeng_fx 739
+      - GB_TG频道:t.me/ruofeng_fx+739
       - UK27
       - UK4
       - UK26
@@ -1030,7 +1102,7 @@ proxy-groups:
       - UK16
       - TG频道:t.me/ruofeng_fx_126
       - US39
-      - CA-Openit.ml 4
+      - CA-Openit.ml+4
       - CA-
       - _GB_英国_17
       - CA-Openit.ml
@@ -1038,20 +1110,20 @@ proxy-groups:
       - CA_12
       - CA-53
       - IN5
-      - 18_TG频道:t.me/ruofeng_fx 134
-      - 18_TG频道:t.me/ruofeng_fx 120
+      - 18_TG频道:t.me/ruofeng_fx+134
+      - 18_TG频道:t.me/ruofeng_fx+120
       - "[VIP][广港]香港5•HKT"
-      - US_TG频道:t.me/ruofeng_fx 3077
-      - GB_TG频道:t.me/ruofeng_fx 756
-      - CA-Openit.ml 2
+      - US_TG频道:t.me/ruofeng_fx+3077
+      - GB_TG频道:t.me/ruofeng_fx+756
+      - CA-Openit.ml+2
       - KR_34
       - Relay_TG频道:t.me/ruofeng_fx_371
       - RELAY-l
       - "[VIP]韩国1"
       - CA_14
       - "[VIP]韩国2"
-      - CA-l 6
-      - CN_56 2
+      - CA-l+6
+      - CN_56+2
       - "[负载均衡]韩国1"
       - CN_43
       - CN_48
@@ -1059,7 +1131,7 @@ proxy-groups:
       - CN_426
       - CN_56
       - CN_54
-      - CN_48 2
+      - CN_48+2
       - CN_49
       - CN_53
       - CN_413
@@ -1067,14 +1139,14 @@ proxy-groups:
       - GB-l
       - CN_57
       - CN_52
-      - GB_TG频道:t.me/ruofeng_fx 742
-      - GB_TG频道:t.me/ruofeng_fx 748
+      - GB_TG频道:t.me/ruofeng_fx+742
+      - GB_TG频道:t.me/ruofeng_fx+748
       - 俄罗斯1
-      - "[🇨🇦][SS][加] 2"
-      - GB_TG频道:t.me/ruofeng_fx 765
+      - "[🇨🇦][SS][加]+2"
+      - GB_TG频道:t.me/ruofeng_fx+765
       - US-l 18
       - defaultName_43
-      - CA-l 2
+      - CA-l+2
       - Relay_🇨🇳CN_10_15Mb_14
       - JP-17
       - "[VIP][BGP]台湾2"
@@ -1083,8 +1155,8 @@ proxy-groups:
       - CN_05
       - CN_07
       - KRl_5
-      - CAl 4
-      - CA-l 5
+      - CAl+4
+      - CA-l+5
       - "[Trojan]"
       - "[VIP][广港]香港3•HGC"
       - "[VIP][沪日]法国"
@@ -1105,6 +1177,18 @@ proxy-groups:
       - "[SSR] 2"
       - "[SSR] 4"
       - "[SSR] 3"
+      - CA-TG频道:t.me/ruofengfx+3
+      - KR-TG频道:t.me/ruofengfx 5
+      - KR-TG频道:t.me/ruofengfx 6
+      - HK-TG频道:t.me/ruofengfxl 16
+      - KR-TG频道:t.me/ruofengfx 8
+      - JP-TG频道:t.me/ruofengfx 5
+      - US-TG频道:t.me/ruofengfx 4
+      - FR-TG频道:t.me/ruofengfx
+      - GB-TG频道:t.me/ruofengfx 10
+      - US-TG频道:t.me/ruofengfx 5
+      - US-TG频道:t.me/ruofengfx 6
+      - US-TG频道:t.me/ruofengfx 7
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1149,13 +1233,13 @@ proxy-groups:
       - US- 14
       - "[VIP][广港]台湾3"
       - IN-
-      - GB_TG频道:t.me/ruofeng_fx 750
+      - GB_TG频道:t.me/ruofeng_fx+750
       - JP 7
       - "[VIP][沪日]美国2"
-      - GB_TG频道:t.me/ruofeng_fx 751
+      - GB_TG频道:t.me/ruofeng_fx+751
       - "[VIP]韩国4"
       - SG-17
-      - GB_TG频道:t.me/ruofeng_fx 758
+      - GB_TG频道:t.me/ruofeng_fx+758
       - 美国)
       - JP2
       - GB_21
@@ -1172,7 +1256,7 @@ proxy-groups:
       - UK23
       - UK30
       - UK2
-      - GB_TG频道:t.me/ruofeng_fx 739
+      - GB_TG频道:t.me/ruofeng_fx+739
       - UK27
       - UK4
       - UK26
@@ -1183,7 +1267,7 @@ proxy-groups:
       - UK16
       - TG频道:t.me/ruofeng_fx_126
       - US39
-      - CA-Openit.ml 4
+      - CA-Openit.ml+4
       - CA-
       - _GB_英国_17
       - CA-Openit.ml
@@ -1191,20 +1275,20 @@ proxy-groups:
       - CA_12
       - CA-53
       - IN5
-      - 18_TG频道:t.me/ruofeng_fx 134
-      - 18_TG频道:t.me/ruofeng_fx 120
+      - 18_TG频道:t.me/ruofeng_fx+134
+      - 18_TG频道:t.me/ruofeng_fx+120
       - "[VIP][广港]香港5•HKT"
-      - US_TG频道:t.me/ruofeng_fx 3077
-      - GB_TG频道:t.me/ruofeng_fx 756
-      - CA-Openit.ml 2
+      - US_TG频道:t.me/ruofeng_fx+3077
+      - GB_TG频道:t.me/ruofeng_fx+756
+      - CA-Openit.ml+2
       - KR_34
       - Relay_TG频道:t.me/ruofeng_fx_371
       - RELAY-l
       - "[VIP]韩国1"
       - CA_14
       - "[VIP]韩国2"
-      - CA-l 6
-      - CN_56 2
+      - CA-l+6
+      - CN_56+2
       - "[负载均衡]韩国1"
       - CN_43
       - CN_48
@@ -1212,7 +1296,7 @@ proxy-groups:
       - CN_426
       - CN_56
       - CN_54
-      - CN_48 2
+      - CN_48+2
       - CN_49
       - CN_53
       - CN_413
@@ -1220,14 +1304,14 @@ proxy-groups:
       - GB-l
       - CN_57
       - CN_52
-      - GB_TG频道:t.me/ruofeng_fx 742
-      - GB_TG频道:t.me/ruofeng_fx 748
+      - GB_TG频道:t.me/ruofeng_fx+742
+      - GB_TG频道:t.me/ruofeng_fx+748
       - 俄罗斯1
-      - "[🇨🇦][SS][加] 2"
-      - GB_TG频道:t.me/ruofeng_fx 765
+      - "[🇨🇦][SS][加]+2"
+      - GB_TG频道:t.me/ruofeng_fx+765
       - US-l 18
       - defaultName_43
-      - CA-l 2
+      - CA-l+2
       - Relay_🇨🇳CN_10_15Mb_14
       - JP-17
       - "[VIP][BGP]台湾2"
@@ -1236,8 +1320,8 @@ proxy-groups:
       - CN_05
       - CN_07
       - KRl_5
-      - CAl 4
-      - CA-l 5
+      - CAl+4
+      - CA-l+5
       - "[Trojan]"
       - "[VIP][广港]香港3•HGC"
       - "[VIP][沪日]法国"
@@ -1258,6 +1342,18 @@ proxy-groups:
       - "[SSR] 2"
       - "[SSR] 4"
       - "[SSR] 3"
+      - CA-TG频道:t.me/ruofengfx+3
+      - KR-TG频道:t.me/ruofengfx 5
+      - KR-TG频道:t.me/ruofengfx 6
+      - HK-TG频道:t.me/ruofengfxl 16
+      - KR-TG频道:t.me/ruofengfx 8
+      - JP-TG频道:t.me/ruofengfx 5
+      - US-TG频道:t.me/ruofengfx 4
+      - FR-TG频道:t.me/ruofengfx
+      - GB-TG频道:t.me/ruofengfx 10
+      - US-TG频道:t.me/ruofengfx 5
+      - US-TG频道:t.me/ruofengfx 6
+      - US-TG频道:t.me/ruofengfx 7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1311,13 +1407,13 @@ proxy-groups:
       - US- 14
       - "[VIP][广港]台湾3"
       - IN-
-      - GB_TG频道:t.me/ruofeng_fx 750
+      - GB_TG频道:t.me/ruofeng_fx+750
       - JP 7
       - "[VIP][沪日]美国2"
-      - GB_TG频道:t.me/ruofeng_fx 751
+      - GB_TG频道:t.me/ruofeng_fx+751
       - "[VIP]韩国4"
       - SG-17
-      - GB_TG频道:t.me/ruofeng_fx 758
+      - GB_TG频道:t.me/ruofeng_fx+758
       - 美国)
       - JP2
       - GB_21
@@ -1334,7 +1430,7 @@ proxy-groups:
       - UK23
       - UK30
       - UK2
-      - GB_TG频道:t.me/ruofeng_fx 739
+      - GB_TG频道:t.me/ruofeng_fx+739
       - UK27
       - UK4
       - UK26
@@ -1345,7 +1441,7 @@ proxy-groups:
       - UK16
       - TG频道:t.me/ruofeng_fx_126
       - US39
-      - CA-Openit.ml 4
+      - CA-Openit.ml+4
       - CA-
       - _GB_英国_17
       - CA-Openit.ml
@@ -1353,20 +1449,20 @@ proxy-groups:
       - CA_12
       - CA-53
       - IN5
-      - 18_TG频道:t.me/ruofeng_fx 134
-      - 18_TG频道:t.me/ruofeng_fx 120
+      - 18_TG频道:t.me/ruofeng_fx+134
+      - 18_TG频道:t.me/ruofeng_fx+120
       - "[VIP][广港]香港5•HKT"
-      - US_TG频道:t.me/ruofeng_fx 3077
-      - GB_TG频道:t.me/ruofeng_fx 756
-      - CA-Openit.ml 2
+      - US_TG频道:t.me/ruofeng_fx+3077
+      - GB_TG频道:t.me/ruofeng_fx+756
+      - CA-Openit.ml+2
       - KR_34
       - Relay_TG频道:t.me/ruofeng_fx_371
       - RELAY-l
       - "[VIP]韩国1"
       - CA_14
       - "[VIP]韩国2"
-      - CA-l 6
-      - CN_56 2
+      - CA-l+6
+      - CN_56+2
       - "[负载均衡]韩国1"
       - CN_43
       - CN_48
@@ -1374,7 +1470,7 @@ proxy-groups:
       - CN_426
       - CN_56
       - CN_54
-      - CN_48 2
+      - CN_48+2
       - CN_49
       - CN_53
       - CN_413
@@ -1382,14 +1478,14 @@ proxy-groups:
       - GB-l
       - CN_57
       - CN_52
-      - GB_TG频道:t.me/ruofeng_fx 742
-      - GB_TG频道:t.me/ruofeng_fx 748
+      - GB_TG频道:t.me/ruofeng_fx+742
+      - GB_TG频道:t.me/ruofeng_fx+748
       - 俄罗斯1
-      - "[🇨🇦][SS][加] 2"
-      - GB_TG频道:t.me/ruofeng_fx 765
+      - "[🇨🇦][SS][加]+2"
+      - GB_TG频道:t.me/ruofeng_fx+765
       - US-l 18
       - defaultName_43
-      - CA-l 2
+      - CA-l+2
       - Relay_🇨🇳CN_10_15Mb_14
       - JP-17
       - "[VIP][BGP]台湾2"
@@ -1398,8 +1494,8 @@ proxy-groups:
       - CN_05
       - CN_07
       - KRl_5
-      - CAl 4
-      - CA-l 5
+      - CAl+4
+      - CA-l+5
       - "[Trojan]"
       - "[VIP][广港]香港3•HGC"
       - "[VIP][沪日]法国"
@@ -1420,6 +1516,18 @@ proxy-groups:
       - "[SSR] 2"
       - "[SSR] 4"
       - "[SSR] 3"
+      - CA-TG频道:t.me/ruofengfx+3
+      - KR-TG频道:t.me/ruofengfx 5
+      - KR-TG频道:t.me/ruofengfx 6
+      - HK-TG频道:t.me/ruofengfxl 16
+      - KR-TG频道:t.me/ruofengfx 8
+      - JP-TG频道:t.me/ruofengfx 5
+      - US-TG频道:t.me/ruofengfx 4
+      - FR-TG频道:t.me/ruofengfx
+      - GB-TG频道:t.me/ruofengfx 10
+      - US-TG频道:t.me/ruofengfx 5
+      - US-TG频道:t.me/ruofengfx 6
+      - US-TG频道:t.me/ruofengfx 7
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
