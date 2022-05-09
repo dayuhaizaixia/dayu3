@@ -51,6 +51,44 @@ proxies:
   - {name: 🇰🇭TG频道:t.me/ruofengfx, server: 140.207.232.42, port: 3008, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dd312, headers: {Host: telegram.channel.p2psharing}}}
   - {name: 🇩🇪TG频道:t.me/ruofengfx, server: 140.207.232.42, port: 3009, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dd312, headers: {Host: telegram.channel.p2psharing}}}
   - {name: 🇲🇾TG频道:t.me/ruofengfx 2, server: 140.207.232.42, port: 19382, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /idr5, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇭🇰 香港TG频道:t.me/ruofengfx, server: 1.vip341.xyz, port: 443, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇭🇰 香港TG频道:t.me/ruofengfx 2, server: 2.vip341.xyz, port: 443, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇭🇰 香港TG频道:t.me/ruofengfx 3, server: 3.vip341.xyz, port: 443, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇭🇰 香港TG频道:t.me/ruofengfx 4, server: 4.vip341.xyz, port: 443, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇭🇰 香港TG频道:t.me/ruofengfx 5, server: 5.vip341.xyz, port: 443, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇭🇰 香港TG频道:t.me/ruofengfx 6, server: 6.vip341.xyz, port: 443, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇭🇰 香港TG频道:t.me/ruofengfx 7, server: 7.vip341.xyz, port: 443, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇭🇰 香港TG频道:t.me/ruofengfx 8, server: 8.vip341.xyz, port: 443, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇭🇰 香港TG频道:t.me/ruofengfx 9, server: 9.vip341.xyz, port: 80, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇭🇰 香港TG频道:t.me/ruofengfx 10, server: 10.vip341.xyz, port: 443, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇬🇧 英国TG频道:t.me/ruofengfx, server: zz.vip341.xyz, port: 48000, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇩🇪 德国TG频道:t.me/ruofengfx, server: zz.vip341.xyz, port: 48001, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇹🇼 台湾TG频道:t.me/ruofengfx, server: tw01.shizukuneko.com, port: 38526, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇯🇵 日本TG频道:t.me/ruofengfx, server: rb.vip341.xyz, port: 445, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇰🇷 韩国TG频道:t.me/ruofengfx, server: zz.vip341.xyz, port: 48008, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇳🇱 荷兰TG频道:t.me/ruofengfx, server: zz.vip341.xyz, port: 48004, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇸🇬 新加坡TG频道:t.me/ruofengfx, server: zz.vip341.xyz, port: 48005, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇺🇸 美国TG频道:t.me/ruofengfx, server: zz.vip341.xyz, port: 48003, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇺🇸 美国TG频道:t.me/ruofengfx 2, server: zz.vip341.xyz, port: 48007, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇭🇰 香港TG频道:t.me/ruofengfx 1, server: 1.vip341.xyz, port: 443, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇭🇰 香港TG频道:t.me/ruofengfx 12, server: 2.vip341.xyz, port: 443, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇭🇰 香港TG频道:t.me/ruofengfx 13, server: 3.vip341.xyz, port: 443, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇭🇰 香港TG频道:t.me/ruofengfx 14, server: 4.vip341.xyz, port: 443, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇭🇰 香港TG频道:t.me/ruofengfx 15, server: 5.vip341.xyz, port: 443, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇭🇰 香港TG频道:t.me/ruofengfx 16, server: 6.vip341.xyz, port: 443, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇭🇰 香港TG频道:t.me/ruofengfx 17, server: 7.vip341.xyz, port: 443, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇭🇰 香港TG频道:t.me/ruofengfx 18, server: 8.vip341.xyz, port: 443, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇭🇰 香港TG频道:t.me/ruofengfx 19, server: 9.vip341.xyz, port: 80, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇭🇰 香港TG频道:t.me/ruofengfx 20, server: 10.vip341.xyz, port: 443, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇬🇧 英国TG频道:t.me/ruofengfx 1, server: zz.vip341.xyz, port: 48000, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇩🇪 德国TG频道:t.me/ruofengfx 1, server: zz.vip341.xyz, port: 48001, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇹🇼 台湾TG频道:t.me/ruofengfx 1, server: tw01.shizukuneko.com, port: 38526, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇯🇵 日本TG频道:t.me/ruofengfx 1, server: rb.vip341.xyz, port: 445, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇰🇷 韩国TG频道:t.me/ruofengfx 1, server: zz.vip341.xyz, port: 48008, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇳🇱 荷兰TG频道:t.me/ruofengfx 1, server: zz.vip341.xyz, port: 48004, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇸🇬 新加坡TG频道:t.me/ruofengfx 1, server: zz.vip341.xyz, port: 48005, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇺🇸 美国TG频道:t.me/ruofengfx 1, server: zz.vip341.xyz, port: 48003, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇺🇸 美国TG频道:t.me/ruofengfx 12, server: zz.vip341.xyz, port: 48007, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: telegram.channel.p2psharing}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -102,6 +140,44 @@ proxy-groups:
       - 🇰🇭TG频道:t.me/ruofengfx
       - 🇩🇪TG频道:t.me/ruofengfx
       - 🇲🇾TG频道:t.me/ruofengfx 2
+      - 🇭🇰 香港TG频道:t.me/ruofengfx
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 2
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 3
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 4
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 5
+      - 🇭🇰 香港TG频道:t.me/ruofengfx
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 7
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 8
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 9
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 10
+      - 🇬🇧 英国TG频道:t.me/ruofengfx
+      - 🇩🇪 德国TG频道:t.me/ruofengfx
+      - 🇹🇼 台湾TG频道:t.me/ruofengfx
+      - 🇯🇵 日本TG频道:t.me/ruofengfx
+      - 🇰🇷 韩国TG频道:t.me/ruofengfx
+      - 🇳🇱 荷兰TG频道:t.me/ruofengfx
+      - 🇸🇬 新加坡TG频道:t.me/ruofengfx
+      - 🇺🇸 美国TG频道:t.me/ruofengfx
+      - 🇺🇸 美国TG频道:t.me/ruofengfx 2
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 1
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 12
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 13
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 14
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 15
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 16
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 17
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 18
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 19
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 20
+      - 🇬🇧 英国TG频道:t.me/ruofengfx 1
+      - 🇩🇪 德国TG频道:t.me/ruofengfx 1
+      - 🇹🇼 台湾TG频道:t.me/ruofengfx 1
+      - 🇯🇵 日本TG频道:t.me/ruofengfx 1
+      - 🇰🇷 韩国TG频道:t.me/ruofengfx 1
+      - 🇳🇱 荷兰TG频道:t.me/ruofengfx 1
+      - 🇸🇬 新加坡TG频道:t.me/ruofengfx 1
+      - 🇺🇸 美国TG频道:t.me/ruofengfx 1
+      - 🇺🇸 美国TG频道:t.me/ruofengfx 12
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -153,6 +229,44 @@ proxy-groups:
       - 🇰🇭TG频道:t.me/ruofengfx
       - 🇩🇪TG频道:t.me/ruofengfx
       - 🇲🇾TG频道:t.me/ruofengfx 2
+      - 🇭🇰 香港TG频道:t.me/ruofengfx
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 2
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 3
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 4
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 5
+      - 🇭🇰 香港TG频道:t.me/ruofengfx
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 7
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 8
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 9
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 10
+      - 🇬🇧 英国TG频道:t.me/ruofengfx
+      - 🇩🇪 德国TG频道:t.me/ruofengfx
+      - 🇹🇼 台湾TG频道:t.me/ruofengfx
+      - 🇯🇵 日本TG频道:t.me/ruofengfx
+      - 🇰🇷 韩国TG频道:t.me/ruofengfx
+      - 🇳🇱 荷兰TG频道:t.me/ruofengfx
+      - 🇸🇬 新加坡TG频道:t.me/ruofengfx
+      - 🇺🇸 美国TG频道:t.me/ruofengfx
+      - 🇺🇸 美国TG频道:t.me/ruofengfx 2
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 1
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 12
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 13
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 14
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 15
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 16
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 17
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 18
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 19
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 20
+      - 🇬🇧 英国TG频道:t.me/ruofengfx 1
+      - 🇩🇪 德国TG频道:t.me/ruofengfx 1
+      - 🇹🇼 台湾TG频道:t.me/ruofengfx 1
+      - 🇯🇵 日本TG频道:t.me/ruofengfx 1
+      - 🇰🇷 韩国TG频道:t.me/ruofengfx 1
+      - 🇳🇱 荷兰TG频道:t.me/ruofengfx 1
+      - 🇸🇬 新加坡TG频道:t.me/ruofengfx 1
+      - 🇺🇸 美国TG频道:t.me/ruofengfx 1
+      - 🇺🇸 美国TG频道:t.me/ruofengfx 12
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -215,6 +329,44 @@ proxy-groups:
       - 🇰🇭TG频道:t.me/ruofengfx
       - 🇩🇪TG频道:t.me/ruofengfx
       - 🇲🇾TG频道:t.me/ruofengfx 2
+      - 🇭🇰 香港TG频道:t.me/ruofengfx
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 2
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 3
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 4
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 5
+      - 🇭🇰 香港TG频道:t.me/ruofengfx
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 7
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 8
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 9
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 10
+      - 🇬🇧 英国TG频道:t.me/ruofengfx
+      - 🇩🇪 德国TG频道:t.me/ruofengfx
+      - 🇹🇼 台湾TG频道:t.me/ruofengfx
+      - 🇯🇵 日本TG频道:t.me/ruofengfx
+      - 🇰🇷 韩国TG频道:t.me/ruofengfx
+      - 🇳🇱 荷兰TG频道:t.me/ruofengfx
+      - 🇸🇬 新加坡TG频道:t.me/ruofengfx
+      - 🇺🇸 美国TG频道:t.me/ruofengfx
+      - 🇺🇸 美国TG频道:t.me/ruofengfx 2
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 1
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 12
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 13
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 14
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 15
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 16
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 17
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 18
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 19
+      - 🇭🇰 香港TG频道:t.me/ruofengfx 20
+      - 🇬🇧 英国TG频道:t.me/ruofengfx 1
+      - 🇩🇪 德国TG频道:t.me/ruofengfx 1
+      - 🇹🇼 台湾TG频道:t.me/ruofengfx 1
+      - 🇯🇵 日本TG频道:t.me/ruofengfx 1
+      - 🇰🇷 韩国TG频道:t.me/ruofengfx 1
+      - 🇳🇱 荷兰TG频道:t.me/ruofengfx 1
+      - 🇸🇬 新加坡TG频道:t.me/ruofengfx 1
+      - 🇺🇸 美国TG频道:t.me/ruofengfx 1
+      - 🇺🇸 美国TG频道:t.me/ruofengfx 12
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
