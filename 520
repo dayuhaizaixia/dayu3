@@ -5,6 +5,32 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: N TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40222, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 悉尼 TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40225, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本A TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40201, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本B TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40203, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本C TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40219, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本D TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40221, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 法兰克福A TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40224, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国A TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40205, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国B TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40211, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国C TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40217, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港A TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40207, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港B TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40209, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港C TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40213, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港D TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40215, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本 TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40229, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本B TG频道:t.me/ruofengfx 2, server: trojan.linkdns.xyz, port: 40230, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本B TG频道:t.me/ruofengfx 3, server: trojan.linkdns.xyz, port: 40202, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本C TG频道:t.me/ruofengfx 2, server: trojan.linkdns.xyz, port: 40218, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本D TG频道:t.me/ruofengfx 2, server: trojan.linkdns.xyz, port: 40220, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国A TG频道:t.me/ruofengfx 2, server: trojan.linkdns.xyz, port: 40204, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国B TG频道:t.me/ruofengfx 2, server: trojan.linkdns.xyz, port: 40210, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国C TG频道:t.me/ruofengfx 2, server: trojan.linkdns.xyz, port: 40216, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港A TG频道:t.me/ruofengfx 2, server: trojan.linkdns.xyz, port: 40206, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港B TG频道:t.me/ruofengfx 2, server: trojan.linkdns.xyz, port: 40208, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港C TG频道:t.me/ruofengfx 2, server: trojan.linkdns.xyz, port: 40212, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港D TG频道:t.me/ruofengfx 2, server: trojan.linkdns.xyz, port: 40214, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
   - {name: 新加坡 - SS/SSR - 01, server: cm1-sg.hutaonode.xyz, port: 12301, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
   - {name: 新加坡 - SS/SSR - 06, server: cm1-sg.hutaonode.xyz, port: 12306, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
   - {name: 台湾 - SS/SSR - 04, server: cm1-tw.hutaonode.xyz, port: 12504, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
@@ -170,6 +196,32 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - N TG频道:t.me/ruofengfx
+      - 悉尼 TG频道:t.me/ruofengfx
+      - 日本A TG频道:t.me/ruofengfx
+      - 日本B TG频道:t.me/ruofengfx
+      - 日本C TG频道:t.me/ruofengfx
+      - 日本D TG频道:t.me/ruofengfx
+      - 法兰克福A TG频道:t.me/ruofengfx
+      - 美国A TG频道:t.me/ruofengfx
+      - 美国B TG频道:t.me/ruofengfx
+      - 美国C TG频道:t.me/ruofengfx
+      - 香港A TG频道:t.me/ruofengfx
+      - 香港B TG频道:t.me/ruofengfx
+      - 香港C TG频道:t.me/ruofengfx
+      - 香港D TG频道:t.me/ruofengfx
+      - 日本 TG频道:t.me/ruofengfx
+      - 日本B TG频道:t.me/ruofengfx 2
+      - 日本B TG频道:t.me/ruofengfx 3
+      - 日本C TG频道:t.me/ruofengfx 2
+      - 日本D TG频道:t.me/ruofengfx 2
+      - 美国A TG频道:t.me/ruofengfx 2
+      - 美国B TG频道:t.me/ruofengfx 2
+      - 美国C TG频道:t.me/ruofengfx 2
+      - 香港A TG频道:t.me/ruofengfx 2
+      - 香港B TG频道:t.me/ruofengfx 2
+      - 香港C TG频道:t.me/ruofengfx 2
+      - 香港D TG频道:t.me/ruofengfx 2
       - 新加坡 - SS/SSR - 01
       - 新加坡 - SS/SSR - 06
       - 台湾 - SS/SSR - 04
@@ -334,6 +386,32 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - N TG频道:t.me/ruofengfx
+      - 悉尼 TG频道:t.me/ruofengfx
+      - 日本A TG频道:t.me/ruofengfx
+      - 日本B TG频道:t.me/ruofengfx
+      - 日本C TG频道:t.me/ruofengfx
+      - 日本D TG频道:t.me/ruofengfx
+      - 法兰克福A TG频道:t.me/ruofengfx
+      - 美国A TG频道:t.me/ruofengfx
+      - 美国B TG频道:t.me/ruofengfx
+      - 美国C TG频道:t.me/ruofengfx
+      - 香港A TG频道:t.me/ruofengfx
+      - 香港B TG频道:t.me/ruofengfx
+      - 香港C TG频道:t.me/ruofengfx
+      - 香港D TG频道:t.me/ruofengfx
+      - 日本 TG频道:t.me/ruofengfx
+      - 日本B TG频道:t.me/ruofengfx 2
+      - 日本B TG频道:t.me/ruofengfx 3
+      - 日本C TG频道:t.me/ruofengfx 2
+      - 日本D TG频道:t.me/ruofengfx 2
+      - 美国A TG频道:t.me/ruofengfx 2
+      - 美国B TG频道:t.me/ruofengfx 2
+      - 美国C TG频道:t.me/ruofengfx 2
+      - 香港A TG频道:t.me/ruofengfx 2
+      - 香港B TG频道:t.me/ruofengfx 2
+      - 香港C TG频道:t.me/ruofengfx 2
+      - 香港D TG频道:t.me/ruofengfx 2
       - 新加坡 - SS/SSR - 01
       - 新加坡 - SS/SSR - 06
       - 台湾 - SS/SSR - 04
@@ -499,6 +577,32 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - N TG频道:t.me/ruofengfx
+      - 悉尼 TG频道:t.me/ruofengfx
+      - 日本A TG频道:t.me/ruofengfx
+      - 日本B TG频道:t.me/ruofengfx
+      - 日本C TG频道:t.me/ruofengfx
+      - 日本D TG频道:t.me/ruofengfx
+      - 法兰克福A TG频道:t.me/ruofengfx
+      - 美国A TG频道:t.me/ruofengfx
+      - 美国B TG频道:t.me/ruofengfx
+      - 美国C TG频道:t.me/ruofengfx
+      - 香港A TG频道:t.me/ruofengfx
+      - 香港B TG频道:t.me/ruofengfx
+      - 香港C TG频道:t.me/ruofengfx
+      - 香港D TG频道:t.me/ruofengfx
+      - 日本 TG频道:t.me/ruofengfx
+      - 日本B TG频道:t.me/ruofengfx 2
+      - 日本B TG频道:t.me/ruofengfx 3
+      - 日本C TG频道:t.me/ruofengfx 2
+      - 日本D TG频道:t.me/ruofengfx 2
+      - 美国A TG频道:t.me/ruofengfx 2
+      - 美国B TG频道:t.me/ruofengfx 2
+      - 美国C TG频道:t.me/ruofengfx 2
+      - 香港A TG频道:t.me/ruofengfx 2
+      - 香港B TG频道:t.me/ruofengfx 2
+      - 香港C TG频道:t.me/ruofengfx 2
+      - 香港D TG频道:t.me/ruofengfx 2
       - 新加坡 - SS/SSR - 01
       - 新加坡 - SS/SSR - 06
       - 台湾 - SS/SSR - 04
@@ -676,6 +780,32 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - N TG频道:t.me/ruofengfx
+      - 悉尼 TG频道:t.me/ruofengfx
+      - 日本A TG频道:t.me/ruofengfx
+      - 日本B TG频道:t.me/ruofengfx
+      - 日本C TG频道:t.me/ruofengfx
+      - 日本D TG频道:t.me/ruofengfx
+      - 法兰克福A TG频道:t.me/ruofengfx
+      - 美国A TG频道:t.me/ruofengfx
+      - 美国B TG频道:t.me/ruofengfx
+      - 美国C TG频道:t.me/ruofengfx
+      - 香港A TG频道:t.me/ruofengfx
+      - 香港B TG频道:t.me/ruofengfx
+      - 香港C TG频道:t.me/ruofengfx
+      - 香港D TG频道:t.me/ruofengfx
+      - 日本 TG频道:t.me/ruofengfx
+      - 日本B TG频道:t.me/ruofengfx 2
+      - 日本B TG频道:t.me/ruofengfx 3
+      - 日本C TG频道:t.me/ruofengfx 2
+      - 日本D TG频道:t.me/ruofengfx 2
+      - 美国A TG频道:t.me/ruofengfx 2
+      - 美国B TG频道:t.me/ruofengfx 2
+      - 美国C TG频道:t.me/ruofengfx 2
+      - 香港A TG频道:t.me/ruofengfx 2
+      - 香港B TG频道:t.me/ruofengfx 2
+      - 香港C TG频道:t.me/ruofengfx 2
+      - 香港D TG频道:t.me/ruofengfx 2
       - 新加坡 - SS/SSR - 01
       - 新加坡 - SS/SSR - 06
       - 台湾 - SS/SSR - 04
@@ -839,6 +969,14 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港A TG频道:t.me/ruofengfx
+      - 香港B TG频道:t.me/ruofengfx
+      - 香港C TG频道:t.me/ruofengfx
+      - 香港D TG频道:t.me/ruofengfx
+      - 香港A TG频道:t.me/ruofengfx 2
+      - 香港B TG频道:t.me/ruofengfx 2
+      - 香港C TG频道:t.me/ruofengfx 2
+      - 香港D TG频道:t.me/ruofengfx 2
       - 台湾 - SS/SSR - 04
       - 香港 - SS/SSR - 04
       - 香港 - SS/SSR - 05
@@ -866,6 +1004,32 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - N TG频道:t.me/ruofengfx
+      - 悉尼 TG频道:t.me/ruofengfx
+      - 日本A TG频道:t.me/ruofengfx
+      - 日本B TG频道:t.me/ruofengfx
+      - 日本C TG频道:t.me/ruofengfx
+      - 日本D TG频道:t.me/ruofengfx
+      - 法兰克福A TG频道:t.me/ruofengfx
+      - 美国A TG频道:t.me/ruofengfx
+      - 美国B TG频道:t.me/ruofengfx
+      - 美国C TG频道:t.me/ruofengfx
+      - 香港A TG频道:t.me/ruofengfx
+      - 香港B TG频道:t.me/ruofengfx
+      - 香港C TG频道:t.me/ruofengfx
+      - 香港D TG频道:t.me/ruofengfx
+      - 日本 TG频道:t.me/ruofengfx
+      - 日本B TG频道:t.me/ruofengfx 2
+      - 日本B TG频道:t.me/ruofengfx 3
+      - 日本C TG频道:t.me/ruofengfx 2
+      - 日本D TG频道:t.me/ruofengfx 2
+      - 美国A TG频道:t.me/ruofengfx 2
+      - 美国B TG频道:t.me/ruofengfx 2
+      - 美国C TG频道:t.me/ruofengfx 2
+      - 香港A TG频道:t.me/ruofengfx 2
+      - 香港B TG频道:t.me/ruofengfx 2
+      - 香港C TG频道:t.me/ruofengfx 2
+      - 香港D TG频道:t.me/ruofengfx 2
       - 新加坡 - SS/SSR - 01
       - 新加坡 - SS/SSR - 06
       - 台湾 - SS/SSR - 04
@@ -1030,6 +1194,32 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - N TG频道:t.me/ruofengfx
+      - 悉尼 TG频道:t.me/ruofengfx
+      - 日本A TG频道:t.me/ruofengfx
+      - 日本B TG频道:t.me/ruofengfx
+      - 日本C TG频道:t.me/ruofengfx
+      - 日本D TG频道:t.me/ruofengfx
+      - 法兰克福A TG频道:t.me/ruofengfx
+      - 美国A TG频道:t.me/ruofengfx
+      - 美国B TG频道:t.me/ruofengfx
+      - 美国C TG频道:t.me/ruofengfx
+      - 香港A TG频道:t.me/ruofengfx
+      - 香港B TG频道:t.me/ruofengfx
+      - 香港C TG频道:t.me/ruofengfx
+      - 香港D TG频道:t.me/ruofengfx
+      - 日本 TG频道:t.me/ruofengfx
+      - 日本B TG频道:t.me/ruofengfx 2
+      - 日本B TG频道:t.me/ruofengfx 3
+      - 日本C TG频道:t.me/ruofengfx 2
+      - 日本D TG频道:t.me/ruofengfx 2
+      - 美国A TG频道:t.me/ruofengfx 2
+      - 美国B TG频道:t.me/ruofengfx 2
+      - 美国C TG频道:t.me/ruofengfx 2
+      - 香港A TG频道:t.me/ruofengfx 2
+      - 香港B TG频道:t.me/ruofengfx 2
+      - 香港C TG频道:t.me/ruofengfx 2
+      - 香港D TG频道:t.me/ruofengfx 2
       - 新加坡 - SS/SSR - 01
       - 新加坡 - SS/SSR - 06
       - 台湾 - SS/SSR - 04
@@ -1195,6 +1385,32 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - N TG频道:t.me/ruofengfx
+      - 悉尼 TG频道:t.me/ruofengfx
+      - 日本A TG频道:t.me/ruofengfx
+      - 日本B TG频道:t.me/ruofengfx
+      - 日本C TG频道:t.me/ruofengfx
+      - 日本D TG频道:t.me/ruofengfx
+      - 法兰克福A TG频道:t.me/ruofengfx
+      - 美国A TG频道:t.me/ruofengfx
+      - 美国B TG频道:t.me/ruofengfx
+      - 美国C TG频道:t.me/ruofengfx
+      - 香港A TG频道:t.me/ruofengfx
+      - 香港B TG频道:t.me/ruofengfx
+      - 香港C TG频道:t.me/ruofengfx
+      - 香港D TG频道:t.me/ruofengfx
+      - 日本 TG频道:t.me/ruofengfx
+      - 日本B TG频道:t.me/ruofengfx 2
+      - 日本B TG频道:t.me/ruofengfx 3
+      - 日本C TG频道:t.me/ruofengfx 2
+      - 日本D TG频道:t.me/ruofengfx 2
+      - 美国A TG频道:t.me/ruofengfx 2
+      - 美国B TG频道:t.me/ruofengfx 2
+      - 美国C TG频道:t.me/ruofengfx 2
+      - 香港A TG频道:t.me/ruofengfx 2
+      - 香港B TG频道:t.me/ruofengfx 2
+      - 香港C TG频道:t.me/ruofengfx 2
+      - 香港D TG频道:t.me/ruofengfx 2
       - 新加坡 - SS/SSR - 01
       - 新加坡 - SS/SSR - 06
       - 台湾 - SS/SSR - 04
@@ -1369,6 +1585,32 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - N TG频道:t.me/ruofengfx
+      - 悉尼 TG频道:t.me/ruofengfx
+      - 日本A TG频道:t.me/ruofengfx
+      - 日本B TG频道:t.me/ruofengfx
+      - 日本C TG频道:t.me/ruofengfx
+      - 日本D TG频道:t.me/ruofengfx
+      - 法兰克福A TG频道:t.me/ruofengfx
+      - 美国A TG频道:t.me/ruofengfx
+      - 美国B TG频道:t.me/ruofengfx
+      - 美国C TG频道:t.me/ruofengfx
+      - 香港A TG频道:t.me/ruofengfx
+      - 香港B TG频道:t.me/ruofengfx
+      - 香港C TG频道:t.me/ruofengfx
+      - 香港D TG频道:t.me/ruofengfx
+      - 日本 TG频道:t.me/ruofengfx
+      - 日本B TG频道:t.me/ruofengfx 2
+      - 日本B TG频道:t.me/ruofengfx 3
+      - 日本C TG频道:t.me/ruofengfx 2
+      - 日本D TG频道:t.me/ruofengfx 2
+      - 美国A TG频道:t.me/ruofengfx 2
+      - 美国B TG频道:t.me/ruofengfx 2
+      - 美国C TG频道:t.me/ruofengfx 2
+      - 香港A TG频道:t.me/ruofengfx 2
+      - 香港B TG频道:t.me/ruofengfx 2
+      - 香港C TG频道:t.me/ruofengfx 2
+      - 香港D TG频道:t.me/ruofengfx 2
       - 新加坡 - SS/SSR - 01
       - 新加坡 - SS/SSR - 06
       - 台湾 - SS/SSR - 04
