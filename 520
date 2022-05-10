@@ -5,763 +5,927 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: N TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40222, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 悉尼 TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40225, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本A TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40201, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本B TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40203, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本C TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40219, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本D TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40221, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 法兰克福A TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40224, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国A TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40205, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国B TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40211, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国C TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40217, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港A TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40207, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港B TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40209, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港C TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40213, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港D TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40215, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本 TG频道:t.me/ruofengfx, server: trojan.linkdns.xyz, port: 40229, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本B TG频道:t.me/ruofengfx 2, server: trojan.linkdns.xyz, port: 40230, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本B TG频道:t.me/ruofengfx 3, server: trojan.linkdns.xyz, port: 40202, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本C TG频道:t.me/ruofengfx 2, server: trojan.linkdns.xyz, port: 40218, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本D TG频道:t.me/ruofengfx 2, server: trojan.linkdns.xyz, port: 40220, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国A TG频道:t.me/ruofengfx 2, server: trojan.linkdns.xyz, port: 40204, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国B TG频道:t.me/ruofengfx 2, server: trojan.linkdns.xyz, port: 40210, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国C TG频道:t.me/ruofengfx 2, server: trojan.linkdns.xyz, port: 40216, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港A TG频道:t.me/ruofengfx 2, server: trojan.linkdns.xyz, port: 40206, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港B TG频道:t.me/ruofengfx 2, server: trojan.linkdns.xyz, port: 40208, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港C TG频道:t.me/ruofengfx 2, server: trojan.linkdns.xyz, port: 40212, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港D TG频道:t.me/ruofengfx 2, server: trojan.linkdns.xyz, port: 40214, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡 - SS/SSR - 01, server: cm1-sg.hutaonode.xyz, port: 12301, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 新加坡 - SS/SSR - 04, server: cm1-sg.hutaonode.xyz, port: 12304, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
   - {name: 新加坡 - SS/SSR - 06, server: cm1-sg.hutaonode.xyz, port: 12306, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 台湾 - SS/SSR - 04, server: cm1-tw.hutaonode.xyz, port: 12504, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 香港 - SS/SSR - 04, server: cm1-hk.hutaonode.xyz, port: 12404, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 美国 - SS/SSR - 02, server: cm1-us.hutaonode.xyz, port: 12202, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 美国 - SS/SSR - 05, server: cm1-us.hutaonode.xyz, port: 12205, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 新加坡 - SS/SSR - 05, server: cm1-sg.hutaonode.xyz, port: 12305, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 韩国 - SS/SSR - 05, server: cm1-kr.hutaonode.xyz, port: 12105, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
   - {name: 新加坡 - SS/SSR - 02, server: cm1-sg.hutaonode.xyz, port: 12302, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 韩国 - SS/SSR - 04, server: cm1-kr.hutaonode.xyz, port: 12104, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 香港 - SS/SSR - 05, server: cm1-hk.hutaonode.xyz, port: 12405, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 韩国 - SS/SSR - 03, server: cm1-kr.hutaonode.xyz, port: 12103, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 韩国 - SS/SSR - 06, server: cm1-kr.hutaonode.xyz, port: 12106, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 香港 - SS/SSR - 09, server: cm1-hk.hutaonode.xyz, port: 12409, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
   - {name: 新加坡 - SS/SSR - 03, server: cm1-sg.hutaonode.xyz, port: 12303, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 韩国 - SS/SSR - 02, server: cm1-kr.hutaonode.xyz, port: 12102, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 台湾 - SS/SSR - 05, server: cm1-tw.hutaonode.xyz, port: 12505, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 台湾 - SS/SSR - 06, server: cm1-tw.hutaonode.xyz, port: 12506, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 美国 - SS/SSR - 01, server: cm1-us.hutaonode.xyz, port: 12201, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 美国 - SS/SSR - 04, server: cm1-us.hutaonode.xyz, port: 12204, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 美国 - SS/SSR - 03, server: cm1-us.hutaonode.xyz, port: 12203, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 新加坡 - SS/SSR - 05, server: cm1-sg.hutaonode.xyz, port: 12305, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 韩国 - SS/SSR - 03, server: cm1-kr.hutaonode.xyz, port: 12103, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 韩国 - SS/SSR - 05, server: cm1-kr.hutaonode.xyz, port: 12105, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 新加坡 - SS/SSR - 01, server: cm1-sg.hutaonode.xyz, port: 12301, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 韩国 - SS/SSR - 01, server: cm1-kr.hutaonode.xyz, port: 12101, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: "[SSR] 4", server: puf6no0k.nodeinfo.icu, port: 2604, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
+  - {name: "[SSR]", server: eif7aet4.nodeinfo.icu, port: 1097, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
+  - {name: "[SSR] 3", server: iemeith7.nodeinfo.icu, port: 2507, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
+  - {name: 香港 - SS/SSR - 04, server: cm1-hk.hutaonode.xyz, port: 12404, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
   - {name: 美国 - SS/SSR - 06, server: cm1-us.hutaonode.xyz, port: 12206, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
   - {name: 香港 - SS/SSR - 10, server: cm1-hk.hutaonode.xyz, port: 12410, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 香港 - SS/SSR - 03, server: cm1-hk.hutaonode.xyz, port: 12403, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 美国 - SS/SSR - 01, server: cm1-us.hutaonode.xyz, port: 12201, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 台湾 - SS/SSR - 01, server: cm1-tw.hutaonode.xyz, port: 12501, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 香港 - SS/SSR - 05, server: cm1-hk.hutaonode.xyz, port: 12405, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 美国 - SS/SSR - 02, server: cm1-us.hutaonode.xyz, port: 12202, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 美国 - SS/SSR - 05, server: cm1-us.hutaonode.xyz, port: 12205, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 台湾 - SS/SSR - 06, server: cm1-tw.hutaonode.xyz, port: 12506, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 韩国 - SS/SSR - 02, server: cm1-kr.hutaonode.xyz, port: 12102, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 韩国 - SS/SSR - 04, server: cm1-kr.hutaonode.xyz, port: 12104, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 韩国 - SS/SSR - 06, server: cm1-kr.hutaonode.xyz, port: 12106, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
   - {name: 香港 - SS/SSR - 01, server: cm1-hk.hutaonode.xyz, port: 12401, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 韩国 - SS/SSR - 01, server: cm1-kr.hutaonode.xyz, port: 12101, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 香港 - SS/SSR - 02, server: cm1-hk.hutaonode.xyz, port: 12402, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 台湾 - SS/SSR - 04, server: cm1-tw.hutaonode.xyz, port: 12504, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 香港 - SS/SSR - 08, server: cm1-hk.hutaonode.xyz, port: 12408, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 香港 - SS/SSR - 09, server: cm1-hk.hutaonode.xyz, port: 12409, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 台湾 - SS/SSR - 01, server: cm1-tw.hutaonode.xyz, port: 12501, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 台湾 - SS/SSR - 02, server: cm1-tw.hutaonode.xyz, port: 12502, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: "[SSR] 2", server: ie2ohyai.nodeinfo.icu, port: 6008, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
+  - {name: 台湾 - SS/SSR - 03, server: cm1-tw.hutaonode.xyz, port: 12503, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
+  - {name: 台湾 - SS/SSR - 05, server: cm1-tw.hutaonode.xyz, port: 12505, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
   - {name: 香港 - SS/SSR - 07, server: cm1-hk.hutaonode.xyz, port: 12407, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
   - {name: 香港 - SS/SSR - 06, server: cm1-hk.hutaonode.xyz, port: 12406, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 新加坡 - SS/SSR - 04, server: cm1-sg.hutaonode.xyz, port: 12304, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 美国 - SS/SSR - 04, server: cm1-us.hutaonode.xyz, port: 12204, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 香港 - SS/SSR - 02, server: cm1-hk.hutaonode.xyz, port: 12402, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 美国 - SS/SSR - 03, server: cm1-us.hutaonode.xyz, port: 12203, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 香港 - SS/SSR - 08, server: cm1-hk.hutaonode.xyz, port: 12408, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 台湾 - SS/SSR - 02, server: cm1-tw.hutaonode.xyz, port: 12502, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: 台湾 - SS/SSR - 03, server: cm1-tw.hutaonode.xyz, port: 12503, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
-  - {name: US-2, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan33.free4444.xyz, skip-cert-verify: true, udp: true}
-  - {name: US- 14, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: "[VIP][广港]台湾3", server: gdcm3.relay.qchwnd.moe, port: 44608, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: gdcm3.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: IN-, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: GB_TG频道:t.me/ruofeng_fx+750, server: 152.89.210.84, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: JP 7, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: "[VIP][沪日]美国2", server: hncu.relay.qchwnd.moe, port: 44611, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: GB_TG频道:t.me/ruofeng_fx+751, server: 185.167.117.171, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: "[VIP]韩国4", server: 144.24.76.223, port: 44600, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
-  - {name: SG-17, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, sni: cp-asus.ml, skip-cert-verify: true, udp: true}
-  - {name: GB_TG频道:t.me/ruofeng_fx+758, server: 185.167.117.171, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: 美国), server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, sni: jgwdj2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP2, server: v2-1.godlight.xyz, port: 12240, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /j75g1461x, ws-headers: {Host: v2-1.godlight.xyz}, udp: true}
-  - {name: GB_21, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: defaultName_17, server: 14.29.124.168, port: 24044, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: defaultName_83, server: 14.29.124.168, port: 24090, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: GB-l 2, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN_36_95Mb_15, server: 14.29.124.168, port: 24087, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: defaultName_26, server: 14.29.124.168, port: 24024, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 香港1•HGC, server: hk.node.qchwnd.moe, port: 44601, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: hk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: US-l 22, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: TW, server: tw.node.qchwnd.moe, port: 44608, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: UK25, server: 172.99.190.35, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: UK23, server: 172.99.190.35, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: UK30, server: 172.99.190.35, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: UK2, server: 172.99.190.35, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: GB_TG频道:t.me/ruofeng_fx+739, server: 185.167.117.171, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: UK27, server: 172.99.190.35, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: UK4, server: 172.99.190.35, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: UK26, server: 172.99.190.35, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: UK5, server: 172.99.190.35, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: UK24, server: 172.99.190.35, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: UK18, server: 172.99.190.35, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: UK22, server: 172.99.190.35, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: UK16, server: 172.99.190.35, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: TG频道:t.me/ruofeng_fx_126, server: 152.89.210.84, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: US39, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: CA-Openit.ml+4, server: 198.57.27.225, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CA-, server: 134.195.196.205, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _GB_英国_17, server: 152.89.210.84, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: CA-Openit.ml, server: 198.57.27.225, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 加拿大)(Public), server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA_12, server: 198.57.27.225, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA-53, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: IN5, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 18_TG频道:t.me/ruofeng_fx+134, server: 134.195.196.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 18_TG频道:t.me/ruofeng_fx+120, server: 134.195.196.205, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "[VIP][广港]香港5•HKT", server: gdcm3.relay.qchwnd.moe, port: 44609, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: gdcm3.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: US_TG频道:t.me/ruofeng_fx+3077, server: 185.153.180.10, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130, udp: true}
-  - {name: GB_TG频道:t.me/ruofeng_fx+756, server: 185.167.117.171, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: CA-Openit.ml+2, server: 198.57.27.225, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: KR_34, server: 132.226.20.79, port: 4666, type: ss, cipher: aes-128-gcm, password: PaSR4XPkpAdJphKP, udp: true}
-  - {name: Relay_TG频道:t.me/ruofeng_fx_371, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: RELAY-l, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "[VIP]韩国1", server: 138.2.127.240, port: 44600, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
-  - {name: CA_14, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "[VIP]韩国2", server: 129.154.53.120, port: 44600, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
-  - {name: CA-l+6, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CN_56+2, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "[负载均衡]韩国1", server: ocikr.node.qchwnd.moe, port: 44600, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: ocikr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: CN_43, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_48, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_50, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_426, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_56, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_54, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_48+2, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_49, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_53, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_413, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_431, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: GB-l, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: CN_57, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_52, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: GB_TG频道:t.me/ruofeng_fx+742, server: 185.167.117.171, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: GB_TG频道:t.me/ruofeng_fx+748, server: 185.167.117.171, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: 俄罗斯1, server: ru.node.qchwnd.moe, port: 44606, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "[🇨🇦][SS][加]+2", server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: GB_TG频道:t.me/ruofeng_fx+765, server: 185.167.117.171, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: US-l 18, server: trojan2.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan2.free4444.xyz, skip-cert-verify: true, udp: true}
-  - {name: defaultName_43, server: 14.29.124.168, port: 24080, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CA-l+2, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Relay_🇨🇳CN_10_15Mb_14, server: 14.29.124.168, port: 24093, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: JP-17, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: "[VIP][BGP]台湾2", server: azhk.relay.qchwnd.moe, port: 44608, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: CA-l, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CA_16, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CN_05, server: gz.syhwdz.top, port: 35018, type: ss, cipher: aes-256-gcm, password: arielherself, udp: true}
-  - {name: CN_07, server: gzbgp.gia.wiki, port: 30222, type: trojan, password: d1eb7f64-30f8-4bfd-8fe9-f7e46962afdb, sni: gzbgp.gia.wiki, skip-cert-verify: true, udp: true}
-  - {name: KRl_5, server: 129.154.48.221, port: 37372, type: vmess, uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CAl+4, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CA-l+5, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "[Trojan]", server: 140.238.231.9, port: 443, type: trojan, password: O3hQcnNKAE, skip-cert-verify: true, udp: true}
-  - {name: "[VIP][广港]香港3•HGC", server: gdcm3.relay.qchwnd.moe, port: 44601, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: gdcm3.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "[VIP][沪日]法国", server: hncu.relay.qchwnd.moe, port: 44612, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: SG TG频道:t.me/ruofeng_fx, server: iplc-hu.mielink-dns.com, port: 664, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 81755:56873eaa-dcd1-3f65-8984-4e208f3e8844, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: RU-US TG频道:t.me/ruofeng_fx, server: iplc-su.mielink-dns.com, port: 666, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 81755:56873eaa-dcd1-3f65-8984-4e208f3e8844, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: SG1 TG频道:t.me/ruofeng_fx, server: iplc-xiang.mielink-dns.com, port: 664, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 81755:56873eaa-dcd1-3f65-8984-4e208f3e8844, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: JP TG频道:t.me/ruofeng_fx, server: iplc-ji.mielink-dns.com, port: 669, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 81755:56873eaa-dcd1-3f65-8984-4e208f3e8844, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: SG2 TG频道:t.me/ruofeng_fx, server: iplc-min.mielink-dns.com, port: 664, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 81755:56873eaa-dcd1-3f65-8984-4e208f3e8844, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: US TG频道:t.me/ruofeng_fx, server: iplc-zhu.mielink-dns.com, port: 666, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 81755:56873eaa-dcd1-3f65-8984-4e208f3e8844, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: HK TG频道:t.me/ruofeng_fx", server: iplc-zhu.mielink-dns.com, port: 668, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 81755:56873eaa-dcd1-3f65-8984-4e208f3e8844, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: SG3 TG频道:t.me/ruofeng_fx", server: iplc-nf-1.mielink-dns.com, port: 663, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 81755:56873eaa-dcd1-3f65-8984-4e208f3e8844, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: JP1 TG频道:t.me/ruofeng_fx, server: iplc-nf-1.cmy-dns.com, port: 662, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 81755:56873eaa-dcd1-3f65-8984-4e208f3e8844, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: TW TG频道:t.me/ruofeng_fx", server: iplc-zhu.mielink-dns.com, port: 667, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 81755:56873eaa-dcd1-3f65-8984-4e208f3e8844, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: SG4 TG频道:t.me/ruofeng_fx", server: iplc-zhe.mielink-dns.com, port: 664, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 81755:56873eaa-dcd1-3f65-8984-4e208f3e8844, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: PSG5 TG频道:t.me/ruofeng_fx", server: iplc-su.mielink-dns.com, port: 664, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 81755:56873eaa-dcd1-3f65-8984-4e208f3e8844, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 香港 - SS/SSR - 03, server: cm1-hk.hutaonode.xyz, port: 12403, type: ssr, cipher: chacha20-ietf, password: HuTaoCloud, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 2097:hb1gZfoWAxGk9GHG, obfs-param: d456c2097.jd.hk, udp: true}
   - {name: "[SSR] 5", server: quohvop8.nodeinfo.icu, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
-  - {name: "[SSR]", server: eif7aet4.nodeinfo.icu, port: 1097, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
-  - {name: "[SSR] 2", server: ie2ohyai.nodeinfo.icu, port: 6008, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
-  - {name: "[SSR] 4", server: puf6no0k.nodeinfo.icu, port: 2604, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
-  - {name: "[SSR] 3", server: iemeith7.nodeinfo.icu, port: 2507, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
-  - {name: CA-TG频道:t.me/ruofengfx+3, server: 134.195.196.205, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: KR-TG频道:t.me/ruofengfx 5, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, sni: jgw2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: KR-TG频道:t.me/ruofengfx 6, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: HK-TG频道:t.me/ruofengfxl 16, server: azure-hk-1.forwardserver.xyz, port: 48851, type: trojan, password: c488b664-a0a5-4a4e-a7e8-a7a41ba04ae9, sni: azure-hk-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: KR-TG频道:t.me/ruofengfx 8, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: JP-TG频道:t.me/ruofengfx 5, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: Indonesia 01, server: kkvdtts.tqutbw.xyz, port: 36083, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 05, server: kkvdtts.tqutbw.xyz, port: 32130, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: "Singapore 11 [Premium]", server: kkvdtts.tqutbw.xyz, port: 34441, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Singapore 02, server: kkvdtts.tqutbw.xyz, port: 38982, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Singapore 09, server: kkvdtts.tqutbw.xyz, port: 34363, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Singapore 07, server: kkvdtts.tqutbw.xyz, port: 38054, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Singapore 12, server: kkvdtts.tqutbw.xyz, port: 32180, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Singapore 10, server: kkvdtts.tqutbw.xyz, port: 36852, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 04, server: kkvdtts.tqutbw.xyz, port: 32129, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 12, server: kkvdtts.tqutbw.xyz, port: 36905, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 01, server: kkvdtts.tqutbw.xyz, port: 36287, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 07, server: kkvdtts.tqutbw.xyz, port: 39498, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 16, server: kkvdtts.tqutbw.xyz, port: 36617, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 03, server: kkvdtts.tqutbw.xyz, port: 34427, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 13, server: kkvdtts.tqutbw.xyz, port: 35159, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 14, server: kkvdtts.tqutbw.xyz, port: 33849, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 21, server: kkvdtts.tqutbw.xyz, port: 36954, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 22, server: kkvdtts.tqutbw.xyz, port: 39733, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 15, server: kkvdtts.tqutbw.xyz, port: 32006, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 19, server: kkvdtts.tqutbw.xyz, port: 39572, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Singapore 01, server: kkvdtts.tqutbw.xyz, port: 38997, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Singapore 05, server: kkvdtts.tqutbw.xyz, port: 37168, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Singapore 08, server: kkvdtts.tqutbw.xyz, port: 35213, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 06, server: kkvdtts.tqutbw.xyz, port: 39060, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 10, server: kkvdtts.tqutbw.xyz, port: 37697, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Singapore 04, server: kkvdtts.tqutbw.xyz, port: 36615, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 18, server: kkvdtts.tqutbw.xyz, port: 36451, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Singapore 03, server: kkvdtts.tqutbw.xyz, port: 39420, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 23, server: kkvdtts.tqutbw.xyz, port: 38446, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Taiwan 1, server: kkvdtts.tqutbw.xyz, port: 39720, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Taiwan 3, server: kkvdtts.tqutbw.xyz, port: 33333, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Taiwan 4, server: kkvdtts.tqutbw.xyz, port: 35496, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 11, server: kkvdtts.tqutbw.xyz, port: 34359, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Singapore 06, server: kkvdtts.tqutbw.xyz, port: 36887, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Taiwan 5, server: kkvdtts.tqutbw.xyz, port: 37008, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Brazil 01, server: hxhvnig.fpbpsv.xyz, port: 38049, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 09, server: kkvdtts.tqutbw.xyz, port: 35652, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Israel, server: kkvdtts.tqutbw.xyz, port: 35962, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 02, server: kkvdtts.tqutbw.xyz, port: 33986, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 08, server: kkvdtts.tqutbw.xyz, port: 38464, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 17, server: kkvdtts.tqutbw.xyz, port: 34790, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hong Kong 20, server: kkvdtts.tqutbw.xyz, port: 36340, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Korea 4, server: hxhvnig.fpbpsv.xyz, port: 39288, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: United Arab Emirates 01, server: kkvdtts.tqutbw.xyz, port: 38860, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Turkey, server: kkvdtts.tqutbw.xyz, port: 36832, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Russia Moscow, server: kkvdtts.tqutbw.xyz, port: 32639, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Taiwan 2, server: kkvdtts.tqutbw.xyz, port: 36400, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: France, server: kkvdtts.tqutbw.xyz, port: 38301, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Austria, server: kkvdtts.tqutbw.xyz, port: 36770, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Canada 01, server: hxhvnig.fpbpsv.xyz, port: 38746, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: United States 11, server: hxhvnig.fpbpsv.xyz, port: 39028, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Russia St.Peterburg, server: kkvdtts.tqutbw.xyz, port: 38012, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Canada 02, server: hxhvnig.fpbpsv.xyz, port: 37001, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: United States 01, server: hxhvnig.fpbpsv.xyz, port: 34293, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: United States 08, server: hxhvnig.fpbpsv.xyz, port: 39396, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: United States 16, server: hxhvnig.fpbpsv.xyz, port: 37209, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: United States 03, server: hxhvnig.fpbpsv.xyz, port: 32032, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: United States 09, server: hxhvnig.fpbpsv.xyz, port: 36734, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: United States 10, server: hxhvnig.fpbpsv.xyz, port: 38238, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Bulgaria, server: kkvdtts.tqutbw.xyz, port: 36357, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: United States 02, server: hxhvnig.fpbpsv.xyz, port: 39483, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: United States 12, server: hxhvnig.fpbpsv.xyz, port: 35871, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: India 1, server: kkvdtts.tqutbw.xyz, port: 37586, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: United States 13, server: hxhvnig.fpbpsv.xyz, port: 32764, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: United States 06, server: hxhvnig.fpbpsv.xyz, port: 39674, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: United States 15, server: hxhvnig.fpbpsv.xyz, port: 39136, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: United States 04, server: hxhvnig.fpbpsv.xyz, port: 39553, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: United States 14, server: hxhvnig.fpbpsv.xyz, port: 33091, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Sweden, server: kkvdtts.tqutbw.xyz, port: 33865, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Ireland 1, server: kkvdtts.tqutbw.xyz, port: 38609, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Hungary, server: kkvdtts.tqutbw.xyz, port: 34839, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: United States 07, server: hxhvnig.fpbpsv.xyz, port: 34662, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: United States 05, server: hxhvnig.fpbpsv.xyz, port: 35270, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: United States 17, server: hxhvnig.fpbpsv.xyz, port: 32666, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Ireland 2, server: kkvdtts.tqutbw.xyz, port: 39308, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: United Kingdom 1, server: kkvdtts.tqutbw.xyz, port: 32023, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Italy, server: kkvdtts.tqutbw.xyz, port: 37373, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Korea 3, server: hxhvnig.fpbpsv.xyz, port: 38003, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Germany 1, server: kkvdtts.tqutbw.xyz, port: 39138, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Switzerland 01, server: kkvdtts.tqutbw.xyz, port: 39446, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: United Kingdom 2, server: kkvdtts.tqutbw.xyz, port: 36263, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: United Kingdom 3, server: kkvdtts.tqutbw.xyz, port: 38170, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Germany 2, server: kkvdtts.tqutbw.xyz, port: 33262, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Netherlands, server: kkvdtts.tqutbw.xyz, port: 34760, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Korea 2, server: kkvdtts.tqutbw.xyz, port: 34970, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Korea 1, server: kkvdtts.tqutbw.xyz, port: 32643, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Australia Sydney 02, server: kkvdtts.tqutbw.xyz, port: 38808, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Japan 10, server: hxhvnig.fpbpsv.xyz, port: 36073, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Japan 21, server: hxhvnig.fpbpsv.xyz, port: 38859, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Japan 03, server: hxhvnig.fpbpsv.xyz, port: 34606, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Japan 05, server: hxhvnig.fpbpsv.xyz, port: 34614, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Japan 12, server: hxhvnig.fpbpsv.xyz, port: 38747, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Japan 17, server: hxhvnig.fpbpsv.xyz, port: 35223, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Japan 18, server: hxhvnig.fpbpsv.xyz, port: 36063, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Japan 06, server: hxhvnig.fpbpsv.xyz, port: 35593, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: "Japan 23 [Premium]", server: hxhvnig.fpbpsv.xyz, port: 33939, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Japan 01, server: hxhvnig.fpbpsv.xyz, port: 35031, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Japan 04, server: hxhvnig.fpbpsv.xyz, port: 38651, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: "Australia Sydney 01 [Premium]", server: kkvdtts.tqutbw.xyz, port: 33776, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Japan 13, server: hxhvnig.fpbpsv.xyz, port: 34813, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Japan 14, server: hxhvnig.fpbpsv.xyz, port: 36475, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Japan 16, server: hxhvnig.fpbpsv.xyz, port: 37927, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Japan 19, server: hxhvnig.fpbpsv.xyz, port: 34844, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Japan 11, server: hxhvnig.fpbpsv.xyz, port: 34033, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Japan 02, server: hxhvnig.fpbpsv.xyz, port: 37687, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Japan 07, server: hxhvnig.fpbpsv.xyz, port: 33664, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Japan 09, server: hxhvnig.fpbpsv.xyz, port: 38568, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Japan 15, server: hxhvnig.fpbpsv.xyz, port: 33034, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Japan 08, server: hxhvnig.fpbpsv.xyz, port: 32232, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: Japan 20, server: hxhvnig.fpbpsv.xyz, port: 38540, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: "Japan 22 [Premium]", server: hxhvnig.fpbpsv.xyz, port: 33632, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
+  - {name: India 2, server: kkvdtts.tqutbw.xyz, port: 36446, type: ssr, cipher: chacha20-ietf, password: nexitally, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16565493:9a1a772bf81c4178, obfs-param: "", udp: true}
   - {name: US-TG频道:t.me/ruofengfx 4, server: bai-piao-wang-zhe-iplc.98848.xyz, port: 443, type: trojan, password: a97edd5e-f9c9-4320-a8aa-753dd99d74d4, sni: bai-piao-wang-zhe-iplc.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: FR-TG频道:t.me/ruofengfx, server: fr.node.qchwnd.moe, port: 44612, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: GB-TG频道:t.me/ruofengfx 10, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-TG频道:t.me/ruofengfx 5, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-TG频道:t.me/ruofengfx 6, server: tj-14.t8737.shop, port: 11223, type: trojan, password: 2558e62f-2910-4278-9dc9-1ec5eafc8e57, sni: tj-14.t8737.shop, skip-cert-verify: true, udp: true}
-  - {name: US-TG频道:t.me/ruofengfx 7, server: tj-15.t8737.shop, port: 11223, type: trojan, password: 2558e62f-2910-4278-9dc9-1ec5eafc8e57, sni: tj-15.t8737.shop, skip-cert-verify: true, udp: true}
+  - {name: US-2, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan33.free4444.xyz, skip-cert-verify: true, udp: true}
+  - {name: IN5, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: "[VIP]韩国1", server: 138.2.127.240, port: 44600, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
+  - {name: "[负载均衡]韩国1", server: ocikr.node.qchwnd.moe, port: 44600, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: ocikr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: "[VIP][沪日]美国2", server: hncu.relay.qchwnd.moe, port: 44611, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: US-l 22, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: "[VIP][广港]台湾3", server: gdcm3.relay.qchwnd.moe, port: 44608, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: gdcm3.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: JP 7, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 香港1•HGC, server: hk.node.qchwnd.moe, port: 44601, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: hk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: "[VIP][广港]香港3•HGC", server: gdcm3.relay.qchwnd.moe, port: 44601, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: gdcm3.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan]", server: 140.238.231.9, port: 443, type: trojan, password: O3hQcnNKAE, skip-cert-verify: true, udp: true}
+  - {name: "[VIP][广港]香港5•HKT", server: gdcm3.relay.qchwnd.moe, port: 44609, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: gdcm3.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: CN_07, server: gzbgp.gia.wiki, port: 30222, type: trojan, password: d1eb7f64-30f8-4bfd-8fe9-f7e46962afdb, sni: gzbgp.gia.wiki, skip-cert-verify: true, udp: true}
+  - {name: KR-TG频道:t.me/ruofengfx 8, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯1, server: ru.node.qchwnd.moe, port: 44606, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: TW, server: tw.node.qchwnd.moe, port: 44608, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: "[VIP][BGP]台湾2", server: azhk.relay.qchwnd.moe, port: 44608, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: GB-l 2, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: "[VIP]韩国4", server: 144.24.76.223, port: 44600, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
+  - {name: "[VIP]韩国2", server: 129.154.53.120, port: 44600, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
+  - {name: UK5, server: 172.99.190.35, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: UK22, server: 172.99.190.35, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA-Openit.ml, server: 198.57.27.225, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CA-l+6, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CA-l, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: CAl+4, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CA-Openit.ml+4, server: 198.57.27.225, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: defaultName_17, server: 14.29.124.168, port: 24044, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: defaultName_43, server: 14.29.124.168, port: 24080, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CA-53, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: CN_49, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_56, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_43, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CA_14, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: UK26, server: 172.99.190.35, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_TG频道:t.me/ruofeng_fx_371, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 加拿大)(Public), server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_🇨🇳CN_10_15Mb_14, server: 14.29.124.168, port: 24093, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "[🇨🇦][SS][加]+2", server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CA-l+2, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: UK24, server: 172.99.190.35, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CA-l+5, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _GB_英国_17, server: 152.89.210.84, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: UK2, server: 172.99.190.35, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA-Openit.ml+2, server: 198.57.27.225, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: UK25, server: 172.99.190.35, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: UK4, server: 172.99.190.35, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: RELAY-l, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: UK27, server: 172.99.190.35, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: UK16, server: 172.99.190.35, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CN_426, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_52, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_48, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_57, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_56+2, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_48+2, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_431, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_413, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_54, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CA_12, server: 198.57.27.225, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: defaultName_83, server: 14.29.124.168, port: 24090, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CA_16, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: UK30, server: 172.99.190.35, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CN_53, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: UK18, server: 172.99.190.35, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: defaultName_26, server: 14.29.124.168, port: 24024, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG频道:t.me/ruofeng_fx_126, server: 152.89.210.84, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: Relay_🇨🇳CN_36_95Mb_15, server: 14.29.124.168, port: 24087, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: KR_34, server: 132.226.20.79, port: 4666, type: ss, cipher: aes-128-gcm, password: PaSR4XPkpAdJphKP, udp: true}
+  - {name: GB_TG频道:t.me/ruofeng_fx+750, server: 152.89.210.84, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: CN_05, server: gz.syhwdz.top, port: 35018, type: ss, cipher: aes-256-gcm, password: arielherself, udp: true}
+  - {name: UK23, server: 172.99.190.35, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: JP2, server: v2-1.godlight.xyz, port: 12240, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /j75g1461x, ws-headers: {Host: v2-1.godlight.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - N TG频道:t.me/ruofengfx
-      - 悉尼 TG频道:t.me/ruofengfx
-      - 日本A TG频道:t.me/ruofengfx
-      - 日本B TG频道:t.me/ruofengfx
-      - 日本C TG频道:t.me/ruofengfx
-      - 日本D TG频道:t.me/ruofengfx
-      - 法兰克福A TG频道:t.me/ruofengfx
-      - 美国A TG频道:t.me/ruofengfx
-      - 美国B TG频道:t.me/ruofengfx
-      - 美国C TG频道:t.me/ruofengfx
-      - 香港A TG频道:t.me/ruofengfx
-      - 香港B TG频道:t.me/ruofengfx
-      - 香港C TG频道:t.me/ruofengfx
-      - 香港D TG频道:t.me/ruofengfx
-      - 日本 TG频道:t.me/ruofengfx
-      - 日本B TG频道:t.me/ruofengfx 2
-      - 日本B TG频道:t.me/ruofengfx 3
-      - 日本C TG频道:t.me/ruofengfx 2
-      - 日本D TG频道:t.me/ruofengfx 2
-      - 美国A TG频道:t.me/ruofengfx 2
-      - 美国B TG频道:t.me/ruofengfx 2
-      - 美国C TG频道:t.me/ruofengfx 2
-      - 香港A TG频道:t.me/ruofengfx 2
-      - 香港B TG频道:t.me/ruofengfx 2
-      - 香港C TG频道:t.me/ruofengfx 2
-      - 香港D TG频道:t.me/ruofengfx 2
-      - 新加坡 - SS/SSR - 01
+      - 新加坡 - SS/SSR - 04
       - 新加坡 - SS/SSR - 06
-      - 台湾 - SS/SSR - 04
-      - 香港 - SS/SSR - 04
-      - 美国 - SS/SSR - 02
-      - 美国 - SS/SSR - 05
-      - 新加坡 - SS/SSR - 05
-      - 韩国 - SS/SSR - 05
       - 新加坡 - SS/SSR - 02
-      - 韩国 - SS/SSR - 04
-      - 香港 - SS/SSR - 05
-      - 韩国 - SS/SSR - 03
-      - 韩国 - SS/SSR - 06
-      - 香港 - SS/SSR - 09
       - 新加坡 - SS/SSR - 03
-      - 韩国 - SS/SSR - 02
-      - 台湾 - SS/SSR - 05
-      - 台湾 - SS/SSR - 06
+      - 美国 - SS/SSR - 01
+      - 美国 - SS/SSR - 04
+      - 美国 - SS/SSR - 03
+      - 新加坡 - SS/SSR - 05
+      - 韩国 - SS/SSR - 03
+      - 韩国 - SS/SSR - 05
+      - 新加坡 - SS/SSR - 01
+      - 韩国 - SS/SSR - 01
+      - "[SSR] 4"
+      - "[SSR]"
+      - "[SSR] 3"
+      - 香港 - SS/SSR - 04
       - 美国 - SS/SSR - 06
       - 香港 - SS/SSR - 10
-      - 香港 - SS/SSR - 03
-      - 美国 - SS/SSR - 01
-      - 台湾 - SS/SSR - 01
+      - 香港 - SS/SSR - 05
+      - 美国 - SS/SSR - 02
+      - 美国 - SS/SSR - 05
+      - 台湾 - SS/SSR - 06
+      - 韩国 - SS/SSR - 02
+      - 韩国 - SS/SSR - 04
+      - 韩国 - SS/SSR - 06
       - 香港 - SS/SSR - 01
-      - 韩国 - SS/SSR - 01
+      - 香港 - SS/SSR - 02
+      - 台湾 - SS/SSR - 04
+      - 香港 - SS/SSR - 08
+      - 香港 - SS/SSR - 09
+      - 台湾 - SS/SSR - 01
+      - 台湾 - SS/SSR - 02
+      - "[SSR] 2"
+      - 台湾 - SS/SSR - 03
+      - 台湾 - SS/SSR - 05
       - 香港 - SS/SSR - 07
       - 香港 - SS/SSR - 06
-      - 新加坡 - SS/SSR - 04
-      - 美国 - SS/SSR - 04
-      - 香港 - SS/SSR - 02
-      - 美国 - SS/SSR - 03
-      - 香港 - SS/SSR - 08
-      - 台湾 - SS/SSR - 02
-      - 台湾 - SS/SSR - 03
-      - US-2
-      - US- 14
-      - "[VIP][广港]台湾3"
-      - IN-
-      - GB_TG频道:t.me/ruofeng_fx+750
-      - JP 7
-      - "[VIP][沪日]美国2"
-      - GB_TG频道:t.me/ruofeng_fx+751
-      - "[VIP]韩国4"
-      - SG-17
-      - GB_TG频道:t.me/ruofeng_fx+758
-      - 美国)
-      - JP2
-      - GB_21
-      - defaultName_17
-      - defaultName_83
-      - GB-l 2
-      - Relay_🇨🇳CN_36_95Mb_15
-      - defaultName_26
-      - 香港1•HGC
-      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
-      - US-l 22
-      - TW
-      - UK25
-      - UK23
-      - UK30
-      - UK2
-      - GB_TG频道:t.me/ruofeng_fx+739
-      - UK27
-      - UK4
-      - UK26
-      - UK5
-      - UK24
-      - UK18
-      - UK22
-      - UK16
-      - TG频道:t.me/ruofeng_fx_126
-      - US39
-      - CA-Openit.ml+4
-      - CA-
-      - _GB_英国_17
-      - CA-Openit.ml
-      - 加拿大)(Public)
-      - CA_12
-      - CA-53
-      - IN5
-      - 18_TG频道:t.me/ruofeng_fx+134
-      - 18_TG频道:t.me/ruofeng_fx+120
-      - "[VIP][广港]香港5•HKT"
-      - US_TG频道:t.me/ruofeng_fx+3077
-      - GB_TG频道:t.me/ruofeng_fx+756
-      - CA-Openit.ml+2
-      - KR_34
-      - Relay_TG频道:t.me/ruofeng_fx_371
-      - RELAY-l
-      - "[VIP]韩国1"
-      - CA_14
-      - "[VIP]韩国2"
-      - CA-l+6
-      - CN_56+2
-      - "[负载均衡]韩国1"
-      - CN_43
-      - CN_48
-      - CN_50
-      - CN_426
-      - CN_56
-      - CN_54
-      - CN_48+2
-      - CN_49
-      - CN_53
-      - CN_413
-      - CN_431
-      - GB-l
-      - CN_57
-      - CN_52
-      - GB_TG频道:t.me/ruofeng_fx+742
-      - GB_TG频道:t.me/ruofeng_fx+748
-      - 俄罗斯1
-      - "[🇨🇦][SS][加]+2"
-      - GB_TG频道:t.me/ruofeng_fx+765
-      - US-l 18
-      - defaultName_43
-      - CA-l+2
-      - Relay_🇨🇳CN_10_15Mb_14
-      - JP-17
-      - "[VIP][BGP]台湾2"
-      - CA-l
-      - CA_16
-      - CN_05
-      - CN_07
-      - KRl_5
-      - CAl+4
-      - CA-l+5
-      - "[Trojan]"
-      - "[VIP][广港]香港3•HGC"
-      - "[VIP][沪日]法国"
-      - SG TG频道:t.me/ruofeng_fx
-      - RU-US TG频道:t.me/ruofeng_fx
-      - SG1 TG频道:t.me/ruofeng_fx
-      - JP TG频道:t.me/ruofeng_fx
-      - SG2 TG频道:t.me/ruofeng_fx
-      - US TG频道:t.me/ruofeng_fx
-      - HK TG频道:t.me/ruofeng_fx"
-      - SG3 TG频道:t.me/ruofeng_fx"
-      - JP1 TG频道:t.me/ruofeng_fx
-      - TW TG频道:t.me/ruofeng_fx"
-      - SG4 TG频道:t.me/ruofeng_fx"
-      - PSG5 TG频道:t.me/ruofeng_fx"
+      - 香港 - SS/SSR - 03
       - "[SSR] 5"
-      - "[SSR]"
-      - "[SSR] 2"
-      - "[SSR] 4"
-      - "[SSR] 3"
-      - CA-TG频道:t.me/ruofengfx+3
-      - KR-TG频道:t.me/ruofengfx 5
-      - KR-TG频道:t.me/ruofengfx 6
-      - HK-TG频道:t.me/ruofengfxl 16
-      - KR-TG频道:t.me/ruofengfx 8
-      - JP-TG频道:t.me/ruofengfx 5
+      - Indonesia 01
+      - Hong Kong 05
+      - Singapore 11 [Premium]
+      - Singapore 02
+      - Singapore 09
+      - Singapore 07
+      - Singapore 12
+      - Singapore 10
+      - Hong Kong 04
+      - Hong Kong 12
+      - Hong Kong 01
+      - Hong Kong 07
+      - Hong Kong 16
+      - Hong Kong 03
+      - Hong Kong 13
+      - Hong Kong 14
+      - Hong Kong 21
+      - Hong Kong 22
+      - Hong Kong 15
+      - Hong Kong 19
+      - Singapore 01
+      - Singapore 05
+      - Singapore 08
+      - Hong Kong 06
+      - Hong Kong 10
+      - Singapore 04
+      - Hong Kong 18
+      - Singapore 03
+      - Hong Kong 23
+      - Taiwan 1
+      - Taiwan 3
+      - Taiwan 4
+      - Hong Kong 11
+      - Singapore 06
+      - Taiwan 5
+      - Brazil 01
+      - Hong Kong 09
+      - Israel
+      - Hong Kong 02
+      - Hong Kong 08
+      - Hong Kong 17
+      - Hong Kong 20
+      - Korea 4
+      - United Arab Emirates 01
+      - Turkey
+      - Russia Moscow
+      - Taiwan 2
+      - France
+      - Austria
+      - Canada 01
+      - United States 11
+      - Russia St.Peterburg
+      - Canada 02
+      - United States 01
+      - United States 08
+      - United States 16
+      - United States 03
+      - United States 09
+      - United States 10
+      - Bulgaria
+      - United States 02
+      - United States 12
+      - India 1
+      - United States 13
+      - United States 06
+      - United States 15
+      - United States 04
+      - United States 14
+      - Sweden
+      - Ireland 1
+      - Hungary
+      - United States 07
+      - United States 05
+      - United States 17
+      - Ireland 2
+      - United Kingdom 1
+      - Italy
+      - Korea 3
+      - Germany 1
+      - Switzerland 01
+      - United Kingdom 2
+      - United Kingdom 3
+      - Germany 2
+      - Netherlands
+      - Korea 2
+      - Korea 1
+      - Australia Sydney 02
+      - Japan 10
+      - Japan 21
+      - Japan 03
+      - Japan 05
+      - Japan 12
+      - Japan 17
+      - Japan 18
+      - Japan 06
+      - Japan 23 [Premium]
+      - Japan 01
+      - Japan 04
+      - Australia Sydney 01 [Premium]
+      - Japan 13
+      - Japan 14
+      - Japan 16
+      - Japan 19
+      - Japan 11
+      - Japan 02
+      - Japan 07
+      - Japan 09
+      - Japan 15
+      - Japan 08
+      - Japan 20
+      - Japan 22 [Premium]
+      - India 2
       - US-TG频道:t.me/ruofengfx 4
-      - FR-TG频道:t.me/ruofengfx
-      - GB-TG频道:t.me/ruofengfx 10
-      - US-TG频道:t.me/ruofengfx 5
-      - US-TG频道:t.me/ruofengfx 6
-      - US-TG频道:t.me/ruofengfx 7
+      - US-2
+      - IN5
+      - "[VIP]韩国1"
+      - "[负载均衡]韩国1"
+      - "[VIP][沪日]美国2"
+      - US-l 22
+      - "[VIP][广港]台湾3"
+      - JP 7
+      - 香港1•HGC
+      - "[VIP][广港]香港3•HGC"
+      - "[Trojan]"
+      - "[VIP][广港]香港5•HKT"
+      - CN_07
+      - KR-TG频道:t.me/ruofengfx 8
+      - 俄罗斯1
+      - TW
+      - "[VIP][BGP]台湾2"
+      - GB-l 2
+      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
+      - "[VIP]韩国4"
+      - "[VIP]韩国2"
+      - UK5
+      - UK22
+      - CA-Openit.ml
+      - CA-l+6
+      - CA-l
+      - CAl+4
+      - CA-Openit.ml+4
+      - defaultName_17
+      - defaultName_43
+      - CA-53
+      - CN_49
+      - CN_56
+      - CN_43
+      - CA_14
+      - UK26
+      - Relay_TG频道:t.me/ruofeng_fx_371
+      - 加拿大)(Public)
+      - Relay_🇨🇳CN_10_15Mb_14
+      - "[🇨🇦][SS][加]+2"
+      - CA-l+2
+      - UK24
+      - CA-l+5
+      - _GB_英国_17
+      - UK2
+      - CA-Openit.ml+2
+      - UK25
+      - UK4
+      - RELAY-l
+      - UK27
+      - UK16
+      - CN_426
+      - CN_52
+      - CN_48
+      - CN_57
+      - CN_56+2
+      - CN_48+2
+      - CN_431
+      - CN_413
+      - CN_54
+      - CA_12
+      - defaultName_83
+      - CA_16
+      - UK30
+      - CN_53
+      - UK18
+      - defaultName_26
+      - TG频道:t.me/ruofeng_fx_126
+      - Relay_🇨🇳CN_36_95Mb_15
+      - KR_34
+      - GB_TG频道:t.me/ruofeng_fx+750
+      - CN_05
+      - UK23
+      - JP2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - N TG频道:t.me/ruofengfx
-      - 悉尼 TG频道:t.me/ruofengfx
-      - 日本A TG频道:t.me/ruofengfx
-      - 日本B TG频道:t.me/ruofengfx
-      - 日本C TG频道:t.me/ruofengfx
-      - 日本D TG频道:t.me/ruofengfx
-      - 法兰克福A TG频道:t.me/ruofengfx
-      - 美国A TG频道:t.me/ruofengfx
-      - 美国B TG频道:t.me/ruofengfx
-      - 美国C TG频道:t.me/ruofengfx
-      - 香港A TG频道:t.me/ruofengfx
-      - 香港B TG频道:t.me/ruofengfx
-      - 香港C TG频道:t.me/ruofengfx
-      - 香港D TG频道:t.me/ruofengfx
-      - 日本 TG频道:t.me/ruofengfx
-      - 日本B TG频道:t.me/ruofengfx 2
-      - 日本B TG频道:t.me/ruofengfx 3
-      - 日本C TG频道:t.me/ruofengfx 2
-      - 日本D TG频道:t.me/ruofengfx 2
-      - 美国A TG频道:t.me/ruofengfx 2
-      - 美国B TG频道:t.me/ruofengfx 2
-      - 美国C TG频道:t.me/ruofengfx 2
-      - 香港A TG频道:t.me/ruofengfx 2
-      - 香港B TG频道:t.me/ruofengfx 2
-      - 香港C TG频道:t.me/ruofengfx 2
-      - 香港D TG频道:t.me/ruofengfx 2
-      - 新加坡 - SS/SSR - 01
+      - 新加坡 - SS/SSR - 04
       - 新加坡 - SS/SSR - 06
-      - 台湾 - SS/SSR - 04
-      - 香港 - SS/SSR - 04
-      - 美国 - SS/SSR - 02
-      - 美国 - SS/SSR - 05
-      - 新加坡 - SS/SSR - 05
-      - 韩国 - SS/SSR - 05
       - 新加坡 - SS/SSR - 02
-      - 韩国 - SS/SSR - 04
-      - 香港 - SS/SSR - 05
-      - 韩国 - SS/SSR - 03
-      - 韩国 - SS/SSR - 06
-      - 香港 - SS/SSR - 09
       - 新加坡 - SS/SSR - 03
-      - 韩国 - SS/SSR - 02
-      - 台湾 - SS/SSR - 05
-      - 台湾 - SS/SSR - 06
+      - 美国 - SS/SSR - 01
+      - 美国 - SS/SSR - 04
+      - 美国 - SS/SSR - 03
+      - 新加坡 - SS/SSR - 05
+      - 韩国 - SS/SSR - 03
+      - 韩国 - SS/SSR - 05
+      - 新加坡 - SS/SSR - 01
+      - 韩国 - SS/SSR - 01
+      - "[SSR] 4"
+      - "[SSR]"
+      - "[SSR] 3"
+      - 香港 - SS/SSR - 04
       - 美国 - SS/SSR - 06
       - 香港 - SS/SSR - 10
-      - 香港 - SS/SSR - 03
-      - 美国 - SS/SSR - 01
-      - 台湾 - SS/SSR - 01
+      - 香港 - SS/SSR - 05
+      - 美国 - SS/SSR - 02
+      - 美国 - SS/SSR - 05
+      - 台湾 - SS/SSR - 06
+      - 韩国 - SS/SSR - 02
+      - 韩国 - SS/SSR - 04
+      - 韩国 - SS/SSR - 06
       - 香港 - SS/SSR - 01
-      - 韩国 - SS/SSR - 01
+      - 香港 - SS/SSR - 02
+      - 台湾 - SS/SSR - 04
+      - 香港 - SS/SSR - 08
+      - 香港 - SS/SSR - 09
+      - 台湾 - SS/SSR - 01
+      - 台湾 - SS/SSR - 02
+      - "[SSR] 2"
+      - 台湾 - SS/SSR - 03
+      - 台湾 - SS/SSR - 05
       - 香港 - SS/SSR - 07
       - 香港 - SS/SSR - 06
-      - 新加坡 - SS/SSR - 04
-      - 美国 - SS/SSR - 04
-      - 香港 - SS/SSR - 02
-      - 美国 - SS/SSR - 03
-      - 香港 - SS/SSR - 08
-      - 台湾 - SS/SSR - 02
-      - 台湾 - SS/SSR - 03
-      - US-2
-      - US- 14
-      - "[VIP][广港]台湾3"
-      - IN-
-      - GB_TG频道:t.me/ruofeng_fx+750
-      - JP 7
-      - "[VIP][沪日]美国2"
-      - GB_TG频道:t.me/ruofeng_fx+751
-      - "[VIP]韩国4"
-      - SG-17
-      - GB_TG频道:t.me/ruofeng_fx+758
-      - 美国)
-      - JP2
-      - GB_21
-      - defaultName_17
-      - defaultName_83
-      - GB-l 2
-      - Relay_🇨🇳CN_36_95Mb_15
-      - defaultName_26
-      - 香港1•HGC
-      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
-      - US-l 22
-      - TW
-      - UK25
-      - UK23
-      - UK30
-      - UK2
-      - GB_TG频道:t.me/ruofeng_fx+739
-      - UK27
-      - UK4
-      - UK26
-      - UK5
-      - UK24
-      - UK18
-      - UK22
-      - UK16
-      - TG频道:t.me/ruofeng_fx_126
-      - US39
-      - CA-Openit.ml+4
-      - CA-
-      - _GB_英国_17
-      - CA-Openit.ml
-      - 加拿大)(Public)
-      - CA_12
-      - CA-53
-      - IN5
-      - 18_TG频道:t.me/ruofeng_fx+134
-      - 18_TG频道:t.me/ruofeng_fx+120
-      - "[VIP][广港]香港5•HKT"
-      - US_TG频道:t.me/ruofeng_fx+3077
-      - GB_TG频道:t.me/ruofeng_fx+756
-      - CA-Openit.ml+2
-      - KR_34
-      - Relay_TG频道:t.me/ruofeng_fx_371
-      - RELAY-l
-      - "[VIP]韩国1"
-      - CA_14
-      - "[VIP]韩国2"
-      - CA-l+6
-      - CN_56+2
-      - "[负载均衡]韩国1"
-      - CN_43
-      - CN_48
-      - CN_50
-      - CN_426
-      - CN_56
-      - CN_54
-      - CN_48+2
-      - CN_49
-      - CN_53
-      - CN_413
-      - CN_431
-      - GB-l
-      - CN_57
-      - CN_52
-      - GB_TG频道:t.me/ruofeng_fx+742
-      - GB_TG频道:t.me/ruofeng_fx+748
-      - 俄罗斯1
-      - "[🇨🇦][SS][加]+2"
-      - GB_TG频道:t.me/ruofeng_fx+765
-      - US-l 18
-      - defaultName_43
-      - CA-l+2
-      - Relay_🇨🇳CN_10_15Mb_14
-      - JP-17
-      - "[VIP][BGP]台湾2"
-      - CA-l
-      - CA_16
-      - CN_05
-      - CN_07
-      - KRl_5
-      - CAl+4
-      - CA-l+5
-      - "[Trojan]"
-      - "[VIP][广港]香港3•HGC"
-      - "[VIP][沪日]法国"
-      - SG TG频道:t.me/ruofeng_fx
-      - RU-US TG频道:t.me/ruofeng_fx
-      - SG1 TG频道:t.me/ruofeng_fx
-      - JP TG频道:t.me/ruofeng_fx
-      - SG2 TG频道:t.me/ruofeng_fx
-      - US TG频道:t.me/ruofeng_fx
-      - HK TG频道:t.me/ruofeng_fx"
-      - SG3 TG频道:t.me/ruofeng_fx"
-      - JP1 TG频道:t.me/ruofeng_fx
-      - TW TG频道:t.me/ruofeng_fx"
-      - SG4 TG频道:t.me/ruofeng_fx"
-      - PSG5 TG频道:t.me/ruofeng_fx"
+      - 香港 - SS/SSR - 03
       - "[SSR] 5"
-      - "[SSR]"
-      - "[SSR] 2"
-      - "[SSR] 4"
-      - "[SSR] 3"
-      - CA-TG频道:t.me/ruofengfx+3
-      - KR-TG频道:t.me/ruofengfx 5
-      - KR-TG频道:t.me/ruofengfx 6
-      - HK-TG频道:t.me/ruofengfxl 16
-      - KR-TG频道:t.me/ruofengfx 8
-      - JP-TG频道:t.me/ruofengfx 5
+      - Indonesia 01
+      - Hong Kong 05
+      - Singapore 11 [Premium]
+      - Singapore 02
+      - Singapore 09
+      - Singapore 07
+      - Singapore 12
+      - Singapore 10
+      - Hong Kong 04
+      - Hong Kong 12
+      - Hong Kong 01
+      - Hong Kong 07
+      - Hong Kong 16
+      - Hong Kong 03
+      - Hong Kong 13
+      - Hong Kong 14
+      - Hong Kong 21
+      - Hong Kong 22
+      - Hong Kong 15
+      - Hong Kong 19
+      - Singapore 01
+      - Singapore 05
+      - Singapore 08
+      - Hong Kong 06
+      - Hong Kong 10
+      - Singapore 04
+      - Hong Kong 18
+      - Singapore 03
+      - Hong Kong 23
+      - Taiwan 1
+      - Taiwan 3
+      - Taiwan 4
+      - Hong Kong 11
+      - Singapore 06
+      - Taiwan 5
+      - Brazil 01
+      - Hong Kong 09
+      - Israel
+      - Hong Kong 02
+      - Hong Kong 08
+      - Hong Kong 17
+      - Hong Kong 20
+      - Korea 4
+      - United Arab Emirates 01
+      - Turkey
+      - Russia Moscow
+      - Taiwan 2
+      - France
+      - Austria
+      - Canada 01
+      - United States 11
+      - Russia St.Peterburg
+      - Canada 02
+      - United States 01
+      - United States 08
+      - United States 16
+      - United States 03
+      - United States 09
+      - United States 10
+      - Bulgaria
+      - United States 02
+      - United States 12
+      - India 1
+      - United States 13
+      - United States 06
+      - United States 15
+      - United States 04
+      - United States 14
+      - Sweden
+      - Ireland 1
+      - Hungary
+      - United States 07
+      - United States 05
+      - United States 17
+      - Ireland 2
+      - United Kingdom 1
+      - Italy
+      - Korea 3
+      - Germany 1
+      - Switzerland 01
+      - United Kingdom 2
+      - United Kingdom 3
+      - Germany 2
+      - Netherlands
+      - Korea 2
+      - Korea 1
+      - Australia Sydney 02
+      - Japan 10
+      - Japan 21
+      - Japan 03
+      - Japan 05
+      - Japan 12
+      - Japan 17
+      - Japan 18
+      - Japan 06
+      - Japan 23 [Premium]
+      - Japan 01
+      - Japan 04
+      - Australia Sydney 01 [Premium]
+      - Japan 13
+      - Japan 14
+      - Japan 16
+      - Japan 19
+      - Japan 11
+      - Japan 02
+      - Japan 07
+      - Japan 09
+      - Japan 15
+      - Japan 08
+      - Japan 20
+      - Japan 22 [Premium]
+      - India 2
       - US-TG频道:t.me/ruofengfx 4
-      - FR-TG频道:t.me/ruofengfx
-      - GB-TG频道:t.me/ruofengfx 10
-      - US-TG频道:t.me/ruofengfx 5
-      - US-TG频道:t.me/ruofengfx 6
-      - US-TG频道:t.me/ruofengfx 7
+      - US-2
+      - IN5
+      - "[VIP]韩国1"
+      - "[负载均衡]韩国1"
+      - "[VIP][沪日]美国2"
+      - US-l 22
+      - "[VIP][广港]台湾3"
+      - JP 7
+      - 香港1•HGC
+      - "[VIP][广港]香港3•HGC"
+      - "[Trojan]"
+      - "[VIP][广港]香港5•HKT"
+      - CN_07
+      - KR-TG频道:t.me/ruofengfx 8
+      - 俄罗斯1
+      - TW
+      - "[VIP][BGP]台湾2"
+      - GB-l 2
+      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
+      - "[VIP]韩国4"
+      - "[VIP]韩国2"
+      - UK5
+      - UK22
+      - CA-Openit.ml
+      - CA-l+6
+      - CA-l
+      - CAl+4
+      - CA-Openit.ml+4
+      - defaultName_17
+      - defaultName_43
+      - CA-53
+      - CN_49
+      - CN_56
+      - CN_43
+      - CA_14
+      - UK26
+      - Relay_TG频道:t.me/ruofeng_fx_371
+      - 加拿大)(Public)
+      - Relay_🇨🇳CN_10_15Mb_14
+      - "[🇨🇦][SS][加]+2"
+      - CA-l+2
+      - UK24
+      - CA-l+5
+      - _GB_英国_17
+      - UK2
+      - CA-Openit.ml+2
+      - UK25
+      - UK4
+      - RELAY-l
+      - UK27
+      - UK16
+      - CN_426
+      - CN_52
+      - CN_48
+      - CN_57
+      - CN_56+2
+      - CN_48+2
+      - CN_431
+      - CN_413
+      - CN_54
+      - CA_12
+      - defaultName_83
+      - CA_16
+      - UK30
+      - CN_53
+      - UK18
+      - defaultName_26
+      - TG频道:t.me/ruofeng_fx_126
+      - Relay_🇨🇳CN_36_95Mb_15
+      - KR_34
+      - GB_TG频道:t.me/ruofeng_fx+750
+      - CN_05
+      - UK23
+      - JP2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - N TG频道:t.me/ruofengfx
-      - 悉尼 TG频道:t.me/ruofengfx
-      - 日本A TG频道:t.me/ruofengfx
-      - 日本B TG频道:t.me/ruofengfx
-      - 日本C TG频道:t.me/ruofengfx
-      - 日本D TG频道:t.me/ruofengfx
-      - 法兰克福A TG频道:t.me/ruofengfx
-      - 美国A TG频道:t.me/ruofengfx
-      - 美国B TG频道:t.me/ruofengfx
-      - 美国C TG频道:t.me/ruofengfx
-      - 香港A TG频道:t.me/ruofengfx
-      - 香港B TG频道:t.me/ruofengfx
-      - 香港C TG频道:t.me/ruofengfx
-      - 香港D TG频道:t.me/ruofengfx
-      - 日本 TG频道:t.me/ruofengfx
-      - 日本B TG频道:t.me/ruofengfx 2
-      - 日本B TG频道:t.me/ruofengfx 3
-      - 日本C TG频道:t.me/ruofengfx 2
-      - 日本D TG频道:t.me/ruofengfx 2
-      - 美国A TG频道:t.me/ruofengfx 2
-      - 美国B TG频道:t.me/ruofengfx 2
-      - 美国C TG频道:t.me/ruofengfx 2
-      - 香港A TG频道:t.me/ruofengfx 2
-      - 香港B TG频道:t.me/ruofengfx 2
-      - 香港C TG频道:t.me/ruofengfx 2
-      - 香港D TG频道:t.me/ruofengfx 2
-      - 新加坡 - SS/SSR - 01
+      - 新加坡 - SS/SSR - 04
       - 新加坡 - SS/SSR - 06
-      - 台湾 - SS/SSR - 04
-      - 香港 - SS/SSR - 04
-      - 美国 - SS/SSR - 02
-      - 美国 - SS/SSR - 05
-      - 新加坡 - SS/SSR - 05
-      - 韩国 - SS/SSR - 05
       - 新加坡 - SS/SSR - 02
-      - 韩国 - SS/SSR - 04
-      - 香港 - SS/SSR - 05
-      - 韩国 - SS/SSR - 03
-      - 韩国 - SS/SSR - 06
-      - 香港 - SS/SSR - 09
       - 新加坡 - SS/SSR - 03
-      - 韩国 - SS/SSR - 02
-      - 台湾 - SS/SSR - 05
-      - 台湾 - SS/SSR - 06
+      - 美国 - SS/SSR - 01
+      - 美国 - SS/SSR - 04
+      - 美国 - SS/SSR - 03
+      - 新加坡 - SS/SSR - 05
+      - 韩国 - SS/SSR - 03
+      - 韩国 - SS/SSR - 05
+      - 新加坡 - SS/SSR - 01
+      - 韩国 - SS/SSR - 01
+      - "[SSR] 4"
+      - "[SSR]"
+      - "[SSR] 3"
+      - 香港 - SS/SSR - 04
       - 美国 - SS/SSR - 06
       - 香港 - SS/SSR - 10
-      - 香港 - SS/SSR - 03
-      - 美国 - SS/SSR - 01
-      - 台湾 - SS/SSR - 01
+      - 香港 - SS/SSR - 05
+      - 美国 - SS/SSR - 02
+      - 美国 - SS/SSR - 05
+      - 台湾 - SS/SSR - 06
+      - 韩国 - SS/SSR - 02
+      - 韩国 - SS/SSR - 04
+      - 韩国 - SS/SSR - 06
       - 香港 - SS/SSR - 01
-      - 韩国 - SS/SSR - 01
+      - 香港 - SS/SSR - 02
+      - 台湾 - SS/SSR - 04
+      - 香港 - SS/SSR - 08
+      - 香港 - SS/SSR - 09
+      - 台湾 - SS/SSR - 01
+      - 台湾 - SS/SSR - 02
+      - "[SSR] 2"
+      - 台湾 - SS/SSR - 03
+      - 台湾 - SS/SSR - 05
       - 香港 - SS/SSR - 07
       - 香港 - SS/SSR - 06
-      - 新加坡 - SS/SSR - 04
-      - 美国 - SS/SSR - 04
-      - 香港 - SS/SSR - 02
-      - 美国 - SS/SSR - 03
-      - 香港 - SS/SSR - 08
-      - 台湾 - SS/SSR - 02
-      - 台湾 - SS/SSR - 03
-      - US-2
-      - US- 14
-      - "[VIP][广港]台湾3"
-      - IN-
-      - GB_TG频道:t.me/ruofeng_fx+750
-      - JP 7
-      - "[VIP][沪日]美国2"
-      - GB_TG频道:t.me/ruofeng_fx+751
-      - "[VIP]韩国4"
-      - SG-17
-      - GB_TG频道:t.me/ruofeng_fx+758
-      - 美国)
-      - JP2
-      - GB_21
-      - defaultName_17
-      - defaultName_83
-      - GB-l 2
-      - Relay_🇨🇳CN_36_95Mb_15
-      - defaultName_26
-      - 香港1•HGC
-      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
-      - US-l 22
-      - TW
-      - UK25
-      - UK23
-      - UK30
-      - UK2
-      - GB_TG频道:t.me/ruofeng_fx+739
-      - UK27
-      - UK4
-      - UK26
-      - UK5
-      - UK24
-      - UK18
-      - UK22
-      - UK16
-      - TG频道:t.me/ruofeng_fx_126
-      - US39
-      - CA-Openit.ml+4
-      - CA-
-      - _GB_英国_17
-      - CA-Openit.ml
-      - 加拿大)(Public)
-      - CA_12
-      - CA-53
-      - IN5
-      - 18_TG频道:t.me/ruofeng_fx+134
-      - 18_TG频道:t.me/ruofeng_fx+120
-      - "[VIP][广港]香港5•HKT"
-      - US_TG频道:t.me/ruofeng_fx+3077
-      - GB_TG频道:t.me/ruofeng_fx+756
-      - CA-Openit.ml+2
-      - KR_34
-      - Relay_TG频道:t.me/ruofeng_fx_371
-      - RELAY-l
-      - "[VIP]韩国1"
-      - CA_14
-      - "[VIP]韩国2"
-      - CA-l+6
-      - CN_56+2
-      - "[负载均衡]韩国1"
-      - CN_43
-      - CN_48
-      - CN_50
-      - CN_426
-      - CN_56
-      - CN_54
-      - CN_48+2
-      - CN_49
-      - CN_53
-      - CN_413
-      - CN_431
-      - GB-l
-      - CN_57
-      - CN_52
-      - GB_TG频道:t.me/ruofeng_fx+742
-      - GB_TG频道:t.me/ruofeng_fx+748
-      - 俄罗斯1
-      - "[🇨🇦][SS][加]+2"
-      - GB_TG频道:t.me/ruofeng_fx+765
-      - US-l 18
-      - defaultName_43
-      - CA-l+2
-      - Relay_🇨🇳CN_10_15Mb_14
-      - JP-17
-      - "[VIP][BGP]台湾2"
-      - CA-l
-      - CA_16
-      - CN_05
-      - CN_07
-      - KRl_5
-      - CAl+4
-      - CA-l+5
-      - "[Trojan]"
-      - "[VIP][广港]香港3•HGC"
-      - "[VIP][沪日]法国"
-      - SG TG频道:t.me/ruofeng_fx
-      - RU-US TG频道:t.me/ruofeng_fx
-      - SG1 TG频道:t.me/ruofeng_fx
-      - JP TG频道:t.me/ruofeng_fx
-      - SG2 TG频道:t.me/ruofeng_fx
-      - US TG频道:t.me/ruofeng_fx
-      - HK TG频道:t.me/ruofeng_fx"
-      - SG3 TG频道:t.me/ruofeng_fx"
-      - JP1 TG频道:t.me/ruofeng_fx
-      - TW TG频道:t.me/ruofeng_fx"
-      - SG4 TG频道:t.me/ruofeng_fx"
-      - PSG5 TG频道:t.me/ruofeng_fx"
+      - 香港 - SS/SSR - 03
       - "[SSR] 5"
-      - "[SSR]"
-      - "[SSR] 2"
-      - "[SSR] 4"
-      - "[SSR] 3"
-      - CA-TG频道:t.me/ruofengfx+3
-      - KR-TG频道:t.me/ruofengfx 5
-      - KR-TG频道:t.me/ruofengfx 6
-      - HK-TG频道:t.me/ruofengfxl 16
-      - KR-TG频道:t.me/ruofengfx 8
-      - JP-TG频道:t.me/ruofengfx 5
+      - Indonesia 01
+      - Hong Kong 05
+      - Singapore 11 [Premium]
+      - Singapore 02
+      - Singapore 09
+      - Singapore 07
+      - Singapore 12
+      - Singapore 10
+      - Hong Kong 04
+      - Hong Kong 12
+      - Hong Kong 01
+      - Hong Kong 07
+      - Hong Kong 16
+      - Hong Kong 03
+      - Hong Kong 13
+      - Hong Kong 14
+      - Hong Kong 21
+      - Hong Kong 22
+      - Hong Kong 15
+      - Hong Kong 19
+      - Singapore 01
+      - Singapore 05
+      - Singapore 08
+      - Hong Kong 06
+      - Hong Kong 10
+      - Singapore 04
+      - Hong Kong 18
+      - Singapore 03
+      - Hong Kong 23
+      - Taiwan 1
+      - Taiwan 3
+      - Taiwan 4
+      - Hong Kong 11
+      - Singapore 06
+      - Taiwan 5
+      - Brazil 01
+      - Hong Kong 09
+      - Israel
+      - Hong Kong 02
+      - Hong Kong 08
+      - Hong Kong 17
+      - Hong Kong 20
+      - Korea 4
+      - United Arab Emirates 01
+      - Turkey
+      - Russia Moscow
+      - Taiwan 2
+      - France
+      - Austria
+      - Canada 01
+      - United States 11
+      - Russia St.Peterburg
+      - Canada 02
+      - United States 01
+      - United States 08
+      - United States 16
+      - United States 03
+      - United States 09
+      - United States 10
+      - Bulgaria
+      - United States 02
+      - United States 12
+      - India 1
+      - United States 13
+      - United States 06
+      - United States 15
+      - United States 04
+      - United States 14
+      - Sweden
+      - Ireland 1
+      - Hungary
+      - United States 07
+      - United States 05
+      - United States 17
+      - Ireland 2
+      - United Kingdom 1
+      - Italy
+      - Korea 3
+      - Germany 1
+      - Switzerland 01
+      - United Kingdom 2
+      - United Kingdom 3
+      - Germany 2
+      - Netherlands
+      - Korea 2
+      - Korea 1
+      - Australia Sydney 02
+      - Japan 10
+      - Japan 21
+      - Japan 03
+      - Japan 05
+      - Japan 12
+      - Japan 17
+      - Japan 18
+      - Japan 06
+      - Japan 23 [Premium]
+      - Japan 01
+      - Japan 04
+      - Australia Sydney 01 [Premium]
+      - Japan 13
+      - Japan 14
+      - Japan 16
+      - Japan 19
+      - Japan 11
+      - Japan 02
+      - Japan 07
+      - Japan 09
+      - Japan 15
+      - Japan 08
+      - Japan 20
+      - Japan 22 [Premium]
+      - India 2
       - US-TG频道:t.me/ruofengfx 4
-      - FR-TG频道:t.me/ruofengfx
-      - GB-TG频道:t.me/ruofengfx 10
-      - US-TG频道:t.me/ruofengfx 5
-      - US-TG频道:t.me/ruofengfx 6
-      - US-TG频道:t.me/ruofengfx 7
+      - US-2
+      - IN5
+      - "[VIP]韩国1"
+      - "[负载均衡]韩国1"
+      - "[VIP][沪日]美国2"
+      - US-l 22
+      - "[VIP][广港]台湾3"
+      - JP 7
+      - 香港1•HGC
+      - "[VIP][广港]香港3•HGC"
+      - "[Trojan]"
+      - "[VIP][广港]香港5•HKT"
+      - CN_07
+      - KR-TG频道:t.me/ruofengfx 8
+      - 俄罗斯1
+      - TW
+      - "[VIP][BGP]台湾2"
+      - GB-l 2
+      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
+      - "[VIP]韩国4"
+      - "[VIP]韩国2"
+      - UK5
+      - UK22
+      - CA-Openit.ml
+      - CA-l+6
+      - CA-l
+      - CAl+4
+      - CA-Openit.ml+4
+      - defaultName_17
+      - defaultName_43
+      - CA-53
+      - CN_49
+      - CN_56
+      - CN_43
+      - CA_14
+      - UK26
+      - Relay_TG频道:t.me/ruofeng_fx_371
+      - 加拿大)(Public)
+      - Relay_🇨🇳CN_10_15Mb_14
+      - "[🇨🇦][SS][加]+2"
+      - CA-l+2
+      - UK24
+      - CA-l+5
+      - _GB_英国_17
+      - UK2
+      - CA-Openit.ml+2
+      - UK25
+      - UK4
+      - RELAY-l
+      - UK27
+      - UK16
+      - CN_426
+      - CN_52
+      - CN_48
+      - CN_57
+      - CN_56+2
+      - CN_48+2
+      - CN_431
+      - CN_413
+      - CN_54
+      - CA_12
+      - defaultName_83
+      - CA_16
+      - UK30
+      - CN_53
+      - UK18
+      - defaultName_26
+      - TG频道:t.me/ruofeng_fx_126
+      - Relay_🇨🇳CN_36_95Mb_15
+      - KR_34
+      - GB_TG频道:t.me/ruofeng_fx+750
+      - CN_05
+      - UK23
+      - JP2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -780,796 +944,952 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - N TG频道:t.me/ruofengfx
-      - 悉尼 TG频道:t.me/ruofengfx
-      - 日本A TG频道:t.me/ruofengfx
-      - 日本B TG频道:t.me/ruofengfx
-      - 日本C TG频道:t.me/ruofengfx
-      - 日本D TG频道:t.me/ruofengfx
-      - 法兰克福A TG频道:t.me/ruofengfx
-      - 美国A TG频道:t.me/ruofengfx
-      - 美国B TG频道:t.me/ruofengfx
-      - 美国C TG频道:t.me/ruofengfx
-      - 香港A TG频道:t.me/ruofengfx
-      - 香港B TG频道:t.me/ruofengfx
-      - 香港C TG频道:t.me/ruofengfx
-      - 香港D TG频道:t.me/ruofengfx
-      - 日本 TG频道:t.me/ruofengfx
-      - 日本B TG频道:t.me/ruofengfx 2
-      - 日本B TG频道:t.me/ruofengfx 3
-      - 日本C TG频道:t.me/ruofengfx 2
-      - 日本D TG频道:t.me/ruofengfx 2
-      - 美国A TG频道:t.me/ruofengfx 2
-      - 美国B TG频道:t.me/ruofengfx 2
-      - 美国C TG频道:t.me/ruofengfx 2
-      - 香港A TG频道:t.me/ruofengfx 2
-      - 香港B TG频道:t.me/ruofengfx 2
-      - 香港C TG频道:t.me/ruofengfx 2
-      - 香港D TG频道:t.me/ruofengfx 2
-      - 新加坡 - SS/SSR - 01
+      - 新加坡 - SS/SSR - 04
       - 新加坡 - SS/SSR - 06
-      - 台湾 - SS/SSR - 04
-      - 香港 - SS/SSR - 04
-      - 美国 - SS/SSR - 02
-      - 美国 - SS/SSR - 05
-      - 新加坡 - SS/SSR - 05
-      - 韩国 - SS/SSR - 05
       - 新加坡 - SS/SSR - 02
-      - 韩国 - SS/SSR - 04
-      - 香港 - SS/SSR - 05
-      - 韩国 - SS/SSR - 03
-      - 韩国 - SS/SSR - 06
-      - 香港 - SS/SSR - 09
       - 新加坡 - SS/SSR - 03
-      - 韩国 - SS/SSR - 02
-      - 台湾 - SS/SSR - 05
-      - 台湾 - SS/SSR - 06
+      - 美国 - SS/SSR - 01
+      - 美国 - SS/SSR - 04
+      - 美国 - SS/SSR - 03
+      - 新加坡 - SS/SSR - 05
+      - 韩国 - SS/SSR - 03
+      - 韩国 - SS/SSR - 05
+      - 新加坡 - SS/SSR - 01
+      - 韩国 - SS/SSR - 01
+      - "[SSR] 4"
+      - "[SSR]"
+      - "[SSR] 3"
+      - 香港 - SS/SSR - 04
       - 美国 - SS/SSR - 06
       - 香港 - SS/SSR - 10
-      - 香港 - SS/SSR - 03
-      - 美国 - SS/SSR - 01
-      - 台湾 - SS/SSR - 01
+      - 香港 - SS/SSR - 05
+      - 美国 - SS/SSR - 02
+      - 美国 - SS/SSR - 05
+      - 台湾 - SS/SSR - 06
+      - 韩国 - SS/SSR - 02
+      - 韩国 - SS/SSR - 04
+      - 韩国 - SS/SSR - 06
       - 香港 - SS/SSR - 01
-      - 韩国 - SS/SSR - 01
+      - 香港 - SS/SSR - 02
+      - 台湾 - SS/SSR - 04
+      - 香港 - SS/SSR - 08
+      - 香港 - SS/SSR - 09
+      - 台湾 - SS/SSR - 01
+      - 台湾 - SS/SSR - 02
+      - "[SSR] 2"
+      - 台湾 - SS/SSR - 03
+      - 台湾 - SS/SSR - 05
       - 香港 - SS/SSR - 07
       - 香港 - SS/SSR - 06
-      - 新加坡 - SS/SSR - 04
-      - 美国 - SS/SSR - 04
-      - 香港 - SS/SSR - 02
-      - 美国 - SS/SSR - 03
-      - 香港 - SS/SSR - 08
-      - 台湾 - SS/SSR - 02
-      - 台湾 - SS/SSR - 03
-      - US-2
-      - US- 14
-      - "[VIP][广港]台湾3"
-      - IN-
-      - GB_TG频道:t.me/ruofeng_fx+750
-      - JP 7
-      - "[VIP][沪日]美国2"
-      - GB_TG频道:t.me/ruofeng_fx+751
-      - "[VIP]韩国4"
-      - SG-17
-      - GB_TG频道:t.me/ruofeng_fx+758
-      - 美国)
-      - JP2
-      - GB_21
-      - defaultName_17
-      - defaultName_83
-      - GB-l 2
-      - Relay_🇨🇳CN_36_95Mb_15
-      - defaultName_26
-      - 香港1•HGC
-      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
-      - US-l 22
-      - TW
-      - UK25
-      - UK23
-      - UK30
-      - UK2
-      - GB_TG频道:t.me/ruofeng_fx+739
-      - UK27
-      - UK4
-      - UK26
-      - UK5
-      - UK24
-      - UK18
-      - UK22
-      - UK16
-      - TG频道:t.me/ruofeng_fx_126
-      - US39
-      - CA-Openit.ml+4
-      - CA-
-      - _GB_英国_17
-      - CA-Openit.ml
-      - 加拿大)(Public)
-      - CA_12
-      - CA-53
-      - IN5
-      - 18_TG频道:t.me/ruofeng_fx+134
-      - 18_TG频道:t.me/ruofeng_fx+120
-      - "[VIP][广港]香港5•HKT"
-      - US_TG频道:t.me/ruofeng_fx+3077
-      - GB_TG频道:t.me/ruofeng_fx+756
-      - CA-Openit.ml+2
-      - KR_34
-      - Relay_TG频道:t.me/ruofeng_fx_371
-      - RELAY-l
-      - "[VIP]韩国1"
-      - CA_14
-      - "[VIP]韩国2"
-      - CA-l+6
-      - CN_56+2
-      - "[负载均衡]韩国1"
-      - CN_43
-      - CN_48
-      - CN_50
-      - CN_426
-      - CN_56
-      - CN_54
-      - CN_48+2
-      - CN_49
-      - CN_53
-      - CN_413
-      - CN_431
-      - GB-l
-      - CN_57
-      - CN_52
-      - GB_TG频道:t.me/ruofeng_fx+742
-      - GB_TG频道:t.me/ruofeng_fx+748
-      - 俄罗斯1
-      - "[🇨🇦][SS][加]+2"
-      - GB_TG频道:t.me/ruofeng_fx+765
-      - US-l 18
-      - defaultName_43
-      - CA-l+2
-      - Relay_🇨🇳CN_10_15Mb_14
-      - JP-17
-      - "[VIP][BGP]台湾2"
-      - CA-l
-      - CA_16
-      - CN_05
-      - CN_07
-      - KRl_5
-      - CAl+4
-      - CA-l+5
-      - "[Trojan]"
-      - "[VIP][广港]香港3•HGC"
-      - "[VIP][沪日]法国"
-      - SG TG频道:t.me/ruofeng_fx
-      - RU-US TG频道:t.me/ruofeng_fx
-      - SG1 TG频道:t.me/ruofeng_fx
-      - JP TG频道:t.me/ruofeng_fx
-      - SG2 TG频道:t.me/ruofeng_fx
-      - US TG频道:t.me/ruofeng_fx
-      - HK TG频道:t.me/ruofeng_fx"
-      - SG3 TG频道:t.me/ruofeng_fx"
-      - JP1 TG频道:t.me/ruofeng_fx
-      - TW TG频道:t.me/ruofeng_fx"
-      - SG4 TG频道:t.me/ruofeng_fx"
-      - PSG5 TG频道:t.me/ruofeng_fx"
+      - 香港 - SS/SSR - 03
       - "[SSR] 5"
-      - "[SSR]"
-      - "[SSR] 2"
-      - "[SSR] 4"
-      - "[SSR] 3"
-      - CA-TG频道:t.me/ruofengfx+3
-      - KR-TG频道:t.me/ruofengfx 5
-      - KR-TG频道:t.me/ruofengfx 6
-      - HK-TG频道:t.me/ruofengfxl 16
-      - KR-TG频道:t.me/ruofengfx 8
-      - JP-TG频道:t.me/ruofengfx 5
+      - Indonesia 01
+      - Hong Kong 05
+      - Singapore 11 [Premium]
+      - Singapore 02
+      - Singapore 09
+      - Singapore 07
+      - Singapore 12
+      - Singapore 10
+      - Hong Kong 04
+      - Hong Kong 12
+      - Hong Kong 01
+      - Hong Kong 07
+      - Hong Kong 16
+      - Hong Kong 03
+      - Hong Kong 13
+      - Hong Kong 14
+      - Hong Kong 21
+      - Hong Kong 22
+      - Hong Kong 15
+      - Hong Kong 19
+      - Singapore 01
+      - Singapore 05
+      - Singapore 08
+      - Hong Kong 06
+      - Hong Kong 10
+      - Singapore 04
+      - Hong Kong 18
+      - Singapore 03
+      - Hong Kong 23
+      - Taiwan 1
+      - Taiwan 3
+      - Taiwan 4
+      - Hong Kong 11
+      - Singapore 06
+      - Taiwan 5
+      - Brazil 01
+      - Hong Kong 09
+      - Israel
+      - Hong Kong 02
+      - Hong Kong 08
+      - Hong Kong 17
+      - Hong Kong 20
+      - Korea 4
+      - United Arab Emirates 01
+      - Turkey
+      - Russia Moscow
+      - Taiwan 2
+      - France
+      - Austria
+      - Canada 01
+      - United States 11
+      - Russia St.Peterburg
+      - Canada 02
+      - United States 01
+      - United States 08
+      - United States 16
+      - United States 03
+      - United States 09
+      - United States 10
+      - Bulgaria
+      - United States 02
+      - United States 12
+      - India 1
+      - United States 13
+      - United States 06
+      - United States 15
+      - United States 04
+      - United States 14
+      - Sweden
+      - Ireland 1
+      - Hungary
+      - United States 07
+      - United States 05
+      - United States 17
+      - Ireland 2
+      - United Kingdom 1
+      - Italy
+      - Korea 3
+      - Germany 1
+      - Switzerland 01
+      - United Kingdom 2
+      - United Kingdom 3
+      - Germany 2
+      - Netherlands
+      - Korea 2
+      - Korea 1
+      - Australia Sydney 02
+      - Japan 10
+      - Japan 21
+      - Japan 03
+      - Japan 05
+      - Japan 12
+      - Japan 17
+      - Japan 18
+      - Japan 06
+      - Japan 23 [Premium]
+      - Japan 01
+      - Japan 04
+      - Australia Sydney 01 [Premium]
+      - Japan 13
+      - Japan 14
+      - Japan 16
+      - Japan 19
+      - Japan 11
+      - Japan 02
+      - Japan 07
+      - Japan 09
+      - Japan 15
+      - Japan 08
+      - Japan 20
+      - Japan 22 [Premium]
+      - India 2
       - US-TG频道:t.me/ruofengfx 4
-      - FR-TG频道:t.me/ruofengfx
-      - GB-TG频道:t.me/ruofengfx 10
-      - US-TG频道:t.me/ruofengfx 5
-      - US-TG频道:t.me/ruofengfx 6
-      - US-TG频道:t.me/ruofengfx 7
+      - US-2
+      - IN5
+      - "[VIP]韩国1"
+      - "[负载均衡]韩国1"
+      - "[VIP][沪日]美国2"
+      - US-l 22
+      - "[VIP][广港]台湾3"
+      - JP 7
+      - 香港1•HGC
+      - "[VIP][广港]香港3•HGC"
+      - "[Trojan]"
+      - "[VIP][广港]香港5•HKT"
+      - CN_07
+      - KR-TG频道:t.me/ruofengfx 8
+      - 俄罗斯1
+      - TW
+      - "[VIP][BGP]台湾2"
+      - GB-l 2
+      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
+      - "[VIP]韩国4"
+      - "[VIP]韩国2"
+      - UK5
+      - UK22
+      - CA-Openit.ml
+      - CA-l+6
+      - CA-l
+      - CAl+4
+      - CA-Openit.ml+4
+      - defaultName_17
+      - defaultName_43
+      - CA-53
+      - CN_49
+      - CN_56
+      - CN_43
+      - CA_14
+      - UK26
+      - Relay_TG频道:t.me/ruofeng_fx_371
+      - 加拿大)(Public)
+      - Relay_🇨🇳CN_10_15Mb_14
+      - "[🇨🇦][SS][加]+2"
+      - CA-l+2
+      - UK24
+      - CA-l+5
+      - _GB_英国_17
+      - UK2
+      - CA-Openit.ml+2
+      - UK25
+      - UK4
+      - RELAY-l
+      - UK27
+      - UK16
+      - CN_426
+      - CN_52
+      - CN_48
+      - CN_57
+      - CN_56+2
+      - CN_48+2
+      - CN_431
+      - CN_413
+      - CN_54
+      - CA_12
+      - defaultName_83
+      - CA_16
+      - UK30
+      - CN_53
+      - UK18
+      - defaultName_26
+      - TG频道:t.me/ruofeng_fx_126
+      - Relay_🇨🇳CN_36_95Mb_15
+      - KR_34
+      - GB_TG频道:t.me/ruofeng_fx+750
+      - CN_05
+      - UK23
+      - JP2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港A TG频道:t.me/ruofengfx
-      - 香港B TG频道:t.me/ruofengfx
-      - 香港C TG频道:t.me/ruofengfx
-      - 香港D TG频道:t.me/ruofengfx
-      - 香港A TG频道:t.me/ruofengfx 2
-      - 香港B TG频道:t.me/ruofengfx 2
-      - 香港C TG频道:t.me/ruofengfx 2
-      - 香港D TG频道:t.me/ruofengfx 2
-      - 台湾 - SS/SSR - 04
       - 香港 - SS/SSR - 04
-      - 香港 - SS/SSR - 05
-      - 香港 - SS/SSR - 09
-      - 台湾 - SS/SSR - 05
-      - 台湾 - SS/SSR - 06
       - 香港 - SS/SSR - 10
-      - 香港 - SS/SSR - 03
-      - 台湾 - SS/SSR - 01
+      - 香港 - SS/SSR - 05
+      - 台湾 - SS/SSR - 06
       - 香港 - SS/SSR - 01
-      - 香港 - SS/SSR - 07
-      - 香港 - SS/SSR - 06
       - 香港 - SS/SSR - 02
+      - 台湾 - SS/SSR - 04
       - 香港 - SS/SSR - 08
+      - 香港 - SS/SSR - 09
+      - 台湾 - SS/SSR - 01
       - 台湾 - SS/SSR - 02
       - 台湾 - SS/SSR - 03
+      - 台湾 - SS/SSR - 05
+      - 香港 - SS/SSR - 07
+      - 香港 - SS/SSR - 06
+      - 香港 - SS/SSR - 03
       - "[VIP][广港]台湾3"
       - 香港1•HGC
+      - "[VIP][广港]香港3•HGC"
       - "[VIP][广港]香港5•HKT"
       - "[VIP][BGP]台湾2"
-      - "[VIP][广港]香港3•HGC"
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - N TG频道:t.me/ruofengfx
-      - 悉尼 TG频道:t.me/ruofengfx
-      - 日本A TG频道:t.me/ruofengfx
-      - 日本B TG频道:t.me/ruofengfx
-      - 日本C TG频道:t.me/ruofengfx
-      - 日本D TG频道:t.me/ruofengfx
-      - 法兰克福A TG频道:t.me/ruofengfx
-      - 美国A TG频道:t.me/ruofengfx
-      - 美国B TG频道:t.me/ruofengfx
-      - 美国C TG频道:t.me/ruofengfx
-      - 香港A TG频道:t.me/ruofengfx
-      - 香港B TG频道:t.me/ruofengfx
-      - 香港C TG频道:t.me/ruofengfx
-      - 香港D TG频道:t.me/ruofengfx
-      - 日本 TG频道:t.me/ruofengfx
-      - 日本B TG频道:t.me/ruofengfx 2
-      - 日本B TG频道:t.me/ruofengfx 3
-      - 日本C TG频道:t.me/ruofengfx 2
-      - 日本D TG频道:t.me/ruofengfx 2
-      - 美国A TG频道:t.me/ruofengfx 2
-      - 美国B TG频道:t.me/ruofengfx 2
-      - 美国C TG频道:t.me/ruofengfx 2
-      - 香港A TG频道:t.me/ruofengfx 2
-      - 香港B TG频道:t.me/ruofengfx 2
-      - 香港C TG频道:t.me/ruofengfx 2
-      - 香港D TG频道:t.me/ruofengfx 2
-      - 新加坡 - SS/SSR - 01
+      - 新加坡 - SS/SSR - 04
       - 新加坡 - SS/SSR - 06
-      - 台湾 - SS/SSR - 04
-      - 香港 - SS/SSR - 04
-      - 美国 - SS/SSR - 02
-      - 美国 - SS/SSR - 05
-      - 新加坡 - SS/SSR - 05
-      - 韩国 - SS/SSR - 05
       - 新加坡 - SS/SSR - 02
-      - 韩国 - SS/SSR - 04
-      - 香港 - SS/SSR - 05
-      - 韩国 - SS/SSR - 03
-      - 韩国 - SS/SSR - 06
-      - 香港 - SS/SSR - 09
       - 新加坡 - SS/SSR - 03
-      - 韩国 - SS/SSR - 02
-      - 台湾 - SS/SSR - 05
-      - 台湾 - SS/SSR - 06
+      - 美国 - SS/SSR - 01
+      - 美国 - SS/SSR - 04
+      - 美国 - SS/SSR - 03
+      - 新加坡 - SS/SSR - 05
+      - 韩国 - SS/SSR - 03
+      - 韩国 - SS/SSR - 05
+      - 新加坡 - SS/SSR - 01
+      - 韩国 - SS/SSR - 01
+      - "[SSR] 4"
+      - "[SSR]"
+      - "[SSR] 3"
+      - 香港 - SS/SSR - 04
       - 美国 - SS/SSR - 06
       - 香港 - SS/SSR - 10
-      - 香港 - SS/SSR - 03
-      - 美国 - SS/SSR - 01
-      - 台湾 - SS/SSR - 01
+      - 香港 - SS/SSR - 05
+      - 美国 - SS/SSR - 02
+      - 美国 - SS/SSR - 05
+      - 台湾 - SS/SSR - 06
+      - 韩国 - SS/SSR - 02
+      - 韩国 - SS/SSR - 04
+      - 韩国 - SS/SSR - 06
       - 香港 - SS/SSR - 01
-      - 韩国 - SS/SSR - 01
+      - 香港 - SS/SSR - 02
+      - 台湾 - SS/SSR - 04
+      - 香港 - SS/SSR - 08
+      - 香港 - SS/SSR - 09
+      - 台湾 - SS/SSR - 01
+      - 台湾 - SS/SSR - 02
+      - "[SSR] 2"
+      - 台湾 - SS/SSR - 03
+      - 台湾 - SS/SSR - 05
       - 香港 - SS/SSR - 07
       - 香港 - SS/SSR - 06
-      - 新加坡 - SS/SSR - 04
-      - 美国 - SS/SSR - 04
-      - 香港 - SS/SSR - 02
-      - 美国 - SS/SSR - 03
-      - 香港 - SS/SSR - 08
-      - 台湾 - SS/SSR - 02
-      - 台湾 - SS/SSR - 03
-      - US-2
-      - US- 14
-      - "[VIP][广港]台湾3"
-      - IN-
-      - GB_TG频道:t.me/ruofeng_fx+750
-      - JP 7
-      - "[VIP][沪日]美国2"
-      - GB_TG频道:t.me/ruofeng_fx+751
-      - "[VIP]韩国4"
-      - SG-17
-      - GB_TG频道:t.me/ruofeng_fx+758
-      - 美国)
-      - JP2
-      - GB_21
-      - defaultName_17
-      - defaultName_83
-      - GB-l 2
-      - Relay_🇨🇳CN_36_95Mb_15
-      - defaultName_26
-      - 香港1•HGC
-      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
-      - US-l 22
-      - TW
-      - UK25
-      - UK23
-      - UK30
-      - UK2
-      - GB_TG频道:t.me/ruofeng_fx+739
-      - UK27
-      - UK4
-      - UK26
-      - UK5
-      - UK24
-      - UK18
-      - UK22
-      - UK16
-      - TG频道:t.me/ruofeng_fx_126
-      - US39
-      - CA-Openit.ml+4
-      - CA-
-      - _GB_英国_17
-      - CA-Openit.ml
-      - 加拿大)(Public)
-      - CA_12
-      - CA-53
-      - IN5
-      - 18_TG频道:t.me/ruofeng_fx+134
-      - 18_TG频道:t.me/ruofeng_fx+120
-      - "[VIP][广港]香港5•HKT"
-      - US_TG频道:t.me/ruofeng_fx+3077
-      - GB_TG频道:t.me/ruofeng_fx+756
-      - CA-Openit.ml+2
-      - KR_34
-      - Relay_TG频道:t.me/ruofeng_fx_371
-      - RELAY-l
-      - "[VIP]韩国1"
-      - CA_14
-      - "[VIP]韩国2"
-      - CA-l+6
-      - CN_56+2
-      - "[负载均衡]韩国1"
-      - CN_43
-      - CN_48
-      - CN_50
-      - CN_426
-      - CN_56
-      - CN_54
-      - CN_48+2
-      - CN_49
-      - CN_53
-      - CN_413
-      - CN_431
-      - GB-l
-      - CN_57
-      - CN_52
-      - GB_TG频道:t.me/ruofeng_fx+742
-      - GB_TG频道:t.me/ruofeng_fx+748
-      - 俄罗斯1
-      - "[🇨🇦][SS][加]+2"
-      - GB_TG频道:t.me/ruofeng_fx+765
-      - US-l 18
-      - defaultName_43
-      - CA-l+2
-      - Relay_🇨🇳CN_10_15Mb_14
-      - JP-17
-      - "[VIP][BGP]台湾2"
-      - CA-l
-      - CA_16
-      - CN_05
-      - CN_07
-      - KRl_5
-      - CAl+4
-      - CA-l+5
-      - "[Trojan]"
-      - "[VIP][广港]香港3•HGC"
-      - "[VIP][沪日]法国"
-      - SG TG频道:t.me/ruofeng_fx
-      - RU-US TG频道:t.me/ruofeng_fx
-      - SG1 TG频道:t.me/ruofeng_fx
-      - JP TG频道:t.me/ruofeng_fx
-      - SG2 TG频道:t.me/ruofeng_fx
-      - US TG频道:t.me/ruofeng_fx
-      - HK TG频道:t.me/ruofeng_fx"
-      - SG3 TG频道:t.me/ruofeng_fx"
-      - JP1 TG频道:t.me/ruofeng_fx
-      - TW TG频道:t.me/ruofeng_fx"
-      - SG4 TG频道:t.me/ruofeng_fx"
-      - PSG5 TG频道:t.me/ruofeng_fx"
+      - 香港 - SS/SSR - 03
       - "[SSR] 5"
-      - "[SSR]"
-      - "[SSR] 2"
-      - "[SSR] 4"
-      - "[SSR] 3"
-      - CA-TG频道:t.me/ruofengfx+3
-      - KR-TG频道:t.me/ruofengfx 5
-      - KR-TG频道:t.me/ruofengfx 6
-      - HK-TG频道:t.me/ruofengfxl 16
-      - KR-TG频道:t.me/ruofengfx 8
-      - JP-TG频道:t.me/ruofengfx 5
+      - Indonesia 01
+      - Hong Kong 05
+      - Singapore 11 [Premium]
+      - Singapore 02
+      - Singapore 09
+      - Singapore 07
+      - Singapore 12
+      - Singapore 10
+      - Hong Kong 04
+      - Hong Kong 12
+      - Hong Kong 01
+      - Hong Kong 07
+      - Hong Kong 16
+      - Hong Kong 03
+      - Hong Kong 13
+      - Hong Kong 14
+      - Hong Kong 21
+      - Hong Kong 22
+      - Hong Kong 15
+      - Hong Kong 19
+      - Singapore 01
+      - Singapore 05
+      - Singapore 08
+      - Hong Kong 06
+      - Hong Kong 10
+      - Singapore 04
+      - Hong Kong 18
+      - Singapore 03
+      - Hong Kong 23
+      - Taiwan 1
+      - Taiwan 3
+      - Taiwan 4
+      - Hong Kong 11
+      - Singapore 06
+      - Taiwan 5
+      - Brazil 01
+      - Hong Kong 09
+      - Israel
+      - Hong Kong 02
+      - Hong Kong 08
+      - Hong Kong 17
+      - Hong Kong 20
+      - Korea 4
+      - United Arab Emirates 01
+      - Turkey
+      - Russia Moscow
+      - Taiwan 2
+      - France
+      - Austria
+      - Canada 01
+      - United States 11
+      - Russia St.Peterburg
+      - Canada 02
+      - United States 01
+      - United States 08
+      - United States 16
+      - United States 03
+      - United States 09
+      - United States 10
+      - Bulgaria
+      - United States 02
+      - United States 12
+      - India 1
+      - United States 13
+      - United States 06
+      - United States 15
+      - United States 04
+      - United States 14
+      - Sweden
+      - Ireland 1
+      - Hungary
+      - United States 07
+      - United States 05
+      - United States 17
+      - Ireland 2
+      - United Kingdom 1
+      - Italy
+      - Korea 3
+      - Germany 1
+      - Switzerland 01
+      - United Kingdom 2
+      - United Kingdom 3
+      - Germany 2
+      - Netherlands
+      - Korea 2
+      - Korea 1
+      - Australia Sydney 02
+      - Japan 10
+      - Japan 21
+      - Japan 03
+      - Japan 05
+      - Japan 12
+      - Japan 17
+      - Japan 18
+      - Japan 06
+      - Japan 23 [Premium]
+      - Japan 01
+      - Japan 04
+      - Australia Sydney 01 [Premium]
+      - Japan 13
+      - Japan 14
+      - Japan 16
+      - Japan 19
+      - Japan 11
+      - Japan 02
+      - Japan 07
+      - Japan 09
+      - Japan 15
+      - Japan 08
+      - Japan 20
+      - Japan 22 [Premium]
+      - India 2
       - US-TG频道:t.me/ruofengfx 4
-      - FR-TG频道:t.me/ruofengfx
-      - GB-TG频道:t.me/ruofengfx 10
-      - US-TG频道:t.me/ruofengfx 5
-      - US-TG频道:t.me/ruofengfx 6
-      - US-TG频道:t.me/ruofengfx 7
+      - US-2
+      - IN5
+      - "[VIP]韩国1"
+      - "[负载均衡]韩国1"
+      - "[VIP][沪日]美国2"
+      - US-l 22
+      - "[VIP][广港]台湾3"
+      - JP 7
+      - 香港1•HGC
+      - "[VIP][广港]香港3•HGC"
+      - "[Trojan]"
+      - "[VIP][广港]香港5•HKT"
+      - CN_07
+      - KR-TG频道:t.me/ruofengfx 8
+      - 俄罗斯1
+      - TW
+      - "[VIP][BGP]台湾2"
+      - GB-l 2
+      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
+      - "[VIP]韩国4"
+      - "[VIP]韩国2"
+      - UK5
+      - UK22
+      - CA-Openit.ml
+      - CA-l+6
+      - CA-l
+      - CAl+4
+      - CA-Openit.ml+4
+      - defaultName_17
+      - defaultName_43
+      - CA-53
+      - CN_49
+      - CN_56
+      - CN_43
+      - CA_14
+      - UK26
+      - Relay_TG频道:t.me/ruofeng_fx_371
+      - 加拿大)(Public)
+      - Relay_🇨🇳CN_10_15Mb_14
+      - "[🇨🇦][SS][加]+2"
+      - CA-l+2
+      - UK24
+      - CA-l+5
+      - _GB_英国_17
+      - UK2
+      - CA-Openit.ml+2
+      - UK25
+      - UK4
+      - RELAY-l
+      - UK27
+      - UK16
+      - CN_426
+      - CN_52
+      - CN_48
+      - CN_57
+      - CN_56+2
+      - CN_48+2
+      - CN_431
+      - CN_413
+      - CN_54
+      - CA_12
+      - defaultName_83
+      - CA_16
+      - UK30
+      - CN_53
+      - UK18
+      - defaultName_26
+      - TG频道:t.me/ruofeng_fx_126
+      - Relay_🇨🇳CN_36_95Mb_15
+      - KR_34
+      - GB_TG频道:t.me/ruofeng_fx+750
+      - CN_05
+      - UK23
+      - JP2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - N TG频道:t.me/ruofengfx
-      - 悉尼 TG频道:t.me/ruofengfx
-      - 日本A TG频道:t.me/ruofengfx
-      - 日本B TG频道:t.me/ruofengfx
-      - 日本C TG频道:t.me/ruofengfx
-      - 日本D TG频道:t.me/ruofengfx
-      - 法兰克福A TG频道:t.me/ruofengfx
-      - 美国A TG频道:t.me/ruofengfx
-      - 美国B TG频道:t.me/ruofengfx
-      - 美国C TG频道:t.me/ruofengfx
-      - 香港A TG频道:t.me/ruofengfx
-      - 香港B TG频道:t.me/ruofengfx
-      - 香港C TG频道:t.me/ruofengfx
-      - 香港D TG频道:t.me/ruofengfx
-      - 日本 TG频道:t.me/ruofengfx
-      - 日本B TG频道:t.me/ruofengfx 2
-      - 日本B TG频道:t.me/ruofengfx 3
-      - 日本C TG频道:t.me/ruofengfx 2
-      - 日本D TG频道:t.me/ruofengfx 2
-      - 美国A TG频道:t.me/ruofengfx 2
-      - 美国B TG频道:t.me/ruofengfx 2
-      - 美国C TG频道:t.me/ruofengfx 2
-      - 香港A TG频道:t.me/ruofengfx 2
-      - 香港B TG频道:t.me/ruofengfx 2
-      - 香港C TG频道:t.me/ruofengfx 2
-      - 香港D TG频道:t.me/ruofengfx 2
-      - 新加坡 - SS/SSR - 01
+      - 新加坡 - SS/SSR - 04
       - 新加坡 - SS/SSR - 06
-      - 台湾 - SS/SSR - 04
-      - 香港 - SS/SSR - 04
-      - 美国 - SS/SSR - 02
-      - 美国 - SS/SSR - 05
-      - 新加坡 - SS/SSR - 05
-      - 韩国 - SS/SSR - 05
       - 新加坡 - SS/SSR - 02
-      - 韩国 - SS/SSR - 04
-      - 香港 - SS/SSR - 05
-      - 韩国 - SS/SSR - 03
-      - 韩国 - SS/SSR - 06
-      - 香港 - SS/SSR - 09
       - 新加坡 - SS/SSR - 03
-      - 韩国 - SS/SSR - 02
-      - 台湾 - SS/SSR - 05
-      - 台湾 - SS/SSR - 06
+      - 美国 - SS/SSR - 01
+      - 美国 - SS/SSR - 04
+      - 美国 - SS/SSR - 03
+      - 新加坡 - SS/SSR - 05
+      - 韩国 - SS/SSR - 03
+      - 韩国 - SS/SSR - 05
+      - 新加坡 - SS/SSR - 01
+      - 韩国 - SS/SSR - 01
+      - "[SSR] 4"
+      - "[SSR]"
+      - "[SSR] 3"
+      - 香港 - SS/SSR - 04
       - 美国 - SS/SSR - 06
       - 香港 - SS/SSR - 10
-      - 香港 - SS/SSR - 03
-      - 美国 - SS/SSR - 01
-      - 台湾 - SS/SSR - 01
+      - 香港 - SS/SSR - 05
+      - 美国 - SS/SSR - 02
+      - 美国 - SS/SSR - 05
+      - 台湾 - SS/SSR - 06
+      - 韩国 - SS/SSR - 02
+      - 韩国 - SS/SSR - 04
+      - 韩国 - SS/SSR - 06
       - 香港 - SS/SSR - 01
-      - 韩国 - SS/SSR - 01
+      - 香港 - SS/SSR - 02
+      - 台湾 - SS/SSR - 04
+      - 香港 - SS/SSR - 08
+      - 香港 - SS/SSR - 09
+      - 台湾 - SS/SSR - 01
+      - 台湾 - SS/SSR - 02
+      - "[SSR] 2"
+      - 台湾 - SS/SSR - 03
+      - 台湾 - SS/SSR - 05
       - 香港 - SS/SSR - 07
       - 香港 - SS/SSR - 06
-      - 新加坡 - SS/SSR - 04
-      - 美国 - SS/SSR - 04
-      - 香港 - SS/SSR - 02
-      - 美国 - SS/SSR - 03
-      - 香港 - SS/SSR - 08
-      - 台湾 - SS/SSR - 02
-      - 台湾 - SS/SSR - 03
-      - US-2
-      - US- 14
-      - "[VIP][广港]台湾3"
-      - IN-
-      - GB_TG频道:t.me/ruofeng_fx+750
-      - JP 7
-      - "[VIP][沪日]美国2"
-      - GB_TG频道:t.me/ruofeng_fx+751
-      - "[VIP]韩国4"
-      - SG-17
-      - GB_TG频道:t.me/ruofeng_fx+758
-      - 美国)
-      - JP2
-      - GB_21
-      - defaultName_17
-      - defaultName_83
-      - GB-l 2
-      - Relay_🇨🇳CN_36_95Mb_15
-      - defaultName_26
-      - 香港1•HGC
-      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
-      - US-l 22
-      - TW
-      - UK25
-      - UK23
-      - UK30
-      - UK2
-      - GB_TG频道:t.me/ruofeng_fx+739
-      - UK27
-      - UK4
-      - UK26
-      - UK5
-      - UK24
-      - UK18
-      - UK22
-      - UK16
-      - TG频道:t.me/ruofeng_fx_126
-      - US39
-      - CA-Openit.ml+4
-      - CA-
-      - _GB_英国_17
-      - CA-Openit.ml
-      - 加拿大)(Public)
-      - CA_12
-      - CA-53
-      - IN5
-      - 18_TG频道:t.me/ruofeng_fx+134
-      - 18_TG频道:t.me/ruofeng_fx+120
-      - "[VIP][广港]香港5•HKT"
-      - US_TG频道:t.me/ruofeng_fx+3077
-      - GB_TG频道:t.me/ruofeng_fx+756
-      - CA-Openit.ml+2
-      - KR_34
-      - Relay_TG频道:t.me/ruofeng_fx_371
-      - RELAY-l
-      - "[VIP]韩国1"
-      - CA_14
-      - "[VIP]韩国2"
-      - CA-l+6
-      - CN_56+2
-      - "[负载均衡]韩国1"
-      - CN_43
-      - CN_48
-      - CN_50
-      - CN_426
-      - CN_56
-      - CN_54
-      - CN_48+2
-      - CN_49
-      - CN_53
-      - CN_413
-      - CN_431
-      - GB-l
-      - CN_57
-      - CN_52
-      - GB_TG频道:t.me/ruofeng_fx+742
-      - GB_TG频道:t.me/ruofeng_fx+748
-      - 俄罗斯1
-      - "[🇨🇦][SS][加]+2"
-      - GB_TG频道:t.me/ruofeng_fx+765
-      - US-l 18
-      - defaultName_43
-      - CA-l+2
-      - Relay_🇨🇳CN_10_15Mb_14
-      - JP-17
-      - "[VIP][BGP]台湾2"
-      - CA-l
-      - CA_16
-      - CN_05
-      - CN_07
-      - KRl_5
-      - CAl+4
-      - CA-l+5
-      - "[Trojan]"
-      - "[VIP][广港]香港3•HGC"
-      - "[VIP][沪日]法国"
-      - SG TG频道:t.me/ruofeng_fx
-      - RU-US TG频道:t.me/ruofeng_fx
-      - SG1 TG频道:t.me/ruofeng_fx
-      - JP TG频道:t.me/ruofeng_fx
-      - SG2 TG频道:t.me/ruofeng_fx
-      - US TG频道:t.me/ruofeng_fx
-      - HK TG频道:t.me/ruofeng_fx"
-      - SG3 TG频道:t.me/ruofeng_fx"
-      - JP1 TG频道:t.me/ruofeng_fx
-      - TW TG频道:t.me/ruofeng_fx"
-      - SG4 TG频道:t.me/ruofeng_fx"
-      - PSG5 TG频道:t.me/ruofeng_fx"
+      - 香港 - SS/SSR - 03
       - "[SSR] 5"
-      - "[SSR]"
-      - "[SSR] 2"
-      - "[SSR] 4"
-      - "[SSR] 3"
-      - CA-TG频道:t.me/ruofengfx+3
-      - KR-TG频道:t.me/ruofengfx 5
-      - KR-TG频道:t.me/ruofengfx 6
-      - HK-TG频道:t.me/ruofengfxl 16
-      - KR-TG频道:t.me/ruofengfx 8
-      - JP-TG频道:t.me/ruofengfx 5
+      - Indonesia 01
+      - Hong Kong 05
+      - Singapore 11 [Premium]
+      - Singapore 02
+      - Singapore 09
+      - Singapore 07
+      - Singapore 12
+      - Singapore 10
+      - Hong Kong 04
+      - Hong Kong 12
+      - Hong Kong 01
+      - Hong Kong 07
+      - Hong Kong 16
+      - Hong Kong 03
+      - Hong Kong 13
+      - Hong Kong 14
+      - Hong Kong 21
+      - Hong Kong 22
+      - Hong Kong 15
+      - Hong Kong 19
+      - Singapore 01
+      - Singapore 05
+      - Singapore 08
+      - Hong Kong 06
+      - Hong Kong 10
+      - Singapore 04
+      - Hong Kong 18
+      - Singapore 03
+      - Hong Kong 23
+      - Taiwan 1
+      - Taiwan 3
+      - Taiwan 4
+      - Hong Kong 11
+      - Singapore 06
+      - Taiwan 5
+      - Brazil 01
+      - Hong Kong 09
+      - Israel
+      - Hong Kong 02
+      - Hong Kong 08
+      - Hong Kong 17
+      - Hong Kong 20
+      - Korea 4
+      - United Arab Emirates 01
+      - Turkey
+      - Russia Moscow
+      - Taiwan 2
+      - France
+      - Austria
+      - Canada 01
+      - United States 11
+      - Russia St.Peterburg
+      - Canada 02
+      - United States 01
+      - United States 08
+      - United States 16
+      - United States 03
+      - United States 09
+      - United States 10
+      - Bulgaria
+      - United States 02
+      - United States 12
+      - India 1
+      - United States 13
+      - United States 06
+      - United States 15
+      - United States 04
+      - United States 14
+      - Sweden
+      - Ireland 1
+      - Hungary
+      - United States 07
+      - United States 05
+      - United States 17
+      - Ireland 2
+      - United Kingdom 1
+      - Italy
+      - Korea 3
+      - Germany 1
+      - Switzerland 01
+      - United Kingdom 2
+      - United Kingdom 3
+      - Germany 2
+      - Netherlands
+      - Korea 2
+      - Korea 1
+      - Australia Sydney 02
+      - Japan 10
+      - Japan 21
+      - Japan 03
+      - Japan 05
+      - Japan 12
+      - Japan 17
+      - Japan 18
+      - Japan 06
+      - Japan 23 [Premium]
+      - Japan 01
+      - Japan 04
+      - Australia Sydney 01 [Premium]
+      - Japan 13
+      - Japan 14
+      - Japan 16
+      - Japan 19
+      - Japan 11
+      - Japan 02
+      - Japan 07
+      - Japan 09
+      - Japan 15
+      - Japan 08
+      - Japan 20
+      - Japan 22 [Premium]
+      - India 2
       - US-TG频道:t.me/ruofengfx 4
-      - FR-TG频道:t.me/ruofengfx
-      - GB-TG频道:t.me/ruofengfx 10
-      - US-TG频道:t.me/ruofengfx 5
-      - US-TG频道:t.me/ruofengfx 6
-      - US-TG频道:t.me/ruofengfx 7
+      - US-2
+      - IN5
+      - "[VIP]韩国1"
+      - "[负载均衡]韩国1"
+      - "[VIP][沪日]美国2"
+      - US-l 22
+      - "[VIP][广港]台湾3"
+      - JP 7
+      - 香港1•HGC
+      - "[VIP][广港]香港3•HGC"
+      - "[Trojan]"
+      - "[VIP][广港]香港5•HKT"
+      - CN_07
+      - KR-TG频道:t.me/ruofengfx 8
+      - 俄罗斯1
+      - TW
+      - "[VIP][BGP]台湾2"
+      - GB-l 2
+      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
+      - "[VIP]韩国4"
+      - "[VIP]韩国2"
+      - UK5
+      - UK22
+      - CA-Openit.ml
+      - CA-l+6
+      - CA-l
+      - CAl+4
+      - CA-Openit.ml+4
+      - defaultName_17
+      - defaultName_43
+      - CA-53
+      - CN_49
+      - CN_56
+      - CN_43
+      - CA_14
+      - UK26
+      - Relay_TG频道:t.me/ruofeng_fx_371
+      - 加拿大)(Public)
+      - Relay_🇨🇳CN_10_15Mb_14
+      - "[🇨🇦][SS][加]+2"
+      - CA-l+2
+      - UK24
+      - CA-l+5
+      - _GB_英国_17
+      - UK2
+      - CA-Openit.ml+2
+      - UK25
+      - UK4
+      - RELAY-l
+      - UK27
+      - UK16
+      - CN_426
+      - CN_52
+      - CN_48
+      - CN_57
+      - CN_56+2
+      - CN_48+2
+      - CN_431
+      - CN_413
+      - CN_54
+      - CA_12
+      - defaultName_83
+      - CA_16
+      - UK30
+      - CN_53
+      - UK18
+      - defaultName_26
+      - TG频道:t.me/ruofeng_fx_126
+      - Relay_🇨🇳CN_36_95Mb_15
+      - KR_34
+      - GB_TG频道:t.me/ruofeng_fx+750
+      - CN_05
+      - UK23
+      - JP2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - N TG频道:t.me/ruofengfx
-      - 悉尼 TG频道:t.me/ruofengfx
-      - 日本A TG频道:t.me/ruofengfx
-      - 日本B TG频道:t.me/ruofengfx
-      - 日本C TG频道:t.me/ruofengfx
-      - 日本D TG频道:t.me/ruofengfx
-      - 法兰克福A TG频道:t.me/ruofengfx
-      - 美国A TG频道:t.me/ruofengfx
-      - 美国B TG频道:t.me/ruofengfx
-      - 美国C TG频道:t.me/ruofengfx
-      - 香港A TG频道:t.me/ruofengfx
-      - 香港B TG频道:t.me/ruofengfx
-      - 香港C TG频道:t.me/ruofengfx
-      - 香港D TG频道:t.me/ruofengfx
-      - 日本 TG频道:t.me/ruofengfx
-      - 日本B TG频道:t.me/ruofengfx 2
-      - 日本B TG频道:t.me/ruofengfx 3
-      - 日本C TG频道:t.me/ruofengfx 2
-      - 日本D TG频道:t.me/ruofengfx 2
-      - 美国A TG频道:t.me/ruofengfx 2
-      - 美国B TG频道:t.me/ruofengfx 2
-      - 美国C TG频道:t.me/ruofengfx 2
-      - 香港A TG频道:t.me/ruofengfx 2
-      - 香港B TG频道:t.me/ruofengfx 2
-      - 香港C TG频道:t.me/ruofengfx 2
-      - 香港D TG频道:t.me/ruofengfx 2
-      - 新加坡 - SS/SSR - 01
+      - 新加坡 - SS/SSR - 04
       - 新加坡 - SS/SSR - 06
-      - 台湾 - SS/SSR - 04
-      - 香港 - SS/SSR - 04
-      - 美国 - SS/SSR - 02
-      - 美国 - SS/SSR - 05
-      - 新加坡 - SS/SSR - 05
-      - 韩国 - SS/SSR - 05
       - 新加坡 - SS/SSR - 02
-      - 韩国 - SS/SSR - 04
-      - 香港 - SS/SSR - 05
-      - 韩国 - SS/SSR - 03
-      - 韩国 - SS/SSR - 06
-      - 香港 - SS/SSR - 09
       - 新加坡 - SS/SSR - 03
-      - 韩国 - SS/SSR - 02
-      - 台湾 - SS/SSR - 05
-      - 台湾 - SS/SSR - 06
+      - 美国 - SS/SSR - 01
+      - 美国 - SS/SSR - 04
+      - 美国 - SS/SSR - 03
+      - 新加坡 - SS/SSR - 05
+      - 韩国 - SS/SSR - 03
+      - 韩国 - SS/SSR - 05
+      - 新加坡 - SS/SSR - 01
+      - 韩国 - SS/SSR - 01
+      - "[SSR] 4"
+      - "[SSR]"
+      - "[SSR] 3"
+      - 香港 - SS/SSR - 04
       - 美国 - SS/SSR - 06
       - 香港 - SS/SSR - 10
-      - 香港 - SS/SSR - 03
-      - 美国 - SS/SSR - 01
-      - 台湾 - SS/SSR - 01
+      - 香港 - SS/SSR - 05
+      - 美国 - SS/SSR - 02
+      - 美国 - SS/SSR - 05
+      - 台湾 - SS/SSR - 06
+      - 韩国 - SS/SSR - 02
+      - 韩国 - SS/SSR - 04
+      - 韩国 - SS/SSR - 06
       - 香港 - SS/SSR - 01
-      - 韩国 - SS/SSR - 01
+      - 香港 - SS/SSR - 02
+      - 台湾 - SS/SSR - 04
+      - 香港 - SS/SSR - 08
+      - 香港 - SS/SSR - 09
+      - 台湾 - SS/SSR - 01
+      - 台湾 - SS/SSR - 02
+      - "[SSR] 2"
+      - 台湾 - SS/SSR - 03
+      - 台湾 - SS/SSR - 05
       - 香港 - SS/SSR - 07
       - 香港 - SS/SSR - 06
-      - 新加坡 - SS/SSR - 04
-      - 美国 - SS/SSR - 04
-      - 香港 - SS/SSR - 02
-      - 美国 - SS/SSR - 03
-      - 香港 - SS/SSR - 08
-      - 台湾 - SS/SSR - 02
-      - 台湾 - SS/SSR - 03
-      - US-2
-      - US- 14
-      - "[VIP][广港]台湾3"
-      - IN-
-      - GB_TG频道:t.me/ruofeng_fx+750
-      - JP 7
-      - "[VIP][沪日]美国2"
-      - GB_TG频道:t.me/ruofeng_fx+751
-      - "[VIP]韩国4"
-      - SG-17
-      - GB_TG频道:t.me/ruofeng_fx+758
-      - 美国)
-      - JP2
-      - GB_21
-      - defaultName_17
-      - defaultName_83
-      - GB-l 2
-      - Relay_🇨🇳CN_36_95Mb_15
-      - defaultName_26
-      - 香港1•HGC
-      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
-      - US-l 22
-      - TW
-      - UK25
-      - UK23
-      - UK30
-      - UK2
-      - GB_TG频道:t.me/ruofeng_fx+739
-      - UK27
-      - UK4
-      - UK26
-      - UK5
-      - UK24
-      - UK18
-      - UK22
-      - UK16
-      - TG频道:t.me/ruofeng_fx_126
-      - US39
-      - CA-Openit.ml+4
-      - CA-
-      - _GB_英国_17
-      - CA-Openit.ml
-      - 加拿大)(Public)
-      - CA_12
-      - CA-53
-      - IN5
-      - 18_TG频道:t.me/ruofeng_fx+134
-      - 18_TG频道:t.me/ruofeng_fx+120
-      - "[VIP][广港]香港5•HKT"
-      - US_TG频道:t.me/ruofeng_fx+3077
-      - GB_TG频道:t.me/ruofeng_fx+756
-      - CA-Openit.ml+2
-      - KR_34
-      - Relay_TG频道:t.me/ruofeng_fx_371
-      - RELAY-l
-      - "[VIP]韩国1"
-      - CA_14
-      - "[VIP]韩国2"
-      - CA-l+6
-      - CN_56+2
-      - "[负载均衡]韩国1"
-      - CN_43
-      - CN_48
-      - CN_50
-      - CN_426
-      - CN_56
-      - CN_54
-      - CN_48+2
-      - CN_49
-      - CN_53
-      - CN_413
-      - CN_431
-      - GB-l
-      - CN_57
-      - CN_52
-      - GB_TG频道:t.me/ruofeng_fx+742
-      - GB_TG频道:t.me/ruofeng_fx+748
-      - 俄罗斯1
-      - "[🇨🇦][SS][加]+2"
-      - GB_TG频道:t.me/ruofeng_fx+765
-      - US-l 18
-      - defaultName_43
-      - CA-l+2
-      - Relay_🇨🇳CN_10_15Mb_14
-      - JP-17
-      - "[VIP][BGP]台湾2"
-      - CA-l
-      - CA_16
-      - CN_05
-      - CN_07
-      - KRl_5
-      - CAl+4
-      - CA-l+5
-      - "[Trojan]"
-      - "[VIP][广港]香港3•HGC"
-      - "[VIP][沪日]法国"
-      - SG TG频道:t.me/ruofeng_fx
-      - RU-US TG频道:t.me/ruofeng_fx
-      - SG1 TG频道:t.me/ruofeng_fx
-      - JP TG频道:t.me/ruofeng_fx
-      - SG2 TG频道:t.me/ruofeng_fx
-      - US TG频道:t.me/ruofeng_fx
-      - HK TG频道:t.me/ruofeng_fx"
-      - SG3 TG频道:t.me/ruofeng_fx"
-      - JP1 TG频道:t.me/ruofeng_fx
-      - TW TG频道:t.me/ruofeng_fx"
-      - SG4 TG频道:t.me/ruofeng_fx"
-      - PSG5 TG频道:t.me/ruofeng_fx"
+      - 香港 - SS/SSR - 03
       - "[SSR] 5"
-      - "[SSR]"
-      - "[SSR] 2"
-      - "[SSR] 4"
-      - "[SSR] 3"
-      - CA-TG频道:t.me/ruofengfx+3
-      - KR-TG频道:t.me/ruofengfx 5
-      - KR-TG频道:t.me/ruofengfx 6
-      - HK-TG频道:t.me/ruofengfxl 16
-      - KR-TG频道:t.me/ruofengfx 8
-      - JP-TG频道:t.me/ruofengfx 5
+      - Indonesia 01
+      - Hong Kong 05
+      - Singapore 11 [Premium]
+      - Singapore 02
+      - Singapore 09
+      - Singapore 07
+      - Singapore 12
+      - Singapore 10
+      - Hong Kong 04
+      - Hong Kong 12
+      - Hong Kong 01
+      - Hong Kong 07
+      - Hong Kong 16
+      - Hong Kong 03
+      - Hong Kong 13
+      - Hong Kong 14
+      - Hong Kong 21
+      - Hong Kong 22
+      - Hong Kong 15
+      - Hong Kong 19
+      - Singapore 01
+      - Singapore 05
+      - Singapore 08
+      - Hong Kong 06
+      - Hong Kong 10
+      - Singapore 04
+      - Hong Kong 18
+      - Singapore 03
+      - Hong Kong 23
+      - Taiwan 1
+      - Taiwan 3
+      - Taiwan 4
+      - Hong Kong 11
+      - Singapore 06
+      - Taiwan 5
+      - Brazil 01
+      - Hong Kong 09
+      - Israel
+      - Hong Kong 02
+      - Hong Kong 08
+      - Hong Kong 17
+      - Hong Kong 20
+      - Korea 4
+      - United Arab Emirates 01
+      - Turkey
+      - Russia Moscow
+      - Taiwan 2
+      - France
+      - Austria
+      - Canada 01
+      - United States 11
+      - Russia St.Peterburg
+      - Canada 02
+      - United States 01
+      - United States 08
+      - United States 16
+      - United States 03
+      - United States 09
+      - United States 10
+      - Bulgaria
+      - United States 02
+      - United States 12
+      - India 1
+      - United States 13
+      - United States 06
+      - United States 15
+      - United States 04
+      - United States 14
+      - Sweden
+      - Ireland 1
+      - Hungary
+      - United States 07
+      - United States 05
+      - United States 17
+      - Ireland 2
+      - United Kingdom 1
+      - Italy
+      - Korea 3
+      - Germany 1
+      - Switzerland 01
+      - United Kingdom 2
+      - United Kingdom 3
+      - Germany 2
+      - Netherlands
+      - Korea 2
+      - Korea 1
+      - Australia Sydney 02
+      - Japan 10
+      - Japan 21
+      - Japan 03
+      - Japan 05
+      - Japan 12
+      - Japan 17
+      - Japan 18
+      - Japan 06
+      - Japan 23 [Premium]
+      - Japan 01
+      - Japan 04
+      - Australia Sydney 01 [Premium]
+      - Japan 13
+      - Japan 14
+      - Japan 16
+      - Japan 19
+      - Japan 11
+      - Japan 02
+      - Japan 07
+      - Japan 09
+      - Japan 15
+      - Japan 08
+      - Japan 20
+      - Japan 22 [Premium]
+      - India 2
       - US-TG频道:t.me/ruofengfx 4
-      - FR-TG频道:t.me/ruofengfx
-      - GB-TG频道:t.me/ruofengfx 10
-      - US-TG频道:t.me/ruofengfx 5
-      - US-TG频道:t.me/ruofengfx 6
-      - US-TG频道:t.me/ruofengfx 7
+      - US-2
+      - IN5
+      - "[VIP]韩国1"
+      - "[负载均衡]韩国1"
+      - "[VIP][沪日]美国2"
+      - US-l 22
+      - "[VIP][广港]台湾3"
+      - JP 7
+      - 香港1•HGC
+      - "[VIP][广港]香港3•HGC"
+      - "[Trojan]"
+      - "[VIP][广港]香港5•HKT"
+      - CN_07
+      - KR-TG频道:t.me/ruofengfx 8
+      - 俄罗斯1
+      - TW
+      - "[VIP][BGP]台湾2"
+      - GB-l 2
+      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
+      - "[VIP]韩国4"
+      - "[VIP]韩国2"
+      - UK5
+      - UK22
+      - CA-Openit.ml
+      - CA-l+6
+      - CA-l
+      - CAl+4
+      - CA-Openit.ml+4
+      - defaultName_17
+      - defaultName_43
+      - CA-53
+      - CN_49
+      - CN_56
+      - CN_43
+      - CA_14
+      - UK26
+      - Relay_TG频道:t.me/ruofeng_fx_371
+      - 加拿大)(Public)
+      - Relay_🇨🇳CN_10_15Mb_14
+      - "[🇨🇦][SS][加]+2"
+      - CA-l+2
+      - UK24
+      - CA-l+5
+      - _GB_英国_17
+      - UK2
+      - CA-Openit.ml+2
+      - UK25
+      - UK4
+      - RELAY-l
+      - UK27
+      - UK16
+      - CN_426
+      - CN_52
+      - CN_48
+      - CN_57
+      - CN_56+2
+      - CN_48+2
+      - CN_431
+      - CN_413
+      - CN_54
+      - CA_12
+      - defaultName_83
+      - CA_16
+      - UK30
+      - CN_53
+      - UK18
+      - defaultName_26
+      - TG频道:t.me/ruofeng_fx_126
+      - Relay_🇨🇳CN_36_95Mb_15
+      - KR_34
+      - GB_TG频道:t.me/ruofeng_fx+750
+      - CN_05
+      - UK23
+      - JP2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1585,191 +1905,232 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - N TG频道:t.me/ruofengfx
-      - 悉尼 TG频道:t.me/ruofengfx
-      - 日本A TG频道:t.me/ruofengfx
-      - 日本B TG频道:t.me/ruofengfx
-      - 日本C TG频道:t.me/ruofengfx
-      - 日本D TG频道:t.me/ruofengfx
-      - 法兰克福A TG频道:t.me/ruofengfx
-      - 美国A TG频道:t.me/ruofengfx
-      - 美国B TG频道:t.me/ruofengfx
-      - 美国C TG频道:t.me/ruofengfx
-      - 香港A TG频道:t.me/ruofengfx
-      - 香港B TG频道:t.me/ruofengfx
-      - 香港C TG频道:t.me/ruofengfx
-      - 香港D TG频道:t.me/ruofengfx
-      - 日本 TG频道:t.me/ruofengfx
-      - 日本B TG频道:t.me/ruofengfx 2
-      - 日本B TG频道:t.me/ruofengfx 3
-      - 日本C TG频道:t.me/ruofengfx 2
-      - 日本D TG频道:t.me/ruofengfx 2
-      - 美国A TG频道:t.me/ruofengfx 2
-      - 美国B TG频道:t.me/ruofengfx 2
-      - 美国C TG频道:t.me/ruofengfx 2
-      - 香港A TG频道:t.me/ruofengfx 2
-      - 香港B TG频道:t.me/ruofengfx 2
-      - 香港C TG频道:t.me/ruofengfx 2
-      - 香港D TG频道:t.me/ruofengfx 2
-      - 新加坡 - SS/SSR - 01
+      - 新加坡 - SS/SSR - 04
       - 新加坡 - SS/SSR - 06
-      - 台湾 - SS/SSR - 04
-      - 香港 - SS/SSR - 04
-      - 美国 - SS/SSR - 02
-      - 美国 - SS/SSR - 05
-      - 新加坡 - SS/SSR - 05
-      - 韩国 - SS/SSR - 05
       - 新加坡 - SS/SSR - 02
-      - 韩国 - SS/SSR - 04
-      - 香港 - SS/SSR - 05
-      - 韩国 - SS/SSR - 03
-      - 韩国 - SS/SSR - 06
-      - 香港 - SS/SSR - 09
       - 新加坡 - SS/SSR - 03
-      - 韩国 - SS/SSR - 02
-      - 台湾 - SS/SSR - 05
-      - 台湾 - SS/SSR - 06
+      - 美国 - SS/SSR - 01
+      - 美国 - SS/SSR - 04
+      - 美国 - SS/SSR - 03
+      - 新加坡 - SS/SSR - 05
+      - 韩国 - SS/SSR - 03
+      - 韩国 - SS/SSR - 05
+      - 新加坡 - SS/SSR - 01
+      - 韩国 - SS/SSR - 01
+      - "[SSR] 4"
+      - "[SSR]"
+      - "[SSR] 3"
+      - 香港 - SS/SSR - 04
       - 美国 - SS/SSR - 06
       - 香港 - SS/SSR - 10
-      - 香港 - SS/SSR - 03
-      - 美国 - SS/SSR - 01
-      - 台湾 - SS/SSR - 01
+      - 香港 - SS/SSR - 05
+      - 美国 - SS/SSR - 02
+      - 美国 - SS/SSR - 05
+      - 台湾 - SS/SSR - 06
+      - 韩国 - SS/SSR - 02
+      - 韩国 - SS/SSR - 04
+      - 韩国 - SS/SSR - 06
       - 香港 - SS/SSR - 01
-      - 韩国 - SS/SSR - 01
+      - 香港 - SS/SSR - 02
+      - 台湾 - SS/SSR - 04
+      - 香港 - SS/SSR - 08
+      - 香港 - SS/SSR - 09
+      - 台湾 - SS/SSR - 01
+      - 台湾 - SS/SSR - 02
+      - "[SSR] 2"
+      - 台湾 - SS/SSR - 03
+      - 台湾 - SS/SSR - 05
       - 香港 - SS/SSR - 07
       - 香港 - SS/SSR - 06
-      - 新加坡 - SS/SSR - 04
-      - 美国 - SS/SSR - 04
-      - 香港 - SS/SSR - 02
-      - 美国 - SS/SSR - 03
-      - 香港 - SS/SSR - 08
-      - 台湾 - SS/SSR - 02
-      - 台湾 - SS/SSR - 03
-      - US-2
-      - US- 14
-      - "[VIP][广港]台湾3"
-      - IN-
-      - GB_TG频道:t.me/ruofeng_fx+750
-      - JP 7
-      - "[VIP][沪日]美国2"
-      - GB_TG频道:t.me/ruofeng_fx+751
-      - "[VIP]韩国4"
-      - SG-17
-      - GB_TG频道:t.me/ruofeng_fx+758
-      - 美国)
-      - JP2
-      - GB_21
-      - defaultName_17
-      - defaultName_83
-      - GB-l 2
-      - Relay_🇨🇳CN_36_95Mb_15
-      - defaultName_26
-      - 香港1•HGC
-      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
-      - US-l 22
-      - TW
-      - UK25
-      - UK23
-      - UK30
-      - UK2
-      - GB_TG频道:t.me/ruofeng_fx+739
-      - UK27
-      - UK4
-      - UK26
-      - UK5
-      - UK24
-      - UK18
-      - UK22
-      - UK16
-      - TG频道:t.me/ruofeng_fx_126
-      - US39
-      - CA-Openit.ml+4
-      - CA-
-      - _GB_英国_17
-      - CA-Openit.ml
-      - 加拿大)(Public)
-      - CA_12
-      - CA-53
-      - IN5
-      - 18_TG频道:t.me/ruofeng_fx+134
-      - 18_TG频道:t.me/ruofeng_fx+120
-      - "[VIP][广港]香港5•HKT"
-      - US_TG频道:t.me/ruofeng_fx+3077
-      - GB_TG频道:t.me/ruofeng_fx+756
-      - CA-Openit.ml+2
-      - KR_34
-      - Relay_TG频道:t.me/ruofeng_fx_371
-      - RELAY-l
-      - "[VIP]韩国1"
-      - CA_14
-      - "[VIP]韩国2"
-      - CA-l+6
-      - CN_56+2
-      - "[负载均衡]韩国1"
-      - CN_43
-      - CN_48
-      - CN_50
-      - CN_426
-      - CN_56
-      - CN_54
-      - CN_48+2
-      - CN_49
-      - CN_53
-      - CN_413
-      - CN_431
-      - GB-l
-      - CN_57
-      - CN_52
-      - GB_TG频道:t.me/ruofeng_fx+742
-      - GB_TG频道:t.me/ruofeng_fx+748
-      - 俄罗斯1
-      - "[🇨🇦][SS][加]+2"
-      - GB_TG频道:t.me/ruofeng_fx+765
-      - US-l 18
-      - defaultName_43
-      - CA-l+2
-      - Relay_🇨🇳CN_10_15Mb_14
-      - JP-17
-      - "[VIP][BGP]台湾2"
-      - CA-l
-      - CA_16
-      - CN_05
-      - CN_07
-      - KRl_5
-      - CAl+4
-      - CA-l+5
-      - "[Trojan]"
-      - "[VIP][广港]香港3•HGC"
-      - "[VIP][沪日]法国"
-      - SG TG频道:t.me/ruofeng_fx
-      - RU-US TG频道:t.me/ruofeng_fx
-      - SG1 TG频道:t.me/ruofeng_fx
-      - JP TG频道:t.me/ruofeng_fx
-      - SG2 TG频道:t.me/ruofeng_fx
-      - US TG频道:t.me/ruofeng_fx
-      - HK TG频道:t.me/ruofeng_fx"
-      - SG3 TG频道:t.me/ruofeng_fx"
-      - JP1 TG频道:t.me/ruofeng_fx
-      - TW TG频道:t.me/ruofeng_fx"
-      - SG4 TG频道:t.me/ruofeng_fx"
-      - PSG5 TG频道:t.me/ruofeng_fx"
+      - 香港 - SS/SSR - 03
       - "[SSR] 5"
-      - "[SSR]"
-      - "[SSR] 2"
-      - "[SSR] 4"
-      - "[SSR] 3"
-      - CA-TG频道:t.me/ruofengfx+3
-      - KR-TG频道:t.me/ruofengfx 5
-      - KR-TG频道:t.me/ruofengfx 6
-      - HK-TG频道:t.me/ruofengfxl 16
-      - KR-TG频道:t.me/ruofengfx 8
-      - JP-TG频道:t.me/ruofengfx 5
+      - Indonesia 01
+      - Hong Kong 05
+      - Singapore 11 [Premium]
+      - Singapore 02
+      - Singapore 09
+      - Singapore 07
+      - Singapore 12
+      - Singapore 10
+      - Hong Kong 04
+      - Hong Kong 12
+      - Hong Kong 01
+      - Hong Kong 07
+      - Hong Kong 16
+      - Hong Kong 03
+      - Hong Kong 13
+      - Hong Kong 14
+      - Hong Kong 21
+      - Hong Kong 22
+      - Hong Kong 15
+      - Hong Kong 19
+      - Singapore 01
+      - Singapore 05
+      - Singapore 08
+      - Hong Kong 06
+      - Hong Kong 10
+      - Singapore 04
+      - Hong Kong 18
+      - Singapore 03
+      - Hong Kong 23
+      - Taiwan 1
+      - Taiwan 3
+      - Taiwan 4
+      - Hong Kong 11
+      - Singapore 06
+      - Taiwan 5
+      - Brazil 01
+      - Hong Kong 09
+      - Israel
+      - Hong Kong 02
+      - Hong Kong 08
+      - Hong Kong 17
+      - Hong Kong 20
+      - Korea 4
+      - United Arab Emirates 01
+      - Turkey
+      - Russia Moscow
+      - Taiwan 2
+      - France
+      - Austria
+      - Canada 01
+      - United States 11
+      - Russia St.Peterburg
+      - Canada 02
+      - United States 01
+      - United States 08
+      - United States 16
+      - United States 03
+      - United States 09
+      - United States 10
+      - Bulgaria
+      - United States 02
+      - United States 12
+      - India 1
+      - United States 13
+      - United States 06
+      - United States 15
+      - United States 04
+      - United States 14
+      - Sweden
+      - Ireland 1
+      - Hungary
+      - United States 07
+      - United States 05
+      - United States 17
+      - Ireland 2
+      - United Kingdom 1
+      - Italy
+      - Korea 3
+      - Germany 1
+      - Switzerland 01
+      - United Kingdom 2
+      - United Kingdom 3
+      - Germany 2
+      - Netherlands
+      - Korea 2
+      - Korea 1
+      - Australia Sydney 02
+      - Japan 10
+      - Japan 21
+      - Japan 03
+      - Japan 05
+      - Japan 12
+      - Japan 17
+      - Japan 18
+      - Japan 06
+      - Japan 23 [Premium]
+      - Japan 01
+      - Japan 04
+      - Australia Sydney 01 [Premium]
+      - Japan 13
+      - Japan 14
+      - Japan 16
+      - Japan 19
+      - Japan 11
+      - Japan 02
+      - Japan 07
+      - Japan 09
+      - Japan 15
+      - Japan 08
+      - Japan 20
+      - Japan 22 [Premium]
+      - India 2
       - US-TG频道:t.me/ruofengfx 4
-      - FR-TG频道:t.me/ruofengfx
-      - GB-TG频道:t.me/ruofengfx 10
-      - US-TG频道:t.me/ruofengfx 5
-      - US-TG频道:t.me/ruofengfx 6
-      - US-TG频道:t.me/ruofengfx 7
+      - US-2
+      - IN5
+      - "[VIP]韩国1"
+      - "[负载均衡]韩国1"
+      - "[VIP][沪日]美国2"
+      - US-l 22
+      - "[VIP][广港]台湾3"
+      - JP 7
+      - 香港1•HGC
+      - "[VIP][广港]香港3•HGC"
+      - "[Trojan]"
+      - "[VIP][广港]香港5•HKT"
+      - CN_07
+      - KR-TG频道:t.me/ruofengfx 8
+      - 俄罗斯1
+      - TW
+      - "[VIP][BGP]台湾2"
+      - GB-l 2
+      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
+      - "[VIP]韩国4"
+      - "[VIP]韩国2"
+      - UK5
+      - UK22
+      - CA-Openit.ml
+      - CA-l+6
+      - CA-l
+      - CAl+4
+      - CA-Openit.ml+4
+      - defaultName_17
+      - defaultName_43
+      - CA-53
+      - CN_49
+      - CN_56
+      - CN_43
+      - CA_14
+      - UK26
+      - Relay_TG频道:t.me/ruofeng_fx_371
+      - 加拿大)(Public)
+      - Relay_🇨🇳CN_10_15Mb_14
+      - "[🇨🇦][SS][加]+2"
+      - CA-l+2
+      - UK24
+      - CA-l+5
+      - _GB_英国_17
+      - UK2
+      - CA-Openit.ml+2
+      - UK25
+      - UK4
+      - RELAY-l
+      - UK27
+      - UK16
+      - CN_426
+      - CN_52
+      - CN_48
+      - CN_57
+      - CN_56+2
+      - CN_48+2
+      - CN_431
+      - CN_413
+      - CN_54
+      - CA_12
+      - defaultName_83
+      - CA_16
+      - UK30
+      - CN_53
+      - UK18
+      - defaultName_26
+      - TG频道:t.me/ruofeng_fx_126
+      - Relay_🇨🇳CN_36_95Mb_15
+      - KR_34
+      - GB_TG频道:t.me/ruofeng_fx+750
+      - CN_05
+      - UK23
+      - JP2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
