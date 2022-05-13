@@ -5,6 +5,24 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: "+Korea+[TLS]", server: 0001.kr.genzpn.com, port: 443, type: trojan, password: 4f4418cd-385c-4203-a323-1b4d2be8e495, sni: 0001.kr.genzpn.com, skip-cert-verify: true, udp: true}
+  - {name: "+Hồ+Chí+Minh+[TLS]", server: 0001.hcm.genzpn.com, port: 443, type: trojan, password: 4f4418cd-385c-4203-a323-1b4d2be8e495, sni: 0001.hcm.genzpn.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_+b, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
+  - {name: Relay_🇨🇳CN-🇮🇳IN_398, server: 183.232.56.108, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: 183.232.56.108}, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_216, server: dx.yhy520.xyz, port: 58804, type: trojan, password: 981528f8-0dc8-3276-860f-74b6d31d6aef, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_210, server: dx.yhy520.xyz, port: 58803, type: trojan, password: 981528f8-0dc8-3276-860f-74b6d31d6aef, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_207, server: lt.yhy520.xyz, port: 58819, type: trojan, password: 981528f8-0dc8-3276-860f-74b6d31d6aef, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_208, server: lt.yhy520.xyz, port: 58802, type: trojan, password: 981528f8-0dc8-3276-860f-74b6d31d6aef, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_397, server: 183.232.56.108, port: 63004, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 183.232.56.108}, udp: true}
+  - {name: FR_65, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: KR-ml, server: 61.111.128.153, port: 8888, type: ss, cipher: rc4-md5, password: Xiongmao@^ios.ss, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_415, server: 120.240.168.118, port: 63004, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 120.240.168.118}, udp: true}
+  - {name: "Trojan|新加坡Singtel01|华南隧道[流媒体解锁]", server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 508c98e6-aa9b-4afc-b97a-3151fe5860dd, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: "Trojan|台湾HiNet01|华南隧道[流媒体解锁]", server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 508c98e6-aa9b-4afc-b97a-3151fe5860dd, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_+A, server: 116.129.253.201, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
+  - {name: Relay_+B, server: 116.129.253.201, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_326b, server: 116.129.253.245, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
+  - {name: Relay_+C, server: 116.129.253.201, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
   - {name: US-O, server: free.spcloud.us, port: 20009, type: trojan, password: 118fc04e-fb8c-4154-9092-352cf1958fcd, sni: free.spcloud.us, skip-cert-verify: true, udp: true}
   - {name: JP-Pl, server: jpaz1.xmrth-node.xyz, port: 11178, type: vmess, uuid: a88b5172-6a32-3562-8e6e-911b2c0352e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: jpaz1.xmrth-node.xyz}, udp: true}
   - {name: VN-Q, server: 0001.hn.genzpn.com, port: 443, type: trojan, password: 4f4418cd-385c-4203-a323-1b4d2be8e495, sni: 0001.hn.genzpn.com, skip-cert-verify: true, udp: true}
@@ -163,6 +181,24 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - +Korea+[TLS]
+      - +Hồ+Chí+Minh+[TLS]
+      - Relay_+b
+      - Relay_🇨🇳CN-🇮🇳IN_398
+      - Relay_🇨🇳CN-🇭🇰HK_216
+      - Relay_🇨🇳CN-🇭🇰HK_210
+      - Relay_🇨🇳CN-🇭🇰HK_207
+      - Relay_🇨🇳CN-🇭🇰HK_208
+      - Relay_🇨🇳CN-🇺🇸US_397
+      - FR_65
+      - KR-ml
+      - Relay_🇨🇳CN-🇺🇸US_415
+      - Trojan|新加坡Singtel01|华南隧道[流媒体解锁]
+      - Trojan|台湾HiNet01|华南隧道[流媒体解锁]
+      - Relay_+A
+      - Relay_+B
+      - Relay_🇨🇳CN-🇹🇼TW_326b
+      - Relay_+C
       - US-O
       - JP-Pl
       - VN-Q
@@ -320,6 +356,24 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - +Korea+[TLS]
+      - +Hồ+Chí+Minh+[TLS]
+      - Relay_+b
+      - Relay_🇨🇳CN-🇮🇳IN_398
+      - Relay_🇨🇳CN-🇭🇰HK_216
+      - Relay_🇨🇳CN-🇭🇰HK_210
+      - Relay_🇨🇳CN-🇭🇰HK_207
+      - Relay_🇨🇳CN-🇭🇰HK_208
+      - Relay_🇨🇳CN-🇺🇸US_397
+      - FR_65
+      - KR-ml
+      - Relay_🇨🇳CN-🇺🇸US_415
+      - Trojan|新加坡Singtel01|华南隧道[流媒体解锁]
+      - Trojan|台湾HiNet01|华南隧道[流媒体解锁]
+      - Relay_+A
+      - Relay_+B
+      - Relay_🇨🇳CN-🇹🇼TW_326b
+      - Relay_+C
       - US-O
       - JP-Pl
       - VN-Q
@@ -478,6 +532,24 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - +Korea+[TLS]
+      - +Hồ+Chí+Minh+[TLS]
+      - Relay_+b
+      - Relay_🇨🇳CN-🇮🇳IN_398
+      - Relay_🇨🇳CN-🇭🇰HK_216
+      - Relay_🇨🇳CN-🇭🇰HK_210
+      - Relay_🇨🇳CN-🇭🇰HK_207
+      - Relay_🇨🇳CN-🇭🇰HK_208
+      - Relay_🇨🇳CN-🇺🇸US_397
+      - FR_65
+      - KR-ml
+      - Relay_🇨🇳CN-🇺🇸US_415
+      - Trojan|新加坡Singtel01|华南隧道[流媒体解锁]
+      - Trojan|台湾HiNet01|华南隧道[流媒体解锁]
+      - Relay_+A
+      - Relay_+B
+      - Relay_🇨🇳CN-🇹🇼TW_326b
+      - Relay_+C
       - US-O
       - JP-Pl
       - VN-Q
@@ -648,6 +720,24 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - +Korea+[TLS]
+      - +Hồ+Chí+Minh+[TLS]
+      - Relay_+b
+      - Relay_🇨🇳CN-🇮🇳IN_398
+      - Relay_🇨🇳CN-🇭🇰HK_216
+      - Relay_🇨🇳CN-🇭🇰HK_210
+      - Relay_🇨🇳CN-🇭🇰HK_207
+      - Relay_🇨🇳CN-🇭🇰HK_208
+      - Relay_🇨🇳CN-🇺🇸US_397
+      - FR_65
+      - KR-ml
+      - Relay_🇨🇳CN-🇺🇸US_415
+      - Trojan|新加坡Singtel01|华南隧道[流媒体解锁]
+      - Trojan|台湾HiNet01|华南隧道[流媒体解锁]
+      - Relay_+A
+      - Relay_+B
+      - Relay_🇨🇳CN-🇹🇼TW_326b
+      - Relay_+C
       - US-O
       - JP-Pl
       - VN-Q
@@ -804,6 +894,7 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - Trojan|台湾HiNet01|华南隧道[流媒体解锁]
       - 台湾 - SS/SSR - 03
       - 台湾 - SS/SSR - 04
       - 香港 - SS/SSR - 03
@@ -826,6 +917,24 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - +Korea+[TLS]
+      - +Hồ+Chí+Minh+[TLS]
+      - Relay_+b
+      - Relay_🇨🇳CN-🇮🇳IN_398
+      - Relay_🇨🇳CN-🇭🇰HK_216
+      - Relay_🇨🇳CN-🇭🇰HK_210
+      - Relay_🇨🇳CN-🇭🇰HK_207
+      - Relay_🇨🇳CN-🇭🇰HK_208
+      - Relay_🇨🇳CN-🇺🇸US_397
+      - FR_65
+      - KR-ml
+      - Relay_🇨🇳CN-🇺🇸US_415
+      - Trojan|新加坡Singtel01|华南隧道[流媒体解锁]
+      - Trojan|台湾HiNet01|华南隧道[流媒体解锁]
+      - Relay_+A
+      - Relay_+B
+      - Relay_🇨🇳CN-🇹🇼TW_326b
+      - Relay_+C
       - US-O
       - JP-Pl
       - VN-Q
@@ -983,6 +1092,24 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - +Korea+[TLS]
+      - +Hồ+Chí+Minh+[TLS]
+      - Relay_+b
+      - Relay_🇨🇳CN-🇮🇳IN_398
+      - Relay_🇨🇳CN-🇭🇰HK_216
+      - Relay_🇨🇳CN-🇭🇰HK_210
+      - Relay_🇨🇳CN-🇭🇰HK_207
+      - Relay_🇨🇳CN-🇭🇰HK_208
+      - Relay_🇨🇳CN-🇺🇸US_397
+      - FR_65
+      - KR-ml
+      - Relay_🇨🇳CN-🇺🇸US_415
+      - Trojan|新加坡Singtel01|华南隧道[流媒体解锁]
+      - Trojan|台湾HiNet01|华南隧道[流媒体解锁]
+      - Relay_+A
+      - Relay_+B
+      - Relay_🇨🇳CN-🇹🇼TW_326b
+      - Relay_+C
       - US-O
       - JP-Pl
       - VN-Q
@@ -1141,6 +1268,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - +Korea+[TLS]
+      - +Hồ+Chí+Minh+[TLS]
+      - Relay_+b
+      - Relay_🇨🇳CN-🇮🇳IN_398
+      - Relay_🇨🇳CN-🇭🇰HK_216
+      - Relay_🇨🇳CN-🇭🇰HK_210
+      - Relay_🇨🇳CN-🇭🇰HK_207
+      - Relay_🇨🇳CN-🇭🇰HK_208
+      - Relay_🇨🇳CN-🇺🇸US_397
+      - FR_65
+      - KR-ml
+      - Relay_🇨🇳CN-🇺🇸US_415
+      - Trojan|新加坡Singtel01|华南隧道[流媒体解锁]
+      - Trojan|台湾HiNet01|华南隧道[流媒体解锁]
+      - Relay_+A
+      - Relay_+B
+      - Relay_🇨🇳CN-🇹🇼TW_326b
+      - Relay_+C
       - US-O
       - JP-Pl
       - VN-Q
@@ -1308,6 +1453,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - +Korea+[TLS]
+      - +Hồ+Chí+Minh+[TLS]
+      - Relay_+b
+      - Relay_🇨🇳CN-🇮🇳IN_398
+      - Relay_🇨🇳CN-🇭🇰HK_216
+      - Relay_🇨🇳CN-🇭🇰HK_210
+      - Relay_🇨🇳CN-🇭🇰HK_207
+      - Relay_🇨🇳CN-🇭🇰HK_208
+      - Relay_🇨🇳CN-🇺🇸US_397
+      - FR_65
+      - KR-ml
+      - Relay_🇨🇳CN-🇺🇸US_415
+      - Trojan|新加坡Singtel01|华南隧道[流媒体解锁]
+      - Trojan|台湾HiNet01|华南隧道[流媒体解锁]
+      - Relay_+A
+      - Relay_+B
+      - Relay_🇨🇳CN-🇹🇼TW_326b
+      - Relay_+C
       - US-O
       - JP-Pl
       - VN-Q
