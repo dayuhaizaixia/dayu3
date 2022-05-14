@@ -5,483 +5,507 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港标准 IEPL 中继 5, server: gzdata1.ourdvsss.xyz, port: 11105, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡标准 IEPL 中继 1, server: gzdata1.ourdvsss.xyz, port: 11131, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: "Traffic: 23.52 GB | 400 GB", server: gzdata1.ourdvsss.xyz, port: 10101, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港标准 IEPL 中继 4, server: gzdata1.ourdvsss.xyz, port: 11104, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港标准 IEPL 中继 6, server: gzdata1.ourdvsss.xyz, port: 11106, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡标准 IEPL 中继 2, server: gzdata1.ourdvsss.xyz, port: 11132, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: "Expire: 2022-10-10", server: gzdata1.ourdvsss.xyz, port: 10101, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本标准 IEPL 中继 3, server: shdata1.ourdvsss.xyz, port: 11113, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港标准 IEPL 中继 2, server: gzdata1.ourdvsss.xyz, port: 11102, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港实验性 IEPL 中继 1, server: gzdata1.ourdvsss.xyz, port: 10101, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港标准 IEPL 中继 3, server: gzdata1.ourdvsss.xyz, port: 11103, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本标准 IEPL 中继 2, server: shdata1.ourdvsss.xyz, port: 11112, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港标准 IEPL 中继 8, server: gzdata1.ourdvsss.xyz, port: 11108, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港标准 IEPL 中继 7, server: gzdata1.ourdvsss.xyz, port: 11107, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡标准 IEPL 中继 5, server: gzdata1.ourdvsss.xyz, port: 11135, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港高级 IEPL 中继 2, server: gzdata1.ourdvsss.xyz, port: 12102, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡标准 IEPL 中继 4, server: gzdata1.ourdvsss.xyz, port: 11134, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国标准 IEPL 中继 7, server: shdata1.ourdvsss.xyz, port: 11127, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 马来西亚标准 IEPL 中继 1, server: gzdata1.ourdvsss.xyz, port: 11184, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国标准 IEPL 中继 8, server: shdata1.ourdvsss.xyz, port: 11128, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾标准 IEPL 中继 2, server: gzdata1.ourdvsss.xyz, port: 11142, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本高级 IEPL 中继 2, server: shdata1.ourdvsss.xyz, port: 12112, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本标准 IEPL 中继 5, server: shdata1.ourdvsss.xyz, port: 11115, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国标准 IEPL 中继 6, server: shdata1.ourdvsss.xyz, port: 11126, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 越南标准 IEPL 中继 1, server: gzdata1.ourdvsss.xyz, port: 11174, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾标准 IEPL 中继 3, server: gzdata1.ourdvsss.xyz, port: 11143, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本标准 IEPL 中继 4, server: shdata1.ourdvsss.xyz, port: 11114, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国标准 IEPL 中继 2, server: shdata1.ourdvsss.xyz, port: 11122, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国标准 IEPL 中继 1, server: shdata1.ourdvsss.xyz, port: 11121, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国标准 IEPL 中继 5, server: shdata1.ourdvsss.xyz, port: 11125, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 韩国标准 IEPL 中继 1, server: shdata1.ourdvsss.xyz, port: 11170, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国标准 IEPL 中继 4, server: shdata1.ourdvsss.xyz, port: 11124, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 印尼标准 IEPL 中继 1, server: gzdata1.ourdvsss.xyz, port: 11172, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾标准 IEPL 中继 1, server: gzdata1.ourdvsss.xyz, port: 11141, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡标准 IEPL 中继 6, server: gzdata1.ourdvsss.xyz, port: 11136, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾高级 IEPL 中继 2, server: gzdata1.ourdvsss.xyz, port: 12142, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡高级 IEPL 中继 1, server: gzdata1.ourdvsss.xyz, port: 12131, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡实验性 IEPL 中继 1, server: gzdata1.ourdvsss.xyz, port: 10103, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国标准 IEPL 中继 3, server: shdata1.ourdvsss.xyz, port: 11123, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾高级 IEPL 中继 3, server: gzdata1.ourdvsss.xyz, port: 12143, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本高级 IEPL 中继 3, server: shdata1.ourdvsss.xyz, port: 12113, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡高级 IEPL 中继 3, server: gzdata1.ourdvsss.xyz, port: 12133, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡标准 IEPL 中继 7, server: gzdata1.ourdvsss.xyz, port: 11137, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡标准 IEPL 中继 8, server: gzdata1.ourdvsss.xyz, port: 11138, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡高级 IEPL 中继 2, server: gzdata1.ourdvsss.xyz, port: 12132, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国高级 IEPL 中继 3, server: shdata1.ourdvsss.xyz, port: 12123, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 印度标准 IEPL 中继 1, server: gzdata1.ourdvsss.xyz, port: 11180, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港高级 IEPL 中继 1, server: gzdata1.ourdvsss.xyz, port: 12101, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯标准 IEPL 中继 1, server: bjdata1.ourdvsss.xyz, port: 11151, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 匈牙利标准 IEPL 中继 1, server: bjdata1.ourdvsss.xyz, port: 11153, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 德国标准 IEPL 中继 1, server: bjdata1.ourdvsss.xyz, port: 11156, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 以色列标准 IEPL 中继 1, server: bjdata1.ourdvsss.xyz, port: 11181, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 加拿大标准 IEPL 中继 1, server: shdata1.ourdvsss.xyz, port: 11150, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港高级 IEPL 中继 3, server: gzdata1.ourdvsss.xyz, port: 12103, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国高级 IEPL 中继 1, server: shdata1.ourdvsss.xyz, port: 12121, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾高级 IEPL 中继 1, server: gzdata1.ourdvsss.xyz, port: 12141, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 菲律宾标准 IEPL 中继 1, server: gzdata1.ourdvsss.xyz, port: 11183, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国高级 IEPL 中继 2, server: shdata1.ourdvsss.xyz, port: 12122, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 韩国标准 IEPL 中继 2, server: shdata1.ourdvsss.xyz, port: 11171, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 泰国标准 IEPL 中继 1, server: gzdata1.ourdvsss.xyz, port: 11173, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 土耳其标准 IEPL 中继 1, server: bjdata1.ourdvsss.xyz, port: 11154, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本标准 IEPL 中继 1, server: shdata1.ourdvsss.xyz, port: 11111, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 法国标准 IEPL 中继 2, server: bjdata1.ourdvsss.xyz, port: 11163, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 德国标准 IEPL 中继 2, server: bjdata1.ourdvsss.xyz, port: 11157, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 法国标准 IEPL 中继 1, server: bjdata1.ourdvsss.xyz, port: 11162, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 英国标准 IEPL 中继 1, server: bjdata1.ourdvsss.xyz, port: 11158, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本标准 IEPL 中继 6, server: shdata1.ourdvsss.xyz, port: 11116, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 土耳其标准 IEPL 中继 2, server: bjdata1.ourdvsss.xyz, port: 11155, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 荷兰标准 IEPL 中继 2, server: bjdata1.ourdvsss.xyz, port: 11161, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国实验性 IEPL 中继 1, server: shdata1.ourdvsss.xyz, port: 10104, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡标准 IEPL 中继 3, server: gzdata1.ourdvsss.xyz, port: 11133, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 荷兰标准 IEPL 中继 1, server: bjdata1.ourdvsss.xyz, port: 11160, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 英国标准 IEPL 中继 2, server: bjdata1.ourdvsss.xyz, port: 11159, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本标准 IEPL 中继 7, server: shdata1.ourdvsss.xyz, port: 11117, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本实验性 IEPL 中继 1, server: shdata1.ourdvsss.xyz, port: 10102, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 意大利标准 IEPL 中继 1, server: bjdata1.ourdvsss.xyz, port: 11152, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 阿根廷标准 IEPL 中继 1, server: shdata1.ourdvsss.xyz, port: 11165, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 巴西标准 IEPL 中继 1, server: shdata1.ourdvsss.xyz, port: 11166, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 澳洲标准 IEPL 中继 1, server: gzdata1.ourdvsss.xyz, port: 11164, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港标准 IEPL 中继 1, server: gzdata1.ourdvsss.xyz, port: 11101, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本标准 IEPL 中继 8, server: shdata1.ourdvsss.xyz, port: 11118, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本高级 IEPL 中继 1, server: shdata1.ourdvsss.xyz, port: 12111, type: trojan, password: 89737698-0AB7-A3DA-7554-86ABB70BEFEE, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾 Scloud|中转|动漫疯|, server: 183.dxmax.net, port: 17205, type: trojan, password: 4f6d19b4-ac43-4adb-802d-617654e02590, sni: 183.dxmax.net, skip-cert-verify: true, udp: true}
-  - {name: 日本 Kirino|广移|NF|, server: 183.dxmax.net, port: 40010, type: ss, cipher: aes-256-gcm, password: 4f6d19b4-ac43-4adb-802d-617654e02590, udp: true}
-  - {name: 美国 San Jose|中转|NF.Hulu.HBO|, server: 183.dxmax.net, port: 40005, type: trojan, password: 4f6d19b4-ac43-4adb-802d-617654e02590, sni: 183.dxmax.net, skip-cert-verify: true, udp: true}
-  - {name: 印度 Do|中转|, server: 183.dxmax.net, port: 17214, type: trojan, password: 4f6d19b4-ac43-4adb-802d-617654e02590, sni: 183.dxmax.net, skip-cert-verify: true, udp: true}
-  - {name: 香港 CN2|V3-4|NF|30M|, server: 101.32.218.2, port: 66, type: ss, cipher: chacha20-ietf-poly1305, password: 4f6d19b4-ac43-4adb-802d-617654e02590, udp: true}
-  - {name: 日本 Kirino|上联|NF|, server: shcu.9218561.xyz, port: 18159, type: ss, cipher: aes-256-gcm, password: 4f6d19b4-ac43-4adb-802d-617654e02590, udp: true}
-  - {name: 日本 Nero|广移入口02|, server: 183.dxmax.net, port: 17206, type: ss, cipher: aes-256-gcm, password: 4f6d19b4-ac43-4adb-802d-617654e02590, udp: true}
-  - {name: 香港 HKIX|V3-4|中转|稳定NF|, server: szct.9218561.xyz, port: 49020, type: ss, cipher: aes-256-gcm, password: 4f6d19b4-ac43-4adb-802d-617654e02590, udp: true}
-  - {name: 新加坡 Oracle|中转|NF|, server: 183.dxmax.net, port: 17212, type: trojan, password: 4f6d19b4-ac43-4adb-802d-617654e02590, sni: 183.dxmax.net, skip-cert-verify: true, udp: true}
-  - {name: 新加坡 Nero|临时广电|NF|, server: szct.9218561.xyz, port: 45953, type: ss, cipher: chacha20-ietf-poly1305, password: 4f6d19b4-ac43-4adb-802d-617654e02590, udp: true}
-  - {name: 新加坡 Vu|V3-4|中转|, server: 183.dxmax.net, port: 17210, type: trojan, password: 4f6d19b4-ac43-4adb-802d-617654e02590, sni: 183.dxmax.net, skip-cert-verify: true, udp: true}
-  - {name: 新加坡 Mel|中转|NF|, server: 183.dxmax.net, port: 17207, type: trojan, password: 4f6d19b4-ac43-4adb-802d-617654e02590, sni: 183.dxmax.net, skip-cert-verify: true, udp: true}
-  - {name: 台湾 Hinet|广移|NF.动漫疯|, server: 183.dxmax.net, port: 17200, type: ss, cipher: aes-256-gcm, password: 4f6d19b4-ac43-4adb-802d-617654e02590, udp: true}
-  - {name: 香港 HKBN|中转|NF|, server: szct.9218561.xyz, port: 56511, type: ss, cipher: chacha20-ietf-poly1305, password: 4f6d19b4-ac43-4adb-802d-617654e02590, udp: true}
-  - {name: 新加坡 OVH|中转|NF|, server: 183.dxmax.net, port: 40009, type: ss, cipher: chacha20-ietf-poly1305, password: 4f6d19b4-ac43-4adb-802d-617654e02590, udp: true}
-  - {name: 新加坡 LesWeb|中转|V3-4|NF|, server: 183.dxmax.net, port: 17211, type: trojan, password: 4f6d19b4-ac43-4adb-802d-617654e02590, sni: 183.dxmax.net, skip-cert-verify: true, udp: true}
-  - {name: 香港 BGP|中转|NF|, server: 183.dxmax.net, port: 44202, type: ss, cipher: chacha20-ietf-poly1305, password: 4f6d19b4-ac43-4adb-802d-617654e02590, udp: true}
-  - {name: 美国 Sharktech|中转|Hulu.HBO|, server: szct.9218561.xyz, port: 21581, type: trojan, password: 4f6d19b4-ac43-4adb-802d-617654e02590, sni: szct.9218561.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 Nero|移动入口01|NF|, server: szcm.9218561.xyz, port: 31519, type: ss, cipher: aes-128-gcm, password: 4f6d19b4-ac43-4adb-802d-617654e02590, udp: true}
-  - {name: 美国 Oracle|中转|NF.Hulu.HBO|, server: 183.dxmax.net, port: 40003, type: trojan, password: 4f6d19b4-ac43-4adb-802d-617654e02590, sni: 183.dxmax.net, skip-cert-verify: true, udp: true}
-  - {name: 韩国 Oracle|中转|0.5x流量消耗|, server: 183.dxmax.net, port: 17208, type: trojan, password: 4f6d19b4-ac43-4adb-802d-617654e02590, sni: 183.dxmax.net, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯 01|中转|, server: szct.9218561.xyz, port: 28432, type: ss, cipher: aes-128-gcm, password: 4f6d19b4-ac43-4adb-802d-617654e02590, udp: true}
-  - {name: 香港 M247|中转|200M|X0.5, server: szct.9218561.xyz, port: 32597, type: ss, cipher: chacha20-ietf-poly1305, password: 4f6d19b4-ac43-4adb-802d-617654e02590, udp: true}
-  - {name: 美国 San Jose|电信|NF.Hulu.HBO|, server: szct.9218561.xyz, port: 29768, type: trojan, password: 4f6d19b4-ac43-4adb-802d-617654e02590, sni: szct.9218561.xyz, skip-cert-verify: true, udp: true}
-  - {name: 泰国 SC|中转|V3-4|SG-NF|, server: szct.9218561.xyz, port: 32466, type: trojan, password: 4f6d19b4-ac43-4adb-802d-617654e02590, sni: szct.9218561.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 Nero|移动入口02|NF|, server: 183.dxmax.net, port: 17202, type: ss, cipher: aes-128-gcm, password: 4f6d19b4-ac43-4adb-802d-617654e02590, udp: true}
-  - {name: 香港 HKT02|中转|NF|, server: szct.9218561.xyz, port: 21352, type: ss, cipher: chacha20-ietf-poly1305, password: 4f6d19b4-ac43-4adb-802d-617654e02590, udp: true}
-  - {name: 香港 IPLC|专线|10x|限时体验, server: iplc1.9218561.xyz, port: 24182, type: ss, cipher: aes-128-gcm, password: 4f6d19b4-ac43-4adb-802d-617654e02590, udp: true}
-  - {name: 日本 Nero|联通入口01|, server: cscu.9218561.xyz, port: 19174, type: ss, cipher: aes-256-gcm, password: 4f6d19b4-ac43-4adb-802d-617654e02590, udp: true}
-  - {name: 日本 Kirino|长联|NF|, server: cscu.9218561.xyz, port: 18159, type: ss, cipher: aes-256-gcm, password: 4f6d19b4-ac43-4adb-802d-617654e02590, udp: true}
-  - {name: 台湾 Hinet|广电|NF.动漫疯|, server: szct.9218561.xyz, port: 35915, type: ss, cipher: aes-256-gcm, password: 4f6d19b4-ac43-4adb-802d-617654e02590, udp: true}
-  - {name: 香港 HGC|移动入口02|NF|, server: 183.dxmax.net, port: 17201, type: trojan, password: 4f6d19b4-ac43-4adb-802d-617654e02590, sni: 183.dxmax.net, skip-cert-verify: true, udp: true}
-  - {name: 香港 HKT01|中转|NF|, server: szct.9218561.xyz, port: 33412, type: trojan, password: 4f6d19b4-ac43-4adb-802d-617654e02590, sni: szct.9218561.xyz, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong 01, server: jdmscys.ljqoal.xyz, port: 28155, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Hong Kong 02, server: jdmscys.ljqoal.xyz, port: 28674, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Hong Kong 03, server: jdmscys.ljqoal.xyz, port: 27349, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Hong Kong 04, server: jdmscys.ljqoal.xyz, port: 30958, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Hong Kong 05, server: jdmscys.ljqoal.xyz, port: 24617, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Hong Kong 06, server: jdmscys.ljqoal.xyz, port: 28672, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Hong Kong 07, server: jdmscys.ljqoal.xyz, port: 24341, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Hong Kong 08, server: jdmscys.ljqoal.xyz, port: 27874, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Hong Kong 09, server: jdmscys.ljqoal.xyz, port: 31313, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Hong Kong 10, server: jdmscys.ljqoal.xyz, port: 26922, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Hong Kong 11, server: jdmscys.ljqoal.xyz, port: 29329, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Hong Kong 12, server: jdmscys.ljqoal.xyz, port: 31289, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Hong Kong 13, server: jdmscys.ljqoal.xyz, port: 24594, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Hong Kong 14, server: jdmscys.ljqoal.xyz, port: 31994, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Hong Kong 15, server: jdmscys.ljqoal.xyz, port: 25305, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Hong Kong 16, server: jdmscys.ljqoal.xyz, port: 30219, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Hong Kong 17, server: jdmscys.ljqoal.xyz, port: 24900, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Hong Kong 18, server: jdmscys.ljqoal.xyz, port: 29533, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Hong Kong 19, server: jdmscys.ljqoal.xyz, port: 26018, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: "Hong Kong 20 [Premium]", server: 8.8.8.8, port: 30110, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: "Hong Kong 21 [Premium]", server: 8.8.8.8, port: 27702, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: "Hong Kong 22 [Premium]", server: 8.8.8.8, port: 31784, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Hong Kong 23, server: jdmscys.ljqoal.xyz, port: 29930, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: United States 01, server: btwbfhg.buizcy.xyz, port: 30026, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: United States 02, server: btwbfhg.buizcy.xyz, port: 30753, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: United States 03, server: btwbfhg.buizcy.xyz, port: 28845, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: "United States 04 [Premium]", server: 8.8.8.8, port: 25139, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: "United States 05 [Premium]", server: 8.8.8.8, port: 31729, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: "United States 06 [Premium]", server: 8.8.8.8, port: 30099, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: "United States 07 [Premium]", server: 8.8.8.8, port: 28738, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: United States 08, server: btwbfhg.buizcy.xyz, port: 26507, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: United States 09, server: btwbfhg.buizcy.xyz, port: 24883, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: United States 10, server: btwbfhg.buizcy.xyz, port: 30843, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: United States 11, server: btwbfhg.buizcy.xyz, port: 30241, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: United States 12, server: btwbfhg.buizcy.xyz, port: 28877, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: United States 13, server: btwbfhg.buizcy.xyz, port: 28961, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: "United States 14 [Premium]", server: 8.8.8.8, port: 29571, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: "United States 15 [Premium]", server: 8.8.8.8, port: 28281, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: United States 16, server: btwbfhg.buizcy.xyz, port: 28262, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: United States 17, server: btwbfhg.buizcy.xyz, port: 28749, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 01, server: btwbfhg.buizcy.xyz, port: 31505, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 02, server: btwbfhg.buizcy.xyz, port: 24434, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 03, server: btwbfhg.buizcy.xyz, port: 26589, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 04, server: btwbfhg.buizcy.xyz, port: 27441, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 05, server: btwbfhg.buizcy.xyz, port: 30961, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 06, server: btwbfhg.buizcy.xyz, port: 31493, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 07, server: btwbfhg.buizcy.xyz, port: 25743, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 08, server: btwbfhg.buizcy.xyz, port: 27942, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 09, server: btwbfhg.buizcy.xyz, port: 29192, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 10, server: btwbfhg.buizcy.xyz, port: 27358, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 11, server: btwbfhg.buizcy.xyz, port: 25157, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 12, server: btwbfhg.buizcy.xyz, port: 24522, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 13, server: btwbfhg.buizcy.xyz, port: 28297, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 14, server: btwbfhg.buizcy.xyz, port: 25135, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 15, server: btwbfhg.buizcy.xyz, port: 31861, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 16, server: btwbfhg.buizcy.xyz, port: 28361, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 17, server: btwbfhg.buizcy.xyz, port: 28671, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 18, server: btwbfhg.buizcy.xyz, port: 30088, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 19, server: btwbfhg.buizcy.xyz, port: 26941, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 20, server: btwbfhg.buizcy.xyz, port: 25919, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 21, server: btwbfhg.buizcy.xyz, port: 29306, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: "Japan 22 [Premium]", server: 8.8.8.8, port: 31225, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: "Japan 23 [Premium]", server: 8.8.8.8, port: 29134, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 24, server: btwbfhg.buizcy.xyz, port: 28592, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 25, server: btwbfhg.buizcy.xyz, port: 28221, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 26, server: btwbfhg.buizcy.xyz, port: 30353, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Japan 27, server: btwbfhg.buizcy.xyz, port: 31356, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Netherlands, server: jdmscys.ljqoal.xyz, port: 31410, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Russia St.Peterburg, server: jdmscys.ljqoal.xyz, port: 26506, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Russia Moscow, server: jdmscys.ljqoal.xyz, port: 25942, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Germany 1, server: jdmscys.ljqoal.xyz, port: 31588, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Germany 2, server: jdmscys.ljqoal.xyz, port: 27250, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: France, server: jdmscys.ljqoal.xyz, port: 27366, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Switzerland 01, server: jdmscys.ljqoal.xyz, port: 25190, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Switzerland 02, server: jdmscys.ljqoal.xyz, port: 25595, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: United Kingdom 1, server: jdmscys.ljqoal.xyz, port: 25027, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: United Kingdom 2, server: jdmscys.ljqoal.xyz, port: 27963, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: United Kingdom 3, server: jdmscys.ljqoal.xyz, port: 30583, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: United Kingdom 4, server: jdmscys.ljqoal.xyz, port: 27900, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: United Kingdom 5, server: jdmscys.ljqoal.xyz, port: 27993, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Sweden, server: jdmscys.ljqoal.xyz, port: 25843, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Bulgaria, server: jdmscys.ljqoal.xyz, port: 24422, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Austria, server: jdmscys.ljqoal.xyz, port: 31162, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Ireland 1, server: jdmscys.ljqoal.xyz, port: 25008, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Ireland 2, server: jdmscys.ljqoal.xyz, port: 30799, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Israel, server: jdmscys.ljqoal.xyz, port: 27024, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Turkey, server: jdmscys.ljqoal.xyz, port: 25858, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Italy, server: jdmscys.ljqoal.xyz, port: 29472, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Hungary, server: jdmscys.ljqoal.xyz, port: 29979, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Korea 1, server: jdmscys.ljqoal.xyz, port: 28976, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Korea 2, server: jdmscys.ljqoal.xyz, port: 25768, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: "Korea 3 [Premium]", server: 8.8.8.8, port: 28622, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Korea 4, server: btwbfhg.buizcy.xyz, port: 28561, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Taiwan 1, server: jdmscys.ljqoal.xyz, port: 28454, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Taiwan 2, server: jdmscys.ljqoal.xyz, port: 27905, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Taiwan 3, server: jdmscys.ljqoal.xyz, port: 31834, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Taiwan 4, server: jdmscys.ljqoal.xyz, port: 26338, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Taiwan 5, server: jdmscys.ljqoal.xyz, port: 29792, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Canada 01, server: btwbfhg.buizcy.xyz, port: 25899, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Canada 02, server: btwbfhg.buizcy.xyz, port: 29146, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Canada 03, server: btwbfhg.buizcy.xyz, port: 24753, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: "Australia Sydney 01 [Premium]", server: 8.8.8.8, port: 31464, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Australia Sydney 02, server: jdmscys.ljqoal.xyz, port: 24405, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: United Arab Emirates 01, server: jdmscys.ljqoal.xyz, port: 26830, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: United Arab Emirates 02, server: jdmscys.ljqoal.xyz, port: 24453, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: India 1, server: jdmscys.ljqoal.xyz, port: 31384, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: India 2, server: jdmscys.ljqoal.xyz, port: 28628, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Indonesia 01, server: jdmscys.ljqoal.xyz, port: 31459, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Brazil 01, server: btwbfhg.buizcy.xyz, port: 30302, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Singapore 01, server: jdmscys.ljqoal.xyz, port: 29521, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Singapore 02, server: jdmscys.ljqoal.xyz, port: 25248, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Singapore 03, server: jdmscys.ljqoal.xyz, port: 28552, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Singapore 04, server: jdmscys.ljqoal.xyz, port: 26208, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Singapore 05, server: jdmscys.ljqoal.xyz, port: 27186, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Singapore 06, server: jdmscys.ljqoal.xyz, port: 24391, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Singapore 07, server: jdmscys.ljqoal.xyz, port: 29670, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Singapore 08, server: jdmscys.ljqoal.xyz, port: 31858, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Singapore 09, server: jdmscys.ljqoal.xyz, port: 28084, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Singapore 10, server: jdmscys.ljqoal.xyz, port: 31565, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: "Singapore 11 [Premium]", server: 8.8.8.8, port: 26079, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+  - {name: Singapore 12, server: jdmscys.ljqoal.xyz, port: 31494, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港标准 IEPL 中继 5
-      - 新加坡标准 IEPL 中继 1
-      - "Traffic: 23.52 GB | 400 GB"
-      - 香港标准 IEPL 中继 4
-      - 香港标准 IEPL 中继 6
-      - 新加坡标准 IEPL 中继 2
-      - "Expire: 2022-10-10"
-      - 日本标准 IEPL 中继 3
-      - 香港标准 IEPL 中继 2
-      - 香港实验性 IEPL 中继 1
-      - 香港标准 IEPL 中继 3
-      - 日本标准 IEPL 中继 2
-      - 香港标准 IEPL 中继 8
-      - 香港标准 IEPL 中继 7
-      - 新加坡标准 IEPL 中继 5
-      - 香港高级 IEPL 中继 2
-      - 新加坡标准 IEPL 中继 4
-      - 美国标准 IEPL 中继 7
-      - 马来西亚标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 8
-      - 台湾标准 IEPL 中继 2
-      - 日本高级 IEPL 中继 2
-      - 日本标准 IEPL 中继 5
-      - 美国标准 IEPL 中继 6
-      - 越南标准 IEPL 中继 1
-      - 台湾标准 IEPL 中继 3
-      - 日本标准 IEPL 中继 4
-      - 美国标准 IEPL 中继 2
-      - 美国标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 5
-      - 韩国标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 4
-      - 印尼标准 IEPL 中继 1
-      - 台湾标准 IEPL 中继 1
-      - 新加坡标准 IEPL 中继 6
-      - 台湾高级 IEPL 中继 2
-      - 新加坡高级 IEPL 中继 1
-      - 新加坡实验性 IEPL 中继 1
-      - 美国标准 IEPL 中继 3
-      - 台湾高级 IEPL 中继 3
-      - 日本高级 IEPL 中继 3
-      - 新加坡高级 IEPL 中继 3
-      - 新加坡标准 IEPL 中继 7
-      - 新加坡标准 IEPL 中继 8
-      - 新加坡高级 IEPL 中继 2
-      - 美国高级 IEPL 中继 3
-      - 印度标准 IEPL 中继 1
-      - 香港高级 IEPL 中继 1
-      - 俄罗斯标准 IEPL 中继 1
-      - 匈牙利标准 IEPL 中继 1
-      - 德国标准 IEPL 中继 1
-      - 以色列标准 IEPL 中继 1
-      - 加拿大标准 IEPL 中继 1
-      - 香港高级 IEPL 中继 3
-      - 美国高级 IEPL 中继 1
-      - 台湾高级 IEPL 中继 1
-      - 菲律宾标准 IEPL 中继 1
-      - 美国高级 IEPL 中继 2
-      - 韩国标准 IEPL 中继 2
-      - 泰国标准 IEPL 中继 1
-      - 土耳其标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 1
-      - 法国标准 IEPL 中继 2
-      - 德国标准 IEPL 中继 2
-      - 法国标准 IEPL 中继 1
-      - 英国标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 6
-      - 土耳其标准 IEPL 中继 2
-      - 荷兰标准 IEPL 中继 2
-      - 美国实验性 IEPL 中继 1
-      - 新加坡标准 IEPL 中继 3
-      - 荷兰标准 IEPL 中继 1
-      - 英国标准 IEPL 中继 2
-      - 日本标准 IEPL 中继 7
-      - 日本实验性 IEPL 中继 1
-      - 意大利标准 IEPL 中继 1
-      - 阿根廷标准 IEPL 中继 1
-      - 巴西标准 IEPL 中继 1
-      - 澳洲标准 IEPL 中继 1
-      - 香港标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 8
-      - 日本高级 IEPL 中继 1
-      - 台湾 Scloud|中转|动漫疯|
-      - 日本 Kirino|广移|NF|
-      - 美国 San Jose|中转|NF.Hulu.HBO|
-      - 印度 Do|中转|
-      - 香港 CN2|V3-4|NF|30M|
-      - 日本 Kirino|上联|NF|
-      - 日本 Nero|广移入口02|
-      - 香港 HKIX|V3-4|中转|稳定NF|
-      - 新加坡 Oracle|中转|NF|
-      - 新加坡 Nero|临时广电|NF|
-      - 新加坡 Vu|V3-4|中转|
-      - 新加坡 Mel|中转|NF|
-      - 台湾 Hinet|广移|NF.动漫疯|
-      - 香港 HKBN|中转|NF|
-      - 新加坡 OVH|中转|NF|
-      - 新加坡 LesWeb|中转|V3-4|NF|
-      - 香港 BGP|中转|NF|
-      - 美国 Sharktech|中转|Hulu.HBO|
-      - 香港 Nero|移动入口01|NF|
-      - 美国 Oracle|中转|NF.Hulu.HBO|
-      - 韩国 Oracle|中转|0.5x流量消耗|
-      - 俄罗斯 01|中转|
-      - 香港 M247|中转|200M|X0.5
-      - 美国 San Jose|电信|NF.Hulu.HBO|
-      - 泰国 SC|中转|V3-4|SG-NF|
-      - 香港 Nero|移动入口02|NF|
-      - 香港 HKT02|中转|NF|
-      - 香港 IPLC|专线|10x|限时体验
-      - 日本 Nero|联通入口01|
-      - 日本 Kirino|长联|NF|
-      - 台湾 Hinet|广电|NF.动漫疯|
-      - 香港 HGC|移动入口02|NF|
-      - 香港 HKT01|中转|NF|
+      - Hong Kong 01
+      - Hong Kong 02
+      - Hong Kong 03
+      - Hong Kong 04
+      - Hong Kong 05
+      - Hong Kong 06
+      - Hong Kong 07
+      - Hong Kong 08
+      - Hong Kong 09
+      - Hong Kong 10
+      - Hong Kong 11
+      - Hong Kong 12
+      - Hong Kong 13
+      - Hong Kong 14
+      - Hong Kong 15
+      - Hong Kong 16
+      - Hong Kong 17
+      - Hong Kong 18
+      - Hong Kong 19
+      - Hong Kong 20 [Premium]
+      - Hong Kong 21 [Premium]
+      - Hong Kong 22 [Premium]
+      - Hong Kong 23
+      - United States 01
+      - United States 02
+      - United States 03
+      - United States 04 [Premium]
+      - United States 05 [Premium]
+      - United States 06 [Premium]
+      - United States 07 [Premium]
+      - United States 08
+      - United States 09
+      - United States 10
+      - United States 11
+      - United States 12
+      - United States 13
+      - United States 14 [Premium]
+      - United States 15 [Premium]
+      - United States 16
+      - United States 17
+      - Japan 01
+      - Japan 02
+      - Japan 03
+      - Japan 04
+      - Japan 05
+      - Japan 06
+      - Japan 07
+      - Japan 08
+      - Japan 09
+      - Japan 10
+      - Japan 11
+      - Japan 12
+      - Japan 13
+      - Japan 14
+      - Japan 15
+      - Japan 16
+      - Japan 17
+      - Japan 18
+      - Japan 19
+      - Japan 20
+      - Japan 21
+      - Japan 22 [Premium]
+      - Japan 23 [Premium]
+      - Japan 24
+      - Japan 25
+      - Japan 26
+      - Japan 27
+      - Netherlands
+      - Russia St.Peterburg
+      - Russia Moscow
+      - Germany 1
+      - Germany 2
+      - France
+      - Switzerland 01
+      - Switzerland 02
+      - United Kingdom 1
+      - United Kingdom 2
+      - United Kingdom 3
+      - United Kingdom 4
+      - United Kingdom 5
+      - Sweden
+      - Bulgaria
+      - Austria
+      - Ireland 1
+      - Ireland 2
+      - Israel
+      - Turkey
+      - Italy
+      - Hungary
+      - Korea 1
+      - Korea 2
+      - Korea 3 [Premium]
+      - Korea 4
+      - Taiwan 1
+      - Taiwan 2
+      - Taiwan 3
+      - Taiwan 4
+      - Taiwan 5
+      - Canada 01
+      - Canada 02
+      - Canada 03
+      - Australia Sydney 01 [Premium]
+      - Australia Sydney 02
+      - United Arab Emirates 01
+      - United Arab Emirates 02
+      - India 1
+      - India 2
+      - Indonesia 01
+      - Brazil 01
+      - Singapore 01
+      - Singapore 02
+      - Singapore 03
+      - Singapore 04
+      - Singapore 05
+      - Singapore 06
+      - Singapore 07
+      - Singapore 08
+      - Singapore 09
+      - Singapore 10
+      - Singapore 11 [Premium]
+      - Singapore 12
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港标准 IEPL 中继 5
-      - 新加坡标准 IEPL 中继 1
-      - "Traffic: 23.52 GB | 400 GB"
-      - 香港标准 IEPL 中继 4
-      - 香港标准 IEPL 中继 6
-      - 新加坡标准 IEPL 中继 2
-      - "Expire: 2022-10-10"
-      - 日本标准 IEPL 中继 3
-      - 香港标准 IEPL 中继 2
-      - 香港实验性 IEPL 中继 1
-      - 香港标准 IEPL 中继 3
-      - 日本标准 IEPL 中继 2
-      - 香港标准 IEPL 中继 8
-      - 香港标准 IEPL 中继 7
-      - 新加坡标准 IEPL 中继 5
-      - 香港高级 IEPL 中继 2
-      - 新加坡标准 IEPL 中继 4
-      - 美国标准 IEPL 中继 7
-      - 马来西亚标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 8
-      - 台湾标准 IEPL 中继 2
-      - 日本高级 IEPL 中继 2
-      - 日本标准 IEPL 中继 5
-      - 美国标准 IEPL 中继 6
-      - 越南标准 IEPL 中继 1
-      - 台湾标准 IEPL 中继 3
-      - 日本标准 IEPL 中继 4
-      - 美国标准 IEPL 中继 2
-      - 美国标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 5
-      - 韩国标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 4
-      - 印尼标准 IEPL 中继 1
-      - 台湾标准 IEPL 中继 1
-      - 新加坡标准 IEPL 中继 6
-      - 台湾高级 IEPL 中继 2
-      - 新加坡高级 IEPL 中继 1
-      - 新加坡实验性 IEPL 中继 1
-      - 美国标准 IEPL 中继 3
-      - 台湾高级 IEPL 中继 3
-      - 日本高级 IEPL 中继 3
-      - 新加坡高级 IEPL 中继 3
-      - 新加坡标准 IEPL 中继 7
-      - 新加坡标准 IEPL 中继 8
-      - 新加坡高级 IEPL 中继 2
-      - 美国高级 IEPL 中继 3
-      - 印度标准 IEPL 中继 1
-      - 香港高级 IEPL 中继 1
-      - 俄罗斯标准 IEPL 中继 1
-      - 匈牙利标准 IEPL 中继 1
-      - 德国标准 IEPL 中继 1
-      - 以色列标准 IEPL 中继 1
-      - 加拿大标准 IEPL 中继 1
-      - 香港高级 IEPL 中继 3
-      - 美国高级 IEPL 中继 1
-      - 台湾高级 IEPL 中继 1
-      - 菲律宾标准 IEPL 中继 1
-      - 美国高级 IEPL 中继 2
-      - 韩国标准 IEPL 中继 2
-      - 泰国标准 IEPL 中继 1
-      - 土耳其标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 1
-      - 法国标准 IEPL 中继 2
-      - 德国标准 IEPL 中继 2
-      - 法国标准 IEPL 中继 1
-      - 英国标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 6
-      - 土耳其标准 IEPL 中继 2
-      - 荷兰标准 IEPL 中继 2
-      - 美国实验性 IEPL 中继 1
-      - 新加坡标准 IEPL 中继 3
-      - 荷兰标准 IEPL 中继 1
-      - 英国标准 IEPL 中继 2
-      - 日本标准 IEPL 中继 7
-      - 日本实验性 IEPL 中继 1
-      - 意大利标准 IEPL 中继 1
-      - 阿根廷标准 IEPL 中继 1
-      - 巴西标准 IEPL 中继 1
-      - 澳洲标准 IEPL 中继 1
-      - 香港标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 8
-      - 日本高级 IEPL 中继 1
-      - 台湾 Scloud|中转|动漫疯|
-      - 日本 Kirino|广移|NF|
-      - 美国 San Jose|中转|NF.Hulu.HBO|
-      - 印度 Do|中转|
-      - 香港 CN2|V3-4|NF|30M|
-      - 日本 Kirino|上联|NF|
-      - 日本 Nero|广移入口02|
-      - 香港 HKIX|V3-4|中转|稳定NF|
-      - 新加坡 Oracle|中转|NF|
-      - 新加坡 Nero|临时广电|NF|
-      - 新加坡 Vu|V3-4|中转|
-      - 新加坡 Mel|中转|NF|
-      - 台湾 Hinet|广移|NF.动漫疯|
-      - 香港 HKBN|中转|NF|
-      - 新加坡 OVH|中转|NF|
-      - 新加坡 LesWeb|中转|V3-4|NF|
-      - 香港 BGP|中转|NF|
-      - 美国 Sharktech|中转|Hulu.HBO|
-      - 香港 Nero|移动入口01|NF|
-      - 美国 Oracle|中转|NF.Hulu.HBO|
-      - 韩国 Oracle|中转|0.5x流量消耗|
-      - 俄罗斯 01|中转|
-      - 香港 M247|中转|200M|X0.5
-      - 美国 San Jose|电信|NF.Hulu.HBO|
-      - 泰国 SC|中转|V3-4|SG-NF|
-      - 香港 Nero|移动入口02|NF|
-      - 香港 HKT02|中转|NF|
-      - 香港 IPLC|专线|10x|限时体验
-      - 日本 Nero|联通入口01|
-      - 日本 Kirino|长联|NF|
-      - 台湾 Hinet|广电|NF.动漫疯|
-      - 香港 HGC|移动入口02|NF|
-      - 香港 HKT01|中转|NF|
+      - Hong Kong 01
+      - Hong Kong 02
+      - Hong Kong 03
+      - Hong Kong 04
+      - Hong Kong 05
+      - Hong Kong 06
+      - Hong Kong 07
+      - Hong Kong 08
+      - Hong Kong 09
+      - Hong Kong 10
+      - Hong Kong 11
+      - Hong Kong 12
+      - Hong Kong 13
+      - Hong Kong 14
+      - Hong Kong 15
+      - Hong Kong 16
+      - Hong Kong 17
+      - Hong Kong 18
+      - Hong Kong 19
+      - Hong Kong 20 [Premium]
+      - Hong Kong 21 [Premium]
+      - Hong Kong 22 [Premium]
+      - Hong Kong 23
+      - United States 01
+      - United States 02
+      - United States 03
+      - United States 04 [Premium]
+      - United States 05 [Premium]
+      - United States 06 [Premium]
+      - United States 07 [Premium]
+      - United States 08
+      - United States 09
+      - United States 10
+      - United States 11
+      - United States 12
+      - United States 13
+      - United States 14 [Premium]
+      - United States 15 [Premium]
+      - United States 16
+      - United States 17
+      - Japan 01
+      - Japan 02
+      - Japan 03
+      - Japan 04
+      - Japan 05
+      - Japan 06
+      - Japan 07
+      - Japan 08
+      - Japan 09
+      - Japan 10
+      - Japan 11
+      - Japan 12
+      - Japan 13
+      - Japan 14
+      - Japan 15
+      - Japan 16
+      - Japan 17
+      - Japan 18
+      - Japan 19
+      - Japan 20
+      - Japan 21
+      - Japan 22 [Premium]
+      - Japan 23 [Premium]
+      - Japan 24
+      - Japan 25
+      - Japan 26
+      - Japan 27
+      - Netherlands
+      - Russia St.Peterburg
+      - Russia Moscow
+      - Germany 1
+      - Germany 2
+      - France
+      - Switzerland 01
+      - Switzerland 02
+      - United Kingdom 1
+      - United Kingdom 2
+      - United Kingdom 3
+      - United Kingdom 4
+      - United Kingdom 5
+      - Sweden
+      - Bulgaria
+      - Austria
+      - Ireland 1
+      - Ireland 2
+      - Israel
+      - Turkey
+      - Italy
+      - Hungary
+      - Korea 1
+      - Korea 2
+      - Korea 3 [Premium]
+      - Korea 4
+      - Taiwan 1
+      - Taiwan 2
+      - Taiwan 3
+      - Taiwan 4
+      - Taiwan 5
+      - Canada 01
+      - Canada 02
+      - Canada 03
+      - Australia Sydney 01 [Premium]
+      - Australia Sydney 02
+      - United Arab Emirates 01
+      - United Arab Emirates 02
+      - India 1
+      - India 2
+      - Indonesia 01
+      - Brazil 01
+      - Singapore 01
+      - Singapore 02
+      - Singapore 03
+      - Singapore 04
+      - Singapore 05
+      - Singapore 06
+      - Singapore 07
+      - Singapore 08
+      - Singapore 09
+      - Singapore 10
+      - Singapore 11 [Premium]
+      - Singapore 12
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港标准 IEPL 中继 5
-      - 新加坡标准 IEPL 中继 1
-      - "Traffic: 23.52 GB | 400 GB"
-      - 香港标准 IEPL 中继 4
-      - 香港标准 IEPL 中继 6
-      - 新加坡标准 IEPL 中继 2
-      - "Expire: 2022-10-10"
-      - 日本标准 IEPL 中继 3
-      - 香港标准 IEPL 中继 2
-      - 香港实验性 IEPL 中继 1
-      - 香港标准 IEPL 中继 3
-      - 日本标准 IEPL 中继 2
-      - 香港标准 IEPL 中继 8
-      - 香港标准 IEPL 中继 7
-      - 新加坡标准 IEPL 中继 5
-      - 香港高级 IEPL 中继 2
-      - 新加坡标准 IEPL 中继 4
-      - 美国标准 IEPL 中继 7
-      - 马来西亚标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 8
-      - 台湾标准 IEPL 中继 2
-      - 日本高级 IEPL 中继 2
-      - 日本标准 IEPL 中继 5
-      - 美国标准 IEPL 中继 6
-      - 越南标准 IEPL 中继 1
-      - 台湾标准 IEPL 中继 3
-      - 日本标准 IEPL 中继 4
-      - 美国标准 IEPL 中继 2
-      - 美国标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 5
-      - 韩国标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 4
-      - 印尼标准 IEPL 中继 1
-      - 台湾标准 IEPL 中继 1
-      - 新加坡标准 IEPL 中继 6
-      - 台湾高级 IEPL 中继 2
-      - 新加坡高级 IEPL 中继 1
-      - 新加坡实验性 IEPL 中继 1
-      - 美国标准 IEPL 中继 3
-      - 台湾高级 IEPL 中继 3
-      - 日本高级 IEPL 中继 3
-      - 新加坡高级 IEPL 中继 3
-      - 新加坡标准 IEPL 中继 7
-      - 新加坡标准 IEPL 中继 8
-      - 新加坡高级 IEPL 中继 2
-      - 美国高级 IEPL 中继 3
-      - 印度标准 IEPL 中继 1
-      - 香港高级 IEPL 中继 1
-      - 俄罗斯标准 IEPL 中继 1
-      - 匈牙利标准 IEPL 中继 1
-      - 德国标准 IEPL 中继 1
-      - 以色列标准 IEPL 中继 1
-      - 加拿大标准 IEPL 中继 1
-      - 香港高级 IEPL 中继 3
-      - 美国高级 IEPL 中继 1
-      - 台湾高级 IEPL 中继 1
-      - 菲律宾标准 IEPL 中继 1
-      - 美国高级 IEPL 中继 2
-      - 韩国标准 IEPL 中继 2
-      - 泰国标准 IEPL 中继 1
-      - 土耳其标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 1
-      - 法国标准 IEPL 中继 2
-      - 德国标准 IEPL 中继 2
-      - 法国标准 IEPL 中继 1
-      - 英国标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 6
-      - 土耳其标准 IEPL 中继 2
-      - 荷兰标准 IEPL 中继 2
-      - 美国实验性 IEPL 中继 1
-      - 新加坡标准 IEPL 中继 3
-      - 荷兰标准 IEPL 中继 1
-      - 英国标准 IEPL 中继 2
-      - 日本标准 IEPL 中继 7
-      - 日本实验性 IEPL 中继 1
-      - 意大利标准 IEPL 中继 1
-      - 阿根廷标准 IEPL 中继 1
-      - 巴西标准 IEPL 中继 1
-      - 澳洲标准 IEPL 中继 1
-      - 香港标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 8
-      - 日本高级 IEPL 中继 1
-      - 台湾 Scloud|中转|动漫疯|
-      - 日本 Kirino|广移|NF|
-      - 美国 San Jose|中转|NF.Hulu.HBO|
-      - 印度 Do|中转|
-      - 香港 CN2|V3-4|NF|30M|
-      - 日本 Kirino|上联|NF|
-      - 日本 Nero|广移入口02|
-      - 香港 HKIX|V3-4|中转|稳定NF|
-      - 新加坡 Oracle|中转|NF|
-      - 新加坡 Nero|临时广电|NF|
-      - 新加坡 Vu|V3-4|中转|
-      - 新加坡 Mel|中转|NF|
-      - 台湾 Hinet|广移|NF.动漫疯|
-      - 香港 HKBN|中转|NF|
-      - 新加坡 OVH|中转|NF|
-      - 新加坡 LesWeb|中转|V3-4|NF|
-      - 香港 BGP|中转|NF|
-      - 美国 Sharktech|中转|Hulu.HBO|
-      - 香港 Nero|移动入口01|NF|
-      - 美国 Oracle|中转|NF.Hulu.HBO|
-      - 韩国 Oracle|中转|0.5x流量消耗|
-      - 俄罗斯 01|中转|
-      - 香港 M247|中转|200M|X0.5
-      - 美国 San Jose|电信|NF.Hulu.HBO|
-      - 泰国 SC|中转|V3-4|SG-NF|
-      - 香港 Nero|移动入口02|NF|
-      - 香港 HKT02|中转|NF|
-      - 香港 IPLC|专线|10x|限时体验
-      - 日本 Nero|联通入口01|
-      - 日本 Kirino|长联|NF|
-      - 台湾 Hinet|广电|NF.动漫疯|
-      - 香港 HGC|移动入口02|NF|
-      - 香港 HKT01|中转|NF|
+      - Hong Kong 01
+      - Hong Kong 02
+      - Hong Kong 03
+      - Hong Kong 04
+      - Hong Kong 05
+      - Hong Kong 06
+      - Hong Kong 07
+      - Hong Kong 08
+      - Hong Kong 09
+      - Hong Kong 10
+      - Hong Kong 11
+      - Hong Kong 12
+      - Hong Kong 13
+      - Hong Kong 14
+      - Hong Kong 15
+      - Hong Kong 16
+      - Hong Kong 17
+      - Hong Kong 18
+      - Hong Kong 19
+      - Hong Kong 20 [Premium]
+      - Hong Kong 21 [Premium]
+      - Hong Kong 22 [Premium]
+      - Hong Kong 23
+      - United States 01
+      - United States 02
+      - United States 03
+      - United States 04 [Premium]
+      - United States 05 [Premium]
+      - United States 06 [Premium]
+      - United States 07 [Premium]
+      - United States 08
+      - United States 09
+      - United States 10
+      - United States 11
+      - United States 12
+      - United States 13
+      - United States 14 [Premium]
+      - United States 15 [Premium]
+      - United States 16
+      - United States 17
+      - Japan 01
+      - Japan 02
+      - Japan 03
+      - Japan 04
+      - Japan 05
+      - Japan 06
+      - Japan 07
+      - Japan 08
+      - Japan 09
+      - Japan 10
+      - Japan 11
+      - Japan 12
+      - Japan 13
+      - Japan 14
+      - Japan 15
+      - Japan 16
+      - Japan 17
+      - Japan 18
+      - Japan 19
+      - Japan 20
+      - Japan 21
+      - Japan 22 [Premium]
+      - Japan 23 [Premium]
+      - Japan 24
+      - Japan 25
+      - Japan 26
+      - Japan 27
+      - Netherlands
+      - Russia St.Peterburg
+      - Russia Moscow
+      - Germany 1
+      - Germany 2
+      - France
+      - Switzerland 01
+      - Switzerland 02
+      - United Kingdom 1
+      - United Kingdom 2
+      - United Kingdom 3
+      - United Kingdom 4
+      - United Kingdom 5
+      - Sweden
+      - Bulgaria
+      - Austria
+      - Ireland 1
+      - Ireland 2
+      - Israel
+      - Turkey
+      - Italy
+      - Hungary
+      - Korea 1
+      - Korea 2
+      - Korea 3 [Premium]
+      - Korea 4
+      - Taiwan 1
+      - Taiwan 2
+      - Taiwan 3
+      - Taiwan 4
+      - Taiwan 5
+      - Canada 01
+      - Canada 02
+      - Canada 03
+      - Australia Sydney 01 [Premium]
+      - Australia Sydney 02
+      - United Arab Emirates 01
+      - United Arab Emirates 02
+      - India 1
+      - India 2
+      - Indonesia 01
+      - Brazil 01
+      - Singapore 01
+      - Singapore 02
+      - Singapore 03
+      - Singapore 04
+      - Singapore 05
+      - Singapore 06
+      - Singapore 07
+      - Singapore 08
+      - Singapore 09
+      - Singapore 10
+      - Singapore 11 [Premium]
+      - Singapore 12
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -500,519 +524,511 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港标准 IEPL 中继 5
-      - 新加坡标准 IEPL 中继 1
-      - "Traffic: 23.52 GB | 400 GB"
-      - 香港标准 IEPL 中继 4
-      - 香港标准 IEPL 中继 6
-      - 新加坡标准 IEPL 中继 2
-      - "Expire: 2022-10-10"
-      - 日本标准 IEPL 中继 3
-      - 香港标准 IEPL 中继 2
-      - 香港实验性 IEPL 中继 1
-      - 香港标准 IEPL 中继 3
-      - 日本标准 IEPL 中继 2
-      - 香港标准 IEPL 中继 8
-      - 香港标准 IEPL 中继 7
-      - 新加坡标准 IEPL 中继 5
-      - 香港高级 IEPL 中继 2
-      - 新加坡标准 IEPL 中继 4
-      - 美国标准 IEPL 中继 7
-      - 马来西亚标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 8
-      - 台湾标准 IEPL 中继 2
-      - 日本高级 IEPL 中继 2
-      - 日本标准 IEPL 中继 5
-      - 美国标准 IEPL 中继 6
-      - 越南标准 IEPL 中继 1
-      - 台湾标准 IEPL 中继 3
-      - 日本标准 IEPL 中继 4
-      - 美国标准 IEPL 中继 2
-      - 美国标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 5
-      - 韩国标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 4
-      - 印尼标准 IEPL 中继 1
-      - 台湾标准 IEPL 中继 1
-      - 新加坡标准 IEPL 中继 6
-      - 台湾高级 IEPL 中继 2
-      - 新加坡高级 IEPL 中继 1
-      - 新加坡实验性 IEPL 中继 1
-      - 美国标准 IEPL 中继 3
-      - 台湾高级 IEPL 中继 3
-      - 日本高级 IEPL 中继 3
-      - 新加坡高级 IEPL 中继 3
-      - 新加坡标准 IEPL 中继 7
-      - 新加坡标准 IEPL 中继 8
-      - 新加坡高级 IEPL 中继 2
-      - 美国高级 IEPL 中继 3
-      - 印度标准 IEPL 中继 1
-      - 香港高级 IEPL 中继 1
-      - 俄罗斯标准 IEPL 中继 1
-      - 匈牙利标准 IEPL 中继 1
-      - 德国标准 IEPL 中继 1
-      - 以色列标准 IEPL 中继 1
-      - 加拿大标准 IEPL 中继 1
-      - 香港高级 IEPL 中继 3
-      - 美国高级 IEPL 中继 1
-      - 台湾高级 IEPL 中继 1
-      - 菲律宾标准 IEPL 中继 1
-      - 美国高级 IEPL 中继 2
-      - 韩国标准 IEPL 中继 2
-      - 泰国标准 IEPL 中继 1
-      - 土耳其标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 1
-      - 法国标准 IEPL 中继 2
-      - 德国标准 IEPL 中继 2
-      - 法国标准 IEPL 中继 1
-      - 英国标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 6
-      - 土耳其标准 IEPL 中继 2
-      - 荷兰标准 IEPL 中继 2
-      - 美国实验性 IEPL 中继 1
-      - 新加坡标准 IEPL 中继 3
-      - 荷兰标准 IEPL 中继 1
-      - 英国标准 IEPL 中继 2
-      - 日本标准 IEPL 中继 7
-      - 日本实验性 IEPL 中继 1
-      - 意大利标准 IEPL 中继 1
-      - 阿根廷标准 IEPL 中继 1
-      - 巴西标准 IEPL 中继 1
-      - 澳洲标准 IEPL 中继 1
-      - 香港标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 8
-      - 日本高级 IEPL 中继 1
-      - 台湾 Scloud|中转|动漫疯|
-      - 日本 Kirino|广移|NF|
-      - 美国 San Jose|中转|NF.Hulu.HBO|
-      - 印度 Do|中转|
-      - 香港 CN2|V3-4|NF|30M|
-      - 日本 Kirino|上联|NF|
-      - 日本 Nero|广移入口02|
-      - 香港 HKIX|V3-4|中转|稳定NF|
-      - 新加坡 Oracle|中转|NF|
-      - 新加坡 Nero|临时广电|NF|
-      - 新加坡 Vu|V3-4|中转|
-      - 新加坡 Mel|中转|NF|
-      - 台湾 Hinet|广移|NF.动漫疯|
-      - 香港 HKBN|中转|NF|
-      - 新加坡 OVH|中转|NF|
-      - 新加坡 LesWeb|中转|V3-4|NF|
-      - 香港 BGP|中转|NF|
-      - 美国 Sharktech|中转|Hulu.HBO|
-      - 香港 Nero|移动入口01|NF|
-      - 美国 Oracle|中转|NF.Hulu.HBO|
-      - 韩国 Oracle|中转|0.5x流量消耗|
-      - 俄罗斯 01|中转|
-      - 香港 M247|中转|200M|X0.5
-      - 美国 San Jose|电信|NF.Hulu.HBO|
-      - 泰国 SC|中转|V3-4|SG-NF|
-      - 香港 Nero|移动入口02|NF|
-      - 香港 HKT02|中转|NF|
-      - 香港 IPLC|专线|10x|限时体验
-      - 日本 Nero|联通入口01|
-      - 日本 Kirino|长联|NF|
-      - 台湾 Hinet|广电|NF.动漫疯|
-      - 香港 HGC|移动入口02|NF|
-      - 香港 HKT01|中转|NF|
+      - Hong Kong 01
+      - Hong Kong 02
+      - Hong Kong 03
+      - Hong Kong 04
+      - Hong Kong 05
+      - Hong Kong 06
+      - Hong Kong 07
+      - Hong Kong 08
+      - Hong Kong 09
+      - Hong Kong 10
+      - Hong Kong 11
+      - Hong Kong 12
+      - Hong Kong 13
+      - Hong Kong 14
+      - Hong Kong 15
+      - Hong Kong 16
+      - Hong Kong 17
+      - Hong Kong 18
+      - Hong Kong 19
+      - Hong Kong 20 [Premium]
+      - Hong Kong 21 [Premium]
+      - Hong Kong 22 [Premium]
+      - Hong Kong 23
+      - United States 01
+      - United States 02
+      - United States 03
+      - United States 04 [Premium]
+      - United States 05 [Premium]
+      - United States 06 [Premium]
+      - United States 07 [Premium]
+      - United States 08
+      - United States 09
+      - United States 10
+      - United States 11
+      - United States 12
+      - United States 13
+      - United States 14 [Premium]
+      - United States 15 [Premium]
+      - United States 16
+      - United States 17
+      - Japan 01
+      - Japan 02
+      - Japan 03
+      - Japan 04
+      - Japan 05
+      - Japan 06
+      - Japan 07
+      - Japan 08
+      - Japan 09
+      - Japan 10
+      - Japan 11
+      - Japan 12
+      - Japan 13
+      - Japan 14
+      - Japan 15
+      - Japan 16
+      - Japan 17
+      - Japan 18
+      - Japan 19
+      - Japan 20
+      - Japan 21
+      - Japan 22 [Premium]
+      - Japan 23 [Premium]
+      - Japan 24
+      - Japan 25
+      - Japan 26
+      - Japan 27
+      - Netherlands
+      - Russia St.Peterburg
+      - Russia Moscow
+      - Germany 1
+      - Germany 2
+      - France
+      - Switzerland 01
+      - Switzerland 02
+      - United Kingdom 1
+      - United Kingdom 2
+      - United Kingdom 3
+      - United Kingdom 4
+      - United Kingdom 5
+      - Sweden
+      - Bulgaria
+      - Austria
+      - Ireland 1
+      - Ireland 2
+      - Israel
+      - Turkey
+      - Italy
+      - Hungary
+      - Korea 1
+      - Korea 2
+      - Korea 3 [Premium]
+      - Korea 4
+      - Taiwan 1
+      - Taiwan 2
+      - Taiwan 3
+      - Taiwan 4
+      - Taiwan 5
+      - Canada 01
+      - Canada 02
+      - Canada 03
+      - Australia Sydney 01 [Premium]
+      - Australia Sydney 02
+      - United Arab Emirates 01
+      - United Arab Emirates 02
+      - India 1
+      - India 2
+      - Indonesia 01
+      - Brazil 01
+      - Singapore 01
+      - Singapore 02
+      - Singapore 03
+      - Singapore 04
+      - Singapore 05
+      - Singapore 06
+      - Singapore 07
+      - Singapore 08
+      - Singapore 09
+      - Singapore 10
+      - Singapore 11 [Premium]
+      - Singapore 12
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港标准 IEPL 中继 5
-      - 香港标准 IEPL 中继 4
-      - 香港标准 IEPL 中继 6
-      - 香港标准 IEPL 中继 2
-      - 香港实验性 IEPL 中继 1
-      - 香港标准 IEPL 中继 3
-      - 香港标准 IEPL 中继 8
-      - 香港标准 IEPL 中继 7
-      - 香港高级 IEPL 中继 2
-      - 台湾标准 IEPL 中继 2
-      - 台湾标准 IEPL 中继 3
-      - 台湾标准 IEPL 中继 1
-      - 台湾高级 IEPL 中继 2
-      - 台湾高级 IEPL 中继 3
-      - 香港高级 IEPL 中继 1
-      - 香港高级 IEPL 中继 3
-      - 台湾高级 IEPL 中继 1
-      - 香港标准 IEPL 中继 1
-      - 台湾 Scloud|中转|动漫疯|
-      - 香港 CN2|V3-4|NF|30M|
-      - 香港 HKIX|V3-4|中转|稳定NF|
-      - 台湾 Hinet|广移|NF.动漫疯|
-      - 香港 HKBN|中转|NF|
-      - 香港 BGP|中转|NF|
-      - 香港 Nero|移动入口01|NF|
-      - 香港 M247|中转|200M|X0.5
-      - 香港 Nero|移动入口02|NF|
-      - 香港 HKT02|中转|NF|
-      - 香港 IPLC|专线|10x|限时体验
-      - 台湾 Hinet|广电|NF.动漫疯|
-      - 香港 HGC|移动入口02|NF|
-      - 香港 HKT01|中转|NF|
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港标准 IEPL 中继 5
-      - 新加坡标准 IEPL 中继 1
-      - "Traffic: 23.52 GB | 400 GB"
-      - 香港标准 IEPL 中继 4
-      - 香港标准 IEPL 中继 6
-      - 新加坡标准 IEPL 中继 2
-      - "Expire: 2022-10-10"
-      - 日本标准 IEPL 中继 3
-      - 香港标准 IEPL 中继 2
-      - 香港实验性 IEPL 中继 1
-      - 香港标准 IEPL 中继 3
-      - 日本标准 IEPL 中继 2
-      - 香港标准 IEPL 中继 8
-      - 香港标准 IEPL 中继 7
-      - 新加坡标准 IEPL 中继 5
-      - 香港高级 IEPL 中继 2
-      - 新加坡标准 IEPL 中继 4
-      - 美国标准 IEPL 中继 7
-      - 马来西亚标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 8
-      - 台湾标准 IEPL 中继 2
-      - 日本高级 IEPL 中继 2
-      - 日本标准 IEPL 中继 5
-      - 美国标准 IEPL 中继 6
-      - 越南标准 IEPL 中继 1
-      - 台湾标准 IEPL 中继 3
-      - 日本标准 IEPL 中继 4
-      - 美国标准 IEPL 中继 2
-      - 美国标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 5
-      - 韩国标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 4
-      - 印尼标准 IEPL 中继 1
-      - 台湾标准 IEPL 中继 1
-      - 新加坡标准 IEPL 中继 6
-      - 台湾高级 IEPL 中继 2
-      - 新加坡高级 IEPL 中继 1
-      - 新加坡实验性 IEPL 中继 1
-      - 美国标准 IEPL 中继 3
-      - 台湾高级 IEPL 中继 3
-      - 日本高级 IEPL 中继 3
-      - 新加坡高级 IEPL 中继 3
-      - 新加坡标准 IEPL 中继 7
-      - 新加坡标准 IEPL 中继 8
-      - 新加坡高级 IEPL 中继 2
-      - 美国高级 IEPL 中继 3
-      - 印度标准 IEPL 中继 1
-      - 香港高级 IEPL 中继 1
-      - 俄罗斯标准 IEPL 中继 1
-      - 匈牙利标准 IEPL 中继 1
-      - 德国标准 IEPL 中继 1
-      - 以色列标准 IEPL 中继 1
-      - 加拿大标准 IEPL 中继 1
-      - 香港高级 IEPL 中继 3
-      - 美国高级 IEPL 中继 1
-      - 台湾高级 IEPL 中继 1
-      - 菲律宾标准 IEPL 中继 1
-      - 美国高级 IEPL 中继 2
-      - 韩国标准 IEPL 中继 2
-      - 泰国标准 IEPL 中继 1
-      - 土耳其标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 1
-      - 法国标准 IEPL 中继 2
-      - 德国标准 IEPL 中继 2
-      - 法国标准 IEPL 中继 1
-      - 英国标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 6
-      - 土耳其标准 IEPL 中继 2
-      - 荷兰标准 IEPL 中继 2
-      - 美国实验性 IEPL 中继 1
-      - 新加坡标准 IEPL 中继 3
-      - 荷兰标准 IEPL 中继 1
-      - 英国标准 IEPL 中继 2
-      - 日本标准 IEPL 中继 7
-      - 日本实验性 IEPL 中继 1
-      - 意大利标准 IEPL 中继 1
-      - 阿根廷标准 IEPL 中继 1
-      - 巴西标准 IEPL 中继 1
-      - 澳洲标准 IEPL 中继 1
-      - 香港标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 8
-      - 日本高级 IEPL 中继 1
-      - 台湾 Scloud|中转|动漫疯|
-      - 日本 Kirino|广移|NF|
-      - 美国 San Jose|中转|NF.Hulu.HBO|
-      - 印度 Do|中转|
-      - 香港 CN2|V3-4|NF|30M|
-      - 日本 Kirino|上联|NF|
-      - 日本 Nero|广移入口02|
-      - 香港 HKIX|V3-4|中转|稳定NF|
-      - 新加坡 Oracle|中转|NF|
-      - 新加坡 Nero|临时广电|NF|
-      - 新加坡 Vu|V3-4|中转|
-      - 新加坡 Mel|中转|NF|
-      - 台湾 Hinet|广移|NF.动漫疯|
-      - 香港 HKBN|中转|NF|
-      - 新加坡 OVH|中转|NF|
-      - 新加坡 LesWeb|中转|V3-4|NF|
-      - 香港 BGP|中转|NF|
-      - 美国 Sharktech|中转|Hulu.HBO|
-      - 香港 Nero|移动入口01|NF|
-      - 美国 Oracle|中转|NF.Hulu.HBO|
-      - 韩国 Oracle|中转|0.5x流量消耗|
-      - 俄罗斯 01|中转|
-      - 香港 M247|中转|200M|X0.5
-      - 美国 San Jose|电信|NF.Hulu.HBO|
-      - 泰国 SC|中转|V3-4|SG-NF|
-      - 香港 Nero|移动入口02|NF|
-      - 香港 HKT02|中转|NF|
-      - 香港 IPLC|专线|10x|限时体验
-      - 日本 Nero|联通入口01|
-      - 日本 Kirino|长联|NF|
-      - 台湾 Hinet|广电|NF.动漫疯|
-      - 香港 HGC|移动入口02|NF|
-      - 香港 HKT01|中转|NF|
+      - Hong Kong 01
+      - Hong Kong 02
+      - Hong Kong 03
+      - Hong Kong 04
+      - Hong Kong 05
+      - Hong Kong 06
+      - Hong Kong 07
+      - Hong Kong 08
+      - Hong Kong 09
+      - Hong Kong 10
+      - Hong Kong 11
+      - Hong Kong 12
+      - Hong Kong 13
+      - Hong Kong 14
+      - Hong Kong 15
+      - Hong Kong 16
+      - Hong Kong 17
+      - Hong Kong 18
+      - Hong Kong 19
+      - Hong Kong 20 [Premium]
+      - Hong Kong 21 [Premium]
+      - Hong Kong 22 [Premium]
+      - Hong Kong 23
+      - United States 01
+      - United States 02
+      - United States 03
+      - United States 04 [Premium]
+      - United States 05 [Premium]
+      - United States 06 [Premium]
+      - United States 07 [Premium]
+      - United States 08
+      - United States 09
+      - United States 10
+      - United States 11
+      - United States 12
+      - United States 13
+      - United States 14 [Premium]
+      - United States 15 [Premium]
+      - United States 16
+      - United States 17
+      - Japan 01
+      - Japan 02
+      - Japan 03
+      - Japan 04
+      - Japan 05
+      - Japan 06
+      - Japan 07
+      - Japan 08
+      - Japan 09
+      - Japan 10
+      - Japan 11
+      - Japan 12
+      - Japan 13
+      - Japan 14
+      - Japan 15
+      - Japan 16
+      - Japan 17
+      - Japan 18
+      - Japan 19
+      - Japan 20
+      - Japan 21
+      - Japan 22 [Premium]
+      - Japan 23 [Premium]
+      - Japan 24
+      - Japan 25
+      - Japan 26
+      - Japan 27
+      - Netherlands
+      - Russia St.Peterburg
+      - Russia Moscow
+      - Germany 1
+      - Germany 2
+      - France
+      - Switzerland 01
+      - Switzerland 02
+      - United Kingdom 1
+      - United Kingdom 2
+      - United Kingdom 3
+      - United Kingdom 4
+      - United Kingdom 5
+      - Sweden
+      - Bulgaria
+      - Austria
+      - Ireland 1
+      - Ireland 2
+      - Israel
+      - Turkey
+      - Italy
+      - Hungary
+      - Korea 1
+      - Korea 2
+      - Korea 3 [Premium]
+      - Korea 4
+      - Taiwan 1
+      - Taiwan 2
+      - Taiwan 3
+      - Taiwan 4
+      - Taiwan 5
+      - Canada 01
+      - Canada 02
+      - Canada 03
+      - Australia Sydney 01 [Premium]
+      - Australia Sydney 02
+      - United Arab Emirates 01
+      - United Arab Emirates 02
+      - India 1
+      - India 2
+      - Indonesia 01
+      - Brazil 01
+      - Singapore 01
+      - Singapore 02
+      - Singapore 03
+      - Singapore 04
+      - Singapore 05
+      - Singapore 06
+      - Singapore 07
+      - Singapore 08
+      - Singapore 09
+      - Singapore 10
+      - Singapore 11 [Premium]
+      - Singapore 12
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港标准 IEPL 中继 5
-      - 新加坡标准 IEPL 中继 1
-      - "Traffic: 23.52 GB | 400 GB"
-      - 香港标准 IEPL 中继 4
-      - 香港标准 IEPL 中继 6
-      - 新加坡标准 IEPL 中继 2
-      - "Expire: 2022-10-10"
-      - 日本标准 IEPL 中继 3
-      - 香港标准 IEPL 中继 2
-      - 香港实验性 IEPL 中继 1
-      - 香港标准 IEPL 中继 3
-      - 日本标准 IEPL 中继 2
-      - 香港标准 IEPL 中继 8
-      - 香港标准 IEPL 中继 7
-      - 新加坡标准 IEPL 中继 5
-      - 香港高级 IEPL 中继 2
-      - 新加坡标准 IEPL 中继 4
-      - 美国标准 IEPL 中继 7
-      - 马来西亚标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 8
-      - 台湾标准 IEPL 中继 2
-      - 日本高级 IEPL 中继 2
-      - 日本标准 IEPL 中继 5
-      - 美国标准 IEPL 中继 6
-      - 越南标准 IEPL 中继 1
-      - 台湾标准 IEPL 中继 3
-      - 日本标准 IEPL 中继 4
-      - 美国标准 IEPL 中继 2
-      - 美国标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 5
-      - 韩国标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 4
-      - 印尼标准 IEPL 中继 1
-      - 台湾标准 IEPL 中继 1
-      - 新加坡标准 IEPL 中继 6
-      - 台湾高级 IEPL 中继 2
-      - 新加坡高级 IEPL 中继 1
-      - 新加坡实验性 IEPL 中继 1
-      - 美国标准 IEPL 中继 3
-      - 台湾高级 IEPL 中继 3
-      - 日本高级 IEPL 中继 3
-      - 新加坡高级 IEPL 中继 3
-      - 新加坡标准 IEPL 中继 7
-      - 新加坡标准 IEPL 中继 8
-      - 新加坡高级 IEPL 中继 2
-      - 美国高级 IEPL 中继 3
-      - 印度标准 IEPL 中继 1
-      - 香港高级 IEPL 中继 1
-      - 俄罗斯标准 IEPL 中继 1
-      - 匈牙利标准 IEPL 中继 1
-      - 德国标准 IEPL 中继 1
-      - 以色列标准 IEPL 中继 1
-      - 加拿大标准 IEPL 中继 1
-      - 香港高级 IEPL 中继 3
-      - 美国高级 IEPL 中继 1
-      - 台湾高级 IEPL 中继 1
-      - 菲律宾标准 IEPL 中继 1
-      - 美国高级 IEPL 中继 2
-      - 韩国标准 IEPL 中继 2
-      - 泰国标准 IEPL 中继 1
-      - 土耳其标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 1
-      - 法国标准 IEPL 中继 2
-      - 德国标准 IEPL 中继 2
-      - 法国标准 IEPL 中继 1
-      - 英国标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 6
-      - 土耳其标准 IEPL 中继 2
-      - 荷兰标准 IEPL 中继 2
-      - 美国实验性 IEPL 中继 1
-      - 新加坡标准 IEPL 中继 3
-      - 荷兰标准 IEPL 中继 1
-      - 英国标准 IEPL 中继 2
-      - 日本标准 IEPL 中继 7
-      - 日本实验性 IEPL 中继 1
-      - 意大利标准 IEPL 中继 1
-      - 阿根廷标准 IEPL 中继 1
-      - 巴西标准 IEPL 中继 1
-      - 澳洲标准 IEPL 中继 1
-      - 香港标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 8
-      - 日本高级 IEPL 中继 1
-      - 台湾 Scloud|中转|动漫疯|
-      - 日本 Kirino|广移|NF|
-      - 美国 San Jose|中转|NF.Hulu.HBO|
-      - 印度 Do|中转|
-      - 香港 CN2|V3-4|NF|30M|
-      - 日本 Kirino|上联|NF|
-      - 日本 Nero|广移入口02|
-      - 香港 HKIX|V3-4|中转|稳定NF|
-      - 新加坡 Oracle|中转|NF|
-      - 新加坡 Nero|临时广电|NF|
-      - 新加坡 Vu|V3-4|中转|
-      - 新加坡 Mel|中转|NF|
-      - 台湾 Hinet|广移|NF.动漫疯|
-      - 香港 HKBN|中转|NF|
-      - 新加坡 OVH|中转|NF|
-      - 新加坡 LesWeb|中转|V3-4|NF|
-      - 香港 BGP|中转|NF|
-      - 美国 Sharktech|中转|Hulu.HBO|
-      - 香港 Nero|移动入口01|NF|
-      - 美国 Oracle|中转|NF.Hulu.HBO|
-      - 韩国 Oracle|中转|0.5x流量消耗|
-      - 俄罗斯 01|中转|
-      - 香港 M247|中转|200M|X0.5
-      - 美国 San Jose|电信|NF.Hulu.HBO|
-      - 泰国 SC|中转|V3-4|SG-NF|
-      - 香港 Nero|移动入口02|NF|
-      - 香港 HKT02|中转|NF|
-      - 香港 IPLC|专线|10x|限时体验
-      - 日本 Nero|联通入口01|
-      - 日本 Kirino|长联|NF|
-      - 台湾 Hinet|广电|NF.动漫疯|
-      - 香港 HGC|移动入口02|NF|
-      - 香港 HKT01|中转|NF|
+      - Hong Kong 01
+      - Hong Kong 02
+      - Hong Kong 03
+      - Hong Kong 04
+      - Hong Kong 05
+      - Hong Kong 06
+      - Hong Kong 07
+      - Hong Kong 08
+      - Hong Kong 09
+      - Hong Kong 10
+      - Hong Kong 11
+      - Hong Kong 12
+      - Hong Kong 13
+      - Hong Kong 14
+      - Hong Kong 15
+      - Hong Kong 16
+      - Hong Kong 17
+      - Hong Kong 18
+      - Hong Kong 19
+      - Hong Kong 20 [Premium]
+      - Hong Kong 21 [Premium]
+      - Hong Kong 22 [Premium]
+      - Hong Kong 23
+      - United States 01
+      - United States 02
+      - United States 03
+      - United States 04 [Premium]
+      - United States 05 [Premium]
+      - United States 06 [Premium]
+      - United States 07 [Premium]
+      - United States 08
+      - United States 09
+      - United States 10
+      - United States 11
+      - United States 12
+      - United States 13
+      - United States 14 [Premium]
+      - United States 15 [Premium]
+      - United States 16
+      - United States 17
+      - Japan 01
+      - Japan 02
+      - Japan 03
+      - Japan 04
+      - Japan 05
+      - Japan 06
+      - Japan 07
+      - Japan 08
+      - Japan 09
+      - Japan 10
+      - Japan 11
+      - Japan 12
+      - Japan 13
+      - Japan 14
+      - Japan 15
+      - Japan 16
+      - Japan 17
+      - Japan 18
+      - Japan 19
+      - Japan 20
+      - Japan 21
+      - Japan 22 [Premium]
+      - Japan 23 [Premium]
+      - Japan 24
+      - Japan 25
+      - Japan 26
+      - Japan 27
+      - Netherlands
+      - Russia St.Peterburg
+      - Russia Moscow
+      - Germany 1
+      - Germany 2
+      - France
+      - Switzerland 01
+      - Switzerland 02
+      - United Kingdom 1
+      - United Kingdom 2
+      - United Kingdom 3
+      - United Kingdom 4
+      - United Kingdom 5
+      - Sweden
+      - Bulgaria
+      - Austria
+      - Ireland 1
+      - Ireland 2
+      - Israel
+      - Turkey
+      - Italy
+      - Hungary
+      - Korea 1
+      - Korea 2
+      - Korea 3 [Premium]
+      - Korea 4
+      - Taiwan 1
+      - Taiwan 2
+      - Taiwan 3
+      - Taiwan 4
+      - Taiwan 5
+      - Canada 01
+      - Canada 02
+      - Canada 03
+      - Australia Sydney 01 [Premium]
+      - Australia Sydney 02
+      - United Arab Emirates 01
+      - United Arab Emirates 02
+      - India 1
+      - India 2
+      - Indonesia 01
+      - Brazil 01
+      - Singapore 01
+      - Singapore 02
+      - Singapore 03
+      - Singapore 04
+      - Singapore 05
+      - Singapore 06
+      - Singapore 07
+      - Singapore 08
+      - Singapore 09
+      - Singapore 10
+      - Singapore 11 [Premium]
+      - Singapore 12
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港标准 IEPL 中继 5
-      - 新加坡标准 IEPL 中继 1
-      - "Traffic: 23.52 GB | 400 GB"
-      - 香港标准 IEPL 中继 4
-      - 香港标准 IEPL 中继 6
-      - 新加坡标准 IEPL 中继 2
-      - "Expire: 2022-10-10"
-      - 日本标准 IEPL 中继 3
-      - 香港标准 IEPL 中继 2
-      - 香港实验性 IEPL 中继 1
-      - 香港标准 IEPL 中继 3
-      - 日本标准 IEPL 中继 2
-      - 香港标准 IEPL 中继 8
-      - 香港标准 IEPL 中继 7
-      - 新加坡标准 IEPL 中继 5
-      - 香港高级 IEPL 中继 2
-      - 新加坡标准 IEPL 中继 4
-      - 美国标准 IEPL 中继 7
-      - 马来西亚标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 8
-      - 台湾标准 IEPL 中继 2
-      - 日本高级 IEPL 中继 2
-      - 日本标准 IEPL 中继 5
-      - 美国标准 IEPL 中继 6
-      - 越南标准 IEPL 中继 1
-      - 台湾标准 IEPL 中继 3
-      - 日本标准 IEPL 中继 4
-      - 美国标准 IEPL 中继 2
-      - 美国标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 5
-      - 韩国标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 4
-      - 印尼标准 IEPL 中继 1
-      - 台湾标准 IEPL 中继 1
-      - 新加坡标准 IEPL 中继 6
-      - 台湾高级 IEPL 中继 2
-      - 新加坡高级 IEPL 中继 1
-      - 新加坡实验性 IEPL 中继 1
-      - 美国标准 IEPL 中继 3
-      - 台湾高级 IEPL 中继 3
-      - 日本高级 IEPL 中继 3
-      - 新加坡高级 IEPL 中继 3
-      - 新加坡标准 IEPL 中继 7
-      - 新加坡标准 IEPL 中继 8
-      - 新加坡高级 IEPL 中继 2
-      - 美国高级 IEPL 中继 3
-      - 印度标准 IEPL 中继 1
-      - 香港高级 IEPL 中继 1
-      - 俄罗斯标准 IEPL 中继 1
-      - 匈牙利标准 IEPL 中继 1
-      - 德国标准 IEPL 中继 1
-      - 以色列标准 IEPL 中继 1
-      - 加拿大标准 IEPL 中继 1
-      - 香港高级 IEPL 中继 3
-      - 美国高级 IEPL 中继 1
-      - 台湾高级 IEPL 中继 1
-      - 菲律宾标准 IEPL 中继 1
-      - 美国高级 IEPL 中继 2
-      - 韩国标准 IEPL 中继 2
-      - 泰国标准 IEPL 中继 1
-      - 土耳其标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 1
-      - 法国标准 IEPL 中继 2
-      - 德国标准 IEPL 中继 2
-      - 法国标准 IEPL 中继 1
-      - 英国标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 6
-      - 土耳其标准 IEPL 中继 2
-      - 荷兰标准 IEPL 中继 2
-      - 美国实验性 IEPL 中继 1
-      - 新加坡标准 IEPL 中继 3
-      - 荷兰标准 IEPL 中继 1
-      - 英国标准 IEPL 中继 2
-      - 日本标准 IEPL 中继 7
-      - 日本实验性 IEPL 中继 1
-      - 意大利标准 IEPL 中继 1
-      - 阿根廷标准 IEPL 中继 1
-      - 巴西标准 IEPL 中继 1
-      - 澳洲标准 IEPL 中继 1
-      - 香港标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 8
-      - 日本高级 IEPL 中继 1
-      - 台湾 Scloud|中转|动漫疯|
-      - 日本 Kirino|广移|NF|
-      - 美国 San Jose|中转|NF.Hulu.HBO|
-      - 印度 Do|中转|
-      - 香港 CN2|V3-4|NF|30M|
-      - 日本 Kirino|上联|NF|
-      - 日本 Nero|广移入口02|
-      - 香港 HKIX|V3-4|中转|稳定NF|
-      - 新加坡 Oracle|中转|NF|
-      - 新加坡 Nero|临时广电|NF|
-      - 新加坡 Vu|V3-4|中转|
-      - 新加坡 Mel|中转|NF|
-      - 台湾 Hinet|广移|NF.动漫疯|
-      - 香港 HKBN|中转|NF|
-      - 新加坡 OVH|中转|NF|
-      - 新加坡 LesWeb|中转|V3-4|NF|
-      - 香港 BGP|中转|NF|
-      - 美国 Sharktech|中转|Hulu.HBO|
-      - 香港 Nero|移动入口01|NF|
-      - 美国 Oracle|中转|NF.Hulu.HBO|
-      - 韩国 Oracle|中转|0.5x流量消耗|
-      - 俄罗斯 01|中转|
-      - 香港 M247|中转|200M|X0.5
-      - 美国 San Jose|电信|NF.Hulu.HBO|
-      - 泰国 SC|中转|V3-4|SG-NF|
-      - 香港 Nero|移动入口02|NF|
-      - 香港 HKT02|中转|NF|
-      - 香港 IPLC|专线|10x|限时体验
-      - 日本 Nero|联通入口01|
-      - 日本 Kirino|长联|NF|
-      - 台湾 Hinet|广电|NF.动漫疯|
-      - 香港 HGC|移动入口02|NF|
-      - 香港 HKT01|中转|NF|
+      - Hong Kong 01
+      - Hong Kong 02
+      - Hong Kong 03
+      - Hong Kong 04
+      - Hong Kong 05
+      - Hong Kong 06
+      - Hong Kong 07
+      - Hong Kong 08
+      - Hong Kong 09
+      - Hong Kong 10
+      - Hong Kong 11
+      - Hong Kong 12
+      - Hong Kong 13
+      - Hong Kong 14
+      - Hong Kong 15
+      - Hong Kong 16
+      - Hong Kong 17
+      - Hong Kong 18
+      - Hong Kong 19
+      - Hong Kong 20 [Premium]
+      - Hong Kong 21 [Premium]
+      - Hong Kong 22 [Premium]
+      - Hong Kong 23
+      - United States 01
+      - United States 02
+      - United States 03
+      - United States 04 [Premium]
+      - United States 05 [Premium]
+      - United States 06 [Premium]
+      - United States 07 [Premium]
+      - United States 08
+      - United States 09
+      - United States 10
+      - United States 11
+      - United States 12
+      - United States 13
+      - United States 14 [Premium]
+      - United States 15 [Premium]
+      - United States 16
+      - United States 17
+      - Japan 01
+      - Japan 02
+      - Japan 03
+      - Japan 04
+      - Japan 05
+      - Japan 06
+      - Japan 07
+      - Japan 08
+      - Japan 09
+      - Japan 10
+      - Japan 11
+      - Japan 12
+      - Japan 13
+      - Japan 14
+      - Japan 15
+      - Japan 16
+      - Japan 17
+      - Japan 18
+      - Japan 19
+      - Japan 20
+      - Japan 21
+      - Japan 22 [Premium]
+      - Japan 23 [Premium]
+      - Japan 24
+      - Japan 25
+      - Japan 26
+      - Japan 27
+      - Netherlands
+      - Russia St.Peterburg
+      - Russia Moscow
+      - Germany 1
+      - Germany 2
+      - France
+      - Switzerland 01
+      - Switzerland 02
+      - United Kingdom 1
+      - United Kingdom 2
+      - United Kingdom 3
+      - United Kingdom 4
+      - United Kingdom 5
+      - Sweden
+      - Bulgaria
+      - Austria
+      - Ireland 1
+      - Ireland 2
+      - Israel
+      - Turkey
+      - Italy
+      - Hungary
+      - Korea 1
+      - Korea 2
+      - Korea 3 [Premium]
+      - Korea 4
+      - Taiwan 1
+      - Taiwan 2
+      - Taiwan 3
+      - Taiwan 4
+      - Taiwan 5
+      - Canada 01
+      - Canada 02
+      - Canada 03
+      - Australia Sydney 01 [Premium]
+      - Australia Sydney 02
+      - United Arab Emirates 01
+      - United Arab Emirates 02
+      - India 1
+      - India 2
+      - Indonesia 01
+      - Brazil 01
+      - Singapore 01
+      - Singapore 02
+      - Singapore 03
+      - Singapore 04
+      - Singapore 05
+      - Singapore 06
+      - Singapore 07
+      - Singapore 08
+      - Singapore 09
+      - Singapore 10
+      - Singapore 11 [Premium]
+      - Singapore 12
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1028,121 +1044,127 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港标准 IEPL 中继 5
-      - 新加坡标准 IEPL 中继 1
-      - "Traffic: 23.52 GB | 400 GB"
-      - 香港标准 IEPL 中继 4
-      - 香港标准 IEPL 中继 6
-      - 新加坡标准 IEPL 中继 2
-      - "Expire: 2022-10-10"
-      - 日本标准 IEPL 中继 3
-      - 香港标准 IEPL 中继 2
-      - 香港实验性 IEPL 中继 1
-      - 香港标准 IEPL 中继 3
-      - 日本标准 IEPL 中继 2
-      - 香港标准 IEPL 中继 8
-      - 香港标准 IEPL 中继 7
-      - 新加坡标准 IEPL 中继 5
-      - 香港高级 IEPL 中继 2
-      - 新加坡标准 IEPL 中继 4
-      - 美国标准 IEPL 中继 7
-      - 马来西亚标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 8
-      - 台湾标准 IEPL 中继 2
-      - 日本高级 IEPL 中继 2
-      - 日本标准 IEPL 中继 5
-      - 美国标准 IEPL 中继 6
-      - 越南标准 IEPL 中继 1
-      - 台湾标准 IEPL 中继 3
-      - 日本标准 IEPL 中继 4
-      - 美国标准 IEPL 中继 2
-      - 美国标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 5
-      - 韩国标准 IEPL 中继 1
-      - 美国标准 IEPL 中继 4
-      - 印尼标准 IEPL 中继 1
-      - 台湾标准 IEPL 中继 1
-      - 新加坡标准 IEPL 中继 6
-      - 台湾高级 IEPL 中继 2
-      - 新加坡高级 IEPL 中继 1
-      - 新加坡实验性 IEPL 中继 1
-      - 美国标准 IEPL 中继 3
-      - 台湾高级 IEPL 中继 3
-      - 日本高级 IEPL 中继 3
-      - 新加坡高级 IEPL 中继 3
-      - 新加坡标准 IEPL 中继 7
-      - 新加坡标准 IEPL 中继 8
-      - 新加坡高级 IEPL 中继 2
-      - 美国高级 IEPL 中继 3
-      - 印度标准 IEPL 中继 1
-      - 香港高级 IEPL 中继 1
-      - 俄罗斯标准 IEPL 中继 1
-      - 匈牙利标准 IEPL 中继 1
-      - 德国标准 IEPL 中继 1
-      - 以色列标准 IEPL 中继 1
-      - 加拿大标准 IEPL 中继 1
-      - 香港高级 IEPL 中继 3
-      - 美国高级 IEPL 中继 1
-      - 台湾高级 IEPL 中继 1
-      - 菲律宾标准 IEPL 中继 1
-      - 美国高级 IEPL 中继 2
-      - 韩国标准 IEPL 中继 2
-      - 泰国标准 IEPL 中继 1
-      - 土耳其标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 1
-      - 法国标准 IEPL 中继 2
-      - 德国标准 IEPL 中继 2
-      - 法国标准 IEPL 中继 1
-      - 英国标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 6
-      - 土耳其标准 IEPL 中继 2
-      - 荷兰标准 IEPL 中继 2
-      - 美国实验性 IEPL 中继 1
-      - 新加坡标准 IEPL 中继 3
-      - 荷兰标准 IEPL 中继 1
-      - 英国标准 IEPL 中继 2
-      - 日本标准 IEPL 中继 7
-      - 日本实验性 IEPL 中继 1
-      - 意大利标准 IEPL 中继 1
-      - 阿根廷标准 IEPL 中继 1
-      - 巴西标准 IEPL 中继 1
-      - 澳洲标准 IEPL 中继 1
-      - 香港标准 IEPL 中继 1
-      - 日本标准 IEPL 中继 8
-      - 日本高级 IEPL 中继 1
-      - 台湾 Scloud|中转|动漫疯|
-      - 日本 Kirino|广移|NF|
-      - 美国 San Jose|中转|NF.Hulu.HBO|
-      - 印度 Do|中转|
-      - 香港 CN2|V3-4|NF|30M|
-      - 日本 Kirino|上联|NF|
-      - 日本 Nero|广移入口02|
-      - 香港 HKIX|V3-4|中转|稳定NF|
-      - 新加坡 Oracle|中转|NF|
-      - 新加坡 Nero|临时广电|NF|
-      - 新加坡 Vu|V3-4|中转|
-      - 新加坡 Mel|中转|NF|
-      - 台湾 Hinet|广移|NF.动漫疯|
-      - 香港 HKBN|中转|NF|
-      - 新加坡 OVH|中转|NF|
-      - 新加坡 LesWeb|中转|V3-4|NF|
-      - 香港 BGP|中转|NF|
-      - 美国 Sharktech|中转|Hulu.HBO|
-      - 香港 Nero|移动入口01|NF|
-      - 美国 Oracle|中转|NF.Hulu.HBO|
-      - 韩国 Oracle|中转|0.5x流量消耗|
-      - 俄罗斯 01|中转|
-      - 香港 M247|中转|200M|X0.5
-      - 美国 San Jose|电信|NF.Hulu.HBO|
-      - 泰国 SC|中转|V3-4|SG-NF|
-      - 香港 Nero|移动入口02|NF|
-      - 香港 HKT02|中转|NF|
-      - 香港 IPLC|专线|10x|限时体验
-      - 日本 Nero|联通入口01|
-      - 日本 Kirino|长联|NF|
-      - 台湾 Hinet|广电|NF.动漫疯|
-      - 香港 HGC|移动入口02|NF|
-      - 香港 HKT01|中转|NF|
+      - Hong Kong 01
+      - Hong Kong 02
+      - Hong Kong 03
+      - Hong Kong 04
+      - Hong Kong 05
+      - Hong Kong 06
+      - Hong Kong 07
+      - Hong Kong 08
+      - Hong Kong 09
+      - Hong Kong 10
+      - Hong Kong 11
+      - Hong Kong 12
+      - Hong Kong 13
+      - Hong Kong 14
+      - Hong Kong 15
+      - Hong Kong 16
+      - Hong Kong 17
+      - Hong Kong 18
+      - Hong Kong 19
+      - Hong Kong 20 [Premium]
+      - Hong Kong 21 [Premium]
+      - Hong Kong 22 [Premium]
+      - Hong Kong 23
+      - United States 01
+      - United States 02
+      - United States 03
+      - United States 04 [Premium]
+      - United States 05 [Premium]
+      - United States 06 [Premium]
+      - United States 07 [Premium]
+      - United States 08
+      - United States 09
+      - United States 10
+      - United States 11
+      - United States 12
+      - United States 13
+      - United States 14 [Premium]
+      - United States 15 [Premium]
+      - United States 16
+      - United States 17
+      - Japan 01
+      - Japan 02
+      - Japan 03
+      - Japan 04
+      - Japan 05
+      - Japan 06
+      - Japan 07
+      - Japan 08
+      - Japan 09
+      - Japan 10
+      - Japan 11
+      - Japan 12
+      - Japan 13
+      - Japan 14
+      - Japan 15
+      - Japan 16
+      - Japan 17
+      - Japan 18
+      - Japan 19
+      - Japan 20
+      - Japan 21
+      - Japan 22 [Premium]
+      - Japan 23 [Premium]
+      - Japan 24
+      - Japan 25
+      - Japan 26
+      - Japan 27
+      - Netherlands
+      - Russia St.Peterburg
+      - Russia Moscow
+      - Germany 1
+      - Germany 2
+      - France
+      - Switzerland 01
+      - Switzerland 02
+      - United Kingdom 1
+      - United Kingdom 2
+      - United Kingdom 3
+      - United Kingdom 4
+      - United Kingdom 5
+      - Sweden
+      - Bulgaria
+      - Austria
+      - Ireland 1
+      - Ireland 2
+      - Israel
+      - Turkey
+      - Italy
+      - Hungary
+      - Korea 1
+      - Korea 2
+      - Korea 3 [Premium]
+      - Korea 4
+      - Taiwan 1
+      - Taiwan 2
+      - Taiwan 3
+      - Taiwan 4
+      - Taiwan 5
+      - Canada 01
+      - Canada 02
+      - Canada 03
+      - Australia Sydney 01 [Premium]
+      - Australia Sydney 02
+      - United Arab Emirates 01
+      - United Arab Emirates 02
+      - India 1
+      - India 2
+      - Indonesia 01
+      - Brazil 01
+      - Singapore 01
+      - Singapore 02
+      - Singapore 03
+      - Singapore 04
+      - Singapore 05
+      - Singapore 06
+      - Singapore 07
+      - Singapore 08
+      - Singapore 09
+      - Singapore 10
+      - Singapore 11 [Premium]
+      - Singapore 12
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
