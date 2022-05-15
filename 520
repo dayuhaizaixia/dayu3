@@ -5,419 +5,195 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国_3, server: 183.232.250.96, port: 37003, type: vmess, uuid: a650656a-2e7d-3d88-8f88-d6a96a985886, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: SG-138, server: free.spcloud.us, port: 21010, type: trojan, password: 118fc04e-fb8c-4154-9092-352cf1958fcd, sni: free.spcloud.us, skip-cert-verify: true, udp: true}
-  - {name: AU-159, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: RELAY--074, server: game.tcpbbr.net, port: 5228, type: trojan, password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9, sni: game.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: RELAY--064, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: RELAY--063, server: 116.129.253.134, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
-  - {name: RELAY--062, server: 116.129.253.134, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: VN-Q, server: 0001.hn.genzpn.com, port: 443, type: trojan, password: 4f4418cd-385c-4203-a323-1b4d2be8e495, sni: 0001.hn.genzpn.com, skip-cert-verify: true, udp: true}
-  - {name: GB-l 2, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: SG-R, server: 0001.sg.genzpn.com, port: 443, type: trojan, password: 4f4418cd-385c-4203-a323-1b4d2be8e495, sni: 0001.sg.genzpn.com, skip-cert-verify: true, udp: true}
-  - {name: JP 7, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: GB, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: AU, server: s4.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: AUl, server: s4.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: "[SSR] 5", server: quohvop8.nodeinfo.icu, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
-  - {name: "[SSR] 2", server: ie2ohyai.nodeinfo.icu, port: 6008, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
-  - {name: DE_564, server: 5.183.179.139, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: defaultName_43, server: 14.29.124.168, port: 24080, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🇨🇳CN_36_95Mb_15, server: 14.29.124.168, port: 24087, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: defaultName_26, server: 14.29.124.168, port: 24024, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: "[SSR]", server: eif7aet4.nodeinfo.icu, port: 1097, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
-  - {name: Relay_TG频道:t.me/ruofeng_fx_371, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "[SSR] 3", server: iemeith7.nodeinfo.icu, port: 2507, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
-  - {name: KR_34, server: 132.226.20.79, port: 4666, type: ss, cipher: aes-128-gcm, password: PaSR4XPkpAdJphKP, udp: true}
-  - {name: "+Korea+[TLS]", server: 0001.kr.genzpn.com, port: 443, type: trojan, password: 4f4418cd-385c-4203-a323-1b4d2be8e495, sni: 0001.kr.genzpn.com, skip-cert-verify: true, udp: true}
-  - {name: defaultName_17, server: 14.29.124.168, port: 24044, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "[SSR] 4", server: puf6no0k.nodeinfo.icu, port: 2604, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
-  - {name: RELAY-l, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🇨🇳CN_10_15Mb_14, server: 14.29.124.168, port: 24093, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_54 2, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_49, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_+b, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: CN_56, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_48 2, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_43, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_59, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 香港, server: 20.187.125.226, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: 香港2, server: w1.v2mmy.xyz, port: 44812, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: 日本2, server: w7.v2mmy.xyz, port: 44813, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: 日本3, server: w7.v2mmy.xyz, port: 44828, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: 台湾, server: w6.v2mmy.xyz, port: 25600, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: 日本4, server: w7.v2mmy.xyz, port: 44827, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: 台湾2, server: w1.v2mmy.xyz, port: 44811, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: 中国2, server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: 新加坡, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: 中国3, server: 116.129.253.191, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: 新加坡2, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
+  - {name: 新加坡3, server: 116.129.254.47, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
   - {name: CN_50, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_357, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_426, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_51, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_45, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_426, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_47, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_54, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: FR_65, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
   - {name: CN_48, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_56+2, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_47, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_48+2, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_357, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: KR_34, server: 132.226.20.79, port: 4666, type: ss, cipher: aes-128-gcm, password: PaSR4XPkpAdJphKP, udp: true}
   - {name: zz, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_52, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_55, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_56 2, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "+Hồ+Chí+Minh+[TLS]", server: 0001.hcm.genzpn.com, port: 443, type: trojan, password: 4f4418cd-385c-4203-a323-1b4d2be8e495, sni: 0001.hcm.genzpn.com, skip-cert-verify: true, udp: true}
   - {name: CN_431, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_57, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_55, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: KR-ml, server: 61.111.128.153, port: 8888, type: ss, cipher: rc4-md5, password: Xiongmao@^ios.ss, udp: true}
-  - {name: CN_07, server: gzbgp.gia.wiki, port: 30222, type: trojan, password: d1eb7f64-30f8-4bfd-8fe9-f7e46962afdb, sni: gzbgp.gia.wiki, skip-cert-verify: true, udp: true}
+  - {name: CN_57, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_48+2, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_52, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_59, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_56 2, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_48 2, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_43, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_49, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: SG-138, server: free.spcloud.us, port: 21010, type: trojan, password: 118fc04e-fb8c-4154-9092-352cf1958fcd, sni: free.spcloud.us, skip-cert-verify: true, udp: true}
   - {name: "[Trojan]", server: 140.238.231.9, port: 443, type: trojan, password: O3hQcnNKAE, skip-cert-verify: true, udp: true}
-  - {name: 中国-1.10MB/s, server: 43.154.46.228, port: 49930, type: vmess, uuid: 051088e3-f62e-4cf6-a199-ab98adcb822b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.46.228]}}, udp: true}
-  - {name: US_40, server: 20.222.125.51, port: 80, type: ss, cipher: aes-128-gcm, password: kEWnaj, udp: true}
-  - {name: Relay24b, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: 40825843-2e84-4433-a4c0-829948eb620b, udp: true}
-  - {name: KR_73, server: 61.111.128.153, port: 8888, type: ss, cipher: rc4-md5, password: Xiongmao@^ios.ss, udp: true}
-  - {name: LT_922, server: 213.183.63.218, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: LT_841, server: 213.183.63.218, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾_2, server: 183.240.124.200, port: 25600, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_1, server: 183.240.124.200, port: 44817, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: LT_941, server: 213.183.63.218, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: ZZ_3347, server: 103.172.116.9, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: Relay_🇯🇵JP-🇩🇪DE_866, server: s1.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: JP_77, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: CN_44, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: FR_51, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵JP-🇩🇪DE_865, server: s3.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇬🇧GB-🇬🇧GB_823, server: s4.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: Relay_🏁ZZ-🏁ZZ_487, server: 0001.hcm.genzpn.com, port: 443, type: trojan, password: 4f4418cd-385c-4203-a323-1b4d2be8e495, sni: 0001.hcm.genzpn.com, skip-cert-verify: true, udp: true}
-  - {name: CN_46, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: SG- 3, server: free.spcloud.us, port: 20010, type: trojan, password: 118fc04e-fb8c-4154-9092-352cf1958fcd, sni: free.spcloud.us, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3133, server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: US_114+, server: an011.oioav.com, port: 52306, type: trojan, password: 55af954a-7634-4f28-8acf-8a64ca9fc4cd, sni: an011.oioav.com, skip-cert-verify: true, udp: true}
-  - {name: JP- 3, server: ty2-3.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, sni: ty2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: GB_53, server: s4.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: AU-159, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: GB_01, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: SG- 4, server: 103.172.116.9, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: LT_1043, server: 213.183.53.177, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: LT_994, server: 213.183.53.177, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: LT_1005, server: 213.183.53.177, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: LT_77, server: 213.183.53.177, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: LT_1028, server: 213.183.53.177, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: LT_1030, server: 213.183.53.177, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: LT_78, server: 213.183.53.177, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: LT_996, server: 213.183.53.177, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: LT_1049, server: 213.183.53.177, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: LT_1025, server: 213.183.53.177, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: LT_997, server: 213.183.53.177, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: LT_1001, server: 213.183.53.177, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: LT_1041, server: 213.183.53.177, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: LT_1000, server: 213.183.53.177, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: LT_76, server: 213.183.53.177, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: LT_989, server: 213.183.53.177, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: CN_07, server: gzbgp.gia.wiki, port: 30222, type: trojan, password: d1eb7f64-30f8-4bfd-8fe9-f7e46962afdb, sni: gzbgp.gia.wiki, skip-cert-verify: true, udp: true}
+  - {name: RELAY--074, server: game.tcpbbr.net, port: 5228, type: trojan, password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9, sni: game.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: RELAY--064, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: RELAY--062, server: 116.129.253.134, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: RELAY--063, server: 116.129.253.134, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
+  - {name: JP- 3, server: ty2-3.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, sni: ty2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国_3
-      - SG-138
-      - AU-159
-      - RELAY--074
-      - RELAY--064
-      - RELAY--063
-      - RELAY--062
-      - VN-Q
-      - GB-l 2
-      - SG-R
-      - JP 7
-      - GB
-      - AU
-      - AUl
-      - "[SSR] 5"
-      - "[SSR] 2"
-      - DE_564
-      - defaultName_43
-      - Relay_🇨🇳CN_36_95Mb_15
-      - defaultName_26
-      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
-      - "[SSR]"
-      - Relay_TG频道:t.me/ruofeng_fx_371
-      - "[SSR] 3"
-      - KR_34
-      - +Korea+[TLS]
-      - defaultName_17
-      - "[SSR] 4"
-      - RELAY-l
-      - Relay_🇨🇳CN_10_15Mb_14
-      - CN_54 2
-      - CN_49
-      - Relay_+b
-      - CN_56
-      - CN_48 2
-      - CN_43
-      - CN_59
+      - 香港
+      - 香港2
+      - 日本2
+      - 日本3
+      - 台湾
+      - 日本4
+      - 台湾2
+      - 中国2
+      - 新加坡
+      - 中国3
+      - 新加坡2
+      - 新加坡3
       - CN_50
-      - CN_357
-      - CN_426
-      - CN_51
       - CN_45
+      - CN_426
+      - CN_47
       - CN_54
-      - FR_65
       - CN_48
       - CN_56+2
-      - CN_47
-      - CN_48+2
+      - CN_357
+      - KR_34
       - zz
-      - CN_52
-      - CN_55
-      - CN_56 2
-      - +Hồ+Chí+Minh+[TLS]
       - CN_431
-      - CN_57
+      - CN_55
       - KR-ml
-      - CN_07
+      - CN_57
+      - CN_48+2
+      - CN_52
+      - CN_59
+      - CN_56 2
+      - CN_48 2
+      - CN_43
+      - CN_49
+      - SG-138
       - "[Trojan]"
-      - 中国-1.10MB/s
-      - US_40
-      - Relay24b
-      - KR_73
-      - LT_922
-      - LT_841
-      - _CN_中国->🇹🇼_TW_台湾_2
-      - _CN_中国->🇸🇬_SG_新加坡_1
-      - LT_941
-      - ZZ_3347
-      - Relay_🇯🇵JP-🇩🇪DE_866
-      - JP_77
-      - CN_44
-      - FR_51
-      - Relay_🇯🇵JP-🇩🇪DE_865
-      - Relay_🇬🇧GB-🇬🇧GB_823
-      - Relay_🏁ZZ-🏁ZZ_487
-      - CN_46
-      - SG- 3
-      - Relay_🇺🇸US-🇺🇸US_3133
-      - US_114+
-      - JP- 3
-      - GB_53
+      - AU-159
       - GB_01
-      - SG- 4
-      - LT_1043
-      - LT_994
-      - LT_1005
-      - LT_77
-      - LT_1028
-      - LT_1030
-      - LT_78
-      - LT_996
-      - LT_1049
-      - LT_1025
-      - LT_997
-      - LT_1001
-      - LT_1041
-      - LT_1000
-      - LT_76
-      - LT_989
+      - CN_07
+      - RELAY--074
+      - RELAY--064
+      - RELAY--062
+      - RELAY--063
+      - JP- 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _CN_中国_3
-      - SG-138
-      - AU-159
-      - RELAY--074
-      - RELAY--064
-      - RELAY--063
-      - RELAY--062
-      - VN-Q
-      - GB-l 2
-      - SG-R
-      - JP 7
-      - GB
-      - AU
-      - AUl
-      - "[SSR] 5"
-      - "[SSR] 2"
-      - DE_564
-      - defaultName_43
-      - Relay_🇨🇳CN_36_95Mb_15
-      - defaultName_26
-      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
-      - "[SSR]"
-      - Relay_TG频道:t.me/ruofeng_fx_371
-      - "[SSR] 3"
-      - KR_34
-      - +Korea+[TLS]
-      - defaultName_17
-      - "[SSR] 4"
-      - RELAY-l
-      - Relay_🇨🇳CN_10_15Mb_14
-      - CN_54 2
-      - CN_49
-      - Relay_+b
-      - CN_56
-      - CN_48 2
-      - CN_43
-      - CN_59
+      - 香港
+      - 香港2
+      - 日本2
+      - 日本3
+      - 台湾
+      - 日本4
+      - 台湾2
+      - 中国2
+      - 新加坡
+      - 中国3
+      - 新加坡2
+      - 新加坡3
       - CN_50
-      - CN_357
-      - CN_426
-      - CN_51
       - CN_45
+      - CN_426
+      - CN_47
       - CN_54
-      - FR_65
       - CN_48
       - CN_56+2
-      - CN_47
-      - CN_48+2
+      - CN_357
+      - KR_34
       - zz
-      - CN_52
-      - CN_55
-      - CN_56 2
-      - +Hồ+Chí+Minh+[TLS]
       - CN_431
-      - CN_57
+      - CN_55
       - KR-ml
-      - CN_07
+      - CN_57
+      - CN_48+2
+      - CN_52
+      - CN_59
+      - CN_56 2
+      - CN_48 2
+      - CN_43
+      - CN_49
+      - SG-138
       - "[Trojan]"
-      - 中国-1.10MB/s
-      - US_40
-      - Relay24b
-      - KR_73
-      - LT_922
-      - LT_841
-      - _CN_中国->🇹🇼_TW_台湾_2
-      - _CN_中国->🇸🇬_SG_新加坡_1
-      - LT_941
-      - ZZ_3347
-      - Relay_🇯🇵JP-🇩🇪DE_866
-      - JP_77
-      - CN_44
-      - FR_51
-      - Relay_🇯🇵JP-🇩🇪DE_865
-      - Relay_🇬🇧GB-🇬🇧GB_823
-      - Relay_🏁ZZ-🏁ZZ_487
-      - CN_46
-      - SG- 3
-      - Relay_🇺🇸US-🇺🇸US_3133
-      - US_114+
-      - JP- 3
-      - GB_53
+      - AU-159
       - GB_01
-      - SG- 4
-      - LT_1043
-      - LT_994
-      - LT_1005
-      - LT_77
-      - LT_1028
-      - LT_1030
-      - LT_78
-      - LT_996
-      - LT_1049
-      - LT_1025
-      - LT_997
-      - LT_1001
-      - LT_1041
-      - LT_1000
-      - LT_76
-      - LT_989
+      - CN_07
+      - RELAY--074
+      - RELAY--064
+      - RELAY--062
+      - RELAY--063
+      - JP- 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国_3
-      - SG-138
-      - AU-159
-      - RELAY--074
-      - RELAY--064
-      - RELAY--063
-      - RELAY--062
-      - VN-Q
-      - GB-l 2
-      - SG-R
-      - JP 7
-      - GB
-      - AU
-      - AUl
-      - "[SSR] 5"
-      - "[SSR] 2"
-      - DE_564
-      - defaultName_43
-      - Relay_🇨🇳CN_36_95Mb_15
-      - defaultName_26
-      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
-      - "[SSR]"
-      - Relay_TG频道:t.me/ruofeng_fx_371
-      - "[SSR] 3"
-      - KR_34
-      - +Korea+[TLS]
-      - defaultName_17
-      - "[SSR] 4"
-      - RELAY-l
-      - Relay_🇨🇳CN_10_15Mb_14
-      - CN_54 2
-      - CN_49
-      - Relay_+b
-      - CN_56
-      - CN_48 2
-      - CN_43
-      - CN_59
+      - 香港
+      - 香港2
+      - 日本2
+      - 日本3
+      - 台湾
+      - 日本4
+      - 台湾2
+      - 中国2
+      - 新加坡
+      - 中国3
+      - 新加坡2
+      - 新加坡3
       - CN_50
-      - CN_357
-      - CN_426
-      - CN_51
       - CN_45
+      - CN_426
+      - CN_47
       - CN_54
-      - FR_65
       - CN_48
       - CN_56+2
-      - CN_47
-      - CN_48+2
+      - CN_357
+      - KR_34
       - zz
-      - CN_52
-      - CN_55
-      - CN_56 2
-      - +Hồ+Chí+Minh+[TLS]
       - CN_431
-      - CN_57
+      - CN_55
       - KR-ml
-      - CN_07
+      - CN_57
+      - CN_48+2
+      - CN_52
+      - CN_59
+      - CN_56 2
+      - CN_48 2
+      - CN_43
+      - CN_49
+      - SG-138
       - "[Trojan]"
-      - 中国-1.10MB/s
-      - US_40
-      - Relay24b
-      - KR_73
-      - LT_922
-      - LT_841
-      - _CN_中国->🇹🇼_TW_台湾_2
-      - _CN_中国->🇸🇬_SG_新加坡_1
-      - LT_941
-      - ZZ_3347
-      - Relay_🇯🇵JP-🇩🇪DE_866
-      - JP_77
-      - CN_44
-      - FR_51
-      - Relay_🇯🇵JP-🇩🇪DE_865
-      - Relay_🇬🇧GB-🇬🇧GB_823
-      - Relay_🏁ZZ-🏁ZZ_487
-      - CN_46
-      - SG- 3
-      - Relay_🇺🇸US-🇺🇸US_3133
-      - US_114+
-      - JP- 3
-      - GB_53
+      - AU-159
       - GB_01
-      - SG- 4
-      - LT_1043
-      - LT_994
-      - LT_1005
-      - LT_77
-      - LT_1028
-      - LT_1030
-      - LT_78
-      - LT_996
-      - LT_1049
-      - LT_1025
-      - LT_997
-      - LT_1001
-      - LT_1041
-      - LT_1000
-      - LT_76
-      - LT_989
+      - CN_07
+      - RELAY--074
+      - RELAY--064
+      - RELAY--062
+      - RELAY--063
+      - JP- 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -436,424 +212,203 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国_3
-      - SG-138
-      - AU-159
-      - RELAY--074
-      - RELAY--064
-      - RELAY--063
-      - RELAY--062
-      - VN-Q
-      - GB-l 2
-      - SG-R
-      - JP 7
-      - GB
-      - AU
-      - AUl
-      - "[SSR] 5"
-      - "[SSR] 2"
-      - DE_564
-      - defaultName_43
-      - Relay_🇨🇳CN_36_95Mb_15
-      - defaultName_26
-      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
-      - "[SSR]"
-      - Relay_TG频道:t.me/ruofeng_fx_371
-      - "[SSR] 3"
-      - KR_34
-      - +Korea+[TLS]
-      - defaultName_17
-      - "[SSR] 4"
-      - RELAY-l
-      - Relay_🇨🇳CN_10_15Mb_14
-      - CN_54 2
-      - CN_49
-      - Relay_+b
-      - CN_56
-      - CN_48 2
-      - CN_43
-      - CN_59
+      - 香港
+      - 香港2
+      - 日本2
+      - 日本3
+      - 台湾
+      - 日本4
+      - 台湾2
+      - 中国2
+      - 新加坡
+      - 中国3
+      - 新加坡2
+      - 新加坡3
       - CN_50
-      - CN_357
-      - CN_426
-      - CN_51
       - CN_45
+      - CN_426
+      - CN_47
       - CN_54
-      - FR_65
       - CN_48
       - CN_56+2
-      - CN_47
-      - CN_48+2
+      - CN_357
+      - KR_34
       - zz
-      - CN_52
-      - CN_55
-      - CN_56 2
-      - +Hồ+Chí+Minh+[TLS]
       - CN_431
-      - CN_57
+      - CN_55
       - KR-ml
-      - CN_07
+      - CN_57
+      - CN_48+2
+      - CN_52
+      - CN_59
+      - CN_56 2
+      - CN_48 2
+      - CN_43
+      - CN_49
+      - SG-138
       - "[Trojan]"
-      - 中国-1.10MB/s
-      - US_40
-      - Relay24b
-      - KR_73
-      - LT_922
-      - LT_841
-      - _CN_中国->🇹🇼_TW_台湾_2
-      - _CN_中国->🇸🇬_SG_新加坡_1
-      - LT_941
-      - ZZ_3347
-      - Relay_🇯🇵JP-🇩🇪DE_866
-      - JP_77
-      - CN_44
-      - FR_51
-      - Relay_🇯🇵JP-🇩🇪DE_865
-      - Relay_🇬🇧GB-🇬🇧GB_823
-      - Relay_🏁ZZ-🏁ZZ_487
-      - CN_46
-      - SG- 3
-      - Relay_🇺🇸US-🇺🇸US_3133
-      - US_114+
-      - JP- 3
-      - GB_53
+      - AU-159
       - GB_01
-      - SG- 4
-      - LT_1043
-      - LT_994
-      - LT_1005
-      - LT_77
-      - LT_1028
-      - LT_1030
-      - LT_78
-      - LT_996
-      - LT_1049
-      - LT_1025
-      - LT_997
-      - LT_1001
-      - LT_1041
-      - LT_1000
-      - LT_76
-      - LT_989
+      - CN_07
+      - RELAY--074
+      - RELAY--064
+      - RELAY--062
+      - RELAY--063
+      - JP- 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - _CN_中国->🇹🇼_TW_台湾_2
+      - 香港
+      - 香港2
+      - 台湾
+      - 台湾2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _CN_中国_3
-      - SG-138
-      - AU-159
-      - RELAY--074
-      - RELAY--064
-      - RELAY--063
-      - RELAY--062
-      - VN-Q
-      - GB-l 2
-      - SG-R
-      - JP 7
-      - GB
-      - AU
-      - AUl
-      - "[SSR] 5"
-      - "[SSR] 2"
-      - DE_564
-      - defaultName_43
-      - Relay_🇨🇳CN_36_95Mb_15
-      - defaultName_26
-      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
-      - "[SSR]"
-      - Relay_TG频道:t.me/ruofeng_fx_371
-      - "[SSR] 3"
-      - KR_34
-      - +Korea+[TLS]
-      - defaultName_17
-      - "[SSR] 4"
-      - RELAY-l
-      - Relay_🇨🇳CN_10_15Mb_14
-      - CN_54 2
-      - CN_49
-      - Relay_+b
-      - CN_56
-      - CN_48 2
-      - CN_43
-      - CN_59
+      - 香港
+      - 香港2
+      - 日本2
+      - 日本3
+      - 台湾
+      - 日本4
+      - 台湾2
+      - 中国2
+      - 新加坡
+      - 中国3
+      - 新加坡2
+      - 新加坡3
       - CN_50
-      - CN_357
-      - CN_426
-      - CN_51
       - CN_45
+      - CN_426
+      - CN_47
       - CN_54
-      - FR_65
       - CN_48
       - CN_56+2
-      - CN_47
-      - CN_48+2
+      - CN_357
+      - KR_34
       - zz
-      - CN_52
-      - CN_55
-      - CN_56 2
-      - +Hồ+Chí+Minh+[TLS]
       - CN_431
-      - CN_57
+      - CN_55
       - KR-ml
-      - CN_07
+      - CN_57
+      - CN_48+2
+      - CN_52
+      - CN_59
+      - CN_56 2
+      - CN_48 2
+      - CN_43
+      - CN_49
+      - SG-138
       - "[Trojan]"
-      - 中国-1.10MB/s
-      - US_40
-      - Relay24b
-      - KR_73
-      - LT_922
-      - LT_841
-      - _CN_中国->🇹🇼_TW_台湾_2
-      - _CN_中国->🇸🇬_SG_新加坡_1
-      - LT_941
-      - ZZ_3347
-      - Relay_🇯🇵JP-🇩🇪DE_866
-      - JP_77
-      - CN_44
-      - FR_51
-      - Relay_🇯🇵JP-🇩🇪DE_865
-      - Relay_🇬🇧GB-🇬🇧GB_823
-      - Relay_🏁ZZ-🏁ZZ_487
-      - CN_46
-      - SG- 3
-      - Relay_🇺🇸US-🇺🇸US_3133
-      - US_114+
-      - JP- 3
-      - GB_53
+      - AU-159
       - GB_01
-      - SG- 4
-      - LT_1043
-      - LT_994
-      - LT_1005
-      - LT_77
-      - LT_1028
-      - LT_1030
-      - LT_78
-      - LT_996
-      - LT_1049
-      - LT_1025
-      - LT_997
-      - LT_1001
-      - LT_1041
-      - LT_1000
-      - LT_76
-      - LT_989
+      - CN_07
+      - RELAY--074
+      - RELAY--064
+      - RELAY--062
+      - RELAY--063
+      - JP- 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _CN_中国_3
-      - SG-138
-      - AU-159
-      - RELAY--074
-      - RELAY--064
-      - RELAY--063
-      - RELAY--062
-      - VN-Q
-      - GB-l 2
-      - SG-R
-      - JP 7
-      - GB
-      - AU
-      - AUl
-      - "[SSR] 5"
-      - "[SSR] 2"
-      - DE_564
-      - defaultName_43
-      - Relay_🇨🇳CN_36_95Mb_15
-      - defaultName_26
-      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
-      - "[SSR]"
-      - Relay_TG频道:t.me/ruofeng_fx_371
-      - "[SSR] 3"
-      - KR_34
-      - +Korea+[TLS]
-      - defaultName_17
-      - "[SSR] 4"
-      - RELAY-l
-      - Relay_🇨🇳CN_10_15Mb_14
-      - CN_54 2
-      - CN_49
-      - Relay_+b
-      - CN_56
-      - CN_48 2
-      - CN_43
-      - CN_59
+      - 香港
+      - 香港2
+      - 日本2
+      - 日本3
+      - 台湾
+      - 日本4
+      - 台湾2
+      - 中国2
+      - 新加坡
+      - 中国3
+      - 新加坡2
+      - 新加坡3
       - CN_50
-      - CN_357
-      - CN_426
-      - CN_51
       - CN_45
+      - CN_426
+      - CN_47
       - CN_54
-      - FR_65
       - CN_48
       - CN_56+2
-      - CN_47
-      - CN_48+2
+      - CN_357
+      - KR_34
       - zz
-      - CN_52
-      - CN_55
-      - CN_56 2
-      - +Hồ+Chí+Minh+[TLS]
       - CN_431
-      - CN_57
+      - CN_55
       - KR-ml
-      - CN_07
+      - CN_57
+      - CN_48+2
+      - CN_52
+      - CN_59
+      - CN_56 2
+      - CN_48 2
+      - CN_43
+      - CN_49
+      - SG-138
       - "[Trojan]"
-      - 中国-1.10MB/s
-      - US_40
-      - Relay24b
-      - KR_73
-      - LT_922
-      - LT_841
-      - _CN_中国->🇹🇼_TW_台湾_2
-      - _CN_中国->🇸🇬_SG_新加坡_1
-      - LT_941
-      - ZZ_3347
-      - Relay_🇯🇵JP-🇩🇪DE_866
-      - JP_77
-      - CN_44
-      - FR_51
-      - Relay_🇯🇵JP-🇩🇪DE_865
-      - Relay_🇬🇧GB-🇬🇧GB_823
-      - Relay_🏁ZZ-🏁ZZ_487
-      - CN_46
-      - SG- 3
-      - Relay_🇺🇸US-🇺🇸US_3133
-      - US_114+
-      - JP- 3
-      - GB_53
+      - AU-159
       - GB_01
-      - SG- 4
-      - LT_1043
-      - LT_994
-      - LT_1005
-      - LT_77
-      - LT_1028
-      - LT_1030
-      - LT_78
-      - LT_996
-      - LT_1049
-      - LT_1025
-      - LT_997
-      - LT_1001
-      - LT_1041
-      - LT_1000
-      - LT_76
-      - LT_989
+      - CN_07
+      - RELAY--074
+      - RELAY--064
+      - RELAY--062
+      - RELAY--063
+      - JP- 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _CN_中国_3
-      - SG-138
-      - AU-159
-      - RELAY--074
-      - RELAY--064
-      - RELAY--063
-      - RELAY--062
-      - VN-Q
-      - GB-l 2
-      - SG-R
-      - JP 7
-      - GB
-      - AU
-      - AUl
-      - "[SSR] 5"
-      - "[SSR] 2"
-      - DE_564
-      - defaultName_43
-      - Relay_🇨🇳CN_36_95Mb_15
-      - defaultName_26
-      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
-      - "[SSR]"
-      - Relay_TG频道:t.me/ruofeng_fx_371
-      - "[SSR] 3"
-      - KR_34
-      - +Korea+[TLS]
-      - defaultName_17
-      - "[SSR] 4"
-      - RELAY-l
-      - Relay_🇨🇳CN_10_15Mb_14
-      - CN_54 2
-      - CN_49
-      - Relay_+b
-      - CN_56
-      - CN_48 2
-      - CN_43
-      - CN_59
+      - 香港
+      - 香港2
+      - 日本2
+      - 日本3
+      - 台湾
+      - 日本4
+      - 台湾2
+      - 中国2
+      - 新加坡
+      - 中国3
+      - 新加坡2
+      - 新加坡3
       - CN_50
-      - CN_357
-      - CN_426
-      - CN_51
       - CN_45
+      - CN_426
+      - CN_47
       - CN_54
-      - FR_65
       - CN_48
       - CN_56+2
-      - CN_47
-      - CN_48+2
+      - CN_357
+      - KR_34
       - zz
-      - CN_52
-      - CN_55
-      - CN_56 2
-      - +Hồ+Chí+Minh+[TLS]
       - CN_431
-      - CN_57
+      - CN_55
       - KR-ml
-      - CN_07
+      - CN_57
+      - CN_48+2
+      - CN_52
+      - CN_59
+      - CN_56 2
+      - CN_48 2
+      - CN_43
+      - CN_49
+      - SG-138
       - "[Trojan]"
-      - 中国-1.10MB/s
-      - US_40
-      - Relay24b
-      - KR_73
-      - LT_922
-      - LT_841
-      - _CN_中国->🇹🇼_TW_台湾_2
-      - _CN_中国->🇸🇬_SG_新加坡_1
-      - LT_941
-      - ZZ_3347
-      - Relay_🇯🇵JP-🇩🇪DE_866
-      - JP_77
-      - CN_44
-      - FR_51
-      - Relay_🇯🇵JP-🇩🇪DE_865
-      - Relay_🇬🇧GB-🇬🇧GB_823
-      - Relay_🏁ZZ-🏁ZZ_487
-      - CN_46
-      - SG- 3
-      - Relay_🇺🇸US-🇺🇸US_3133
-      - US_114+
-      - JP- 3
-      - GB_53
+      - AU-159
       - GB_01
-      - SG- 4
-      - LT_1043
-      - LT_994
-      - LT_1005
-      - LT_77
-      - LT_1028
-      - LT_1030
-      - LT_78
-      - LT_996
-      - LT_1049
-      - LT_1025
-      - LT_997
-      - LT_1001
-      - LT_1041
-      - LT_1000
-      - LT_76
-      - LT_989
+      - CN_07
+      - RELAY--074
+      - RELAY--064
+      - RELAY--062
+      - RELAY--063
+      - JP- 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -869,105 +424,49 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _CN_中国_3
-      - SG-138
-      - AU-159
-      - RELAY--074
-      - RELAY--064
-      - RELAY--063
-      - RELAY--062
-      - VN-Q
-      - GB-l 2
-      - SG-R
-      - JP 7
-      - GB
-      - AU
-      - AUl
-      - "[SSR] 5"
-      - "[SSR] 2"
-      - DE_564
-      - defaultName_43
-      - Relay_🇨🇳CN_36_95Mb_15
-      - defaultName_26
-      - Relay_🇨🇳CN-🇬🇧GB_TG频道:t.me/ruofeng_fx 406
-      - "[SSR]"
-      - Relay_TG频道:t.me/ruofeng_fx_371
-      - "[SSR] 3"
-      - KR_34
-      - +Korea+[TLS]
-      - defaultName_17
-      - "[SSR] 4"
-      - RELAY-l
-      - Relay_🇨🇳CN_10_15Mb_14
-      - CN_54 2
-      - CN_49
-      - Relay_+b
-      - CN_56
-      - CN_48 2
-      - CN_43
-      - CN_59
+      - 香港
+      - 香港2
+      - 日本2
+      - 日本3
+      - 台湾
+      - 日本4
+      - 台湾2
+      - 中国2
+      - 新加坡
+      - 中国3
+      - 新加坡2
+      - 新加坡3
       - CN_50
-      - CN_357
-      - CN_426
-      - CN_51
       - CN_45
+      - CN_426
+      - CN_47
       - CN_54
-      - FR_65
       - CN_48
       - CN_56+2
-      - CN_47
-      - CN_48+2
+      - CN_357
+      - KR_34
       - zz
-      - CN_52
-      - CN_55
-      - CN_56 2
-      - +Hồ+Chí+Minh+[TLS]
       - CN_431
-      - CN_57
+      - CN_55
       - KR-ml
-      - CN_07
+      - CN_57
+      - CN_48+2
+      - CN_52
+      - CN_59
+      - CN_56 2
+      - CN_48 2
+      - CN_43
+      - CN_49
+      - SG-138
       - "[Trojan]"
-      - 中国-1.10MB/s
-      - US_40
-      - Relay24b
-      - KR_73
-      - LT_922
-      - LT_841
-      - _CN_中国->🇹🇼_TW_台湾_2
-      - _CN_中国->🇸🇬_SG_新加坡_1
-      - LT_941
-      - ZZ_3347
-      - Relay_🇯🇵JP-🇩🇪DE_866
-      - JP_77
-      - CN_44
-      - FR_51
-      - Relay_🇯🇵JP-🇩🇪DE_865
-      - Relay_🇬🇧GB-🇬🇧GB_823
-      - Relay_🏁ZZ-🏁ZZ_487
-      - CN_46
-      - SG- 3
-      - Relay_🇺🇸US-🇺🇸US_3133
-      - US_114+
-      - JP- 3
-      - GB_53
+      - AU-159
       - GB_01
-      - SG- 4
-      - LT_1043
-      - LT_994
-      - LT_1005
-      - LT_77
-      - LT_1028
-      - LT_1030
-      - LT_78
-      - LT_996
-      - LT_1049
-      - LT_1025
-      - LT_997
-      - LT_1001
-      - LT_1041
-      - LT_1000
-      - LT_76
-      - LT_989
+      - CN_07
+      - RELAY--074
+      - RELAY--064
+      - RELAY--062
+      - RELAY--063
+      - JP- 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
