@@ -3,509 +3,550 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 127.0.0.1:9090
+dns:
+    enable: false
+    listen: 0.0.0.0:53
+    nameserver:
+      - 223.5.5.5
 proxies:
-  - {name: Hong Kong 01, server: jdmscys.ljqoal.xyz, port: 28155, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Hong Kong 02, server: jdmscys.ljqoal.xyz, port: 28674, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Hong Kong 03, server: jdmscys.ljqoal.xyz, port: 27349, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Hong Kong 04, server: jdmscys.ljqoal.xyz, port: 30958, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Hong Kong 05, server: jdmscys.ljqoal.xyz, port: 24617, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Hong Kong 06, server: jdmscys.ljqoal.xyz, port: 28672, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Hong Kong 07, server: jdmscys.ljqoal.xyz, port: 24341, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Hong Kong 08, server: jdmscys.ljqoal.xyz, port: 27874, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Hong Kong 09, server: jdmscys.ljqoal.xyz, port: 31313, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Hong Kong 10, server: jdmscys.ljqoal.xyz, port: 26922, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Hong Kong 11, server: jdmscys.ljqoal.xyz, port: 29329, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Hong Kong 12, server: jdmscys.ljqoal.xyz, port: 31289, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Hong Kong 13, server: jdmscys.ljqoal.xyz, port: 24594, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Hong Kong 14, server: jdmscys.ljqoal.xyz, port: 31994, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Hong Kong 15, server: jdmscys.ljqoal.xyz, port: 25305, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Hong Kong 16, server: jdmscys.ljqoal.xyz, port: 30219, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Hong Kong 17, server: jdmscys.ljqoal.xyz, port: 24900, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Hong Kong 18, server: jdmscys.ljqoal.xyz, port: 29533, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Hong Kong 19, server: jdmscys.ljqoal.xyz, port: 26018, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: "Hong Kong 20 [Premium]", server: 8.8.8.8, port: 30110, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: "Hong Kong 21 [Premium]", server: 8.8.8.8, port: 27702, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: "Hong Kong 22 [Premium]", server: 8.8.8.8, port: 31784, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Hong Kong 23, server: jdmscys.ljqoal.xyz, port: 29930, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: United States 01, server: btwbfhg.buizcy.xyz, port: 30026, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: United States 02, server: btwbfhg.buizcy.xyz, port: 30753, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: United States 03, server: btwbfhg.buizcy.xyz, port: 28845, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: "United States 04 [Premium]", server: 8.8.8.8, port: 25139, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: "United States 05 [Premium]", server: 8.8.8.8, port: 31729, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: "United States 06 [Premium]", server: 8.8.8.8, port: 30099, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: "United States 07 [Premium]", server: 8.8.8.8, port: 28738, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: United States 08, server: btwbfhg.buizcy.xyz, port: 26507, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: United States 09, server: btwbfhg.buizcy.xyz, port: 24883, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: United States 10, server: btwbfhg.buizcy.xyz, port: 30843, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: United States 11, server: btwbfhg.buizcy.xyz, port: 30241, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: United States 12, server: btwbfhg.buizcy.xyz, port: 28877, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: United States 13, server: btwbfhg.buizcy.xyz, port: 28961, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: "United States 14 [Premium]", server: 8.8.8.8, port: 29571, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: "United States 15 [Premium]", server: 8.8.8.8, port: 28281, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: United States 16, server: btwbfhg.buizcy.xyz, port: 28262, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: United States 17, server: btwbfhg.buizcy.xyz, port: 28749, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 01, server: btwbfhg.buizcy.xyz, port: 31505, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 02, server: btwbfhg.buizcy.xyz, port: 24434, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 03, server: btwbfhg.buizcy.xyz, port: 26589, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 04, server: btwbfhg.buizcy.xyz, port: 27441, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 05, server: btwbfhg.buizcy.xyz, port: 30961, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 06, server: btwbfhg.buizcy.xyz, port: 31493, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 07, server: btwbfhg.buizcy.xyz, port: 25743, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 08, server: btwbfhg.buizcy.xyz, port: 27942, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 09, server: btwbfhg.buizcy.xyz, port: 29192, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 10, server: btwbfhg.buizcy.xyz, port: 27358, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 11, server: btwbfhg.buizcy.xyz, port: 25157, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 12, server: btwbfhg.buizcy.xyz, port: 24522, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 13, server: btwbfhg.buizcy.xyz, port: 28297, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 14, server: btwbfhg.buizcy.xyz, port: 25135, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 15, server: btwbfhg.buizcy.xyz, port: 31861, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 16, server: btwbfhg.buizcy.xyz, port: 28361, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 17, server: btwbfhg.buizcy.xyz, port: 28671, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 18, server: btwbfhg.buizcy.xyz, port: 30088, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 19, server: btwbfhg.buizcy.xyz, port: 26941, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 20, server: btwbfhg.buizcy.xyz, port: 25919, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 21, server: btwbfhg.buizcy.xyz, port: 29306, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: "Japan 22 [Premium]", server: 8.8.8.8, port: 31225, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: "Japan 23 [Premium]", server: 8.8.8.8, port: 29134, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 24, server: btwbfhg.buizcy.xyz, port: 28592, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 25, server: btwbfhg.buizcy.xyz, port: 28221, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 26, server: btwbfhg.buizcy.xyz, port: 30353, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Japan 27, server: btwbfhg.buizcy.xyz, port: 31356, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Netherlands, server: jdmscys.ljqoal.xyz, port: 31410, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Russia St.Peterburg, server: jdmscys.ljqoal.xyz, port: 26506, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Russia Moscow, server: jdmscys.ljqoal.xyz, port: 25942, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Germany 1, server: jdmscys.ljqoal.xyz, port: 31588, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Germany 2, server: jdmscys.ljqoal.xyz, port: 27250, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: France, server: jdmscys.ljqoal.xyz, port: 27366, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Switzerland 01, server: jdmscys.ljqoal.xyz, port: 25190, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Switzerland 02, server: jdmscys.ljqoal.xyz, port: 25595, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: United Kingdom 1, server: jdmscys.ljqoal.xyz, port: 25027, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: United Kingdom 2, server: jdmscys.ljqoal.xyz, port: 27963, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: United Kingdom 3, server: jdmscys.ljqoal.xyz, port: 30583, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: United Kingdom 4, server: jdmscys.ljqoal.xyz, port: 27900, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: United Kingdom 5, server: jdmscys.ljqoal.xyz, port: 27993, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Sweden, server: jdmscys.ljqoal.xyz, port: 25843, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Bulgaria, server: jdmscys.ljqoal.xyz, port: 24422, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Austria, server: jdmscys.ljqoal.xyz, port: 31162, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Ireland 1, server: jdmscys.ljqoal.xyz, port: 25008, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Ireland 2, server: jdmscys.ljqoal.xyz, port: 30799, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Israel, server: jdmscys.ljqoal.xyz, port: 27024, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Turkey, server: jdmscys.ljqoal.xyz, port: 25858, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Italy, server: jdmscys.ljqoal.xyz, port: 29472, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Hungary, server: jdmscys.ljqoal.xyz, port: 29979, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Korea 1, server: jdmscys.ljqoal.xyz, port: 28976, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Korea 2, server: jdmscys.ljqoal.xyz, port: 25768, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: "Korea 3 [Premium]", server: 8.8.8.8, port: 28622, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Korea 4, server: btwbfhg.buizcy.xyz, port: 28561, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Taiwan 1, server: jdmscys.ljqoal.xyz, port: 28454, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Taiwan 2, server: jdmscys.ljqoal.xyz, port: 27905, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Taiwan 3, server: jdmscys.ljqoal.xyz, port: 31834, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Taiwan 4, server: jdmscys.ljqoal.xyz, port: 26338, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Taiwan 5, server: jdmscys.ljqoal.xyz, port: 29792, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Canada 01, server: btwbfhg.buizcy.xyz, port: 25899, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Canada 02, server: btwbfhg.buizcy.xyz, port: 29146, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Canada 03, server: btwbfhg.buizcy.xyz, port: 24753, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: "Australia Sydney 01 [Premium]", server: 8.8.8.8, port: 31464, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Australia Sydney 02, server: jdmscys.ljqoal.xyz, port: 24405, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: United Arab Emirates 01, server: jdmscys.ljqoal.xyz, port: 26830, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: United Arab Emirates 02, server: jdmscys.ljqoal.xyz, port: 24453, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: India 1, server: jdmscys.ljqoal.xyz, port: 31384, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: India 2, server: jdmscys.ljqoal.xyz, port: 28628, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Indonesia 01, server: jdmscys.ljqoal.xyz, port: 31459, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Brazil 01, server: btwbfhg.buizcy.xyz, port: 30302, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Singapore 01, server: jdmscys.ljqoal.xyz, port: 29521, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Singapore 02, server: jdmscys.ljqoal.xyz, port: 25248, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Singapore 03, server: jdmscys.ljqoal.xyz, port: 28552, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Singapore 04, server: jdmscys.ljqoal.xyz, port: 26208, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Singapore 05, server: jdmscys.ljqoal.xyz, port: 27186, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Singapore 06, server: jdmscys.ljqoal.xyz, port: 24391, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Singapore 07, server: jdmscys.ljqoal.xyz, port: 29670, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Singapore 08, server: jdmscys.ljqoal.xyz, port: 31858, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Singapore 09, server: jdmscys.ljqoal.xyz, port: 28084, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Singapore 10, server: jdmscys.ljqoal.xyz, port: 31565, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: "Singapore 11 [Premium]", server: 8.8.8.8, port: 26079, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
-  - {name: Singapore 12, server: jdmscys.ljqoal.xyz, port: 31494, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}, udp: true}
+   - name: 🇹🇼 台湾
+     server: h3816tw.droplet.today
+     port: 20443
+     type: http
+     username: "dcf12c7e7d"
+     password: "26bae9b023"
+     tls: true
+   - name: 🇺🇸 HTTPS｜美国01
+     server: h961359.droplet.today
+     port: 11245
+     type: http
+     username: "dcf12c7e7d"
+     password: "26bae9b023"
+     tls: true
+   - name: 🇺🇸 HTTPS｜美国02
+     server: h961684.droplet.today
+     port: 11245
+     type: http
+     username: "dcf12c7e7d"
+     password: "26bae9b023"
+     tls: true
+   - name: 🇩🇪 HTTPS｜德国01
+     server: h961684.droplet.today
+     port: 11745
+     type: http
+     username: "dcf12c7e7d"
+     password: "26bae9b023"
+     tls: true
+   - name: 🇩🇪 HTTPS｜德国02
+     server: h961359.droplet.today
+     port: 11745
+     type: http
+     username: "dcf12c7e7d"
+     password: "26bae9b023"
+     tls: true
+   - name: 🇯🇵 HTTPS｜日本01
+     server: h961359.droplet.today
+     port: 11445
+     type: http
+     username: "dcf12c7e7d"
+     password: "26bae9b023"
+     tls: true
+   - name: 🇯🇵 HTTPS｜日本02
+     server: h961684.droplet.today
+     port: 11445
+     type: http
+     username: "dcf12c7e7d"
+     password: "26bae9b023"
+     tls: true
+   - name: 🇯🇵 HTTPS｜日本03
+     server: h890361.droplet.today
+     port: 11445
+     type: http
+     username: "dcf12c7e7d"
+     password: "26bae9b023"
+     tls: true
+   - name: 🇯🇵 HTTPS｜一键连｜日本
+     server: jc.ap.fastqvpn.com
+     port: 29980
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇭🇰 HTTPS｜香港01
+     server: 183.240.9.28
+     port: 29980
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇭🇰 HTTPS｜香港02
+     server: 183.240.9.29
+     port: 29980
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇭🇰 HTTPS｜香港03
+     server: 183.240.9.30
+     port: 29980
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇭🇰 HTTPS｜香港04
+     server: 183.240.9.31
+     port: 29980
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇭🇰 HTTPS｜香港05
+     server: 120.232.251.206
+     port: 29980
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇭🇰 HTTPS｜香港06
+     server: h890361.droplet.today
+     port: 11545
+     type: http
+     username: "dcf12c7e7d"
+     password: "26bae9b023"
+     tls: true
+   - name: 🇭🇰 HTTPS｜香港07
+     server: h961359.droplet.today
+     port: 11545
+     type: http
+     username: "dcf12c7e7d"
+     password: "26bae9b023"
+     tls: true
+   - name: 🇭🇰 HTTPS｜PCCW|香港
+     server: pccw.stunnel.vip 
+     port: 4700
+     type: http
+     username: "yaojiayu246@gmail.com"
+     password: "73a4ff1c-85c8-11ea-82ef-f23c9164ca5d"
+     tls: true
+   - name: 🇸🇬 HTTPS｜新加坡01
+     server: 183.240.9.28
+     port: 29979
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡02
+     server: 183.240.9.28
+     port: 29982
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡03
+     server: 183.240.9.28
+     port: 29983
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡04
+     server: 183.240.9.28
+     port: 29984
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡05
+     server: 183.240.9.28
+     port: 29987
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡06
+     server: 183.240.9.28
+     port: 29988
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡07
+     server: 183.240.9.29
+     port: 29979
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡08
+     server: 183.240.9.29
+     port: 29982
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡09
+     server: 183.240.9.29
+     port: 29983
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡10
+     server: 183.240.9.29
+     port: 29984
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡11
+     server: 183.240.9.29
+     port: 29987
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡12
+     server: 183.240.9.29
+     port: 29988
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡13
+     server: 183.240.9.30
+     port: 29979
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡14
+     server: 183.240.9.30
+     port: 29982
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡15
+     server: 183.240.9.30
+     port: 29983
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡16
+     server: 183.240.9.30
+     port: 29984
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡17
+     server: 183.240.9.30
+     port: 29987
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡18
+     server: 183.240.9.30
+     port: 29988
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡19
+     server: 183.240.9.31
+     port: 29979
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡20
+     server: 183.240.9.31
+     port: 29982
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡21
+     server: 183.240.9.31
+     port: 29983
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡22
+     server: 183.240.9.31
+     port: 29984
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡23
+     server: 183.240.9.31
+     port: 29985
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡24
+     server: 183.240.9.31
+     port: 29987
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡25
+     server: 183.240.9.31
+     port: 29988
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡26
+     server: 120.232.251.206
+     port: 29979
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇸🇬 HTTPS｜新加坡27
+     server: 183.240.9.30
+     port: 29979
+     type: http
+     username: "442993652168396800"
+     password: "2ef91648-089f-4c81-b34d-06f072ec51dd"
+     tls: true
+     skip-cert-verify: true
+   - name: 🇮🇳 HTTPS｜印度
+     server: in.gotochinatown.net
+     port: 10884
+     type: http
+     username: "yaojiayu246@gmail.com"
+     password: "73a4ff1c-85c8-11ea-82ef-f23c9164ca5d"
+     tls: true
+   - name: 🇬🇧 HTTPS｜英国
+     server: uk.gotochinatown.net
+     port: 10882
+     type: http
+     username: "yaojiayu246@gmail.com"
+     password: "73a4ff1c-85c8-11ea-82ef-f23c9164ca5d"
+     tls: true
+   - name: 🇦🇺 HTTPS｜澳大利亚
+     server: au.gotochinatown.net
+     port: 10930
+     type: http
+     username: "yaojiayu246@gmail.com"
+     password: "73a4ff1c-85c8-11ea-82ef-f23c9164ca5d"
+     tls: true
+   - name: 🇩🇪 HTTPS｜德国03
+     server: de.gotochinatown.net
+     port: 10887 
+     type: http
+     username: "2068459124@qq.com"
+     password: "8cccbc36-4355-11ec-a8bf-f23c91cfbbc9"
+     tls: true
+   - name: 🇩🇪 HTTPS｜德国04
+     server: de.gotochinatown.net
+     port: 10887
+     type: http
+     username: "yaojiayu246@gmail.com"
+     password: "73a4ff1c-85c8-11ea-82ef-f23c9164ca5d"
+     tls: true
+   - name: Openit / https://openit.ml / Telegram@yusteven / GitHub → yu-steven / yu@openit.ml / By Yu Steven
+     server: http://openit.ml
+     port: 65536
+     type: http
+     username: "openit"
+     password: "openit"
+   - name: 已部署XSS安全漏洞检测
+     server: localhost
+     port: 65536
+     type: http
+     username: "localhost"
+     password: "localhost"
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - Hong Kong 09
-      - Hong Kong 10
-      - Hong Kong 11
-      - Hong Kong 12
-      - Hong Kong 13
-      - Hong Kong 14
-      - Hong Kong 15
-      - Hong Kong 16
-      - Hong Kong 17
-      - Hong Kong 18
-      - Hong Kong 19
-      - Hong Kong 20 [Premium]
-      - Hong Kong 21 [Premium]
-      - Hong Kong 22 [Premium]
-      - Hong Kong 23
-      - United States 01
-      - United States 02
-      - United States 03
-      - United States 04 [Premium]
-      - United States 05 [Premium]
-      - United States 06 [Premium]
-      - United States 07 [Premium]
-      - United States 08
-      - United States 09
-      - United States 10
-      - United States 11
-      - United States 12
-      - United States 13
-      - United States 14 [Premium]
-      - United States 15 [Premium]
-      - United States 16
-      - United States 17
-      - Japan 01
-      - Japan 02
-      - Japan 03
-      - Japan 04
-      - Japan 05
-      - Japan 06
-      - Japan 07
-      - Japan 08
-      - Japan 09
-      - Japan 10
-      - Japan 11
-      - Japan 12
-      - Japan 13
-      - Japan 14
-      - Japan 15
-      - Japan 16
-      - Japan 17
-      - Japan 18
-      - Japan 19
-      - Japan 20
-      - Japan 21
-      - Japan 22 [Premium]
-      - Japan 23 [Premium]
-      - Japan 24
-      - Japan 25
-      - Japan 26
-      - Japan 27
-      - Netherlands
-      - Russia St.Peterburg
-      - Russia Moscow
-      - Germany 1
-      - Germany 2
-      - France
-      - Switzerland 01
-      - Switzerland 02
-      - United Kingdom 1
-      - United Kingdom 2
-      - United Kingdom 3
-      - United Kingdom 4
-      - United Kingdom 5
-      - Sweden
-      - Bulgaria
-      - Austria
-      - Ireland 1
-      - Ireland 2
-      - Israel
-      - Turkey
-      - Italy
-      - Hungary
-      - Korea 1
-      - Korea 2
-      - Korea 3 [Premium]
-      - Korea 4
-      - Taiwan 1
-      - Taiwan 2
-      - Taiwan 3
-      - Taiwan 4
-      - Taiwan 5
-      - Canada 01
-      - Canada 02
-      - Canada 03
-      - Australia Sydney 01 [Premium]
-      - Australia Sydney 02
-      - United Arab Emirates 01
-      - United Arab Emirates 02
-      - India 1
-      - India 2
-      - Indonesia 01
-      - Brazil 01
-      - Singapore 01
-      - Singapore 02
-      - Singapore 03
-      - Singapore 04
-      - Singapore 05
-      - Singapore 06
-      - Singapore 07
-      - Singapore 08
-      - Singapore 09
-      - Singapore 10
-      - Singapore 11 [Premium]
-      - Singapore 12
+      - 🇺🇸 HTTPS｜美国01
+      - 🇺🇸 HTTPS｜美国02
+      - 🇩🇪 HTTPS｜德国01
+      - 🇩🇪 HTTPS｜德国02
+      - 🇯🇵 HTTPS｜日本01
+      - 🇯🇵 HTTPS｜日本02 
+      - 🇯🇵 HTTPS｜日本03
+      - 🇯🇵 HTTPS｜一键连｜日本
+      - 🇭🇰 HTTPS｜香港01
+      - 🇭🇰 HTTPS｜香港02
+      - 🇭🇰 HTTPS｜香港03
+      - 🇭🇰 HTTPS｜香港04
+      - 🇭🇰 HTTPS｜香港05
+      - 🇭🇰 HTTPS｜香港06
+      - 🇭🇰 HTTPS｜香港07
+      - 🇭🇰 HTTPS｜PCCW|香港
+      - 🇸🇬 HTTPS｜新加坡01
+      - 🇸🇬 HTTPS｜新加坡02
+      - 🇸🇬 HTTPS｜新加坡03
+      - 🇸🇬 HTTPS｜新加坡04
+      - 🇸🇬 HTTPS｜新加坡05
+      - 🇸🇬 HTTPS｜新加坡06
+      - 🇸🇬 HTTPS｜新加坡07
+      - 🇸🇬 HTTPS｜新加坡08
+      - 🇸🇬 HTTPS｜新加坡09
+      - 🇸🇬 HTTPS｜新加坡10
+      - 🇸🇬 HTTPS｜新加坡11
+      - 🇸🇬 HTTPS｜新加坡12
+      - 🇸🇬 HTTPS｜新加坡13
+      - 🇸🇬 HTTPS｜新加坡14
+      - 🇸🇬 HTTPS｜新加坡15
+      - 🇸🇬 HTTPS｜新加坡16
+      - 🇸🇬 HTTPS｜新加坡17
+      - 🇸🇬 HTTPS｜新加坡18
+      - 🇸🇬 HTTPS｜新加坡19
+      - 🇸🇬 HTTPS｜新加坡20
+      - 🇸🇬 HTTPS｜新加坡21
+      - 🇸🇬 HTTPS｜新加坡22
+      - 🇸🇬 HTTPS｜新加坡23
+      - 🇸🇬 HTTPS｜新加坡24
+      - 🇸🇬 HTTPS｜新加坡25
+      - 🇸🇬 HTTPS｜新加坡26
+      - 🇸🇬 HTTPS｜新加坡27
+      - 🇹🇼 台湾
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - Hong Kong 09
-      - Hong Kong 10
-      - Hong Kong 11
-      - Hong Kong 12
-      - Hong Kong 13
-      - Hong Kong 14
-      - Hong Kong 15
-      - Hong Kong 16
-      - Hong Kong 17
-      - Hong Kong 18
-      - Hong Kong 19
-      - Hong Kong 20 [Premium]
-      - Hong Kong 21 [Premium]
-      - Hong Kong 22 [Premium]
-      - Hong Kong 23
-      - United States 01
-      - United States 02
-      - United States 03
-      - United States 04 [Premium]
-      - United States 05 [Premium]
-      - United States 06 [Premium]
-      - United States 07 [Premium]
-      - United States 08
-      - United States 09
-      - United States 10
-      - United States 11
-      - United States 12
-      - United States 13
-      - United States 14 [Premium]
-      - United States 15 [Premium]
-      - United States 16
-      - United States 17
-      - Japan 01
-      - Japan 02
-      - Japan 03
-      - Japan 04
-      - Japan 05
-      - Japan 06
-      - Japan 07
-      - Japan 08
-      - Japan 09
-      - Japan 10
-      - Japan 11
-      - Japan 12
-      - Japan 13
-      - Japan 14
-      - Japan 15
-      - Japan 16
-      - Japan 17
-      - Japan 18
-      - Japan 19
-      - Japan 20
-      - Japan 21
-      - Japan 22 [Premium]
-      - Japan 23 [Premium]
-      - Japan 24
-      - Japan 25
-      - Japan 26
-      - Japan 27
-      - Netherlands
-      - Russia St.Peterburg
-      - Russia Moscow
-      - Germany 1
-      - Germany 2
-      - France
-      - Switzerland 01
-      - Switzerland 02
-      - United Kingdom 1
-      - United Kingdom 2
-      - United Kingdom 3
-      - United Kingdom 4
-      - United Kingdom 5
-      - Sweden
-      - Bulgaria
-      - Austria
-      - Ireland 1
-      - Ireland 2
-      - Israel
-      - Turkey
-      - Italy
-      - Hungary
-      - Korea 1
-      - Korea 2
-      - Korea 3 [Premium]
-      - Korea 4
-      - Taiwan 1
-      - Taiwan 2
-      - Taiwan 3
-      - Taiwan 4
-      - Taiwan 5
-      - Canada 01
-      - Canada 02
-      - Canada 03
-      - Australia Sydney 01 [Premium]
-      - Australia Sydney 02
-      - United Arab Emirates 01
-      - United Arab Emirates 02
-      - India 1
-      - India 2
-      - Indonesia 01
-      - Brazil 01
-      - Singapore 01
-      - Singapore 02
-      - Singapore 03
-      - Singapore 04
-      - Singapore 05
-      - Singapore 06
-      - Singapore 07
-      - Singapore 08
-      - Singapore 09
-      - Singapore 10
-      - Singapore 11 [Premium]
-      - Singapore 12
+      - 🇺🇸 HTTPS｜美国01
+      - 🇺🇸 HTTPS｜美国02
+      - 🇩🇪 HTTPS｜德国01
+      - 🇩🇪 HTTPS｜德国02
+      - 🇯🇵 HTTPS｜日本01
+      - 🇯🇵 HTTPS｜日本02 
+      - 🇯🇵 HTTPS｜日本03
+      - 🇯🇵 HTTPS｜一键连｜日本
+      - 🇭🇰 HTTPS｜香港01
+      - 🇭🇰 HTTPS｜香港02
+      - 🇭🇰 HTTPS｜香港03
+      - 🇭🇰 HTTPS｜香港04
+      - 🇭🇰 HTTPS｜香港05
+      - 🇭🇰 HTTPS｜香港06
+      - 🇭🇰 HTTPS｜香港07
+      - 🇭🇰 HTTPS｜PCCW|香港
+      - 🇸🇬 HTTPS｜新加坡01
+      - 🇸🇬 HTTPS｜新加坡02
+      - 🇸🇬 HTTPS｜新加坡03
+      - 🇸🇬 HTTPS｜新加坡04
+      - 🇸🇬 HTTPS｜新加坡05
+      - 🇸🇬 HTTPS｜新加坡06
+      - 🇸🇬 HTTPS｜新加坡07
+      - 🇸🇬 HTTPS｜新加坡08
+      - 🇸🇬 HTTPS｜新加坡09
+      - 🇸🇬 HTTPS｜新加坡10
+      - 🇸🇬 HTTPS｜新加坡11
+      - 🇸🇬 HTTPS｜新加坡12
+      - 🇸🇬 HTTPS｜新加坡13
+      - 🇸🇬 HTTPS｜新加坡14
+      - 🇸🇬 HTTPS｜新加坡15
+      - 🇸🇬 HTTPS｜新加坡16
+      - 🇸🇬 HTTPS｜新加坡17
+      - 🇸🇬 HTTPS｜新加坡18
+      - 🇸🇬 HTTPS｜新加坡19
+      - 🇸🇬 HTTPS｜新加坡20
+      - 🇸🇬 HTTPS｜新加坡21
+      - 🇸🇬 HTTPS｜新加坡22
+      - 🇸🇬 HTTPS｜新加坡23
+      - 🇸🇬 HTTPS｜新加坡24
+      - 🇸🇬 HTTPS｜新加坡25
+      - 🇸🇬 HTTPS｜新加坡26
+      - 🇸🇬 HTTPS｜新加坡27
+      - 🇹🇼 台湾
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - Hong Kong 09
-      - Hong Kong 10
-      - Hong Kong 11
-      - Hong Kong 12
-      - Hong Kong 13
-      - Hong Kong 14
-      - Hong Kong 15
-      - Hong Kong 16
-      - Hong Kong 17
-      - Hong Kong 18
-      - Hong Kong 19
-      - Hong Kong 20 [Premium]
-      - Hong Kong 21 [Premium]
-      - Hong Kong 22 [Premium]
-      - Hong Kong 23
-      - United States 01
-      - United States 02
-      - United States 03
-      - United States 04 [Premium]
-      - United States 05 [Premium]
-      - United States 06 [Premium]
-      - United States 07 [Premium]
-      - United States 08
-      - United States 09
-      - United States 10
-      - United States 11
-      - United States 12
-      - United States 13
-      - United States 14 [Premium]
-      - United States 15 [Premium]
-      - United States 16
-      - United States 17
-      - Japan 01
-      - Japan 02
-      - Japan 03
-      - Japan 04
-      - Japan 05
-      - Japan 06
-      - Japan 07
-      - Japan 08
-      - Japan 09
-      - Japan 10
-      - Japan 11
-      - Japan 12
-      - Japan 13
-      - Japan 14
-      - Japan 15
-      - Japan 16
-      - Japan 17
-      - Japan 18
-      - Japan 19
-      - Japan 20
-      - Japan 21
-      - Japan 22 [Premium]
-      - Japan 23 [Premium]
-      - Japan 24
-      - Japan 25
-      - Japan 26
-      - Japan 27
-      - Netherlands
-      - Russia St.Peterburg
-      - Russia Moscow
-      - Germany 1
-      - Germany 2
-      - France
-      - Switzerland 01
-      - Switzerland 02
-      - United Kingdom 1
-      - United Kingdom 2
-      - United Kingdom 3
-      - United Kingdom 4
-      - United Kingdom 5
-      - Sweden
-      - Bulgaria
-      - Austria
-      - Ireland 1
-      - Ireland 2
-      - Israel
-      - Turkey
-      - Italy
-      - Hungary
-      - Korea 1
-      - Korea 2
-      - Korea 3 [Premium]
-      - Korea 4
-      - Taiwan 1
-      - Taiwan 2
-      - Taiwan 3
-      - Taiwan 4
-      - Taiwan 5
-      - Canada 01
-      - Canada 02
-      - Canada 03
-      - Australia Sydney 01 [Premium]
-      - Australia Sydney 02
-      - United Arab Emirates 01
-      - United Arab Emirates 02
-      - India 1
-      - India 2
-      - Indonesia 01
-      - Brazil 01
-      - Singapore 01
-      - Singapore 02
-      - Singapore 03
-      - Singapore 04
-      - Singapore 05
-      - Singapore 06
-      - Singapore 07
-      - Singapore 08
-      - Singapore 09
-      - Singapore 10
-      - Singapore 11 [Premium]
-      - Singapore 12
+      - 🇺🇸 HTTPS｜美国01
+      - 🇺🇸 HTTPS｜美国02
+      - 🇩🇪 HTTPS｜德国01
+      - 🇩🇪 HTTPS｜德国02
+      - 🇯🇵 HTTPS｜日本01
+      - 🇯🇵 HTTPS｜日本02 
+      - 🇯🇵 HTTPS｜日本03
+      - 🇯🇵 HTTPS｜一键连｜日本
+      - 🇭🇰 HTTPS｜香港01
+      - 🇭🇰 HTTPS｜香港02
+      - 🇭🇰 HTTPS｜香港03
+      - 🇭🇰 HTTPS｜香港04
+      - 🇭🇰 HTTPS｜香港05
+      - 🇭🇰 HTTPS｜香港06
+      - 🇭🇰 HTTPS｜香港07
+      - 🇭🇰 HTTPS｜PCCW|香港
+      - 🇸🇬 HTTPS｜新加坡01
+      - 🇸🇬 HTTPS｜新加坡02
+      - 🇸🇬 HTTPS｜新加坡03
+      - 🇸🇬 HTTPS｜新加坡04
+      - 🇸🇬 HTTPS｜新加坡05
+      - 🇸🇬 HTTPS｜新加坡06
+      - 🇸🇬 HTTPS｜新加坡07
+      - 🇸🇬 HTTPS｜新加坡08
+      - 🇸🇬 HTTPS｜新加坡09
+      - 🇸🇬 HTTPS｜新加坡10
+      - 🇸🇬 HTTPS｜新加坡11
+      - 🇸🇬 HTTPS｜新加坡12
+      - 🇸🇬 HTTPS｜新加坡13
+      - 🇸🇬 HTTPS｜新加坡14
+      - 🇸🇬 HTTPS｜新加坡15
+      - 🇸🇬 HTTPS｜新加坡16
+      - 🇸🇬 HTTPS｜新加坡17
+      - 🇸🇬 HTTPS｜新加坡18
+      - 🇸🇬 HTTPS｜新加坡19
+      - 🇸🇬 HTTPS｜新加坡20
+      - 🇸🇬 HTTPS｜新加坡21
+      - 🇸🇬 HTTPS｜新加坡22
+      - 🇸🇬 HTTPS｜新加坡23
+      - 🇸🇬 HTTPS｜新加坡24
+      - 🇸🇬 HTTPS｜新加坡25
+      - 🇸🇬 HTTPS｜新加坡26
+      - 🇸🇬 HTTPS｜新加坡27
+      - 🇹🇼 台湾
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -524,127 +565,50 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - Hong Kong 09
-      - Hong Kong 10
-      - Hong Kong 11
-      - Hong Kong 12
-      - Hong Kong 13
-      - Hong Kong 14
-      - Hong Kong 15
-      - Hong Kong 16
-      - Hong Kong 17
-      - Hong Kong 18
-      - Hong Kong 19
-      - Hong Kong 20 [Premium]
-      - Hong Kong 21 [Premium]
-      - Hong Kong 22 [Premium]
-      - Hong Kong 23
-      - United States 01
-      - United States 02
-      - United States 03
-      - United States 04 [Premium]
-      - United States 05 [Premium]
-      - United States 06 [Premium]
-      - United States 07 [Premium]
-      - United States 08
-      - United States 09
-      - United States 10
-      - United States 11
-      - United States 12
-      - United States 13
-      - United States 14 [Premium]
-      - United States 15 [Premium]
-      - United States 16
-      - United States 17
-      - Japan 01
-      - Japan 02
-      - Japan 03
-      - Japan 04
-      - Japan 05
-      - Japan 06
-      - Japan 07
-      - Japan 08
-      - Japan 09
-      - Japan 10
-      - Japan 11
-      - Japan 12
-      - Japan 13
-      - Japan 14
-      - Japan 15
-      - Japan 16
-      - Japan 17
-      - Japan 18
-      - Japan 19
-      - Japan 20
-      - Japan 21
-      - Japan 22 [Premium]
-      - Japan 23 [Premium]
-      - Japan 24
-      - Japan 25
-      - Japan 26
-      - Japan 27
-      - Netherlands
-      - Russia St.Peterburg
-      - Russia Moscow
-      - Germany 1
-      - Germany 2
-      - France
-      - Switzerland 01
-      - Switzerland 02
-      - United Kingdom 1
-      - United Kingdom 2
-      - United Kingdom 3
-      - United Kingdom 4
-      - United Kingdom 5
-      - Sweden
-      - Bulgaria
-      - Austria
-      - Ireland 1
-      - Ireland 2
-      - Israel
-      - Turkey
-      - Italy
-      - Hungary
-      - Korea 1
-      - Korea 2
-      - Korea 3 [Premium]
-      - Korea 4
-      - Taiwan 1
-      - Taiwan 2
-      - Taiwan 3
-      - Taiwan 4
-      - Taiwan 5
-      - Canada 01
-      - Canada 02
-      - Canada 03
-      - Australia Sydney 01 [Premium]
-      - Australia Sydney 02
-      - United Arab Emirates 01
-      - United Arab Emirates 02
-      - India 1
-      - India 2
-      - Indonesia 01
-      - Brazil 01
-      - Singapore 01
-      - Singapore 02
-      - Singapore 03
-      - Singapore 04
-      - Singapore 05
-      - Singapore 06
-      - Singapore 07
-      - Singapore 08
-      - Singapore 09
-      - Singapore 10
-      - Singapore 11 [Premium]
-      - Singapore 12
+      - 🇺🇸 HTTPS｜美国01
+      - 🇺🇸 HTTPS｜美国02
+      - 🇩🇪 HTTPS｜德国01
+      - 🇩🇪 HTTPS｜德国02
+      - 🇯🇵 HTTPS｜日本01
+      - 🇯🇵 HTTPS｜日本02 
+      - 🇯🇵 HTTPS｜日本03
+      - 🇯🇵 HTTPS｜一键连｜日本
+      - 🇭🇰 HTTPS｜香港01
+      - 🇭🇰 HTTPS｜香港02
+      - 🇭🇰 HTTPS｜香港03
+      - 🇭🇰 HTTPS｜香港04
+      - 🇭🇰 HTTPS｜香港05
+      - 🇭🇰 HTTPS｜香港06
+      - 🇭🇰 HTTPS｜香港07
+      - 🇭🇰 HTTPS｜PCCW|香港
+      - 🇸🇬 HTTPS｜新加坡01
+      - 🇸🇬 HTTPS｜新加坡02
+      - 🇸🇬 HTTPS｜新加坡03
+      - 🇸🇬 HTTPS｜新加坡04
+      - 🇸🇬 HTTPS｜新加坡05
+      - 🇸🇬 HTTPS｜新加坡06
+      - 🇸🇬 HTTPS｜新加坡07
+      - 🇸🇬 HTTPS｜新加坡08
+      - 🇸🇬 HTTPS｜新加坡09
+      - 🇸🇬 HTTPS｜新加坡10
+      - 🇸🇬 HTTPS｜新加坡11
+      - 🇸🇬 HTTPS｜新加坡12
+      - 🇸🇬 HTTPS｜新加坡13
+      - 🇸🇬 HTTPS｜新加坡14
+      - 🇸🇬 HTTPS｜新加坡15
+      - 🇸🇬 HTTPS｜新加坡16
+      - 🇸🇬 HTTPS｜新加坡17
+      - 🇸🇬 HTTPS｜新加坡18
+      - 🇸🇬 HTTPS｜新加坡19
+      - 🇸🇬 HTTPS｜新加坡20
+      - 🇸🇬 HTTPS｜新加坡21
+      - 🇸🇬 HTTPS｜新加坡22
+      - 🇸🇬 HTTPS｜新加坡23
+      - 🇸🇬 HTTPS｜新加坡24
+      - 🇸🇬 HTTPS｜新加坡25
+      - 🇸🇬 HTTPS｜新加坡26
+      - 🇸🇬 HTTPS｜新加坡27
+      - 🇹🇼 台湾
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -655,380 +619,151 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - Hong Kong 09
-      - Hong Kong 10
-      - Hong Kong 11
-      - Hong Kong 12
-      - Hong Kong 13
-      - Hong Kong 14
-      - Hong Kong 15
-      - Hong Kong 16
-      - Hong Kong 17
-      - Hong Kong 18
-      - Hong Kong 19
-      - Hong Kong 20 [Premium]
-      - Hong Kong 21 [Premium]
-      - Hong Kong 22 [Premium]
-      - Hong Kong 23
-      - United States 01
-      - United States 02
-      - United States 03
-      - United States 04 [Premium]
-      - United States 05 [Premium]
-      - United States 06 [Premium]
-      - United States 07 [Premium]
-      - United States 08
-      - United States 09
-      - United States 10
-      - United States 11
-      - United States 12
-      - United States 13
-      - United States 14 [Premium]
-      - United States 15 [Premium]
-      - United States 16
-      - United States 17
-      - Japan 01
-      - Japan 02
-      - Japan 03
-      - Japan 04
-      - Japan 05
-      - Japan 06
-      - Japan 07
-      - Japan 08
-      - Japan 09
-      - Japan 10
-      - Japan 11
-      - Japan 12
-      - Japan 13
-      - Japan 14
-      - Japan 15
-      - Japan 16
-      - Japan 17
-      - Japan 18
-      - Japan 19
-      - Japan 20
-      - Japan 21
-      - Japan 22 [Premium]
-      - Japan 23 [Premium]
-      - Japan 24
-      - Japan 25
-      - Japan 26
-      - Japan 27
-      - Netherlands
-      - Russia St.Peterburg
-      - Russia Moscow
-      - Germany 1
-      - Germany 2
-      - France
-      - Switzerland 01
-      - Switzerland 02
-      - United Kingdom 1
-      - United Kingdom 2
-      - United Kingdom 3
-      - United Kingdom 4
-      - United Kingdom 5
-      - Sweden
-      - Bulgaria
-      - Austria
-      - Ireland 1
-      - Ireland 2
-      - Israel
-      - Turkey
-      - Italy
-      - Hungary
-      - Korea 1
-      - Korea 2
-      - Korea 3 [Premium]
-      - Korea 4
-      - Taiwan 1
-      - Taiwan 2
-      - Taiwan 3
-      - Taiwan 4
-      - Taiwan 5
-      - Canada 01
-      - Canada 02
-      - Canada 03
-      - Australia Sydney 01 [Premium]
-      - Australia Sydney 02
-      - United Arab Emirates 01
-      - United Arab Emirates 02
-      - India 1
-      - India 2
-      - Indonesia 01
-      - Brazil 01
-      - Singapore 01
-      - Singapore 02
-      - Singapore 03
-      - Singapore 04
-      - Singapore 05
-      - Singapore 06
-      - Singapore 07
-      - Singapore 08
-      - Singapore 09
-      - Singapore 10
-      - Singapore 11 [Premium]
-      - Singapore 12
+      - ♻️ 自动选择
+      - 🇺🇸 HTTPS｜美国01
+      - 🇺🇸 HTTPS｜美国02
+      - 🇩🇪 HTTPS｜德国01
+      - 🇩🇪 HTTPS｜德国02
+      - 🇯🇵 HTTPS｜日本01
+      - 🇯🇵 HTTPS｜日本02 
+      - 🇯🇵 HTTPS｜日本03
+      - 🇯🇵 HTTPS｜一键连｜日本
+      - 🇭🇰 HTTPS｜香港01
+      - 🇭🇰 HTTPS｜香港02
+      - 🇭🇰 HTTPS｜香港03
+      - 🇭🇰 HTTPS｜香港04
+      - 🇭🇰 HTTPS｜香港05
+      - 🇭🇰 HTTPS｜香港06
+      - 🇭🇰 HTTPS｜香港07
+      - 🇭🇰 HTTPS｜PCCW|香港
+      - 🇸🇬 HTTPS｜新加坡01
+      - 🇸🇬 HTTPS｜新加坡02
+      - 🇸🇬 HTTPS｜新加坡03
+      - 🇸🇬 HTTPS｜新加坡04
+      - 🇸🇬 HTTPS｜新加坡05
+      - 🇸🇬 HTTPS｜新加坡06
+      - 🇸🇬 HTTPS｜新加坡07
+      - 🇸🇬 HTTPS｜新加坡08
+      - 🇸🇬 HTTPS｜新加坡09
+      - 🇸🇬 HTTPS｜新加坡10
+      - 🇸🇬 HTTPS｜新加坡11
+      - 🇸🇬 HTTPS｜新加坡12
+      - 🇸🇬 HTTPS｜新加坡13
+      - 🇸🇬 HTTPS｜新加坡14
+      - 🇸🇬 HTTPS｜新加坡15
+      - 🇸🇬 HTTPS｜新加坡16
+      - 🇸🇬 HTTPS｜新加坡17
+      - 🇸🇬 HTTPS｜新加坡18
+      - 🇸🇬 HTTPS｜新加坡19
+      - 🇸🇬 HTTPS｜新加坡20
+      - 🇸🇬 HTTPS｜新加坡21
+      - 🇸🇬 HTTPS｜新加坡22
+      - 🇸🇬 HTTPS｜新加坡23
+      - 🇸🇬 HTTPS｜新加坡24
+      - 🇸🇬 HTTPS｜新加坡25
+      - 🇸🇬 HTTPS｜新加坡26
+      - 🇸🇬 HTTPS｜新加坡27
+      - 🇹🇼 台湾
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - Hong Kong 09
-      - Hong Kong 10
-      - Hong Kong 11
-      - Hong Kong 12
-      - Hong Kong 13
-      - Hong Kong 14
-      - Hong Kong 15
-      - Hong Kong 16
-      - Hong Kong 17
-      - Hong Kong 18
-      - Hong Kong 19
-      - Hong Kong 20 [Premium]
-      - Hong Kong 21 [Premium]
-      - Hong Kong 22 [Premium]
-      - Hong Kong 23
-      - United States 01
-      - United States 02
-      - United States 03
-      - United States 04 [Premium]
-      - United States 05 [Premium]
-      - United States 06 [Premium]
-      - United States 07 [Premium]
-      - United States 08
-      - United States 09
-      - United States 10
-      - United States 11
-      - United States 12
-      - United States 13
-      - United States 14 [Premium]
-      - United States 15 [Premium]
-      - United States 16
-      - United States 17
-      - Japan 01
-      - Japan 02
-      - Japan 03
-      - Japan 04
-      - Japan 05
-      - Japan 06
-      - Japan 07
-      - Japan 08
-      - Japan 09
-      - Japan 10
-      - Japan 11
-      - Japan 12
-      - Japan 13
-      - Japan 14
-      - Japan 15
-      - Japan 16
-      - Japan 17
-      - Japan 18
-      - Japan 19
-      - Japan 20
-      - Japan 21
-      - Japan 22 [Premium]
-      - Japan 23 [Premium]
-      - Japan 24
-      - Japan 25
-      - Japan 26
-      - Japan 27
-      - Netherlands
-      - Russia St.Peterburg
-      - Russia Moscow
-      - Germany 1
-      - Germany 2
-      - France
-      - Switzerland 01
-      - Switzerland 02
-      - United Kingdom 1
-      - United Kingdom 2
-      - United Kingdom 3
-      - United Kingdom 4
-      - United Kingdom 5
-      - Sweden
-      - Bulgaria
-      - Austria
-      - Ireland 1
-      - Ireland 2
-      - Israel
-      - Turkey
-      - Italy
-      - Hungary
-      - Korea 1
-      - Korea 2
-      - Korea 3 [Premium]
-      - Korea 4
-      - Taiwan 1
-      - Taiwan 2
-      - Taiwan 3
-      - Taiwan 4
-      - Taiwan 5
-      - Canada 01
-      - Canada 02
-      - Canada 03
-      - Australia Sydney 01 [Premium]
-      - Australia Sydney 02
-      - United Arab Emirates 01
-      - United Arab Emirates 02
-      - India 1
-      - India 2
-      - Indonesia 01
-      - Brazil 01
-      - Singapore 01
-      - Singapore 02
-      - Singapore 03
-      - Singapore 04
-      - Singapore 05
-      - Singapore 06
-      - Singapore 07
-      - Singapore 08
-      - Singapore 09
-      - Singapore 10
-      - Singapore 11 [Premium]
-      - Singapore 12
+      - ♻️ 自动选择
+      - 🇺🇸 HTTPS｜美国01
+      - 🇺🇸 HTTPS｜美国02
+      - 🇩🇪 HTTPS｜德国01
+      - 🇩🇪 HTTPS｜德国02
+      - 🇯🇵 HTTPS｜日本01
+      - 🇯🇵 HTTPS｜日本02 
+      - 🇯🇵 HTTPS｜日本03
+      - 🇯🇵 HTTPS｜一键连｜日本
+      - 🇭🇰 HTTPS｜香港01
+      - 🇭🇰 HTTPS｜香港02
+      - 🇭🇰 HTTPS｜香港03
+      - 🇭🇰 HTTPS｜香港04
+      - 🇭🇰 HTTPS｜香港05
+      - 🇭🇰 HTTPS｜香港06
+      - 🇭🇰 HTTPS｜香港07
+      - 🇭🇰 HTTPS｜PCCW|香港
+      - 🇸🇬 HTTPS｜新加坡01
+      - 🇸🇬 HTTPS｜新加坡02
+      - 🇸🇬 HTTPS｜新加坡03
+      - 🇸🇬 HTTPS｜新加坡04
+      - 🇸🇬 HTTPS｜新加坡05
+      - 🇸🇬 HTTPS｜新加坡06
+      - 🇸🇬 HTTPS｜新加坡07
+      - 🇸🇬 HTTPS｜新加坡08
+      - 🇸🇬 HTTPS｜新加坡09
+      - 🇸🇬 HTTPS｜新加坡10
+      - 🇸🇬 HTTPS｜新加坡11
+      - 🇸🇬 HTTPS｜新加坡12
+      - 🇸🇬 HTTPS｜新加坡13
+      - 🇸🇬 HTTPS｜新加坡14
+      - 🇸🇬 HTTPS｜新加坡15
+      - 🇸🇬 HTTPS｜新加坡16
+      - 🇸🇬 HTTPS｜新加坡17
+      - 🇸🇬 HTTPS｜新加坡18
+      - 🇸🇬 HTTPS｜新加坡19
+      - 🇸🇬 HTTPS｜新加坡20
+      - 🇸🇬 HTTPS｜新加坡21
+      - 🇸🇬 HTTPS｜新加坡22
+      - 🇸🇬 HTTPS｜新加坡23
+      - 🇸🇬 HTTPS｜新加坡24
+      - 🇸🇬 HTTPS｜新加坡25
+      - 🇸🇬 HTTPS｜新加坡26
+      - 🇸🇬 HTTPS｜新加坡27
+      - 🇹🇼 台湾
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - Hong Kong 09
-      - Hong Kong 10
-      - Hong Kong 11
-      - Hong Kong 12
-      - Hong Kong 13
-      - Hong Kong 14
-      - Hong Kong 15
-      - Hong Kong 16
-      - Hong Kong 17
-      - Hong Kong 18
-      - Hong Kong 19
-      - Hong Kong 20 [Premium]
-      - Hong Kong 21 [Premium]
-      - Hong Kong 22 [Premium]
-      - Hong Kong 23
-      - United States 01
-      - United States 02
-      - United States 03
-      - United States 04 [Premium]
-      - United States 05 [Premium]
-      - United States 06 [Premium]
-      - United States 07 [Premium]
-      - United States 08
-      - United States 09
-      - United States 10
-      - United States 11
-      - United States 12
-      - United States 13
-      - United States 14 [Premium]
-      - United States 15 [Premium]
-      - United States 16
-      - United States 17
-      - Japan 01
-      - Japan 02
-      - Japan 03
-      - Japan 04
-      - Japan 05
-      - Japan 06
-      - Japan 07
-      - Japan 08
-      - Japan 09
-      - Japan 10
-      - Japan 11
-      - Japan 12
-      - Japan 13
-      - Japan 14
-      - Japan 15
-      - Japan 16
-      - Japan 17
-      - Japan 18
-      - Japan 19
-      - Japan 20
-      - Japan 21
-      - Japan 22 [Premium]
-      - Japan 23 [Premium]
-      - Japan 24
-      - Japan 25
-      - Japan 26
-      - Japan 27
-      - Netherlands
-      - Russia St.Peterburg
-      - Russia Moscow
-      - Germany 1
-      - Germany 2
-      - France
-      - Switzerland 01
-      - Switzerland 02
-      - United Kingdom 1
-      - United Kingdom 2
-      - United Kingdom 3
-      - United Kingdom 4
-      - United Kingdom 5
-      - Sweden
-      - Bulgaria
-      - Austria
-      - Ireland 1
-      - Ireland 2
-      - Israel
-      - Turkey
-      - Italy
-      - Hungary
-      - Korea 1
-      - Korea 2
-      - Korea 3 [Premium]
-      - Korea 4
-      - Taiwan 1
-      - Taiwan 2
-      - Taiwan 3
-      - Taiwan 4
-      - Taiwan 5
-      - Canada 01
-      - Canada 02
-      - Canada 03
-      - Australia Sydney 01 [Premium]
-      - Australia Sydney 02
-      - United Arab Emirates 01
-      - United Arab Emirates 02
-      - India 1
-      - India 2
-      - Indonesia 01
-      - Brazil 01
-      - Singapore 01
-      - Singapore 02
-      - Singapore 03
-      - Singapore 04
-      - Singapore 05
-      - Singapore 06
-      - Singapore 07
-      - Singapore 08
-      - Singapore 09
-      - Singapore 10
-      - Singapore 11 [Premium]
-      - Singapore 12
+      - 🇺🇸 HTTPS｜美国01
+      - 🇺🇸 HTTPS｜美国02
+      - 🇩🇪 HTTPS｜德国01
+      - 🇩🇪 HTTPS｜德国02
+      - 🇯🇵 HTTPS｜日本01
+      - 🇯🇵 HTTPS｜日本02 
+      - 🇯🇵 HTTPS｜日本03
+      - 🇯🇵 HTTPS｜一键连｜日本
+      - 🇭🇰 HTTPS｜香港01
+      - 🇭🇰 HTTPS｜香港02
+      - 🇭🇰 HTTPS｜香港03
+      - 🇭🇰 HTTPS｜香港04
+      - 🇭🇰 HTTPS｜香港05
+      - 🇭🇰 HTTPS｜香港06
+      - 🇭🇰 HTTPS｜香港07
+      - 🇭🇰 HTTPS｜PCCW|香港
+      - 🇸🇬 HTTPS｜新加坡01
+      - 🇸🇬 HTTPS｜新加坡02
+      - 🇸🇬 HTTPS｜新加坡03
+      - 🇸🇬 HTTPS｜新加坡04
+      - 🇸🇬 HTTPS｜新加坡05
+      - 🇸🇬 HTTPS｜新加坡06
+      - 🇸🇬 HTTPS｜新加坡07
+      - 🇸🇬 HTTPS｜新加坡08
+      - 🇸🇬 HTTPS｜新加坡09
+      - 🇸🇬 HTTPS｜新加坡10
+      - 🇸🇬 HTTPS｜新加坡11
+      - 🇸🇬 HTTPS｜新加坡12
+      - 🇸🇬 HTTPS｜新加坡13
+      - 🇸🇬 HTTPS｜新加坡14
+      - 🇸🇬 HTTPS｜新加坡15
+      - 🇸🇬 HTTPS｜新加坡16
+      - 🇸🇬 HTTPS｜新加坡17
+      - 🇸🇬 HTTPS｜新加坡18
+      - 🇸🇬 HTTPS｜新加坡19
+      - 🇸🇬 HTTPS｜新加坡20
+      - 🇸🇬 HTTPS｜新加坡21
+      - 🇸🇬 HTTPS｜新加坡22
+      - 🇸🇬 HTTPS｜新加坡23
+      - 🇸🇬 HTTPS｜新加坡24
+      - 🇸🇬 HTTPS｜新加坡25
+      - 🇸🇬 HTTPS｜新加坡26
+      - 🇸🇬 HTTPS｜新加坡27
+      - 🇹🇼 台湾
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1044,127 +779,50 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - Hong Kong 09
-      - Hong Kong 10
-      - Hong Kong 11
-      - Hong Kong 12
-      - Hong Kong 13
-      - Hong Kong 14
-      - Hong Kong 15
-      - Hong Kong 16
-      - Hong Kong 17
-      - Hong Kong 18
-      - Hong Kong 19
-      - Hong Kong 20 [Premium]
-      - Hong Kong 21 [Premium]
-      - Hong Kong 22 [Premium]
-      - Hong Kong 23
-      - United States 01
-      - United States 02
-      - United States 03
-      - United States 04 [Premium]
-      - United States 05 [Premium]
-      - United States 06 [Premium]
-      - United States 07 [Premium]
-      - United States 08
-      - United States 09
-      - United States 10
-      - United States 11
-      - United States 12
-      - United States 13
-      - United States 14 [Premium]
-      - United States 15 [Premium]
-      - United States 16
-      - United States 17
-      - Japan 01
-      - Japan 02
-      - Japan 03
-      - Japan 04
-      - Japan 05
-      - Japan 06
-      - Japan 07
-      - Japan 08
-      - Japan 09
-      - Japan 10
-      - Japan 11
-      - Japan 12
-      - Japan 13
-      - Japan 14
-      - Japan 15
-      - Japan 16
-      - Japan 17
-      - Japan 18
-      - Japan 19
-      - Japan 20
-      - Japan 21
-      - Japan 22 [Premium]
-      - Japan 23 [Premium]
-      - Japan 24
-      - Japan 25
-      - Japan 26
-      - Japan 27
-      - Netherlands
-      - Russia St.Peterburg
-      - Russia Moscow
-      - Germany 1
-      - Germany 2
-      - France
-      - Switzerland 01
-      - Switzerland 02
-      - United Kingdom 1
-      - United Kingdom 2
-      - United Kingdom 3
-      - United Kingdom 4
-      - United Kingdom 5
-      - Sweden
-      - Bulgaria
-      - Austria
-      - Ireland 1
-      - Ireland 2
-      - Israel
-      - Turkey
-      - Italy
-      - Hungary
-      - Korea 1
-      - Korea 2
-      - Korea 3 [Premium]
-      - Korea 4
-      - Taiwan 1
-      - Taiwan 2
-      - Taiwan 3
-      - Taiwan 4
-      - Taiwan 5
-      - Canada 01
-      - Canada 02
-      - Canada 03
-      - Australia Sydney 01 [Premium]
-      - Australia Sydney 02
-      - United Arab Emirates 01
-      - United Arab Emirates 02
-      - India 1
-      - India 2
-      - Indonesia 01
-      - Brazil 01
-      - Singapore 01
-      - Singapore 02
-      - Singapore 03
-      - Singapore 04
-      - Singapore 05
-      - Singapore 06
-      - Singapore 07
-      - Singapore 08
-      - Singapore 09
-      - Singapore 10
-      - Singapore 11 [Premium]
-      - Singapore 12
+      - 🇺🇸 HTTPS｜美国01
+      - 🇺🇸 HTTPS｜美国02
+      - 🇩🇪 HTTPS｜德国01
+      - 🇩🇪 HTTPS｜德国02
+      - 🇯🇵 HTTPS｜日本01
+      - 🇯🇵 HTTPS｜日本02 
+      - 🇯🇵 HTTPS｜日本03
+      - 🇯🇵 HTTPS｜一键连｜日本
+      - 🇭🇰 HTTPS｜香港01
+      - 🇭🇰 HTTPS｜香港02
+      - 🇭🇰 HTTPS｜香港03
+      - 🇭🇰 HTTPS｜香港04
+      - 🇭🇰 HTTPS｜香港05
+      - 🇭🇰 HTTPS｜香港06
+      - 🇭🇰 HTTPS｜香港07
+      - 🇭🇰 HTTPS｜PCCW|香港
+      - 🇸🇬 HTTPS｜新加坡01
+      - 🇸🇬 HTTPS｜新加坡02
+      - 🇸🇬 HTTPS｜新加坡03
+      - 🇸🇬 HTTPS｜新加坡04
+      - 🇸🇬 HTTPS｜新加坡05
+      - 🇸🇬 HTTPS｜新加坡06
+      - 🇸🇬 HTTPS｜新加坡07
+      - 🇸🇬 HTTPS｜新加坡08
+      - 🇸🇬 HTTPS｜新加坡09
+      - 🇸🇬 HTTPS｜新加坡10
+      - 🇸🇬 HTTPS｜新加坡11
+      - 🇸🇬 HTTPS｜新加坡12
+      - 🇸🇬 HTTPS｜新加坡13
+      - 🇸🇬 HTTPS｜新加坡14
+      - 🇸🇬 HTTPS｜新加坡15
+      - 🇸🇬 HTTPS｜新加坡16
+      - 🇸🇬 HTTPS｜新加坡17
+      - 🇸🇬 HTTPS｜新加坡18
+      - 🇸🇬 HTTPS｜新加坡19
+      - 🇸🇬 HTTPS｜新加坡20
+      - 🇸🇬 HTTPS｜新加坡21
+      - 🇸🇬 HTTPS｜新加坡22
+      - 🇸🇬 HTTPS｜新加坡23
+      - 🇸🇬 HTTPS｜新加坡24
+      - 🇸🇬 HTTPS｜新加坡25
+      - 🇸🇬 HTTPS｜新加坡26
+      - 🇸🇬 HTTPS｜新加坡27
+      - 🇹🇼 台湾
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
