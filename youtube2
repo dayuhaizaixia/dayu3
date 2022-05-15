@@ -5,371 +5,391 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "[CT/CM]香港 15", server: shsuconpro.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 意大利, server: relaypro.procncon.xyz, port: 612, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 意大利 2, server: relaypro.procncon.xyz, port: 612, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 俄罗斯a RT, server: relaypro.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 12", server: curelayhk.dnsflix.com, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 03", server: curelayhk.dnsflix.com, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 香港动态 HKT A, server: csdynhkt.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 美国 优化-2, server: shusa.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 美国 优化-1, server: shusa.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 美国 优化-2 2, server: shusa.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 香港动态 HKT C, server: csdynhkt.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 日本 B, server: shallaz.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 香港动态 HKT C 2, server: csdynhkt.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 美国 优化-4, server: shusa.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 香港动态 HKT B, server: csdynhkt.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 美国 优化-1 2, server: shusa.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 美国 优化-3, server: shusa.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 美国 优化-3 2, server: shusa.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 美国 优化-4 2, server: shusa.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 英国 iplayer A, server: relaypro.procncon.xyz, port: 613, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 英国 iplayer B, server: relaypro.procncon.xyz, port: 614, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 日本 A, server: shallaz.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 俄罗斯c RT, server: relaypro.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 俄罗斯b RT, server: relaypro.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 俄罗斯b RT 2, server: relaypro.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 香港动态 HKT A 2, server: csdynhkt.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 香港动态 HKT B 2, server: csdynhkt.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 日本 A 2, server: shallaz.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 日本 B 2, server: shallaz.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 14", server: shusacu.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 14 2", server: shusacu.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 新加坡D, server: shallaz4.dnsflix.com, port: 567, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 新加坡D 2, server: shallaz4.dnsflix.com, port: 567, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 新加坡E, server: shallaz4.dnsflix.com, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 01", server: hzrelaycu.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 新加坡C, server: shallaz4.dnsflix.com, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 新加坡E 2, server: shallaz4.dnsflix.com, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 新加坡C 2, server: shallaz4.dnsflix.com, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 新加坡A, server: shallaz.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 01 2", server: hzrelaycu.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 11", server: shusacu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 05", server: shusacu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 05 2", server: shusacu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 11 2", server: shusacu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 韩国高速接入A, server: shallaz.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 02", server: shcu002online.proconcn.xyz, port: 601, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 17", server: shcu002online.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 04", server: shcu001online.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 03 2", server: curelayhk.dnsflix.com, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 新加坡B, server: shallaz.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 09", server: cnrelaycm.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 07", server: shcu001online.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 07 2", server: shcu001online.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 06", server: hzrelaycu.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 新加坡A 2, server: shallaz.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 新加坡B 2, server: shallaz.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 13", server: shcu002online.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 04 2", server: shcu001online.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 13 2", server: shcu002online.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 06 2", server: hzrelaycu.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 17 2", server: shcu002online.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 02 2", server: shcu002online.proconcn.xyz, port: 601, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 09 2", server: cnrelaycm.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 10", server: shcu001online.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 08", server: cnrelaycm.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 08 2", server: cnrelaycm.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 俄罗斯a RT 2, server: relaypro.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 英国 iplayer B 2, server: relaypro.procncon.xyz, port: 614, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 英国 iplayer A 2, server: relaypro.procncon.xyz, port: 613, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 10 2", server: shcu001online.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 俄罗斯c RT 2, server: relaypro.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 韩国高速接入A 2, server: shallaz.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 美国 优化-6, server: usastart.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 美国 优化-9, server: usastart.proconcn.xyz, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 美国 优化-7, server: usastart.proconcn.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 美国 优化-8, server: usastart.proconcn.xyz, port: 567, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 美国 优化-10, server: usastart.proconcn.xyz, port: 569, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 美国 优化-6 2, server: usastart.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 美国 优化-5, server: usastart.proconcn.xyz, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 美国 优化-7 2, server: usastart.proconcn.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 美国 优化-8 2, server: usastart.proconcn.xyz, port: 567, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 美国 优化-9 2, server: usastart.proconcn.xyz, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 美国 优化-10 2, server: usastart.proconcn.xyz, port: 569, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 16", server: shsuconpro.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 12 2", server: curelayhk.dnsflix.com, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 16 2", server: shsuconpro.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 美国 优化-5 2, server: usastart.proconcn.xyz, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16583:WWww001, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: 加拿大 NTT, server: ca1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: 印度 AWS, server: in1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "台湾 BGP [01]", server: shcn21.qiangdong.xyz, port: 252, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "台湾 BGP [02]", server: shcn22.qiangdong.xyz, port: 252, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "台湾 BGP [03]", server: shcn23.qiangdong.xyz, port: 252, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "台湾 BGP [04]", server: shcn24.qiangdong.xyz, port: 252, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "台湾 CHT [01]", server: cht1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "台湾 CHT [02]", server: cht2.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "台湾 CHT [03]", server: cht3.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "台湾 HINET [01]", server: hinet1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "台湾 HINET [02]", server: hinet2.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "台湾 HINET [03]", server: hinet3.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "台湾 HINET [04]", server: hinet4.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "台湾 HINET [05]", server: hinet5.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: 台湾 Seed, server: seed1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "德国 BGP [01]", server: shcn21.qiangdong.xyz, port: 752, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "德国 BGP [02]", server: shcn22.qiangdong.xyz, port: 752, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "德国 BGP [03]", server: shcn23.qiangdong.xyz, port: 752, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "德国 BGP [04]", server: shcn24.qiangdong.xyz, port: 752, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: 德国 NTT, server: de1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: 新加坡 Aliyun 01, server: 8.219.136.142, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: 新加坡 Aliyun 02, server: 8.219.139.93, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: 新加坡 Aliyun 03, server: 8.219.132.111, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: 新加坡 Aliyun 04, server: 8.219.40.236, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "新加坡 BGP [01]", server: shcn21.qiangdong.xyz, port: 452, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "新加坡 BGP [02]", server: shcn22.qiangdong.xyz, port: 452, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "新加坡 BGP [03]", server: shcn23.qiangdong.xyz, port: 452, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "新加坡 BGP [04]", server: shcn24.qiangdong.xyz, port: 452, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: 新加坡 IEPL, server: 120.232.214.242, port: 27671, type: ss, cipher: rc4-md5, password: xTaMpV, udp: true}
+  - {name: 新加坡 NTT 01, server: sg1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: 新加坡 NTT 02, server: sg2.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: 日本 5G, server: 54.199.233.160, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "日本 BGP [01]", server: shcn21.qiangdong.xyz, port: 352, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "日本 BGP [02]", server: shcn22.qiangdong.xyz, port: 352, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "日本 BGP [03]", server: shcn23.qiangdong.xyz, port: 352, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "日本 BGP [04]", server: shcn24.qiangdong.xyz, port: 352, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: 日本 IIJ, server: 198.144.166.45, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: 日本 KDDI, server: 211.9.220.55, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "日本 NTT [01]", server: 164.70.127.91, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "日本 NTT [02]", server: jp2.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "日本 NTT [03]", server: jp3.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: 美国 5G, server: 15.254.2.249, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "美国 BGP [01]", server: shcn21.qiangdong.xyz, port: 552, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "美国 BGP [02]", server: shcn22.qiangdong.xyz, port: 552, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "美国 BGP [03]", server: shcn23.qiangdong.xyz, port: 552, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "美国 BGP [04]", server: shcn24.qiangdong.xyz, port: 552, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "美国 GIA [01]", server: 154.17.21.43, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "美国 GIA [02]", server: 154.17.21.45, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "美国 NTT [01]", server: 136.175.176.161, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "美国 NTT [02]", server: 136.175.176.191, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: 英国 5G, server: 3.8.20.143, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "英国 BGP [01]", server: shcn21.qiangdong.xyz, port: 852, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "英国 BGP [02]", server: shcn22.qiangdong.xyz, port: 852, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "英国 BGP [03]", server: shcn23.qiangdong.xyz, port: 852, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "英国 BGP [04]", server: shcn24.qiangdong.xyz, port: 852, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: 英国 Cogent, server: 185.237.99.105, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: 英国 GTT, server: 194.50.1.11, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: 菲律宾 ETPI, server: ph1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: 阿根廷 IPXON, server: 190.103.176.51, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: 韩国 5G, server: 3.35.78.82, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "韩国 BGP [01]", server: shcn21.qiangdong.xyz, port: 652, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "韩国 BGP [02]", server: shcn22.qiangdong.xyz, port: 652, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "韩国 BGP [03]", server: shcn23.qiangdong.xyz, port: 652, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "韩国 BGP [04]", server: shcn24.qiangdong.xyz, port: 652, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: 韩国 NTT, server: kr1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "香港 BGP [01]", server: shcn21.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "香港 BGP [02]", server: shcn22.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "香港 BGP [03]", server: shcn23.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "香港 BGP [04]", server: shcn24.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "香港 HKT [01]", server: hkt1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "香港 HKT [02]", server: hkt2.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "香港 HKT [03]", server: hkt3.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "香港 HKT [04]", server: hkt4.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "香港 HKT [06]", server: hkt6.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "香港 IEPL [01]", server: 120.232.214.40, port: 27671, type: ss, cipher: rc4-md5, password: xTaMpV, udp: true}
+  - {name: "香港 IEPL [02]", server: 120.232.214.150, port: 27671, type: ss, cipher: rc4-md5, password: xTaMpV, udp: true}
+  - {name: "香港 IEPL [03]", server: 120.232.82.220, port: 27671, type: ss, cipher: rc4-md5, password: xTaMpV, udp: true}
+  - {name: "香港 IEPL [04]", server: 120.232.214.80, port: 27671, type: ss, cipher: rc4-md5, password: xTaMpV, udp: true}
+  - {name: "香港 IEPL [05]", server: 120.232.214.97, port: 27671, type: ss, cipher: rc4-md5, password: xTaMpV, udp: true}
+  - {name: "香港 IEPL [06]", server: 120.232.214.99, port: 27671, type: ss, cipher: rc4-md5, password: xTaMpV, udp: true}
+  - {name: "香港 IEPL [07]", server: 120.232.82.190, port: 27671, type: ss, cipher: rc4-md5, password: xTaMpV, udp: true}
+  - {name: "香港 IEPL [08]", server: 120.233.10.192, port: 27671, type: ss, cipher: rc4-md5, password: xTaMpV, udp: true}
+  - {name: "香港 NTT [01]", server: 103.135.249.22, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "香港 NTT [02]", server: 103.135.249.25, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "香港 NTT [03]", server: 103.135.249.30, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "香港 NTT [04]", server: 103.135.249.35, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "香港 NTT [05]", server: 103.135.248.171, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "香港 NTT [06]", server: 203.175.15.14, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "香港 NTT [07]", server: 203.175.15.15, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "香港 NTT [08]", server: 203.175.13.172, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "香港 NTT [09]", server: 103.138.75.127, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: "香港 NTT [10]", server: 103.138.75.190, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "[CT/CM]香港 15"
-      - 意大利
-      - 意大利 2
-      - 俄罗斯a RT
-      - "[CT/CM]香港 12"
-      - "[CT/CM]香港 03"
-      - 香港动态 HKT A
-      - 美国 优化-2
-      - 美国 优化-1
-      - 美国 优化-2 2
-      - 香港动态 HKT C
-      - 日本 B
-      - 香港动态 HKT C 2
-      - 美国 优化-4
-      - 香港动态 HKT B
-      - 美国 优化-1 2
-      - 美国 优化-3
-      - 美国 优化-3 2
-      - 美国 优化-4 2
-      - 英国 iplayer A
-      - 英国 iplayer B
-      - 日本 A
-      - 俄罗斯c RT
-      - 俄罗斯b RT
-      - 俄罗斯b RT 2
-      - 香港动态 HKT A 2
-      - 香港动态 HKT B 2
-      - 日本 A 2
-      - 日本 B 2
-      - "[CT/CM]香港 14"
-      - "[CT/CM]香港 14 2"
-      - 新加坡D
-      - 新加坡D 2
-      - 新加坡E
-      - "[CT/CM]香港 01"
-      - 新加坡C
-      - 新加坡E 2
-      - 新加坡C 2
-      - 新加坡A
-      - "[CT/CM]香港 01 2"
-      - "[CT/CM]香港 11"
-      - "[CT/CM]香港 05"
-      - "[CT/CM]香港 05 2"
-      - "[CT/CM]香港 11 2"
-      - 韩国高速接入A
-      - "[CT/CM]香港 02"
-      - "[CT/CM]香港 17"
-      - "[CT/CM]香港 04"
-      - "[CT/CM]香港 03 2"
-      - 新加坡B
-      - "[CT/CM]香港 09"
-      - "[CT/CM]香港 07"
-      - "[CT/CM]香港 07 2"
-      - "[CT/CM]香港 06"
-      - 新加坡A 2
-      - 新加坡B 2
-      - "[CT/CM]香港 13"
-      - "[CT/CM]香港 04 2"
-      - "[CT/CM]香港 13 2"
-      - "[CT/CM]香港 06 2"
-      - "[CT/CM]香港 17 2"
-      - "[CT/CM]香港 02 2"
-      - "[CT/CM]香港 09 2"
-      - "[CT/CM]香港 10"
-      - "[CT/CM]香港 08"
-      - "[CT/CM]香港 08 2"
-      - 俄罗斯a RT 2
-      - 英国 iplayer B 2
-      - 英国 iplayer A 2
-      - "[CT/CM]香港 10 2"
-      - 俄罗斯c RT 2
-      - 韩国高速接入A 2
-      - 美国 优化-6
-      - 美国 优化-9
-      - 美国 优化-7
-      - 美国 优化-8
-      - 美国 优化-10
-      - 美国 优化-6 2
-      - 美国 优化-5
-      - 美国 优化-7 2
-      - 美国 优化-8 2
-      - 美国 优化-9 2
-      - 美国 优化-10 2
-      - "[CT/CM]香港 16"
-      - "[CT/CM]香港 12 2"
-      - "[CT/CM]香港 16 2"
-      - 美国 优化-5 2
+      - 加拿大 NTT
+      - 印度 AWS
+      - 台湾 BGP [01]
+      - 台湾 BGP [02]
+      - 台湾 BGP [03]
+      - 台湾 BGP [04]
+      - 台湾 CHT [01]
+      - 台湾 CHT [02]
+      - 台湾 CHT [03]
+      - 台湾 HINET [01]
+      - 台湾 HINET [02]
+      - 台湾 HINET [03]
+      - 台湾 HINET [04]
+      - 台湾 HINET [05]
+      - 台湾 Seed
+      - 德国 BGP [01]
+      - 德国 BGP [02]
+      - 德国 BGP [03]
+      - 德国 BGP [04]
+      - 德国 NTT
+      - 新加坡 Aliyun 01
+      - 新加坡 Aliyun 02
+      - 新加坡 Aliyun 03
+      - 新加坡 Aliyun 04
+      - 新加坡 BGP [01]
+      - 新加坡 BGP [02]
+      - 新加坡 BGP [03]
+      - 新加坡 BGP [04]
+      - 新加坡 IEPL
+      - 新加坡 NTT 01
+      - 新加坡 NTT 02
+      - 日本 5G
+      - 日本 BGP [01]
+      - 日本 BGP [02]
+      - 日本 BGP [03]
+      - 日本 BGP [04]
+      - 日本 IIJ
+      - 日本 KDDI
+      - 日本 NTT [01]
+      - 日本 NTT [02]
+      - 日本 NTT [03]
+      - 美国 5G
+      - 美国 BGP [01]
+      - 美国 BGP [02]
+      - 美国 BGP [03]
+      - 美国 BGP [04]
+      - 美国 GIA [01]
+      - 美国 GIA [02]
+      - 美国 NTT [01]
+      - 美国 NTT [02]
+      - 英国 5G
+      - 英国 BGP [01]
+      - 英国 BGP [02]
+      - 英国 BGP [03]
+      - 英国 BGP [04]
+      - 英国 Cogent
+      - 英国 GTT
+      - 菲律宾 ETPI
+      - 阿根廷 IPXON
+      - 韩国 5G
+      - 韩国 BGP [01]
+      - 韩国 BGP [02]
+      - 韩国 BGP [03]
+      - 韩国 BGP [04]
+      - 韩国 NTT
+      - 香港 BGP [01]
+      - 香港 BGP [02]
+      - 香港 BGP [03]
+      - 香港 BGP [04]
+      - 香港 HKT [01]
+      - 香港 HKT [02]
+      - 香港 HKT [03]
+      - 香港 HKT [04]
+      - 香港 HKT [06]
+      - 香港 IEPL [01]
+      - 香港 IEPL [02]
+      - 香港 IEPL [03]
+      - 香港 IEPL [04]
+      - 香港 IEPL [05]
+      - 香港 IEPL [06]
+      - 香港 IEPL [07]
+      - 香港 IEPL [08]
+      - 香港 NTT [01]
+      - 香港 NTT [02]
+      - 香港 NTT [03]
+      - 香港 NTT [04]
+      - 香港 NTT [05]
+      - 香港 NTT [06]
+      - 香港 NTT [07]
+      - 香港 NTT [08]
+      - 香港 NTT [09]
+      - 香港 NTT [10]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "[CT/CM]香港 15"
-      - 意大利
-      - 意大利 2
-      - 俄罗斯a RT
-      - "[CT/CM]香港 12"
-      - "[CT/CM]香港 03"
-      - 香港动态 HKT A
-      - 美国 优化-2
-      - 美国 优化-1
-      - 美国 优化-2 2
-      - 香港动态 HKT C
-      - 日本 B
-      - 香港动态 HKT C 2
-      - 美国 优化-4
-      - 香港动态 HKT B
-      - 美国 优化-1 2
-      - 美国 优化-3
-      - 美国 优化-3 2
-      - 美国 优化-4 2
-      - 英国 iplayer A
-      - 英国 iplayer B
-      - 日本 A
-      - 俄罗斯c RT
-      - 俄罗斯b RT
-      - 俄罗斯b RT 2
-      - 香港动态 HKT A 2
-      - 香港动态 HKT B 2
-      - 日本 A 2
-      - 日本 B 2
-      - "[CT/CM]香港 14"
-      - "[CT/CM]香港 14 2"
-      - 新加坡D
-      - 新加坡D 2
-      - 新加坡E
-      - "[CT/CM]香港 01"
-      - 新加坡C
-      - 新加坡E 2
-      - 新加坡C 2
-      - 新加坡A
-      - "[CT/CM]香港 01 2"
-      - "[CT/CM]香港 11"
-      - "[CT/CM]香港 05"
-      - "[CT/CM]香港 05 2"
-      - "[CT/CM]香港 11 2"
-      - 韩国高速接入A
-      - "[CT/CM]香港 02"
-      - "[CT/CM]香港 17"
-      - "[CT/CM]香港 04"
-      - "[CT/CM]香港 03 2"
-      - 新加坡B
-      - "[CT/CM]香港 09"
-      - "[CT/CM]香港 07"
-      - "[CT/CM]香港 07 2"
-      - "[CT/CM]香港 06"
-      - 新加坡A 2
-      - 新加坡B 2
-      - "[CT/CM]香港 13"
-      - "[CT/CM]香港 04 2"
-      - "[CT/CM]香港 13 2"
-      - "[CT/CM]香港 06 2"
-      - "[CT/CM]香港 17 2"
-      - "[CT/CM]香港 02 2"
-      - "[CT/CM]香港 09 2"
-      - "[CT/CM]香港 10"
-      - "[CT/CM]香港 08"
-      - "[CT/CM]香港 08 2"
-      - 俄罗斯a RT 2
-      - 英国 iplayer B 2
-      - 英国 iplayer A 2
-      - "[CT/CM]香港 10 2"
-      - 俄罗斯c RT 2
-      - 韩国高速接入A 2
-      - 美国 优化-6
-      - 美国 优化-9
-      - 美国 优化-7
-      - 美国 优化-8
-      - 美国 优化-10
-      - 美国 优化-6 2
-      - 美国 优化-5
-      - 美国 优化-7 2
-      - 美国 优化-8 2
-      - 美国 优化-9 2
-      - 美国 优化-10 2
-      - "[CT/CM]香港 16"
-      - "[CT/CM]香港 12 2"
-      - "[CT/CM]香港 16 2"
-      - 美国 优化-5 2
+      - 加拿大 NTT
+      - 印度 AWS
+      - 台湾 BGP [01]
+      - 台湾 BGP [02]
+      - 台湾 BGP [03]
+      - 台湾 BGP [04]
+      - 台湾 CHT [01]
+      - 台湾 CHT [02]
+      - 台湾 CHT [03]
+      - 台湾 HINET [01]
+      - 台湾 HINET [02]
+      - 台湾 HINET [03]
+      - 台湾 HINET [04]
+      - 台湾 HINET [05]
+      - 台湾 Seed
+      - 德国 BGP [01]
+      - 德国 BGP [02]
+      - 德国 BGP [03]
+      - 德国 BGP [04]
+      - 德国 NTT
+      - 新加坡 Aliyun 01
+      - 新加坡 Aliyun 02
+      - 新加坡 Aliyun 03
+      - 新加坡 Aliyun 04
+      - 新加坡 BGP [01]
+      - 新加坡 BGP [02]
+      - 新加坡 BGP [03]
+      - 新加坡 BGP [04]
+      - 新加坡 IEPL
+      - 新加坡 NTT 01
+      - 新加坡 NTT 02
+      - 日本 5G
+      - 日本 BGP [01]
+      - 日本 BGP [02]
+      - 日本 BGP [03]
+      - 日本 BGP [04]
+      - 日本 IIJ
+      - 日本 KDDI
+      - 日本 NTT [01]
+      - 日本 NTT [02]
+      - 日本 NTT [03]
+      - 美国 5G
+      - 美国 BGP [01]
+      - 美国 BGP [02]
+      - 美国 BGP [03]
+      - 美国 BGP [04]
+      - 美国 GIA [01]
+      - 美国 GIA [02]
+      - 美国 NTT [01]
+      - 美国 NTT [02]
+      - 英国 5G
+      - 英国 BGP [01]
+      - 英国 BGP [02]
+      - 英国 BGP [03]
+      - 英国 BGP [04]
+      - 英国 Cogent
+      - 英国 GTT
+      - 菲律宾 ETPI
+      - 阿根廷 IPXON
+      - 韩国 5G
+      - 韩国 BGP [01]
+      - 韩国 BGP [02]
+      - 韩国 BGP [03]
+      - 韩国 BGP [04]
+      - 韩国 NTT
+      - 香港 BGP [01]
+      - 香港 BGP [02]
+      - 香港 BGP [03]
+      - 香港 BGP [04]
+      - 香港 HKT [01]
+      - 香港 HKT [02]
+      - 香港 HKT [03]
+      - 香港 HKT [04]
+      - 香港 HKT [06]
+      - 香港 IEPL [01]
+      - 香港 IEPL [02]
+      - 香港 IEPL [03]
+      - 香港 IEPL [04]
+      - 香港 IEPL [05]
+      - 香港 IEPL [06]
+      - 香港 IEPL [07]
+      - 香港 IEPL [08]
+      - 香港 NTT [01]
+      - 香港 NTT [02]
+      - 香港 NTT [03]
+      - 香港 NTT [04]
+      - 香港 NTT [05]
+      - 香港 NTT [06]
+      - 香港 NTT [07]
+      - 香港 NTT [08]
+      - 香港 NTT [09]
+      - 香港 NTT [10]
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "[CT/CM]香港 15"
-      - 意大利
-      - 意大利 2
-      - 俄罗斯a RT
-      - "[CT/CM]香港 12"
-      - "[CT/CM]香港 03"
-      - 香港动态 HKT A
-      - 美国 优化-2
-      - 美国 优化-1
-      - 美国 优化-2 2
-      - 香港动态 HKT C
-      - 日本 B
-      - 香港动态 HKT C 2
-      - 美国 优化-4
-      - 香港动态 HKT B
-      - 美国 优化-1 2
-      - 美国 优化-3
-      - 美国 优化-3 2
-      - 美国 优化-4 2
-      - 英国 iplayer A
-      - 英国 iplayer B
-      - 日本 A
-      - 俄罗斯c RT
-      - 俄罗斯b RT
-      - 俄罗斯b RT 2
-      - 香港动态 HKT A 2
-      - 香港动态 HKT B 2
-      - 日本 A 2
-      - 日本 B 2
-      - "[CT/CM]香港 14"
-      - "[CT/CM]香港 14 2"
-      - 新加坡D
-      - 新加坡D 2
-      - 新加坡E
-      - "[CT/CM]香港 01"
-      - 新加坡C
-      - 新加坡E 2
-      - 新加坡C 2
-      - 新加坡A
-      - "[CT/CM]香港 01 2"
-      - "[CT/CM]香港 11"
-      - "[CT/CM]香港 05"
-      - "[CT/CM]香港 05 2"
-      - "[CT/CM]香港 11 2"
-      - 韩国高速接入A
-      - "[CT/CM]香港 02"
-      - "[CT/CM]香港 17"
-      - "[CT/CM]香港 04"
-      - "[CT/CM]香港 03 2"
-      - 新加坡B
-      - "[CT/CM]香港 09"
-      - "[CT/CM]香港 07"
-      - "[CT/CM]香港 07 2"
-      - "[CT/CM]香港 06"
-      - 新加坡A 2
-      - 新加坡B 2
-      - "[CT/CM]香港 13"
-      - "[CT/CM]香港 04 2"
-      - "[CT/CM]香港 13 2"
-      - "[CT/CM]香港 06 2"
-      - "[CT/CM]香港 17 2"
-      - "[CT/CM]香港 02 2"
-      - "[CT/CM]香港 09 2"
-      - "[CT/CM]香港 10"
-      - "[CT/CM]香港 08"
-      - "[CT/CM]香港 08 2"
-      - 俄罗斯a RT 2
-      - 英国 iplayer B 2
-      - 英国 iplayer A 2
-      - "[CT/CM]香港 10 2"
-      - 俄罗斯c RT 2
-      - 韩国高速接入A 2
-      - 美国 优化-6
-      - 美国 优化-9
-      - 美国 优化-7
-      - 美国 优化-8
-      - 美国 优化-10
-      - 美国 优化-6 2
-      - 美国 优化-5
-      - 美国 优化-7 2
-      - 美国 优化-8 2
-      - 美国 优化-9 2
-      - 美国 优化-10 2
-      - "[CT/CM]香港 16"
-      - "[CT/CM]香港 12 2"
-      - "[CT/CM]香港 16 2"
-      - 美国 优化-5 2
+      - 加拿大 NTT
+      - 印度 AWS
+      - 台湾 BGP [01]
+      - 台湾 BGP [02]
+      - 台湾 BGP [03]
+      - 台湾 BGP [04]
+      - 台湾 CHT [01]
+      - 台湾 CHT [02]
+      - 台湾 CHT [03]
+      - 台湾 HINET [01]
+      - 台湾 HINET [02]
+      - 台湾 HINET [03]
+      - 台湾 HINET [04]
+      - 台湾 HINET [05]
+      - 台湾 Seed
+      - 德国 BGP [01]
+      - 德国 BGP [02]
+      - 德国 BGP [03]
+      - 德国 BGP [04]
+      - 德国 NTT
+      - 新加坡 Aliyun 01
+      - 新加坡 Aliyun 02
+      - 新加坡 Aliyun 03
+      - 新加坡 Aliyun 04
+      - 新加坡 BGP [01]
+      - 新加坡 BGP [02]
+      - 新加坡 BGP [03]
+      - 新加坡 BGP [04]
+      - 新加坡 IEPL
+      - 新加坡 NTT 01
+      - 新加坡 NTT 02
+      - 日本 5G
+      - 日本 BGP [01]
+      - 日本 BGP [02]
+      - 日本 BGP [03]
+      - 日本 BGP [04]
+      - 日本 IIJ
+      - 日本 KDDI
+      - 日本 NTT [01]
+      - 日本 NTT [02]
+      - 日本 NTT [03]
+      - 美国 5G
+      - 美国 BGP [01]
+      - 美国 BGP [02]
+      - 美国 BGP [03]
+      - 美国 BGP [04]
+      - 美国 GIA [01]
+      - 美国 GIA [02]
+      - 美国 NTT [01]
+      - 美国 NTT [02]
+      - 英国 5G
+      - 英国 BGP [01]
+      - 英国 BGP [02]
+      - 英国 BGP [03]
+      - 英国 BGP [04]
+      - 英国 Cogent
+      - 英国 GTT
+      - 菲律宾 ETPI
+      - 阿根廷 IPXON
+      - 韩国 5G
+      - 韩国 BGP [01]
+      - 韩国 BGP [02]
+      - 韩国 BGP [03]
+      - 韩国 BGP [04]
+      - 韩国 NTT
+      - 香港 BGP [01]
+      - 香港 BGP [02]
+      - 香港 BGP [03]
+      - 香港 BGP [04]
+      - 香港 HKT [01]
+      - 香港 HKT [02]
+      - 香港 HKT [03]
+      - 香港 HKT [04]
+      - 香港 HKT [06]
+      - 香港 IEPL [01]
+      - 香港 IEPL [02]
+      - 香港 IEPL [03]
+      - 香港 IEPL [04]
+      - 香港 IEPL [05]
+      - 香港 IEPL [06]
+      - 香港 IEPL [07]
+      - 香港 IEPL [08]
+      - 香港 NTT [01]
+      - 香港 NTT [02]
+      - 香港 NTT [03]
+      - 香港 NTT [04]
+      - 香港 NTT [05]
+      - 香港 NTT [06]
+      - 香港 NTT [07]
+      - 香港 NTT [08]
+      - 香港 NTT [09]
+      - 香港 NTT [10]
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -388,414 +408,435 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "[CT/CM]香港 15"
-      - 意大利
-      - 意大利 2
-      - 俄罗斯a RT
-      - "[CT/CM]香港 12"
-      - "[CT/CM]香港 03"
-      - 香港动态 HKT A
-      - 美国 优化-2
-      - 美国 优化-1
-      - 美国 优化-2 2
-      - 香港动态 HKT C
-      - 日本 B
-      - 香港动态 HKT C 2
-      - 美国 优化-4
-      - 香港动态 HKT B
-      - 美国 优化-1 2
-      - 美国 优化-3
-      - 美国 优化-3 2
-      - 美国 优化-4 2
-      - 英国 iplayer A
-      - 英国 iplayer B
-      - 日本 A
-      - 俄罗斯c RT
-      - 俄罗斯b RT
-      - 俄罗斯b RT 2
-      - 香港动态 HKT A 2
-      - 香港动态 HKT B 2
-      - 日本 A 2
-      - 日本 B 2
-      - "[CT/CM]香港 14"
-      - "[CT/CM]香港 14 2"
-      - 新加坡D
-      - 新加坡D 2
-      - 新加坡E
-      - "[CT/CM]香港 01"
-      - 新加坡C
-      - 新加坡E 2
-      - 新加坡C 2
-      - 新加坡A
-      - "[CT/CM]香港 01 2"
-      - "[CT/CM]香港 11"
-      - "[CT/CM]香港 05"
-      - "[CT/CM]香港 05 2"
-      - "[CT/CM]香港 11 2"
-      - 韩国高速接入A
-      - "[CT/CM]香港 02"
-      - "[CT/CM]香港 17"
-      - "[CT/CM]香港 04"
-      - "[CT/CM]香港 03 2"
-      - 新加坡B
-      - "[CT/CM]香港 09"
-      - "[CT/CM]香港 07"
-      - "[CT/CM]香港 07 2"
-      - "[CT/CM]香港 06"
-      - 新加坡A 2
-      - 新加坡B 2
-      - "[CT/CM]香港 13"
-      - "[CT/CM]香港 04 2"
-      - "[CT/CM]香港 13 2"
-      - "[CT/CM]香港 06 2"
-      - "[CT/CM]香港 17 2"
-      - "[CT/CM]香港 02 2"
-      - "[CT/CM]香港 09 2"
-      - "[CT/CM]香港 10"
-      - "[CT/CM]香港 08"
-      - "[CT/CM]香港 08 2"
-      - 俄罗斯a RT 2
-      - 英国 iplayer B 2
-      - 英国 iplayer A 2
-      - "[CT/CM]香港 10 2"
-      - 俄罗斯c RT 2
-      - 韩国高速接入A 2
-      - 美国 优化-6
-      - 美国 优化-9
-      - 美国 优化-7
-      - 美国 优化-8
-      - 美国 优化-10
-      - 美国 优化-6 2
-      - 美国 优化-5
-      - 美国 优化-7 2
-      - 美国 优化-8 2
-      - 美国 优化-9 2
-      - 美国 优化-10 2
-      - "[CT/CM]香港 16"
-      - "[CT/CM]香港 12 2"
-      - "[CT/CM]香港 16 2"
-      - 美国 优化-5 2
+      - 加拿大 NTT
+      - 印度 AWS
+      - 台湾 BGP [01]
+      - 台湾 BGP [02]
+      - 台湾 BGP [03]
+      - 台湾 BGP [04]
+      - 台湾 CHT [01]
+      - 台湾 CHT [02]
+      - 台湾 CHT [03]
+      - 台湾 HINET [01]
+      - 台湾 HINET [02]
+      - 台湾 HINET [03]
+      - 台湾 HINET [04]
+      - 台湾 HINET [05]
+      - 台湾 Seed
+      - 德国 BGP [01]
+      - 德国 BGP [02]
+      - 德国 BGP [03]
+      - 德国 BGP [04]
+      - 德国 NTT
+      - 新加坡 Aliyun 01
+      - 新加坡 Aliyun 02
+      - 新加坡 Aliyun 03
+      - 新加坡 Aliyun 04
+      - 新加坡 BGP [01]
+      - 新加坡 BGP [02]
+      - 新加坡 BGP [03]
+      - 新加坡 BGP [04]
+      - 新加坡 IEPL
+      - 新加坡 NTT 01
+      - 新加坡 NTT 02
+      - 日本 5G
+      - 日本 BGP [01]
+      - 日本 BGP [02]
+      - 日本 BGP [03]
+      - 日本 BGP [04]
+      - 日本 IIJ
+      - 日本 KDDI
+      - 日本 NTT [01]
+      - 日本 NTT [02]
+      - 日本 NTT [03]
+      - 美国 5G
+      - 美国 BGP [01]
+      - 美国 BGP [02]
+      - 美国 BGP [03]
+      - 美国 BGP [04]
+      - 美国 GIA [01]
+      - 美国 GIA [02]
+      - 美国 NTT [01]
+      - 美国 NTT [02]
+      - 英国 5G
+      - 英国 BGP [01]
+      - 英国 BGP [02]
+      - 英国 BGP [03]
+      - 英国 BGP [04]
+      - 英国 Cogent
+      - 英国 GTT
+      - 菲律宾 ETPI
+      - 阿根廷 IPXON
+      - 韩国 5G
+      - 韩国 BGP [01]
+      - 韩国 BGP [02]
+      - 韩国 BGP [03]
+      - 韩国 BGP [04]
+      - 韩国 NTT
+      - 香港 BGP [01]
+      - 香港 BGP [02]
+      - 香港 BGP [03]
+      - 香港 BGP [04]
+      - 香港 HKT [01]
+      - 香港 HKT [02]
+      - 香港 HKT [03]
+      - 香港 HKT [04]
+      - 香港 HKT [06]
+      - 香港 IEPL [01]
+      - 香港 IEPL [02]
+      - 香港 IEPL [03]
+      - 香港 IEPL [04]
+      - 香港 IEPL [05]
+      - 香港 IEPL [06]
+      - 香港 IEPL [07]
+      - 香港 IEPL [08]
+      - 香港 NTT [01]
+      - 香港 NTT [02]
+      - 香港 NTT [03]
+      - 香港 NTT [04]
+      - 香港 NTT [05]
+      - 香港 NTT [06]
+      - 香港 NTT [07]
+      - 香港 NTT [08]
+      - 香港 NTT [09]
+      - 香港 NTT [10]
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - "[CT/CM]香港 15"
-      - "[CT/CM]香港 12"
-      - "[CT/CM]香港 03"
-      - 香港动态 HKT A
-      - 香港动态 HKT C
-      - 香港动态 HKT C 2
-      - 香港动态 HKT B
-      - 香港动态 HKT A 2
-      - 香港动态 HKT B 2
-      - "[CT/CM]香港 14"
-      - "[CT/CM]香港 14 2"
-      - "[CT/CM]香港 01"
-      - "[CT/CM]香港 01 2"
-      - "[CT/CM]香港 11"
-      - "[CT/CM]香港 05"
-      - "[CT/CM]香港 05 2"
-      - "[CT/CM]香港 11 2"
-      - "[CT/CM]香港 02"
-      - "[CT/CM]香港 17"
-      - "[CT/CM]香港 04"
-      - "[CT/CM]香港 03 2"
-      - "[CT/CM]香港 09"
-      - "[CT/CM]香港 07"
-      - "[CT/CM]香港 07 2"
-      - "[CT/CM]香港 06"
-      - "[CT/CM]香港 13"
-      - "[CT/CM]香港 04 2"
-      - "[CT/CM]香港 13 2"
-      - "[CT/CM]香港 06 2"
-      - "[CT/CM]香港 17 2"
-      - "[CT/CM]香港 02 2"
-      - "[CT/CM]香港 09 2"
-      - "[CT/CM]香港 10"
-      - "[CT/CM]香港 08"
-      - "[CT/CM]香港 08 2"
-      - "[CT/CM]香港 10 2"
-      - "[CT/CM]香港 16"
-      - "[CT/CM]香港 12 2"
-      - "[CT/CM]香港 16 2"
+      - 台湾 BGP [01]
+      - 台湾 BGP [02]
+      - 台湾 BGP [03]
+      - 台湾 BGP [04]
+      - 台湾 CHT [01]
+      - 台湾 CHT [02]
+      - 台湾 CHT [03]
+      - 台湾 HINET [01]
+      - 台湾 HINET [02]
+      - 台湾 HINET [03]
+      - 台湾 HINET [04]
+      - 台湾 HINET [05]
+      - 台湾 Seed
+      - 香港 BGP [01]
+      - 香港 BGP [02]
+      - 香港 BGP [03]
+      - 香港 BGP [04]
+      - 香港 HKT [01]
+      - 香港 HKT [02]
+      - 香港 HKT [03]
+      - 香港 HKT [04]
+      - 香港 HKT [06]
+      - 香港 IEPL [01]
+      - 香港 IEPL [02]
+      - 香港 IEPL [03]
+      - 香港 IEPL [04]
+      - 香港 IEPL [05]
+      - 香港 IEPL [06]
+      - 香港 IEPL [07]
+      - 香港 IEPL [08]
+      - 香港 NTT [01]
+      - 香港 NTT [02]
+      - 香港 NTT [03]
+      - 香港 NTT [04]
+      - 香港 NTT [05]
+      - 香港 NTT [06]
+      - 香港 NTT [07]
+      - 香港 NTT [08]
+      - 香港 NTT [09]
+      - 香港 NTT [10]
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "[CT/CM]香港 15"
-      - 意大利
-      - 意大利 2
-      - 俄罗斯a RT
-      - "[CT/CM]香港 12"
-      - "[CT/CM]香港 03"
-      - 香港动态 HKT A
-      - 美国 优化-2
-      - 美国 优化-1
-      - 美国 优化-2 2
-      - 香港动态 HKT C
-      - 日本 B
-      - 香港动态 HKT C 2
-      - 美国 优化-4
-      - 香港动态 HKT B
-      - 美国 优化-1 2
-      - 美国 优化-3
-      - 美国 优化-3 2
-      - 美国 优化-4 2
-      - 英国 iplayer A
-      - 英国 iplayer B
-      - 日本 A
-      - 俄罗斯c RT
-      - 俄罗斯b RT
-      - 俄罗斯b RT 2
-      - 香港动态 HKT A 2
-      - 香港动态 HKT B 2
-      - 日本 A 2
-      - 日本 B 2
-      - "[CT/CM]香港 14"
-      - "[CT/CM]香港 14 2"
-      - 新加坡D
-      - 新加坡D 2
-      - 新加坡E
-      - "[CT/CM]香港 01"
-      - 新加坡C
-      - 新加坡E 2
-      - 新加坡C 2
-      - 新加坡A
-      - "[CT/CM]香港 01 2"
-      - "[CT/CM]香港 11"
-      - "[CT/CM]香港 05"
-      - "[CT/CM]香港 05 2"
-      - "[CT/CM]香港 11 2"
-      - 韩国高速接入A
-      - "[CT/CM]香港 02"
-      - "[CT/CM]香港 17"
-      - "[CT/CM]香港 04"
-      - "[CT/CM]香港 03 2"
-      - 新加坡B
-      - "[CT/CM]香港 09"
-      - "[CT/CM]香港 07"
-      - "[CT/CM]香港 07 2"
-      - "[CT/CM]香港 06"
-      - 新加坡A 2
-      - 新加坡B 2
-      - "[CT/CM]香港 13"
-      - "[CT/CM]香港 04 2"
-      - "[CT/CM]香港 13 2"
-      - "[CT/CM]香港 06 2"
-      - "[CT/CM]香港 17 2"
-      - "[CT/CM]香港 02 2"
-      - "[CT/CM]香港 09 2"
-      - "[CT/CM]香港 10"
-      - "[CT/CM]香港 08"
-      - "[CT/CM]香港 08 2"
-      - 俄罗斯a RT 2
-      - 英国 iplayer B 2
-      - 英国 iplayer A 2
-      - "[CT/CM]香港 10 2"
-      - 俄罗斯c RT 2
-      - 韩国高速接入A 2
-      - 美国 优化-6
-      - 美国 优化-9
-      - 美国 优化-7
-      - 美国 优化-8
-      - 美国 优化-10
-      - 美国 优化-6 2
-      - 美国 优化-5
-      - 美国 优化-7 2
-      - 美国 优化-8 2
-      - 美国 优化-9 2
-      - 美国 优化-10 2
-      - "[CT/CM]香港 16"
-      - "[CT/CM]香港 12 2"
-      - "[CT/CM]香港 16 2"
-      - 美国 优化-5 2
+      - 加拿大 NTT
+      - 印度 AWS
+      - 台湾 BGP [01]
+      - 台湾 BGP [02]
+      - 台湾 BGP [03]
+      - 台湾 BGP [04]
+      - 台湾 CHT [01]
+      - 台湾 CHT [02]
+      - 台湾 CHT [03]
+      - 台湾 HINET [01]
+      - 台湾 HINET [02]
+      - 台湾 HINET [03]
+      - 台湾 HINET [04]
+      - 台湾 HINET [05]
+      - 台湾 Seed
+      - 德国 BGP [01]
+      - 德国 BGP [02]
+      - 德国 BGP [03]
+      - 德国 BGP [04]
+      - 德国 NTT
+      - 新加坡 Aliyun 01
+      - 新加坡 Aliyun 02
+      - 新加坡 Aliyun 03
+      - 新加坡 Aliyun 04
+      - 新加坡 BGP [01]
+      - 新加坡 BGP [02]
+      - 新加坡 BGP [03]
+      - 新加坡 BGP [04]
+      - 新加坡 IEPL
+      - 新加坡 NTT 01
+      - 新加坡 NTT 02
+      - 日本 5G
+      - 日本 BGP [01]
+      - 日本 BGP [02]
+      - 日本 BGP [03]
+      - 日本 BGP [04]
+      - 日本 IIJ
+      - 日本 KDDI
+      - 日本 NTT [01]
+      - 日本 NTT [02]
+      - 日本 NTT [03]
+      - 美国 5G
+      - 美国 BGP [01]
+      - 美国 BGP [02]
+      - 美国 BGP [03]
+      - 美国 BGP [04]
+      - 美国 GIA [01]
+      - 美国 GIA [02]
+      - 美国 NTT [01]
+      - 美国 NTT [02]
+      - 英国 5G
+      - 英国 BGP [01]
+      - 英国 BGP [02]
+      - 英国 BGP [03]
+      - 英国 BGP [04]
+      - 英国 Cogent
+      - 英国 GTT
+      - 菲律宾 ETPI
+      - 阿根廷 IPXON
+      - 韩国 5G
+      - 韩国 BGP [01]
+      - 韩国 BGP [02]
+      - 韩国 BGP [03]
+      - 韩国 BGP [04]
+      - 韩国 NTT
+      - 香港 BGP [01]
+      - 香港 BGP [02]
+      - 香港 BGP [03]
+      - 香港 BGP [04]
+      - 香港 HKT [01]
+      - 香港 HKT [02]
+      - 香港 HKT [03]
+      - 香港 HKT [04]
+      - 香港 HKT [06]
+      - 香港 IEPL [01]
+      - 香港 IEPL [02]
+      - 香港 IEPL [03]
+      - 香港 IEPL [04]
+      - 香港 IEPL [05]
+      - 香港 IEPL [06]
+      - 香港 IEPL [07]
+      - 香港 IEPL [08]
+      - 香港 NTT [01]
+      - 香港 NTT [02]
+      - 香港 NTT [03]
+      - 香港 NTT [04]
+      - 香港 NTT [05]
+      - 香港 NTT [06]
+      - 香港 NTT [07]
+      - 香港 NTT [08]
+      - 香港 NTT [09]
+      - 香港 NTT [10]
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "[CT/CM]香港 15"
-      - 意大利
-      - 意大利 2
-      - 俄罗斯a RT
-      - "[CT/CM]香港 12"
-      - "[CT/CM]香港 03"
-      - 香港动态 HKT A
-      - 美国 优化-2
-      - 美国 优化-1
-      - 美国 优化-2 2
-      - 香港动态 HKT C
-      - 日本 B
-      - 香港动态 HKT C 2
-      - 美国 优化-4
-      - 香港动态 HKT B
-      - 美国 优化-1 2
-      - 美国 优化-3
-      - 美国 优化-3 2
-      - 美国 优化-4 2
-      - 英国 iplayer A
-      - 英国 iplayer B
-      - 日本 A
-      - 俄罗斯c RT
-      - 俄罗斯b RT
-      - 俄罗斯b RT 2
-      - 香港动态 HKT A 2
-      - 香港动态 HKT B 2
-      - 日本 A 2
-      - 日本 B 2
-      - "[CT/CM]香港 14"
-      - "[CT/CM]香港 14 2"
-      - 新加坡D
-      - 新加坡D 2
-      - 新加坡E
-      - "[CT/CM]香港 01"
-      - 新加坡C
-      - 新加坡E 2
-      - 新加坡C 2
-      - 新加坡A
-      - "[CT/CM]香港 01 2"
-      - "[CT/CM]香港 11"
-      - "[CT/CM]香港 05"
-      - "[CT/CM]香港 05 2"
-      - "[CT/CM]香港 11 2"
-      - 韩国高速接入A
-      - "[CT/CM]香港 02"
-      - "[CT/CM]香港 17"
-      - "[CT/CM]香港 04"
-      - "[CT/CM]香港 03 2"
-      - 新加坡B
-      - "[CT/CM]香港 09"
-      - "[CT/CM]香港 07"
-      - "[CT/CM]香港 07 2"
-      - "[CT/CM]香港 06"
-      - 新加坡A 2
-      - 新加坡B 2
-      - "[CT/CM]香港 13"
-      - "[CT/CM]香港 04 2"
-      - "[CT/CM]香港 13 2"
-      - "[CT/CM]香港 06 2"
-      - "[CT/CM]香港 17 2"
-      - "[CT/CM]香港 02 2"
-      - "[CT/CM]香港 09 2"
-      - "[CT/CM]香港 10"
-      - "[CT/CM]香港 08"
-      - "[CT/CM]香港 08 2"
-      - 俄罗斯a RT 2
-      - 英国 iplayer B 2
-      - 英国 iplayer A 2
-      - "[CT/CM]香港 10 2"
-      - 俄罗斯c RT 2
-      - 韩国高速接入A 2
-      - 美国 优化-6
-      - 美国 优化-9
-      - 美国 优化-7
-      - 美国 优化-8
-      - 美国 优化-10
-      - 美国 优化-6 2
-      - 美国 优化-5
-      - 美国 优化-7 2
-      - 美国 优化-8 2
-      - 美国 优化-9 2
-      - 美国 优化-10 2
-      - "[CT/CM]香港 16"
-      - "[CT/CM]香港 12 2"
-      - "[CT/CM]香港 16 2"
-      - 美国 优化-5 2
+      - 加拿大 NTT
+      - 印度 AWS
+      - 台湾 BGP [01]
+      - 台湾 BGP [02]
+      - 台湾 BGP [03]
+      - 台湾 BGP [04]
+      - 台湾 CHT [01]
+      - 台湾 CHT [02]
+      - 台湾 CHT [03]
+      - 台湾 HINET [01]
+      - 台湾 HINET [02]
+      - 台湾 HINET [03]
+      - 台湾 HINET [04]
+      - 台湾 HINET [05]
+      - 台湾 Seed
+      - 德国 BGP [01]
+      - 德国 BGP [02]
+      - 德国 BGP [03]
+      - 德国 BGP [04]
+      - 德国 NTT
+      - 新加坡 Aliyun 01
+      - 新加坡 Aliyun 02
+      - 新加坡 Aliyun 03
+      - 新加坡 Aliyun 04
+      - 新加坡 BGP [01]
+      - 新加坡 BGP [02]
+      - 新加坡 BGP [03]
+      - 新加坡 BGP [04]
+      - 新加坡 IEPL
+      - 新加坡 NTT 01
+      - 新加坡 NTT 02
+      - 日本 5G
+      - 日本 BGP [01]
+      - 日本 BGP [02]
+      - 日本 BGP [03]
+      - 日本 BGP [04]
+      - 日本 IIJ
+      - 日本 KDDI
+      - 日本 NTT [01]
+      - 日本 NTT [02]
+      - 日本 NTT [03]
+      - 美国 5G
+      - 美国 BGP [01]
+      - 美国 BGP [02]
+      - 美国 BGP [03]
+      - 美国 BGP [04]
+      - 美国 GIA [01]
+      - 美国 GIA [02]
+      - 美国 NTT [01]
+      - 美国 NTT [02]
+      - 英国 5G
+      - 英国 BGP [01]
+      - 英国 BGP [02]
+      - 英国 BGP [03]
+      - 英国 BGP [04]
+      - 英国 Cogent
+      - 英国 GTT
+      - 菲律宾 ETPI
+      - 阿根廷 IPXON
+      - 韩国 5G
+      - 韩国 BGP [01]
+      - 韩国 BGP [02]
+      - 韩国 BGP [03]
+      - 韩国 BGP [04]
+      - 韩国 NTT
+      - 香港 BGP [01]
+      - 香港 BGP [02]
+      - 香港 BGP [03]
+      - 香港 BGP [04]
+      - 香港 HKT [01]
+      - 香港 HKT [02]
+      - 香港 HKT [03]
+      - 香港 HKT [04]
+      - 香港 HKT [06]
+      - 香港 IEPL [01]
+      - 香港 IEPL [02]
+      - 香港 IEPL [03]
+      - 香港 IEPL [04]
+      - 香港 IEPL [05]
+      - 香港 IEPL [06]
+      - 香港 IEPL [07]
+      - 香港 IEPL [08]
+      - 香港 NTT [01]
+      - 香港 NTT [02]
+      - 香港 NTT [03]
+      - 香港 NTT [04]
+      - 香港 NTT [05]
+      - 香港 NTT [06]
+      - 香港 NTT [07]
+      - 香港 NTT [08]
+      - 香港 NTT [09]
+      - 香港 NTT [10]
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "[CT/CM]香港 15"
-      - 意大利
-      - 意大利 2
-      - 俄罗斯a RT
-      - "[CT/CM]香港 12"
-      - "[CT/CM]香港 03"
-      - 香港动态 HKT A
-      - 美国 优化-2
-      - 美国 优化-1
-      - 美国 优化-2 2
-      - 香港动态 HKT C
-      - 日本 B
-      - 香港动态 HKT C 2
-      - 美国 优化-4
-      - 香港动态 HKT B
-      - 美国 优化-1 2
-      - 美国 优化-3
-      - 美国 优化-3 2
-      - 美国 优化-4 2
-      - 英国 iplayer A
-      - 英国 iplayer B
-      - 日本 A
-      - 俄罗斯c RT
-      - 俄罗斯b RT
-      - 俄罗斯b RT 2
-      - 香港动态 HKT A 2
-      - 香港动态 HKT B 2
-      - 日本 A 2
-      - 日本 B 2
-      - "[CT/CM]香港 14"
-      - "[CT/CM]香港 14 2"
-      - 新加坡D
-      - 新加坡D 2
-      - 新加坡E
-      - "[CT/CM]香港 01"
-      - 新加坡C
-      - 新加坡E 2
-      - 新加坡C 2
-      - 新加坡A
-      - "[CT/CM]香港 01 2"
-      - "[CT/CM]香港 11"
-      - "[CT/CM]香港 05"
-      - "[CT/CM]香港 05 2"
-      - "[CT/CM]香港 11 2"
-      - 韩国高速接入A
-      - "[CT/CM]香港 02"
-      - "[CT/CM]香港 17"
-      - "[CT/CM]香港 04"
-      - "[CT/CM]香港 03 2"
-      - 新加坡B
-      - "[CT/CM]香港 09"
-      - "[CT/CM]香港 07"
-      - "[CT/CM]香港 07 2"
-      - "[CT/CM]香港 06"
-      - 新加坡A 2
-      - 新加坡B 2
-      - "[CT/CM]香港 13"
-      - "[CT/CM]香港 04 2"
-      - "[CT/CM]香港 13 2"
-      - "[CT/CM]香港 06 2"
-      - "[CT/CM]香港 17 2"
-      - "[CT/CM]香港 02 2"
-      - "[CT/CM]香港 09 2"
-      - "[CT/CM]香港 10"
-      - "[CT/CM]香港 08"
-      - "[CT/CM]香港 08 2"
-      - 俄罗斯a RT 2
-      - 英国 iplayer B 2
-      - 英国 iplayer A 2
-      - "[CT/CM]香港 10 2"
-      - 俄罗斯c RT 2
-      - 韩国高速接入A 2
-      - 美国 优化-6
-      - 美国 优化-9
-      - 美国 优化-7
-      - 美国 优化-8
-      - 美国 优化-10
-      - 美国 优化-6 2
-      - 美国 优化-5
-      - 美国 优化-7 2
-      - 美国 优化-8 2
-      - 美国 优化-9 2
-      - 美国 优化-10 2
-      - "[CT/CM]香港 16"
-      - "[CT/CM]香港 12 2"
-      - "[CT/CM]香港 16 2"
-      - 美国 优化-5 2
+      - 加拿大 NTT
+      - 印度 AWS
+      - 台湾 BGP [01]
+      - 台湾 BGP [02]
+      - 台湾 BGP [03]
+      - 台湾 BGP [04]
+      - 台湾 CHT [01]
+      - 台湾 CHT [02]
+      - 台湾 CHT [03]
+      - 台湾 HINET [01]
+      - 台湾 HINET [02]
+      - 台湾 HINET [03]
+      - 台湾 HINET [04]
+      - 台湾 HINET [05]
+      - 台湾 Seed
+      - 德国 BGP [01]
+      - 德国 BGP [02]
+      - 德国 BGP [03]
+      - 德国 BGP [04]
+      - 德国 NTT
+      - 新加坡 Aliyun 01
+      - 新加坡 Aliyun 02
+      - 新加坡 Aliyun 03
+      - 新加坡 Aliyun 04
+      - 新加坡 BGP [01]
+      - 新加坡 BGP [02]
+      - 新加坡 BGP [03]
+      - 新加坡 BGP [04]
+      - 新加坡 IEPL
+      - 新加坡 NTT 01
+      - 新加坡 NTT 02
+      - 日本 5G
+      - 日本 BGP [01]
+      - 日本 BGP [02]
+      - 日本 BGP [03]
+      - 日本 BGP [04]
+      - 日本 IIJ
+      - 日本 KDDI
+      - 日本 NTT [01]
+      - 日本 NTT [02]
+      - 日本 NTT [03]
+      - 美国 5G
+      - 美国 BGP [01]
+      - 美国 BGP [02]
+      - 美国 BGP [03]
+      - 美国 BGP [04]
+      - 美国 GIA [01]
+      - 美国 GIA [02]
+      - 美国 NTT [01]
+      - 美国 NTT [02]
+      - 英国 5G
+      - 英国 BGP [01]
+      - 英国 BGP [02]
+      - 英国 BGP [03]
+      - 英国 BGP [04]
+      - 英国 Cogent
+      - 英国 GTT
+      - 菲律宾 ETPI
+      - 阿根廷 IPXON
+      - 韩国 5G
+      - 韩国 BGP [01]
+      - 韩国 BGP [02]
+      - 韩国 BGP [03]
+      - 韩国 BGP [04]
+      - 韩国 NTT
+      - 香港 BGP [01]
+      - 香港 BGP [02]
+      - 香港 BGP [03]
+      - 香港 BGP [04]
+      - 香港 HKT [01]
+      - 香港 HKT [02]
+      - 香港 HKT [03]
+      - 香港 HKT [04]
+      - 香港 HKT [06]
+      - 香港 IEPL [01]
+      - 香港 IEPL [02]
+      - 香港 IEPL [03]
+      - 香港 IEPL [04]
+      - 香港 IEPL [05]
+      - 香港 IEPL [06]
+      - 香港 IEPL [07]
+      - 香港 IEPL [08]
+      - 香港 NTT [01]
+      - 香港 NTT [02]
+      - 香港 NTT [03]
+      - 香港 NTT [04]
+      - 香港 NTT [05]
+      - 香港 NTT [06]
+      - 香港 NTT [07]
+      - 香港 NTT [08]
+      - 香港 NTT [09]
+      - 香港 NTT [10]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -811,93 +852,98 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "[CT/CM]香港 15"
-      - 意大利
-      - 意大利 2
-      - 俄罗斯a RT
-      - "[CT/CM]香港 12"
-      - "[CT/CM]香港 03"
-      - 香港动态 HKT A
-      - 美国 优化-2
-      - 美国 优化-1
-      - 美国 优化-2 2
-      - 香港动态 HKT C
-      - 日本 B
-      - 香港动态 HKT C 2
-      - 美国 优化-4
-      - 香港动态 HKT B
-      - 美国 优化-1 2
-      - 美国 优化-3
-      - 美国 优化-3 2
-      - 美国 优化-4 2
-      - 英国 iplayer A
-      - 英国 iplayer B
-      - 日本 A
-      - 俄罗斯c RT
-      - 俄罗斯b RT
-      - 俄罗斯b RT 2
-      - 香港动态 HKT A 2
-      - 香港动态 HKT B 2
-      - 日本 A 2
-      - 日本 B 2
-      - "[CT/CM]香港 14"
-      - "[CT/CM]香港 14 2"
-      - 新加坡D
-      - 新加坡D 2
-      - 新加坡E
-      - "[CT/CM]香港 01"
-      - 新加坡C
-      - 新加坡E 2
-      - 新加坡C 2
-      - 新加坡A
-      - "[CT/CM]香港 01 2"
-      - "[CT/CM]香港 11"
-      - "[CT/CM]香港 05"
-      - "[CT/CM]香港 05 2"
-      - "[CT/CM]香港 11 2"
-      - 韩国高速接入A
-      - "[CT/CM]香港 02"
-      - "[CT/CM]香港 17"
-      - "[CT/CM]香港 04"
-      - "[CT/CM]香港 03 2"
-      - 新加坡B
-      - "[CT/CM]香港 09"
-      - "[CT/CM]香港 07"
-      - "[CT/CM]香港 07 2"
-      - "[CT/CM]香港 06"
-      - 新加坡A 2
-      - 新加坡B 2
-      - "[CT/CM]香港 13"
-      - "[CT/CM]香港 04 2"
-      - "[CT/CM]香港 13 2"
-      - "[CT/CM]香港 06 2"
-      - "[CT/CM]香港 17 2"
-      - "[CT/CM]香港 02 2"
-      - "[CT/CM]香港 09 2"
-      - "[CT/CM]香港 10"
-      - "[CT/CM]香港 08"
-      - "[CT/CM]香港 08 2"
-      - 俄罗斯a RT 2
-      - 英国 iplayer B 2
-      - 英国 iplayer A 2
-      - "[CT/CM]香港 10 2"
-      - 俄罗斯c RT 2
-      - 韩国高速接入A 2
-      - 美国 优化-6
-      - 美国 优化-9
-      - 美国 优化-7
-      - 美国 优化-8
-      - 美国 优化-10
-      - 美国 优化-6 2
-      - 美国 优化-5
-      - 美国 优化-7 2
-      - 美国 优化-8 2
-      - 美国 优化-9 2
-      - 美国 优化-10 2
-      - "[CT/CM]香港 16"
-      - "[CT/CM]香港 12 2"
-      - "[CT/CM]香港 16 2"
-      - 美国 优化-5 2
+      - 加拿大 NTT
+      - 印度 AWS
+      - 台湾 BGP [01]
+      - 台湾 BGP [02]
+      - 台湾 BGP [03]
+      - 台湾 BGP [04]
+      - 台湾 CHT [01]
+      - 台湾 CHT [02]
+      - 台湾 CHT [03]
+      - 台湾 HINET [01]
+      - 台湾 HINET [02]
+      - 台湾 HINET [03]
+      - 台湾 HINET [04]
+      - 台湾 HINET [05]
+      - 台湾 Seed
+      - 德国 BGP [01]
+      - 德国 BGP [02]
+      - 德国 BGP [03]
+      - 德国 BGP [04]
+      - 德国 NTT
+      - 新加坡 Aliyun 01
+      - 新加坡 Aliyun 02
+      - 新加坡 Aliyun 03
+      - 新加坡 Aliyun 04
+      - 新加坡 BGP [01]
+      - 新加坡 BGP [02]
+      - 新加坡 BGP [03]
+      - 新加坡 BGP [04]
+      - 新加坡 IEPL
+      - 新加坡 NTT 01
+      - 新加坡 NTT 02
+      - 日本 5G
+      - 日本 BGP [01]
+      - 日本 BGP [02]
+      - 日本 BGP [03]
+      - 日本 BGP [04]
+      - 日本 IIJ
+      - 日本 KDDI
+      - 日本 NTT [01]
+      - 日本 NTT [02]
+      - 日本 NTT [03]
+      - 美国 5G
+      - 美国 BGP [01]
+      - 美国 BGP [02]
+      - 美国 BGP [03]
+      - 美国 BGP [04]
+      - 美国 GIA [01]
+      - 美国 GIA [02]
+      - 美国 NTT [01]
+      - 美国 NTT [02]
+      - 英国 5G
+      - 英国 BGP [01]
+      - 英国 BGP [02]
+      - 英国 BGP [03]
+      - 英国 BGP [04]
+      - 英国 Cogent
+      - 英国 GTT
+      - 菲律宾 ETPI
+      - 阿根廷 IPXON
+      - 韩国 5G
+      - 韩国 BGP [01]
+      - 韩国 BGP [02]
+      - 韩国 BGP [03]
+      - 韩国 BGP [04]
+      - 韩国 NTT
+      - 香港 BGP [01]
+      - 香港 BGP [02]
+      - 香港 BGP [03]
+      - 香港 BGP [04]
+      - 香港 HKT [01]
+      - 香港 HKT [02]
+      - 香港 HKT [03]
+      - 香港 HKT [04]
+      - 香港 HKT [06]
+      - 香港 IEPL [01]
+      - 香港 IEPL [02]
+      - 香港 IEPL [03]
+      - 香港 IEPL [04]
+      - 香港 IEPL [05]
+      - 香港 IEPL [06]
+      - 香港 IEPL [07]
+      - 香港 IEPL [08]
+      - 香港 NTT [01]
+      - 香港 NTT [02]
+      - 香港 NTT [03]
+      - 香港 NTT [04]
+      - 香港 NTT [05]
+      - 香港 NTT [06]
+      - 香港 NTT [07]
+      - 香港 NTT [08]
+      - 香港 NTT [09]
+      - 香港 NTT [10]
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
