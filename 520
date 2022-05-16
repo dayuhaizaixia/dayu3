@@ -5,40 +5,65 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港, server: 20.187.125.226, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: 香港2, server: w1.v2mmy.xyz, port: 44812, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: 中国, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国2, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国3, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国4, server: s4.mine.com.cn, port: 3333, type: vmess, uuid: 5eea1f96-6e33-4409-b8b4-a8d3596ec991, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国5, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国6, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国7, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国8, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国 9, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国10, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 新加坡, server: relay2.wallless.cloud, port: 39041, type: vmess, uuid: a9aede4c-4b1f-49da-be10-083123d52657, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国11, server: zzcm06.bdate.xyz, port: 1150, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: 香港, server: cn-5-2.netflixssr.com, port: 10643, type: vmess, uuid: d736a7a6-7250-3035-be96-0edc45d7fcbd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: cn-5-2.netflixssr.com}, udp: true}
+  - {name: 香港2, server: cn-5-1.netflixssr.com, port: 10643, type: vmess, uuid: a44332df-1592-377b-9223-75694ce40354, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: cn-5-1.netflixssr.com}, udp: true}
+  - {name: AU-140.238.205.173-067, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: v2cross.com - 美国  4, server: ty2-3.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, sni: ty2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: GB-140.238.71.244-085, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-154.17.19.155-098, server: miner-one.pickaxe.sh, port: 443, type: trojan, password: 8JYTzmWdnn5Ilft0, sni: miner-one.pickaxe.sh, skip-cert-verify: true, udp: true}
+  - {name: US-154.17.22.182-101, server: meet-one.defun.us, port: 443, type: trojan, password: INvx7sPho8PyTLS6, sni: meet-one.defun.us, skip-cert-verify: true, udp: true}
+  - {name: US-154.17.23.31-095, server: blogs.defun.us, port: 443, type: trojan, password: 0STIv0ePoRzjxFTV, sni: blogs.defun.us, skip-cert-verify: true, udp: true}
+  - {name: KR-v1, server: free.spcloud.us, port: 21010, type: trojan, password: 118fc04e-fb8c-4154-9092-352cf1958fcd, sni: free.spcloud.us, skip-cert-verify: true, udp: true}
+  - {name: US-154.17.1.195-094, server: us-01.pickaxe.sh, port: 443, type: trojan, password: VQcup0dd7ulkb1pV, sni: us-01.pickaxe.sh, skip-cert-verify: true, udp: true}
+  - {name: SG-103.172.116.9-133, server: 103.172.116.9, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: SG-103.172.116.9-135, server: 103.172.116.9, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: SG-103.172.116.9-134, server: 103.172.116.9, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: SG-103.172.116.9-136, server: 103.172.116.9, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: SG-103.172.116.9-137, server: 103.172.116.9, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: RELAY-117.28.242.137-068, server: 117.28.242.137, port: 9359, type: ss, cipher: aes-256-cfb, password: !<str> 73117962, udp: true}
+  - {name: RU-213.183.53.177-127, server: 213.183.53.177, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: shouer, server: shouer.tk15.tk, port: 26122, type: vmess, uuid: c19949fe-e5ca-4aa7-b577-f9aed2c97c22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: IR-185.112.151.149-146, server: asr-farda.ir, port: 49110, type: vmess, uuid: 47bce6b8-c260-11ec-b514-000c297a3bfd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /pdOa1847/, ws-headers: {Host: asr-farda.ir}, udp: true}
+  - {name: US-172.67.150.223-150, server: v3.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v3.ssrsub.com}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3118, server: hk-c2.myuuusss.com, port: 80, type: vmess, uuid: cf998f5b-85d9-4798-871d-e0e7916fff04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-c2.myuuusss.com}, udp: true}
+  - {name: kaisu, server: proxy.skazcmdl1314520.top, port: 34567, type: vmess, uuid: f8a7f3d3-00c3-4108-e034-63dbdaf8b5b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: JP-172.104.98.41-071, server: 172.104.98.41, port: 40056, type: vmess, uuid: 46867ec3-7a4d-43d9-cc5f-f14ceeb83a67, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_1, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: us02.gogogoo.cyou}, udp: true}
+  - {name: RELAY-120.79.75.120-155, server: s4.mine.com.cn, port: 3333, type: vmess, uuid: 5eea1f96-6e33-4409-b8b4-a8d3596ec991, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK, server: proxy.skazcmdl1314520.top, port: 23456, type: vmess, uuid: 58f785e1-48ec-4d68-e13c-f1c9740e5efb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 香港 2, server: 20.187.125.226, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: 香港2 2, server: w1.v2mmy.xyz, port: 44812, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
   - {name: 日本2, server: w7.v2mmy.xyz, port: 44813, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
   - {name: 日本3, server: w7.v2mmy.xyz, port: 44828, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
   - {name: 台湾, server: w6.v2mmy.xyz, port: 25600, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
   - {name: 日本4, server: w7.v2mmy.xyz, port: 44827, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
   - {name: 台湾2, server: w1.v2mmy.xyz, port: 44811, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: 中国2, server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 新加坡, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 中国3, server: 116.129.253.191, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: 中国2 2, server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 2, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: 中国3 2, server: 116.129.253.191, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
   - {name: 新加坡2, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
   - {name: 新加坡3, server: 116.129.254.47, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: CN_50, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_45, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_426, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_47, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_54, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_48, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_56+2, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_357, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: KR_34, server: 132.226.20.79, port: 4666, type: ss, cipher: aes-128-gcm, password: PaSR4XPkpAdJphKP, udp: true}
   - {name: zz, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_431, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_55, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: KR-ml, server: 61.111.128.153, port: 8888, type: ss, cipher: rc4-md5, password: Xiongmao@^ios.ss, udp: true}
   - {name: CN_57, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_48+2, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_52, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_59, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_56 2, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_48 2, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_43, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_49, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: SG-138, server: free.spcloud.us, port: 21010, type: trojan, password: 118fc04e-fb8c-4154-9092-352cf1958fcd, sni: free.spcloud.us, skip-cert-verify: true, udp: true}
   - {name: "[Trojan]", server: 140.238.231.9, port: 443, type: trojan, password: O3hQcnNKAE, skip-cert-verify: true, udp: true}
   - {name: AU-159, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: GB_01, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
@@ -47,47 +72,71 @@ proxies:
   - {name: RELAY--064, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
   - {name: RELAY--062, server: 116.129.253.134, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
   - {name: RELAY--063, server: 116.129.253.134, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
-  - {name: JP- 3, server: ty2-3.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, sni: ty2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 中国
+      - 中国2
+      - 中国3
+      - 中国4
+      - 中国5
+      - 中国6
+      - 中国7
+      - 中国8
+      - 中国 9
+      - 中国10
+      - 新加坡
+      - 中国11
       - 香港
       - 香港2
+      - AU-140.238.205.173-067
+      - v2cross.com - 美国  4
+      - GB-140.238.71.244-085
+      - US-154.17.19.155-098
+      - US-154.17.22.182-101
+      - US-154.17.23.31-095
+      - KR-v1
+      - US-154.17.1.195-094
+      - SG-103.172.116.9-133
+      - SG-103.172.116.9-135
+      - SG-103.172.116.9-134
+      - SG-103.172.116.9-136
+      - SG-103.172.116.9-137
+      - RELAY-117.28.242.137-068
+      - RU-213.183.53.177-127
+      - shouer
+      - IR-185.112.151.149-146
+      - US-172.67.150.223-150
+      - Relay_🇺🇸US-🇺🇸US_3118
+      - kaisu
+      - JP-172.104.98.41-071
+      - _US_美国_1
+      - RELAY-120.79.75.120-155
+      - HK
+      - 香港 2
+      - 香港2 2
       - 日本2
       - 日本3
       - 台湾
       - 日本4
       - 台湾2
-      - 中国2
-      - 新加坡
-      - 中国3
+      - 中国2 2
+      - 新加坡 2
+      - 中国3 2
       - 新加坡2
       - 新加坡3
-      - CN_50
-      - CN_45
-      - CN_426
       - CN_47
-      - CN_54
-      - CN_48
       - CN_56+2
-      - CN_357
       - KR_34
       - zz
-      - CN_431
-      - CN_55
       - KR-ml
       - CN_57
       - CN_48+2
       - CN_52
-      - CN_59
-      - CN_56 2
       - CN_48 2
-      - CN_43
-      - CN_49
-      - SG-138
       - "[Trojan]"
       - AU-159
       - GB_01
@@ -96,46 +145,70 @@ proxy-groups:
       - RELAY--064
       - RELAY--062
       - RELAY--063
-      - JP- 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 中国
+      - 中国2
+      - 中国3
+      - 中国4
+      - 中国5
+      - 中国6
+      - 中国7
+      - 中国8
+      - 中国 9
+      - 中国10
+      - 新加坡
+      - 中国11
       - 香港
       - 香港2
+      - AU-140.238.205.173-067
+      - v2cross.com - 美国  4
+      - GB-140.238.71.244-085
+      - US-154.17.19.155-098
+      - US-154.17.22.182-101
+      - US-154.17.23.31-095
+      - KR-v1
+      - US-154.17.1.195-094
+      - SG-103.172.116.9-133
+      - SG-103.172.116.9-135
+      - SG-103.172.116.9-134
+      - SG-103.172.116.9-136
+      - SG-103.172.116.9-137
+      - RELAY-117.28.242.137-068
+      - RU-213.183.53.177-127
+      - shouer
+      - IR-185.112.151.149-146
+      - US-172.67.150.223-150
+      - Relay_🇺🇸US-🇺🇸US_3118
+      - kaisu
+      - JP-172.104.98.41-071
+      - _US_美国_1
+      - RELAY-120.79.75.120-155
+      - HK
+      - 香港 2
+      - 香港2 2
       - 日本2
       - 日本3
       - 台湾
       - 日本4
       - 台湾2
-      - 中国2
-      - 新加坡
-      - 中国3
+      - 中国2 2
+      - 新加坡 2
+      - 中国3 2
       - 新加坡2
       - 新加坡3
-      - CN_50
-      - CN_45
-      - CN_426
       - CN_47
-      - CN_54
-      - CN_48
       - CN_56+2
-      - CN_357
       - KR_34
       - zz
-      - CN_431
-      - CN_55
       - KR-ml
       - CN_57
       - CN_48+2
       - CN_52
-      - CN_59
-      - CN_56 2
       - CN_48 2
-      - CN_43
-      - CN_49
-      - SG-138
       - "[Trojan]"
       - AU-159
       - GB_01
@@ -144,47 +217,71 @@ proxy-groups:
       - RELAY--064
       - RELAY--062
       - RELAY--063
-      - JP- 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 中国
+      - 中国2
+      - 中国3
+      - 中国4
+      - 中国5
+      - 中国6
+      - 中国7
+      - 中国8
+      - 中国 9
+      - 中国10
+      - 新加坡
+      - 中国11
       - 香港
       - 香港2
+      - AU-140.238.205.173-067
+      - v2cross.com - 美国  4
+      - GB-140.238.71.244-085
+      - US-154.17.19.155-098
+      - US-154.17.22.182-101
+      - US-154.17.23.31-095
+      - KR-v1
+      - US-154.17.1.195-094
+      - SG-103.172.116.9-133
+      - SG-103.172.116.9-135
+      - SG-103.172.116.9-134
+      - SG-103.172.116.9-136
+      - SG-103.172.116.9-137
+      - RELAY-117.28.242.137-068
+      - RU-213.183.53.177-127
+      - shouer
+      - IR-185.112.151.149-146
+      - US-172.67.150.223-150
+      - Relay_🇺🇸US-🇺🇸US_3118
+      - kaisu
+      - JP-172.104.98.41-071
+      - _US_美国_1
+      - RELAY-120.79.75.120-155
+      - HK
+      - 香港 2
+      - 香港2 2
       - 日本2
       - 日本3
       - 台湾
       - 日本4
       - 台湾2
-      - 中国2
-      - 新加坡
-      - 中国3
+      - 中国2 2
+      - 新加坡 2
+      - 中国3 2
       - 新加坡2
       - 新加坡3
-      - CN_50
-      - CN_45
-      - CN_426
       - CN_47
-      - CN_54
-      - CN_48
       - CN_56+2
-      - CN_357
       - KR_34
       - zz
-      - CN_431
-      - CN_55
       - KR-ml
       - CN_57
       - CN_48+2
       - CN_52
-      - CN_59
-      - CN_56 2
       - CN_48 2
-      - CN_43
-      - CN_49
-      - SG-138
       - "[Trojan]"
       - AU-159
       - GB_01
@@ -193,7 +290,6 @@ proxy-groups:
       - RELAY--064
       - RELAY--062
       - RELAY--063
-      - JP- 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -212,40 +308,65 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 中国
+      - 中国2
+      - 中国3
+      - 中国4
+      - 中国5
+      - 中国6
+      - 中国7
+      - 中国8
+      - 中国 9
+      - 中国10
+      - 新加坡
+      - 中国11
       - 香港
       - 香港2
+      - AU-140.238.205.173-067
+      - v2cross.com - 美国  4
+      - GB-140.238.71.244-085
+      - US-154.17.19.155-098
+      - US-154.17.22.182-101
+      - US-154.17.23.31-095
+      - KR-v1
+      - US-154.17.1.195-094
+      - SG-103.172.116.9-133
+      - SG-103.172.116.9-135
+      - SG-103.172.116.9-134
+      - SG-103.172.116.9-136
+      - SG-103.172.116.9-137
+      - RELAY-117.28.242.137-068
+      - RU-213.183.53.177-127
+      - shouer
+      - IR-185.112.151.149-146
+      - US-172.67.150.223-150
+      - Relay_🇺🇸US-🇺🇸US_3118
+      - kaisu
+      - JP-172.104.98.41-071
+      - _US_美国_1
+      - RELAY-120.79.75.120-155
+      - HK
+      - 香港 2
+      - 香港2 2
       - 日本2
       - 日本3
       - 台湾
       - 日本4
       - 台湾2
-      - 中国2
-      - 新加坡
-      - 中国3
+      - 中国2 2
+      - 新加坡 2
+      - 中国3 2
       - 新加坡2
       - 新加坡3
-      - CN_50
-      - CN_45
-      - CN_426
       - CN_47
-      - CN_54
-      - CN_48
       - CN_56+2
-      - CN_357
       - KR_34
       - zz
-      - CN_431
-      - CN_55
       - KR-ml
       - CN_57
       - CN_48+2
       - CN_52
-      - CN_59
-      - CN_56 2
       - CN_48 2
-      - CN_43
-      - CN_49
-      - SG-138
       - "[Trojan]"
       - AU-159
       - GB_01
@@ -254,13 +375,14 @@ proxy-groups:
       - RELAY--064
       - RELAY--062
       - RELAY--063
-      - JP- 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 香港
       - 香港2
+      - 香港 2
+      - 香港2 2
       - 台湾
       - 台湾2
       - 🔰 节点选择
@@ -269,40 +391,65 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 中国
+      - 中国2
+      - 中国3
+      - 中国4
+      - 中国5
+      - 中国6
+      - 中国7
+      - 中国8
+      - 中国 9
+      - 中国10
+      - 新加坡
+      - 中国11
       - 香港
       - 香港2
+      - AU-140.238.205.173-067
+      - v2cross.com - 美国  4
+      - GB-140.238.71.244-085
+      - US-154.17.19.155-098
+      - US-154.17.22.182-101
+      - US-154.17.23.31-095
+      - KR-v1
+      - US-154.17.1.195-094
+      - SG-103.172.116.9-133
+      - SG-103.172.116.9-135
+      - SG-103.172.116.9-134
+      - SG-103.172.116.9-136
+      - SG-103.172.116.9-137
+      - RELAY-117.28.242.137-068
+      - RU-213.183.53.177-127
+      - shouer
+      - IR-185.112.151.149-146
+      - US-172.67.150.223-150
+      - Relay_🇺🇸US-🇺🇸US_3118
+      - kaisu
+      - JP-172.104.98.41-071
+      - _US_美国_1
+      - RELAY-120.79.75.120-155
+      - HK
+      - 香港 2
+      - 香港2 2
       - 日本2
       - 日本3
       - 台湾
       - 日本4
       - 台湾2
-      - 中国2
-      - 新加坡
-      - 中国3
+      - 中国2 2
+      - 新加坡 2
+      - 中国3 2
       - 新加坡2
       - 新加坡3
-      - CN_50
-      - CN_45
-      - CN_426
       - CN_47
-      - CN_54
-      - CN_48
       - CN_56+2
-      - CN_357
       - KR_34
       - zz
-      - CN_431
-      - CN_55
       - KR-ml
       - CN_57
       - CN_48+2
       - CN_52
-      - CN_59
-      - CN_56 2
       - CN_48 2
-      - CN_43
-      - CN_49
-      - SG-138
       - "[Trojan]"
       - AU-159
       - GB_01
@@ -311,46 +458,70 @@ proxy-groups:
       - RELAY--064
       - RELAY--062
       - RELAY--063
-      - JP- 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 中国
+      - 中国2
+      - 中国3
+      - 中国4
+      - 中国5
+      - 中国6
+      - 中国7
+      - 中国8
+      - 中国 9
+      - 中国10
+      - 新加坡
+      - 中国11
       - 香港
       - 香港2
+      - AU-140.238.205.173-067
+      - v2cross.com - 美国  4
+      - GB-140.238.71.244-085
+      - US-154.17.19.155-098
+      - US-154.17.22.182-101
+      - US-154.17.23.31-095
+      - KR-v1
+      - US-154.17.1.195-094
+      - SG-103.172.116.9-133
+      - SG-103.172.116.9-135
+      - SG-103.172.116.9-134
+      - SG-103.172.116.9-136
+      - SG-103.172.116.9-137
+      - RELAY-117.28.242.137-068
+      - RU-213.183.53.177-127
+      - shouer
+      - IR-185.112.151.149-146
+      - US-172.67.150.223-150
+      - Relay_🇺🇸US-🇺🇸US_3118
+      - kaisu
+      - JP-172.104.98.41-071
+      - _US_美国_1
+      - RELAY-120.79.75.120-155
+      - HK
+      - 香港 2
+      - 香港2 2
       - 日本2
       - 日本3
       - 台湾
       - 日本4
       - 台湾2
-      - 中国2
-      - 新加坡
-      - 中国3
+      - 中国2 2
+      - 新加坡 2
+      - 中国3 2
       - 新加坡2
       - 新加坡3
-      - CN_50
-      - CN_45
-      - CN_426
       - CN_47
-      - CN_54
-      - CN_48
       - CN_56+2
-      - CN_357
       - KR_34
       - zz
-      - CN_431
-      - CN_55
       - KR-ml
       - CN_57
       - CN_48+2
       - CN_52
-      - CN_59
-      - CN_56 2
       - CN_48 2
-      - CN_43
-      - CN_49
-      - SG-138
       - "[Trojan]"
       - AU-159
       - GB_01
@@ -359,47 +530,71 @@ proxy-groups:
       - RELAY--064
       - RELAY--062
       - RELAY--063
-      - JP- 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 中国
+      - 中国2
+      - 中国3
+      - 中国4
+      - 中国5
+      - 中国6
+      - 中国7
+      - 中国8
+      - 中国 9
+      - 中国10
+      - 新加坡
+      - 中国11
       - 香港
       - 香港2
+      - AU-140.238.205.173-067
+      - v2cross.com - 美国  4
+      - GB-140.238.71.244-085
+      - US-154.17.19.155-098
+      - US-154.17.22.182-101
+      - US-154.17.23.31-095
+      - KR-v1
+      - US-154.17.1.195-094
+      - SG-103.172.116.9-133
+      - SG-103.172.116.9-135
+      - SG-103.172.116.9-134
+      - SG-103.172.116.9-136
+      - SG-103.172.116.9-137
+      - RELAY-117.28.242.137-068
+      - RU-213.183.53.177-127
+      - shouer
+      - IR-185.112.151.149-146
+      - US-172.67.150.223-150
+      - Relay_🇺🇸US-🇺🇸US_3118
+      - kaisu
+      - JP-172.104.98.41-071
+      - _US_美国_1
+      - RELAY-120.79.75.120-155
+      - HK
+      - 香港 2
+      - 香港2 2
       - 日本2
       - 日本3
       - 台湾
       - 日本4
       - 台湾2
-      - 中国2
-      - 新加坡
-      - 中国3
+      - 中国2 2
+      - 新加坡 2
+      - 中国3 2
       - 新加坡2
       - 新加坡3
-      - CN_50
-      - CN_45
-      - CN_426
       - CN_47
-      - CN_54
-      - CN_48
       - CN_56+2
-      - CN_357
       - KR_34
       - zz
-      - CN_431
-      - CN_55
       - KR-ml
       - CN_57
       - CN_48+2
       - CN_52
-      - CN_59
-      - CN_56 2
       - CN_48 2
-      - CN_43
-      - CN_49
-      - SG-138
       - "[Trojan]"
       - AU-159
       - GB_01
@@ -408,7 +603,6 @@ proxy-groups:
       - RELAY--064
       - RELAY--062
       - RELAY--063
-      - JP- 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -424,40 +618,65 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 中国
+      - 中国2
+      - 中国3
+      - 中国4
+      - 中国5
+      - 中国6
+      - 中国7
+      - 中国8
+      - 中国 9
+      - 中国10
+      - 新加坡
+      - 中国11
       - 香港
       - 香港2
+      - AU-140.238.205.173-067
+      - v2cross.com - 美国  4
+      - GB-140.238.71.244-085
+      - US-154.17.19.155-098
+      - US-154.17.22.182-101
+      - US-154.17.23.31-095
+      - KR-v1
+      - US-154.17.1.195-094
+      - SG-103.172.116.9-133
+      - SG-103.172.116.9-135
+      - SG-103.172.116.9-134
+      - SG-103.172.116.9-136
+      - SG-103.172.116.9-137
+      - RELAY-117.28.242.137-068
+      - RU-213.183.53.177-127
+      - shouer
+      - IR-185.112.151.149-146
+      - US-172.67.150.223-150
+      - Relay_🇺🇸US-🇺🇸US_3118
+      - kaisu
+      - JP-172.104.98.41-071
+      - _US_美国_1
+      - RELAY-120.79.75.120-155
+      - HK
+      - 香港 2
+      - 香港2 2
       - 日本2
       - 日本3
       - 台湾
       - 日本4
       - 台湾2
-      - 中国2
-      - 新加坡
-      - 中国3
+      - 中国2 2
+      - 新加坡 2
+      - 中国3 2
       - 新加坡2
       - 新加坡3
-      - CN_50
-      - CN_45
-      - CN_426
       - CN_47
-      - CN_54
-      - CN_48
       - CN_56+2
-      - CN_357
       - KR_34
       - zz
-      - CN_431
-      - CN_55
       - KR-ml
       - CN_57
       - CN_48+2
       - CN_52
-      - CN_59
-      - CN_56 2
       - CN_48 2
-      - CN_43
-      - CN_49
-      - SG-138
       - "[Trojan]"
       - AU-159
       - GB_01
@@ -466,7 +685,6 @@ proxy-groups:
       - RELAY--064
       - RELAY--062
       - RELAY--063
-      - JP- 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
