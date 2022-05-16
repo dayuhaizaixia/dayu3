@@ -5,11 +5,82 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: Relay_🇨🇳CN-🇨🇳CN_405, server: s4.mine.com.cn, port: 3333, type: vmess, uuid: 5eea1f96-6e33-4409-b8b4-a8d3596ec991, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: NL, server: 213.183.59.177, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: NL1, server: 213.183.59.177, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: TG16, server: w3.v2mmy.xyz, port: 44817, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: NL2, server: 213.183.59.177, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: TG17, server: w2.v2mmy.xyz, port: 44819, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: NL3, server: 213.183.59.177, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: NL4, server: 213.183.59.190, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: TG15, server: w2.v2mmy.xyz, port: 44826, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: TG3, server: cn1.relay.iepl.pw, port: 50100, type: ss, cipher: aes-128-gcm, password: 40825843-2e84-4433-a4c0-829948eb620b, udp: true}
+  - {name: NL5, server: 213.183.59.177, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
+  - {name: TG13, server: w2.v2mmy.xyz, port: 44825, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: TG 9, server: w3.v2mmy.xyz, port: 44816, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: N6, server: 213.183.59.177, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: NL7, server: 213.183.59.177, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: NL8, server: 213.183.59.177, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
+  - {name: NL9, server: 213.183.59.177, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: TG10, server: w3.v2mmy.xyz, port: 44818, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: NL10, server: 213.183.59.177, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: "|14.71Mb", server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: NL11, server: 213.183.59.177, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: "|14.38Mb", server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "|10.43Mb", server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "|12.23Mb", server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: NL12, server: 213.183.59.177, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: NL13, server: 213.183.59.190, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: NL14, server: 213.183.59.177, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: NL15, server: 213.183.59.190, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: NL16, server: 213.183.59.190, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: NL17, server: 213.183.59.190, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: NL18, server: 213.183.59.177, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: TG5, server: w7.v2mmy.xyz, port: 44827, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: TG4, server: w7.v2mmy.xyz, port: 44828, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: TG10 2, server: 20.222.123.118, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: TG6, server: 95.142.161.130, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bXAlJahEn1fO, udp: true}
+  - {name: NL19, server: 213.183.59.177, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: NL20, server: 213.183.59.190, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: NL21, server: 213.183.59.190, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: NL22, server: 213.183.59.190, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP, udp: true}
+  - {name: NL23, server: 213.183.59.190, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: NL24, server: 213.183.59.190, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: NL25, server: 213.183.59.190, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: NL26, server: 213.183.59.190, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
+  - {name: NL27, server: 213.183.59.190, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: NL28, server: 213.183.59.190, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: NL29, server: 213.183.59.190, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: NL30, server: 213.183.59.190, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: N31, server: 213.183.59.190, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: NL32, server: 213.183.59.190, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: NL33, server: 213.183.59.177, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: NL34, server: 213.183.59.190, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: NL35, server: 213.183.59.190, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: NL36, server: 213.183.59.177, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: NL37, server: 213.183.59.177, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: NL38, server: 213.183.59.177, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: NL39, server: 213.183.59.177, port: 9058, type: ss, cipher: aes-256-cfb, password: dML2sfhbVwvtfNPe, udp: true}
+  - {name: NL40, server: 213.183.59.177, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: Relay_🇨🇳CN-🇨🇦CA_230, server: 183.240.124.200, port: 44822, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: Relay_🇨🇳CN-🇨🇦CA_229, server: 183.240.124.200, port: 44823, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: NL43, server: 213.183.59.190, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: NL44, server: 213.183.59.190, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: NL45, server: 213.183.59.190, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: NL53, server: 213.183.59.190, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: NL54, server: 213.183.59.190, port: 9058, type: ss, cipher: aes-256-cfb, password: dML2sfhbVwvtfNPe, udp: true}
+  - {name: NL56, server: 213.183.59.190, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: LT_79n, server: 213.183.53.177, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: LT_78, server: 213.183.53.177, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: LT_80, server: 213.183.53.177, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: NL70, server: 213.183.59.177, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: NL77, server: 213.183.59.177, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: LT_81, server: 213.183.53.177, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: NL84, server: 213.183.59.190, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: TG25, server: free.spcloud.us, port: 21010, type: trojan, password: 118fc04e-fb8c-4154-9092-352cf1958fcd, sni: free.spcloud.us, skip-cert-verify: true, udp: true}
   - {name: 中国, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 中国2, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 中国3, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 中国4, server: s4.mine.com.cn, port: 3333, type: vmess, uuid: 5eea1f96-6e33-4409-b8b4-a8d3596ec991, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国5, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 中国6, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 中国7, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 中国8, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
@@ -25,7 +96,6 @@ proxies:
   - {name: US-154.17.19.155-098, server: miner-one.pickaxe.sh, port: 443, type: trojan, password: 8JYTzmWdnn5Ilft0, sni: miner-one.pickaxe.sh, skip-cert-verify: true, udp: true}
   - {name: US-154.17.22.182-101, server: meet-one.defun.us, port: 443, type: trojan, password: INvx7sPho8PyTLS6, sni: meet-one.defun.us, skip-cert-verify: true, udp: true}
   - {name: US-154.17.23.31-095, server: blogs.defun.us, port: 443, type: trojan, password: 0STIv0ePoRzjxFTV, sni: blogs.defun.us, skip-cert-verify: true, udp: true}
-  - {name: KR-v1, server: free.spcloud.us, port: 21010, type: trojan, password: 118fc04e-fb8c-4154-9092-352cf1958fcd, sni: free.spcloud.us, skip-cert-verify: true, udp: true}
   - {name: US-154.17.1.195-094, server: us-01.pickaxe.sh, port: 443, type: trojan, password: VQcup0dd7ulkb1pV, sni: us-01.pickaxe.sh, skip-cert-verify: true, udp: true}
   - {name: SG-103.172.116.9-133, server: 103.172.116.9, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
   - {name: SG-103.172.116.9-135, server: 103.172.116.9, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
@@ -46,19 +116,15 @@ proxies:
   - {name: 香港 2, server: 20.187.125.226, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
   - {name: 香港2 2, server: w1.v2mmy.xyz, port: 44812, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
   - {name: 日本2, server: w7.v2mmy.xyz, port: 44813, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: 日本3, server: w7.v2mmy.xyz, port: 44828, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
   - {name: 台湾, server: w6.v2mmy.xyz, port: 25600, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: 日本4, server: w7.v2mmy.xyz, port: 44827, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
   - {name: 台湾2, server: w1.v2mmy.xyz, port: 44811, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
   - {name: 中国2 2, server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
   - {name: 新加坡 2, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
   - {name: 中国3 2, server: 116.129.253.191, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
   - {name: 新加坡2, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
   - {name: 新加坡3, server: 116.129.254.47, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: CN_47, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_56+2, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: KR_34, server: 132.226.20.79, port: 4666, type: ss, cipher: aes-128-gcm, password: PaSR4XPkpAdJphKP, udp: true}
-  - {name: zz, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: KR-ml, server: 61.111.128.153, port: 8888, type: ss, cipher: rc4-md5, password: Xiongmao@^ios.ss, udp: true}
   - {name: CN_57, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_48+2, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
@@ -78,11 +144,82 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Relay_🇨🇳CN-🇨🇳CN_405
+      - NL
+      - NL1
+      - TG16
+      - NL2
+      - TG17
+      - NL3
+      - NL4
+      - TG15
+      - TG3
+      - NL5
+      - TG13
+      - TG 9
+      - N6
+      - NL7
+      - NL8
+      - NL9
+      - TG10
+      - NL10
+      - "|14.71Mb"
+      - NL11
+      - "|14.38Mb"
+      - "|10.43Mb"
+      - "|12.23Mb"
+      - NL12
+      - NL13
+      - NL14
+      - NL15
+      - NL16
+      - NL17
+      - NL18
+      - TG5
+      - TG4
+      - TG10 2
+      - TG6
+      - NL19
+      - NL20
+      - NL21
+      - NL22
+      - NL23
+      - NL24
+      - NL25
+      - NL26
+      - NL27
+      - NL28
+      - NL29
+      - NL30
+      - N31
+      - NL32
+      - NL33
+      - NL34
+      - NL35
+      - NL36
+      - NL37
+      - NL38
+      - NL39
+      - NL40
+      - Relay_🇨🇳CN-🇨🇦CA_230
+      - Relay_🇨🇳CN-🇨🇦CA_229
+      - NL43
+      - NL44
+      - NL45
+      - NL53
+      - NL54
+      - NL56
+      - LT_79n
+      - LT_78
+      - LT_80
+      - NL70
+      - NL77
+      - LT_81
+      - NL84
+      - TG25
       - 中国
       - 中国2
       - 中国3
-      - 中国4
-      - 中国5
       - 中国6
       - 中国7
       - 中国8
@@ -98,7 +235,6 @@ proxy-groups:
       - US-154.17.19.155-098
       - US-154.17.22.182-101
       - US-154.17.23.31-095
-      - KR-v1
       - US-154.17.1.195-094
       - SG-103.172.116.9-133
       - SG-103.172.116.9-135
@@ -119,19 +255,15 @@ proxy-groups:
       - 香港 2
       - 香港2 2
       - 日本2
-      - 日本3
       - 台湾
-      - 日本4
       - 台湾2
       - 中国2 2
       - 新加坡 2
       - 中国3 2
       - 新加坡2
       - 新加坡3
-      - CN_47
       - CN_56+2
       - KR_34
-      - zz
       - KR-ml
       - CN_57
       - CN_48+2
@@ -150,11 +282,82 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - Relay_🇨🇳CN-🇨🇳CN_405
+      - NL
+      - NL1
+      - TG16
+      - NL2
+      - TG17
+      - NL3
+      - NL4
+      - TG15
+      - TG3
+      - NL5
+      - TG13
+      - TG 9
+      - N6
+      - NL7
+      - NL8
+      - NL9
+      - TG10
+      - NL10
+      - "|14.71Mb"
+      - NL11
+      - "|14.38Mb"
+      - "|10.43Mb"
+      - "|12.23Mb"
+      - NL12
+      - NL13
+      - NL14
+      - NL15
+      - NL16
+      - NL17
+      - NL18
+      - TG5
+      - TG4
+      - TG10 2
+      - TG6
+      - NL19
+      - NL20
+      - NL21
+      - NL22
+      - NL23
+      - NL24
+      - NL25
+      - NL26
+      - NL27
+      - NL28
+      - NL29
+      - NL30
+      - N31
+      - NL32
+      - NL33
+      - NL34
+      - NL35
+      - NL36
+      - NL37
+      - NL38
+      - NL39
+      - NL40
+      - Relay_🇨🇳CN-🇨🇦CA_230
+      - Relay_🇨🇳CN-🇨🇦CA_229
+      - NL43
+      - NL44
+      - NL45
+      - NL53
+      - NL54
+      - NL56
+      - LT_79n
+      - LT_78
+      - LT_80
+      - NL70
+      - NL77
+      - LT_81
+      - NL84
+      - TG25
       - 中国
       - 中国2
       - 中国3
-      - 中国4
-      - 中国5
       - 中国6
       - 中国7
       - 中国8
@@ -170,7 +373,6 @@ proxy-groups:
       - US-154.17.19.155-098
       - US-154.17.22.182-101
       - US-154.17.23.31-095
-      - KR-v1
       - US-154.17.1.195-094
       - SG-103.172.116.9-133
       - SG-103.172.116.9-135
@@ -191,19 +393,15 @@ proxy-groups:
       - 香港 2
       - 香港2 2
       - 日本2
-      - 日本3
       - 台湾
-      - 日本4
       - 台湾2
       - 中国2 2
       - 新加坡 2
       - 中国3 2
       - 新加坡2
       - 新加坡3
-      - CN_47
       - CN_56+2
       - KR_34
-      - zz
       - KR-ml
       - CN_57
       - CN_48+2
@@ -223,11 +421,82 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Relay_🇨🇳CN-🇨🇳CN_405
+      - NL
+      - NL1
+      - TG16
+      - NL2
+      - TG17
+      - NL3
+      - NL4
+      - TG15
+      - TG3
+      - NL5
+      - TG13
+      - TG 9
+      - N6
+      - NL7
+      - NL8
+      - NL9
+      - TG10
+      - NL10
+      - "|14.71Mb"
+      - NL11
+      - "|14.38Mb"
+      - "|10.43Mb"
+      - "|12.23Mb"
+      - NL12
+      - NL13
+      - NL14
+      - NL15
+      - NL16
+      - NL17
+      - NL18
+      - TG5
+      - TG4
+      - TG10 2
+      - TG6
+      - NL19
+      - NL20
+      - NL21
+      - NL22
+      - NL23
+      - NL24
+      - NL25
+      - NL26
+      - NL27
+      - NL28
+      - NL29
+      - NL30
+      - N31
+      - NL32
+      - NL33
+      - NL34
+      - NL35
+      - NL36
+      - NL37
+      - NL38
+      - NL39
+      - NL40
+      - Relay_🇨🇳CN-🇨🇦CA_230
+      - Relay_🇨🇳CN-🇨🇦CA_229
+      - NL43
+      - NL44
+      - NL45
+      - NL53
+      - NL54
+      - NL56
+      - LT_79n
+      - LT_78
+      - LT_80
+      - NL70
+      - NL77
+      - LT_81
+      - NL84
+      - TG25
       - 中国
       - 中国2
       - 中国3
-      - 中国4
-      - 中国5
       - 中国6
       - 中国7
       - 中国8
@@ -243,7 +512,6 @@ proxy-groups:
       - US-154.17.19.155-098
       - US-154.17.22.182-101
       - US-154.17.23.31-095
-      - KR-v1
       - US-154.17.1.195-094
       - SG-103.172.116.9-133
       - SG-103.172.116.9-135
@@ -264,19 +532,15 @@ proxy-groups:
       - 香港 2
       - 香港2 2
       - 日本2
-      - 日本3
       - 台湾
-      - 日本4
       - 台湾2
       - 中国2 2
       - 新加坡 2
       - 中国3 2
       - 新加坡2
       - 新加坡3
-      - CN_47
       - CN_56+2
       - KR_34
-      - zz
       - KR-ml
       - CN_57
       - CN_48+2
@@ -308,11 +572,82 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Relay_🇨🇳CN-🇨🇳CN_405
+      - NL
+      - NL1
+      - TG16
+      - NL2
+      - TG17
+      - NL3
+      - NL4
+      - TG15
+      - TG3
+      - NL5
+      - TG13
+      - TG 9
+      - N6
+      - NL7
+      - NL8
+      - NL9
+      - TG10
+      - NL10
+      - "|14.71Mb"
+      - NL11
+      - "|14.38Mb"
+      - "|10.43Mb"
+      - "|12.23Mb"
+      - NL12
+      - NL13
+      - NL14
+      - NL15
+      - NL16
+      - NL17
+      - NL18
+      - TG5
+      - TG4
+      - TG10 2
+      - TG6
+      - NL19
+      - NL20
+      - NL21
+      - NL22
+      - NL23
+      - NL24
+      - NL25
+      - NL26
+      - NL27
+      - NL28
+      - NL29
+      - NL30
+      - N31
+      - NL32
+      - NL33
+      - NL34
+      - NL35
+      - NL36
+      - NL37
+      - NL38
+      - NL39
+      - NL40
+      - Relay_🇨🇳CN-🇨🇦CA_230
+      - Relay_🇨🇳CN-🇨🇦CA_229
+      - NL43
+      - NL44
+      - NL45
+      - NL53
+      - NL54
+      - NL56
+      - LT_79n
+      - LT_78
+      - LT_80
+      - NL70
+      - NL77
+      - LT_81
+      - NL84
+      - TG25
       - 中国
       - 中国2
       - 中国3
-      - 中国4
-      - 中国5
       - 中国6
       - 中国7
       - 中国8
@@ -328,7 +663,6 @@ proxy-groups:
       - US-154.17.19.155-098
       - US-154.17.22.182-101
       - US-154.17.23.31-095
-      - KR-v1
       - US-154.17.1.195-094
       - SG-103.172.116.9-133
       - SG-103.172.116.9-135
@@ -349,19 +683,15 @@ proxy-groups:
       - 香港 2
       - 香港2 2
       - 日本2
-      - 日本3
       - 台湾
-      - 日本4
       - 台湾2
       - 中国2 2
       - 新加坡 2
       - 中国3 2
       - 新加坡2
       - 新加坡3
-      - CN_47
       - CN_56+2
       - KR_34
-      - zz
       - KR-ml
       - CN_57
       - CN_48+2
@@ -391,11 +721,82 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - Relay_🇨🇳CN-🇨🇳CN_405
+      - NL
+      - NL1
+      - TG16
+      - NL2
+      - TG17
+      - NL3
+      - NL4
+      - TG15
+      - TG3
+      - NL5
+      - TG13
+      - TG 9
+      - N6
+      - NL7
+      - NL8
+      - NL9
+      - TG10
+      - NL10
+      - "|14.71Mb"
+      - NL11
+      - "|14.38Mb"
+      - "|10.43Mb"
+      - "|12.23Mb"
+      - NL12
+      - NL13
+      - NL14
+      - NL15
+      - NL16
+      - NL17
+      - NL18
+      - TG5
+      - TG4
+      - TG10 2
+      - TG6
+      - NL19
+      - NL20
+      - NL21
+      - NL22
+      - NL23
+      - NL24
+      - NL25
+      - NL26
+      - NL27
+      - NL28
+      - NL29
+      - NL30
+      - N31
+      - NL32
+      - NL33
+      - NL34
+      - NL35
+      - NL36
+      - NL37
+      - NL38
+      - NL39
+      - NL40
+      - Relay_🇨🇳CN-🇨🇦CA_230
+      - Relay_🇨🇳CN-🇨🇦CA_229
+      - NL43
+      - NL44
+      - NL45
+      - NL53
+      - NL54
+      - NL56
+      - LT_79n
+      - LT_78
+      - LT_80
+      - NL70
+      - NL77
+      - LT_81
+      - NL84
+      - TG25
       - 中国
       - 中国2
       - 中国3
-      - 中国4
-      - 中国5
       - 中国6
       - 中国7
       - 中国8
@@ -411,7 +812,6 @@ proxy-groups:
       - US-154.17.19.155-098
       - US-154.17.22.182-101
       - US-154.17.23.31-095
-      - KR-v1
       - US-154.17.1.195-094
       - SG-103.172.116.9-133
       - SG-103.172.116.9-135
@@ -432,19 +832,15 @@ proxy-groups:
       - 香港 2
       - 香港2 2
       - 日本2
-      - 日本3
       - 台湾
-      - 日本4
       - 台湾2
       - 中国2 2
       - 新加坡 2
       - 中国3 2
       - 新加坡2
       - 新加坡3
-      - CN_47
       - CN_56+2
       - KR_34
-      - zz
       - KR-ml
       - CN_57
       - CN_48+2
@@ -463,11 +859,82 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - Relay_🇨🇳CN-🇨🇳CN_405
+      - NL
+      - NL1
+      - TG16
+      - NL2
+      - TG17
+      - NL3
+      - NL4
+      - TG15
+      - TG3
+      - NL5
+      - TG13
+      - TG 9
+      - N6
+      - NL7
+      - NL8
+      - NL9
+      - TG10
+      - NL10
+      - "|14.71Mb"
+      - NL11
+      - "|14.38Mb"
+      - "|10.43Mb"
+      - "|12.23Mb"
+      - NL12
+      - NL13
+      - NL14
+      - NL15
+      - NL16
+      - NL17
+      - NL18
+      - TG5
+      - TG4
+      - TG10 2
+      - TG6
+      - NL19
+      - NL20
+      - NL21
+      - NL22
+      - NL23
+      - NL24
+      - NL25
+      - NL26
+      - NL27
+      - NL28
+      - NL29
+      - NL30
+      - N31
+      - NL32
+      - NL33
+      - NL34
+      - NL35
+      - NL36
+      - NL37
+      - NL38
+      - NL39
+      - NL40
+      - Relay_🇨🇳CN-🇨🇦CA_230
+      - Relay_🇨🇳CN-🇨🇦CA_229
+      - NL43
+      - NL44
+      - NL45
+      - NL53
+      - NL54
+      - NL56
+      - LT_79n
+      - LT_78
+      - LT_80
+      - NL70
+      - NL77
+      - LT_81
+      - NL84
+      - TG25
       - 中国
       - 中国2
       - 中国3
-      - 中国4
-      - 中国5
       - 中国6
       - 中国7
       - 中国8
@@ -483,7 +950,6 @@ proxy-groups:
       - US-154.17.19.155-098
       - US-154.17.22.182-101
       - US-154.17.23.31-095
-      - KR-v1
       - US-154.17.1.195-094
       - SG-103.172.116.9-133
       - SG-103.172.116.9-135
@@ -504,19 +970,15 @@ proxy-groups:
       - 香港 2
       - 香港2 2
       - 日本2
-      - 日本3
       - 台湾
-      - 日本4
       - 台湾2
       - 中国2 2
       - 新加坡 2
       - 中国3 2
       - 新加坡2
       - 新加坡3
-      - CN_47
       - CN_56+2
       - KR_34
-      - zz
       - KR-ml
       - CN_57
       - CN_48+2
@@ -536,11 +998,82 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Relay_🇨🇳CN-🇨🇳CN_405
+      - NL
+      - NL1
+      - TG16
+      - NL2
+      - TG17
+      - NL3
+      - NL4
+      - TG15
+      - TG3
+      - NL5
+      - TG13
+      - TG 9
+      - N6
+      - NL7
+      - NL8
+      - NL9
+      - TG10
+      - NL10
+      - "|14.71Mb"
+      - NL11
+      - "|14.38Mb"
+      - "|10.43Mb"
+      - "|12.23Mb"
+      - NL12
+      - NL13
+      - NL14
+      - NL15
+      - NL16
+      - NL17
+      - NL18
+      - TG5
+      - TG4
+      - TG10 2
+      - TG6
+      - NL19
+      - NL20
+      - NL21
+      - NL22
+      - NL23
+      - NL24
+      - NL25
+      - NL26
+      - NL27
+      - NL28
+      - NL29
+      - NL30
+      - N31
+      - NL32
+      - NL33
+      - NL34
+      - NL35
+      - NL36
+      - NL37
+      - NL38
+      - NL39
+      - NL40
+      - Relay_🇨🇳CN-🇨🇦CA_230
+      - Relay_🇨🇳CN-🇨🇦CA_229
+      - NL43
+      - NL44
+      - NL45
+      - NL53
+      - NL54
+      - NL56
+      - LT_79n
+      - LT_78
+      - LT_80
+      - NL70
+      - NL77
+      - LT_81
+      - NL84
+      - TG25
       - 中国
       - 中国2
       - 中国3
-      - 中国4
-      - 中国5
       - 中国6
       - 中国7
       - 中国8
@@ -556,7 +1089,6 @@ proxy-groups:
       - US-154.17.19.155-098
       - US-154.17.22.182-101
       - US-154.17.23.31-095
-      - KR-v1
       - US-154.17.1.195-094
       - SG-103.172.116.9-133
       - SG-103.172.116.9-135
@@ -577,19 +1109,15 @@ proxy-groups:
       - 香港 2
       - 香港2 2
       - 日本2
-      - 日本3
       - 台湾
-      - 日本4
       - 台湾2
       - 中国2 2
       - 新加坡 2
       - 中国3 2
       - 新加坡2
       - 新加坡3
-      - CN_47
       - CN_56+2
       - KR_34
-      - zz
       - KR-ml
       - CN_57
       - CN_48+2
@@ -618,11 +1146,82 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Relay_🇨🇳CN-🇨🇳CN_405
+      - NL
+      - NL1
+      - TG16
+      - NL2
+      - TG17
+      - NL3
+      - NL4
+      - TG15
+      - TG3
+      - NL5
+      - TG13
+      - TG 9
+      - N6
+      - NL7
+      - NL8
+      - NL9
+      - TG10
+      - NL10
+      - "|14.71Mb"
+      - NL11
+      - "|14.38Mb"
+      - "|10.43Mb"
+      - "|12.23Mb"
+      - NL12
+      - NL13
+      - NL14
+      - NL15
+      - NL16
+      - NL17
+      - NL18
+      - TG5
+      - TG4
+      - TG10 2
+      - TG6
+      - NL19
+      - NL20
+      - NL21
+      - NL22
+      - NL23
+      - NL24
+      - NL25
+      - NL26
+      - NL27
+      - NL28
+      - NL29
+      - NL30
+      - N31
+      - NL32
+      - NL33
+      - NL34
+      - NL35
+      - NL36
+      - NL37
+      - NL38
+      - NL39
+      - NL40
+      - Relay_🇨🇳CN-🇨🇦CA_230
+      - Relay_🇨🇳CN-🇨🇦CA_229
+      - NL43
+      - NL44
+      - NL45
+      - NL53
+      - NL54
+      - NL56
+      - LT_79n
+      - LT_78
+      - LT_80
+      - NL70
+      - NL77
+      - LT_81
+      - NL84
+      - TG25
       - 中国
       - 中国2
       - 中国3
-      - 中国4
-      - 中国5
       - 中国6
       - 中国7
       - 中国8
@@ -638,7 +1237,6 @@ proxy-groups:
       - US-154.17.19.155-098
       - US-154.17.22.182-101
       - US-154.17.23.31-095
-      - KR-v1
       - US-154.17.1.195-094
       - SG-103.172.116.9-133
       - SG-103.172.116.9-135
@@ -659,19 +1257,15 @@ proxy-groups:
       - 香港 2
       - 香港2 2
       - 日本2
-      - 日本3
       - 台湾
-      - 日本4
       - 台湾2
       - 中国2 2
       - 新加坡 2
       - 中国3 2
       - 新加坡2
       - 新加坡3
-      - CN_47
       - CN_56+2
       - KR_34
-      - zz
       - KR-ml
       - CN_57
       - CN_48+2
