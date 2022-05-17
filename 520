@@ -138,6 +138,11 @@ proxies:
   - {name: RELAY--064, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
   - {name: RELAY--062, server: 116.129.253.134, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
   - {name: RELAY--063, server: 116.129.253.134, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
+  - {name: US_182, server: 154.17.1.167, port: 21350, type: vmess, uuid: 421a0454-7e29-4bf3-feb8-871194bfc736, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 154.17.1.167}, udp: true}
+  - {name: 日本ad, server: c6s4.jamjams.net, port: 27620, type: vmess, uuid: b08fce9e-b88c-4edd-8f72-b6db2a3cdf58, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国ad7, server: c6s3.jamjams.net, port: 27620, type: vmess, uuid: b08fce9e-b88c-4edd-8f72-b6db2a3cdf58, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 荷兰ad, server: c6s5.jamjams.net, port: 27620, type: vmess, uuid: b08fce9e-b88c-4edd-8f72-b6db2a3cdf58, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡ad, server: bb01.nfeng6.pp.ua, port: 16030, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -277,6 +282,11 @@ proxy-groups:
       - RELAY--064
       - RELAY--062
       - RELAY--063
+      - US_182
+      - 日本ad
+      - 美国ad7
+      - 荷兰ad
+      - 新加坡ad
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -415,6 +425,11 @@ proxy-groups:
       - RELAY--064
       - RELAY--062
       - RELAY--063
+      - US_182
+      - 日本ad
+      - 美国ad7
+      - 荷兰ad
+      - 新加坡ad
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -554,6 +569,11 @@ proxy-groups:
       - RELAY--064
       - RELAY--062
       - RELAY--063
+      - US_182
+      - 日本ad
+      - 美国ad7
+      - 荷兰ad
+      - 新加坡ad
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -705,6 +725,11 @@ proxy-groups:
       - RELAY--064
       - RELAY--062
       - RELAY--063
+      - US_182
+      - 日本ad
+      - 美国ad7
+      - 荷兰ad
+      - 新加坡ad
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -854,6 +879,11 @@ proxy-groups:
       - RELAY--064
       - RELAY--062
       - RELAY--063
+      - US_182
+      - 日本ad
+      - 美国ad7
+      - 荷兰ad
+      - 新加坡ad
   - name: 📲 电报信息
     type: select
     proxies:
@@ -992,6 +1022,11 @@ proxy-groups:
       - RELAY--064
       - RELAY--062
       - RELAY--063
+      - US_182
+      - 日本ad
+      - 美国ad7
+      - 荷兰ad
+      - 新加坡ad
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1131,6 +1166,11 @@ proxy-groups:
       - RELAY--064
       - RELAY--062
       - RELAY--063
+      - US_182
+      - 日本ad
+      - 美国ad7
+      - 荷兰ad
+      - 新加坡ad
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1279,6 +1319,11 @@ proxy-groups:
       - RELAY--064
       - RELAY--062
       - RELAY--063
+      - US_182
+      - 日本ad
+      - 美国ad7
+      - 荷兰ad
+      - 新加坡ad
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
