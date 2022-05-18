@@ -5,6 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 香港-HK, server: gzzv.v2ssyhub.xyz, port: 55121, type: vmess, uuid: a74bb667-e0f9-427b-8145-e42da3ec4be7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡-SG, server: gzzv.v2ssyhub.xyz, port: 62110, type: vmess, uuid: a74bb667-e0f9-427b-8145-e42da3ec4be7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡-SG2, server: gzzv.v2ssyhub.xyz, port: 62112, type: vmess, uuid: a74bb667-e0f9-427b-8145-e42da3ec4be7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡-tSG3, server: gzzv.v2ssyhub.xyz, port: 62104, type: vmess, uuid: a74bb667-e0f9-427b-8145-e42da3ec4be7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本-JP, server: gzzv.v2ssyhub.xyz, port: 62107, type: vmess, uuid: a74bb667-e0f9-427b-8145-e42da3ec4be7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本-JP2, server: gzzv.v2ssyhub.xyz, port: 62105, type: vmess, uuid: a74bb667-e0f9-427b-8145-e42da3ec4be7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韩国-KR, server: gzzv.v2ssyhub.xyz, port: 62113, type: vmess, uuid: a74bb667-e0f9-427b-8145-e42da3ec4be7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国-CN, server: gzzv.v2ssyhub.xyz, port: 62109, type: vmess, uuid: a74bb667-e0f9-427b-8145-e42da3ec4be7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 匈牙利-HU, server: gzzv.v2ssyhub.xyz, port: 62111, type: vmess, uuid: a74bb667-e0f9-427b-8145-e42da3ec4be7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯-RU, server: 213.183.53.179, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
   - {name: TG频道:t.me/ruofengfx dip, server: 183.232.56.182, port: 11005, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
   - {name: TG频道:t.me/ruofengfx, server: 112.65.95.60, port: 11424, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
   - {name: 土耳其 TG频道:t.me/ruofengfx★, server: gz2.52168.xyz, port: 12104, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
@@ -42,6 +52,16 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 香港-HK
+      - 新加坡-SG
+      - 新加坡-SG2
+      - 新加坡-tSG3
+      - 日本-JP
+      - 日本-JP2
+      - 韩国-KR
+      - 中国-CN
+      - 匈牙利-HU
+      - 俄罗斯-RU
       - TG频道:t.me/ruofengfx dip
       - TG频道:t.me/ruofengfx
       - 土耳其 TG频道:t.me/ruofengfx★
@@ -78,6 +98,16 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 香港-HK
+      - 新加坡-SG
+      - 新加坡-SG2
+      - 新加坡-tSG3
+      - 日本-JP
+      - 日本-JP2
+      - 韩国-KR
+      - 中国-CN
+      - 匈牙利-HU
+      - 俄罗斯-RU
       - TG频道:t.me/ruofengfx dip
       - TG频道:t.me/ruofengfx
       - 土耳其 TG频道:t.me/ruofengfx★
@@ -115,6 +145,16 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 香港-HK
+      - 新加坡-SG
+      - 新加坡-SG2
+      - 新加坡-tSG3
+      - 日本-JP
+      - 日本-JP2
+      - 韩国-KR
+      - 中国-CN
+      - 匈牙利-HU
+      - 俄罗斯-RU
       - TG频道:t.me/ruofengfx dip
       - TG频道:t.me/ruofengfx
       - 土耳其 TG频道:t.me/ruofengfx★
@@ -164,6 +204,16 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 香港-HK
+      - 新加坡-SG
+      - 新加坡-SG2
+      - 新加坡-tSG3
+      - 日本-JP
+      - 日本-JP2
+      - 韩国-KR
+      - 中国-CN
+      - 匈牙利-HU
+      - 俄罗斯-RU
       - TG频道:t.me/ruofengfx dip
       - TG频道:t.me/ruofengfx
       - 土耳其 TG频道:t.me/ruofengfx★
@@ -199,6 +249,7 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港-HK
       - 香港TG频道:t.me/ruofengfx 4
       - 香港HKT-TG频道:t.me/ruofengfx
       - TG频道:t.me/ruofengfx-香港f
@@ -211,6 +262,16 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 香港-HK
+      - 新加坡-SG
+      - 新加坡-SG2
+      - 新加坡-tSG3
+      - 日本-JP
+      - 日本-JP2
+      - 韩国-KR
+      - 中国-CN
+      - 匈牙利-HU
+      - 俄罗斯-RU
       - TG频道:t.me/ruofengfx dip
       - TG频道:t.me/ruofengfx
       - 土耳其 TG频道:t.me/ruofengfx★
@@ -247,6 +308,16 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 香港-HK
+      - 新加坡-SG
+      - 新加坡-SG2
+      - 新加坡-tSG3
+      - 日本-JP
+      - 日本-JP2
+      - 韩国-KR
+      - 中国-CN
+      - 匈牙利-HU
+      - 俄罗斯-RU
       - TG频道:t.me/ruofengfx dip
       - TG频道:t.me/ruofengfx
       - 土耳其 TG频道:t.me/ruofengfx★
@@ -284,6 +355,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 香港-HK
+      - 新加坡-SG
+      - 新加坡-SG2
+      - 新加坡-tSG3
+      - 日本-JP
+      - 日本-JP2
+      - 韩国-KR
+      - 中国-CN
+      - 匈牙利-HU
+      - 俄罗斯-RU
       - TG频道:t.me/ruofengfx dip
       - TG频道:t.me/ruofengfx
       - 土耳其 TG频道:t.me/ruofengfx★
@@ -330,6 +411,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 香港-HK
+      - 新加坡-SG
+      - 新加坡-SG2
+      - 新加坡-tSG3
+      - 日本-JP
+      - 日本-JP2
+      - 韩国-KR
+      - 中国-CN
+      - 匈牙利-HU
+      - 俄罗斯-RU
       - TG频道:t.me/ruofengfx dip
       - TG频道:t.me/ruofengfx
       - 土耳其 TG频道:t.me/ruofengfx★
