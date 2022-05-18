@@ -5,391 +5,147 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 加拿大 NTT, server: ca1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: 印度 AWS, server: in1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "台湾 BGP [01]", server: shcn21.qiangdong.xyz, port: 252, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "台湾 BGP [02]", server: shcn22.qiangdong.xyz, port: 252, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "台湾 BGP [03]", server: shcn23.qiangdong.xyz, port: 252, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "台湾 BGP [04]", server: shcn24.qiangdong.xyz, port: 252, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "台湾 CHT [01]", server: cht1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "台湾 CHT [02]", server: cht2.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "台湾 CHT [03]", server: cht3.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "台湾 HINET [01]", server: hinet1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "台湾 HINET [02]", server: hinet2.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "台湾 HINET [03]", server: hinet3.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "台湾 HINET [04]", server: hinet4.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "台湾 HINET [05]", server: hinet5.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: 台湾 Seed, server: seed1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "德国 BGP [01]", server: shcn21.qiangdong.xyz, port: 752, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "德国 BGP [02]", server: shcn22.qiangdong.xyz, port: 752, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "德国 BGP [03]", server: shcn23.qiangdong.xyz, port: 752, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "德国 BGP [04]", server: shcn24.qiangdong.xyz, port: 752, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: 德国 NTT, server: de1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: 新加坡 Aliyun 01, server: 8.219.136.142, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: 新加坡 Aliyun 02, server: 8.219.139.93, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: 新加坡 Aliyun 03, server: 8.219.132.111, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: 新加坡 Aliyun 04, server: 8.219.40.236, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "新加坡 BGP [01]", server: shcn21.qiangdong.xyz, port: 452, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "新加坡 BGP [02]", server: shcn22.qiangdong.xyz, port: 452, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "新加坡 BGP [03]", server: shcn23.qiangdong.xyz, port: 452, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "新加坡 BGP [04]", server: shcn24.qiangdong.xyz, port: 452, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: 新加坡 IEPL, server: 120.232.214.242, port: 27671, type: ss, cipher: rc4-md5, password: xTaMpV, udp: true}
-  - {name: 新加坡 NTT 01, server: sg1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: 新加坡 NTT 02, server: sg2.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: 日本 5G, server: 54.199.233.160, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "日本 BGP [01]", server: shcn21.qiangdong.xyz, port: 352, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "日本 BGP [02]", server: shcn22.qiangdong.xyz, port: 352, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "日本 BGP [03]", server: shcn23.qiangdong.xyz, port: 352, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "日本 BGP [04]", server: shcn24.qiangdong.xyz, port: 352, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: 日本 IIJ, server: 198.144.166.45, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: 日本 KDDI, server: 211.9.220.55, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "日本 NTT [01]", server: 164.70.127.91, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "日本 NTT [02]", server: jp2.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "日本 NTT [03]", server: jp3.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: 美国 5G, server: 15.254.2.249, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "美国 BGP [01]", server: shcn21.qiangdong.xyz, port: 552, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "美国 BGP [02]", server: shcn22.qiangdong.xyz, port: 552, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "美国 BGP [03]", server: shcn23.qiangdong.xyz, port: 552, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "美国 BGP [04]", server: shcn24.qiangdong.xyz, port: 552, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "美国 GIA [01]", server: 154.17.21.43, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "美国 GIA [02]", server: 154.17.21.45, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "美国 NTT [01]", server: 136.175.176.161, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "美国 NTT [02]", server: 136.175.176.191, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: 英国 5G, server: 3.8.20.143, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "英国 BGP [01]", server: shcn21.qiangdong.xyz, port: 852, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "英国 BGP [02]", server: shcn22.qiangdong.xyz, port: 852, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "英国 BGP [03]", server: shcn23.qiangdong.xyz, port: 852, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "英国 BGP [04]", server: shcn24.qiangdong.xyz, port: 852, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: 英国 Cogent, server: 185.237.99.105, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: 英国 GTT, server: 194.50.1.11, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: 菲律宾 ETPI, server: ph1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: 阿根廷 IPXON, server: 190.103.176.51, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: 韩国 5G, server: 3.35.78.82, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "韩国 BGP [01]", server: shcn21.qiangdong.xyz, port: 652, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "韩国 BGP [02]", server: shcn22.qiangdong.xyz, port: 652, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "韩国 BGP [03]", server: shcn23.qiangdong.xyz, port: 652, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "韩国 BGP [04]", server: shcn24.qiangdong.xyz, port: 652, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: 韩国 NTT, server: kr1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "香港 BGP [01]", server: shcn21.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "香港 BGP [02]", server: shcn22.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "香港 BGP [03]", server: shcn23.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "香港 BGP [04]", server: shcn24.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "香港 HKT [01]", server: hkt1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "香港 HKT [02]", server: hkt2.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "香港 HKT [03]", server: hkt3.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "香港 HKT [04]", server: hkt4.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "香港 HKT [06]", server: hkt6.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "香港 IEPL [01]", server: 120.232.214.40, port: 27671, type: ss, cipher: rc4-md5, password: xTaMpV, udp: true}
-  - {name: "香港 IEPL [02]", server: 120.232.214.150, port: 27671, type: ss, cipher: rc4-md5, password: xTaMpV, udp: true}
-  - {name: "香港 IEPL [03]", server: 120.232.82.220, port: 27671, type: ss, cipher: rc4-md5, password: xTaMpV, udp: true}
-  - {name: "香港 IEPL [04]", server: 120.232.214.80, port: 27671, type: ss, cipher: rc4-md5, password: xTaMpV, udp: true}
-  - {name: "香港 IEPL [05]", server: 120.232.214.97, port: 27671, type: ss, cipher: rc4-md5, password: xTaMpV, udp: true}
-  - {name: "香港 IEPL [06]", server: 120.232.214.99, port: 27671, type: ss, cipher: rc4-md5, password: xTaMpV, udp: true}
-  - {name: "香港 IEPL [07]", server: 120.232.82.190, port: 27671, type: ss, cipher: rc4-md5, password: xTaMpV, udp: true}
-  - {name: "香港 IEPL [08]", server: 120.233.10.192, port: 27671, type: ss, cipher: rc4-md5, password: xTaMpV, udp: true}
-  - {name: "香港 NTT [01]", server: 103.135.249.22, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "香港 NTT [02]", server: 103.135.249.25, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "香港 NTT [03]", server: 103.135.249.30, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "香港 NTT [04]", server: 103.135.249.35, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "香港 NTT [05]", server: 103.135.248.171, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "香港 NTT [06]", server: 203.175.15.14, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "香港 NTT [07]", server: 203.175.15.15, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "香港 NTT [08]", server: 203.175.13.172, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "香港 NTT [09]", server: 103.138.75.127, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
-  - {name: "香港 NTT [10]", server: 103.138.75.190, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 361ba11228.wns.windows.com}, udp: true}
+  - {name: TG频道:t.me/ruofengfx dip, server: 183.232.56.182, port: 11005, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: TG频道:t.me/ruofengfx, server: 112.65.95.60, port: 11424, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 土耳其 TG频道:t.me/ruofengfx★, server: gz2.52168.xyz, port: 12104, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: TG频道:t.me/ruofengfx 2, server: 112.65.95.60, port: 11429, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: TG频道:t.me/ruofengfx 3, server: 183.232.56.182, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 香港TG频道:t.me/ruofengfx 4, server: 112.65.95.60, port: 11420, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
+  - {name: TG频道:t.me/ruofengfx 7, server: 112.65.95.60, port: 11427, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 德国 TG频道:t.me/ruofengfx★, server: gz2.52168.xyz, port: 12101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 香港HKT-TG频道:t.me/ruofengfx, server: 183.232.56.182, port: 11802, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: TG频道:t.me/ruofengfx 8, server: 183.232.56.182, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: TG频道:t.me/ruofengfx-香港f, server: 183.232.56.182, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 美国TG频道:t.me/ruofengfx 26, server: clash2.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯TG频道:t.me/ruofengfx 4, server: gz2.52168.xyz, port: 12103, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 美国TG频道:t.me/ruofengfx 9, server: ssr112.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: LT_TG频道:t.me/ruofengfx, server: 213.183.53.177, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: 香港TG频道:t.me/ruofengfx 10, server: 112.65.95.60, port: 11421, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: LT_TG频道:t.me/ruofengfx 47, server: 213.183.53.177, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: LT_TG频道:t.me/ruofengfx 49, server: 213.183.53.177, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: LT_TG频道:t.me/ruofengfx 50, server: 213.183.53.177, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: TG频道:t.me/ruofengfx-SG, server: 112.65.95.60, port: 11422, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: LT_TG频道:t.me/ruofengfx 45, server: 213.183.53.177, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: 台中TG频道:t.me/ruofengfx, server: 183.232.56.182, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 泰国 TG频道:t.me/ruofengfx★, server: gz2.52168.xyz, port: 12109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: TG频道:t.me/ruofengfx33, server: 183.232.56.182, port: 35247, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 台湾 TG频道:t.me/ruofengfx 44, server: gz2.52168.xyz, port: 12105, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 日本 TG频道:t.me/ruofengfx)★, server: gz2.52168.xyz, port: 12107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: ZZ_TG频道:t.me/ruofengfx85, server: 103.172.116.9, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: 新加坡(TG频道:t.me/ruofengfx), server: gz2.52168.xyz, port: 12106, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 乌克兰 TG频道:t.me/ruofengfx★, server: gz2.52168.xyz, port: 12110, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: TG频道:t.me/ruofengfx55, server: 112.65.95.60, port: 11423, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: TG频道:t.me/ruofengfx66, server: 183.232.56.182, port: 11804, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 加拿大 NTT
-      - 印度 AWS
-      - 台湾 BGP [01]
-      - 台湾 BGP [02]
-      - 台湾 BGP [03]
-      - 台湾 BGP [04]
-      - 台湾 CHT [01]
-      - 台湾 CHT [02]
-      - 台湾 CHT [03]
-      - 台湾 HINET [01]
-      - 台湾 HINET [02]
-      - 台湾 HINET [03]
-      - 台湾 HINET [04]
-      - 台湾 HINET [05]
-      - 台湾 Seed
-      - 德国 BGP [01]
-      - 德国 BGP [02]
-      - 德国 BGP [03]
-      - 德国 BGP [04]
-      - 德国 NTT
-      - 新加坡 Aliyun 01
-      - 新加坡 Aliyun 02
-      - 新加坡 Aliyun 03
-      - 新加坡 Aliyun 04
-      - 新加坡 BGP [01]
-      - 新加坡 BGP [02]
-      - 新加坡 BGP [03]
-      - 新加坡 BGP [04]
-      - 新加坡 IEPL
-      - 新加坡 NTT 01
-      - 新加坡 NTT 02
-      - 日本 5G
-      - 日本 BGP [01]
-      - 日本 BGP [02]
-      - 日本 BGP [03]
-      - 日本 BGP [04]
-      - 日本 IIJ
-      - 日本 KDDI
-      - 日本 NTT [01]
-      - 日本 NTT [02]
-      - 日本 NTT [03]
-      - 美国 5G
-      - 美国 BGP [01]
-      - 美国 BGP [02]
-      - 美国 BGP [03]
-      - 美国 BGP [04]
-      - 美国 GIA [01]
-      - 美国 GIA [02]
-      - 美国 NTT [01]
-      - 美国 NTT [02]
-      - 英国 5G
-      - 英国 BGP [01]
-      - 英国 BGP [02]
-      - 英国 BGP [03]
-      - 英国 BGP [04]
-      - 英国 Cogent
-      - 英国 GTT
-      - 菲律宾 ETPI
-      - 阿根廷 IPXON
-      - 韩国 5G
-      - 韩国 BGP [01]
-      - 韩国 BGP [02]
-      - 韩国 BGP [03]
-      - 韩国 BGP [04]
-      - 韩国 NTT
-      - 香港 BGP [01]
-      - 香港 BGP [02]
-      - 香港 BGP [03]
-      - 香港 BGP [04]
-      - 香港 HKT [01]
-      - 香港 HKT [02]
-      - 香港 HKT [03]
-      - 香港 HKT [04]
-      - 香港 HKT [06]
-      - 香港 IEPL [01]
-      - 香港 IEPL [02]
-      - 香港 IEPL [03]
-      - 香港 IEPL [04]
-      - 香港 IEPL [05]
-      - 香港 IEPL [06]
-      - 香港 IEPL [07]
-      - 香港 IEPL [08]
-      - 香港 NTT [01]
-      - 香港 NTT [02]
-      - 香港 NTT [03]
-      - 香港 NTT [04]
-      - 香港 NTT [05]
-      - 香港 NTT [06]
-      - 香港 NTT [07]
-      - 香港 NTT [08]
-      - 香港 NTT [09]
-      - 香港 NTT [10]
+      - TG频道:t.me/ruofengfx dip
+      - TG频道:t.me/ruofengfx
+      - 土耳其 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx 2
+      - TG频道:t.me/ruofengfx 3
+      - 香港TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 7
+      - 德国 TG频道:t.me/ruofengfx★
+      - 香港HKT-TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx-香港f
+      - 美国TG频道:t.me/ruofengfx 26
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 美国TG频道:t.me/ruofengfx 9
+      - LT_TG频道:t.me/ruofengfx
+      - 香港TG频道:t.me/ruofengfx 10
+      - LT_TG频道:t.me/ruofengfx 47
+      - LT_TG频道:t.me/ruofengfx 49
+      - LT_TG频道:t.me/ruofengfx 50
+      - TG频道:t.me/ruofengfx-SG
+      - LT_TG频道:t.me/ruofengfx 45
+      - 台中TG频道:t.me/ruofengfx
+      - 泰国 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx33
+      - 台湾 TG频道:t.me/ruofengfx 44
+      - 日本 TG频道:t.me/ruofengfx)★
+      - ZZ_TG频道:t.me/ruofengfx85
+      - 新加坡(TG频道:t.me/ruofengfx)
+      - 乌克兰 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx55
+      - TG频道:t.me/ruofengfx66
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 加拿大 NTT
-      - 印度 AWS
-      - 台湾 BGP [01]
-      - 台湾 BGP [02]
-      - 台湾 BGP [03]
-      - 台湾 BGP [04]
-      - 台湾 CHT [01]
-      - 台湾 CHT [02]
-      - 台湾 CHT [03]
-      - 台湾 HINET [01]
-      - 台湾 HINET [02]
-      - 台湾 HINET [03]
-      - 台湾 HINET [04]
-      - 台湾 HINET [05]
-      - 台湾 Seed
-      - 德国 BGP [01]
-      - 德国 BGP [02]
-      - 德国 BGP [03]
-      - 德国 BGP [04]
-      - 德国 NTT
-      - 新加坡 Aliyun 01
-      - 新加坡 Aliyun 02
-      - 新加坡 Aliyun 03
-      - 新加坡 Aliyun 04
-      - 新加坡 BGP [01]
-      - 新加坡 BGP [02]
-      - 新加坡 BGP [03]
-      - 新加坡 BGP [04]
-      - 新加坡 IEPL
-      - 新加坡 NTT 01
-      - 新加坡 NTT 02
-      - 日本 5G
-      - 日本 BGP [01]
-      - 日本 BGP [02]
-      - 日本 BGP [03]
-      - 日本 BGP [04]
-      - 日本 IIJ
-      - 日本 KDDI
-      - 日本 NTT [01]
-      - 日本 NTT [02]
-      - 日本 NTT [03]
-      - 美国 5G
-      - 美国 BGP [01]
-      - 美国 BGP [02]
-      - 美国 BGP [03]
-      - 美国 BGP [04]
-      - 美国 GIA [01]
-      - 美国 GIA [02]
-      - 美国 NTT [01]
-      - 美国 NTT [02]
-      - 英国 5G
-      - 英国 BGP [01]
-      - 英国 BGP [02]
-      - 英国 BGP [03]
-      - 英国 BGP [04]
-      - 英国 Cogent
-      - 英国 GTT
-      - 菲律宾 ETPI
-      - 阿根廷 IPXON
-      - 韩国 5G
-      - 韩国 BGP [01]
-      - 韩国 BGP [02]
-      - 韩国 BGP [03]
-      - 韩国 BGP [04]
-      - 韩国 NTT
-      - 香港 BGP [01]
-      - 香港 BGP [02]
-      - 香港 BGP [03]
-      - 香港 BGP [04]
-      - 香港 HKT [01]
-      - 香港 HKT [02]
-      - 香港 HKT [03]
-      - 香港 HKT [04]
-      - 香港 HKT [06]
-      - 香港 IEPL [01]
-      - 香港 IEPL [02]
-      - 香港 IEPL [03]
-      - 香港 IEPL [04]
-      - 香港 IEPL [05]
-      - 香港 IEPL [06]
-      - 香港 IEPL [07]
-      - 香港 IEPL [08]
-      - 香港 NTT [01]
-      - 香港 NTT [02]
-      - 香港 NTT [03]
-      - 香港 NTT [04]
-      - 香港 NTT [05]
-      - 香港 NTT [06]
-      - 香港 NTT [07]
-      - 香港 NTT [08]
-      - 香港 NTT [09]
-      - 香港 NTT [10]
+      - TG频道:t.me/ruofengfx dip
+      - TG频道:t.me/ruofengfx
+      - 土耳其 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx 2
+      - TG频道:t.me/ruofengfx 3
+      - 香港TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 7
+      - 德国 TG频道:t.me/ruofengfx★
+      - 香港HKT-TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx-香港f
+      - 美国TG频道:t.me/ruofengfx 26
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 美国TG频道:t.me/ruofengfx 9
+      - LT_TG频道:t.me/ruofengfx
+      - 香港TG频道:t.me/ruofengfx 10
+      - LT_TG频道:t.me/ruofengfx 47
+      - LT_TG频道:t.me/ruofengfx 49
+      - LT_TG频道:t.me/ruofengfx 50
+      - TG频道:t.me/ruofengfx-SG
+      - LT_TG频道:t.me/ruofengfx 45
+      - 台中TG频道:t.me/ruofengfx
+      - 泰国 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx33
+      - 台湾 TG频道:t.me/ruofengfx 44
+      - 日本 TG频道:t.me/ruofengfx)★
+      - ZZ_TG频道:t.me/ruofengfx85
+      - 新加坡(TG频道:t.me/ruofengfx)
+      - 乌克兰 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx55
+      - TG频道:t.me/ruofengfx66
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 加拿大 NTT
-      - 印度 AWS
-      - 台湾 BGP [01]
-      - 台湾 BGP [02]
-      - 台湾 BGP [03]
-      - 台湾 BGP [04]
-      - 台湾 CHT [01]
-      - 台湾 CHT [02]
-      - 台湾 CHT [03]
-      - 台湾 HINET [01]
-      - 台湾 HINET [02]
-      - 台湾 HINET [03]
-      - 台湾 HINET [04]
-      - 台湾 HINET [05]
-      - 台湾 Seed
-      - 德国 BGP [01]
-      - 德国 BGP [02]
-      - 德国 BGP [03]
-      - 德国 BGP [04]
-      - 德国 NTT
-      - 新加坡 Aliyun 01
-      - 新加坡 Aliyun 02
-      - 新加坡 Aliyun 03
-      - 新加坡 Aliyun 04
-      - 新加坡 BGP [01]
-      - 新加坡 BGP [02]
-      - 新加坡 BGP [03]
-      - 新加坡 BGP [04]
-      - 新加坡 IEPL
-      - 新加坡 NTT 01
-      - 新加坡 NTT 02
-      - 日本 5G
-      - 日本 BGP [01]
-      - 日本 BGP [02]
-      - 日本 BGP [03]
-      - 日本 BGP [04]
-      - 日本 IIJ
-      - 日本 KDDI
-      - 日本 NTT [01]
-      - 日本 NTT [02]
-      - 日本 NTT [03]
-      - 美国 5G
-      - 美国 BGP [01]
-      - 美国 BGP [02]
-      - 美国 BGP [03]
-      - 美国 BGP [04]
-      - 美国 GIA [01]
-      - 美国 GIA [02]
-      - 美国 NTT [01]
-      - 美国 NTT [02]
-      - 英国 5G
-      - 英国 BGP [01]
-      - 英国 BGP [02]
-      - 英国 BGP [03]
-      - 英国 BGP [04]
-      - 英国 Cogent
-      - 英国 GTT
-      - 菲律宾 ETPI
-      - 阿根廷 IPXON
-      - 韩国 5G
-      - 韩国 BGP [01]
-      - 韩国 BGP [02]
-      - 韩国 BGP [03]
-      - 韩国 BGP [04]
-      - 韩国 NTT
-      - 香港 BGP [01]
-      - 香港 BGP [02]
-      - 香港 BGP [03]
-      - 香港 BGP [04]
-      - 香港 HKT [01]
-      - 香港 HKT [02]
-      - 香港 HKT [03]
-      - 香港 HKT [04]
-      - 香港 HKT [06]
-      - 香港 IEPL [01]
-      - 香港 IEPL [02]
-      - 香港 IEPL [03]
-      - 香港 IEPL [04]
-      - 香港 IEPL [05]
-      - 香港 IEPL [06]
-      - 香港 IEPL [07]
-      - 香港 IEPL [08]
-      - 香港 NTT [01]
-      - 香港 NTT [02]
-      - 香港 NTT [03]
-      - 香港 NTT [04]
-      - 香港 NTT [05]
-      - 香港 NTT [06]
-      - 香港 NTT [07]
-      - 香港 NTT [08]
-      - 香港 NTT [09]
-      - 香港 NTT [10]
+      - TG频道:t.me/ruofengfx dip
+      - TG频道:t.me/ruofengfx
+      - 土耳其 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx 2
+      - TG频道:t.me/ruofengfx 3
+      - 香港TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 7
+      - 德国 TG频道:t.me/ruofengfx★
+      - 香港HKT-TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx-香港f
+      - 美国TG频道:t.me/ruofengfx 26
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 美国TG频道:t.me/ruofengfx 9
+      - LT_TG频道:t.me/ruofengfx
+      - 香港TG频道:t.me/ruofengfx 10
+      - LT_TG频道:t.me/ruofengfx 47
+      - LT_TG频道:t.me/ruofengfx 49
+      - LT_TG频道:t.me/ruofengfx 50
+      - TG频道:t.me/ruofengfx-SG
+      - LT_TG频道:t.me/ruofengfx 45
+      - 台中TG频道:t.me/ruofengfx
+      - 泰国 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx33
+      - 台湾 TG频道:t.me/ruofengfx 44
+      - 日本 TG频道:t.me/ruofengfx)★
+      - ZZ_TG频道:t.me/ruofengfx85
+      - 新加坡(TG频道:t.me/ruofengfx)
+      - 乌克兰 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx55
+      - TG频道:t.me/ruofengfx66
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -408,435 +164,157 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 加拿大 NTT
-      - 印度 AWS
-      - 台湾 BGP [01]
-      - 台湾 BGP [02]
-      - 台湾 BGP [03]
-      - 台湾 BGP [04]
-      - 台湾 CHT [01]
-      - 台湾 CHT [02]
-      - 台湾 CHT [03]
-      - 台湾 HINET [01]
-      - 台湾 HINET [02]
-      - 台湾 HINET [03]
-      - 台湾 HINET [04]
-      - 台湾 HINET [05]
-      - 台湾 Seed
-      - 德国 BGP [01]
-      - 德国 BGP [02]
-      - 德国 BGP [03]
-      - 德国 BGP [04]
-      - 德国 NTT
-      - 新加坡 Aliyun 01
-      - 新加坡 Aliyun 02
-      - 新加坡 Aliyun 03
-      - 新加坡 Aliyun 04
-      - 新加坡 BGP [01]
-      - 新加坡 BGP [02]
-      - 新加坡 BGP [03]
-      - 新加坡 BGP [04]
-      - 新加坡 IEPL
-      - 新加坡 NTT 01
-      - 新加坡 NTT 02
-      - 日本 5G
-      - 日本 BGP [01]
-      - 日本 BGP [02]
-      - 日本 BGP [03]
-      - 日本 BGP [04]
-      - 日本 IIJ
-      - 日本 KDDI
-      - 日本 NTT [01]
-      - 日本 NTT [02]
-      - 日本 NTT [03]
-      - 美国 5G
-      - 美国 BGP [01]
-      - 美国 BGP [02]
-      - 美国 BGP [03]
-      - 美国 BGP [04]
-      - 美国 GIA [01]
-      - 美国 GIA [02]
-      - 美国 NTT [01]
-      - 美国 NTT [02]
-      - 英国 5G
-      - 英国 BGP [01]
-      - 英国 BGP [02]
-      - 英国 BGP [03]
-      - 英国 BGP [04]
-      - 英国 Cogent
-      - 英国 GTT
-      - 菲律宾 ETPI
-      - 阿根廷 IPXON
-      - 韩国 5G
-      - 韩国 BGP [01]
-      - 韩国 BGP [02]
-      - 韩国 BGP [03]
-      - 韩国 BGP [04]
-      - 韩国 NTT
-      - 香港 BGP [01]
-      - 香港 BGP [02]
-      - 香港 BGP [03]
-      - 香港 BGP [04]
-      - 香港 HKT [01]
-      - 香港 HKT [02]
-      - 香港 HKT [03]
-      - 香港 HKT [04]
-      - 香港 HKT [06]
-      - 香港 IEPL [01]
-      - 香港 IEPL [02]
-      - 香港 IEPL [03]
-      - 香港 IEPL [04]
-      - 香港 IEPL [05]
-      - 香港 IEPL [06]
-      - 香港 IEPL [07]
-      - 香港 IEPL [08]
-      - 香港 NTT [01]
-      - 香港 NTT [02]
-      - 香港 NTT [03]
-      - 香港 NTT [04]
-      - 香港 NTT [05]
-      - 香港 NTT [06]
-      - 香港 NTT [07]
-      - 香港 NTT [08]
-      - 香港 NTT [09]
-      - 香港 NTT [10]
+      - TG频道:t.me/ruofengfx dip
+      - TG频道:t.me/ruofengfx
+      - 土耳其 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx 2
+      - TG频道:t.me/ruofengfx 3
+      - 香港TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 7
+      - 德国 TG频道:t.me/ruofengfx★
+      - 香港HKT-TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx-香港f
+      - 美国TG频道:t.me/ruofengfx 26
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 美国TG频道:t.me/ruofengfx 9
+      - LT_TG频道:t.me/ruofengfx
+      - 香港TG频道:t.me/ruofengfx 10
+      - LT_TG频道:t.me/ruofengfx 47
+      - LT_TG频道:t.me/ruofengfx 49
+      - LT_TG频道:t.me/ruofengfx 50
+      - TG频道:t.me/ruofengfx-SG
+      - LT_TG频道:t.me/ruofengfx 45
+      - 台中TG频道:t.me/ruofengfx
+      - 泰国 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx33
+      - 台湾 TG频道:t.me/ruofengfx 44
+      - 日本 TG频道:t.me/ruofengfx)★
+      - ZZ_TG频道:t.me/ruofengfx85
+      - 新加坡(TG频道:t.me/ruofengfx)
+      - 乌克兰 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx55
+      - TG频道:t.me/ruofengfx66
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾 BGP [01]
-      - 台湾 BGP [02]
-      - 台湾 BGP [03]
-      - 台湾 BGP [04]
-      - 台湾 CHT [01]
-      - 台湾 CHT [02]
-      - 台湾 CHT [03]
-      - 台湾 HINET [01]
-      - 台湾 HINET [02]
-      - 台湾 HINET [03]
-      - 台湾 HINET [04]
-      - 台湾 HINET [05]
-      - 台湾 Seed
-      - 香港 BGP [01]
-      - 香港 BGP [02]
-      - 香港 BGP [03]
-      - 香港 BGP [04]
-      - 香港 HKT [01]
-      - 香港 HKT [02]
-      - 香港 HKT [03]
-      - 香港 HKT [04]
-      - 香港 HKT [06]
-      - 香港 IEPL [01]
-      - 香港 IEPL [02]
-      - 香港 IEPL [03]
-      - 香港 IEPL [04]
-      - 香港 IEPL [05]
-      - 香港 IEPL [06]
-      - 香港 IEPL [07]
-      - 香港 IEPL [08]
-      - 香港 NTT [01]
-      - 香港 NTT [02]
-      - 香港 NTT [03]
-      - 香港 NTT [04]
-      - 香港 NTT [05]
-      - 香港 NTT [06]
-      - 香港 NTT [07]
-      - 香港 NTT [08]
-      - 香港 NTT [09]
-      - 香港 NTT [10]
+      - 香港TG频道:t.me/ruofengfx 4
+      - 香港HKT-TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx-香港f
+      - 香港TG频道:t.me/ruofengfx 10
+      - 台中TG频道:t.me/ruofengfx
+      - 台湾 TG频道:t.me/ruofengfx 44
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 加拿大 NTT
-      - 印度 AWS
-      - 台湾 BGP [01]
-      - 台湾 BGP [02]
-      - 台湾 BGP [03]
-      - 台湾 BGP [04]
-      - 台湾 CHT [01]
-      - 台湾 CHT [02]
-      - 台湾 CHT [03]
-      - 台湾 HINET [01]
-      - 台湾 HINET [02]
-      - 台湾 HINET [03]
-      - 台湾 HINET [04]
-      - 台湾 HINET [05]
-      - 台湾 Seed
-      - 德国 BGP [01]
-      - 德国 BGP [02]
-      - 德国 BGP [03]
-      - 德国 BGP [04]
-      - 德国 NTT
-      - 新加坡 Aliyun 01
-      - 新加坡 Aliyun 02
-      - 新加坡 Aliyun 03
-      - 新加坡 Aliyun 04
-      - 新加坡 BGP [01]
-      - 新加坡 BGP [02]
-      - 新加坡 BGP [03]
-      - 新加坡 BGP [04]
-      - 新加坡 IEPL
-      - 新加坡 NTT 01
-      - 新加坡 NTT 02
-      - 日本 5G
-      - 日本 BGP [01]
-      - 日本 BGP [02]
-      - 日本 BGP [03]
-      - 日本 BGP [04]
-      - 日本 IIJ
-      - 日本 KDDI
-      - 日本 NTT [01]
-      - 日本 NTT [02]
-      - 日本 NTT [03]
-      - 美国 5G
-      - 美国 BGP [01]
-      - 美国 BGP [02]
-      - 美国 BGP [03]
-      - 美国 BGP [04]
-      - 美国 GIA [01]
-      - 美国 GIA [02]
-      - 美国 NTT [01]
-      - 美国 NTT [02]
-      - 英国 5G
-      - 英国 BGP [01]
-      - 英国 BGP [02]
-      - 英国 BGP [03]
-      - 英国 BGP [04]
-      - 英国 Cogent
-      - 英国 GTT
-      - 菲律宾 ETPI
-      - 阿根廷 IPXON
-      - 韩国 5G
-      - 韩国 BGP [01]
-      - 韩国 BGP [02]
-      - 韩国 BGP [03]
-      - 韩国 BGP [04]
-      - 韩国 NTT
-      - 香港 BGP [01]
-      - 香港 BGP [02]
-      - 香港 BGP [03]
-      - 香港 BGP [04]
-      - 香港 HKT [01]
-      - 香港 HKT [02]
-      - 香港 HKT [03]
-      - 香港 HKT [04]
-      - 香港 HKT [06]
-      - 香港 IEPL [01]
-      - 香港 IEPL [02]
-      - 香港 IEPL [03]
-      - 香港 IEPL [04]
-      - 香港 IEPL [05]
-      - 香港 IEPL [06]
-      - 香港 IEPL [07]
-      - 香港 IEPL [08]
-      - 香港 NTT [01]
-      - 香港 NTT [02]
-      - 香港 NTT [03]
-      - 香港 NTT [04]
-      - 香港 NTT [05]
-      - 香港 NTT [06]
-      - 香港 NTT [07]
-      - 香港 NTT [08]
-      - 香港 NTT [09]
-      - 香港 NTT [10]
+      - TG频道:t.me/ruofengfx dip
+      - TG频道:t.me/ruofengfx
+      - 土耳其 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx 2
+      - TG频道:t.me/ruofengfx 3
+      - 香港TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 7
+      - 德国 TG频道:t.me/ruofengfx★
+      - 香港HKT-TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx-香港f
+      - 美国TG频道:t.me/ruofengfx 26
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 美国TG频道:t.me/ruofengfx 9
+      - LT_TG频道:t.me/ruofengfx
+      - 香港TG频道:t.me/ruofengfx 10
+      - LT_TG频道:t.me/ruofengfx 47
+      - LT_TG频道:t.me/ruofengfx 49
+      - LT_TG频道:t.me/ruofengfx 50
+      - TG频道:t.me/ruofengfx-SG
+      - LT_TG频道:t.me/ruofengfx 45
+      - 台中TG频道:t.me/ruofengfx
+      - 泰国 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx33
+      - 台湾 TG频道:t.me/ruofengfx 44
+      - 日本 TG频道:t.me/ruofengfx)★
+      - ZZ_TG频道:t.me/ruofengfx85
+      - 新加坡(TG频道:t.me/ruofengfx)
+      - 乌克兰 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx55
+      - TG频道:t.me/ruofengfx66
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 加拿大 NTT
-      - 印度 AWS
-      - 台湾 BGP [01]
-      - 台湾 BGP [02]
-      - 台湾 BGP [03]
-      - 台湾 BGP [04]
-      - 台湾 CHT [01]
-      - 台湾 CHT [02]
-      - 台湾 CHT [03]
-      - 台湾 HINET [01]
-      - 台湾 HINET [02]
-      - 台湾 HINET [03]
-      - 台湾 HINET [04]
-      - 台湾 HINET [05]
-      - 台湾 Seed
-      - 德国 BGP [01]
-      - 德国 BGP [02]
-      - 德国 BGP [03]
-      - 德国 BGP [04]
-      - 德国 NTT
-      - 新加坡 Aliyun 01
-      - 新加坡 Aliyun 02
-      - 新加坡 Aliyun 03
-      - 新加坡 Aliyun 04
-      - 新加坡 BGP [01]
-      - 新加坡 BGP [02]
-      - 新加坡 BGP [03]
-      - 新加坡 BGP [04]
-      - 新加坡 IEPL
-      - 新加坡 NTT 01
-      - 新加坡 NTT 02
-      - 日本 5G
-      - 日本 BGP [01]
-      - 日本 BGP [02]
-      - 日本 BGP [03]
-      - 日本 BGP [04]
-      - 日本 IIJ
-      - 日本 KDDI
-      - 日本 NTT [01]
-      - 日本 NTT [02]
-      - 日本 NTT [03]
-      - 美国 5G
-      - 美国 BGP [01]
-      - 美国 BGP [02]
-      - 美国 BGP [03]
-      - 美国 BGP [04]
-      - 美国 GIA [01]
-      - 美国 GIA [02]
-      - 美国 NTT [01]
-      - 美国 NTT [02]
-      - 英国 5G
-      - 英国 BGP [01]
-      - 英国 BGP [02]
-      - 英国 BGP [03]
-      - 英国 BGP [04]
-      - 英国 Cogent
-      - 英国 GTT
-      - 菲律宾 ETPI
-      - 阿根廷 IPXON
-      - 韩国 5G
-      - 韩国 BGP [01]
-      - 韩国 BGP [02]
-      - 韩国 BGP [03]
-      - 韩国 BGP [04]
-      - 韩国 NTT
-      - 香港 BGP [01]
-      - 香港 BGP [02]
-      - 香港 BGP [03]
-      - 香港 BGP [04]
-      - 香港 HKT [01]
-      - 香港 HKT [02]
-      - 香港 HKT [03]
-      - 香港 HKT [04]
-      - 香港 HKT [06]
-      - 香港 IEPL [01]
-      - 香港 IEPL [02]
-      - 香港 IEPL [03]
-      - 香港 IEPL [04]
-      - 香港 IEPL [05]
-      - 香港 IEPL [06]
-      - 香港 IEPL [07]
-      - 香港 IEPL [08]
-      - 香港 NTT [01]
-      - 香港 NTT [02]
-      - 香港 NTT [03]
-      - 香港 NTT [04]
-      - 香港 NTT [05]
-      - 香港 NTT [06]
-      - 香港 NTT [07]
-      - 香港 NTT [08]
-      - 香港 NTT [09]
-      - 香港 NTT [10]
+      - TG频道:t.me/ruofengfx dip
+      - TG频道:t.me/ruofengfx
+      - 土耳其 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx 2
+      - TG频道:t.me/ruofengfx 3
+      - 香港TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 7
+      - 德国 TG频道:t.me/ruofengfx★
+      - 香港HKT-TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx-香港f
+      - 美国TG频道:t.me/ruofengfx 26
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 美国TG频道:t.me/ruofengfx 9
+      - LT_TG频道:t.me/ruofengfx
+      - 香港TG频道:t.me/ruofengfx 10
+      - LT_TG频道:t.me/ruofengfx 47
+      - LT_TG频道:t.me/ruofengfx 49
+      - LT_TG频道:t.me/ruofengfx 50
+      - TG频道:t.me/ruofengfx-SG
+      - LT_TG频道:t.me/ruofengfx 45
+      - 台中TG频道:t.me/ruofengfx
+      - 泰国 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx33
+      - 台湾 TG频道:t.me/ruofengfx 44
+      - 日本 TG频道:t.me/ruofengfx)★
+      - ZZ_TG频道:t.me/ruofengfx85
+      - 新加坡(TG频道:t.me/ruofengfx)
+      - 乌克兰 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx55
+      - TG频道:t.me/ruofengfx66
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 加拿大 NTT
-      - 印度 AWS
-      - 台湾 BGP [01]
-      - 台湾 BGP [02]
-      - 台湾 BGP [03]
-      - 台湾 BGP [04]
-      - 台湾 CHT [01]
-      - 台湾 CHT [02]
-      - 台湾 CHT [03]
-      - 台湾 HINET [01]
-      - 台湾 HINET [02]
-      - 台湾 HINET [03]
-      - 台湾 HINET [04]
-      - 台湾 HINET [05]
-      - 台湾 Seed
-      - 德国 BGP [01]
-      - 德国 BGP [02]
-      - 德国 BGP [03]
-      - 德国 BGP [04]
-      - 德国 NTT
-      - 新加坡 Aliyun 01
-      - 新加坡 Aliyun 02
-      - 新加坡 Aliyun 03
-      - 新加坡 Aliyun 04
-      - 新加坡 BGP [01]
-      - 新加坡 BGP [02]
-      - 新加坡 BGP [03]
-      - 新加坡 BGP [04]
-      - 新加坡 IEPL
-      - 新加坡 NTT 01
-      - 新加坡 NTT 02
-      - 日本 5G
-      - 日本 BGP [01]
-      - 日本 BGP [02]
-      - 日本 BGP [03]
-      - 日本 BGP [04]
-      - 日本 IIJ
-      - 日本 KDDI
-      - 日本 NTT [01]
-      - 日本 NTT [02]
-      - 日本 NTT [03]
-      - 美国 5G
-      - 美国 BGP [01]
-      - 美国 BGP [02]
-      - 美国 BGP [03]
-      - 美国 BGP [04]
-      - 美国 GIA [01]
-      - 美国 GIA [02]
-      - 美国 NTT [01]
-      - 美国 NTT [02]
-      - 英国 5G
-      - 英国 BGP [01]
-      - 英国 BGP [02]
-      - 英国 BGP [03]
-      - 英国 BGP [04]
-      - 英国 Cogent
-      - 英国 GTT
-      - 菲律宾 ETPI
-      - 阿根廷 IPXON
-      - 韩国 5G
-      - 韩国 BGP [01]
-      - 韩国 BGP [02]
-      - 韩国 BGP [03]
-      - 韩国 BGP [04]
-      - 韩国 NTT
-      - 香港 BGP [01]
-      - 香港 BGP [02]
-      - 香港 BGP [03]
-      - 香港 BGP [04]
-      - 香港 HKT [01]
-      - 香港 HKT [02]
-      - 香港 HKT [03]
-      - 香港 HKT [04]
-      - 香港 HKT [06]
-      - 香港 IEPL [01]
-      - 香港 IEPL [02]
-      - 香港 IEPL [03]
-      - 香港 IEPL [04]
-      - 香港 IEPL [05]
-      - 香港 IEPL [06]
-      - 香港 IEPL [07]
-      - 香港 IEPL [08]
-      - 香港 NTT [01]
-      - 香港 NTT [02]
-      - 香港 NTT [03]
-      - 香港 NTT [04]
-      - 香港 NTT [05]
-      - 香港 NTT [06]
-      - 香港 NTT [07]
-      - 香港 NTT [08]
-      - 香港 NTT [09]
-      - 香港 NTT [10]
+      - TG频道:t.me/ruofengfx dip
+      - TG频道:t.me/ruofengfx
+      - 土耳其 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx 2
+      - TG频道:t.me/ruofengfx 3
+      - 香港TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 7
+      - 德国 TG频道:t.me/ruofengfx★
+      - 香港HKT-TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx-香港f
+      - 美国TG频道:t.me/ruofengfx 26
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 美国TG频道:t.me/ruofengfx 9
+      - LT_TG频道:t.me/ruofengfx
+      - 香港TG频道:t.me/ruofengfx 10
+      - LT_TG频道:t.me/ruofengfx 47
+      - LT_TG频道:t.me/ruofengfx 49
+      - LT_TG频道:t.me/ruofengfx 50
+      - TG频道:t.me/ruofengfx-SG
+      - LT_TG频道:t.me/ruofengfx 45
+      - 台中TG频道:t.me/ruofengfx
+      - 泰国 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx33
+      - 台湾 TG频道:t.me/ruofengfx 44
+      - 日本 TG频道:t.me/ruofengfx)★
+      - ZZ_TG频道:t.me/ruofengfx85
+      - 新加坡(TG频道:t.me/ruofengfx)
+      - 乌克兰 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx55
+      - TG频道:t.me/ruofengfx66
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -852,98 +330,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 加拿大 NTT
-      - 印度 AWS
-      - 台湾 BGP [01]
-      - 台湾 BGP [02]
-      - 台湾 BGP [03]
-      - 台湾 BGP [04]
-      - 台湾 CHT [01]
-      - 台湾 CHT [02]
-      - 台湾 CHT [03]
-      - 台湾 HINET [01]
-      - 台湾 HINET [02]
-      - 台湾 HINET [03]
-      - 台湾 HINET [04]
-      - 台湾 HINET [05]
-      - 台湾 Seed
-      - 德国 BGP [01]
-      - 德国 BGP [02]
-      - 德国 BGP [03]
-      - 德国 BGP [04]
-      - 德国 NTT
-      - 新加坡 Aliyun 01
-      - 新加坡 Aliyun 02
-      - 新加坡 Aliyun 03
-      - 新加坡 Aliyun 04
-      - 新加坡 BGP [01]
-      - 新加坡 BGP [02]
-      - 新加坡 BGP [03]
-      - 新加坡 BGP [04]
-      - 新加坡 IEPL
-      - 新加坡 NTT 01
-      - 新加坡 NTT 02
-      - 日本 5G
-      - 日本 BGP [01]
-      - 日本 BGP [02]
-      - 日本 BGP [03]
-      - 日本 BGP [04]
-      - 日本 IIJ
-      - 日本 KDDI
-      - 日本 NTT [01]
-      - 日本 NTT [02]
-      - 日本 NTT [03]
-      - 美国 5G
-      - 美国 BGP [01]
-      - 美国 BGP [02]
-      - 美国 BGP [03]
-      - 美国 BGP [04]
-      - 美国 GIA [01]
-      - 美国 GIA [02]
-      - 美国 NTT [01]
-      - 美国 NTT [02]
-      - 英国 5G
-      - 英国 BGP [01]
-      - 英国 BGP [02]
-      - 英国 BGP [03]
-      - 英国 BGP [04]
-      - 英国 Cogent
-      - 英国 GTT
-      - 菲律宾 ETPI
-      - 阿根廷 IPXON
-      - 韩国 5G
-      - 韩国 BGP [01]
-      - 韩国 BGP [02]
-      - 韩国 BGP [03]
-      - 韩国 BGP [04]
-      - 韩国 NTT
-      - 香港 BGP [01]
-      - 香港 BGP [02]
-      - 香港 BGP [03]
-      - 香港 BGP [04]
-      - 香港 HKT [01]
-      - 香港 HKT [02]
-      - 香港 HKT [03]
-      - 香港 HKT [04]
-      - 香港 HKT [06]
-      - 香港 IEPL [01]
-      - 香港 IEPL [02]
-      - 香港 IEPL [03]
-      - 香港 IEPL [04]
-      - 香港 IEPL [05]
-      - 香港 IEPL [06]
-      - 香港 IEPL [07]
-      - 香港 IEPL [08]
-      - 香港 NTT [01]
-      - 香港 NTT [02]
-      - 香港 NTT [03]
-      - 香港 NTT [04]
-      - 香港 NTT [05]
-      - 香港 NTT [06]
-      - 香港 NTT [07]
-      - 香港 NTT [08]
-      - 香港 NTT [09]
-      - 香港 NTT [10]
+      - TG频道:t.me/ruofengfx dip
+      - TG频道:t.me/ruofengfx
+      - 土耳其 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx 2
+      - TG频道:t.me/ruofengfx 3
+      - 香港TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 7
+      - 德国 TG频道:t.me/ruofengfx★
+      - 香港HKT-TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx-香港f
+      - 美国TG频道:t.me/ruofengfx 26
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 美国TG频道:t.me/ruofengfx 9
+      - LT_TG频道:t.me/ruofengfx
+      - 香港TG频道:t.me/ruofengfx 10
+      - LT_TG频道:t.me/ruofengfx 47
+      - LT_TG频道:t.me/ruofengfx 49
+      - LT_TG频道:t.me/ruofengfx 50
+      - TG频道:t.me/ruofengfx-SG
+      - LT_TG频道:t.me/ruofengfx 45
+      - 台中TG频道:t.me/ruofengfx
+      - 泰国 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx33
+      - 台湾 TG频道:t.me/ruofengfx 44
+      - 日本 TG频道:t.me/ruofengfx)★
+      - ZZ_TG频道:t.me/ruofengfx85
+      - 新加坡(TG频道:t.me/ruofengfx)
+      - 乌克兰 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx55
+      - TG频道:t.me/ruofengfx66
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
