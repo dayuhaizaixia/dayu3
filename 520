@@ -5,6 +5,22 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: TG频道:t.me/ruofengfx, server: 116.129.254.65, port: 63086, type: vmess, uuid: ba22a02b-4178-39a7-b748-4d0c03b9a674, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: TG频道:t.me/ruofengfx 2, server: 116.129.254.65, port: 63088, type: vmess, uuid: ba22a02b-4178-39a7-b748-4d0c03b9a674, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: TG频道:t.me/ruofengfx 3, server: 116.129.254.78, port: 63087, type: vmess, uuid: ba22a02b-4178-39a7-b748-4d0c03b9a674, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: TG频道:t.me/ruofengfx 4, server: s4.mine.com.cn, port: 3333, type: vmess, uuid: 5eea1f96-6e33-4409-b8b4-a8d3596ec991, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:t.me/ruofengfx 5, server: no2.tinkhub.me, port: 49059, type: vmess, uuid: e0b5aefc-cf8a-4eae-8bdf-1e13531c52e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%257B%2522host%22:%2522www.azure.com%2522%257D"}, udp: true}
+  - {name: TG频道:t.me/ruofengfx 5 2, server: 120.240.168.118, port: 63078, type: vmess, uuid: ba22a02b-4178-39a7-b748-4d0c03b9a674, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 120.240.168.118}, udp: true}
+  - {name: TG频道:t.me/ruofengfx 6, server: 159.27.115.21, port: 63088, type: vmess, uuid: ba22a02b-4178-39a7-b748-4d0c03b9a674, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: TG频道:t.me/ruofengfx 7, server: 116.129.254.78, port: 63086, type: vmess, uuid: ba22a02b-4178-39a7-b748-4d0c03b9a674, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: TG频道:t.me/ruofengfx 8, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG频道:t.me/ruofengfx 9, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG频道:t.me/ruofengfx 10, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG频道:t.me/ruofengfx 11, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG频道:t.me/ruofengfx 12, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG频道:t.me/ruofengfx 13, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG频道:t.me/ruofengfx 14, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG频道:t.me/ruofengfx 15, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: b6040656-96c5-4748-a73c-5a8f15ed7531, udp: true}
   - {name: 新加坡4, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国27, server: rk59.moonfree.top, port: 443, type: vmess, uuid: 9fbb6122-46e7-413b-b29d-749eef446c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rk59.moonfree.top}, udp: true}
   - {name: Relay_🇺🇸US-🇺🇸US_3170, server: 172.67.140.112, port: 443, type: vmess, uuid: 4ac06183-feca-48f8-9f7d-3355bd950e2a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: yzjd01-ublubeu.koyeb.app}, udp: true}
@@ -44,6 +60,22 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 2
+      - TG频道:t.me/ruofengfx 3
+      - TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 5
+      - TG频道:t.me/ruofengfx 5 2
+      - TG频道:t.me/ruofengfx 6
+      - TG频道:t.me/ruofengfx 7
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx 9
+      - TG频道:t.me/ruofengfx 10
+      - TG频道:t.me/ruofengfx 11
+      - TG频道:t.me/ruofengfx 12
+      - TG频道:t.me/ruofengfx 13
+      - TG频道:t.me/ruofengfx 14
+      - TG频道:t.me/ruofengfx 15
       - 新加坡4
       - 美国27
       - Relay_🇺🇸US-🇺🇸US_3170
@@ -82,6 +114,22 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 2
+      - TG频道:t.me/ruofengfx 3
+      - TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 5
+      - TG频道:t.me/ruofengfx 5 2
+      - TG频道:t.me/ruofengfx 6
+      - TG频道:t.me/ruofengfx 7
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx 9
+      - TG频道:t.me/ruofengfx 10
+      - TG频道:t.me/ruofengfx 11
+      - TG频道:t.me/ruofengfx 12
+      - TG频道:t.me/ruofengfx 13
+      - TG频道:t.me/ruofengfx 14
+      - TG频道:t.me/ruofengfx 15
       - 新加坡4
       - 美国27
       - Relay_🇺🇸US-🇺🇸US_3170
@@ -121,6 +169,22 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 2
+      - TG频道:t.me/ruofengfx 3
+      - TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 5
+      - TG频道:t.me/ruofengfx 5 2
+      - TG频道:t.me/ruofengfx 6
+      - TG频道:t.me/ruofengfx 7
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx 9
+      - TG频道:t.me/ruofengfx 10
+      - TG频道:t.me/ruofengfx 11
+      - TG频道:t.me/ruofengfx 12
+      - TG频道:t.me/ruofengfx 13
+      - TG频道:t.me/ruofengfx 14
+      - TG频道:t.me/ruofengfx 15
       - 新加坡4
       - 美国27
       - Relay_🇺🇸US-🇺🇸US_3170
@@ -172,6 +236,22 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 2
+      - TG频道:t.me/ruofengfx 3
+      - TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 5
+      - TG频道:t.me/ruofengfx 5 2
+      - TG频道:t.me/ruofengfx 6
+      - TG频道:t.me/ruofengfx 7
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx 9
+      - TG频道:t.me/ruofengfx 10
+      - TG频道:t.me/ruofengfx 11
+      - TG频道:t.me/ruofengfx 12
+      - TG频道:t.me/ruofengfx 13
+      - TG频道:t.me/ruofengfx 14
+      - TG频道:t.me/ruofengfx 15
       - 新加坡4
       - 美国27
       - Relay_🇺🇸US-🇺🇸US_3170
@@ -217,6 +297,22 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 2
+      - TG频道:t.me/ruofengfx 3
+      - TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 5
+      - TG频道:t.me/ruofengfx 5 2
+      - TG频道:t.me/ruofengfx 6
+      - TG频道:t.me/ruofengfx 7
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx 9
+      - TG频道:t.me/ruofengfx 10
+      - TG频道:t.me/ruofengfx 11
+      - TG频道:t.me/ruofengfx 12
+      - TG频道:t.me/ruofengfx 13
+      - TG频道:t.me/ruofengfx 14
+      - TG频道:t.me/ruofengfx 15
       - 新加坡4
       - 美国27
       - Relay_🇺🇸US-🇺🇸US_3170
@@ -255,6 +351,22 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 2
+      - TG频道:t.me/ruofengfx 3
+      - TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 5
+      - TG频道:t.me/ruofengfx 5 2
+      - TG频道:t.me/ruofengfx 6
+      - TG频道:t.me/ruofengfx 7
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx 9
+      - TG频道:t.me/ruofengfx 10
+      - TG频道:t.me/ruofengfx 11
+      - TG频道:t.me/ruofengfx 12
+      - TG频道:t.me/ruofengfx 13
+      - TG频道:t.me/ruofengfx 14
+      - TG频道:t.me/ruofengfx 15
       - 新加坡4
       - 美国27
       - Relay_🇺🇸US-🇺🇸US_3170
@@ -294,6 +406,22 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 2
+      - TG频道:t.me/ruofengfx 3
+      - TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 5
+      - TG频道:t.me/ruofengfx 5 2
+      - TG频道:t.me/ruofengfx 6
+      - TG频道:t.me/ruofengfx 7
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx 9
+      - TG频道:t.me/ruofengfx 10
+      - TG频道:t.me/ruofengfx 11
+      - TG频道:t.me/ruofengfx 12
+      - TG频道:t.me/ruofengfx 13
+      - TG频道:t.me/ruofengfx 14
+      - TG频道:t.me/ruofengfx 15
       - 新加坡4
       - 美国27
       - Relay_🇺🇸US-🇺🇸US_3170
@@ -342,6 +470,22 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 2
+      - TG频道:t.me/ruofengfx 3
+      - TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 5
+      - TG频道:t.me/ruofengfx 5 2
+      - TG频道:t.me/ruofengfx 6
+      - TG频道:t.me/ruofengfx 7
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx 9
+      - TG频道:t.me/ruofengfx 10
+      - TG频道:t.me/ruofengfx 11
+      - TG频道:t.me/ruofengfx 12
+      - TG频道:t.me/ruofengfx 13
+      - TG频道:t.me/ruofengfx 14
+      - TG频道:t.me/ruofengfx 15
       - 新加坡4
       - 美国27
       - Relay_🇺🇸US-🇺🇸US_3170
