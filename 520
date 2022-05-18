@@ -5,15 +5,46 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: TG频道:t.me/ruofengfx, server: 116.129.254.65, port: 63086, type: vmess, uuid: ba22a02b-4178-39a7-b748-4d0c03b9a674, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: TG频道:t.me/ruofengfx 2, server: 116.129.254.65, port: 63088, type: vmess, uuid: ba22a02b-4178-39a7-b748-4d0c03b9a674, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: TG频道:t.me/ruofengfx 3, server: 116.129.254.78, port: 63087, type: vmess, uuid: ba22a02b-4178-39a7-b748-4d0c03b9a674, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: TG频道:t.me/ruofengfx 4, server: s4.mine.com.cn, port: 3333, type: vmess, uuid: 5eea1f96-6e33-4409-b8b4-a8d3596ec991, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:t.me/ruofengfx dip, server: 183.232.56.182, port: 11005, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: TG频道:t.me/ruofengfx, server: 112.65.95.60, port: 11424, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 土耳其 TG频道:t.me/ruofengfx★, server: gz2.52168.xyz, port: 12104, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: TG频道:t.me/ruofengfx 2, server: 112.65.95.60, port: 11429, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: TG频道:t.me/ruofengfx 3, server: 183.232.56.182, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 香港TG频道:t.me/ruofengfx 4, server: 112.65.95.60, port: 11420, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
+  - {name: TG频道:t.me/ruofengfx 7, server: 112.65.95.60, port: 11427, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 德国 TG频道:t.me/ruofengfx★, server: gz2.52168.xyz, port: 12101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 香港HKT-TG频道:t.me/ruofengfx, server: 183.232.56.182, port: 11802, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: TG频道:t.me/ruofengfx 8, server: 183.232.56.182, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: TG频道:t.me/ruofengfx-香港f, server: 183.232.56.182, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 美国TG频道:t.me/ruofengfx 26, server: clash2.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯TG频道:t.me/ruofengfx 4, server: gz2.52168.xyz, port: 12103, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 美国TG频道:t.me/ruofengfx 9, server: ssr112.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: LT_TG频道:t.me/ruofengfx, server: 213.183.53.177, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: 香港TG频道:t.me/ruofengfx 10, server: 112.65.95.60, port: 11421, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: LT_TG频道:t.me/ruofengfx 47, server: 213.183.53.177, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: LT_TG频道:t.me/ruofengfx 49, server: 213.183.53.177, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: LT_TG频道:t.me/ruofengfx 50, server: 213.183.53.177, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: TG频道:t.me/ruofengfx-SG, server: 112.65.95.60, port: 11422, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: LT_TG频道:t.me/ruofengfx 45, server: 213.183.53.177, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: 台中TG频道:t.me/ruofengfx, server: 183.232.56.182, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 泰国 TG频道:t.me/ruofengfx★, server: gz2.52168.xyz, port: 12109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: TG频道:t.me/ruofengfx33, server: 183.232.56.182, port: 35247, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 台湾 TG频道:t.me/ruofengfx 44, server: gz2.52168.xyz, port: 12105, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 日本 TG频道:t.me/ruofengfx)★, server: gz2.52168.xyz, port: 12107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: ZZ_TG频道:t.me/ruofengfx85, server: 103.172.116.9, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: 新加坡(TG频道:t.me/ruofengfx), server: gz2.52168.xyz, port: 12106, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 乌克兰 TG频道:t.me/ruofengfx★, server: gz2.52168.xyz, port: 12110, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: TG频道:t.me/ruofengfx55, server: 112.65.95.60, port: 11423, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: TG频道:t.me/ruofengfx66, server: 183.232.56.182, port: 11804, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: TG频道:t.me/ruofengfx 4, server: 116.129.254.65, port: 63086, type: vmess, uuid: ba22a02b-4178-39a7-b748-4d0c03b9a674, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: TG频道:t.me/ruofengfx 2 2, server: 116.129.254.65, port: 63088, type: vmess, uuid: ba22a02b-4178-39a7-b748-4d0c03b9a674, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: TG频道:t.me/ruofengfx 3 2, server: 116.129.254.78, port: 63087, type: vmess, uuid: ba22a02b-4178-39a7-b748-4d0c03b9a674, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: TG频道:t.me/ruofengfx 4 2, server: s4.mine.com.cn, port: 3333, type: vmess, uuid: 5eea1f96-6e33-4409-b8b4-a8d3596ec991, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: TG频道:t.me/ruofengfx 5, server: no2.tinkhub.me, port: 49059, type: vmess, uuid: e0b5aefc-cf8a-4eae-8bdf-1e13531c52e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%257B%2522host%22:%2522www.azure.com%2522%257D"}, udp: true}
   - {name: TG频道:t.me/ruofengfx 5 2, server: 120.240.168.118, port: 63078, type: vmess, uuid: ba22a02b-4178-39a7-b748-4d0c03b9a674, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 120.240.168.118}, udp: true}
   - {name: TG频道:t.me/ruofengfx 6, server: 159.27.115.21, port: 63088, type: vmess, uuid: ba22a02b-4178-39a7-b748-4d0c03b9a674, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: TG频道:t.me/ruofengfx 7, server: 116.129.254.78, port: 63086, type: vmess, uuid: ba22a02b-4178-39a7-b748-4d0c03b9a674, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: TG频道:t.me/ruofengfx 8, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG频道:t.me/ruofengfx 7 2, server: 116.129.254.78, port: 63086, type: vmess, uuid: ba22a02b-4178-39a7-b748-4d0c03b9a674, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: TG频道:t.me/ruofengfx 8 2, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: TG频道:t.me/ruofengfx 9, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: TG频道:t.me/ruofengfx 10, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: TG频道:t.me/ruofengfx 11, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
@@ -60,15 +91,46 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - TG频道:t.me/ruofengfx dip
       - TG频道:t.me/ruofengfx
+      - 土耳其 TG频道:t.me/ruofengfx★
       - TG频道:t.me/ruofengfx 2
       - TG频道:t.me/ruofengfx 3
+      - 香港TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 7
+      - 德国 TG频道:t.me/ruofengfx★
+      - 香港HKT-TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx-香港f
+      - 美国TG频道:t.me/ruofengfx 26
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 美国TG频道:t.me/ruofengfx 9
+      - LT_TG频道:t.me/ruofengfx
+      - 香港TG频道:t.me/ruofengfx 10
+      - LT_TG频道:t.me/ruofengfx 47
+      - LT_TG频道:t.me/ruofengfx 49
+      - LT_TG频道:t.me/ruofengfx 50
+      - TG频道:t.me/ruofengfx-SG
+      - LT_TG频道:t.me/ruofengfx 45
+      - 台中TG频道:t.me/ruofengfx
+      - 泰国 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx33
+      - 台湾 TG频道:t.me/ruofengfx 44
+      - 日本 TG频道:t.me/ruofengfx)★
+      - ZZ_TG频道:t.me/ruofengfx85
+      - 新加坡(TG频道:t.me/ruofengfx)
+      - 乌克兰 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx55
+      - TG频道:t.me/ruofengfx66
       - TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 2 2
+      - TG频道:t.me/ruofengfx 3 2
+      - TG频道:t.me/ruofengfx 4 2
       - TG频道:t.me/ruofengfx 5
       - TG频道:t.me/ruofengfx 5 2
       - TG频道:t.me/ruofengfx 6
-      - TG频道:t.me/ruofengfx 7
-      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx 7 2
+      - TG频道:t.me/ruofengfx 8 2
       - TG频道:t.me/ruofengfx 9
       - TG频道:t.me/ruofengfx 10
       - TG频道:t.me/ruofengfx 11
@@ -114,15 +176,46 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - TG频道:t.me/ruofengfx dip
       - TG频道:t.me/ruofengfx
+      - 土耳其 TG频道:t.me/ruofengfx★
       - TG频道:t.me/ruofengfx 2
       - TG频道:t.me/ruofengfx 3
+      - 香港TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 7
+      - 德国 TG频道:t.me/ruofengfx★
+      - 香港HKT-TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx-香港f
+      - 美国TG频道:t.me/ruofengfx 26
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 美国TG频道:t.me/ruofengfx 9
+      - LT_TG频道:t.me/ruofengfx
+      - 香港TG频道:t.me/ruofengfx 10
+      - LT_TG频道:t.me/ruofengfx 47
+      - LT_TG频道:t.me/ruofengfx 49
+      - LT_TG频道:t.me/ruofengfx 50
+      - TG频道:t.me/ruofengfx-SG
+      - LT_TG频道:t.me/ruofengfx 45
+      - 台中TG频道:t.me/ruofengfx
+      - 泰国 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx33
+      - 台湾 TG频道:t.me/ruofengfx 44
+      - 日本 TG频道:t.me/ruofengfx)★
+      - ZZ_TG频道:t.me/ruofengfx85
+      - 新加坡(TG频道:t.me/ruofengfx)
+      - 乌克兰 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx55
+      - TG频道:t.me/ruofengfx66
       - TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 2 2
+      - TG频道:t.me/ruofengfx 3 2
+      - TG频道:t.me/ruofengfx 4 2
       - TG频道:t.me/ruofengfx 5
       - TG频道:t.me/ruofengfx 5 2
       - TG频道:t.me/ruofengfx 6
-      - TG频道:t.me/ruofengfx 7
-      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx 7 2
+      - TG频道:t.me/ruofengfx 8 2
       - TG频道:t.me/ruofengfx 9
       - TG频道:t.me/ruofengfx 10
       - TG频道:t.me/ruofengfx 11
@@ -169,15 +262,46 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - TG频道:t.me/ruofengfx dip
       - TG频道:t.me/ruofengfx
+      - 土耳其 TG频道:t.me/ruofengfx★
       - TG频道:t.me/ruofengfx 2
       - TG频道:t.me/ruofengfx 3
+      - 香港TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 7
+      - 德国 TG频道:t.me/ruofengfx★
+      - 香港HKT-TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx-香港f
+      - 美国TG频道:t.me/ruofengfx 26
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 美国TG频道:t.me/ruofengfx 9
+      - LT_TG频道:t.me/ruofengfx
+      - 香港TG频道:t.me/ruofengfx 10
+      - LT_TG频道:t.me/ruofengfx 47
+      - LT_TG频道:t.me/ruofengfx 49
+      - LT_TG频道:t.me/ruofengfx 50
+      - TG频道:t.me/ruofengfx-SG
+      - LT_TG频道:t.me/ruofengfx 45
+      - 台中TG频道:t.me/ruofengfx
+      - 泰国 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx33
+      - 台湾 TG频道:t.me/ruofengfx 44
+      - 日本 TG频道:t.me/ruofengfx)★
+      - ZZ_TG频道:t.me/ruofengfx85
+      - 新加坡(TG频道:t.me/ruofengfx)
+      - 乌克兰 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx55
+      - TG频道:t.me/ruofengfx66
       - TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 2 2
+      - TG频道:t.me/ruofengfx 3 2
+      - TG频道:t.me/ruofengfx 4 2
       - TG频道:t.me/ruofengfx 5
       - TG频道:t.me/ruofengfx 5 2
       - TG频道:t.me/ruofengfx 6
-      - TG频道:t.me/ruofengfx 7
-      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx 7 2
+      - TG频道:t.me/ruofengfx 8 2
       - TG频道:t.me/ruofengfx 9
       - TG频道:t.me/ruofengfx 10
       - TG频道:t.me/ruofengfx 11
@@ -236,15 +360,46 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - TG频道:t.me/ruofengfx dip
       - TG频道:t.me/ruofengfx
+      - 土耳其 TG频道:t.me/ruofengfx★
       - TG频道:t.me/ruofengfx 2
       - TG频道:t.me/ruofengfx 3
+      - 香港TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 7
+      - 德国 TG频道:t.me/ruofengfx★
+      - 香港HKT-TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx-香港f
+      - 美国TG频道:t.me/ruofengfx 26
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 美国TG频道:t.me/ruofengfx 9
+      - LT_TG频道:t.me/ruofengfx
+      - 香港TG频道:t.me/ruofengfx 10
+      - LT_TG频道:t.me/ruofengfx 47
+      - LT_TG频道:t.me/ruofengfx 49
+      - LT_TG频道:t.me/ruofengfx 50
+      - TG频道:t.me/ruofengfx-SG
+      - LT_TG频道:t.me/ruofengfx 45
+      - 台中TG频道:t.me/ruofengfx
+      - 泰国 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx33
+      - 台湾 TG频道:t.me/ruofengfx 44
+      - 日本 TG频道:t.me/ruofengfx)★
+      - ZZ_TG频道:t.me/ruofengfx85
+      - 新加坡(TG频道:t.me/ruofengfx)
+      - 乌克兰 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx55
+      - TG频道:t.me/ruofengfx66
       - TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 2 2
+      - TG频道:t.me/ruofengfx 3 2
+      - TG频道:t.me/ruofengfx 4 2
       - TG频道:t.me/ruofengfx 5
       - TG频道:t.me/ruofengfx 5 2
       - TG频道:t.me/ruofengfx 6
-      - TG频道:t.me/ruofengfx 7
-      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx 7 2
+      - TG频道:t.me/ruofengfx 8 2
       - TG频道:t.me/ruofengfx 9
       - TG频道:t.me/ruofengfx 10
       - TG频道:t.me/ruofengfx 11
@@ -289,6 +444,12 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港TG频道:t.me/ruofengfx 4
+      - 香港HKT-TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx-香港f
+      - 香港TG频道:t.me/ruofengfx 10
+      - 台中TG频道:t.me/ruofengfx
+      - 台湾 TG频道:t.me/ruofengfx 44
       - 台湾6
       - 香港7
       - 🔰 节点选择
@@ -297,15 +458,46 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - TG频道:t.me/ruofengfx dip
       - TG频道:t.me/ruofengfx
+      - 土耳其 TG频道:t.me/ruofengfx★
       - TG频道:t.me/ruofengfx 2
       - TG频道:t.me/ruofengfx 3
+      - 香港TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 7
+      - 德国 TG频道:t.me/ruofengfx★
+      - 香港HKT-TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx-香港f
+      - 美国TG频道:t.me/ruofengfx 26
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 美国TG频道:t.me/ruofengfx 9
+      - LT_TG频道:t.me/ruofengfx
+      - 香港TG频道:t.me/ruofengfx 10
+      - LT_TG频道:t.me/ruofengfx 47
+      - LT_TG频道:t.me/ruofengfx 49
+      - LT_TG频道:t.me/ruofengfx 50
+      - TG频道:t.me/ruofengfx-SG
+      - LT_TG频道:t.me/ruofengfx 45
+      - 台中TG频道:t.me/ruofengfx
+      - 泰国 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx33
+      - 台湾 TG频道:t.me/ruofengfx 44
+      - 日本 TG频道:t.me/ruofengfx)★
+      - ZZ_TG频道:t.me/ruofengfx85
+      - 新加坡(TG频道:t.me/ruofengfx)
+      - 乌克兰 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx55
+      - TG频道:t.me/ruofengfx66
       - TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 2 2
+      - TG频道:t.me/ruofengfx 3 2
+      - TG频道:t.me/ruofengfx 4 2
       - TG频道:t.me/ruofengfx 5
       - TG频道:t.me/ruofengfx 5 2
       - TG频道:t.me/ruofengfx 6
-      - TG频道:t.me/ruofengfx 7
-      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx 7 2
+      - TG频道:t.me/ruofengfx 8 2
       - TG频道:t.me/ruofengfx 9
       - TG频道:t.me/ruofengfx 10
       - TG频道:t.me/ruofengfx 11
@@ -351,15 +543,46 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - TG频道:t.me/ruofengfx dip
       - TG频道:t.me/ruofengfx
+      - 土耳其 TG频道:t.me/ruofengfx★
       - TG频道:t.me/ruofengfx 2
       - TG频道:t.me/ruofengfx 3
+      - 香港TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 7
+      - 德国 TG频道:t.me/ruofengfx★
+      - 香港HKT-TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx-香港f
+      - 美国TG频道:t.me/ruofengfx 26
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 美国TG频道:t.me/ruofengfx 9
+      - LT_TG频道:t.me/ruofengfx
+      - 香港TG频道:t.me/ruofengfx 10
+      - LT_TG频道:t.me/ruofengfx 47
+      - LT_TG频道:t.me/ruofengfx 49
+      - LT_TG频道:t.me/ruofengfx 50
+      - TG频道:t.me/ruofengfx-SG
+      - LT_TG频道:t.me/ruofengfx 45
+      - 台中TG频道:t.me/ruofengfx
+      - 泰国 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx33
+      - 台湾 TG频道:t.me/ruofengfx 44
+      - 日本 TG频道:t.me/ruofengfx)★
+      - ZZ_TG频道:t.me/ruofengfx85
+      - 新加坡(TG频道:t.me/ruofengfx)
+      - 乌克兰 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx55
+      - TG频道:t.me/ruofengfx66
       - TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 2 2
+      - TG频道:t.me/ruofengfx 3 2
+      - TG频道:t.me/ruofengfx 4 2
       - TG频道:t.me/ruofengfx 5
       - TG频道:t.me/ruofengfx 5 2
       - TG频道:t.me/ruofengfx 6
-      - TG频道:t.me/ruofengfx 7
-      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx 7 2
+      - TG频道:t.me/ruofengfx 8 2
       - TG频道:t.me/ruofengfx 9
       - TG频道:t.me/ruofengfx 10
       - TG频道:t.me/ruofengfx 11
@@ -406,15 +629,46 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - TG频道:t.me/ruofengfx dip
       - TG频道:t.me/ruofengfx
+      - 土耳其 TG频道:t.me/ruofengfx★
       - TG频道:t.me/ruofengfx 2
       - TG频道:t.me/ruofengfx 3
+      - 香港TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 7
+      - 德国 TG频道:t.me/ruofengfx★
+      - 香港HKT-TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx-香港f
+      - 美国TG频道:t.me/ruofengfx 26
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 美国TG频道:t.me/ruofengfx 9
+      - LT_TG频道:t.me/ruofengfx
+      - 香港TG频道:t.me/ruofengfx 10
+      - LT_TG频道:t.me/ruofengfx 47
+      - LT_TG频道:t.me/ruofengfx 49
+      - LT_TG频道:t.me/ruofengfx 50
+      - TG频道:t.me/ruofengfx-SG
+      - LT_TG频道:t.me/ruofengfx 45
+      - 台中TG频道:t.me/ruofengfx
+      - 泰国 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx33
+      - 台湾 TG频道:t.me/ruofengfx 44
+      - 日本 TG频道:t.me/ruofengfx)★
+      - ZZ_TG频道:t.me/ruofengfx85
+      - 新加坡(TG频道:t.me/ruofengfx)
+      - 乌克兰 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx55
+      - TG频道:t.me/ruofengfx66
       - TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 2 2
+      - TG频道:t.me/ruofengfx 3 2
+      - TG频道:t.me/ruofengfx 4 2
       - TG频道:t.me/ruofengfx 5
       - TG频道:t.me/ruofengfx 5 2
       - TG频道:t.me/ruofengfx 6
-      - TG频道:t.me/ruofengfx 7
-      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx 7 2
+      - TG频道:t.me/ruofengfx 8 2
       - TG频道:t.me/ruofengfx 9
       - TG频道:t.me/ruofengfx 10
       - TG频道:t.me/ruofengfx 11
@@ -470,15 +724,46 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - TG频道:t.me/ruofengfx dip
       - TG频道:t.me/ruofengfx
+      - 土耳其 TG频道:t.me/ruofengfx★
       - TG频道:t.me/ruofengfx 2
       - TG频道:t.me/ruofengfx 3
+      - 香港TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 7
+      - 德国 TG频道:t.me/ruofengfx★
+      - 香港HKT-TG频道:t.me/ruofengfx
+      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx-香港f
+      - 美国TG频道:t.me/ruofengfx 26
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 美国TG频道:t.me/ruofengfx 9
+      - LT_TG频道:t.me/ruofengfx
+      - 香港TG频道:t.me/ruofengfx 10
+      - LT_TG频道:t.me/ruofengfx 47
+      - LT_TG频道:t.me/ruofengfx 49
+      - LT_TG频道:t.me/ruofengfx 50
+      - TG频道:t.me/ruofengfx-SG
+      - LT_TG频道:t.me/ruofengfx 45
+      - 台中TG频道:t.me/ruofengfx
+      - 泰国 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx33
+      - 台湾 TG频道:t.me/ruofengfx 44
+      - 日本 TG频道:t.me/ruofengfx)★
+      - ZZ_TG频道:t.me/ruofengfx85
+      - 新加坡(TG频道:t.me/ruofengfx)
+      - 乌克兰 TG频道:t.me/ruofengfx★
+      - TG频道:t.me/ruofengfx55
+      - TG频道:t.me/ruofengfx66
       - TG频道:t.me/ruofengfx 4
+      - TG频道:t.me/ruofengfx 2 2
+      - TG频道:t.me/ruofengfx 3 2
+      - TG频道:t.me/ruofengfx 4 2
       - TG频道:t.me/ruofengfx 5
       - TG频道:t.me/ruofengfx 5 2
       - TG频道:t.me/ruofengfx 6
-      - TG频道:t.me/ruofengfx 7
-      - TG频道:t.me/ruofengfx 8
+      - TG频道:t.me/ruofengfx 7 2
+      - TG频道:t.me/ruofengfx 8 2
       - TG频道:t.me/ruofengfx 9
       - TG频道:t.me/ruofengfx 10
       - TG频道:t.me/ruofengfx 11
