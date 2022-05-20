@@ -139,7 +139,7 @@ proxies:
   - {name: 中国 3, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_26+TG, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 中国 4, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_35+TG@peekfun, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_357, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 中国 5, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 中国 6, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_40+TG, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
@@ -297,7 +297,7 @@ proxy-groups:
       - 中国 3
       - CN_26+TG
       - 中国 4
-      - CN_35+TG@peekfun
+      - CN_357
       - 中国 5
       - 中国 6
       - CN_40+TG
@@ -454,7 +454,7 @@ proxy-groups:
       - 中国 3
       - CN_26+TG
       - 中国 4
-      - CN_35+TG@peekfun
+      - CN_357
       - 中国 5
       - 中国 6
       - CN_40+TG
@@ -612,7 +612,7 @@ proxy-groups:
       - 中国 3
       - CN_26+TG
       - 中国 4
-      - CN_35+TG@peekfun
+      - CN_357
       - 中国 5
       - 中国 6
       - CN_40+TG
@@ -782,7 +782,7 @@ proxy-groups:
       - 中国 3
       - CN_26+TG
       - 中国 4
-      - CN_35+TG@peekfun
+      - CN_357
       - 中国 5
       - 中国 6
       - CN_40+TG
@@ -956,7 +956,7 @@ proxy-groups:
       - 中国 3
       - CN_26+TG
       - 中国 4
-      - CN_35+TG@peekfun
+      - CN_357
       - 中国 5
       - 中国 6
       - CN_40+TG
@@ -1113,7 +1113,7 @@ proxy-groups:
       - 中国 3
       - CN_26+TG
       - 中国 4
-      - CN_35+TG@peekfun
+      - CN_357
       - 中国 5
       - 中国 6
       - CN_40+TG
@@ -1271,7 +1271,7 @@ proxy-groups:
       - 中国 3
       - CN_26+TG
       - 中国 4
-      - CN_35+TG@peekfun
+      - CN_357
       - 中国 5
       - 中国 6
       - CN_40+TG
@@ -1438,7 +1438,7 @@ proxy-groups:
       - 中国 3
       - CN_26+TG
       - 中国 4
-      - CN_35+TG@peekfun
+      - CN_357
       - 中国 5
       - 中国 6
       - CN_40+TG
