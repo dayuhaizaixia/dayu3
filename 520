@@ -5,315 +5,207 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 韩国-KR, server: 3.34.191.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 日本-JP, server: ocrb2.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ocrb2.moonfree.top}, udp: true}
-  - {name: 香港-HK, server: 43.200.6.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 韩国-KR 2, server: 52.78.214.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 新加坡-SG, server: 13.228.78.158, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 香港-HK 2, server: 20.239.71.235, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: 香港-HK 3, server: 20.205.117.99, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: "|12.23Mb", server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_48+2, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TG频道:t.me/ruofengfx 10, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TG频道:t.me/ruofengfx 13, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 中国 5, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 香港 2, server: 47.243.179.53, port: 443, type: vmess, uuid: 72d94f0b-89a8-4b65-8823-353801456144, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /7epEC, ws-headers: {Host: 47.243.179.53}, udp: true}
-  - {name: 香港 2 2, server: 47.243.179.53, port: 443, type: vmess, uuid: 72d94f0b-89a8-4b65-8823-353801456144, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /7epEC, ws-headers: {Host: 47.243.179.53}, udp: true}
-  - {name: CN_26+TG, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_357, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 中国8, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 中国- 8, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_28+TG, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 中国 6, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 中国- 10, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_40+TG, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 中国- 9, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_34+TG, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 中国- 11, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 英国*GB_3, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: e5cf7069-e269-4926-bdb0-fbb39cde6a3a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 英国*GB_1, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: e5cf7069-e269-4926-bdb0-fbb39cde6a3a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 英国*GB_2, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: e5cf7069-e269-4926-bdb0-fbb39cde6a3a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 韩国, server: 43.200.6.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 英国*GB_5, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: e5cf7069-e269-4926-bdb0-fbb39cde6a3a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 英国*GB_4, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: e5cf7069-e269-4926-bdb0-fbb39cde6a3a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡*SG_1, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: e5cf7069-e269-4926-bdb0-fbb39cde6a3a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
   - {name: 新加坡*SG_4, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: e5cf7069-e269-4926-bdb0-fbb39cde6a3a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN_48+2, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国8, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国- 11, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "|12.23Mb", server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 香港 2 2, server: 47.243.179.53, port: 443, type: vmess, uuid: 72d94f0b-89a8-4b65-8823-353801456144, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /7epEC, ws-headers: {Host: 47.243.179.53}, udp: true}
+  - {name: 香港 2, server: 47.243.179.53, port: 443, type: vmess, uuid: 72d94f0b-89a8-4b65-8823-353801456144, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /7epEC, ws-headers: {Host: 47.243.179.53}, udp: true}
   - {name: 新加坡*SG_3, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: e5cf7069-e269-4926-bdb0-fbb39cde6a3a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本 TG频道:t.me/ruofengfx)★, server: gz2.52168.xyz, port: 12107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 泰国 TG频道:t.me/ruofengfx★, server: gz2.52168.xyz, port: 12109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 美国TG频道:t.me/ruofengfx 26, server: clash2.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 土耳其 TG频道:t.me/ruofengfx★, server: gz2.52168.xyz, port: 12104, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 日本-JP, server: ocrb2.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ocrb2.moonfree.top}, udp: true}
+  - {name: 俄罗斯TG频道:t.me/ruofengfx 4, server: gz2.52168.xyz, port: 12103, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 德国 TG频道:t.me/ruofengfx★, server: gz2.52168.xyz, port: 12101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
   - {name: Relay_🇨🇳CN-🏁ZZ_299, server: yy02.nfeng6.pp.ua, port: 2700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
   - {name: 美国TG频道:t.me/ruofengfx 9, server: ssr112.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 土耳其 TG频道:t.me/ruofengfx★, server: gz2.52168.xyz, port: 12104, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 乌克兰 TG频道:t.me/ruofengfx★, server: gz2.52168.xyz, port: 12110, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 德国 TG频道:t.me/ruofengfx★, server: gz2.52168.xyz, port: 12101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 俄罗斯TG频道:t.me/ruofengfx 4, server: gz2.52168.xyz, port: 12103, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 台湾-TG频道:t.me/ruofengfx 2, server: 140.207.232.8, port: 26046, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 大版-TG频道:t.me/ruofengfx 2, server: 183.232.48.148, port: 26006, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾-TG频道:t.me/ruofengfx 7, server: 140.207.232.8, port: 26044, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 大版-TG频道:t.me/ruofengfx 3, server: 183.232.48.148, port: 26008, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 拉斯维加斯-TG频道:t.me/ruofengfx, server: 140.207.232.8, port: 26002, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 大版-TG频道:t.me/ruofengfx, server: 183.232.48.148, port: 26007, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港-TG频道:t.me/ruofengfx, server: 183.232.48.148, port: 26015, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港-TG频道:t.me/ruofengfx 2, server: 140.207.232.8, port: 26015, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾-TG频道:t.me/ruofengfx 5, server: 183.232.48.148, port: 26045, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡-TG频道:t.me/ruofengfx 2, server: 140.207.232.8, port: 26022, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡-TG频道:t.me/ruofengfx2, server: 140.207.232.8, port: 26021, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港-TG频道:t.me/ruofengfx 212, server: 140.207.232.8, port: 26014, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾-TG频道:t.me/ruofengfx, server: 183.232.48.148, port: 26011, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾-tTG频道:t.me/ruofengfx 3, server: 140.207.232.8, port: 26045, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港-tTG频道:t.me/ruofengfx 13, server: 183.232.48.148, port: 26014, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾-TG频道:t.me/ruofengfx 12, server: 140.207.232.8, port: 26059, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡-TG频道:t.me/ruofengfx 4, server: 183.232.48.148, port: 26022, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾-TG频道:t.me/ruofengfx 32, server: 183.232.48.148, port: 26046, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾-TG频道:t.me/ruofengfx 8, server: 183.232.48.148, port: 26062, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡-TG频道:t.me/ruofengfx 3, server: 183.232.48.148, port: 26023, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 大版-tTG频道:t.me/ruofengfx 4, server: 183.232.48.148, port: 26009, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾-TG频道:t.me/ruofengfx 6, server: 140.207.232.8, port: 26060, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾-TG频道:t.me/ruofengfx 22, server: 183.232.48.148, port: 26044, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡-TG频道:t.me/ruofengfx 22, server: 183.232.48.148, port: 26020, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾-TG频道:t.me/ruofengfx 4, server: 183.232.48.148, port: 26060, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾-TG频道:t.me/ruofengfx 42, server: 140.207.232.8, port: 26061, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾-TG频道:t.me/ruofengfx 9, server: 183.232.48.148, port: 26054, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾-TG频道:t.me/ruofengfx 672, server: 183.232.48.148, port: 26061, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡-TG频道:t.me/ruofengfx 5, server: 183.232.48.148, port: 26021, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾-TG频道:t.me/ruofengfx 92, server: 183.232.48.148, port: 26063, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国TG频道:t.me/ruofengfx 26, server: clash2.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 新加坡*SG_1, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: e5cf7069-e269-4926-bdb0-fbb39cde6a3a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港-HK 3, server: 20.205.117.99, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: 韩国, server: 43.200.6.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 香港-HK, server: 43.200.6.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 中国- 8, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国- 10, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_357, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国 6, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国 5, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG频道:t.me/ruofengfx 13, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG频道:t.me/ruofengfx 10, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_28+TG, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 新加坡-SG, server: 13.228.78.158, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: CN_40+TG, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 泰国 TG频道:t.me/ruofengfx★, server: gz2.52168.xyz, port: 12109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: CN_26+TG, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国- 9, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 英国*GB_1, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: e5cf7069-e269-4926-bdb0-fbb39cde6a3a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 英国*GB_5, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: e5cf7069-e269-4926-bdb0-fbb39cde6a3a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 英国*GB_4, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: e5cf7069-e269-4926-bdb0-fbb39cde6a3a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 英国*GB_2, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: e5cf7069-e269-4926-bdb0-fbb39cde6a3a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 英国*GB_3, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: e5cf7069-e269-4926-bdb0-fbb39cde6a3a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN_34+TG, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 美国, server: ocikr.node.qchwnd.moe, port: 44600, type: trojan, password: 7def61a2-9aff-4691-ad6b-4564e9639b6d, sni: ocikr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 英国2, server: 144.24.76.223, port: 44600, type: trojan, password: 7def61a2-9aff-4691-ad6b-4564e9639b6d, skip-cert-verify: true, udp: true}
+  - {name: 美国2 2, server: 138.2.127.240, port: 44600, type: trojan, password: 7def61a2-9aff-4691-ad6b-4564e9639b6d, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚, server: 129.154.53.120, port: 44600, type: trojan, password: 7def61a2-9aff-4691-ad6b-4564e9639b6d, skip-cert-verify: true, udp: true}
+  - {name: 美国3, server: 43.200.6.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 韩国 2, server: 3.34.191.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国4, server: 138.2.127.240, port: 44600, type: trojan, password: de9361ff-23f3-41f1-b200-f4d8eb6ce87c, skip-cert-verify: true, udp: true}
+  - {name: 新加坡, server: 13.228.78.158, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国-KR
-      - 日本-JP
-      - 香港-HK
-      - 韩国-KR 2
-      - 新加坡-SG
-      - 香港-HK 2
-      - 香港-HK 3
-      - "|12.23Mb"
-      - CN_48+2
-      - TG频道:t.me/ruofengfx 10
-      - TG频道:t.me/ruofengfx 13
-      - 中国 5
-      - 香港 2
-      - 香港 2 2
-      - CN_26+TG
-      - CN_357
-      - 中国8
-      - 中国- 8
-      - CN_28+TG
-      - 中国 6
-      - 中国- 10
-      - CN_40+TG
-      - 中国- 9
-      - CN_34+TG
-      - 中国- 11
-      - 英国*GB_3
-      - 英国*GB_1
-      - 英国*GB_2
-      - 韩国
-      - 英国*GB_5
-      - 英国*GB_4
-      - 新加坡*SG_1
       - 新加坡*SG_4
+      - CN_48+2
+      - 中国8
+      - 中国- 11
+      - "|12.23Mb"
+      - 香港 2 2
+      - 香港 2
       - 新加坡*SG_3
-      - 日本 TG频道:t.me/ruofengfx)★
-      - 泰国 TG频道:t.me/ruofengfx★
-      - 美国TG频道:t.me/ruofengfx 26
+      - 土耳其 TG频道:t.me/ruofengfx★
+      - 日本-JP
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 德国 TG频道:t.me/ruofengfx★
       - Relay_🇨🇳CN-🏁ZZ_299
       - 美国TG频道:t.me/ruofengfx 9
-      - 土耳其 TG频道:t.me/ruofengfx★
-      - 乌克兰 TG频道:t.me/ruofengfx★
-      - 德国 TG频道:t.me/ruofengfx★
-      - 俄罗斯TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 2
-      - 大版-TG频道:t.me/ruofengfx 2
-      - 台湾-TG频道:t.me/ruofengfx 7
-      - 大版-TG频道:t.me/ruofengfx 3
-      - 拉斯维加斯-TG频道:t.me/ruofengfx
-      - 大版-TG频道:t.me/ruofengfx
-      - 香港-TG频道:t.me/ruofengfx
-      - 香港-TG频道:t.me/ruofengfx 2
-      - 台湾-TG频道:t.me/ruofengfx 5
-      - 新加坡-TG频道:t.me/ruofengfx 2
-      - 新加坡-TG频道:t.me/ruofengfx2
-      - 香港-TG频道:t.me/ruofengfx 212
-      - 台湾-TG频道:t.me/ruofengfx
-      - 台湾-tTG频道:t.me/ruofengfx 3
-      - 香港-tTG频道:t.me/ruofengfx 13
-      - 台湾-TG频道:t.me/ruofengfx 12
-      - 新加坡-TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 32
-      - 台湾-TG频道:t.me/ruofengfx 8
-      - 新加坡-TG频道:t.me/ruofengfx 3
-      - 大版-tTG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 6
-      - 台湾-TG频道:t.me/ruofengfx 22
-      - 新加坡-TG频道:t.me/ruofengfx 22
-      - 台湾-TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 42
-      - 台湾-TG频道:t.me/ruofengfx 9
-      - 台湾-TG频道:t.me/ruofengfx 672
-      - 新加坡-TG频道:t.me/ruofengfx 5
-      - 台湾-TG频道:t.me/ruofengfx 92
+      - 美国TG频道:t.me/ruofengfx 26
+      - 新加坡*SG_1
+      - 香港-HK 3
+      - 韩国
+      - 香港-HK
+      - 中国- 8
+      - 中国- 10
+      - CN_357
+      - 中国 6
+      - 中国 5
+      - TG频道:t.me/ruofengfx 13
+      - TG频道:t.me/ruofengfx 10
+      - CN_28+TG
+      - 新加坡-SG
+      - CN_40+TG
+      - 泰国 TG频道:t.me/ruofengfx★
+      - CN_26+TG
+      - 中国- 9
+      - 英国*GB_1
+      - 英国*GB_5
+      - 英国*GB_4
+      - 英国*GB_2
+      - 英国*GB_3
+      - CN_34+TG
+      - 美国
+      - 英国2
+      - 美国2 2
+      - 澳大利亚
+      - 美国3
+      - 韩国 2
+      - 美国4
+      - 新加坡
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 韩国-KR
-      - 日本-JP
-      - 香港-HK
-      - 韩国-KR 2
-      - 新加坡-SG
-      - 香港-HK 2
-      - 香港-HK 3
-      - "|12.23Mb"
-      - CN_48+2
-      - TG频道:t.me/ruofengfx 10
-      - TG频道:t.me/ruofengfx 13
-      - 中国 5
-      - 香港 2
-      - 香港 2 2
-      - CN_26+TG
-      - CN_357
-      - 中国8
-      - 中国- 8
-      - CN_28+TG
-      - 中国 6
-      - 中国- 10
-      - CN_40+TG
-      - 中国- 9
-      - CN_34+TG
-      - 中国- 11
-      - 英国*GB_3
-      - 英国*GB_1
-      - 英国*GB_2
-      - 韩国
-      - 英国*GB_5
-      - 英国*GB_4
-      - 新加坡*SG_1
       - 新加坡*SG_4
+      - CN_48+2
+      - 中国8
+      - 中国- 11
+      - "|12.23Mb"
+      - 香港 2 2
+      - 香港 2
       - 新加坡*SG_3
-      - 日本 TG频道:t.me/ruofengfx)★
-      - 泰国 TG频道:t.me/ruofengfx★
-      - 美国TG频道:t.me/ruofengfx 26
+      - 土耳其 TG频道:t.me/ruofengfx★
+      - 日本-JP
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 德国 TG频道:t.me/ruofengfx★
       - Relay_🇨🇳CN-🏁ZZ_299
       - 美国TG频道:t.me/ruofengfx 9
-      - 土耳其 TG频道:t.me/ruofengfx★
-      - 乌克兰 TG频道:t.me/ruofengfx★
-      - 德国 TG频道:t.me/ruofengfx★
-      - 俄罗斯TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 2
-      - 大版-TG频道:t.me/ruofengfx 2
-      - 台湾-TG频道:t.me/ruofengfx 7
-      - 大版-TG频道:t.me/ruofengfx 3
-      - 拉斯维加斯-TG频道:t.me/ruofengfx
-      - 大版-TG频道:t.me/ruofengfx
-      - 香港-TG频道:t.me/ruofengfx
-      - 香港-TG频道:t.me/ruofengfx 2
-      - 台湾-TG频道:t.me/ruofengfx 5
-      - 新加坡-TG频道:t.me/ruofengfx 2
-      - 新加坡-TG频道:t.me/ruofengfx2
-      - 香港-TG频道:t.me/ruofengfx 212
-      - 台湾-TG频道:t.me/ruofengfx
-      - 台湾-tTG频道:t.me/ruofengfx 3
-      - 香港-tTG频道:t.me/ruofengfx 13
-      - 台湾-TG频道:t.me/ruofengfx 12
-      - 新加坡-TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 32
-      - 台湾-TG频道:t.me/ruofengfx 8
-      - 新加坡-TG频道:t.me/ruofengfx 3
-      - 大版-tTG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 6
-      - 台湾-TG频道:t.me/ruofengfx 22
-      - 新加坡-TG频道:t.me/ruofengfx 22
-      - 台湾-TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 42
-      - 台湾-TG频道:t.me/ruofengfx 9
-      - 台湾-TG频道:t.me/ruofengfx 672
-      - 新加坡-TG频道:t.me/ruofengfx 5
-      - 台湾-TG频道:t.me/ruofengfx 92
+      - 美国TG频道:t.me/ruofengfx 26
+      - 新加坡*SG_1
+      - 香港-HK 3
+      - 韩国
+      - 香港-HK
+      - 中国- 8
+      - 中国- 10
+      - CN_357
+      - 中国 6
+      - 中国 5
+      - TG频道:t.me/ruofengfx 13
+      - TG频道:t.me/ruofengfx 10
+      - CN_28+TG
+      - 新加坡-SG
+      - CN_40+TG
+      - 泰国 TG频道:t.me/ruofengfx★
+      - CN_26+TG
+      - 中国- 9
+      - 英国*GB_1
+      - 英国*GB_5
+      - 英国*GB_4
+      - 英国*GB_2
+      - 英国*GB_3
+      - CN_34+TG
+      - 美国
+      - 英国2
+      - 美国2 2
+      - 澳大利亚
+      - 美国3
+      - 韩国 2
+      - 美国4
+      - 新加坡
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国-KR
-      - 日本-JP
-      - 香港-HK
-      - 韩国-KR 2
-      - 新加坡-SG
-      - 香港-HK 2
-      - 香港-HK 3
-      - "|12.23Mb"
-      - CN_48+2
-      - TG频道:t.me/ruofengfx 10
-      - TG频道:t.me/ruofengfx 13
-      - 中国 5
-      - 香港 2
-      - 香港 2 2
-      - CN_26+TG
-      - CN_357
-      - 中国8
-      - 中国- 8
-      - CN_28+TG
-      - 中国 6
-      - 中国- 10
-      - CN_40+TG
-      - 中国- 9
-      - CN_34+TG
-      - 中国- 11
-      - 英国*GB_3
-      - 英国*GB_1
-      - 英国*GB_2
-      - 韩国
-      - 英国*GB_5
-      - 英国*GB_4
-      - 新加坡*SG_1
       - 新加坡*SG_4
+      - CN_48+2
+      - 中国8
+      - 中国- 11
+      - "|12.23Mb"
+      - 香港 2 2
+      - 香港 2
       - 新加坡*SG_3
-      - 日本 TG频道:t.me/ruofengfx)★
-      - 泰国 TG频道:t.me/ruofengfx★
-      - 美国TG频道:t.me/ruofengfx 26
+      - 土耳其 TG频道:t.me/ruofengfx★
+      - 日本-JP
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 德国 TG频道:t.me/ruofengfx★
       - Relay_🇨🇳CN-🏁ZZ_299
       - 美国TG频道:t.me/ruofengfx 9
-      - 土耳其 TG频道:t.me/ruofengfx★
-      - 乌克兰 TG频道:t.me/ruofengfx★
-      - 德国 TG频道:t.me/ruofengfx★
-      - 俄罗斯TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 2
-      - 大版-TG频道:t.me/ruofengfx 2
-      - 台湾-TG频道:t.me/ruofengfx 7
-      - 大版-TG频道:t.me/ruofengfx 3
-      - 拉斯维加斯-TG频道:t.me/ruofengfx
-      - 大版-TG频道:t.me/ruofengfx
-      - 香港-TG频道:t.me/ruofengfx
-      - 香港-TG频道:t.me/ruofengfx 2
-      - 台湾-TG频道:t.me/ruofengfx 5
-      - 新加坡-TG频道:t.me/ruofengfx 2
-      - 新加坡-TG频道:t.me/ruofengfx2
-      - 香港-TG频道:t.me/ruofengfx 212
-      - 台湾-TG频道:t.me/ruofengfx
-      - 台湾-tTG频道:t.me/ruofengfx 3
-      - 香港-tTG频道:t.me/ruofengfx 13
-      - 台湾-TG频道:t.me/ruofengfx 12
-      - 新加坡-TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 32
-      - 台湾-TG频道:t.me/ruofengfx 8
-      - 新加坡-TG频道:t.me/ruofengfx 3
-      - 大版-tTG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 6
-      - 台湾-TG频道:t.me/ruofengfx 22
-      - 新加坡-TG频道:t.me/ruofengfx 22
-      - 台湾-TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 42
-      - 台湾-TG频道:t.me/ruofengfx 9
-      - 台湾-TG频道:t.me/ruofengfx 672
-      - 新加坡-TG频道:t.me/ruofengfx 5
-      - 台湾-TG频道:t.me/ruofengfx 92
+      - 美国TG频道:t.me/ruofengfx 26
+      - 新加坡*SG_1
+      - 香港-HK 3
+      - 韩国
+      - 香港-HK
+      - 中国- 8
+      - 中国- 10
+      - CN_357
+      - 中国 6
+      - 中国 5
+      - TG频道:t.me/ruofengfx 13
+      - TG频道:t.me/ruofengfx 10
+      - CN_28+TG
+      - 新加坡-SG
+      - CN_40+TG
+      - 泰国 TG频道:t.me/ruofengfx★
+      - CN_26+TG
+      - 中国- 9
+      - 英国*GB_1
+      - 英国*GB_5
+      - 英国*GB_4
+      - 英国*GB_2
+      - 英国*GB_3
+      - CN_34+TG
+      - 美国
+      - 英国2
+      - 美国2 2
+      - 澳大利亚
+      - 美国3
+      - 韩国 2
+      - 美国4
+      - 新加坡
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -332,343 +224,215 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国-KR
-      - 日本-JP
-      - 香港-HK
-      - 韩国-KR 2
-      - 新加坡-SG
-      - 香港-HK 2
-      - 香港-HK 3
-      - "|12.23Mb"
-      - CN_48+2
-      - TG频道:t.me/ruofengfx 10
-      - TG频道:t.me/ruofengfx 13
-      - 中国 5
-      - 香港 2
-      - 香港 2 2
-      - CN_26+TG
-      - CN_357
-      - 中国8
-      - 中国- 8
-      - CN_28+TG
-      - 中国 6
-      - 中国- 10
-      - CN_40+TG
-      - 中国- 9
-      - CN_34+TG
-      - 中国- 11
-      - 英国*GB_3
-      - 英国*GB_1
-      - 英国*GB_2
-      - 韩国
-      - 英国*GB_5
-      - 英国*GB_4
-      - 新加坡*SG_1
       - 新加坡*SG_4
+      - CN_48+2
+      - 中国8
+      - 中国- 11
+      - "|12.23Mb"
+      - 香港 2 2
+      - 香港 2
       - 新加坡*SG_3
-      - 日本 TG频道:t.me/ruofengfx)★
-      - 泰国 TG频道:t.me/ruofengfx★
-      - 美国TG频道:t.me/ruofengfx 26
+      - 土耳其 TG频道:t.me/ruofengfx★
+      - 日本-JP
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 德国 TG频道:t.me/ruofengfx★
       - Relay_🇨🇳CN-🏁ZZ_299
       - 美国TG频道:t.me/ruofengfx 9
-      - 土耳其 TG频道:t.me/ruofengfx★
-      - 乌克兰 TG频道:t.me/ruofengfx★
-      - 德国 TG频道:t.me/ruofengfx★
-      - 俄罗斯TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 2
-      - 大版-TG频道:t.me/ruofengfx 2
-      - 台湾-TG频道:t.me/ruofengfx 7
-      - 大版-TG频道:t.me/ruofengfx 3
-      - 拉斯维加斯-TG频道:t.me/ruofengfx
-      - 大版-TG频道:t.me/ruofengfx
-      - 香港-TG频道:t.me/ruofengfx
-      - 香港-TG频道:t.me/ruofengfx 2
-      - 台湾-TG频道:t.me/ruofengfx 5
-      - 新加坡-TG频道:t.me/ruofengfx 2
-      - 新加坡-TG频道:t.me/ruofengfx2
-      - 香港-TG频道:t.me/ruofengfx 212
-      - 台湾-TG频道:t.me/ruofengfx
-      - 台湾-tTG频道:t.me/ruofengfx 3
-      - 香港-tTG频道:t.me/ruofengfx 13
-      - 台湾-TG频道:t.me/ruofengfx 12
-      - 新加坡-TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 32
-      - 台湾-TG频道:t.me/ruofengfx 8
-      - 新加坡-TG频道:t.me/ruofengfx 3
-      - 大版-tTG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 6
-      - 台湾-TG频道:t.me/ruofengfx 22
-      - 新加坡-TG频道:t.me/ruofengfx 22
-      - 台湾-TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 42
-      - 台湾-TG频道:t.me/ruofengfx 9
-      - 台湾-TG频道:t.me/ruofengfx 672
-      - 新加坡-TG频道:t.me/ruofengfx 5
-      - 台湾-TG频道:t.me/ruofengfx 92
+      - 美国TG频道:t.me/ruofengfx 26
+      - 新加坡*SG_1
+      - 香港-HK 3
+      - 韩国
+      - 香港-HK
+      - 中国- 8
+      - 中国- 10
+      - CN_357
+      - 中国 6
+      - 中国 5
+      - TG频道:t.me/ruofengfx 13
+      - TG频道:t.me/ruofengfx 10
+      - CN_28+TG
+      - 新加坡-SG
+      - CN_40+TG
+      - 泰国 TG频道:t.me/ruofengfx★
+      - CN_26+TG
+      - 中国- 9
+      - 英国*GB_1
+      - 英国*GB_5
+      - 英国*GB_4
+      - 英国*GB_2
+      - 英国*GB_3
+      - CN_34+TG
+      - 美国
+      - 英国2
+      - 美国2 2
+      - 澳大利亚
+      - 美国3
+      - 韩国 2
+      - 美国4
+      - 新加坡
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港-HK
-      - 香港-HK 2
-      - 香港-HK 3
-      - 香港 2
       - 香港 2 2
-      - 台湾-TG频道:t.me/ruofengfx 2
-      - 台湾-TG频道:t.me/ruofengfx 7
-      - 香港-TG频道:t.me/ruofengfx
-      - 香港-TG频道:t.me/ruofengfx 2
-      - 台湾-TG频道:t.me/ruofengfx 5
-      - 香港-TG频道:t.me/ruofengfx 212
-      - 台湾-TG频道:t.me/ruofengfx
-      - 台湾-tTG频道:t.me/ruofengfx 3
-      - 香港-tTG频道:t.me/ruofengfx 13
-      - 台湾-TG频道:t.me/ruofengfx 12
-      - 台湾-TG频道:t.me/ruofengfx 32
-      - 台湾-TG频道:t.me/ruofengfx 8
-      - 台湾-TG频道:t.me/ruofengfx 6
-      - 台湾-TG频道:t.me/ruofengfx 22
-      - 台湾-TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 42
-      - 台湾-TG频道:t.me/ruofengfx 9
-      - 台湾-TG频道:t.me/ruofengfx 672
-      - 台湾-TG频道:t.me/ruofengfx 92
+      - 香港 2
+      - 香港-HK 3
+      - 香港-HK
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 韩国-KR
-      - 日本-JP
-      - 香港-HK
-      - 韩国-KR 2
-      - 新加坡-SG
-      - 香港-HK 2
-      - 香港-HK 3
-      - "|12.23Mb"
-      - CN_48+2
-      - TG频道:t.me/ruofengfx 10
-      - TG频道:t.me/ruofengfx 13
-      - 中国 5
-      - 香港 2
-      - 香港 2 2
-      - CN_26+TG
-      - CN_357
-      - 中国8
-      - 中国- 8
-      - CN_28+TG
-      - 中国 6
-      - 中国- 10
-      - CN_40+TG
-      - 中国- 9
-      - CN_34+TG
-      - 中国- 11
-      - 英国*GB_3
-      - 英国*GB_1
-      - 英国*GB_2
-      - 韩国
-      - 英国*GB_5
-      - 英国*GB_4
-      - 新加坡*SG_1
       - 新加坡*SG_4
+      - CN_48+2
+      - 中国8
+      - 中国- 11
+      - "|12.23Mb"
+      - 香港 2 2
+      - 香港 2
       - 新加坡*SG_3
-      - 日本 TG频道:t.me/ruofengfx)★
-      - 泰国 TG频道:t.me/ruofengfx★
-      - 美国TG频道:t.me/ruofengfx 26
+      - 土耳其 TG频道:t.me/ruofengfx★
+      - 日本-JP
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 德国 TG频道:t.me/ruofengfx★
       - Relay_🇨🇳CN-🏁ZZ_299
       - 美国TG频道:t.me/ruofengfx 9
-      - 土耳其 TG频道:t.me/ruofengfx★
-      - 乌克兰 TG频道:t.me/ruofengfx★
-      - 德国 TG频道:t.me/ruofengfx★
-      - 俄罗斯TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 2
-      - 大版-TG频道:t.me/ruofengfx 2
-      - 台湾-TG频道:t.me/ruofengfx 7
-      - 大版-TG频道:t.me/ruofengfx 3
-      - 拉斯维加斯-TG频道:t.me/ruofengfx
-      - 大版-TG频道:t.me/ruofengfx
-      - 香港-TG频道:t.me/ruofengfx
-      - 香港-TG频道:t.me/ruofengfx 2
-      - 台湾-TG频道:t.me/ruofengfx 5
-      - 新加坡-TG频道:t.me/ruofengfx 2
-      - 新加坡-TG频道:t.me/ruofengfx2
-      - 香港-TG频道:t.me/ruofengfx 212
-      - 台湾-TG频道:t.me/ruofengfx
-      - 台湾-tTG频道:t.me/ruofengfx 3
-      - 香港-tTG频道:t.me/ruofengfx 13
-      - 台湾-TG频道:t.me/ruofengfx 12
-      - 新加坡-TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 32
-      - 台湾-TG频道:t.me/ruofengfx 8
-      - 新加坡-TG频道:t.me/ruofengfx 3
-      - 大版-tTG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 6
-      - 台湾-TG频道:t.me/ruofengfx 22
-      - 新加坡-TG频道:t.me/ruofengfx 22
-      - 台湾-TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 42
-      - 台湾-TG频道:t.me/ruofengfx 9
-      - 台湾-TG频道:t.me/ruofengfx 672
-      - 新加坡-TG频道:t.me/ruofengfx 5
-      - 台湾-TG频道:t.me/ruofengfx 92
+      - 美国TG频道:t.me/ruofengfx 26
+      - 新加坡*SG_1
+      - 香港-HK 3
+      - 韩国
+      - 香港-HK
+      - 中国- 8
+      - 中国- 10
+      - CN_357
+      - 中国 6
+      - 中国 5
+      - TG频道:t.me/ruofengfx 13
+      - TG频道:t.me/ruofengfx 10
+      - CN_28+TG
+      - 新加坡-SG
+      - CN_40+TG
+      - 泰国 TG频道:t.me/ruofengfx★
+      - CN_26+TG
+      - 中国- 9
+      - 英国*GB_1
+      - 英国*GB_5
+      - 英国*GB_4
+      - 英国*GB_2
+      - 英国*GB_3
+      - CN_34+TG
+      - 美国
+      - 英国2
+      - 美国2 2
+      - 澳大利亚
+      - 美国3
+      - 韩国 2
+      - 美国4
+      - 新加坡
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 韩国-KR
-      - 日本-JP
-      - 香港-HK
-      - 韩国-KR 2
-      - 新加坡-SG
-      - 香港-HK 2
-      - 香港-HK 3
-      - "|12.23Mb"
-      - CN_48+2
-      - TG频道:t.me/ruofengfx 10
-      - TG频道:t.me/ruofengfx 13
-      - 中国 5
-      - 香港 2
-      - 香港 2 2
-      - CN_26+TG
-      - CN_357
-      - 中国8
-      - 中国- 8
-      - CN_28+TG
-      - 中国 6
-      - 中国- 10
-      - CN_40+TG
-      - 中国- 9
-      - CN_34+TG
-      - 中国- 11
-      - 英国*GB_3
-      - 英国*GB_1
-      - 英国*GB_2
-      - 韩国
-      - 英国*GB_5
-      - 英国*GB_4
-      - 新加坡*SG_1
       - 新加坡*SG_4
+      - CN_48+2
+      - 中国8
+      - 中国- 11
+      - "|12.23Mb"
+      - 香港 2 2
+      - 香港 2
       - 新加坡*SG_3
-      - 日本 TG频道:t.me/ruofengfx)★
-      - 泰国 TG频道:t.me/ruofengfx★
-      - 美国TG频道:t.me/ruofengfx 26
+      - 土耳其 TG频道:t.me/ruofengfx★
+      - 日本-JP
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 德国 TG频道:t.me/ruofengfx★
       - Relay_🇨🇳CN-🏁ZZ_299
       - 美国TG频道:t.me/ruofengfx 9
-      - 土耳其 TG频道:t.me/ruofengfx★
-      - 乌克兰 TG频道:t.me/ruofengfx★
-      - 德国 TG频道:t.me/ruofengfx★
-      - 俄罗斯TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 2
-      - 大版-TG频道:t.me/ruofengfx 2
-      - 台湾-TG频道:t.me/ruofengfx 7
-      - 大版-TG频道:t.me/ruofengfx 3
-      - 拉斯维加斯-TG频道:t.me/ruofengfx
-      - 大版-TG频道:t.me/ruofengfx
-      - 香港-TG频道:t.me/ruofengfx
-      - 香港-TG频道:t.me/ruofengfx 2
-      - 台湾-TG频道:t.me/ruofengfx 5
-      - 新加坡-TG频道:t.me/ruofengfx 2
-      - 新加坡-TG频道:t.me/ruofengfx2
-      - 香港-TG频道:t.me/ruofengfx 212
-      - 台湾-TG频道:t.me/ruofengfx
-      - 台湾-tTG频道:t.me/ruofengfx 3
-      - 香港-tTG频道:t.me/ruofengfx 13
-      - 台湾-TG频道:t.me/ruofengfx 12
-      - 新加坡-TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 32
-      - 台湾-TG频道:t.me/ruofengfx 8
-      - 新加坡-TG频道:t.me/ruofengfx 3
-      - 大版-tTG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 6
-      - 台湾-TG频道:t.me/ruofengfx 22
-      - 新加坡-TG频道:t.me/ruofengfx 22
-      - 台湾-TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 42
-      - 台湾-TG频道:t.me/ruofengfx 9
-      - 台湾-TG频道:t.me/ruofengfx 672
-      - 新加坡-TG频道:t.me/ruofengfx 5
-      - 台湾-TG频道:t.me/ruofengfx 92
+      - 美国TG频道:t.me/ruofengfx 26
+      - 新加坡*SG_1
+      - 香港-HK 3
+      - 韩国
+      - 香港-HK
+      - 中国- 8
+      - 中国- 10
+      - CN_357
+      - 中国 6
+      - 中国 5
+      - TG频道:t.me/ruofengfx 13
+      - TG频道:t.me/ruofengfx 10
+      - CN_28+TG
+      - 新加坡-SG
+      - CN_40+TG
+      - 泰国 TG频道:t.me/ruofengfx★
+      - CN_26+TG
+      - 中国- 9
+      - 英国*GB_1
+      - 英国*GB_5
+      - 英国*GB_4
+      - 英国*GB_2
+      - 英国*GB_3
+      - CN_34+TG
+      - 美国
+      - 英国2
+      - 美国2 2
+      - 澳大利亚
+      - 美国3
+      - 韩国 2
+      - 美国4
+      - 新加坡
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 韩国-KR
-      - 日本-JP
-      - 香港-HK
-      - 韩国-KR 2
-      - 新加坡-SG
-      - 香港-HK 2
-      - 香港-HK 3
-      - "|12.23Mb"
-      - CN_48+2
-      - TG频道:t.me/ruofengfx 10
-      - TG频道:t.me/ruofengfx 13
-      - 中国 5
-      - 香港 2
-      - 香港 2 2
-      - CN_26+TG
-      - CN_357
-      - 中国8
-      - 中国- 8
-      - CN_28+TG
-      - 中国 6
-      - 中国- 10
-      - CN_40+TG
-      - 中国- 9
-      - CN_34+TG
-      - 中国- 11
-      - 英国*GB_3
-      - 英国*GB_1
-      - 英国*GB_2
-      - 韩国
-      - 英国*GB_5
-      - 英国*GB_4
-      - 新加坡*SG_1
       - 新加坡*SG_4
+      - CN_48+2
+      - 中国8
+      - 中国- 11
+      - "|12.23Mb"
+      - 香港 2 2
+      - 香港 2
       - 新加坡*SG_3
-      - 日本 TG频道:t.me/ruofengfx)★
-      - 泰国 TG频道:t.me/ruofengfx★
-      - 美国TG频道:t.me/ruofengfx 26
+      - 土耳其 TG频道:t.me/ruofengfx★
+      - 日本-JP
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 德国 TG频道:t.me/ruofengfx★
       - Relay_🇨🇳CN-🏁ZZ_299
       - 美国TG频道:t.me/ruofengfx 9
-      - 土耳其 TG频道:t.me/ruofengfx★
-      - 乌克兰 TG频道:t.me/ruofengfx★
-      - 德国 TG频道:t.me/ruofengfx★
-      - 俄罗斯TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 2
-      - 大版-TG频道:t.me/ruofengfx 2
-      - 台湾-TG频道:t.me/ruofengfx 7
-      - 大版-TG频道:t.me/ruofengfx 3
-      - 拉斯维加斯-TG频道:t.me/ruofengfx
-      - 大版-TG频道:t.me/ruofengfx
-      - 香港-TG频道:t.me/ruofengfx
-      - 香港-TG频道:t.me/ruofengfx 2
-      - 台湾-TG频道:t.me/ruofengfx 5
-      - 新加坡-TG频道:t.me/ruofengfx 2
-      - 新加坡-TG频道:t.me/ruofengfx2
-      - 香港-TG频道:t.me/ruofengfx 212
-      - 台湾-TG频道:t.me/ruofengfx
-      - 台湾-tTG频道:t.me/ruofengfx 3
-      - 香港-tTG频道:t.me/ruofengfx 13
-      - 台湾-TG频道:t.me/ruofengfx 12
-      - 新加坡-TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 32
-      - 台湾-TG频道:t.me/ruofengfx 8
-      - 新加坡-TG频道:t.me/ruofengfx 3
-      - 大版-tTG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 6
-      - 台湾-TG频道:t.me/ruofengfx 22
-      - 新加坡-TG频道:t.me/ruofengfx 22
-      - 台湾-TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 42
-      - 台湾-TG频道:t.me/ruofengfx 9
-      - 台湾-TG频道:t.me/ruofengfx 672
-      - 新加坡-TG频道:t.me/ruofengfx 5
-      - 台湾-TG频道:t.me/ruofengfx 92
+      - 美国TG频道:t.me/ruofengfx 26
+      - 新加坡*SG_1
+      - 香港-HK 3
+      - 韩国
+      - 香港-HK
+      - 中国- 8
+      - 中国- 10
+      - CN_357
+      - 中国 6
+      - 中国 5
+      - TG频道:t.me/ruofengfx 13
+      - TG频道:t.me/ruofengfx 10
+      - CN_28+TG
+      - 新加坡-SG
+      - CN_40+TG
+      - 泰国 TG频道:t.me/ruofengfx★
+      - CN_26+TG
+      - 中国- 9
+      - 英国*GB_1
+      - 英国*GB_5
+      - 英国*GB_4
+      - 英国*GB_2
+      - 英国*GB_3
+      - CN_34+TG
+      - 美国
+      - 英国2
+      - 美国2 2
+      - 澳大利亚
+      - 美国3
+      - 韩国 2
+      - 美国4
+      - 新加坡
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -684,79 +448,52 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 韩国-KR
-      - 日本-JP
-      - 香港-HK
-      - 韩国-KR 2
-      - 新加坡-SG
-      - 香港-HK 2
-      - 香港-HK 3
-      - "|12.23Mb"
-      - CN_48+2
-      - TG频道:t.me/ruofengfx 10
-      - TG频道:t.me/ruofengfx 13
-      - 中国 5
-      - 香港 2
-      - 香港 2 2
-      - CN_26+TG
-      - CN_357
-      - 中国8
-      - 中国- 8
-      - CN_28+TG
-      - 中国 6
-      - 中国- 10
-      - CN_40+TG
-      - 中国- 9
-      - CN_34+TG
-      - 中国- 11
-      - 英国*GB_3
-      - 英国*GB_1
-      - 英国*GB_2
-      - 韩国
-      - 英国*GB_5
-      - 英国*GB_4
-      - 新加坡*SG_1
       - 新加坡*SG_4
+      - CN_48+2
+      - 中国8
+      - 中国- 11
+      - "|12.23Mb"
+      - 香港 2 2
+      - 香港 2
       - 新加坡*SG_3
-      - 日本 TG频道:t.me/ruofengfx)★
-      - 泰国 TG频道:t.me/ruofengfx★
-      - 美国TG频道:t.me/ruofengfx 26
+      - 土耳其 TG频道:t.me/ruofengfx★
+      - 日本-JP
+      - 俄罗斯TG频道:t.me/ruofengfx 4
+      - 德国 TG频道:t.me/ruofengfx★
       - Relay_🇨🇳CN-🏁ZZ_299
       - 美国TG频道:t.me/ruofengfx 9
-      - 土耳其 TG频道:t.me/ruofengfx★
-      - 乌克兰 TG频道:t.me/ruofengfx★
-      - 德国 TG频道:t.me/ruofengfx★
-      - 俄罗斯TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 2
-      - 大版-TG频道:t.me/ruofengfx 2
-      - 台湾-TG频道:t.me/ruofengfx 7
-      - 大版-TG频道:t.me/ruofengfx 3
-      - 拉斯维加斯-TG频道:t.me/ruofengfx
-      - 大版-TG频道:t.me/ruofengfx
-      - 香港-TG频道:t.me/ruofengfx
-      - 香港-TG频道:t.me/ruofengfx 2
-      - 台湾-TG频道:t.me/ruofengfx 5
-      - 新加坡-TG频道:t.me/ruofengfx 2
-      - 新加坡-TG频道:t.me/ruofengfx2
-      - 香港-TG频道:t.me/ruofengfx 212
-      - 台湾-TG频道:t.me/ruofengfx
-      - 台湾-tTG频道:t.me/ruofengfx 3
-      - 香港-tTG频道:t.me/ruofengfx 13
-      - 台湾-TG频道:t.me/ruofengfx 12
-      - 新加坡-TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 32
-      - 台湾-TG频道:t.me/ruofengfx 8
-      - 新加坡-TG频道:t.me/ruofengfx 3
-      - 大版-tTG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 6
-      - 台湾-TG频道:t.me/ruofengfx 22
-      - 新加坡-TG频道:t.me/ruofengfx 22
-      - 台湾-TG频道:t.me/ruofengfx 4
-      - 台湾-TG频道:t.me/ruofengfx 42
-      - 台湾-TG频道:t.me/ruofengfx 9
-      - 台湾-TG频道:t.me/ruofengfx 672
-      - 新加坡-TG频道:t.me/ruofengfx 5
-      - 台湾-TG频道:t.me/ruofengfx 92
+      - 美国TG频道:t.me/ruofengfx 26
+      - 新加坡*SG_1
+      - 香港-HK 3
+      - 韩国
+      - 香港-HK
+      - 中国- 8
+      - 中国- 10
+      - CN_357
+      - 中国 6
+      - 中国 5
+      - TG频道:t.me/ruofengfx 13
+      - TG频道:t.me/ruofengfx 10
+      - CN_28+TG
+      - 新加坡-SG
+      - CN_40+TG
+      - 泰国 TG频道:t.me/ruofengfx★
+      - CN_26+TG
+      - 中国- 9
+      - 英国*GB_1
+      - 英国*GB_5
+      - 英国*GB_4
+      - 英国*GB_2
+      - 英国*GB_3
+      - CN_34+TG
+      - 美国
+      - 英国2
+      - 美国2 2
+      - 澳大利亚
+      - 美国3
+      - 韩国 2
+      - 美国4
+      - 新加坡
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
