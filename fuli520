@@ -5,6 +5,23 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 台湾|V2Ray|流媒体优选, server: tw.kxwfy.com, port: 30014, type: vmess, uuid: 75988c53-4f2e-3083-99d4-a2cc768b67b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: tw.kxwfy.com}, udp: true}
+  - {name: 台湾4|V2Ray|流媒体优选, server: tw4.kxwfy.com, port: 20016, type: vmess, uuid: 75988c53-4f2e-3083-99d4-a2cc768b67b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: tw4ip.kxwfy.com}, udp: true}
+  - {name: 台湾省1|SSR|流媒体优选, server: tw1.kxwfy.com, port: 20001, type: ssr, cipher: rc4-md5, password: mfyun001, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 13595:JU119MFyo9XU2Aqt, obfs-param: 5d9d313595.bing.com, udp: true}
+  - {name: 台湾省2|V2Ray|流媒体优选, server: tw2.kxwfy.com, port: 20009, type: vmess, uuid: 75988c53-4f2e-3083-99d4-a2cc768b67b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mfyun.m3u8, ws-headers: {Host: tw2ip.kxwfy.com}, udp: true}
+  - {name: 台湾省3|SSR|流媒体优选, server: tw3.kxwfy.com, port: 20004, type: ssr, cipher: rc4-md5, password: mfyun001, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 13595:JU119MFyo9XU2Aqt, obfs-param: 5d9d313595.bing.com, udp: true}
+  - {name: 新加坡|V2Ray|中转优化, server: sg2.kxwfy.com, port: 20010, type: vmess, uuid: 75988c53-4f2e-3083-99d4-a2cc768b67b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /5dyun.m3u8, ws-headers: {Host: sg2.kxwfy.com}, udp: true}
+  - {name: 新加坡5|SSR|中转优化, server: sg5.kxwfy.com, port: 20002, type: ssr, cipher: rc4-md5, password: mfyun001, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 13595:JU119MFyo9XU2Aqt, obfs-param: 5d9d313595.bing.com, udp: true}
+  - {name: 日本1|SSR|中转优化, server: jp1.kxwfy.com, port: 20024, type: ssr, cipher: rc4-md5, password: mfyun001, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 13595:JU119MFyo9XU2Aqt, obfs-param: 5d9d313595.bing.com, udp: true}
+  - {name: 日本2|SSR|中转优化, server: jp2.kxwfy.com, port: 30001, type: ssr, cipher: rc4-md5, password: mfyun001, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 13595:JU119MFyo9XU2Aqt, obfs-param: 5d9d313595.bing.com, udp: true}
+  - {name: 美国1|V2Ray|中转优化, server: us1.kxwfy.com, port: 20006, type: vmess, uuid: 75988c53-4f2e-3083-99d4-a2cc768b67b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: us1.kxwfy.com}, udp: true}
+  - {name: 美国2|V2Ray|中转优化, server: us2.kxwfy.com, port: 20008, type: vmess, uuid: 75988c53-4f2e-3083-99d4-a2cc768b67b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: us2.kxwfy.com}, udp: true}
+  - {name: 越南1|V2Ray|中转优化, server: vn-1.696666.xyz, port: 30012, type: vmess, uuid: 75988c53-4f2e-3083-99d4-a2cc768b67b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: vn-1.696666.xyz}, udp: true}
+  - {name: 韩国1|V2Ray|中转优化, server: kr1.kxwfy.com, port: 20015, type: vmess, uuid: 75988c53-4f2e-3083-99d4-a2cc768b67b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: kr1.kxwfy.com}, udp: true}
+  - {name: 韩国2|SSR, server: kr2.kxwfy.com, port: 20003, type: ssr, cipher: rc4-md5, password: mfyun001, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 13595:JU119MFyo9XU2Aqt, obfs-param: 5d9d313595.bing.com, udp: true}
+  - {name: 香港|V2Ray|流媒体解锁, server: 120.232.190.78, port: 30013, type: vmess, uuid: 75988c53-4f2e-3083-99d4-a2cc768b67b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 120.232.190.78}, udp: true}
+  - {name: 香港1|V2Ray|流媒体优选, server: hk1.kxwfy.com, port: 20020, type: vmess, uuid: 75988c53-4f2e-3083-99d4-a2cc768b67b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mfyun.m3u8, ws-headers: {Host: hk1.kxwfy.com}, udp: true}
+  - {name: 香港2|V2Ray|流媒体解锁, server: hk2.kxwfy.com, port: 20012, type: vmess, uuid: 75988c53-4f2e-3083-99d4-a2cc768b67b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: hk2.kxwfy.com}, udp: true}
   - {name: 韩国|03|OCAZ中转, server: azhk.orange7.cf, port: 20822, type: trojan, password: 1db87d8b-0bdf-473e-8d21-bb5ea7b28920, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
   - {name: 日本|05|OCAZ中转, server: azjp.orange7.cf, port: 18498, type: trojan, password: 1db87d8b-0bdf-473e-8d21-bb5ea7b28920, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
   - {name: 日本|01|LINAZ中转, server: azjp.orange7.cf, port: 18179, type: trojan, password: 1db87d8b-0bdf-473e-8d21-bb5ea7b28920, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
@@ -46,6 +63,23 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 台湾|V2Ray|流媒体优选
+      - 台湾4|V2Ray|流媒体优选
+      - 台湾省1|SSR|流媒体优选
+      - 台湾省2|V2Ray|流媒体优选
+      - 台湾省3|SSR|流媒体优选
+      - 新加坡|V2Ray|中转优化
+      - 新加坡5|SSR|中转优化
+      - 日本1|SSR|中转优化
+      - 日本2|SSR|中转优化
+      - 美国1|V2Ray|中转优化
+      - 美国2|V2Ray|中转优化
+      - 越南1|V2Ray|中转优化
+      - 韩国1|V2Ray|中转优化
+      - 韩国2|SSR
+      - 香港|V2Ray|流媒体解锁
+      - 香港1|V2Ray|流媒体优选
+      - 香港2|V2Ray|流媒体解锁
       - 韩国|03|OCAZ中转
       - 日本|05|OCAZ中转
       - 日本|01|LINAZ中转
@@ -86,6 +120,23 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 台湾|V2Ray|流媒体优选
+      - 台湾4|V2Ray|流媒体优选
+      - 台湾省1|SSR|流媒体优选
+      - 台湾省2|V2Ray|流媒体优选
+      - 台湾省3|SSR|流媒体优选
+      - 新加坡|V2Ray|中转优化
+      - 新加坡5|SSR|中转优化
+      - 日本1|SSR|中转优化
+      - 日本2|SSR|中转优化
+      - 美国1|V2Ray|中转优化
+      - 美国2|V2Ray|中转优化
+      - 越南1|V2Ray|中转优化
+      - 韩国1|V2Ray|中转优化
+      - 韩国2|SSR
+      - 香港|V2Ray|流媒体解锁
+      - 香港1|V2Ray|流媒体优选
+      - 香港2|V2Ray|流媒体解锁
       - 韩国|03|OCAZ中转
       - 日本|05|OCAZ中转
       - 日本|01|LINAZ中转
@@ -127,6 +178,23 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 台湾|V2Ray|流媒体优选
+      - 台湾4|V2Ray|流媒体优选
+      - 台湾省1|SSR|流媒体优选
+      - 台湾省2|V2Ray|流媒体优选
+      - 台湾省3|SSR|流媒体优选
+      - 新加坡|V2Ray|中转优化
+      - 新加坡5|SSR|中转优化
+      - 日本1|SSR|中转优化
+      - 日本2|SSR|中转优化
+      - 美国1|V2Ray|中转优化
+      - 美国2|V2Ray|中转优化
+      - 越南1|V2Ray|中转优化
+      - 韩国1|V2Ray|中转优化
+      - 韩国2|SSR
+      - 香港|V2Ray|流媒体解锁
+      - 香港1|V2Ray|流媒体优选
+      - 香港2|V2Ray|流媒体解锁
       - 韩国|03|OCAZ中转
       - 日本|05|OCAZ中转
       - 日本|01|LINAZ中转
@@ -180,6 +248,23 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 台湾|V2Ray|流媒体优选
+      - 台湾4|V2Ray|流媒体优选
+      - 台湾省1|SSR|流媒体优选
+      - 台湾省2|V2Ray|流媒体优选
+      - 台湾省3|SSR|流媒体优选
+      - 新加坡|V2Ray|中转优化
+      - 新加坡5|SSR|中转优化
+      - 日本1|SSR|中转优化
+      - 日本2|SSR|中转优化
+      - 美国1|V2Ray|中转优化
+      - 美国2|V2Ray|中转优化
+      - 越南1|V2Ray|中转优化
+      - 韩国1|V2Ray|中转优化
+      - 韩国2|SSR
+      - 香港|V2Ray|流媒体解锁
+      - 香港1|V2Ray|流媒体优选
+      - 香港2|V2Ray|流媒体解锁
       - 韩国|03|OCAZ中转
       - 日本|05|OCAZ中转
       - 日本|01|LINAZ中转
@@ -219,6 +304,14 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - 台湾|V2Ray|流媒体优选
+      - 台湾4|V2Ray|流媒体优选
+      - 台湾省1|SSR|流媒体优选
+      - 台湾省2|V2Ray|流媒体优选
+      - 台湾省3|SSR|流媒体优选
+      - 香港|V2Ray|流媒体解锁
+      - 香港1|V2Ray|流媒体优选
+      - 香港2|V2Ray|流媒体解锁
       - 香港|03AZ中转
       - 香港|12AZ中转
       - 台湾|01奈飞AZ中转
@@ -233,6 +326,23 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 台湾|V2Ray|流媒体优选
+      - 台湾4|V2Ray|流媒体优选
+      - 台湾省1|SSR|流媒体优选
+      - 台湾省2|V2Ray|流媒体优选
+      - 台湾省3|SSR|流媒体优选
+      - 新加坡|V2Ray|中转优化
+      - 新加坡5|SSR|中转优化
+      - 日本1|SSR|中转优化
+      - 日本2|SSR|中转优化
+      - 美国1|V2Ray|中转优化
+      - 美国2|V2Ray|中转优化
+      - 越南1|V2Ray|中转优化
+      - 韩国1|V2Ray|中转优化
+      - 韩国2|SSR
+      - 香港|V2Ray|流媒体解锁
+      - 香港1|V2Ray|流媒体优选
+      - 香港2|V2Ray|流媒体解锁
       - 韩国|03|OCAZ中转
       - 日本|05|OCAZ中转
       - 日本|01|LINAZ中转
@@ -273,6 +383,23 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 台湾|V2Ray|流媒体优选
+      - 台湾4|V2Ray|流媒体优选
+      - 台湾省1|SSR|流媒体优选
+      - 台湾省2|V2Ray|流媒体优选
+      - 台湾省3|SSR|流媒体优选
+      - 新加坡|V2Ray|中转优化
+      - 新加坡5|SSR|中转优化
+      - 日本1|SSR|中转优化
+      - 日本2|SSR|中转优化
+      - 美国1|V2Ray|中转优化
+      - 美国2|V2Ray|中转优化
+      - 越南1|V2Ray|中转优化
+      - 韩国1|V2Ray|中转优化
+      - 韩国2|SSR
+      - 香港|V2Ray|流媒体解锁
+      - 香港1|V2Ray|流媒体优选
+      - 香港2|V2Ray|流媒体解锁
       - 韩国|03|OCAZ中转
       - 日本|05|OCAZ中转
       - 日本|01|LINAZ中转
@@ -314,6 +441,23 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 台湾|V2Ray|流媒体优选
+      - 台湾4|V2Ray|流媒体优选
+      - 台湾省1|SSR|流媒体优选
+      - 台湾省2|V2Ray|流媒体优选
+      - 台湾省3|SSR|流媒体优选
+      - 新加坡|V2Ray|中转优化
+      - 新加坡5|SSR|中转优化
+      - 日本1|SSR|中转优化
+      - 日本2|SSR|中转优化
+      - 美国1|V2Ray|中转优化
+      - 美国2|V2Ray|中转优化
+      - 越南1|V2Ray|中转优化
+      - 韩国1|V2Ray|中转优化
+      - 韩国2|SSR
+      - 香港|V2Ray|流媒体解锁
+      - 香港1|V2Ray|流媒体优选
+      - 香港2|V2Ray|流媒体解锁
       - 韩国|03|OCAZ中转
       - 日本|05|OCAZ中转
       - 日本|01|LINAZ中转
@@ -364,6 +508,23 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 台湾|V2Ray|流媒体优选
+      - 台湾4|V2Ray|流媒体优选
+      - 台湾省1|SSR|流媒体优选
+      - 台湾省2|V2Ray|流媒体优选
+      - 台湾省3|SSR|流媒体优选
+      - 新加坡|V2Ray|中转优化
+      - 新加坡5|SSR|中转优化
+      - 日本1|SSR|中转优化
+      - 日本2|SSR|中转优化
+      - 美国1|V2Ray|中转优化
+      - 美国2|V2Ray|中转优化
+      - 越南1|V2Ray|中转优化
+      - 韩国1|V2Ray|中转优化
+      - 韩国2|SSR
+      - 香港|V2Ray|流媒体解锁
+      - 香港1|V2Ray|流媒体优选
+      - 香港2|V2Ray|流媒体解锁
       - 韩国|03|OCAZ中转
       - 日本|05|OCAZ中转
       - 日本|01|LINAZ中转
