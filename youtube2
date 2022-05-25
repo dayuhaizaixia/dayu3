@@ -5,679 +5,115 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港- 17, server: 116.129.253.103, port: 53000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新加坡- 9, server: 116.129.253.102, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新加坡- 14, server: 116.129.253.102, port: 26000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 65, server: 120.233.185.114, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 84, server: 120.233.185.118, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 96, server: 120.233.185.119, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 103, server: 120.233.185.114, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新西伯利亚, server: 116.129.253.104, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新西伯利亚- 3, server: 116.129.253.104, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新西伯利亚- 4, server: 116.129.253.104, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新西伯利亚- 2, server: 116.129.253.104, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 美国, server: 116.129.253.101, port: 40000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 圣特克拉里塔-, server: 116.129.253.101, port: 42001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 92, server: 120.233.185.113, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新加坡- 22, server: 120.233.185.115, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新加坡- 8, server: 116.129.253.101, port: 30001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 首尔-, server: 116.129.253.103, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新加坡- 7, server: 116.129.253.101, port: 36000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新加坡- 21, server: 116.129.253.101, port: 31100, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 18, server: 116.129.253.103, port: 50000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 2, server: 116.129.253.103, port: 47000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 16, server: 116.129.253.103, port: 51000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港-, server: 116.129.253.103, port: 48000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 21, server: 116.129.253.103, port: 49000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 19, server: 116.129.253.101, port: 33300, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新加坡- 10, server: 116.129.253.102, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 20, server: 116.129.253.103, port: 52000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新加坡- 11, server: 116.129.253.102, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新加坡- 12, server: 116.129.253.102, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 台湾- 2, server: 116.129.253.104, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 台湾-99, server: 116.129.253.104, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 台湾- 3, server: 116.129.253.104, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 12, server: 116.129.253.103, port: 39300, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 41, server: 120.233.185.118, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 38, server: 120.233.185.118, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 3, server: 116.129.253.103, port: 34000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 9, server: 116.129.253.103, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 30, server: 120.233.185.112, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 60, server: 120.233.185.114, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 15, server: 116.129.253.103, port: 36000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 16, server: 116.129.253.103, port: 39800, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 25, server: 116.129.253.102, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 13, server: 116.129.253.103, port: 33000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 13, server: 116.129.253.102, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 5, server: 116.129.253.103, port: 39000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本-2 7, server: 116.129.253.103, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 64, server: 120.233.185.114, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 18, server: 116.129.253.103, port: 39100, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 24, server: 120.233.185.115, port: 26000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 74, server: 120.233.185.119, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 82, server: 120.233.185.113, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 67, server: 120.233.185.119, port: 32000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 42, server: 120.233.185.116, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 70, server: 120.233.185.119, port: 27000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 95, server: 120.233.185.119, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 97, server: 120.233.185.119, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 6, server: 116.129.253.102, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 33, server: 120.233.185.112, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 10, server: 116.129.253.103, port: 42000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 1, server: 116.129.253.103, port: 39500, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 2, server: 116.129.253.103, port: 32000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 71, server: 120.233.185.115, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 94, server: 120.233.185.119, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 4, server: 116.129.253.103, port: 38100, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 72, server: 120.233.185.119, port: 28000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 15, server: 116.129.253.103, port: 41000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 37, server: 120.233.185.115, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 52, server: 120.233.185.118, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 105, server: 120.233.185.112, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 6, server: 116.129.253.103, port: 39700, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 22, server: 116.129.253.102, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 34, server: 120.233.185.112, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 88, server: 120.233.185.117, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 25, server: 120.233.185.115, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 99, server: 120.233.185.119, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 10, server: 116.129.253.103, port: 37000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本-2 17, server: 116.129.253.103, port: 39200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 32, server: 120.233.185.112, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 36, server: 120.233.185.115, port: 28000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 54, server: 120.233.185.113, port: 10000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 100, server: 120.233.185.119, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 101, server: 120.233.185.115, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 44, server: 120.233.185.114, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 75, server: 120.233.185.115, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 76, server: 120.233.185.115, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 9, server: 116.129.253.102, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 43, server: 120.233.185.115, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 45, server: 120.233.185.114, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 104, server: 120.233.185.112, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 8, server: 116.129.253.103, port: 38000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 11, server: 116.129.253.103, port: 35000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 19, server: 116.129.253.103, port: 39900, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 89, server: 120.233.185.117, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 14, server: 116.129.253.103, port: 39600, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 12, server: 116.129.253.103, port: 45000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 39, server: 120.233.185.112, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 8, server: 116.129.253.103, port: 43000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 77, server: 120.233.185.115, port: 29000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 79, server: 120.233.185.119, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 73, server: 120.233.185.119, port: 36000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 86, server: 120.233.185.113, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 20, server: 116.129.253.103, port: 39400, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 40, server: 120.233.185.116, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 47, server: 120.233.185.116, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 102, server: 120.233.185.115, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新加坡-1111, server: 116.129.253.101, port: 33200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 22, server: 120.233.185.113, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 53, server: 120.233.185.118, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 57, server: 120.233.185.114, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 69, server: 120.233.185.119, port: 35000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 29, server: 120.233.185.116, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 66, server: 120.233.185.119, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 68, server: 120.233.185.119, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 83, server: 120.233.185.113, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新加坡- 15, server: 116.129.253.106, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新加坡- 20, server: 116.129.253.107, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 46, server: 120.233.185.116, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 106, server: 120.233.185.112, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 4, server: 116.129.253.103, port: 44000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 48, server: 120.233.185.116, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 55, server: 120.233.185.115, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 80, server: 120.233.185.113, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 85, server: 120.233.185.117, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 49, server: 120.233.185.116, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 59, server: 120.233.185.114, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 91, server: 120.233.185.113, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 98, server: 120.233.185.119, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 107, server: 120.233.185.112, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 51, server: 120.233.185.112, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 61, server: 120.233.185.114, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新加坡- 23, server: 120.233.185.113, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 31, server: 120.233.185.113, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 35, server: 120.233.185.114, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 56, server: 120.233.185.114, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 5, server: 116.129.253.102, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 24, server: 116.129.253.102, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新加坡- 3, server: 116.129.253.103, port: 40000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 26, server: 120.233.185.113, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 50, server: 120.233.185.117, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 78, server: 120.233.185.117, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 81, server: 120.233.185.117, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 87, server: 120.233.185.113, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 63, server: 120.233.185.115, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 90, server: 120.233.185.117, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 58, server: 120.233.185.115, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 62, server: 120.233.185.114, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新加坡- 2, server: 116.129.253.107, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 14, server: 116.129.253.103, port: 46000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新加坡-2 16, server: 116.129.253.107, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 23, server: 120.233.185.115, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新加坡- 6, server: 116.129.253.106, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 7, server: 116.129.253.102, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 11, server: 116.129.253.101, port: 32200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 23, server: 116.129.253.102, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 28, server: 120.233.185.114, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新加坡- 5, server: 116.129.253.106, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新加坡- 18, server: 116.129.253.107, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新加坡- 17, server: 116.129.253.107, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 日本- 21, server: 116.129.253.102, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 3, server: 116.129.253.102, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 新加坡- 19, server: 116.129.253.107, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 香港- 108, server: 120.233.185.112, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 388137:Za5sSX, obfs-param: "", udp: true}
-  - {name: 美国TG频道:t.me/ruofengfx 26, server: clash2.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 洛杉矶, server: 116.129.253.86, port: 42531, type: ssr, cipher: chacha20-ietf, password: 44FxbP, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 2366:ixueyao87, obfs-param: "", udp: true}
+  - {name: 首尔2, server: 116.129.253.86, port: 40002, type: ssr, cipher: chacha20-ietf, password: 44FxbP, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 2366:ixueyao87, obfs-param: "", udp: true}
+  - {name: 首尔 2, server: 116.129.253.86, port: 40001, type: ssr, cipher: chacha20-ietf, password: 44FxbP, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 2366:ixueyao87, obfs-param: "", udp: true}
+  - {name: 东京, server: 116.129.253.86, port: 43034, type: ssr, cipher: chacha20-ietf, password: 44FxbP, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 2366:ixueyao87, obfs-param: "", udp: true}
+  - {name: 东京2, server: 116.129.253.86, port: 43033, type: ssr, cipher: chacha20-ietf, password: 44FxbP, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 2366:ixueyao87, obfs-param: "", udp: true}
+  - {name: 东京3, server: 116.129.253.86, port: 43032, type: ssr, cipher: chacha20-ietf, password: 44FxbP, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 2366:ixueyao87, obfs-param: "", udp: true}
+  - {name: 东京4, server: 116.129.253.86, port: 43031, type: ssr, cipher: chacha20-ietf, password: 44FxbP, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 2366:ixueyao87, obfs-param: "", udp: true}
+  - {name: 台湾, server: 116.129.253.86, port: 42156, type: ssr, cipher: chacha20-ietf, password: 44FxbP, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 2366:ixueyao87, obfs-param: "", udp: true}
+  - {name: 台湾2, server: 116.129.253.86, port: 42155, type: ssr, cipher: chacha20-ietf, password: 44FxbP, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 2366:ixueyao87, obfs-param: "", udp: true}
+  - {name: 香港, server: 116.129.253.86, port: 41548, type: ssr, cipher: chacha20-ietf, password: 44FxbP, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 2366:ixueyao87, obfs-param: "", udp: true}
+  - {name: 香港2, server: 116.129.253.86, port: 41547, type: ssr, cipher: chacha20-ietf, password: 44FxbP, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 2366:ixueyao87, obfs-param: "", udp: true}
+  - {name: 香港3, server: 116.129.253.86, port: 41546, type: ssr, cipher: chacha20-ietf, password: 44FxbP, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 2366:ixueyao87, obfs-param: "", udp: true}
+  - {name: 香港4, server: 116.129.253.86, port: 41543, type: ssr, cipher: chacha20-ietf, password: 44FxbP, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 2366:ixueyao87, obfs-param: "", udp: true}
+  - {name: 香港5, server: 116.129.253.86, port: 41542, type: ssr, cipher: chacha20-ietf, password: 44FxbP, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 2366:ixueyao87, obfs-param: "", udp: true}
+  - {name: 香港6, server: 116.129.253.86, port: 41541, type: ssr, cipher: chacha20-ietf, password: 44FxbP, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 2366:ixueyao87, obfs-param: "", udp: true}
+  - {name: 香港7, server: 116.129.253.86, port: 41537, type: ssr, cipher: chacha20-ietf, password: 44FxbP, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 2366:ixueyao87, obfs-param: "", udp: true}
+  - {name: 香港8, server: 116.129.253.86, port: 41527, type: ssr, cipher: chacha20-ietf, password: 44FxbP, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 2366:ixueyao87, obfs-param: "", udp: true}
+  - {name: 香港9, server: 116.129.253.86, port: 41526, type: ssr, cipher: chacha20-ietf, password: 44FxbP, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 2366:ixueyao87, obfs-param: "", udp: true}
+  - {name: 香港10, server: 116.129.253.86, port: 41524, type: ssr, cipher: chacha20-ietf, password: 44FxbP, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 2366:ixueyao87, obfs-param: "", udp: true}
+  - {name: 香港11, server: 116.129.253.86, port: 41512, type: ssr, cipher: chacha20-ietf, password: 44FxbP, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 2366:ixueyao87, obfs-param: "", udp: true}
+  - {name: 香港12, server: 116.129.253.86, port: 41511, type: ssr, cipher: chacha20-ietf, password: 44FxbP, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 2366:ixueyao87, obfs-param: "", udp: true}
   - {name: 美国TG频道:t.me/ruofengfx 9, server: ssr112.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 中国-TG频道:t.me/ruofengfx, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港- 17
-      - 新加坡- 9
-      - 新加坡- 14
-      - 香港- 65
-      - 香港- 84
-      - 香港- 96
-      - 香港- 103
-      - 新西伯利亚
-      - 新西伯利亚- 3
-      - 新西伯利亚- 4
-      - 新西伯利亚- 2
-      - 美国
-      - 圣特克拉里塔-
-      - 香港- 92
-      - 新加坡- 22
-      - 新加坡- 8
-      - 首尔-
-      - 新加坡- 7
-      - 新加坡- 21
-      - 香港- 18
-      - 香港- 2
-      - 香港- 16
-      - 香港-
-      - 香港- 21
-      - 香港- 19
-      - 新加坡- 10
-      - 香港- 20
-      - 新加坡- 11
-      - 新加坡- 12
-      - 台湾- 2
-      - 台湾-99
-      - 台湾- 3
-      - 日本- 12
-      - 香港- 41
-      - 香港- 38
-      - 日本- 3
-      - 日本- 9
-      - 香港- 30
-      - 香港- 60
-      - 日本- 15
-      - 日本- 16
-      - 日本- 25
-      - 日本- 13
-      - 香港- 13
-      - 日本- 5
-      - 日本-2 7
-      - 香港- 64
-      - 日本- 18
-      - 香港- 24
-      - 香港- 74
-      - 香港- 82
-      - 香港- 67
-      - 香港- 42
-      - 香港- 70
-      - 香港- 95
-      - 香港- 97
-      - 香港- 6
-      - 香港- 33
-      - 香港- 10
-      - 日本- 1
-      - 日本- 2
-      - 香港- 71
-      - 香港- 94
-      - 日本- 4
-      - 香港- 72
-      - 香港- 15
-      - 香港- 37
-      - 香港- 52
-      - 香港- 105
-      - 日本- 6
-      - 日本- 22
-      - 香港- 34
-      - 香港- 88
-      - 香港- 25
-      - 香港- 99
-      - 日本- 10
-      - 日本-2 17
-      - 香港- 32
-      - 香港- 36
-      - 香港- 54
-      - 香港- 100
-      - 香港- 101
-      - 香港- 44
-      - 香港- 75
-      - 香港- 76
-      - 香港- 9
-      - 香港- 43
-      - 香港- 45
-      - 香港- 104
-      - 日本- 8
-      - 日本- 11
-      - 日本- 19
-      - 香港- 89
-      - 日本- 14
-      - 香港- 12
-      - 香港- 39
-      - 香港- 8
-      - 香港- 77
-      - 香港- 79
-      - 香港- 73
-      - 香港- 86
-      - 日本- 20
-      - 香港- 40
-      - 香港- 47
-      - 香港- 102
-      - 新加坡-1111
-      - 香港- 22
-      - 香港- 53
-      - 香港- 57
-      - 香港- 69
-      - 香港- 29
-      - 香港- 66
-      - 香港- 68
-      - 香港- 83
-      - 新加坡- 15
-      - 新加坡- 20
-      - 香港- 46
-      - 香港- 106
-      - 香港- 4
-      - 香港- 48
-      - 香港- 55
-      - 香港- 80
-      - 香港- 85
-      - 香港- 49
-      - 香港- 59
-      - 香港- 91
-      - 香港- 98
-      - 香港- 107
-      - 香港- 51
-      - 香港- 61
-      - 新加坡- 23
-      - 香港- 31
-      - 香港- 35
-      - 香港- 56
-      - 香港- 5
-      - 日本- 24
-      - 新加坡- 3
-      - 香港- 26
-      - 香港- 50
-      - 香港- 78
-      - 香港- 81
-      - 香港- 87
-      - 香港- 63
-      - 香港- 90
-      - 香港- 58
-      - 香港- 62
-      - 新加坡- 2
-      - 香港- 14
-      - 新加坡-2 16
-      - 香港- 23
-      - 新加坡- 6
-      - 香港- 7
-      - 香港- 11
-      - 日本- 23
-      - 香港- 28
-      - 新加坡- 5
-      - 新加坡- 18
-      - 新加坡- 17
-      - 日本- 21
-      - 香港- 3
-      - 新加坡- 19
-      - 香港- 108
-      - 美国TG频道:t.me/ruofengfx 26
+      - 洛杉矶
+      - 首尔2
+      - 首尔 2
+      - 东京
+      - 东京2
+      - 东京3
+      - 东京4
+      - 台湾
+      - 台湾2
+      - 香港
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港7
+      - 香港8
+      - 香港9
+      - 香港10
+      - 香港11
+      - 香港12
       - 美国TG频道:t.me/ruofengfx 9
+      - 中国-TG频道:t.me/ruofengfx
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港- 17
-      - 新加坡- 9
-      - 新加坡- 14
-      - 香港- 65
-      - 香港- 84
-      - 香港- 96
-      - 香港- 103
-      - 新西伯利亚
-      - 新西伯利亚- 3
-      - 新西伯利亚- 4
-      - 新西伯利亚- 2
-      - 美国
-      - 圣特克拉里塔-
-      - 香港- 92
-      - 新加坡- 22
-      - 新加坡- 8
-      - 首尔-
-      - 新加坡- 7
-      - 新加坡- 21
-      - 香港- 18
-      - 香港- 2
-      - 香港- 16
-      - 香港-
-      - 香港- 21
-      - 香港- 19
-      - 新加坡- 10
-      - 香港- 20
-      - 新加坡- 11
-      - 新加坡- 12
-      - 台湾- 2
-      - 台湾-99
-      - 台湾- 3
-      - 日本- 12
-      - 香港- 41
-      - 香港- 38
-      - 日本- 3
-      - 日本- 9
-      - 香港- 30
-      - 香港- 60
-      - 日本- 15
-      - 日本- 16
-      - 日本- 25
-      - 日本- 13
-      - 香港- 13
-      - 日本- 5
-      - 日本-2 7
-      - 香港- 64
-      - 日本- 18
-      - 香港- 24
-      - 香港- 74
-      - 香港- 82
-      - 香港- 67
-      - 香港- 42
-      - 香港- 70
-      - 香港- 95
-      - 香港- 97
-      - 香港- 6
-      - 香港- 33
-      - 香港- 10
-      - 日本- 1
-      - 日本- 2
-      - 香港- 71
-      - 香港- 94
-      - 日本- 4
-      - 香港- 72
-      - 香港- 15
-      - 香港- 37
-      - 香港- 52
-      - 香港- 105
-      - 日本- 6
-      - 日本- 22
-      - 香港- 34
-      - 香港- 88
-      - 香港- 25
-      - 香港- 99
-      - 日本- 10
-      - 日本-2 17
-      - 香港- 32
-      - 香港- 36
-      - 香港- 54
-      - 香港- 100
-      - 香港- 101
-      - 香港- 44
-      - 香港- 75
-      - 香港- 76
-      - 香港- 9
-      - 香港- 43
-      - 香港- 45
-      - 香港- 104
-      - 日本- 8
-      - 日本- 11
-      - 日本- 19
-      - 香港- 89
-      - 日本- 14
-      - 香港- 12
-      - 香港- 39
-      - 香港- 8
-      - 香港- 77
-      - 香港- 79
-      - 香港- 73
-      - 香港- 86
-      - 日本- 20
-      - 香港- 40
-      - 香港- 47
-      - 香港- 102
-      - 新加坡-1111
-      - 香港- 22
-      - 香港- 53
-      - 香港- 57
-      - 香港- 69
-      - 香港- 29
-      - 香港- 66
-      - 香港- 68
-      - 香港- 83
-      - 新加坡- 15
-      - 新加坡- 20
-      - 香港- 46
-      - 香港- 106
-      - 香港- 4
-      - 香港- 48
-      - 香港- 55
-      - 香港- 80
-      - 香港- 85
-      - 香港- 49
-      - 香港- 59
-      - 香港- 91
-      - 香港- 98
-      - 香港- 107
-      - 香港- 51
-      - 香港- 61
-      - 新加坡- 23
-      - 香港- 31
-      - 香港- 35
-      - 香港- 56
-      - 香港- 5
-      - 日本- 24
-      - 新加坡- 3
-      - 香港- 26
-      - 香港- 50
-      - 香港- 78
-      - 香港- 81
-      - 香港- 87
-      - 香港- 63
-      - 香港- 90
-      - 香港- 58
-      - 香港- 62
-      - 新加坡- 2
-      - 香港- 14
-      - 新加坡-2 16
-      - 香港- 23
-      - 新加坡- 6
-      - 香港- 7
-      - 香港- 11
-      - 日本- 23
-      - 香港- 28
-      - 新加坡- 5
-      - 新加坡- 18
-      - 新加坡- 17
-      - 日本- 21
-      - 香港- 3
-      - 新加坡- 19
-      - 香港- 108
-      - 美国TG频道:t.me/ruofengfx 26
+      - 洛杉矶
+      - 首尔2
+      - 首尔 2
+      - 东京
+      - 东京2
+      - 东京3
+      - 东京4
+      - 台湾
+      - 台湾2
+      - 香港
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港7
+      - 香港8
+      - 香港9
+      - 香港10
+      - 香港11
+      - 香港12
       - 美国TG频道:t.me/ruofengfx 9
+      - 中国-TG频道:t.me/ruofengfx
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港- 17
-      - 新加坡- 9
-      - 新加坡- 14
-      - 香港- 65
-      - 香港- 84
-      - 香港- 96
-      - 香港- 103
-      - 新西伯利亚
-      - 新西伯利亚- 3
-      - 新西伯利亚- 4
-      - 新西伯利亚- 2
-      - 美国
-      - 圣特克拉里塔-
-      - 香港- 92
-      - 新加坡- 22
-      - 新加坡- 8
-      - 首尔-
-      - 新加坡- 7
-      - 新加坡- 21
-      - 香港- 18
-      - 香港- 2
-      - 香港- 16
-      - 香港-
-      - 香港- 21
-      - 香港- 19
-      - 新加坡- 10
-      - 香港- 20
-      - 新加坡- 11
-      - 新加坡- 12
-      - 台湾- 2
-      - 台湾-99
-      - 台湾- 3
-      - 日本- 12
-      - 香港- 41
-      - 香港- 38
-      - 日本- 3
-      - 日本- 9
-      - 香港- 30
-      - 香港- 60
-      - 日本- 15
-      - 日本- 16
-      - 日本- 25
-      - 日本- 13
-      - 香港- 13
-      - 日本- 5
-      - 日本-2 7
-      - 香港- 64
-      - 日本- 18
-      - 香港- 24
-      - 香港- 74
-      - 香港- 82
-      - 香港- 67
-      - 香港- 42
-      - 香港- 70
-      - 香港- 95
-      - 香港- 97
-      - 香港- 6
-      - 香港- 33
-      - 香港- 10
-      - 日本- 1
-      - 日本- 2
-      - 香港- 71
-      - 香港- 94
-      - 日本- 4
-      - 香港- 72
-      - 香港- 15
-      - 香港- 37
-      - 香港- 52
-      - 香港- 105
-      - 日本- 6
-      - 日本- 22
-      - 香港- 34
-      - 香港- 88
-      - 香港- 25
-      - 香港- 99
-      - 日本- 10
-      - 日本-2 17
-      - 香港- 32
-      - 香港- 36
-      - 香港- 54
-      - 香港- 100
-      - 香港- 101
-      - 香港- 44
-      - 香港- 75
-      - 香港- 76
-      - 香港- 9
-      - 香港- 43
-      - 香港- 45
-      - 香港- 104
-      - 日本- 8
-      - 日本- 11
-      - 日本- 19
-      - 香港- 89
-      - 日本- 14
-      - 香港- 12
-      - 香港- 39
-      - 香港- 8
-      - 香港- 77
-      - 香港- 79
-      - 香港- 73
-      - 香港- 86
-      - 日本- 20
-      - 香港- 40
-      - 香港- 47
-      - 香港- 102
-      - 新加坡-1111
-      - 香港- 22
-      - 香港- 53
-      - 香港- 57
-      - 香港- 69
-      - 香港- 29
-      - 香港- 66
-      - 香港- 68
-      - 香港- 83
-      - 新加坡- 15
-      - 新加坡- 20
-      - 香港- 46
-      - 香港- 106
-      - 香港- 4
-      - 香港- 48
-      - 香港- 55
-      - 香港- 80
-      - 香港- 85
-      - 香港- 49
-      - 香港- 59
-      - 香港- 91
-      - 香港- 98
-      - 香港- 107
-      - 香港- 51
-      - 香港- 61
-      - 新加坡- 23
-      - 香港- 31
-      - 香港- 35
-      - 香港- 56
-      - 香港- 5
-      - 日本- 24
-      - 新加坡- 3
-      - 香港- 26
-      - 香港- 50
-      - 香港- 78
-      - 香港- 81
-      - 香港- 87
-      - 香港- 63
-      - 香港- 90
-      - 香港- 58
-      - 香港- 62
-      - 新加坡- 2
-      - 香港- 14
-      - 新加坡-2 16
-      - 香港- 23
-      - 新加坡- 6
-      - 香港- 7
-      - 香港- 11
-      - 日本- 23
-      - 香港- 28
-      - 新加坡- 5
-      - 新加坡- 18
-      - 新加坡- 17
-      - 日本- 21
-      - 香港- 3
-      - 新加坡- 19
-      - 香港- 108
-      - 美国TG频道:t.me/ruofengfx 26
+      - 洛杉矶
+      - 首尔2
+      - 首尔 2
+      - 东京
+      - 东京2
+      - 东京3
+      - 东京4
+      - 台湾
+      - 台湾2
+      - 香港
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港7
+      - 香港8
+      - 香港9
+      - 香港10
+      - 香港11
+      - 香港12
       - 美国TG频道:t.me/ruofengfx 9
+      - 中国-TG频道:t.me/ruofengfx
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -696,792 +132,133 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港- 17
-      - 新加坡- 9
-      - 新加坡- 14
-      - 香港- 65
-      - 香港- 84
-      - 香港- 96
-      - 香港- 103
-      - 新西伯利亚
-      - 新西伯利亚- 3
-      - 新西伯利亚- 4
-      - 新西伯利亚- 2
-      - 美国
-      - 圣特克拉里塔-
-      - 香港- 92
-      - 新加坡- 22
-      - 新加坡- 8
-      - 首尔-
-      - 新加坡- 7
-      - 新加坡- 21
-      - 香港- 18
-      - 香港- 2
-      - 香港- 16
-      - 香港-
-      - 香港- 21
-      - 香港- 19
-      - 新加坡- 10
-      - 香港- 20
-      - 新加坡- 11
-      - 新加坡- 12
-      - 台湾- 2
-      - 台湾-99
-      - 台湾- 3
-      - 日本- 12
-      - 香港- 41
-      - 香港- 38
-      - 日本- 3
-      - 日本- 9
-      - 香港- 30
-      - 香港- 60
-      - 日本- 15
-      - 日本- 16
-      - 日本- 25
-      - 日本- 13
-      - 香港- 13
-      - 日本- 5
-      - 日本-2 7
-      - 香港- 64
-      - 日本- 18
-      - 香港- 24
-      - 香港- 74
-      - 香港- 82
-      - 香港- 67
-      - 香港- 42
-      - 香港- 70
-      - 香港- 95
-      - 香港- 97
-      - 香港- 6
-      - 香港- 33
-      - 香港- 10
-      - 日本- 1
-      - 日本- 2
-      - 香港- 71
-      - 香港- 94
-      - 日本- 4
-      - 香港- 72
-      - 香港- 15
-      - 香港- 37
-      - 香港- 52
-      - 香港- 105
-      - 日本- 6
-      - 日本- 22
-      - 香港- 34
-      - 香港- 88
-      - 香港- 25
-      - 香港- 99
-      - 日本- 10
-      - 日本-2 17
-      - 香港- 32
-      - 香港- 36
-      - 香港- 54
-      - 香港- 100
-      - 香港- 101
-      - 香港- 44
-      - 香港- 75
-      - 香港- 76
-      - 香港- 9
-      - 香港- 43
-      - 香港- 45
-      - 香港- 104
-      - 日本- 8
-      - 日本- 11
-      - 日本- 19
-      - 香港- 89
-      - 日本- 14
-      - 香港- 12
-      - 香港- 39
-      - 香港- 8
-      - 香港- 77
-      - 香港- 79
-      - 香港- 73
-      - 香港- 86
-      - 日本- 20
-      - 香港- 40
-      - 香港- 47
-      - 香港- 102
-      - 新加坡-1111
-      - 香港- 22
-      - 香港- 53
-      - 香港- 57
-      - 香港- 69
-      - 香港- 29
-      - 香港- 66
-      - 香港- 68
-      - 香港- 83
-      - 新加坡- 15
-      - 新加坡- 20
-      - 香港- 46
-      - 香港- 106
-      - 香港- 4
-      - 香港- 48
-      - 香港- 55
-      - 香港- 80
-      - 香港- 85
-      - 香港- 49
-      - 香港- 59
-      - 香港- 91
-      - 香港- 98
-      - 香港- 107
-      - 香港- 51
-      - 香港- 61
-      - 新加坡- 23
-      - 香港- 31
-      - 香港- 35
-      - 香港- 56
-      - 香港- 5
-      - 日本- 24
-      - 新加坡- 3
-      - 香港- 26
-      - 香港- 50
-      - 香港- 78
-      - 香港- 81
-      - 香港- 87
-      - 香港- 63
-      - 香港- 90
-      - 香港- 58
-      - 香港- 62
-      - 新加坡- 2
-      - 香港- 14
-      - 新加坡-2 16
-      - 香港- 23
-      - 新加坡- 6
-      - 香港- 7
-      - 香港- 11
-      - 日本- 23
-      - 香港- 28
-      - 新加坡- 5
-      - 新加坡- 18
-      - 新加坡- 17
-      - 日本- 21
-      - 香港- 3
-      - 新加坡- 19
-      - 香港- 108
-      - 美国TG频道:t.me/ruofengfx 26
+      - 洛杉矶
+      - 首尔2
+      - 首尔 2
+      - 东京
+      - 东京2
+      - 东京3
+      - 东京4
+      - 台湾
+      - 台湾2
+      - 香港
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港7
+      - 香港8
+      - 香港9
+      - 香港10
+      - 香港11
+      - 香港12
       - 美国TG频道:t.me/ruofengfx 9
+      - 中国-TG频道:t.me/ruofengfx
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港- 17
-      - 香港- 65
-      - 香港- 84
-      - 香港- 96
-      - 香港- 103
-      - 香港- 92
-      - 香港- 18
-      - 香港- 2
-      - 香港- 16
-      - 香港-
-      - 香港- 21
-      - 香港- 19
-      - 香港- 20
-      - 台湾- 2
-      - 台湾-99
-      - 台湾- 3
-      - 香港- 41
-      - 香港- 38
-      - 香港- 30
-      - 香港- 60
-      - 香港- 13
-      - 香港- 64
-      - 香港- 24
-      - 香港- 74
-      - 香港- 82
-      - 香港- 67
-      - 香港- 42
-      - 香港- 70
-      - 香港- 95
-      - 香港- 97
-      - 香港- 6
-      - 香港- 33
-      - 香港- 10
-      - 香港- 71
-      - 香港- 94
-      - 香港- 72
-      - 香港- 15
-      - 香港- 37
-      - 香港- 52
-      - 香港- 105
-      - 香港- 34
-      - 香港- 88
-      - 香港- 25
-      - 香港- 99
-      - 香港- 32
-      - 香港- 36
-      - 香港- 54
-      - 香港- 100
-      - 香港- 101
-      - 香港- 44
-      - 香港- 75
-      - 香港- 76
-      - 香港- 9
-      - 香港- 43
-      - 香港- 45
-      - 香港- 104
-      - 香港- 89
-      - 香港- 12
-      - 香港- 39
-      - 香港- 8
-      - 香港- 77
-      - 香港- 79
-      - 香港- 73
-      - 香港- 86
-      - 香港- 40
-      - 香港- 47
-      - 香港- 102
-      - 香港- 22
-      - 香港- 53
-      - 香港- 57
-      - 香港- 69
-      - 香港- 29
-      - 香港- 66
-      - 香港- 68
-      - 香港- 83
-      - 香港- 46
-      - 香港- 106
-      - 香港- 4
-      - 香港- 48
-      - 香港- 55
-      - 香港- 80
-      - 香港- 85
-      - 香港- 49
-      - 香港- 59
-      - 香港- 91
-      - 香港- 98
-      - 香港- 107
-      - 香港- 51
-      - 香港- 61
-      - 香港- 31
-      - 香港- 35
-      - 香港- 56
-      - 香港- 5
-      - 香港- 26
-      - 香港- 50
-      - 香港- 78
-      - 香港- 81
-      - 香港- 87
-      - 香港- 63
-      - 香港- 90
-      - 香港- 58
-      - 香港- 62
-      - 香港- 14
-      - 香港- 23
-      - 香港- 7
-      - 香港- 11
-      - 香港- 28
-      - 香港- 3
-      - 香港- 108
+      - 台湾
+      - 台湾2
+      - 香港
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港7
+      - 香港8
+      - 香港9
+      - 香港10
+      - 香港11
+      - 香港12
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港- 17
-      - 新加坡- 9
-      - 新加坡- 14
-      - 香港- 65
-      - 香港- 84
-      - 香港- 96
-      - 香港- 103
-      - 新西伯利亚
-      - 新西伯利亚- 3
-      - 新西伯利亚- 4
-      - 新西伯利亚- 2
-      - 美国
-      - 圣特克拉里塔-
-      - 香港- 92
-      - 新加坡- 22
-      - 新加坡- 8
-      - 首尔-
-      - 新加坡- 7
-      - 新加坡- 21
-      - 香港- 18
-      - 香港- 2
-      - 香港- 16
-      - 香港-
-      - 香港- 21
-      - 香港- 19
-      - 新加坡- 10
-      - 香港- 20
-      - 新加坡- 11
-      - 新加坡- 12
-      - 台湾- 2
-      - 台湾-99
-      - 台湾- 3
-      - 日本- 12
-      - 香港- 41
-      - 香港- 38
-      - 日本- 3
-      - 日本- 9
-      - 香港- 30
-      - 香港- 60
-      - 日本- 15
-      - 日本- 16
-      - 日本- 25
-      - 日本- 13
-      - 香港- 13
-      - 日本- 5
-      - 日本-2 7
-      - 香港- 64
-      - 日本- 18
-      - 香港- 24
-      - 香港- 74
-      - 香港- 82
-      - 香港- 67
-      - 香港- 42
-      - 香港- 70
-      - 香港- 95
-      - 香港- 97
-      - 香港- 6
-      - 香港- 33
-      - 香港- 10
-      - 日本- 1
-      - 日本- 2
-      - 香港- 71
-      - 香港- 94
-      - 日本- 4
-      - 香港- 72
-      - 香港- 15
-      - 香港- 37
-      - 香港- 52
-      - 香港- 105
-      - 日本- 6
-      - 日本- 22
-      - 香港- 34
-      - 香港- 88
-      - 香港- 25
-      - 香港- 99
-      - 日本- 10
-      - 日本-2 17
-      - 香港- 32
-      - 香港- 36
-      - 香港- 54
-      - 香港- 100
-      - 香港- 101
-      - 香港- 44
-      - 香港- 75
-      - 香港- 76
-      - 香港- 9
-      - 香港- 43
-      - 香港- 45
-      - 香港- 104
-      - 日本- 8
-      - 日本- 11
-      - 日本- 19
-      - 香港- 89
-      - 日本- 14
-      - 香港- 12
-      - 香港- 39
-      - 香港- 8
-      - 香港- 77
-      - 香港- 79
-      - 香港- 73
-      - 香港- 86
-      - 日本- 20
-      - 香港- 40
-      - 香港- 47
-      - 香港- 102
-      - 新加坡-1111
-      - 香港- 22
-      - 香港- 53
-      - 香港- 57
-      - 香港- 69
-      - 香港- 29
-      - 香港- 66
-      - 香港- 68
-      - 香港- 83
-      - 新加坡- 15
-      - 新加坡- 20
-      - 香港- 46
-      - 香港- 106
-      - 香港- 4
-      - 香港- 48
-      - 香港- 55
-      - 香港- 80
-      - 香港- 85
-      - 香港- 49
-      - 香港- 59
-      - 香港- 91
-      - 香港- 98
-      - 香港- 107
-      - 香港- 51
-      - 香港- 61
-      - 新加坡- 23
-      - 香港- 31
-      - 香港- 35
-      - 香港- 56
-      - 香港- 5
-      - 日本- 24
-      - 新加坡- 3
-      - 香港- 26
-      - 香港- 50
-      - 香港- 78
-      - 香港- 81
-      - 香港- 87
-      - 香港- 63
-      - 香港- 90
-      - 香港- 58
-      - 香港- 62
-      - 新加坡- 2
-      - 香港- 14
-      - 新加坡-2 16
-      - 香港- 23
-      - 新加坡- 6
-      - 香港- 7
-      - 香港- 11
-      - 日本- 23
-      - 香港- 28
-      - 新加坡- 5
-      - 新加坡- 18
-      - 新加坡- 17
-      - 日本- 21
-      - 香港- 3
-      - 新加坡- 19
-      - 香港- 108
-      - 美国TG频道:t.me/ruofengfx 26
+      - 洛杉矶
+      - 首尔2
+      - 首尔 2
+      - 东京
+      - 东京2
+      - 东京3
+      - 东京4
+      - 台湾
+      - 台湾2
+      - 香港
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港7
+      - 香港8
+      - 香港9
+      - 香港10
+      - 香港11
+      - 香港12
       - 美国TG频道:t.me/ruofengfx 9
+      - 中国-TG频道:t.me/ruofengfx
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港- 17
-      - 新加坡- 9
-      - 新加坡- 14
-      - 香港- 65
-      - 香港- 84
-      - 香港- 96
-      - 香港- 103
-      - 新西伯利亚
-      - 新西伯利亚- 3
-      - 新西伯利亚- 4
-      - 新西伯利亚- 2
-      - 美国
-      - 圣特克拉里塔-
-      - 香港- 92
-      - 新加坡- 22
-      - 新加坡- 8
-      - 首尔-
-      - 新加坡- 7
-      - 新加坡- 21
-      - 香港- 18
-      - 香港- 2
-      - 香港- 16
-      - 香港-
-      - 香港- 21
-      - 香港- 19
-      - 新加坡- 10
-      - 香港- 20
-      - 新加坡- 11
-      - 新加坡- 12
-      - 台湾- 2
-      - 台湾-99
-      - 台湾- 3
-      - 日本- 12
-      - 香港- 41
-      - 香港- 38
-      - 日本- 3
-      - 日本- 9
-      - 香港- 30
-      - 香港- 60
-      - 日本- 15
-      - 日本- 16
-      - 日本- 25
-      - 日本- 13
-      - 香港- 13
-      - 日本- 5
-      - 日本-2 7
-      - 香港- 64
-      - 日本- 18
-      - 香港- 24
-      - 香港- 74
-      - 香港- 82
-      - 香港- 67
-      - 香港- 42
-      - 香港- 70
-      - 香港- 95
-      - 香港- 97
-      - 香港- 6
-      - 香港- 33
-      - 香港- 10
-      - 日本- 1
-      - 日本- 2
-      - 香港- 71
-      - 香港- 94
-      - 日本- 4
-      - 香港- 72
-      - 香港- 15
-      - 香港- 37
-      - 香港- 52
-      - 香港- 105
-      - 日本- 6
-      - 日本- 22
-      - 香港- 34
-      - 香港- 88
-      - 香港- 25
-      - 香港- 99
-      - 日本- 10
-      - 日本-2 17
-      - 香港- 32
-      - 香港- 36
-      - 香港- 54
-      - 香港- 100
-      - 香港- 101
-      - 香港- 44
-      - 香港- 75
-      - 香港- 76
-      - 香港- 9
-      - 香港- 43
-      - 香港- 45
-      - 香港- 104
-      - 日本- 8
-      - 日本- 11
-      - 日本- 19
-      - 香港- 89
-      - 日本- 14
-      - 香港- 12
-      - 香港- 39
-      - 香港- 8
-      - 香港- 77
-      - 香港- 79
-      - 香港- 73
-      - 香港- 86
-      - 日本- 20
-      - 香港- 40
-      - 香港- 47
-      - 香港- 102
-      - 新加坡-1111
-      - 香港- 22
-      - 香港- 53
-      - 香港- 57
-      - 香港- 69
-      - 香港- 29
-      - 香港- 66
-      - 香港- 68
-      - 香港- 83
-      - 新加坡- 15
-      - 新加坡- 20
-      - 香港- 46
-      - 香港- 106
-      - 香港- 4
-      - 香港- 48
-      - 香港- 55
-      - 香港- 80
-      - 香港- 85
-      - 香港- 49
-      - 香港- 59
-      - 香港- 91
-      - 香港- 98
-      - 香港- 107
-      - 香港- 51
-      - 香港- 61
-      - 新加坡- 23
-      - 香港- 31
-      - 香港- 35
-      - 香港- 56
-      - 香港- 5
-      - 日本- 24
-      - 新加坡- 3
-      - 香港- 26
-      - 香港- 50
-      - 香港- 78
-      - 香港- 81
-      - 香港- 87
-      - 香港- 63
-      - 香港- 90
-      - 香港- 58
-      - 香港- 62
-      - 新加坡- 2
-      - 香港- 14
-      - 新加坡-2 16
-      - 香港- 23
-      - 新加坡- 6
-      - 香港- 7
-      - 香港- 11
-      - 日本- 23
-      - 香港- 28
-      - 新加坡- 5
-      - 新加坡- 18
-      - 新加坡- 17
-      - 日本- 21
-      - 香港- 3
-      - 新加坡- 19
-      - 香港- 108
-      - 美国TG频道:t.me/ruofengfx 26
+      - 洛杉矶
+      - 首尔2
+      - 首尔 2
+      - 东京
+      - 东京2
+      - 东京3
+      - 东京4
+      - 台湾
+      - 台湾2
+      - 香港
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港7
+      - 香港8
+      - 香港9
+      - 香港10
+      - 香港11
+      - 香港12
       - 美国TG频道:t.me/ruofengfx 9
+      - 中国-TG频道:t.me/ruofengfx
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港- 17
-      - 新加坡- 9
-      - 新加坡- 14
-      - 香港- 65
-      - 香港- 84
-      - 香港- 96
-      - 香港- 103
-      - 新西伯利亚
-      - 新西伯利亚- 3
-      - 新西伯利亚- 4
-      - 新西伯利亚- 2
-      - 美国
-      - 圣特克拉里塔-
-      - 香港- 92
-      - 新加坡- 22
-      - 新加坡- 8
-      - 首尔-
-      - 新加坡- 7
-      - 新加坡- 21
-      - 香港- 18
-      - 香港- 2
-      - 香港- 16
-      - 香港-
-      - 香港- 21
-      - 香港- 19
-      - 新加坡- 10
-      - 香港- 20
-      - 新加坡- 11
-      - 新加坡- 12
-      - 台湾- 2
-      - 台湾-99
-      - 台湾- 3
-      - 日本- 12
-      - 香港- 41
-      - 香港- 38
-      - 日本- 3
-      - 日本- 9
-      - 香港- 30
-      - 香港- 60
-      - 日本- 15
-      - 日本- 16
-      - 日本- 25
-      - 日本- 13
-      - 香港- 13
-      - 日本- 5
-      - 日本-2 7
-      - 香港- 64
-      - 日本- 18
-      - 香港- 24
-      - 香港- 74
-      - 香港- 82
-      - 香港- 67
-      - 香港- 42
-      - 香港- 70
-      - 香港- 95
-      - 香港- 97
-      - 香港- 6
-      - 香港- 33
-      - 香港- 10
-      - 日本- 1
-      - 日本- 2
-      - 香港- 71
-      - 香港- 94
-      - 日本- 4
-      - 香港- 72
-      - 香港- 15
-      - 香港- 37
-      - 香港- 52
-      - 香港- 105
-      - 日本- 6
-      - 日本- 22
-      - 香港- 34
-      - 香港- 88
-      - 香港- 25
-      - 香港- 99
-      - 日本- 10
-      - 日本-2 17
-      - 香港- 32
-      - 香港- 36
-      - 香港- 54
-      - 香港- 100
-      - 香港- 101
-      - 香港- 44
-      - 香港- 75
-      - 香港- 76
-      - 香港- 9
-      - 香港- 43
-      - 香港- 45
-      - 香港- 104
-      - 日本- 8
-      - 日本- 11
-      - 日本- 19
-      - 香港- 89
-      - 日本- 14
-      - 香港- 12
-      - 香港- 39
-      - 香港- 8
-      - 香港- 77
-      - 香港- 79
-      - 香港- 73
-      - 香港- 86
-      - 日本- 20
-      - 香港- 40
-      - 香港- 47
-      - 香港- 102
-      - 新加坡-1111
-      - 香港- 22
-      - 香港- 53
-      - 香港- 57
-      - 香港- 69
-      - 香港- 29
-      - 香港- 66
-      - 香港- 68
-      - 香港- 83
-      - 新加坡- 15
-      - 新加坡- 20
-      - 香港- 46
-      - 香港- 106
-      - 香港- 4
-      - 香港- 48
-      - 香港- 55
-      - 香港- 80
-      - 香港- 85
-      - 香港- 49
-      - 香港- 59
-      - 香港- 91
-      - 香港- 98
-      - 香港- 107
-      - 香港- 51
-      - 香港- 61
-      - 新加坡- 23
-      - 香港- 31
-      - 香港- 35
-      - 香港- 56
-      - 香港- 5
-      - 日本- 24
-      - 新加坡- 3
-      - 香港- 26
-      - 香港- 50
-      - 香港- 78
-      - 香港- 81
-      - 香港- 87
-      - 香港- 63
-      - 香港- 90
-      - 香港- 58
-      - 香港- 62
-      - 新加坡- 2
-      - 香港- 14
-      - 新加坡-2 16
-      - 香港- 23
-      - 新加坡- 6
-      - 香港- 7
-      - 香港- 11
-      - 日本- 23
-      - 香港- 28
-      - 新加坡- 5
-      - 新加坡- 18
-      - 新加坡- 17
-      - 日本- 21
-      - 香港- 3
-      - 新加坡- 19
-      - 香港- 108
-      - 美国TG频道:t.me/ruofengfx 26
+      - 洛杉矶
+      - 首尔2
+      - 首尔 2
+      - 东京
+      - 东京2
+      - 东京3
+      - 东京4
+      - 台湾
+      - 台湾2
+      - 香港
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港7
+      - 香港8
+      - 香港9
+      - 香港10
+      - 香港11
+      - 香港12
       - 美国TG频道:t.me/ruofengfx 9
+      - 中国-TG频道:t.me/ruofengfx
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1497,170 +274,29 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港- 17
-      - 新加坡- 9
-      - 新加坡- 14
-      - 香港- 65
-      - 香港- 84
-      - 香港- 96
-      - 香港- 103
-      - 新西伯利亚
-      - 新西伯利亚- 3
-      - 新西伯利亚- 4
-      - 新西伯利亚- 2
-      - 美国
-      - 圣特克拉里塔-
-      - 香港- 92
-      - 新加坡- 22
-      - 新加坡- 8
-      - 首尔-
-      - 新加坡- 7
-      - 新加坡- 21
-      - 香港- 18
-      - 香港- 2
-      - 香港- 16
-      - 香港-
-      - 香港- 21
-      - 香港- 19
-      - 新加坡- 10
-      - 香港- 20
-      - 新加坡- 11
-      - 新加坡- 12
-      - 台湾- 2
-      - 台湾-99
-      - 台湾- 3
-      - 日本- 12
-      - 香港- 41
-      - 香港- 38
-      - 日本- 3
-      - 日本- 9
-      - 香港- 30
-      - 香港- 60
-      - 日本- 15
-      - 日本- 16
-      - 日本- 25
-      - 日本- 13
-      - 香港- 13
-      - 日本- 5
-      - 日本-2 7
-      - 香港- 64
-      - 日本- 18
-      - 香港- 24
-      - 香港- 74
-      - 香港- 82
-      - 香港- 67
-      - 香港- 42
-      - 香港- 70
-      - 香港- 95
-      - 香港- 97
-      - 香港- 6
-      - 香港- 33
-      - 香港- 10
-      - 日本- 1
-      - 日本- 2
-      - 香港- 71
-      - 香港- 94
-      - 日本- 4
-      - 香港- 72
-      - 香港- 15
-      - 香港- 37
-      - 香港- 52
-      - 香港- 105
-      - 日本- 6
-      - 日本- 22
-      - 香港- 34
-      - 香港- 88
-      - 香港- 25
-      - 香港- 99
-      - 日本- 10
-      - 日本-2 17
-      - 香港- 32
-      - 香港- 36
-      - 香港- 54
-      - 香港- 100
-      - 香港- 101
-      - 香港- 44
-      - 香港- 75
-      - 香港- 76
-      - 香港- 9
-      - 香港- 43
-      - 香港- 45
-      - 香港- 104
-      - 日本- 8
-      - 日本- 11
-      - 日本- 19
-      - 香港- 89
-      - 日本- 14
-      - 香港- 12
-      - 香港- 39
-      - 香港- 8
-      - 香港- 77
-      - 香港- 79
-      - 香港- 73
-      - 香港- 86
-      - 日本- 20
-      - 香港- 40
-      - 香港- 47
-      - 香港- 102
-      - 新加坡-1111
-      - 香港- 22
-      - 香港- 53
-      - 香港- 57
-      - 香港- 69
-      - 香港- 29
-      - 香港- 66
-      - 香港- 68
-      - 香港- 83
-      - 新加坡- 15
-      - 新加坡- 20
-      - 香港- 46
-      - 香港- 106
-      - 香港- 4
-      - 香港- 48
-      - 香港- 55
-      - 香港- 80
-      - 香港- 85
-      - 香港- 49
-      - 香港- 59
-      - 香港- 91
-      - 香港- 98
-      - 香港- 107
-      - 香港- 51
-      - 香港- 61
-      - 新加坡- 23
-      - 香港- 31
-      - 香港- 35
-      - 香港- 56
-      - 香港- 5
-      - 日本- 24
-      - 新加坡- 3
-      - 香港- 26
-      - 香港- 50
-      - 香港- 78
-      - 香港- 81
-      - 香港- 87
-      - 香港- 63
-      - 香港- 90
-      - 香港- 58
-      - 香港- 62
-      - 新加坡- 2
-      - 香港- 14
-      - 新加坡-2 16
-      - 香港- 23
-      - 新加坡- 6
-      - 香港- 7
-      - 香港- 11
-      - 日本- 23
-      - 香港- 28
-      - 新加坡- 5
-      - 新加坡- 18
-      - 新加坡- 17
-      - 日本- 21
-      - 香港- 3
-      - 新加坡- 19
-      - 香港- 108
-      - 美国TG频道:t.me/ruofengfx 26
+      - 洛杉矶
+      - 首尔2
+      - 首尔 2
+      - 东京
+      - 东京2
+      - 东京3
+      - 东京4
+      - 台湾
+      - 台湾2
+      - 香港
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港7
+      - 香港8
+      - 香港9
+      - 香港10
+      - 香港11
+      - 香港12
       - 美国TG频道:t.me/ruofengfx 9
+      - 中国-TG频道:t.me/ruofengfx
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
