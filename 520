@@ -5,335 +5,299 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国CDN, server: vfly9.win, port: 443, type: vmess, uuid: 825136bb-fc0a-4f43-8307-dc2e36f27e2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /myblog, ws-headers: {Host: vfly9.win}, udp: true}
+  - {name: 日本|05|LINAZ中转, server: azjp.orange7.cf, port: 20842, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: JCBB_香港06【vip1】, server: gkdcm1.gkdcn.top, port: 25897, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
   - {name: 日本-JP, server: ocrb2.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ocrb2.moonfree.top}, udp: true}
-  - {name: 美国Xerox4_1, server: v2-2.godlight.xyz, port: 27000, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /54f634fs, ws-headers: {Host: v2-2.godlight.xyz}, udp: true}
-  - {name: v2auto_TG频道:t.me/ruofengfx 1, server: yyyy.wwwbhjy.com, port: 2443, type: vmess, uuid: dee32eb7-e190-4c6f-dd27-aa9c82cd5490, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /8a76fb13/, ws-headers: {Host: yyyy.wwwbhjy.com}, udp: true}
-  - {name: JCBB_新加坡01【vip1】, server: gkdcm.gkdcn.top, port: 25895, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_香港02【vip1】, server: gkdcm1.gkdcn.top, port: 25899, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
-  - {name: JCBB_德国01【vip1】, server: gkdcm.gkdcn.top, port: 25883, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_英国02【vip1】, server: gkdcu.gkdcn.top, port: 25884, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_新加坡02【vip1】, server: gkdcm1.gkdcn.top, port: 25895, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
-  - {name: JCBB_日本01【vip1】, server: gkdcm.gkdcn.top, port: 25888, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_韩国01【vip2】, server: gkdcm.gkdcn.top, port: 25881, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_香港06【vip1】, server: gkdcm1.gkdcn.top, port: 25897, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
-  - {name: JCBB_香港04【vip1】, server: gkdcm1.gkdcn.top, port: 25898, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
-  - {name: JCBB_香港12【vip3】, server: gkdcm1.gkdcn.top, port: 25892, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
-  - {name: JCBB_香港05【vip1】, server: gkdcm.gkdcn.top, port: 25897, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_美国01【vip1】, server: gkdcm.gkdcn.top, port: 25886, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_美国02【vip1】, server: gkdcu.gkdcn.top, port: 25886, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_德国02【vip1】, server: gkdcu.gkdcn.top, port: 25883, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_美国04【vip1】, server: gkdcu.gkdcn.top, port: 25885, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_印度02【vip1】, server: gkdcu.gkdcn.top, port: 25882, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_日本03【vip1】, server: gkdcm.gkdcn.top, port: 25887, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_台湾04【vip2】, server: gkdcu.gkdcn.top, port: 25889, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_台湾03【vip2】, server: gkdcm.gkdcn.top, port: 25889, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_韩国02【vip2】, server: gkdcu.gkdcn.top, port: 25881, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_日本02【vip1】, server: gkdcu.gkdcn.top, port: 25888, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_日本04【vip1】, server: gkdcu.gkdcn.top, port: 25887, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_香港11【vip3】, server: gkdcm.gkdcn.top, port: 25892, type: vmess, uuid: 5afd1bcd-97df-47b1-a148-dcbfb100c48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: 中国-tg3, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TG频道:t.me/ruofengfx+10, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 中国-tg6, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_357, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: US_283, server: 37.218.241.43, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: xCjmxGzrUoBA, udp: true}
-  - {name: 中国-tg2, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 中国10, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 中国-+10, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_48+2, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_174, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_179, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "|14.38Mb", server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_28+TG, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_159, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 美国|01|DO, server: us01.170809.xyz, port: 443, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: us01.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港|03AZ中转, server: azhk.orange7.cf, port: 53106, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|05|LIN, server: jpmax05.170809.xyz, port: 443, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: jpmax05.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾|01奈飞AZ中转, server: azhk.orange7.cf, port: 65534, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|17AZ中转, server: azhk.orange7.cf, port: 60353, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|04|OCAZ中转, server: azjp.orange7.cf, port: 38323, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|02|LINAZ中转, server: azjp.orange7.cf, port: 10050, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 韩国|03|OCAZ中转, server: azhk.orange7.cf, port: 20822, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|02|LIN02AZ中转, server: azjp.orange7.cf, port: 36129, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|03|LINAZ中转, server: azhk.orange7.cf, port: 19542, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|04|OCAZ中转, server: azhk.orange7.cf, port: 32915, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|01|LINAZ中转, server: azhk.orange7.cf, port: 61810, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|02|DOAZ中转, server: azhk.orange7.cf, port: 50278, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|21AZ中转, server: azhk.orange7.cf, port: 47684, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|01|OCAZ中转, server: azhk.orange7.cf, port: 21230, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|08|DOAZ中转, server: azhk.orange7.cf, port: 44777, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|03|LIN, server: jp03.170809.xyz, port: 444, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: jp03.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本|02|LIN, server: jp02.170809.xyz, port: 443, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: jp02.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|04|OC, server: sgmax04.170809.xyz, port: 443, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: sgmax04.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 印度|02|LINAZ中转, server: azhk.orange7.cf, port: 47822, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|13AZ中转, server: azhk.orange7.cf, port: 32505, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|01|OC, server: sg01.170809.xyz, port: 443, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: sg01.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本|05|OCAZ中转, server: azjp.orange7.cf, port: 18498, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 美国|高速|01|DO, server: usmax01.170809.xyz, port: 444, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: usmax01.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 英国|01|DOAZ中转, server: azhk.orange7.cf, port: 42355, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|07奈飞AZ中转, server: azhk.orange7.cf, port: 13055, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|10AZ中转, server: azhk.orange7.cf, port: 21696, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|04|OC, server: jp04.170809.xyz, port: 443, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: jp04.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国|03|RN, server: usmax03.170809.xyz, port: 443, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: usmax03.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港|12AZ中转, server: azhk.orange7.cf, port: 39109, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|20AZ中转, server: azhk.orange7.cf, port: 23245, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|05|LINAZ中转, server: azjp.orange7.cf, port: 20842, type: trojan, password: 0598e35e-c184-491d-abae-46ac5c87828d, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: "|49.83Mb", server: 45.114.116.57, port: 543, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 3326:chencheng, obfs-param: DanHuang.Jiang, udp: true}
-  - {name: Relay_🇨🇳CN-🏁ZZ_299, server: yy02.nfeng6.pp.ua, port: 2700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: Relay|🇸🇬SG|中速| 32, server: cmrelay01.yiyorelay.xyz, port: 6704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 67249:ojZU44, obfs-param: microsoft.com, udp: true}
-  - {name: Relay|🇸🇬SG|中速| 24, server: cmrelay01.yiyorelay.xyz, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 67249:ojZU44, obfs-param: microsoft.com, udp: true}
+  - {name: JCBB_新加坡02【vip1】, server: gkdcm1.gkdcn.top, port: 25895, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
+  - {name: JCBB_英国01【vip1】, server: gkdcm.gkdcn.top, port: 25884, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_美国01【vip1】, server: gkdcm.gkdcn.top, port: 25886, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_新加坡03【vip1】, server: gkdcm.gkdcn.top, port: 25894, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_美国04【vip1】, server: gkdcu.gkdcn.top, port: 25885, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: 台湾|02奈飞日本AZ中转, server: azjp.orange7.cf, port: 23403, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: JCBB_香港02【vip1】, server: gkdcm1.gkdcn.top, port: 25899, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
+  - {name: 韩国|03|OCAZ中转, server: azhk.orange7.cf, port: 20822, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 日本|02|LINAZ中转, server: azjp.orange7.cf, port: 10050, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: JCBB_台湾03【vip2】, server: gkdcm.gkdcn.top, port: 25889, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_香港11【vip3】, server: gkdcm.gkdcn.top, port: 25892, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: 日本|01|LINAZ中转, server: azjp.orange7.cf, port: 18179, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 日本|02|LIN02AZ中转, server: azjp.orange7.cf, port: 36129, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|08|DOAZ中转, server: azhk.orange7.cf, port: 44777, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|03|OC奈飞AZ中转, server: azhk.orange7.cf, port: 13361, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 香港|21AZ中转, server: azhk.orange7.cf, port: 47684, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|02|DOAZ中转, server: azhk.orange7.cf, port: 50278, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|01|OCAZ中转, server: azhk.orange7.cf, port: 21230, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|04|OCAZ中转, server: azhk.orange7.cf, port: 32915, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|01|LINAZ中转, server: azhk.orange7.cf, port: 61810, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 美国|01|DO, server: us01.170809.xyz, port: 443, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: us01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: JCBB_香港01【vip1】, server: gkdcm.gkdcn.top, port: 25899, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: 台湾|01奈飞香港AZ中转, server: azhk.orange7.cf, port: 65534, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: JCBB_美国02【vip1】, server: gkdcu.gkdcn.top, port: 25886, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_台湾01【vip2】, server: gkdcm.gkdcn.top, port: 25890, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_英国02【vip1】, server: gkdcu.gkdcn.top, port: 25884, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_台湾02【vip2】, server: gkdcu.gkdcn.top, port: 25890, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: 日本|01|LIN, server: jp01.170809.xyz, port: 443, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: jp01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: JCBB_韩国01【vip2】, server: gkdcm.gkdcn.top, port: 25881, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: 日本|03|LINAZ中转, server: azhk.orange7.cf, port: 19542, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: JCBB_韩国02【vip2】, server: gkdcu.gkdcn.top, port: 25881, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: 香港|03AZ中转, server: azhk.orange7.cf, port: 53106, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: JCBB_德国02【vip1】, server: gkdcu.gkdcn.top, port: 25883, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: v2auto_TG频道:t.me/ruofengfx 1, server: yyyy.wwwbhjy.com, port: 2443, type: vmess, uuid: dee32eb7-e190-4c6f-dd27-aa9c82cd5490, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /8a76fb13/, ws-headers: {Host: yyyy.wwwbhjy.com}, udp: true}
+  - {name: JCBB_香港12【vip3】, server: gkdcm1.gkdcn.top, port: 25892, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
+  - {name: JCBB_新加坡01【vip1】, server: gkdcm.gkdcn.top, port: 25895, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_德国01【vip1】, server: gkdcm.gkdcn.top, port: 25883, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: 美国|03|RN, server: usmax03.170809.xyz, port: 443, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: usmax03.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|05|OC, server: jp05.170809.xyz, port: 443, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: jp05.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: JCBB_美国03【vip1】, server: gkdcm.gkdcn.top, port: 25885, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: 英国|01|DOAZ中转, server: azhk.orange7.cf, port: 42355, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 香港|07奈飞AZ中转, server: azhk.orange7.cf, port: 13055, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 香港|17AZ中转, server: azhk.orange7.cf, port: 60353, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 香港|20AZ中转, server: azhk.orange7.cf, port: 23245, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: JCBB_台湾04【vip2】, server: gkdcu.gkdcn.top, port: 25889, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: 香港|12AZ中转, server: azhk.orange7.cf, port: 39109, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 美国|高速|01|DO, server: usmax01.170809.xyz, port: 444, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: usmax01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|10AZ中转, server: azhk.orange7.cf, port: 21696, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: JCBB_印度02【vip1】, server: gkdcu.gkdcn.top, port: 25882, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: 日本|02|LIN, server: jp02.170809.xyz, port: 443, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: jp02.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 印度|02|LINAZ中转, server: azhk.orange7.cf, port: 47822, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: JCBB_香港05【vip1】, server: gkdcm.gkdcn.top, port: 25897, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: 日本|05|LIN, server: jpmax05.170809.xyz, port: 443, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: jpmax05.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|03|LIN, server: jp03.170809.xyz, port: 444, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: jp03.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: JCBB_日本02【vip1】, server: gkdcu.gkdcn.top, port: 25888, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_日本03【vip1】, server: gkdcm.gkdcn.top, port: 25887, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_印度01【vip1】, server: gkdcm.gkdcn.top, port: 25882, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_日本01【vip1】, server: gkdcm.gkdcn.top, port: 25888, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_日本04【vip1】, server: gkdcu.gkdcn.top, port: 25887, type: vmess, uuid: 978d7a10-0f37-45af-984a-16acb1d3ee7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: 香港|12奈飞移动中转, server: shcu.9218561.xyz, port: 46808, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: shcu.9218561.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|04|OCAZ中转, server: azjp.orange7.cf, port: 38323, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 日本|05|OCAZ中转, server: azjp.orange7.cf, port: 18498, type: trojan, password: 057a0b37-6890-4fbe-8c20-cf1e4a560c43, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
   - {name: Relay|🇸🇬SG|中速| 26, server: cmrelay01.yiyorelay.xyz, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: microsoft.com, udp: true}
+  - {name: Relay|🇸🇬SG|中速| 24, server: cmrelay01.yiyorelay.xyz, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 67249:ojZU44, obfs-param: microsoft.com, udp: true}
+  - {name: Relay|🇸🇬SG|中速| 32, server: cmrelay01.yiyorelay.xyz, port: 6704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 67249:ojZU44, obfs-param: microsoft.com, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国CDN
-      - 日本-JP
-      - 美国Xerox4_1
-      - v2auto_TG频道:t.me/ruofengfx 1
-      - JCBB_新加坡01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_德国01【vip1】
-      - JCBB_英国02【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_韩国01【vip2】
+      - 日本|05|LINAZ中转
       - JCBB_香港06【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港12【vip3】
-      - JCBB_香港05【vip1】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_印度02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_台湾04【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_日本02【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_香港11【vip3】
-      - 中国-tg3
-      - TG频道:t.me/ruofengfx+10
-      - 中国-tg6
-      - CN_357
+      - 日本-JP
       - US_283
-      - 中国-tg2
-      - 中国10
-      - 中国-+10
-      - CN_48+2
-      - CN_174
-      - CN_179
-      - "|14.38Mb"
-      - CN_28+TG
-      - CN_159
-      - 美国|01|DO
-      - 香港|03AZ中转
-      - 日本|05|LIN
-      - 台湾|01奈飞AZ中转
-      - 香港|17AZ中转
-      - 日本|04|OCAZ中转
-      - 日本|02|LINAZ中转
+      - JCBB_新加坡02【vip1】
+      - JCBB_英国01【vip1】
+      - JCBB_美国01【vip1】
+      - JCBB_新加坡03【vip1】
+      - JCBB_美国04【vip1】
+      - 台湾|02奈飞日本AZ中转
+      - JCBB_香港02【vip1】
       - 韩国|03|OCAZ中转
+      - 日本|02|LINAZ中转
+      - JCBB_台湾03【vip2】
+      - JCBB_香港11【vip3】
+      - 日本|01|LINAZ中转
       - 日本|02|LIN02AZ中转
-      - 日本|03|LINAZ中转
+      - 新加坡|08|DOAZ中转
+      - 新加坡|03|OC奈飞AZ中转
+      - 香港|21AZ中转
+      - 新加坡|02|DOAZ中转
+      - 新加坡|01|OCAZ中转
       - 新加坡|04|OCAZ中转
       - 新加坡|01|LINAZ中转
-      - 新加坡|02|DOAZ中转
-      - 香港|21AZ中转
-      - 新加坡|01|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 日本|03|LIN
-      - 日本|02|LIN
-      - 新加坡|04|OC
-      - 印度|02|LINAZ中转
-      - 香港|13AZ中转
-      - 新加坡|01|OC
-      - 日本|05|OCAZ中转
-      - 美国|高速|01|DO
+      - 美国|01|DO
+      - JCBB_香港01【vip1】
+      - 台湾|01奈飞香港AZ中转
+      - JCBB_美国02【vip1】
+      - JCBB_台湾01【vip2】
+      - JCBB_英国02【vip1】
+      - JCBB_台湾02【vip2】
+      - 日本|01|LIN
+      - JCBB_韩国01【vip2】
+      - 日本|03|LINAZ中转
+      - JCBB_韩国02【vip2】
+      - 香港|03AZ中转
+      - JCBB_德国02【vip1】
+      - v2auto_TG频道:t.me/ruofengfx 1
+      - JCBB_香港12【vip3】
+      - JCBB_新加坡01【vip1】
+      - JCBB_德国01【vip1】
+      - 美国|03|RN
+      - 日本|05|OC
+      - JCBB_美国03【vip1】
       - 英国|01|DOAZ中转
       - 香港|07奈飞AZ中转
-      - 香港|10AZ中转
-      - 日本|04|OC
-      - 美国|03|RN
-      - 香港|12AZ中转
+      - 香港|17AZ中转
       - 香港|20AZ中转
-      - 日本|05|LINAZ中转
-      - "|49.83Mb"
-      - Relay_🇨🇳CN-🏁ZZ_299
-      - Relay|🇸🇬SG|中速| 32
-      - Relay|🇸🇬SG|中速| 24
+      - JCBB_台湾04【vip2】
+      - 香港|12AZ中转
+      - 美国|高速|01|DO
+      - 香港|10AZ中转
+      - JCBB_印度02【vip1】
+      - 日本|02|LIN
+      - 印度|02|LINAZ中转
+      - JCBB_香港05【vip1】
+      - 日本|05|LIN
+      - 日本|03|LIN
+      - JCBB_日本02【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_日本01【vip1】
+      - JCBB_日本04【vip1】
+      - 香港|12奈飞移动中转
+      - 日本|04|OCAZ中转
+      - 日本|05|OCAZ中转
       - Relay|🇸🇬SG|中速| 26
+      - Relay|🇸🇬SG|中速| 24
+      - Relay|🇸🇬SG|中速| 32
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国CDN
-      - 日本-JP
-      - 美国Xerox4_1
-      - v2auto_TG频道:t.me/ruofengfx 1
-      - JCBB_新加坡01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_德国01【vip1】
-      - JCBB_英国02【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_韩国01【vip2】
+      - 日本|05|LINAZ中转
       - JCBB_香港06【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港12【vip3】
-      - JCBB_香港05【vip1】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_印度02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_台湾04【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_日本02【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_香港11【vip3】
-      - 中国-tg3
-      - TG频道:t.me/ruofengfx+10
-      - 中国-tg6
-      - CN_357
+      - 日本-JP
       - US_283
-      - 中国-tg2
-      - 中国10
-      - 中国-+10
-      - CN_48+2
-      - CN_174
-      - CN_179
-      - "|14.38Mb"
-      - CN_28+TG
-      - CN_159
-      - 美国|01|DO
-      - 香港|03AZ中转
-      - 日本|05|LIN
-      - 台湾|01奈飞AZ中转
-      - 香港|17AZ中转
-      - 日本|04|OCAZ中转
-      - 日本|02|LINAZ中转
+      - JCBB_新加坡02【vip1】
+      - JCBB_英国01【vip1】
+      - JCBB_美国01【vip1】
+      - JCBB_新加坡03【vip1】
+      - JCBB_美国04【vip1】
+      - 台湾|02奈飞日本AZ中转
+      - JCBB_香港02【vip1】
       - 韩国|03|OCAZ中转
+      - 日本|02|LINAZ中转
+      - JCBB_台湾03【vip2】
+      - JCBB_香港11【vip3】
+      - 日本|01|LINAZ中转
       - 日本|02|LIN02AZ中转
-      - 日本|03|LINAZ中转
+      - 新加坡|08|DOAZ中转
+      - 新加坡|03|OC奈飞AZ中转
+      - 香港|21AZ中转
+      - 新加坡|02|DOAZ中转
+      - 新加坡|01|OCAZ中转
       - 新加坡|04|OCAZ中转
       - 新加坡|01|LINAZ中转
-      - 新加坡|02|DOAZ中转
-      - 香港|21AZ中转
-      - 新加坡|01|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 日本|03|LIN
-      - 日本|02|LIN
-      - 新加坡|04|OC
-      - 印度|02|LINAZ中转
-      - 香港|13AZ中转
-      - 新加坡|01|OC
-      - 日本|05|OCAZ中转
-      - 美国|高速|01|DO
+      - 美国|01|DO
+      - JCBB_香港01【vip1】
+      - 台湾|01奈飞香港AZ中转
+      - JCBB_美国02【vip1】
+      - JCBB_台湾01【vip2】
+      - JCBB_英国02【vip1】
+      - JCBB_台湾02【vip2】
+      - 日本|01|LIN
+      - JCBB_韩国01【vip2】
+      - 日本|03|LINAZ中转
+      - JCBB_韩国02【vip2】
+      - 香港|03AZ中转
+      - JCBB_德国02【vip1】
+      - v2auto_TG频道:t.me/ruofengfx 1
+      - JCBB_香港12【vip3】
+      - JCBB_新加坡01【vip1】
+      - JCBB_德国01【vip1】
+      - 美国|03|RN
+      - 日本|05|OC
+      - JCBB_美国03【vip1】
       - 英国|01|DOAZ中转
       - 香港|07奈飞AZ中转
-      - 香港|10AZ中转
-      - 日本|04|OC
-      - 美国|03|RN
-      - 香港|12AZ中转
+      - 香港|17AZ中转
       - 香港|20AZ中转
-      - 日本|05|LINAZ中转
-      - "|49.83Mb"
-      - Relay_🇨🇳CN-🏁ZZ_299
-      - Relay|🇸🇬SG|中速| 32
-      - Relay|🇸🇬SG|中速| 24
+      - JCBB_台湾04【vip2】
+      - 香港|12AZ中转
+      - 美国|高速|01|DO
+      - 香港|10AZ中转
+      - JCBB_印度02【vip1】
+      - 日本|02|LIN
+      - 印度|02|LINAZ中转
+      - JCBB_香港05【vip1】
+      - 日本|05|LIN
+      - 日本|03|LIN
+      - JCBB_日本02【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_日本01【vip1】
+      - JCBB_日本04【vip1】
+      - 香港|12奈飞移动中转
+      - 日本|04|OCAZ中转
+      - 日本|05|OCAZ中转
       - Relay|🇸🇬SG|中速| 26
+      - Relay|🇸🇬SG|中速| 24
+      - Relay|🇸🇬SG|中速| 32
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国CDN
-      - 日本-JP
-      - 美国Xerox4_1
-      - v2auto_TG频道:t.me/ruofengfx 1
-      - JCBB_新加坡01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_德国01【vip1】
-      - JCBB_英国02【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_韩国01【vip2】
+      - 日本|05|LINAZ中转
       - JCBB_香港06【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港12【vip3】
-      - JCBB_香港05【vip1】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_印度02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_台湾04【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_日本02【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_香港11【vip3】
-      - 中国-tg3
-      - TG频道:t.me/ruofengfx+10
-      - 中国-tg6
-      - CN_357
+      - 日本-JP
       - US_283
-      - 中国-tg2
-      - 中国10
-      - 中国-+10
-      - CN_48+2
-      - CN_174
-      - CN_179
-      - "|14.38Mb"
-      - CN_28+TG
-      - CN_159
-      - 美国|01|DO
-      - 香港|03AZ中转
-      - 日本|05|LIN
-      - 台湾|01奈飞AZ中转
-      - 香港|17AZ中转
-      - 日本|04|OCAZ中转
-      - 日本|02|LINAZ中转
+      - JCBB_新加坡02【vip1】
+      - JCBB_英国01【vip1】
+      - JCBB_美国01【vip1】
+      - JCBB_新加坡03【vip1】
+      - JCBB_美国04【vip1】
+      - 台湾|02奈飞日本AZ中转
+      - JCBB_香港02【vip1】
       - 韩国|03|OCAZ中转
+      - 日本|02|LINAZ中转
+      - JCBB_台湾03【vip2】
+      - JCBB_香港11【vip3】
+      - 日本|01|LINAZ中转
       - 日本|02|LIN02AZ中转
-      - 日本|03|LINAZ中转
+      - 新加坡|08|DOAZ中转
+      - 新加坡|03|OC奈飞AZ中转
+      - 香港|21AZ中转
+      - 新加坡|02|DOAZ中转
+      - 新加坡|01|OCAZ中转
       - 新加坡|04|OCAZ中转
       - 新加坡|01|LINAZ中转
-      - 新加坡|02|DOAZ中转
-      - 香港|21AZ中转
-      - 新加坡|01|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 日本|03|LIN
-      - 日本|02|LIN
-      - 新加坡|04|OC
-      - 印度|02|LINAZ中转
-      - 香港|13AZ中转
-      - 新加坡|01|OC
-      - 日本|05|OCAZ中转
-      - 美国|高速|01|DO
+      - 美国|01|DO
+      - JCBB_香港01【vip1】
+      - 台湾|01奈飞香港AZ中转
+      - JCBB_美国02【vip1】
+      - JCBB_台湾01【vip2】
+      - JCBB_英国02【vip1】
+      - JCBB_台湾02【vip2】
+      - 日本|01|LIN
+      - JCBB_韩国01【vip2】
+      - 日本|03|LINAZ中转
+      - JCBB_韩国02【vip2】
+      - 香港|03AZ中转
+      - JCBB_德国02【vip1】
+      - v2auto_TG频道:t.me/ruofengfx 1
+      - JCBB_香港12【vip3】
+      - JCBB_新加坡01【vip1】
+      - JCBB_德国01【vip1】
+      - 美国|03|RN
+      - 日本|05|OC
+      - JCBB_美国03【vip1】
       - 英国|01|DOAZ中转
       - 香港|07奈飞AZ中转
-      - 香港|10AZ中转
-      - 日本|04|OC
-      - 美国|03|RN
-      - 香港|12AZ中转
+      - 香港|17AZ中转
       - 香港|20AZ中转
-      - 日本|05|LINAZ中转
-      - "|49.83Mb"
-      - Relay_🇨🇳CN-🏁ZZ_299
-      - Relay|🇸🇬SG|中速| 32
-      - Relay|🇸🇬SG|中速| 24
+      - JCBB_台湾04【vip2】
+      - 香港|12AZ中转
+      - 美国|高速|01|DO
+      - 香港|10AZ中转
+      - JCBB_印度02【vip1】
+      - 日本|02|LIN
+      - 印度|02|LINAZ中转
+      - JCBB_香港05【vip1】
+      - 日本|05|LIN
+      - 日本|03|LIN
+      - JCBB_日本02【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_日本01【vip1】
+      - JCBB_日本04【vip1】
+      - 香港|12奈飞移动中转
+      - 日本|04|OCAZ中转
+      - 日本|05|OCAZ中转
       - Relay|🇸🇬SG|中速| 26
+      - Relay|🇸🇬SG|中速| 24
+      - Relay|🇸🇬SG|中速| 32
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -352,356 +316,323 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国CDN
-      - 日本-JP
-      - 美国Xerox4_1
-      - v2auto_TG频道:t.me/ruofengfx 1
-      - JCBB_新加坡01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_德国01【vip1】
-      - JCBB_英国02【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_韩国01【vip2】
+      - 日本|05|LINAZ中转
       - JCBB_香港06【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港12【vip3】
-      - JCBB_香港05【vip1】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_印度02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_台湾04【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_日本02【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_香港11【vip3】
-      - 中国-tg3
-      - TG频道:t.me/ruofengfx+10
-      - 中国-tg6
-      - CN_357
+      - 日本-JP
       - US_283
-      - 中国-tg2
-      - 中国10
-      - 中国-+10
-      - CN_48+2
-      - CN_174
-      - CN_179
-      - "|14.38Mb"
-      - CN_28+TG
-      - CN_159
-      - 美国|01|DO
-      - 香港|03AZ中转
-      - 日本|05|LIN
-      - 台湾|01奈飞AZ中转
-      - 香港|17AZ中转
-      - 日本|04|OCAZ中转
-      - 日本|02|LINAZ中转
+      - JCBB_新加坡02【vip1】
+      - JCBB_英国01【vip1】
+      - JCBB_美国01【vip1】
+      - JCBB_新加坡03【vip1】
+      - JCBB_美国04【vip1】
+      - 台湾|02奈飞日本AZ中转
+      - JCBB_香港02【vip1】
       - 韩国|03|OCAZ中转
+      - 日本|02|LINAZ中转
+      - JCBB_台湾03【vip2】
+      - JCBB_香港11【vip3】
+      - 日本|01|LINAZ中转
       - 日本|02|LIN02AZ中转
-      - 日本|03|LINAZ中转
+      - 新加坡|08|DOAZ中转
+      - 新加坡|03|OC奈飞AZ中转
+      - 香港|21AZ中转
+      - 新加坡|02|DOAZ中转
+      - 新加坡|01|OCAZ中转
       - 新加坡|04|OCAZ中转
       - 新加坡|01|LINAZ中转
-      - 新加坡|02|DOAZ中转
-      - 香港|21AZ中转
-      - 新加坡|01|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 日本|03|LIN
-      - 日本|02|LIN
-      - 新加坡|04|OC
-      - 印度|02|LINAZ中转
-      - 香港|13AZ中转
-      - 新加坡|01|OC
-      - 日本|05|OCAZ中转
-      - 美国|高速|01|DO
+      - 美国|01|DO
+      - JCBB_香港01【vip1】
+      - 台湾|01奈飞香港AZ中转
+      - JCBB_美国02【vip1】
+      - JCBB_台湾01【vip2】
+      - JCBB_英国02【vip1】
+      - JCBB_台湾02【vip2】
+      - 日本|01|LIN
+      - JCBB_韩国01【vip2】
+      - 日本|03|LINAZ中转
+      - JCBB_韩国02【vip2】
+      - 香港|03AZ中转
+      - JCBB_德国02【vip1】
+      - v2auto_TG频道:t.me/ruofengfx 1
+      - JCBB_香港12【vip3】
+      - JCBB_新加坡01【vip1】
+      - JCBB_德国01【vip1】
+      - 美国|03|RN
+      - 日本|05|OC
+      - JCBB_美国03【vip1】
       - 英国|01|DOAZ中转
       - 香港|07奈飞AZ中转
-      - 香港|10AZ中转
-      - 日本|04|OC
-      - 美国|03|RN
-      - 香港|12AZ中转
+      - 香港|17AZ中转
       - 香港|20AZ中转
-      - 日本|05|LINAZ中转
-      - "|49.83Mb"
-      - Relay_🇨🇳CN-🏁ZZ_299
-      - Relay|🇸🇬SG|中速| 32
-      - Relay|🇸🇬SG|中速| 24
+      - JCBB_台湾04【vip2】
+      - 香港|12AZ中转
+      - 美国|高速|01|DO
+      - 香港|10AZ中转
+      - JCBB_印度02【vip1】
+      - 日本|02|LIN
+      - 印度|02|LINAZ中转
+      - JCBB_香港05【vip1】
+      - 日本|05|LIN
+      - 日本|03|LIN
+      - JCBB_日本02【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_日本01【vip1】
+      - JCBB_日本04【vip1】
+      - 香港|12奈飞移动中转
+      - 日本|04|OCAZ中转
+      - 日本|05|OCAZ中转
       - Relay|🇸🇬SG|中速| 26
+      - Relay|🇸🇬SG|中速| 24
+      - Relay|🇸🇬SG|中速| 32
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - JCBB_香港02【vip1】
       - JCBB_香港06【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港12【vip3】
-      - JCBB_香港05【vip1】
-      - JCBB_台湾04【vip2】
+      - 台湾|02奈飞日本AZ中转
+      - JCBB_香港02【vip1】
       - JCBB_台湾03【vip2】
       - JCBB_香港11【vip3】
-      - 香港|03AZ中转
-      - 台湾|01奈飞AZ中转
-      - 香港|17AZ中转
       - 香港|21AZ中转
-      - 香港|13AZ中转
+      - JCBB_香港01【vip1】
+      - 台湾|01奈飞香港AZ中转
+      - JCBB_台湾01【vip2】
+      - JCBB_台湾02【vip2】
+      - 香港|03AZ中转
+      - JCBB_香港12【vip3】
       - 香港|07奈飞AZ中转
-      - 香港|10AZ中转
-      - 香港|12AZ中转
+      - 香港|17AZ中转
       - 香港|20AZ中转
+      - JCBB_台湾04【vip2】
+      - 香港|12AZ中转
+      - 香港|10AZ中转
+      - JCBB_香港05【vip1】
+      - 香港|12奈飞移动中转
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国CDN
-      - 日本-JP
-      - 美国Xerox4_1
-      - v2auto_TG频道:t.me/ruofengfx 1
-      - JCBB_新加坡01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_德国01【vip1】
-      - JCBB_英国02【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_韩国01【vip2】
+      - 日本|05|LINAZ中转
       - JCBB_香港06【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港12【vip3】
-      - JCBB_香港05【vip1】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_印度02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_台湾04【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_日本02【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_香港11【vip3】
-      - 中国-tg3
-      - TG频道:t.me/ruofengfx+10
-      - 中国-tg6
-      - CN_357
+      - 日本-JP
       - US_283
-      - 中国-tg2
-      - 中国10
-      - 中国-+10
-      - CN_48+2
-      - CN_174
-      - CN_179
-      - "|14.38Mb"
-      - CN_28+TG
-      - CN_159
-      - 美国|01|DO
-      - 香港|03AZ中转
-      - 日本|05|LIN
-      - 台湾|01奈飞AZ中转
-      - 香港|17AZ中转
-      - 日本|04|OCAZ中转
-      - 日本|02|LINAZ中转
+      - JCBB_新加坡02【vip1】
+      - JCBB_英国01【vip1】
+      - JCBB_美国01【vip1】
+      - JCBB_新加坡03【vip1】
+      - JCBB_美国04【vip1】
+      - 台湾|02奈飞日本AZ中转
+      - JCBB_香港02【vip1】
       - 韩国|03|OCAZ中转
+      - 日本|02|LINAZ中转
+      - JCBB_台湾03【vip2】
+      - JCBB_香港11【vip3】
+      - 日本|01|LINAZ中转
       - 日本|02|LIN02AZ中转
-      - 日本|03|LINAZ中转
+      - 新加坡|08|DOAZ中转
+      - 新加坡|03|OC奈飞AZ中转
+      - 香港|21AZ中转
+      - 新加坡|02|DOAZ中转
+      - 新加坡|01|OCAZ中转
       - 新加坡|04|OCAZ中转
       - 新加坡|01|LINAZ中转
-      - 新加坡|02|DOAZ中转
-      - 香港|21AZ中转
-      - 新加坡|01|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 日本|03|LIN
-      - 日本|02|LIN
-      - 新加坡|04|OC
-      - 印度|02|LINAZ中转
-      - 香港|13AZ中转
-      - 新加坡|01|OC
-      - 日本|05|OCAZ中转
-      - 美国|高速|01|DO
+      - 美国|01|DO
+      - JCBB_香港01【vip1】
+      - 台湾|01奈飞香港AZ中转
+      - JCBB_美国02【vip1】
+      - JCBB_台湾01【vip2】
+      - JCBB_英国02【vip1】
+      - JCBB_台湾02【vip2】
+      - 日本|01|LIN
+      - JCBB_韩国01【vip2】
+      - 日本|03|LINAZ中转
+      - JCBB_韩国02【vip2】
+      - 香港|03AZ中转
+      - JCBB_德国02【vip1】
+      - v2auto_TG频道:t.me/ruofengfx 1
+      - JCBB_香港12【vip3】
+      - JCBB_新加坡01【vip1】
+      - JCBB_德国01【vip1】
+      - 美国|03|RN
+      - 日本|05|OC
+      - JCBB_美国03【vip1】
       - 英国|01|DOAZ中转
       - 香港|07奈飞AZ中转
-      - 香港|10AZ中转
-      - 日本|04|OC
-      - 美国|03|RN
-      - 香港|12AZ中转
+      - 香港|17AZ中转
       - 香港|20AZ中转
-      - 日本|05|LINAZ中转
-      - "|49.83Mb"
-      - Relay_🇨🇳CN-🏁ZZ_299
-      - Relay|🇸🇬SG|中速| 32
-      - Relay|🇸🇬SG|中速| 24
+      - JCBB_台湾04【vip2】
+      - 香港|12AZ中转
+      - 美国|高速|01|DO
+      - 香港|10AZ中转
+      - JCBB_印度02【vip1】
+      - 日本|02|LIN
+      - 印度|02|LINAZ中转
+      - JCBB_香港05【vip1】
+      - 日本|05|LIN
+      - 日本|03|LIN
+      - JCBB_日本02【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_日本01【vip1】
+      - JCBB_日本04【vip1】
+      - 香港|12奈飞移动中转
+      - 日本|04|OCAZ中转
+      - 日本|05|OCAZ中转
       - Relay|🇸🇬SG|中速| 26
+      - Relay|🇸🇬SG|中速| 24
+      - Relay|🇸🇬SG|中速| 32
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国CDN
-      - 日本-JP
-      - 美国Xerox4_1
-      - v2auto_TG频道:t.me/ruofengfx 1
-      - JCBB_新加坡01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_德国01【vip1】
-      - JCBB_英国02【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_韩国01【vip2】
+      - 日本|05|LINAZ中转
       - JCBB_香港06【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港12【vip3】
-      - JCBB_香港05【vip1】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_印度02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_台湾04【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_日本02【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_香港11【vip3】
-      - 中国-tg3
-      - TG频道:t.me/ruofengfx+10
-      - 中国-tg6
-      - CN_357
+      - 日本-JP
       - US_283
-      - 中国-tg2
-      - 中国10
-      - 中国-+10
-      - CN_48+2
-      - CN_174
-      - CN_179
-      - "|14.38Mb"
-      - CN_28+TG
-      - CN_159
-      - 美国|01|DO
-      - 香港|03AZ中转
-      - 日本|05|LIN
-      - 台湾|01奈飞AZ中转
-      - 香港|17AZ中转
-      - 日本|04|OCAZ中转
-      - 日本|02|LINAZ中转
+      - JCBB_新加坡02【vip1】
+      - JCBB_英国01【vip1】
+      - JCBB_美国01【vip1】
+      - JCBB_新加坡03【vip1】
+      - JCBB_美国04【vip1】
+      - 台湾|02奈飞日本AZ中转
+      - JCBB_香港02【vip1】
       - 韩国|03|OCAZ中转
+      - 日本|02|LINAZ中转
+      - JCBB_台湾03【vip2】
+      - JCBB_香港11【vip3】
+      - 日本|01|LINAZ中转
       - 日本|02|LIN02AZ中转
-      - 日本|03|LINAZ中转
+      - 新加坡|08|DOAZ中转
+      - 新加坡|03|OC奈飞AZ中转
+      - 香港|21AZ中转
+      - 新加坡|02|DOAZ中转
+      - 新加坡|01|OCAZ中转
       - 新加坡|04|OCAZ中转
       - 新加坡|01|LINAZ中转
-      - 新加坡|02|DOAZ中转
-      - 香港|21AZ中转
-      - 新加坡|01|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 日本|03|LIN
-      - 日本|02|LIN
-      - 新加坡|04|OC
-      - 印度|02|LINAZ中转
-      - 香港|13AZ中转
-      - 新加坡|01|OC
-      - 日本|05|OCAZ中转
-      - 美国|高速|01|DO
+      - 美国|01|DO
+      - JCBB_香港01【vip1】
+      - 台湾|01奈飞香港AZ中转
+      - JCBB_美国02【vip1】
+      - JCBB_台湾01【vip2】
+      - JCBB_英国02【vip1】
+      - JCBB_台湾02【vip2】
+      - 日本|01|LIN
+      - JCBB_韩国01【vip2】
+      - 日本|03|LINAZ中转
+      - JCBB_韩国02【vip2】
+      - 香港|03AZ中转
+      - JCBB_德国02【vip1】
+      - v2auto_TG频道:t.me/ruofengfx 1
+      - JCBB_香港12【vip3】
+      - JCBB_新加坡01【vip1】
+      - JCBB_德国01【vip1】
+      - 美国|03|RN
+      - 日本|05|OC
+      - JCBB_美国03【vip1】
       - 英国|01|DOAZ中转
       - 香港|07奈飞AZ中转
-      - 香港|10AZ中转
-      - 日本|04|OC
-      - 美国|03|RN
-      - 香港|12AZ中转
+      - 香港|17AZ中转
       - 香港|20AZ中转
-      - 日本|05|LINAZ中转
-      - "|49.83Mb"
-      - Relay_🇨🇳CN-🏁ZZ_299
-      - Relay|🇸🇬SG|中速| 32
-      - Relay|🇸🇬SG|中速| 24
+      - JCBB_台湾04【vip2】
+      - 香港|12AZ中转
+      - 美国|高速|01|DO
+      - 香港|10AZ中转
+      - JCBB_印度02【vip1】
+      - 日本|02|LIN
+      - 印度|02|LINAZ中转
+      - JCBB_香港05【vip1】
+      - 日本|05|LIN
+      - 日本|03|LIN
+      - JCBB_日本02【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_日本01【vip1】
+      - JCBB_日本04【vip1】
+      - 香港|12奈飞移动中转
+      - 日本|04|OCAZ中转
+      - 日本|05|OCAZ中转
       - Relay|🇸🇬SG|中速| 26
+      - Relay|🇸🇬SG|中速| 24
+      - Relay|🇸🇬SG|中速| 32
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国CDN
-      - 日本-JP
-      - 美国Xerox4_1
-      - v2auto_TG频道:t.me/ruofengfx 1
-      - JCBB_新加坡01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_德国01【vip1】
-      - JCBB_英国02【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_韩国01【vip2】
+      - 日本|05|LINAZ中转
       - JCBB_香港06【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港12【vip3】
-      - JCBB_香港05【vip1】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_印度02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_台湾04【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_日本02【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_香港11【vip3】
-      - 中国-tg3
-      - TG频道:t.me/ruofengfx+10
-      - 中国-tg6
-      - CN_357
+      - 日本-JP
       - US_283
-      - 中国-tg2
-      - 中国10
-      - 中国-+10
-      - CN_48+2
-      - CN_174
-      - CN_179
-      - "|14.38Mb"
-      - CN_28+TG
-      - CN_159
-      - 美国|01|DO
-      - 香港|03AZ中转
-      - 日本|05|LIN
-      - 台湾|01奈飞AZ中转
-      - 香港|17AZ中转
-      - 日本|04|OCAZ中转
-      - 日本|02|LINAZ中转
+      - JCBB_新加坡02【vip1】
+      - JCBB_英国01【vip1】
+      - JCBB_美国01【vip1】
+      - JCBB_新加坡03【vip1】
+      - JCBB_美国04【vip1】
+      - 台湾|02奈飞日本AZ中转
+      - JCBB_香港02【vip1】
       - 韩国|03|OCAZ中转
+      - 日本|02|LINAZ中转
+      - JCBB_台湾03【vip2】
+      - JCBB_香港11【vip3】
+      - 日本|01|LINAZ中转
       - 日本|02|LIN02AZ中转
-      - 日本|03|LINAZ中转
+      - 新加坡|08|DOAZ中转
+      - 新加坡|03|OC奈飞AZ中转
+      - 香港|21AZ中转
+      - 新加坡|02|DOAZ中转
+      - 新加坡|01|OCAZ中转
       - 新加坡|04|OCAZ中转
       - 新加坡|01|LINAZ中转
-      - 新加坡|02|DOAZ中转
-      - 香港|21AZ中转
-      - 新加坡|01|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 日本|03|LIN
-      - 日本|02|LIN
-      - 新加坡|04|OC
-      - 印度|02|LINAZ中转
-      - 香港|13AZ中转
-      - 新加坡|01|OC
-      - 日本|05|OCAZ中转
-      - 美国|高速|01|DO
+      - 美国|01|DO
+      - JCBB_香港01【vip1】
+      - 台湾|01奈飞香港AZ中转
+      - JCBB_美国02【vip1】
+      - JCBB_台湾01【vip2】
+      - JCBB_英国02【vip1】
+      - JCBB_台湾02【vip2】
+      - 日本|01|LIN
+      - JCBB_韩国01【vip2】
+      - 日本|03|LINAZ中转
+      - JCBB_韩国02【vip2】
+      - 香港|03AZ中转
+      - JCBB_德国02【vip1】
+      - v2auto_TG频道:t.me/ruofengfx 1
+      - JCBB_香港12【vip3】
+      - JCBB_新加坡01【vip1】
+      - JCBB_德国01【vip1】
+      - 美国|03|RN
+      - 日本|05|OC
+      - JCBB_美国03【vip1】
       - 英国|01|DOAZ中转
       - 香港|07奈飞AZ中转
-      - 香港|10AZ中转
-      - 日本|04|OC
-      - 美国|03|RN
-      - 香港|12AZ中转
+      - 香港|17AZ中转
       - 香港|20AZ中转
-      - 日本|05|LINAZ中转
-      - "|49.83Mb"
-      - Relay_🇨🇳CN-🏁ZZ_299
-      - Relay|🇸🇬SG|中速| 32
-      - Relay|🇸🇬SG|中速| 24
+      - JCBB_台湾04【vip2】
+      - 香港|12AZ中转
+      - 美国|高速|01|DO
+      - 香港|10AZ中转
+      - JCBB_印度02【vip1】
+      - 日本|02|LIN
+      - 印度|02|LINAZ中转
+      - JCBB_香港05【vip1】
+      - 日本|05|LIN
+      - 日本|03|LIN
+      - JCBB_日本02【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_日本01【vip1】
+      - JCBB_日本04【vip1】
+      - 香港|12奈飞移动中转
+      - 日本|04|OCAZ中转
+      - 日本|05|OCAZ中转
       - Relay|🇸🇬SG|中速| 26
+      - Relay|🇸🇬SG|中速| 24
+      - Relay|🇸🇬SG|中速| 32
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -717,84 +648,75 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国CDN
-      - 日本-JP
-      - 美国Xerox4_1
-      - v2auto_TG频道:t.me/ruofengfx 1
-      - JCBB_新加坡01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_德国01【vip1】
-      - JCBB_英国02【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_韩国01【vip2】
+      - 日本|05|LINAZ中转
       - JCBB_香港06【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港12【vip3】
-      - JCBB_香港05【vip1】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_印度02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_台湾04【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_日本02【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_香港11【vip3】
-      - 中国-tg3
-      - TG频道:t.me/ruofengfx+10
-      - 中国-tg6
-      - CN_357
+      - 日本-JP
       - US_283
-      - 中国-tg2
-      - 中国10
-      - 中国-+10
-      - CN_48+2
-      - CN_174
-      - CN_179
-      - "|14.38Mb"
-      - CN_28+TG
-      - CN_159
-      - 美国|01|DO
-      - 香港|03AZ中转
-      - 日本|05|LIN
-      - 台湾|01奈飞AZ中转
-      - 香港|17AZ中转
-      - 日本|04|OCAZ中转
-      - 日本|02|LINAZ中转
+      - JCBB_新加坡02【vip1】
+      - JCBB_英国01【vip1】
+      - JCBB_美国01【vip1】
+      - JCBB_新加坡03【vip1】
+      - JCBB_美国04【vip1】
+      - 台湾|02奈飞日本AZ中转
+      - JCBB_香港02【vip1】
       - 韩国|03|OCAZ中转
+      - 日本|02|LINAZ中转
+      - JCBB_台湾03【vip2】
+      - JCBB_香港11【vip3】
+      - 日本|01|LINAZ中转
       - 日本|02|LIN02AZ中转
-      - 日本|03|LINAZ中转
+      - 新加坡|08|DOAZ中转
+      - 新加坡|03|OC奈飞AZ中转
+      - 香港|21AZ中转
+      - 新加坡|02|DOAZ中转
+      - 新加坡|01|OCAZ中转
       - 新加坡|04|OCAZ中转
       - 新加坡|01|LINAZ中转
-      - 新加坡|02|DOAZ中转
-      - 香港|21AZ中转
-      - 新加坡|01|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 日本|03|LIN
-      - 日本|02|LIN
-      - 新加坡|04|OC
-      - 印度|02|LINAZ中转
-      - 香港|13AZ中转
-      - 新加坡|01|OC
-      - 日本|05|OCAZ中转
-      - 美国|高速|01|DO
+      - 美国|01|DO
+      - JCBB_香港01【vip1】
+      - 台湾|01奈飞香港AZ中转
+      - JCBB_美国02【vip1】
+      - JCBB_台湾01【vip2】
+      - JCBB_英国02【vip1】
+      - JCBB_台湾02【vip2】
+      - 日本|01|LIN
+      - JCBB_韩国01【vip2】
+      - 日本|03|LINAZ中转
+      - JCBB_韩国02【vip2】
+      - 香港|03AZ中转
+      - JCBB_德国02【vip1】
+      - v2auto_TG频道:t.me/ruofengfx 1
+      - JCBB_香港12【vip3】
+      - JCBB_新加坡01【vip1】
+      - JCBB_德国01【vip1】
+      - 美国|03|RN
+      - 日本|05|OC
+      - JCBB_美国03【vip1】
       - 英国|01|DOAZ中转
       - 香港|07奈飞AZ中转
-      - 香港|10AZ中转
-      - 日本|04|OC
-      - 美国|03|RN
-      - 香港|12AZ中转
+      - 香港|17AZ中转
       - 香港|20AZ中转
-      - 日本|05|LINAZ中转
-      - "|49.83Mb"
-      - Relay_🇨🇳CN-🏁ZZ_299
-      - Relay|🇸🇬SG|中速| 32
-      - Relay|🇸🇬SG|中速| 24
+      - JCBB_台湾04【vip2】
+      - 香港|12AZ中转
+      - 美国|高速|01|DO
+      - 香港|10AZ中转
+      - JCBB_印度02【vip1】
+      - 日本|02|LIN
+      - 印度|02|LINAZ中转
+      - JCBB_香港05【vip1】
+      - 日本|05|LIN
+      - 日本|03|LIN
+      - JCBB_日本02【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_日本01【vip1】
+      - JCBB_日本04【vip1】
+      - 香港|12奈飞移动中转
+      - 日本|04|OCAZ中转
+      - 日本|05|OCAZ中转
       - Relay|🇸🇬SG|中速| 26
+      - Relay|🇸🇬SG|中速| 24
+      - Relay|🇸🇬SG|中速| 32
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
