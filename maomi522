@@ -5,363 +5,407 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: JCBB_韩国01【vip2】, server: gkdcm.gkdcn.top, port: 25881, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_韩国02【vip2】, server: gkdcu.gkdcn.top, port: 25881, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_香港01【vip1】, server: gkdcm.gkdcn.top, port: 25899, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_香港02【vip1】, server: gkdcm1.gkdcn.top, port: 25899, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
-  - {name: JCBB_香港03【vip1】, server: gkdcm.gkdcn.top, port: 25898, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_香港04【vip1】, server: gkdcm1.gkdcn.top, port: 25898, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
-  - {name: JCBB_香港05【vip1】, server: gkdcm.gkdcn.top, port: 25897, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_香港06【vip1】, server: gkdcm1.gkdcn.top, port: 25897, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
-  - {name: JCBB_新加坡01【vip1】, server: gkdcm.gkdcn.top, port: 25895, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_新加坡02【vip1】, server: gkdcm1.gkdcn.top, port: 25895, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
-  - {name: JCBB_新加坡03【vip1】, server: gkdcm.gkdcn.top, port: 25894, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_新加坡04【vip1】, server: gkdcm1.gkdcn.top, port: 25894, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
-  - {name: JCBB_日本01【vip1】, server: gkdcm.gkdcn.top, port: 25888, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_日本02【vip1】, server: gkdcu.gkdcn.top, port: 25888, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_日本03【vip1】, server: gkdcm.gkdcn.top, port: 25887, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_日本04【vip1】, server: gkdcu.gkdcn.top, port: 25887, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_美国01【vip1】, server: gkdcm.gkdcn.top, port: 25886, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_美国02【vip1】, server: gkdcu.gkdcn.top, port: 25886, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_美国03【vip1】, server: gkdcm.gkdcn.top, port: 25885, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_美国04【vip1】, server: gkdcu.gkdcn.top, port: 25885, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_英国01【vip1】, server: gkdcm.gkdcn.top, port: 25884, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_英国02【vip1】, server: gkdcu.gkdcn.top, port: 25884, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_德国01【vip1】, server: gkdcm.gkdcn.top, port: 25883, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_德国02【vip1】, server: gkdcu.gkdcn.top, port: 25883, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_印度01【vip1】, server: gkdcm.gkdcn.top, port: 25882, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_印度02【vip1】, server: gkdcu.gkdcn.top, port: 25882, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_台湾01【vip2】, server: gkdcm.gkdcn.top, port: 25890, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_台湾02【vip2】, server: gkdcu.gkdcn.top, port: 25890, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_台湾03【vip2】, server: gkdcm.gkdcn.top, port: 25889, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_台湾04【vip2】, server: gkdcu.gkdcn.top, port: 25889, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_新加坡05【vip2】, server: gkdcm1.gkdcn.top, port: 25818, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
-  - {name: JCBB_新加坡06【vip2】, server: gkdcm.gkdcn.top, port: 25818, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_香港11【vip3】, server: gkdcm.gkdcn.top, port: 25892, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_香港12【vip3】, server: gkdcm1.gkdcn.top, port: 25892, type: vmess, uuid: 37a4ba98-e1b9-4854-94c7-9787e1dd7e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
-  - {name: 台湾|02奈飞直连, server: dsfdg.170809.xyz, port: 34246, type: ss, cipher: chacha20-ietf-poly1305, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, udp: true}
-  - {name: 台湾|03奈飞直连, server: fdbdfsb.170809.xyz, port: 34253, type: ss, cipher: chacha20-ietf-poly1305, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, udp: true}
-  - {name: 台湾|01奈飞直连, server: tw01.170809.xyz, port: 443, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: tw01.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾|01奈飞香港AZ中转, server: azhk.orange7.cf, port: 65534, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 台湾|02奈飞日本AZ中转, server: azjp.orange7.cf, port: 23403, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 台湾|03奈飞三网中转, server: node1.9218561.xyz, port: 25284, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: node1.9218561.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|04|OC, server: sgmax04.170809.xyz, port: 443, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: sgmax04.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|04|OCAZ中转, server: azhk.orange7.cf, port: 32915, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|01|LINAZ中转, server: azhk.orange7.cf, port: 61810, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|03|OC奈飞AZ中转, server: azhk.orange7.cf, port: 13361, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|02|DOAZ中转, server: azhk.orange7.cf, port: 50278, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|08|DOAZ中转, server: azhk.orange7.cf, port: 44777, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|01|OC, server: sg01.170809.xyz, port: 443, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: sg01.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|01|OCAZ中转, server: azhk.orange7.cf, port: 21230, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 印度|02|LINAZ中转, server: azhk.orange7.cf, port: 47822, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 英国|01|DOAZ中转, server: azhk.orange7.cf, port: 42355, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 韩国|03|OCAZ中转, server: azhk.orange7.cf, port: 20822, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 韩国|04|OC, server: kr04.170809.xyz, port: 32432, type: ss, cipher: chacha20-ietf-poly1305, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, udp: true}
-  - {name: 日本|05|LINAZ中转, server: azjp.orange7.cf, port: 20842, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|01|LIN, server: jp01.170809.xyz, port: 443, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: jp01.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本|01|LINAZ中转, server: azjp.orange7.cf, port: 18179, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|03|LINAZ中转, server: azhk.orange7.cf, port: 19542, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|02|LIN02AZ中转, server: azjp.orange7.cf, port: 36129, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|05|LIN, server: jpmax05.170809.xyz, port: 443, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: jpmax05.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本|03|LIN, server: jp03.170809.xyz, port: 444, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: jp03.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本|02|LIN, server: jp02.170809.xyz, port: 443, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: jp02.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本|02|LINAZ中转, server: azjp.orange7.cf, port: 10050, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|04|OC, server: jp04.170809.xyz, port: 443, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: jp04.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本|05|OC, server: jp05.170809.xyz, port: 443, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: jp05.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本|04|OCAZ中转, server: azjp.orange7.cf, port: 38323, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|05|OCAZ中转, server: azjp.orange7.cf, port: 18498, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 美国|高速|01|DO, server: usmax01.170809.xyz, port: 444, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: usmax01.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国|01|DO, server: us01.170809.xyz, port: 443, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: us01.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国|03|RN, server: usmax03.170809.xyz, port: 443, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: usmax03.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港|08奈飞, server: hkmax08.170809.xyz, port: 443, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: hkmax08.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港|08奈飞三网中转, server: node1.9218561.xyz, port: 35567, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: node1.9218561.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港|07奈飞AZ中转, server: azhk.orange7.cf, port: 13055, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|07奈飞移动中转, server: szcm.9218561.xyz, port: 61311, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: szcm.9218561.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港|10奈飞, server: hkmax10.170809.xyz, port: 443, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: hkmax10.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港|10奈飞三网中转, server: node1.9218561.xyz, port: 18440, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: node1.9218561.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港|12奈飞, server: hkmax12.170809.xyz, port: 443, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: hkmax12.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港|12奈飞移动中转, server: shcu.9218561.xyz, port: 46808, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: shcu.9218561.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港|06奈飞AZ中转, server: hkmax06.170809.xyz, port: 443, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: hkmax06.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港|03AZ中转, server: azhk.orange7.cf, port: 53106, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|20AZ中转, server: azhk.orange7.cf, port: 23245, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|22奈飞, server: hkmax22.170809.xyz, port: 443, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: hkmax22.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港|22奈飞AZ中转, server: azhk.orange7.cf, port: 43599, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|10AZ中转, server: azhk.orange7.cf, port: 21696, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|12AZ中转, server: azhk.orange7.cf, port: 39109, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|21AZ中转, server: azhk.orange7.cf, port: 47684, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|17AZ中转, server: azhk.orange7.cf, port: 60353, type: trojan, password: 40aa1d7b-d246-4e8f-ba33-4503e46a1f67, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: ⌈广停⌋ 海外｜日本2, server: jp2.dsaver.site, port: 1082, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}, udp: true}
+  - {name: ⌈绿通⌋ 海外｜日本2, server: 13.250.97.85, port: 46794, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: US_157, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: "| 3.66Mb", server: cmccctcu.xn--mesv7f5toqlp.club, port: 11112, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: cmccctcu.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: ⌈443⌋ 海外｜日本2, server: jp2.dsaver.site, port: 443, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: ⌈80⌋ 海外｜日本2, server: jp2.dsaver.site, port: 80, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: 标准|台湾02静态解锁|x1.0x, server: ppy-cmcc.0098dns02in.work, port: 26060, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|台湾03静态解锁|x1.0x, server: ppy-cmcc.0098dns02in.work, port: 26061, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ⌈80⌋ 海外｜日本, server: jp.dsaver.site, port: 80, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: 标准|台湾01静态解锁|x1.0x, server: ppy-cmcc.0098dns02in.work, port: 26059, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|台湾04动态原生|x1.0x, server: ppy-cmcc.0098dns02in.work, port: 26062, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|新加坡04解锁|x1.0x, server: ppy-giacn2.0098dns02in.work, port: 26023, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|台湾03静态解锁|x1.0x 2, server: ppy-cmcc.0098dns02in.work, port: 26061, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|台湾05动态原生|x1.0x, server: ppy-cmcc.0098dns02in.work, port: 26063, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien, server: ppy-giacn2.0098dns02in.work, port: 26021, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ⌈广停⌋ 海外｜台湾, server: vpot.giize.com, port: 1082, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}, udp: true}
+  - {name: ⌈80⌋ 海外｜台湾, server: vpot.giize.com, port: 80, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: _339_22.30Mb | 7.90Mb, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: ⌈广停⌋ 华东｜镇江, server: to5monlvh1ycb77m.dsaver.site, port: 1082, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}, udp: true}
+  - {name: 欢迎分享 请勿滥用谢谢, server: ppy-cmcc.0098dns02in.work, port: 26011, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien 2, server: ppy-cmcc.0098dns02in.work, port: 26012, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 线路速度请自测, server: ppy-cmcc.0098dns02in.work, port: 26012, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien 3, server: ppy-giacn2.0098dns02in.work, port: 26023, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ⌈广停⌋ 华东｜镇江2, server: e5egpqdqo242obor.dsaver.site, port: 1082, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}, udp: true}
+  - {name: RU_131 TG@peekfun | 6.78Mb, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
+  - {name: ⌈绿通⌋ 华东｜镇江2, server: 43.248.116.28, port: 46794, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: 标准|美国04解锁|x1.0x, server: ppy-giacn2.0098dns02in.work, port: 26004, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|台湾05动态原生|x1.0x 2, server: ppy-cmcc.0098dns02in.work, port: 26063, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien 4, server: ppy-cmcc.0098dns02in.work, port: 26006, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ⌈443⌋ 海外｜日本, server: jp.dsaver.site, port: 443, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: ⌈绿通⌋ 海外｜韩国, server: 3.38.140.92, port: 46794, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: ⌈80⌋ 海外｜韩国, server: kr.dsaver.site, port: 80, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: Alien 5, server: ppy-giacn2.0098dns02in.work, port: 26003, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien 6, server: ppy-cmcc.0098dns02in.work, port: 26059, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien 7, server: ppy-giacn2.0098dns02in.work, port: 26004, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien 8, server: ppy-giacn2.0098dns02in.work, port: 26001, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ⌈广停⌋ 海外｜韩国, server: kr.dsaver.site, port: 1082, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}, udp: true}
+  - {name: Alien 9, server: ppy-giacn2.0098dns02in.work, port: 26002, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|日本01解锁|x1.0x, server: ppy-cmcc.0098dns02in.work, port: 26006, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|新加坡02解锁|x1.0x, server: ppy-giacn2.0098dns02in.work, port: 26021, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|美国01解锁|x1.0x, server: ppy-giacn2.0098dns02in.work, port: 26001, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|新加坡04解锁|x1.0x 2, server: ppy-giacn2.0098dns02in.work, port: 26023, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien 10, server: ppy-cmcc.0098dns02in.work, port: 26062, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _1439_21.39Mb |53.14Mb, server: sh.moonfree.top, port: 11262, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sh.moonfree.top}, udp: true}
+  - {name: _578_14.11Mb |141.55Mb, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 挪威, server: 51.120.8.182, port: 399, type: vmess, uuid: b0bb0b31-5938-44de-a865-4dcf4e14df62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 挪威 2, server: 51.120.8.182, port: 399, type: vmess, uuid: b0bb0b31-5938-44de-a865-4dcf4e14df62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|日本02解锁|x1.0x, server: ppy-cmcc.0098dns02in.work, port: 26007, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|新加坡01解锁|x1.0x, server: ppy-giacn2.0098dns02in.work, port: 26020, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 挪威 3, server: 51.120.8.182, port: 399, type: vmess, uuid: b0bb0b31-5938-44de-a865-4dcf4e14df62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG_2836_26.16Mb |59.28Mb, server: sh.moonfree.top, port: 11263, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sh.moonfree.top}, udp: true}
+  - {name: ⌈443⌋ 海外｜韩国, server: kr.dsaver.site, port: 443, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: 日本, server: jp1.v2yyds.cc, port: 32111, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, sni: jp1.v2yyds.cc, skip-cert-verify: true, udp: true}
+  - {name: 标准|台湾02静态解锁|x1.0x 2, server: ppy-cmcc.0098dns02in.work, port: 26060, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|日本03解锁|x1.0x, server: ppy-cmcc.0098dns02in.work, port: 26008, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien 11, server: ppy-cmcc.0098dns02in.work, port: 26061, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ⌈443⌋ 海外｜日本4, server: jp4.dsaver.site, port: 443, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: 标准|新加坡03解锁|x1.0x, server: ppy-giacn2.0098dns02in.work, port: 26022, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|新加坡03解锁|x1.0x 2, server: ppy-giacn2.0098dns02in.work, port: 26022, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|日本04解锁|x1.0x, server: ppy-cmcc.0098dns02in.work, port: 26009, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien 12, server: ppy-cmcc.0098dns02in.work, port: 26009, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien 13, server: ppy-cmcc.0098dns02in.work, port: 26060, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien 14, server: ppy-cmcc.0098dns02in.work, port: 26007, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|日本03解锁|x1.0x 2, server: ppy-cmcc.0098dns02in.work, port: 26008, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|美国02解锁|x1.0x, server: ppy-giacn2.0098dns02in.work, port: 26002, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|美国03解锁|x1.0x, server: ppy-giacn2.0098dns02in.work, port: 26003, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|日本01解锁|x1.0x 2, server: ppy-cmcc.0098dns02in.work, port: 26006, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|新加坡01解锁|x1.0x 2, server: ppy-giacn2.0098dns02in.work, port: 26020, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|日本04解锁|x1.0x 2, server: ppy-cmcc.0098dns02in.work, port: 26009, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|台湾04动态原生|x1.0x 2, server: ppy-cmcc.0098dns02in.work, port: 26062, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|日本02解锁|x1.0x 2, server: ppy-cmcc.0098dns02in.work, port: 26007, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ⌈绿通⌋ 华东｜镇江, server: 43.248.116.27, port: 46794, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: Alien 15, server: ppy-giacn2.0098dns02in.work, port: 26022, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|香港04解锁|x1.0x, server: ppy-cmcc.0098dns02in.work, port: 26013, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ⌈绿通⌋ 海外｜日本, server: 3.112.198.249, port: 46794, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: ⌈广停⌋ 海外｜日本, server: jp.dsaver.site, port: 1082, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}, udp: true}
+  - {name: Alien 16, server: ppy-cmcc.0098dns02in.work, port: 26008, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien 17, server: ppy-giacn2.0098dns02in.work, port: 26020, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|香港04解锁|x1.0x 2, server: ppy-cmcc.0098dns02in.work, port: 26013, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 公众号：明天洗个头, server: ppy-cmcc.0098dns02in.work, port: 26010, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ⌈80⌋ 海外｜日本4, server: jp4.dsaver.site, port: 80, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: 标准|新加坡02解锁|x1.0x 2, server: ppy-giacn2.0098dns02in.work, port: 26021, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien 18, server: ppy-cmcc.0098dns02in.work, port: 26063, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|台湾01静态解锁|x1.0x 2, server: ppy-cmcc.0098dns02in.work, port: 26059, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien 19, server: ppy-cmcc.0098dns02in.work, port: 26010, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ⌈绿通⌋ 海外｜日本4, server: 172.104.124.121, port: 46794, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: ⌈广停⌋ 海外｜日本4, server: jp4.dsaver.site, port: 1082, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}, udp: true}
+  - {name: _561_14.62Mb |11.76Mb, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _341_21.16Mb |137.54Mb, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 欢迎分享 请勿滥用谢谢 2, server: ppy-cmcc.0098dns02in.work, port: 26011, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 线路速度请自测 2, server: ppy-cmcc.0098dns02in.work, port: 26012, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien 20, server: ppy-cmcc.0098dns02in.work, port: 26013, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 公众2, server: ppy-cmcc.0098dns02in.work, port: 26010, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ⌈443⌋ 海外｜台湾, server: vpot.giize.com, port: 443, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: Alien 21, server: ppy-cmcc.0098dns02in.work, port: 26011, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG_28, server: xjpf1.xn--mesv7f5toqlp.club, port: 11114, type: trojan, password: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, sni: xjpf1.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JCBB_韩国01【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_香港01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_新加坡03【vip1】
-      - JCBB_新加坡04【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_美国03【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_英国01【vip1】
-      - JCBB_英国02【vip1】
-      - JCBB_德国01【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_印度01【vip1】
-      - JCBB_印度02【vip1】
-      - JCBB_台湾01【vip2】
-      - JCBB_台湾02【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_台湾04【vip2】
-      - JCBB_新加坡05【vip2】
-      - JCBB_新加坡06【vip2】
-      - JCBB_香港11【vip3】
-      - JCBB_香港12【vip3】
-      - 台湾|02奈飞直连
-      - 台湾|03奈飞直连
-      - 台湾|01奈飞直连
-      - 台湾|01奈飞香港AZ中转
-      - 台湾|02奈飞日本AZ中转
-      - 台湾|03奈飞三网中转
-      - 新加坡|04|OC
-      - 新加坡|04|OCAZ中转
-      - 新加坡|01|LINAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|08|DOAZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|OCAZ中转
-      - 印度|02|LINAZ中转
-      - 英国|01|DOAZ中转
-      - 韩国|03|OCAZ中转
-      - 韩国|04|OC
-      - 日本|05|LINAZ中转
-      - 日本|01|LIN
-      - 日本|01|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|05|LIN
-      - 日本|03|LIN
-      - 日本|02|LIN
-      - 日本|02|LINAZ中转
-      - 日本|04|OC
-      - 日本|05|OC
-      - 日本|04|OCAZ中转
-      - 日本|05|OCAZ中转
-      - 美国|高速|01|DO
-      - 美国|01|DO
-      - 美国|03|RN
-      - 香港|08奈飞
-      - 香港|08奈飞三网中转
-      - 香港|07奈飞AZ中转
-      - 香港|07奈飞移动中转
-      - 香港|10奈飞
-      - 香港|10奈飞三网中转
-      - 香港|12奈飞
-      - 香港|12奈飞移动中转
-      - 香港|06奈飞AZ中转
-      - 香港|03AZ中转
-      - 香港|20AZ中转
-      - 香港|22奈飞
-      - 香港|22奈飞AZ中转
-      - 香港|10AZ中转
-      - 香港|12AZ中转
-      - 香港|21AZ中转
-      - 香港|17AZ中转
+      - ⌈广停⌋ 海外｜日本2
+      - ⌈绿通⌋ 海外｜日本2
+      - US_157
+      - "| 3.66Mb"
+      - ⌈443⌋ 海外｜日本2
+      - ⌈80⌋ 海外｜日本2
+      - 标准|台湾02静态解锁|x1.0x
+      - 标准|台湾03静态解锁|x1.0x
+      - ⌈80⌋ 海外｜日本
+      - 标准|台湾01静态解锁|x1.0x
+      - 标准|台湾04动态原生|x1.0x
+      - 标准|新加坡04解锁|x1.0x
+      - 标准|台湾03静态解锁|x1.0x 2
+      - 标准|台湾05动态原生|x1.0x
+      - Alien
+      - ⌈广停⌋ 海外｜台湾
+      - ⌈80⌋ 海外｜台湾
+      - _339_22.30Mb | 7.90Mb
+      - ⌈广停⌋ 华东｜镇江
+      - 欢迎分享 请勿滥用谢谢
+      - Alien 2
+      - 线路速度请自测
+      - Alien 3
+      - ⌈广停⌋ 华东｜镇江2
+      - RU_131 TG@peekfun | 6.78Mb
+      - ⌈绿通⌋ 华东｜镇江2
+      - 标准|美国04解锁|x1.0x
+      - 标准|台湾05动态原生|x1.0x 2
+      - Alien 4
+      - ⌈443⌋ 海外｜日本
+      - ⌈绿通⌋ 海外｜韩国
+      - ⌈80⌋ 海外｜韩国
+      - Alien 5
+      - Alien 6
+      - Alien 7
+      - Alien 8
+      - ⌈广停⌋ 海外｜韩国
+      - Alien 9
+      - 标准|日本01解锁|x1.0x
+      - 标准|新加坡02解锁|x1.0x
+      - 标准|美国01解锁|x1.0x
+      - 标准|新加坡04解锁|x1.0x 2
+      - Alien 10
+      - _1439_21.39Mb |53.14Mb
+      - _578_14.11Mb |141.55Mb
+      - 挪威
+      - 挪威 2
+      - 标准|日本02解锁|x1.0x
+      - 标准|新加坡01解锁|x1.0x
+      - 挪威 3
+      - SG_2836_26.16Mb |59.28Mb
+      - ⌈443⌋ 海外｜韩国
+      - 日本
+      - 标准|台湾02静态解锁|x1.0x 2
+      - 标准|日本03解锁|x1.0x
+      - Alien 11
+      - ⌈443⌋ 海外｜日本4
+      - 标准|新加坡03解锁|x1.0x
+      - 标准|新加坡03解锁|x1.0x 2
+      - 标准|日本04解锁|x1.0x
+      - Alien 12
+      - Alien 13
+      - Alien 14
+      - 标准|日本03解锁|x1.0x 2
+      - 标准|美国02解锁|x1.0x
+      - 标准|美国03解锁|x1.0x
+      - 标准|日本01解锁|x1.0x 2
+      - 标准|新加坡01解锁|x1.0x 2
+      - 标准|日本04解锁|x1.0x 2
+      - 标准|台湾04动态原生|x1.0x 2
+      - 标准|日本02解锁|x1.0x 2
+      - ⌈绿通⌋ 华东｜镇江
+      - Alien 15
+      - 标准|香港04解锁|x1.0x
+      - ⌈绿通⌋ 海外｜日本
+      - ⌈广停⌋ 海外｜日本
+      - Alien 16
+      - Alien 17
+      - 标准|香港04解锁|x1.0x 2
+      - 公众号：明天洗个头
+      - ⌈80⌋ 海外｜日本4
+      - 标准|新加坡02解锁|x1.0x 2
+      - Alien 18
+      - 标准|台湾01静态解锁|x1.0x 2
+      - Alien 19
+      - ⌈绿通⌋ 海外｜日本4
+      - ⌈广停⌋ 海外｜日本4
+      - _561_14.62Mb |11.76Mb
+      - _341_21.16Mb |137.54Mb
+      - 欢迎分享 请勿滥用谢谢 2
+      - 线路速度请自测 2
+      - Alien 20
+      - 公众2
+      - ⌈443⌋ 海外｜台湾
+      - Alien 21
+      - SG_28
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - JCBB_韩国01【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_香港01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_新加坡03【vip1】
-      - JCBB_新加坡04【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_美国03【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_英国01【vip1】
-      - JCBB_英国02【vip1】
-      - JCBB_德国01【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_印度01【vip1】
-      - JCBB_印度02【vip1】
-      - JCBB_台湾01【vip2】
-      - JCBB_台湾02【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_台湾04【vip2】
-      - JCBB_新加坡05【vip2】
-      - JCBB_新加坡06【vip2】
-      - JCBB_香港11【vip3】
-      - JCBB_香港12【vip3】
-      - 台湾|02奈飞直连
-      - 台湾|03奈飞直连
-      - 台湾|01奈飞直连
-      - 台湾|01奈飞香港AZ中转
-      - 台湾|02奈飞日本AZ中转
-      - 台湾|03奈飞三网中转
-      - 新加坡|04|OC
-      - 新加坡|04|OCAZ中转
-      - 新加坡|01|LINAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|08|DOAZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|OCAZ中转
-      - 印度|02|LINAZ中转
-      - 英国|01|DOAZ中转
-      - 韩国|03|OCAZ中转
-      - 韩国|04|OC
-      - 日本|05|LINAZ中转
-      - 日本|01|LIN
-      - 日本|01|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|05|LIN
-      - 日本|03|LIN
-      - 日本|02|LIN
-      - 日本|02|LINAZ中转
-      - 日本|04|OC
-      - 日本|05|OC
-      - 日本|04|OCAZ中转
-      - 日本|05|OCAZ中转
-      - 美国|高速|01|DO
-      - 美国|01|DO
-      - 美国|03|RN
-      - 香港|08奈飞
-      - 香港|08奈飞三网中转
-      - 香港|07奈飞AZ中转
-      - 香港|07奈飞移动中转
-      - 香港|10奈飞
-      - 香港|10奈飞三网中转
-      - 香港|12奈飞
-      - 香港|12奈飞移动中转
-      - 香港|06奈飞AZ中转
-      - 香港|03AZ中转
-      - 香港|20AZ中转
-      - 香港|22奈飞
-      - 香港|22奈飞AZ中转
-      - 香港|10AZ中转
-      - 香港|12AZ中转
-      - 香港|21AZ中转
-      - 香港|17AZ中转
+      - ⌈广停⌋ 海外｜日本2
+      - ⌈绿通⌋ 海外｜日本2
+      - US_157
+      - "| 3.66Mb"
+      - ⌈443⌋ 海外｜日本2
+      - ⌈80⌋ 海外｜日本2
+      - 标准|台湾02静态解锁|x1.0x
+      - 标准|台湾03静态解锁|x1.0x
+      - ⌈80⌋ 海外｜日本
+      - 标准|台湾01静态解锁|x1.0x
+      - 标准|台湾04动态原生|x1.0x
+      - 标准|新加坡04解锁|x1.0x
+      - 标准|台湾03静态解锁|x1.0x 2
+      - 标准|台湾05动态原生|x1.0x
+      - Alien
+      - ⌈广停⌋ 海外｜台湾
+      - ⌈80⌋ 海外｜台湾
+      - _339_22.30Mb | 7.90Mb
+      - ⌈广停⌋ 华东｜镇江
+      - 欢迎分享 请勿滥用谢谢
+      - Alien 2
+      - 线路速度请自测
+      - Alien 3
+      - ⌈广停⌋ 华东｜镇江2
+      - RU_131 TG@peekfun | 6.78Mb
+      - ⌈绿通⌋ 华东｜镇江2
+      - 标准|美国04解锁|x1.0x
+      - 标准|台湾05动态原生|x1.0x 2
+      - Alien 4
+      - ⌈443⌋ 海外｜日本
+      - ⌈绿通⌋ 海外｜韩国
+      - ⌈80⌋ 海外｜韩国
+      - Alien 5
+      - Alien 6
+      - Alien 7
+      - Alien 8
+      - ⌈广停⌋ 海外｜韩国
+      - Alien 9
+      - 标准|日本01解锁|x1.0x
+      - 标准|新加坡02解锁|x1.0x
+      - 标准|美国01解锁|x1.0x
+      - 标准|新加坡04解锁|x1.0x 2
+      - Alien 10
+      - _1439_21.39Mb |53.14Mb
+      - _578_14.11Mb |141.55Mb
+      - 挪威
+      - 挪威 2
+      - 标准|日本02解锁|x1.0x
+      - 标准|新加坡01解锁|x1.0x
+      - 挪威 3
+      - SG_2836_26.16Mb |59.28Mb
+      - ⌈443⌋ 海外｜韩国
+      - 日本
+      - 标准|台湾02静态解锁|x1.0x 2
+      - 标准|日本03解锁|x1.0x
+      - Alien 11
+      - ⌈443⌋ 海外｜日本4
+      - 标准|新加坡03解锁|x1.0x
+      - 标准|新加坡03解锁|x1.0x 2
+      - 标准|日本04解锁|x1.0x
+      - Alien 12
+      - Alien 13
+      - Alien 14
+      - 标准|日本03解锁|x1.0x 2
+      - 标准|美国02解锁|x1.0x
+      - 标准|美国03解锁|x1.0x
+      - 标准|日本01解锁|x1.0x 2
+      - 标准|新加坡01解锁|x1.0x 2
+      - 标准|日本04解锁|x1.0x 2
+      - 标准|台湾04动态原生|x1.0x 2
+      - 标准|日本02解锁|x1.0x 2
+      - ⌈绿通⌋ 华东｜镇江
+      - Alien 15
+      - 标准|香港04解锁|x1.0x
+      - ⌈绿通⌋ 海外｜日本
+      - ⌈广停⌋ 海外｜日本
+      - Alien 16
+      - Alien 17
+      - 标准|香港04解锁|x1.0x 2
+      - 公众号：明天洗个头
+      - ⌈80⌋ 海外｜日本4
+      - 标准|新加坡02解锁|x1.0x 2
+      - Alien 18
+      - 标准|台湾01静态解锁|x1.0x 2
+      - Alien 19
+      - ⌈绿通⌋ 海外｜日本4
+      - ⌈广停⌋ 海外｜日本4
+      - _561_14.62Mb |11.76Mb
+      - _341_21.16Mb |137.54Mb
+      - 欢迎分享 请勿滥用谢谢 2
+      - 线路速度请自测 2
+      - Alien 20
+      - 公众2
+      - ⌈443⌋ 海外｜台湾
+      - Alien 21
+      - SG_28
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JCBB_韩国01【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_香港01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_新加坡03【vip1】
-      - JCBB_新加坡04【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_美国03【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_英国01【vip1】
-      - JCBB_英国02【vip1】
-      - JCBB_德国01【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_印度01【vip1】
-      - JCBB_印度02【vip1】
-      - JCBB_台湾01【vip2】
-      - JCBB_台湾02【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_台湾04【vip2】
-      - JCBB_新加坡05【vip2】
-      - JCBB_新加坡06【vip2】
-      - JCBB_香港11【vip3】
-      - JCBB_香港12【vip3】
-      - 台湾|02奈飞直连
-      - 台湾|03奈飞直连
-      - 台湾|01奈飞直连
-      - 台湾|01奈飞香港AZ中转
-      - 台湾|02奈飞日本AZ中转
-      - 台湾|03奈飞三网中转
-      - 新加坡|04|OC
-      - 新加坡|04|OCAZ中转
-      - 新加坡|01|LINAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|08|DOAZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|OCAZ中转
-      - 印度|02|LINAZ中转
-      - 英国|01|DOAZ中转
-      - 韩国|03|OCAZ中转
-      - 韩国|04|OC
-      - 日本|05|LINAZ中转
-      - 日本|01|LIN
-      - 日本|01|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|05|LIN
-      - 日本|03|LIN
-      - 日本|02|LIN
-      - 日本|02|LINAZ中转
-      - 日本|04|OC
-      - 日本|05|OC
-      - 日本|04|OCAZ中转
-      - 日本|05|OCAZ中转
-      - 美国|高速|01|DO
-      - 美国|01|DO
-      - 美国|03|RN
-      - 香港|08奈飞
-      - 香港|08奈飞三网中转
-      - 香港|07奈飞AZ中转
-      - 香港|07奈飞移动中转
-      - 香港|10奈飞
-      - 香港|10奈飞三网中转
-      - 香港|12奈飞
-      - 香港|12奈飞移动中转
-      - 香港|06奈飞AZ中转
-      - 香港|03AZ中转
-      - 香港|20AZ中转
-      - 香港|22奈飞
-      - 香港|22奈飞AZ中转
-      - 香港|10AZ中转
-      - 香港|12AZ中转
-      - 香港|21AZ中转
-      - 香港|17AZ中转
+      - ⌈广停⌋ 海外｜日本2
+      - ⌈绿通⌋ 海外｜日本2
+      - US_157
+      - "| 3.66Mb"
+      - ⌈443⌋ 海外｜日本2
+      - ⌈80⌋ 海外｜日本2
+      - 标准|台湾02静态解锁|x1.0x
+      - 标准|台湾03静态解锁|x1.0x
+      - ⌈80⌋ 海外｜日本
+      - 标准|台湾01静态解锁|x1.0x
+      - 标准|台湾04动态原生|x1.0x
+      - 标准|新加坡04解锁|x1.0x
+      - 标准|台湾03静态解锁|x1.0x 2
+      - 标准|台湾05动态原生|x1.0x
+      - Alien
+      - ⌈广停⌋ 海外｜台湾
+      - ⌈80⌋ 海外｜台湾
+      - _339_22.30Mb | 7.90Mb
+      - ⌈广停⌋ 华东｜镇江
+      - 欢迎分享 请勿滥用谢谢
+      - Alien 2
+      - 线路速度请自测
+      - Alien 3
+      - ⌈广停⌋ 华东｜镇江2
+      - RU_131 TG@peekfun | 6.78Mb
+      - ⌈绿通⌋ 华东｜镇江2
+      - 标准|美国04解锁|x1.0x
+      - 标准|台湾05动态原生|x1.0x 2
+      - Alien 4
+      - ⌈443⌋ 海外｜日本
+      - ⌈绿通⌋ 海外｜韩国
+      - ⌈80⌋ 海外｜韩国
+      - Alien 5
+      - Alien 6
+      - Alien 7
+      - Alien 8
+      - ⌈广停⌋ 海外｜韩国
+      - Alien 9
+      - 标准|日本01解锁|x1.0x
+      - 标准|新加坡02解锁|x1.0x
+      - 标准|美国01解锁|x1.0x
+      - 标准|新加坡04解锁|x1.0x 2
+      - Alien 10
+      - _1439_21.39Mb |53.14Mb
+      - _578_14.11Mb |141.55Mb
+      - 挪威
+      - 挪威 2
+      - 标准|日本02解锁|x1.0x
+      - 标准|新加坡01解锁|x1.0x
+      - 挪威 3
+      - SG_2836_26.16Mb |59.28Mb
+      - ⌈443⌋ 海外｜韩国
+      - 日本
+      - 标准|台湾02静态解锁|x1.0x 2
+      - 标准|日本03解锁|x1.0x
+      - Alien 11
+      - ⌈443⌋ 海外｜日本4
+      - 标准|新加坡03解锁|x1.0x
+      - 标准|新加坡03解锁|x1.0x 2
+      - 标准|日本04解锁|x1.0x
+      - Alien 12
+      - Alien 13
+      - Alien 14
+      - 标准|日本03解锁|x1.0x 2
+      - 标准|美国02解锁|x1.0x
+      - 标准|美国03解锁|x1.0x
+      - 标准|日本01解锁|x1.0x 2
+      - 标准|新加坡01解锁|x1.0x 2
+      - 标准|日本04解锁|x1.0x 2
+      - 标准|台湾04动态原生|x1.0x 2
+      - 标准|日本02解锁|x1.0x 2
+      - ⌈绿通⌋ 华东｜镇江
+      - Alien 15
+      - 标准|香港04解锁|x1.0x
+      - ⌈绿通⌋ 海外｜日本
+      - ⌈广停⌋ 海外｜日本
+      - Alien 16
+      - Alien 17
+      - 标准|香港04解锁|x1.0x 2
+      - 公众号：明天洗个头
+      - ⌈80⌋ 海外｜日本4
+      - 标准|新加坡02解锁|x1.0x 2
+      - Alien 18
+      - 标准|台湾01静态解锁|x1.0x 2
+      - Alien 19
+      - ⌈绿通⌋ 海外｜日本4
+      - ⌈广停⌋ 海外｜日本4
+      - _561_14.62Mb |11.76Mb
+      - _341_21.16Mb |137.54Mb
+      - 欢迎分享 请勿滥用谢谢 2
+      - 线路速度请自测 2
+      - Alien 20
+      - 公众2
+      - ⌈443⌋ 海外｜台湾
+      - Alien 21
+      - SG_28
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -380,402 +424,426 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JCBB_韩国01【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_香港01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_新加坡03【vip1】
-      - JCBB_新加坡04【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_美国03【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_英国01【vip1】
-      - JCBB_英国02【vip1】
-      - JCBB_德国01【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_印度01【vip1】
-      - JCBB_印度02【vip1】
-      - JCBB_台湾01【vip2】
-      - JCBB_台湾02【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_台湾04【vip2】
-      - JCBB_新加坡05【vip2】
-      - JCBB_新加坡06【vip2】
-      - JCBB_香港11【vip3】
-      - JCBB_香港12【vip3】
-      - 台湾|02奈飞直连
-      - 台湾|03奈飞直连
-      - 台湾|01奈飞直连
-      - 台湾|01奈飞香港AZ中转
-      - 台湾|02奈飞日本AZ中转
-      - 台湾|03奈飞三网中转
-      - 新加坡|04|OC
-      - 新加坡|04|OCAZ中转
-      - 新加坡|01|LINAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|08|DOAZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|OCAZ中转
-      - 印度|02|LINAZ中转
-      - 英国|01|DOAZ中转
-      - 韩国|03|OCAZ中转
-      - 韩国|04|OC
-      - 日本|05|LINAZ中转
-      - 日本|01|LIN
-      - 日本|01|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|05|LIN
-      - 日本|03|LIN
-      - 日本|02|LIN
-      - 日本|02|LINAZ中转
-      - 日本|04|OC
-      - 日本|05|OC
-      - 日本|04|OCAZ中转
-      - 日本|05|OCAZ中转
-      - 美国|高速|01|DO
-      - 美国|01|DO
-      - 美国|03|RN
-      - 香港|08奈飞
-      - 香港|08奈飞三网中转
-      - 香港|07奈飞AZ中转
-      - 香港|07奈飞移动中转
-      - 香港|10奈飞
-      - 香港|10奈飞三网中转
-      - 香港|12奈飞
-      - 香港|12奈飞移动中转
-      - 香港|06奈飞AZ中转
-      - 香港|03AZ中转
-      - 香港|20AZ中转
-      - 香港|22奈飞
-      - 香港|22奈飞AZ中转
-      - 香港|10AZ中转
-      - 香港|12AZ中转
-      - 香港|21AZ中转
-      - 香港|17AZ中转
+      - ⌈广停⌋ 海外｜日本2
+      - ⌈绿通⌋ 海外｜日本2
+      - US_157
+      - "| 3.66Mb"
+      - ⌈443⌋ 海外｜日本2
+      - ⌈80⌋ 海外｜日本2
+      - 标准|台湾02静态解锁|x1.0x
+      - 标准|台湾03静态解锁|x1.0x
+      - ⌈80⌋ 海外｜日本
+      - 标准|台湾01静态解锁|x1.0x
+      - 标准|台湾04动态原生|x1.0x
+      - 标准|新加坡04解锁|x1.0x
+      - 标准|台湾03静态解锁|x1.0x 2
+      - 标准|台湾05动态原生|x1.0x
+      - Alien
+      - ⌈广停⌋ 海外｜台湾
+      - ⌈80⌋ 海外｜台湾
+      - _339_22.30Mb | 7.90Mb
+      - ⌈广停⌋ 华东｜镇江
+      - 欢迎分享 请勿滥用谢谢
+      - Alien 2
+      - 线路速度请自测
+      - Alien 3
+      - ⌈广停⌋ 华东｜镇江2
+      - RU_131 TG@peekfun | 6.78Mb
+      - ⌈绿通⌋ 华东｜镇江2
+      - 标准|美国04解锁|x1.0x
+      - 标准|台湾05动态原生|x1.0x 2
+      - Alien 4
+      - ⌈443⌋ 海外｜日本
+      - ⌈绿通⌋ 海外｜韩国
+      - ⌈80⌋ 海外｜韩国
+      - Alien 5
+      - Alien 6
+      - Alien 7
+      - Alien 8
+      - ⌈广停⌋ 海外｜韩国
+      - Alien 9
+      - 标准|日本01解锁|x1.0x
+      - 标准|新加坡02解锁|x1.0x
+      - 标准|美国01解锁|x1.0x
+      - 标准|新加坡04解锁|x1.0x 2
+      - Alien 10
+      - _1439_21.39Mb |53.14Mb
+      - _578_14.11Mb |141.55Mb
+      - 挪威
+      - 挪威 2
+      - 标准|日本02解锁|x1.0x
+      - 标准|新加坡01解锁|x1.0x
+      - 挪威 3
+      - SG_2836_26.16Mb |59.28Mb
+      - ⌈443⌋ 海外｜韩国
+      - 日本
+      - 标准|台湾02静态解锁|x1.0x 2
+      - 标准|日本03解锁|x1.0x
+      - Alien 11
+      - ⌈443⌋ 海外｜日本4
+      - 标准|新加坡03解锁|x1.0x
+      - 标准|新加坡03解锁|x1.0x 2
+      - 标准|日本04解锁|x1.0x
+      - Alien 12
+      - Alien 13
+      - Alien 14
+      - 标准|日本03解锁|x1.0x 2
+      - 标准|美国02解锁|x1.0x
+      - 标准|美国03解锁|x1.0x
+      - 标准|日本01解锁|x1.0x 2
+      - 标准|新加坡01解锁|x1.0x 2
+      - 标准|日本04解锁|x1.0x 2
+      - 标准|台湾04动态原生|x1.0x 2
+      - 标准|日本02解锁|x1.0x 2
+      - ⌈绿通⌋ 华东｜镇江
+      - Alien 15
+      - 标准|香港04解锁|x1.0x
+      - ⌈绿通⌋ 海外｜日本
+      - ⌈广停⌋ 海外｜日本
+      - Alien 16
+      - Alien 17
+      - 标准|香港04解锁|x1.0x 2
+      - 公众号：明天洗个头
+      - ⌈80⌋ 海外｜日本4
+      - 标准|新加坡02解锁|x1.0x 2
+      - Alien 18
+      - 标准|台湾01静态解锁|x1.0x 2
+      - Alien 19
+      - ⌈绿通⌋ 海外｜日本4
+      - ⌈广停⌋ 海外｜日本4
+      - _561_14.62Mb |11.76Mb
+      - _341_21.16Mb |137.54Mb
+      - 欢迎分享 请勿滥用谢谢 2
+      - 线路速度请自测 2
+      - Alien 20
+      - 公众2
+      - ⌈443⌋ 海外｜台湾
+      - Alien 21
+      - SG_28
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - JCBB_香港01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_台湾01【vip2】
-      - JCBB_台湾02【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_台湾04【vip2】
-      - JCBB_香港11【vip3】
-      - JCBB_香港12【vip3】
-      - 台湾|02奈飞直连
-      - 台湾|03奈飞直连
-      - 台湾|01奈飞直连
-      - 台湾|01奈飞香港AZ中转
-      - 台湾|02奈飞日本AZ中转
-      - 台湾|03奈飞三网中转
-      - 香港|08奈飞
-      - 香港|08奈飞三网中转
-      - 香港|07奈飞AZ中转
-      - 香港|07奈飞移动中转
-      - 香港|10奈飞
-      - 香港|10奈飞三网中转
-      - 香港|12奈飞
-      - 香港|12奈飞移动中转
-      - 香港|06奈飞AZ中转
-      - 香港|03AZ中转
-      - 香港|20AZ中转
-      - 香港|22奈飞
-      - 香港|22奈飞AZ中转
-      - 香港|10AZ中转
-      - 香港|12AZ中转
-      - 香港|21AZ中转
-      - 香港|17AZ中转
+      - 标准|台湾02静态解锁|x1.0x
+      - 标准|台湾03静态解锁|x1.0x
+      - 标准|台湾01静态解锁|x1.0x
+      - 标准|台湾04动态原生|x1.0x
+      - 标准|台湾03静态解锁|x1.0x 2
+      - 标准|台湾05动态原生|x1.0x
+      - ⌈广停⌋ 海外｜台湾
+      - ⌈80⌋ 海外｜台湾
+      - 标准|台湾05动态原生|x1.0x 2
+      - 标准|台湾02静态解锁|x1.0x 2
+      - 标准|台湾04动态原生|x1.0x 2
+      - 标准|香港04解锁|x1.0x
+      - 标准|香港04解锁|x1.0x 2
+      - 标准|台湾01静态解锁|x1.0x 2
+      - ⌈443⌋ 海外｜台湾
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - JCBB_韩国01【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_香港01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_新加坡03【vip1】
-      - JCBB_新加坡04【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_美国03【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_英国01【vip1】
-      - JCBB_英国02【vip1】
-      - JCBB_德国01【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_印度01【vip1】
-      - JCBB_印度02【vip1】
-      - JCBB_台湾01【vip2】
-      - JCBB_台湾02【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_台湾04【vip2】
-      - JCBB_新加坡05【vip2】
-      - JCBB_新加坡06【vip2】
-      - JCBB_香港11【vip3】
-      - JCBB_香港12【vip3】
-      - 台湾|02奈飞直连
-      - 台湾|03奈飞直连
-      - 台湾|01奈飞直连
-      - 台湾|01奈飞香港AZ中转
-      - 台湾|02奈飞日本AZ中转
-      - 台湾|03奈飞三网中转
-      - 新加坡|04|OC
-      - 新加坡|04|OCAZ中转
-      - 新加坡|01|LINAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|08|DOAZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|OCAZ中转
-      - 印度|02|LINAZ中转
-      - 英国|01|DOAZ中转
-      - 韩国|03|OCAZ中转
-      - 韩国|04|OC
-      - 日本|05|LINAZ中转
-      - 日本|01|LIN
-      - 日本|01|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|05|LIN
-      - 日本|03|LIN
-      - 日本|02|LIN
-      - 日本|02|LINAZ中转
-      - 日本|04|OC
-      - 日本|05|OC
-      - 日本|04|OCAZ中转
-      - 日本|05|OCAZ中转
-      - 美国|高速|01|DO
-      - 美国|01|DO
-      - 美国|03|RN
-      - 香港|08奈飞
-      - 香港|08奈飞三网中转
-      - 香港|07奈飞AZ中转
-      - 香港|07奈飞移动中转
-      - 香港|10奈飞
-      - 香港|10奈飞三网中转
-      - 香港|12奈飞
-      - 香港|12奈飞移动中转
-      - 香港|06奈飞AZ中转
-      - 香港|03AZ中转
-      - 香港|20AZ中转
-      - 香港|22奈飞
-      - 香港|22奈飞AZ中转
-      - 香港|10AZ中转
-      - 香港|12AZ中转
-      - 香港|21AZ中转
-      - 香港|17AZ中转
+      - ⌈广停⌋ 海外｜日本2
+      - ⌈绿通⌋ 海外｜日本2
+      - US_157
+      - "| 3.66Mb"
+      - ⌈443⌋ 海外｜日本2
+      - ⌈80⌋ 海外｜日本2
+      - 标准|台湾02静态解锁|x1.0x
+      - 标准|台湾03静态解锁|x1.0x
+      - ⌈80⌋ 海外｜日本
+      - 标准|台湾01静态解锁|x1.0x
+      - 标准|台湾04动态原生|x1.0x
+      - 标准|新加坡04解锁|x1.0x
+      - 标准|台湾03静态解锁|x1.0x 2
+      - 标准|台湾05动态原生|x1.0x
+      - Alien
+      - ⌈广停⌋ 海外｜台湾
+      - ⌈80⌋ 海外｜台湾
+      - _339_22.30Mb | 7.90Mb
+      - ⌈广停⌋ 华东｜镇江
+      - 欢迎分享 请勿滥用谢谢
+      - Alien 2
+      - 线路速度请自测
+      - Alien 3
+      - ⌈广停⌋ 华东｜镇江2
+      - RU_131 TG@peekfun | 6.78Mb
+      - ⌈绿通⌋ 华东｜镇江2
+      - 标准|美国04解锁|x1.0x
+      - 标准|台湾05动态原生|x1.0x 2
+      - Alien 4
+      - ⌈443⌋ 海外｜日本
+      - ⌈绿通⌋ 海外｜韩国
+      - ⌈80⌋ 海外｜韩国
+      - Alien 5
+      - Alien 6
+      - Alien 7
+      - Alien 8
+      - ⌈广停⌋ 海外｜韩国
+      - Alien 9
+      - 标准|日本01解锁|x1.0x
+      - 标准|新加坡02解锁|x1.0x
+      - 标准|美国01解锁|x1.0x
+      - 标准|新加坡04解锁|x1.0x 2
+      - Alien 10
+      - _1439_21.39Mb |53.14Mb
+      - _578_14.11Mb |141.55Mb
+      - 挪威
+      - 挪威 2
+      - 标准|日本02解锁|x1.0x
+      - 标准|新加坡01解锁|x1.0x
+      - 挪威 3
+      - SG_2836_26.16Mb |59.28Mb
+      - ⌈443⌋ 海外｜韩国
+      - 日本
+      - 标准|台湾02静态解锁|x1.0x 2
+      - 标准|日本03解锁|x1.0x
+      - Alien 11
+      - ⌈443⌋ 海外｜日本4
+      - 标准|新加坡03解锁|x1.0x
+      - 标准|新加坡03解锁|x1.0x 2
+      - 标准|日本04解锁|x1.0x
+      - Alien 12
+      - Alien 13
+      - Alien 14
+      - 标准|日本03解锁|x1.0x 2
+      - 标准|美国02解锁|x1.0x
+      - 标准|美国03解锁|x1.0x
+      - 标准|日本01解锁|x1.0x 2
+      - 标准|新加坡01解锁|x1.0x 2
+      - 标准|日本04解锁|x1.0x 2
+      - 标准|台湾04动态原生|x1.0x 2
+      - 标准|日本02解锁|x1.0x 2
+      - ⌈绿通⌋ 华东｜镇江
+      - Alien 15
+      - 标准|香港04解锁|x1.0x
+      - ⌈绿通⌋ 海外｜日本
+      - ⌈广停⌋ 海外｜日本
+      - Alien 16
+      - Alien 17
+      - 标准|香港04解锁|x1.0x 2
+      - 公众号：明天洗个头
+      - ⌈80⌋ 海外｜日本4
+      - 标准|新加坡02解锁|x1.0x 2
+      - Alien 18
+      - 标准|台湾01静态解锁|x1.0x 2
+      - Alien 19
+      - ⌈绿通⌋ 海外｜日本4
+      - ⌈广停⌋ 海外｜日本4
+      - _561_14.62Mb |11.76Mb
+      - _341_21.16Mb |137.54Mb
+      - 欢迎分享 请勿滥用谢谢 2
+      - 线路速度请自测 2
+      - Alien 20
+      - 公众2
+      - ⌈443⌋ 海外｜台湾
+      - Alien 21
+      - SG_28
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - JCBB_韩国01【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_香港01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_新加坡03【vip1】
-      - JCBB_新加坡04【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_美国03【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_英国01【vip1】
-      - JCBB_英国02【vip1】
-      - JCBB_德国01【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_印度01【vip1】
-      - JCBB_印度02【vip1】
-      - JCBB_台湾01【vip2】
-      - JCBB_台湾02【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_台湾04【vip2】
-      - JCBB_新加坡05【vip2】
-      - JCBB_新加坡06【vip2】
-      - JCBB_香港11【vip3】
-      - JCBB_香港12【vip3】
-      - 台湾|02奈飞直连
-      - 台湾|03奈飞直连
-      - 台湾|01奈飞直连
-      - 台湾|01奈飞香港AZ中转
-      - 台湾|02奈飞日本AZ中转
-      - 台湾|03奈飞三网中转
-      - 新加坡|04|OC
-      - 新加坡|04|OCAZ中转
-      - 新加坡|01|LINAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|08|DOAZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|OCAZ中转
-      - 印度|02|LINAZ中转
-      - 英国|01|DOAZ中转
-      - 韩国|03|OCAZ中转
-      - 韩国|04|OC
-      - 日本|05|LINAZ中转
-      - 日本|01|LIN
-      - 日本|01|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|05|LIN
-      - 日本|03|LIN
-      - 日本|02|LIN
-      - 日本|02|LINAZ中转
-      - 日本|04|OC
-      - 日本|05|OC
-      - 日本|04|OCAZ中转
-      - 日本|05|OCAZ中转
-      - 美国|高速|01|DO
-      - 美国|01|DO
-      - 美国|03|RN
-      - 香港|08奈飞
-      - 香港|08奈飞三网中转
-      - 香港|07奈飞AZ中转
-      - 香港|07奈飞移动中转
-      - 香港|10奈飞
-      - 香港|10奈飞三网中转
-      - 香港|12奈飞
-      - 香港|12奈飞移动中转
-      - 香港|06奈飞AZ中转
-      - 香港|03AZ中转
-      - 香港|20AZ中转
-      - 香港|22奈飞
-      - 香港|22奈飞AZ中转
-      - 香港|10AZ中转
-      - 香港|12AZ中转
-      - 香港|21AZ中转
-      - 香港|17AZ中转
+      - ⌈广停⌋ 海外｜日本2
+      - ⌈绿通⌋ 海外｜日本2
+      - US_157
+      - "| 3.66Mb"
+      - ⌈443⌋ 海外｜日本2
+      - ⌈80⌋ 海外｜日本2
+      - 标准|台湾02静态解锁|x1.0x
+      - 标准|台湾03静态解锁|x1.0x
+      - ⌈80⌋ 海外｜日本
+      - 标准|台湾01静态解锁|x1.0x
+      - 标准|台湾04动态原生|x1.0x
+      - 标准|新加坡04解锁|x1.0x
+      - 标准|台湾03静态解锁|x1.0x 2
+      - 标准|台湾05动态原生|x1.0x
+      - Alien
+      - ⌈广停⌋ 海外｜台湾
+      - ⌈80⌋ 海外｜台湾
+      - _339_22.30Mb | 7.90Mb
+      - ⌈广停⌋ 华东｜镇江
+      - 欢迎分享 请勿滥用谢谢
+      - Alien 2
+      - 线路速度请自测
+      - Alien 3
+      - ⌈广停⌋ 华东｜镇江2
+      - RU_131 TG@peekfun | 6.78Mb
+      - ⌈绿通⌋ 华东｜镇江2
+      - 标准|美国04解锁|x1.0x
+      - 标准|台湾05动态原生|x1.0x 2
+      - Alien 4
+      - ⌈443⌋ 海外｜日本
+      - ⌈绿通⌋ 海外｜韩国
+      - ⌈80⌋ 海外｜韩国
+      - Alien 5
+      - Alien 6
+      - Alien 7
+      - Alien 8
+      - ⌈广停⌋ 海外｜韩国
+      - Alien 9
+      - 标准|日本01解锁|x1.0x
+      - 标准|新加坡02解锁|x1.0x
+      - 标准|美国01解锁|x1.0x
+      - 标准|新加坡04解锁|x1.0x 2
+      - Alien 10
+      - _1439_21.39Mb |53.14Mb
+      - _578_14.11Mb |141.55Mb
+      - 挪威
+      - 挪威 2
+      - 标准|日本02解锁|x1.0x
+      - 标准|新加坡01解锁|x1.0x
+      - 挪威 3
+      - SG_2836_26.16Mb |59.28Mb
+      - ⌈443⌋ 海外｜韩国
+      - 日本
+      - 标准|台湾02静态解锁|x1.0x 2
+      - 标准|日本03解锁|x1.0x
+      - Alien 11
+      - ⌈443⌋ 海外｜日本4
+      - 标准|新加坡03解锁|x1.0x
+      - 标准|新加坡03解锁|x1.0x 2
+      - 标准|日本04解锁|x1.0x
+      - Alien 12
+      - Alien 13
+      - Alien 14
+      - 标准|日本03解锁|x1.0x 2
+      - 标准|美国02解锁|x1.0x
+      - 标准|美国03解锁|x1.0x
+      - 标准|日本01解锁|x1.0x 2
+      - 标准|新加坡01解锁|x1.0x 2
+      - 标准|日本04解锁|x1.0x 2
+      - 标准|台湾04动态原生|x1.0x 2
+      - 标准|日本02解锁|x1.0x 2
+      - ⌈绿通⌋ 华东｜镇江
+      - Alien 15
+      - 标准|香港04解锁|x1.0x
+      - ⌈绿通⌋ 海外｜日本
+      - ⌈广停⌋ 海外｜日本
+      - Alien 16
+      - Alien 17
+      - 标准|香港04解锁|x1.0x 2
+      - 公众号：明天洗个头
+      - ⌈80⌋ 海外｜日本4
+      - 标准|新加坡02解锁|x1.0x 2
+      - Alien 18
+      - 标准|台湾01静态解锁|x1.0x 2
+      - Alien 19
+      - ⌈绿通⌋ 海外｜日本4
+      - ⌈广停⌋ 海外｜日本4
+      - _561_14.62Mb |11.76Mb
+      - _341_21.16Mb |137.54Mb
+      - 欢迎分享 请勿滥用谢谢 2
+      - 线路速度请自测 2
+      - Alien 20
+      - 公众2
+      - ⌈443⌋ 海外｜台湾
+      - Alien 21
+      - SG_28
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JCBB_韩国01【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_香港01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_新加坡03【vip1】
-      - JCBB_新加坡04【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_美国03【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_英国01【vip1】
-      - JCBB_英国02【vip1】
-      - JCBB_德国01【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_印度01【vip1】
-      - JCBB_印度02【vip1】
-      - JCBB_台湾01【vip2】
-      - JCBB_台湾02【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_台湾04【vip2】
-      - JCBB_新加坡05【vip2】
-      - JCBB_新加坡06【vip2】
-      - JCBB_香港11【vip3】
-      - JCBB_香港12【vip3】
-      - 台湾|02奈飞直连
-      - 台湾|03奈飞直连
-      - 台湾|01奈飞直连
-      - 台湾|01奈飞香港AZ中转
-      - 台湾|02奈飞日本AZ中转
-      - 台湾|03奈飞三网中转
-      - 新加坡|04|OC
-      - 新加坡|04|OCAZ中转
-      - 新加坡|01|LINAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|08|DOAZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|OCAZ中转
-      - 印度|02|LINAZ中转
-      - 英国|01|DOAZ中转
-      - 韩国|03|OCAZ中转
-      - 韩国|04|OC
-      - 日本|05|LINAZ中转
-      - 日本|01|LIN
-      - 日本|01|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|05|LIN
-      - 日本|03|LIN
-      - 日本|02|LIN
-      - 日本|02|LINAZ中转
-      - 日本|04|OC
-      - 日本|05|OC
-      - 日本|04|OCAZ中转
-      - 日本|05|OCAZ中转
-      - 美国|高速|01|DO
-      - 美国|01|DO
-      - 美国|03|RN
-      - 香港|08奈飞
-      - 香港|08奈飞三网中转
-      - 香港|07奈飞AZ中转
-      - 香港|07奈飞移动中转
-      - 香港|10奈飞
-      - 香港|10奈飞三网中转
-      - 香港|12奈飞
-      - 香港|12奈飞移动中转
-      - 香港|06奈飞AZ中转
-      - 香港|03AZ中转
-      - 香港|20AZ中转
-      - 香港|22奈飞
-      - 香港|22奈飞AZ中转
-      - 香港|10AZ中转
-      - 香港|12AZ中转
-      - 香港|21AZ中转
-      - 香港|17AZ中转
+      - ⌈广停⌋ 海外｜日本2
+      - ⌈绿通⌋ 海外｜日本2
+      - US_157
+      - "| 3.66Mb"
+      - ⌈443⌋ 海外｜日本2
+      - ⌈80⌋ 海外｜日本2
+      - 标准|台湾02静态解锁|x1.0x
+      - 标准|台湾03静态解锁|x1.0x
+      - ⌈80⌋ 海外｜日本
+      - 标准|台湾01静态解锁|x1.0x
+      - 标准|台湾04动态原生|x1.0x
+      - 标准|新加坡04解锁|x1.0x
+      - 标准|台湾03静态解锁|x1.0x 2
+      - 标准|台湾05动态原生|x1.0x
+      - Alien
+      - ⌈广停⌋ 海外｜台湾
+      - ⌈80⌋ 海外｜台湾
+      - _339_22.30Mb | 7.90Mb
+      - ⌈广停⌋ 华东｜镇江
+      - 欢迎分享 请勿滥用谢谢
+      - Alien 2
+      - 线路速度请自测
+      - Alien 3
+      - ⌈广停⌋ 华东｜镇江2
+      - RU_131 TG@peekfun | 6.78Mb
+      - ⌈绿通⌋ 华东｜镇江2
+      - 标准|美国04解锁|x1.0x
+      - 标准|台湾05动态原生|x1.0x 2
+      - Alien 4
+      - ⌈443⌋ 海外｜日本
+      - ⌈绿通⌋ 海外｜韩国
+      - ⌈80⌋ 海外｜韩国
+      - Alien 5
+      - Alien 6
+      - Alien 7
+      - Alien 8
+      - ⌈广停⌋ 海外｜韩国
+      - Alien 9
+      - 标准|日本01解锁|x1.0x
+      - 标准|新加坡02解锁|x1.0x
+      - 标准|美国01解锁|x1.0x
+      - 标准|新加坡04解锁|x1.0x 2
+      - Alien 10
+      - _1439_21.39Mb |53.14Mb
+      - _578_14.11Mb |141.55Mb
+      - 挪威
+      - 挪威 2
+      - 标准|日本02解锁|x1.0x
+      - 标准|新加坡01解锁|x1.0x
+      - 挪威 3
+      - SG_2836_26.16Mb |59.28Mb
+      - ⌈443⌋ 海外｜韩国
+      - 日本
+      - 标准|台湾02静态解锁|x1.0x 2
+      - 标准|日本03解锁|x1.0x
+      - Alien 11
+      - ⌈443⌋ 海外｜日本4
+      - 标准|新加坡03解锁|x1.0x
+      - 标准|新加坡03解锁|x1.0x 2
+      - 标准|日本04解锁|x1.0x
+      - Alien 12
+      - Alien 13
+      - Alien 14
+      - 标准|日本03解锁|x1.0x 2
+      - 标准|美国02解锁|x1.0x
+      - 标准|美国03解锁|x1.0x
+      - 标准|日本01解锁|x1.0x 2
+      - 标准|新加坡01解锁|x1.0x 2
+      - 标准|日本04解锁|x1.0x 2
+      - 标准|台湾04动态原生|x1.0x 2
+      - 标准|日本02解锁|x1.0x 2
+      - ⌈绿通⌋ 华东｜镇江
+      - Alien 15
+      - 标准|香港04解锁|x1.0x
+      - ⌈绿通⌋ 海外｜日本
+      - ⌈广停⌋ 海外｜日本
+      - Alien 16
+      - Alien 17
+      - 标准|香港04解锁|x1.0x 2
+      - 公众号：明天洗个头
+      - ⌈80⌋ 海外｜日本4
+      - 标准|新加坡02解锁|x1.0x 2
+      - Alien 18
+      - 标准|台湾01静态解锁|x1.0x 2
+      - Alien 19
+      - ⌈绿通⌋ 海外｜日本4
+      - ⌈广停⌋ 海外｜日本4
+      - _561_14.62Mb |11.76Mb
+      - _341_21.16Mb |137.54Mb
+      - 欢迎分享 请勿滥用谢谢 2
+      - 线路速度请自测 2
+      - Alien 20
+      - 公众2
+      - ⌈443⌋ 海外｜台湾
+      - Alien 21
+      - SG_28
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -791,91 +859,102 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JCBB_韩国01【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_香港01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_新加坡03【vip1】
-      - JCBB_新加坡04【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_美国03【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_英国01【vip1】
-      - JCBB_英国02【vip1】
-      - JCBB_德国01【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_印度01【vip1】
-      - JCBB_印度02【vip1】
-      - JCBB_台湾01【vip2】
-      - JCBB_台湾02【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_台湾04【vip2】
-      - JCBB_新加坡05【vip2】
-      - JCBB_新加坡06【vip2】
-      - JCBB_香港11【vip3】
-      - JCBB_香港12【vip3】
-      - 台湾|02奈飞直连
-      - 台湾|03奈飞直连
-      - 台湾|01奈飞直连
-      - 台湾|01奈飞香港AZ中转
-      - 台湾|02奈飞日本AZ中转
-      - 台湾|03奈飞三网中转
-      - 新加坡|04|OC
-      - 新加坡|04|OCAZ中转
-      - 新加坡|01|LINAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|08|DOAZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|OCAZ中转
-      - 印度|02|LINAZ中转
-      - 英国|01|DOAZ中转
-      - 韩国|03|OCAZ中转
-      - 韩国|04|OC
-      - 日本|05|LINAZ中转
-      - 日本|01|LIN
-      - 日本|01|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|05|LIN
-      - 日本|03|LIN
-      - 日本|02|LIN
-      - 日本|02|LINAZ中转
-      - 日本|04|OC
-      - 日本|05|OC
-      - 日本|04|OCAZ中转
-      - 日本|05|OCAZ中转
-      - 美国|高速|01|DO
-      - 美国|01|DO
-      - 美国|03|RN
-      - 香港|08奈飞
-      - 香港|08奈飞三网中转
-      - 香港|07奈飞AZ中转
-      - 香港|07奈飞移动中转
-      - 香港|10奈飞
-      - 香港|10奈飞三网中转
-      - 香港|12奈飞
-      - 香港|12奈飞移动中转
-      - 香港|06奈飞AZ中转
-      - 香港|03AZ中转
-      - 香港|20AZ中转
-      - 香港|22奈飞
-      - 香港|22奈飞AZ中转
-      - 香港|10AZ中转
-      - 香港|12AZ中转
-      - 香港|21AZ中转
-      - 香港|17AZ中转
+      - ⌈广停⌋ 海外｜日本2
+      - ⌈绿通⌋ 海外｜日本2
+      - US_157
+      - "| 3.66Mb"
+      - ⌈443⌋ 海外｜日本2
+      - ⌈80⌋ 海外｜日本2
+      - 标准|台湾02静态解锁|x1.0x
+      - 标准|台湾03静态解锁|x1.0x
+      - ⌈80⌋ 海外｜日本
+      - 标准|台湾01静态解锁|x1.0x
+      - 标准|台湾04动态原生|x1.0x
+      - 标准|新加坡04解锁|x1.0x
+      - 标准|台湾03静态解锁|x1.0x 2
+      - 标准|台湾05动态原生|x1.0x
+      - Alien
+      - ⌈广停⌋ 海外｜台湾
+      - ⌈80⌋ 海外｜台湾
+      - _339_22.30Mb | 7.90Mb
+      - ⌈广停⌋ 华东｜镇江
+      - 欢迎分享 请勿滥用谢谢
+      - Alien 2
+      - 线路速度请自测
+      - Alien 3
+      - ⌈广停⌋ 华东｜镇江2
+      - RU_131 TG@peekfun | 6.78Mb
+      - ⌈绿通⌋ 华东｜镇江2
+      - 标准|美国04解锁|x1.0x
+      - 标准|台湾05动态原生|x1.0x 2
+      - Alien 4
+      - ⌈443⌋ 海外｜日本
+      - ⌈绿通⌋ 海外｜韩国
+      - ⌈80⌋ 海外｜韩国
+      - Alien 5
+      - Alien 6
+      - Alien 7
+      - Alien 8
+      - ⌈广停⌋ 海外｜韩国
+      - Alien 9
+      - 标准|日本01解锁|x1.0x
+      - 标准|新加坡02解锁|x1.0x
+      - 标准|美国01解锁|x1.0x
+      - 标准|新加坡04解锁|x1.0x 2
+      - Alien 10
+      - _1439_21.39Mb |53.14Mb
+      - _578_14.11Mb |141.55Mb
+      - 挪威
+      - 挪威 2
+      - 标准|日本02解锁|x1.0x
+      - 标准|新加坡01解锁|x1.0x
+      - 挪威 3
+      - SG_2836_26.16Mb |59.28Mb
+      - ⌈443⌋ 海外｜韩国
+      - 日本
+      - 标准|台湾02静态解锁|x1.0x 2
+      - 标准|日本03解锁|x1.0x
+      - Alien 11
+      - ⌈443⌋ 海外｜日本4
+      - 标准|新加坡03解锁|x1.0x
+      - 标准|新加坡03解锁|x1.0x 2
+      - 标准|日本04解锁|x1.0x
+      - Alien 12
+      - Alien 13
+      - Alien 14
+      - 标准|日本03解锁|x1.0x 2
+      - 标准|美国02解锁|x1.0x
+      - 标准|美国03解锁|x1.0x
+      - 标准|日本01解锁|x1.0x 2
+      - 标准|新加坡01解锁|x1.0x 2
+      - 标准|日本04解锁|x1.0x 2
+      - 标准|台湾04动态原生|x1.0x 2
+      - 标准|日本02解锁|x1.0x 2
+      - ⌈绿通⌋ 华东｜镇江
+      - Alien 15
+      - 标准|香港04解锁|x1.0x
+      - ⌈绿通⌋ 海外｜日本
+      - ⌈广停⌋ 海外｜日本
+      - Alien 16
+      - Alien 17
+      - 标准|香港04解锁|x1.0x 2
+      - 公众号：明天洗个头
+      - ⌈80⌋ 海外｜日本4
+      - 标准|新加坡02解锁|x1.0x 2
+      - Alien 18
+      - 标准|台湾01静态解锁|x1.0x 2
+      - Alien 19
+      - ⌈绿通⌋ 海外｜日本4
+      - ⌈广停⌋ 海外｜日本4
+      - _561_14.62Mb |11.76Mb
+      - _341_21.16Mb |137.54Mb
+      - 欢迎分享 请勿滥用谢谢 2
+      - 线路速度请自测 2
+      - Alien 20
+      - 公众2
+      - ⌈443⌋ 海外｜台湾
+      - Alien 21
+      - SG_28
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
