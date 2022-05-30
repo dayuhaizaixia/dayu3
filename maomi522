@@ -5,40 +5,68 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: JCBB_新加坡03【vip1】, server: gkdcm.gkdcn.top, port: 25894, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_新加坡01【vip1】, server: gkdcm.gkdcn.top, port: 25895, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_香港03【vip1】, server: gkdcm.gkdcn.top, port: 25898, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_印度01【vip1】, server: gkdcm.gkdcn.top, port: 25882, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_香港04【vip1】, server: gkdcm1.gkdcn.top, port: 25898, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
+  - {name: JCBB_韩国02【vip2】, server: gkdcu.gkdcn.top, port: 25881, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_香港05【vip1】, server: gkdcm.gkdcn.top, port: 25897, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_台湾03【vip2】, server: gkdcm.gkdcn.top, port: 25889, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_美国04【vip1】, server: gkdcu.gkdcn.top, port: 25885, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_香港01【vip1】, server: gkdcm.gkdcn.top, port: 25899, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_美国02【vip1】, server: gkdcu.gkdcn.top, port: 25886, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_韩国01【vip2】, server: gkdcm.gkdcn.top, port: 25881, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_台湾04【vip2】, server: gkdcu.gkdcn.top, port: 25889, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_美国01【vip1】, server: gkdcm.gkdcn.top, port: 25886, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_英国02【vip1】, server: gkdcu.gkdcn.top, port: 25884, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_新加坡02【vip1】, server: gkdcm1.gkdcn.top, port: 25895, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
+  - {name: JCBB_德国02【vip1】, server: gkdcu.gkdcn.top, port: 25883, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_德国01【vip1】, server: gkdcm.gkdcn.top, port: 25883, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_印度02【vip1】, server: gkdcu.gkdcn.top, port: 25882, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_美国03【vip1】, server: gkdcm.gkdcn.top, port: 25885, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_香港11【vip3】, server: gkdcm.gkdcn.top, port: 25892, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_日本01【vip1】, server: gkdcm.gkdcn.top, port: 25888, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_香港02【vip1】, server: gkdcm1.gkdcn.top, port: 25899, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
+  - {name: JCBB_日本03【vip1】, server: gkdcm.gkdcn.top, port: 25887, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_日本02【vip1】, server: gkdcu.gkdcn.top, port: 25888, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_日本04【vip1】, server: gkdcu.gkdcn.top, port: 25887, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_香港06【vip1】, server: gkdcm1.gkdcn.top, port: 25897, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
+  - {name: JCBB_香港12【vip3】, server: gkdcm1.gkdcn.top, port: 25892, type: vmess, uuid: 9bb398a7-a913-457d-91ba-c59f23db5fa9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
   - {name: US_157, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: RU_131, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
   - {name: 561_14.62Mb |11.76Mb, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 339_22.30Mb | 7.90Mb, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: JCBB_德国01【vip1】, server: gkdcm.gkdcn.top, port: 25883, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_德国02【vip1】, server: gkdcu.gkdcn.top, port: 25883, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_韩国01【vip2】, server: gkdcm.gkdcn.top, port: 25881, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_韩国02【vip2】, server: gkdcu.gkdcn.top, port: 25881, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_美国01【vip1】, server: gkdcm.gkdcn.top, port: 25886, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_美国02【vip1】, server: gkdcu.gkdcn.top, port: 25886, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_美国03【vip1】, server: gkdcm.gkdcn.top, port: 25885, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_美国04【vip1】, server: gkdcu.gkdcn.top, port: 25885, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_日本01【vip1】, server: gkdcm.gkdcn.top, port: 25888, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_日本02【vip1】, server: gkdcu.gkdcn.top, port: 25888, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_日本03【vip1】, server: gkdcm.gkdcn.top, port: 25887, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_日本04【vip1】, server: gkdcu.gkdcn.top, port: 25887, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_德国01【vip1】 2, server: gkdcm.gkdcn.top, port: 25883, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_德国02【vip1】 2, server: gkdcu.gkdcn.top, port: 25883, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_韩国01【vip2】 2, server: gkdcm.gkdcn.top, port: 25881, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_韩国02【vip2】 2, server: gkdcu.gkdcn.top, port: 25881, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_美国01【vip1】 2, server: gkdcm.gkdcn.top, port: 25886, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_美国02【vip1】 2, server: gkdcu.gkdcn.top, port: 25886, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_美国03【vip1】 2, server: gkdcm.gkdcn.top, port: 25885, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_美国04【vip1】 2, server: gkdcu.gkdcn.top, port: 25885, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_日本01【vip1】 2, server: gkdcm.gkdcn.top, port: 25888, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_日本02【vip1】 2, server: gkdcu.gkdcn.top, port: 25888, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_日本03【vip1】 2, server: gkdcm.gkdcn.top, port: 25887, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_日本04【vip1】 2, server: gkdcu.gkdcn.top, port: 25887, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
   - {name: JCBB_台湾01【vip2】, server: gkdcm.gkdcn.top, port: 25890, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
   - {name: JCBB_台湾02【vip2】, server: gkdcu.gkdcn.top, port: 25890, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_台湾03【vip2】, server: gkdcm.gkdcn.top, port: 25889, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_台湾04【vip2】, server: gkdcu.gkdcn.top, port: 25889, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: JCBB_香港01【vip1】, server: gkdcm.gkdcn.top, port: 25899, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_香港02【vip1】, server: gkdcm1.gkdcn.top, port: 25899, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
-  - {name: JCBB_香港03【vip1】, server: gkdcm.gkdcn.top, port: 25898, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_香港04【vip1】, server: gkdcm1.gkdcn.top, port: 25898, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
-  - {name: JCBB_香港05【vip1】, server: gkdcm.gkdcn.top, port: 25897, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_香港06【vip1】, server: gkdcm1.gkdcn.top, port: 25897, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
-  - {name: JCBB_香港11【vip3】, server: gkdcm.gkdcn.top, port: 25892, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_香港12【vip3】, server: gkdcm1.gkdcn.top, port: 25892, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
-  - {name: JCBB_新加坡01【vip1】, server: gkdcm.gkdcn.top, port: 25895, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_新加坡02【vip1】, server: gkdcm1.gkdcn.top, port: 25895, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
-  - {name: JCBB_新加坡03【vip1】, server: gkdcm.gkdcn.top, port: 25894, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_台湾03【vip2】 2, server: gkdcm.gkdcn.top, port: 25889, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_台湾04【vip2】 2, server: gkdcu.gkdcn.top, port: 25889, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_香港01【vip1】 2, server: gkdcm.gkdcn.top, port: 25899, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_香港02【vip1】 2, server: gkdcm1.gkdcn.top, port: 25899, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
+  - {name: JCBB_香港03【vip1】 2, server: gkdcm.gkdcn.top, port: 25898, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_香港04【vip1】 2, server: gkdcm1.gkdcn.top, port: 25898, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
+  - {name: JCBB_香港05【vip1】 2, server: gkdcm.gkdcn.top, port: 25897, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_香港06【vip1】 2, server: gkdcm1.gkdcn.top, port: 25897, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
+  - {name: JCBB_香港11【vip3】 2, server: gkdcm.gkdcn.top, port: 25892, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_香港12【vip3】 2, server: gkdcm1.gkdcn.top, port: 25892, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
+  - {name: JCBB_新加坡01【vip1】 2, server: gkdcm.gkdcn.top, port: 25895, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_新加坡02【vip1】 2, server: gkdcm1.gkdcn.top, port: 25895, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
+  - {name: JCBB_新加坡03【vip1】 2, server: gkdcm.gkdcn.top, port: 25894, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
   - {name: JCBB_新加坡04【vip1】, server: gkdcm1.gkdcn.top, port: 25894, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
-  - {name: JCBB_印度01【vip1】, server: gkdcm.gkdcn.top, port: 25882, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: JCBB_印度02【vip1】, server: gkdcu.gkdcn.top, port: 25882, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_印度01【vip1】 2, server: gkdcm.gkdcn.top, port: 25882, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_印度02【vip1】 2, server: gkdcu.gkdcn.top, port: 25882, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
   - {name: JCBB_英国01【vip1】, server: gkdcm.gkdcn.top, port: 25884, type: vmess, uuid: e2278b90-a6f3-48fe-87e7-f7c8a19ce663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -46,80 +74,136 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - JCBB_新加坡03【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_香港03【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_香港04【vip1】
+      - JCBB_韩国02【vip2】
+      - JCBB_香港05【vip1】
+      - JCBB_台湾03【vip2】
+      - JCBB_美国04【vip1】
+      - JCBB_香港01【vip1】
+      - JCBB_美国02【vip1】
+      - JCBB_韩国01【vip2】
+      - JCBB_台湾04【vip2】
+      - JCBB_美国01【vip1】
+      - JCBB_英国02【vip1】
+      - JCBB_新加坡02【vip1】
+      - JCBB_德国02【vip1】
+      - JCBB_德国01【vip1】
+      - JCBB_印度02【vip1】
+      - JCBB_美国03【vip1】
+      - JCBB_香港11【vip3】
+      - JCBB_日本01【vip1】
+      - JCBB_香港02【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_日本02【vip1】
+      - JCBB_日本04【vip1】
+      - JCBB_香港06【vip1】
+      - JCBB_香港12【vip3】
       - US_157
       - RU_131
       - 561_14.62Mb |11.76Mb
       - 339_22.30Mb | 7.90Mb
-      - JCBB_德国01【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_韩国01【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_美国03【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
+      - JCBB_德国01【vip1】 2
+      - JCBB_德国02【vip1】 2
+      - JCBB_韩国01【vip2】 2
+      - JCBB_韩国02【vip2】 2
+      - JCBB_美国01【vip1】 2
+      - JCBB_美国02【vip1】 2
+      - JCBB_美国03【vip1】 2
+      - JCBB_美国04【vip1】 2
+      - JCBB_日本01【vip1】 2
+      - JCBB_日本02【vip1】 2
+      - JCBB_日本03【vip1】 2
+      - JCBB_日本04【vip1】 2
       - JCBB_台湾01【vip2】
       - JCBB_台湾02【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_台湾04【vip2】
-      - JCBB_香港01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_香港11【vip3】
-      - JCBB_香港12【vip3】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_新加坡03【vip1】
+      - JCBB_台湾03【vip2】 2
+      - JCBB_台湾04【vip2】 2
+      - JCBB_香港01【vip1】 2
+      - JCBB_香港02【vip1】 2
+      - JCBB_香港03【vip1】 2
+      - JCBB_香港04【vip1】 2
+      - JCBB_香港05【vip1】 2
+      - JCBB_香港06【vip1】 2
+      - JCBB_香港11【vip3】 2
+      - JCBB_香港12【vip3】 2
+      - JCBB_新加坡01【vip1】 2
+      - JCBB_新加坡02【vip1】 2
+      - JCBB_新加坡03【vip1】 2
       - JCBB_新加坡04【vip1】
-      - JCBB_印度01【vip1】
-      - JCBB_印度02【vip1】
+      - JCBB_印度01【vip1】 2
+      - JCBB_印度02【vip1】 2
       - JCBB_英国01【vip1】
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - JCBB_新加坡03【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_香港03【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_香港04【vip1】
+      - JCBB_韩国02【vip2】
+      - JCBB_香港05【vip1】
+      - JCBB_台湾03【vip2】
+      - JCBB_美国04【vip1】
+      - JCBB_香港01【vip1】
+      - JCBB_美国02【vip1】
+      - JCBB_韩国01【vip2】
+      - JCBB_台湾04【vip2】
+      - JCBB_美国01【vip1】
+      - JCBB_英国02【vip1】
+      - JCBB_新加坡02【vip1】
+      - JCBB_德国02【vip1】
+      - JCBB_德国01【vip1】
+      - JCBB_印度02【vip1】
+      - JCBB_美国03【vip1】
+      - JCBB_香港11【vip3】
+      - JCBB_日本01【vip1】
+      - JCBB_香港02【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_日本02【vip1】
+      - JCBB_日本04【vip1】
+      - JCBB_香港06【vip1】
+      - JCBB_香港12【vip3】
       - US_157
       - RU_131
       - 561_14.62Mb |11.76Mb
       - 339_22.30Mb | 7.90Mb
-      - JCBB_德国01【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_韩国01【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_美国03【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
+      - JCBB_德国01【vip1】 2
+      - JCBB_德国02【vip1】 2
+      - JCBB_韩国01【vip2】 2
+      - JCBB_韩国02【vip2】 2
+      - JCBB_美国01【vip1】 2
+      - JCBB_美国02【vip1】 2
+      - JCBB_美国03【vip1】 2
+      - JCBB_美国04【vip1】 2
+      - JCBB_日本01【vip1】 2
+      - JCBB_日本02【vip1】 2
+      - JCBB_日本03【vip1】 2
+      - JCBB_日本04【vip1】 2
       - JCBB_台湾01【vip2】
       - JCBB_台湾02【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_台湾04【vip2】
-      - JCBB_香港01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_香港11【vip3】
-      - JCBB_香港12【vip3】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_新加坡03【vip1】
+      - JCBB_台湾03【vip2】 2
+      - JCBB_台湾04【vip2】 2
+      - JCBB_香港01【vip1】 2
+      - JCBB_香港02【vip1】 2
+      - JCBB_香港03【vip1】 2
+      - JCBB_香港04【vip1】 2
+      - JCBB_香港05【vip1】 2
+      - JCBB_香港06【vip1】 2
+      - JCBB_香港11【vip3】 2
+      - JCBB_香港12【vip3】 2
+      - JCBB_新加坡01【vip1】 2
+      - JCBB_新加坡02【vip1】 2
+      - JCBB_新加坡03【vip1】 2
       - JCBB_新加坡04【vip1】
-      - JCBB_印度01【vip1】
-      - JCBB_印度02【vip1】
+      - JCBB_印度01【vip1】 2
+      - JCBB_印度02【vip1】 2
       - JCBB_英国01【vip1】
   - name: 🎥 NETFLIX
     type: select
@@ -127,40 +211,68 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - JCBB_新加坡03【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_香港03【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_香港04【vip1】
+      - JCBB_韩国02【vip2】
+      - JCBB_香港05【vip1】
+      - JCBB_台湾03【vip2】
+      - JCBB_美国04【vip1】
+      - JCBB_香港01【vip1】
+      - JCBB_美国02【vip1】
+      - JCBB_韩国01【vip2】
+      - JCBB_台湾04【vip2】
+      - JCBB_美国01【vip1】
+      - JCBB_英国02【vip1】
+      - JCBB_新加坡02【vip1】
+      - JCBB_德国02【vip1】
+      - JCBB_德国01【vip1】
+      - JCBB_印度02【vip1】
+      - JCBB_美国03【vip1】
+      - JCBB_香港11【vip3】
+      - JCBB_日本01【vip1】
+      - JCBB_香港02【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_日本02【vip1】
+      - JCBB_日本04【vip1】
+      - JCBB_香港06【vip1】
+      - JCBB_香港12【vip3】
       - US_157
       - RU_131
       - 561_14.62Mb |11.76Mb
       - 339_22.30Mb | 7.90Mb
-      - JCBB_德国01【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_韩国01【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_美国03【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
+      - JCBB_德国01【vip1】 2
+      - JCBB_德国02【vip1】 2
+      - JCBB_韩国01【vip2】 2
+      - JCBB_韩国02【vip2】 2
+      - JCBB_美国01【vip1】 2
+      - JCBB_美国02【vip1】 2
+      - JCBB_美国03【vip1】 2
+      - JCBB_美国04【vip1】 2
+      - JCBB_日本01【vip1】 2
+      - JCBB_日本02【vip1】 2
+      - JCBB_日本03【vip1】 2
+      - JCBB_日本04【vip1】 2
       - JCBB_台湾01【vip2】
       - JCBB_台湾02【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_台湾04【vip2】
-      - JCBB_香港01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_香港11【vip3】
-      - JCBB_香港12【vip3】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_新加坡03【vip1】
+      - JCBB_台湾03【vip2】 2
+      - JCBB_台湾04【vip2】 2
+      - JCBB_香港01【vip1】 2
+      - JCBB_香港02【vip1】 2
+      - JCBB_香港03【vip1】 2
+      - JCBB_香港04【vip1】 2
+      - JCBB_香港05【vip1】 2
+      - JCBB_香港06【vip1】 2
+      - JCBB_香港11【vip3】 2
+      - JCBB_香港12【vip3】 2
+      - JCBB_新加坡01【vip1】 2
+      - JCBB_新加坡02【vip1】 2
+      - JCBB_新加坡03【vip1】 2
       - JCBB_新加坡04【vip1】
-      - JCBB_印度01【vip1】
-      - JCBB_印度02【vip1】
+      - JCBB_印度01【vip1】 2
+      - JCBB_印度02【vip1】 2
       - JCBB_英国01【vip1】
   - name: ⛔️ 广告拦截
     type: select
@@ -180,137 +292,231 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - JCBB_新加坡03【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_香港03【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_香港04【vip1】
+      - JCBB_韩国02【vip2】
+      - JCBB_香港05【vip1】
+      - JCBB_台湾03【vip2】
+      - JCBB_美国04【vip1】
+      - JCBB_香港01【vip1】
+      - JCBB_美国02【vip1】
+      - JCBB_韩国01【vip2】
+      - JCBB_台湾04【vip2】
+      - JCBB_美国01【vip1】
+      - JCBB_英国02【vip1】
+      - JCBB_新加坡02【vip1】
+      - JCBB_德国02【vip1】
+      - JCBB_德国01【vip1】
+      - JCBB_印度02【vip1】
+      - JCBB_美国03【vip1】
+      - JCBB_香港11【vip3】
+      - JCBB_日本01【vip1】
+      - JCBB_香港02【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_日本02【vip1】
+      - JCBB_日本04【vip1】
+      - JCBB_香港06【vip1】
+      - JCBB_香港12【vip3】
       - US_157
       - RU_131
       - 561_14.62Mb |11.76Mb
       - 339_22.30Mb | 7.90Mb
-      - JCBB_德国01【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_韩国01【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_美国03【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
+      - JCBB_德国01【vip1】 2
+      - JCBB_德国02【vip1】 2
+      - JCBB_韩国01【vip2】 2
+      - JCBB_韩国02【vip2】 2
+      - JCBB_美国01【vip1】 2
+      - JCBB_美国02【vip1】 2
+      - JCBB_美国03【vip1】 2
+      - JCBB_美国04【vip1】 2
+      - JCBB_日本01【vip1】 2
+      - JCBB_日本02【vip1】 2
+      - JCBB_日本03【vip1】 2
+      - JCBB_日本04【vip1】 2
       - JCBB_台湾01【vip2】
       - JCBB_台湾02【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_台湾04【vip2】
-      - JCBB_香港01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_香港11【vip3】
-      - JCBB_香港12【vip3】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_新加坡03【vip1】
+      - JCBB_台湾03【vip2】 2
+      - JCBB_台湾04【vip2】 2
+      - JCBB_香港01【vip1】 2
+      - JCBB_香港02【vip1】 2
+      - JCBB_香港03【vip1】 2
+      - JCBB_香港04【vip1】 2
+      - JCBB_香港05【vip1】 2
+      - JCBB_香港06【vip1】 2
+      - JCBB_香港11【vip3】 2
+      - JCBB_香港12【vip3】 2
+      - JCBB_新加坡01【vip1】 2
+      - JCBB_新加坡02【vip1】 2
+      - JCBB_新加坡03【vip1】 2
       - JCBB_新加坡04【vip1】
-      - JCBB_印度01【vip1】
-      - JCBB_印度02【vip1】
+      - JCBB_印度01【vip1】 2
+      - JCBB_印度02【vip1】 2
       - JCBB_英国01【vip1】
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - JCBB_台湾01【vip2】
-      - JCBB_台湾02【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_台湾04【vip2】
-      - JCBB_香港01【vip1】
-      - JCBB_香港02【vip1】
       - JCBB_香港03【vip1】
       - JCBB_香港04【vip1】
       - JCBB_香港05【vip1】
-      - JCBB_香港06【vip1】
+      - JCBB_台湾03【vip2】
+      - JCBB_香港01【vip1】
+      - JCBB_台湾04【vip2】
       - JCBB_香港11【vip3】
+      - JCBB_香港02【vip1】
+      - JCBB_香港06【vip1】
       - JCBB_香港12【vip3】
+      - JCBB_台湾01【vip2】
+      - JCBB_台湾02【vip2】
+      - JCBB_台湾03【vip2】 2
+      - JCBB_台湾04【vip2】 2
+      - JCBB_香港01【vip1】 2
+      - JCBB_香港02【vip1】 2
+      - JCBB_香港03【vip1】 2
+      - JCBB_香港04【vip1】 2
+      - JCBB_香港05【vip1】 2
+      - JCBB_香港06【vip1】 2
+      - JCBB_香港11【vip3】 2
+      - JCBB_香港12【vip3】 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - JCBB_新加坡03【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_香港03【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_香港04【vip1】
+      - JCBB_韩国02【vip2】
+      - JCBB_香港05【vip1】
+      - JCBB_台湾03【vip2】
+      - JCBB_美国04【vip1】
+      - JCBB_香港01【vip1】
+      - JCBB_美国02【vip1】
+      - JCBB_韩国01【vip2】
+      - JCBB_台湾04【vip2】
+      - JCBB_美国01【vip1】
+      - JCBB_英国02【vip1】
+      - JCBB_新加坡02【vip1】
+      - JCBB_德国02【vip1】
+      - JCBB_德国01【vip1】
+      - JCBB_印度02【vip1】
+      - JCBB_美国03【vip1】
+      - JCBB_香港11【vip3】
+      - JCBB_日本01【vip1】
+      - JCBB_香港02【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_日本02【vip1】
+      - JCBB_日本04【vip1】
+      - JCBB_香港06【vip1】
+      - JCBB_香港12【vip3】
       - US_157
       - RU_131
       - 561_14.62Mb |11.76Mb
       - 339_22.30Mb | 7.90Mb
-      - JCBB_德国01【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_韩国01【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_美国03【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
+      - JCBB_德国01【vip1】 2
+      - JCBB_德国02【vip1】 2
+      - JCBB_韩国01【vip2】 2
+      - JCBB_韩国02【vip2】 2
+      - JCBB_美国01【vip1】 2
+      - JCBB_美国02【vip1】 2
+      - JCBB_美国03【vip1】 2
+      - JCBB_美国04【vip1】 2
+      - JCBB_日本01【vip1】 2
+      - JCBB_日本02【vip1】 2
+      - JCBB_日本03【vip1】 2
+      - JCBB_日本04【vip1】 2
       - JCBB_台湾01【vip2】
       - JCBB_台湾02【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_台湾04【vip2】
-      - JCBB_香港01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_香港11【vip3】
-      - JCBB_香港12【vip3】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_新加坡03【vip1】
+      - JCBB_台湾03【vip2】 2
+      - JCBB_台湾04【vip2】 2
+      - JCBB_香港01【vip1】 2
+      - JCBB_香港02【vip1】 2
+      - JCBB_香港03【vip1】 2
+      - JCBB_香港04【vip1】 2
+      - JCBB_香港05【vip1】 2
+      - JCBB_香港06【vip1】 2
+      - JCBB_香港11【vip3】 2
+      - JCBB_香港12【vip3】 2
+      - JCBB_新加坡01【vip1】 2
+      - JCBB_新加坡02【vip1】 2
+      - JCBB_新加坡03【vip1】 2
       - JCBB_新加坡04【vip1】
-      - JCBB_印度01【vip1】
-      - JCBB_印度02【vip1】
+      - JCBB_印度01【vip1】 2
+      - JCBB_印度02【vip1】 2
       - JCBB_英国01【vip1】
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - JCBB_新加坡03【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_香港03【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_香港04【vip1】
+      - JCBB_韩国02【vip2】
+      - JCBB_香港05【vip1】
+      - JCBB_台湾03【vip2】
+      - JCBB_美国04【vip1】
+      - JCBB_香港01【vip1】
+      - JCBB_美国02【vip1】
+      - JCBB_韩国01【vip2】
+      - JCBB_台湾04【vip2】
+      - JCBB_美国01【vip1】
+      - JCBB_英国02【vip1】
+      - JCBB_新加坡02【vip1】
+      - JCBB_德国02【vip1】
+      - JCBB_德国01【vip1】
+      - JCBB_印度02【vip1】
+      - JCBB_美国03【vip1】
+      - JCBB_香港11【vip3】
+      - JCBB_日本01【vip1】
+      - JCBB_香港02【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_日本02【vip1】
+      - JCBB_日本04【vip1】
+      - JCBB_香港06【vip1】
+      - JCBB_香港12【vip3】
       - US_157
       - RU_131
       - 561_14.62Mb |11.76Mb
       - 339_22.30Mb | 7.90Mb
-      - JCBB_德国01【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_韩国01【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_美国03【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
+      - JCBB_德国01【vip1】 2
+      - JCBB_德国02【vip1】 2
+      - JCBB_韩国01【vip2】 2
+      - JCBB_韩国02【vip2】 2
+      - JCBB_美国01【vip1】 2
+      - JCBB_美国02【vip1】 2
+      - JCBB_美国03【vip1】 2
+      - JCBB_美国04【vip1】 2
+      - JCBB_日本01【vip1】 2
+      - JCBB_日本02【vip1】 2
+      - JCBB_日本03【vip1】 2
+      - JCBB_日本04【vip1】 2
       - JCBB_台湾01【vip2】
       - JCBB_台湾02【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_台湾04【vip2】
-      - JCBB_香港01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_香港11【vip3】
-      - JCBB_香港12【vip3】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_新加坡03【vip1】
+      - JCBB_台湾03【vip2】 2
+      - JCBB_台湾04【vip2】 2
+      - JCBB_香港01【vip1】 2
+      - JCBB_香港02【vip1】 2
+      - JCBB_香港03【vip1】 2
+      - JCBB_香港04【vip1】 2
+      - JCBB_香港05【vip1】 2
+      - JCBB_香港06【vip1】 2
+      - JCBB_香港11【vip3】 2
+      - JCBB_香港12【vip3】 2
+      - JCBB_新加坡01【vip1】 2
+      - JCBB_新加坡02【vip1】 2
+      - JCBB_新加坡03【vip1】 2
       - JCBB_新加坡04【vip1】
-      - JCBB_印度01【vip1】
-      - JCBB_印度02【vip1】
+      - JCBB_印度01【vip1】 2
+      - JCBB_印度02【vip1】 2
       - JCBB_英国01【vip1】
   - name: 🍎 苹果服务
     type: select
@@ -318,40 +524,68 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - JCBB_新加坡03【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_香港03【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_香港04【vip1】
+      - JCBB_韩国02【vip2】
+      - JCBB_香港05【vip1】
+      - JCBB_台湾03【vip2】
+      - JCBB_美国04【vip1】
+      - JCBB_香港01【vip1】
+      - JCBB_美国02【vip1】
+      - JCBB_韩国01【vip2】
+      - JCBB_台湾04【vip2】
+      - JCBB_美国01【vip1】
+      - JCBB_英国02【vip1】
+      - JCBB_新加坡02【vip1】
+      - JCBB_德国02【vip1】
+      - JCBB_德国01【vip1】
+      - JCBB_印度02【vip1】
+      - JCBB_美国03【vip1】
+      - JCBB_香港11【vip3】
+      - JCBB_日本01【vip1】
+      - JCBB_香港02【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_日本02【vip1】
+      - JCBB_日本04【vip1】
+      - JCBB_香港06【vip1】
+      - JCBB_香港12【vip3】
       - US_157
       - RU_131
       - 561_14.62Mb |11.76Mb
       - 339_22.30Mb | 7.90Mb
-      - JCBB_德国01【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_韩国01【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_美国03【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
+      - JCBB_德国01【vip1】 2
+      - JCBB_德国02【vip1】 2
+      - JCBB_韩国01【vip2】 2
+      - JCBB_韩国02【vip2】 2
+      - JCBB_美国01【vip1】 2
+      - JCBB_美国02【vip1】 2
+      - JCBB_美国03【vip1】 2
+      - JCBB_美国04【vip1】 2
+      - JCBB_日本01【vip1】 2
+      - JCBB_日本02【vip1】 2
+      - JCBB_日本03【vip1】 2
+      - JCBB_日本04【vip1】 2
       - JCBB_台湾01【vip2】
       - JCBB_台湾02【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_台湾04【vip2】
-      - JCBB_香港01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_香港11【vip3】
-      - JCBB_香港12【vip3】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_新加坡03【vip1】
+      - JCBB_台湾03【vip2】 2
+      - JCBB_台湾04【vip2】 2
+      - JCBB_香港01【vip1】 2
+      - JCBB_香港02【vip1】 2
+      - JCBB_香港03【vip1】 2
+      - JCBB_香港04【vip1】 2
+      - JCBB_香港05【vip1】 2
+      - JCBB_香港06【vip1】 2
+      - JCBB_香港11【vip3】 2
+      - JCBB_香港12【vip3】 2
+      - JCBB_新加坡01【vip1】 2
+      - JCBB_新加坡02【vip1】 2
+      - JCBB_新加坡03【vip1】 2
       - JCBB_新加坡04【vip1】
-      - JCBB_印度01【vip1】
-      - JCBB_印度02【vip1】
+      - JCBB_印度01【vip1】 2
+      - JCBB_印度02【vip1】 2
       - JCBB_英国01【vip1】
   - name: 🎯 全球直连
     type: select
@@ -368,40 +602,68 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - JCBB_新加坡03【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_香港03【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_香港04【vip1】
+      - JCBB_韩国02【vip2】
+      - JCBB_香港05【vip1】
+      - JCBB_台湾03【vip2】
+      - JCBB_美国04【vip1】
+      - JCBB_香港01【vip1】
+      - JCBB_美国02【vip1】
+      - JCBB_韩国01【vip2】
+      - JCBB_台湾04【vip2】
+      - JCBB_美国01【vip1】
+      - JCBB_英国02【vip1】
+      - JCBB_新加坡02【vip1】
+      - JCBB_德国02【vip1】
+      - JCBB_德国01【vip1】
+      - JCBB_印度02【vip1】
+      - JCBB_美国03【vip1】
+      - JCBB_香港11【vip3】
+      - JCBB_日本01【vip1】
+      - JCBB_香港02【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_日本02【vip1】
+      - JCBB_日本04【vip1】
+      - JCBB_香港06【vip1】
+      - JCBB_香港12【vip3】
       - US_157
       - RU_131
       - 561_14.62Mb |11.76Mb
       - 339_22.30Mb | 7.90Mb
-      - JCBB_德国01【vip1】
-      - JCBB_德国02【vip1】
-      - JCBB_韩国01【vip2】
-      - JCBB_韩国02【vip2】
-      - JCBB_美国01【vip1】
-      - JCBB_美国02【vip1】
-      - JCBB_美国03【vip1】
-      - JCBB_美国04【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
+      - JCBB_德国01【vip1】 2
+      - JCBB_德国02【vip1】 2
+      - JCBB_韩国01【vip2】 2
+      - JCBB_韩国02【vip2】 2
+      - JCBB_美国01【vip1】 2
+      - JCBB_美国02【vip1】 2
+      - JCBB_美国03【vip1】 2
+      - JCBB_美国04【vip1】 2
+      - JCBB_日本01【vip1】 2
+      - JCBB_日本02【vip1】 2
+      - JCBB_日本03【vip1】 2
+      - JCBB_日本04【vip1】 2
       - JCBB_台湾01【vip2】
       - JCBB_台湾02【vip2】
-      - JCBB_台湾03【vip2】
-      - JCBB_台湾04【vip2】
-      - JCBB_香港01【vip1】
-      - JCBB_香港02【vip1】
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_香港11【vip3】
-      - JCBB_香港12【vip3】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_新加坡03【vip1】
+      - JCBB_台湾03【vip2】 2
+      - JCBB_台湾04【vip2】 2
+      - JCBB_香港01【vip1】 2
+      - JCBB_香港02【vip1】 2
+      - JCBB_香港03【vip1】 2
+      - JCBB_香港04【vip1】 2
+      - JCBB_香港05【vip1】 2
+      - JCBB_香港06【vip1】 2
+      - JCBB_香港11【vip3】 2
+      - JCBB_香港12【vip3】 2
+      - JCBB_新加坡01【vip1】 2
+      - JCBB_新加坡02【vip1】 2
+      - JCBB_新加坡03【vip1】 2
       - JCBB_新加坡04【vip1】
-      - JCBB_印度01【vip1】
-      - JCBB_印度02【vip1】
+      - JCBB_印度01【vip1】 2
+      - JCBB_印度02【vip1】 2
       - JCBB_英国01【vip1】
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
