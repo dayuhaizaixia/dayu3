@@ -5,863 +5,279 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: RU_131, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
-  - {name: 561_14.62Mb |11.76Mb, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 339_22.30Mb | 7.90Mb, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: AE_02  | 7.06Mb, server: 217.138.193.6, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CN_121  | 6.18Mb, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: AE_01 TG | 6.26Mb, server: 217.138.193.6, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CN_104 TG |43.50Mb, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: AU_04 TG@n | 8.40Mb, server: 185.167.116.38, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: NL_266 TG |12.23Mb, server: 213.183.51.171, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: NL_249 TGn |21.46Mb, server: 213.183.59.211, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: US_476 TGn | 8.58Mb, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, sni: cd.rutracker-cn.com, skip-cert-verify: true, udp: true}
-  - {name: NL_279 TG |11.93Mb, server: 213.183.59.211, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: NL_262 TG | 9.22Mb, server: 213.183.51.171, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: NL_272 TGn | 7.35Mb, server: 213.183.51.171, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: RU_333 TGn |11.39Mb, server: 217.30.10.63, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: NL_231 TGkfun | 5.07Mb, server: 213.183.51.171, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: CN_196 |15.05Mb, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: NL_271 TGfun | 5.61Mb, server: 213.183.51.171, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: US_448 TGkfun |23.11Mb, server: 167.88.63.82, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: NL_265 TGkfun | 6.35Mb, server: 213.183.51.171, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: US_424 TGkfun |10.27Mb, server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CN_187 |30.33Mb, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: NL_250 TGkfun |10.18Mb, server: 213.183.51.171, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: NL_275 TGkfun |12.37Mb, server: 213.183.59.229, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: CN_102 TGekfun |30.84Mb, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: NL_274 TGekfun | 8.24Mb, server: 213.183.51.171, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: CN_107 TGkfun |11.50Mb, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: RU_373 TGeekfun |10.49Mb, server: 217.30.10.63, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: NL_230 TGekfun | 7.83Mb, server: 213.183.51.171, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: RU_374 TGekfun |10.43Mb, server: 217.30.10.63, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: US_446 TGekfun |17.46Mb, server: 167.88.63.82, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: NL_259 TGfun |31.01Mb, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: NL_233 TGkfun | 5.19Mb, server: 213.183.51.171, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: UA_405 TGekfun | 8.03Mb, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, sni: v2cross.com.03.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: NL_235 TGekfun | 4.44Mb, server: 213.183.51.171, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: RU_312 TGekfun | 3.50Mb, server: 217.30.10.65, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: NL_229 TGekfun | 8.14Mb, server: 213.183.59.229, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: CN_112 TGekfun | 7.28Mb, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: RU_356 TGekfun | 6.96Mb, server: 217.30.10.64, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: US_444 TGeekfun |22.58Mb, server: 167.88.63.82, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_425 TGekfun |20.25Mb, server: 167.88.63.82, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: NL_273 TGkfun | 5.00Mb, server: 213.183.51.171, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: US_437 TGekfun |28.58Mb, server: 38.68.134.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: AU_28 TGkfun | 8.69Mb, server: 185.167.116.38, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: CN_109 TGkfun |21.34Mb, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: ZZ_525 TGekfun |12.35Mb, server: 169.197.142.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: RU_740 | 2.39Mb, server: 217.30.10.63, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: RU_630 | 2.43Mb, server: 217.30.10.65, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: NL_239 TGekfun |13.48Mb, server: 213.183.59.229, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: RU_349 TGekfun |11.18Mb, server: 217.30.10.63, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: CN_173 |34.68Mb, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_181 | 8.73Mb, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: US_458 TGeekfun |30.51Mb, server: 38.114.114.69, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: JP_184 TGkfun |26.07Mb, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: CN_105 TGekfun | 8.41Mb, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: NL_251 TGkfun |10.06Mb, server: 213.183.59.229, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: AU_11 TGkfun | 8.01Mb, server: 185.167.116.38, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: AU_38 TGekfun | 7.96Mb, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: AU_07 TGekfun | 7.97Mb, server: 185.167.116.38, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: AU_23 TGeekfun | 8.01Mb, server: 185.167.116.38, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: AU_27 TGekfun | 8.35Mb, server: 185.167.116.38, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: AU_13 TGekfun | 8.14Mb, server: 185.167.116.38, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: NL_263 TGeekfun | 5.31Mb, server: 213.183.51.171, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: CN_178 |48.10Mb, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: RU_305 TGekfun | 8.12Mb, server: 217.30.10.65, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: RU_341 TGekfun | 2.29Mb, server: 217.30.10.66, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: LT_201 TGekfun |35.67Mb, server: 213.183.53.208, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: CN_193 |33.42Mb, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: US_492 TGkfun | 3.25Mb, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: RU_357 TGkfun | 3.72Mb, server: 217.30.10.65, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: RU_342 TGekfun | 2.03Mb, server: 217.30.10.65, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: RU_363 TGekfun |10.04Mb, server: 217.30.10.65, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: RU_360 TGeekfun | 5.02Mb, server: 217.30.10.65, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: RU_303 TGkfun | 1.60Mb, server: 217.30.10.66, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: CN_108 TGkfun | 8.81Mb, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: NL_276 TGekfun | 8.11Mb, server: 213.183.51.171, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: US_440 TGekfun |34.09Mb, server: 167.88.61.175, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_468 TGkfun |26.63Mb, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_441 TGkfun |25.65Mb, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_460 TGkfun |28.35Mb, server: 38.114.114.67, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: RU_371 TGkfun |11.02Mb, server: 217.30.10.65, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: CN_197 |47.58Mb, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: US_447 TGekfun |14.30Mb, server: 167.88.63.82, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_443 TGekfun |19.31Mb, server: 167.88.63.82, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: LT_189 TGkfun | 4.36Mb, server: 213.183.63.219, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: DE_134 TGkfun |26.75Mb, server: 5.183.179.141, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: CN_106 TGkfun |11.38Mb, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: NL_268 TGfun | 4.55Mb, server: 213.183.51.171, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: RU_302 TGeekfun | 5.92Mb, server: 217.30.10.63, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: RU_383 TGeekfun | 5.09Mb, server: 217.30.10.63, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: CN_186 |17.59Mb, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: US_427 TGfun |13.53Mb, server: 167.88.63.82, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_420 TGkfun |33.71Mb, server: 167.88.61.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_513 TGkfun |23.72Mb, server: 169.197.141.15, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: RU_694 |11.21Mb, server: 217.30.10.67, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: US_416 TGekfun | 5.65Mb, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: NL_232 TGfun | 5.51Mb, server: 213.183.51.171, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: GB_156 TGkfun |21.72Mb, server: 185.167.117.171, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: RU_321 TGekfun |27.29Mb, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
-  - {name: US_445 TGekfun |20.55Mb, server: 167.88.63.82, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: NL_245 TGfun |20.83Mb, server: 213.183.59.206, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: ZZ_520 TGfun |29.76Mb, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CN_177 |43.70Mb, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: RU_679 | 5.07Mb, server: 217.30.10.67, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: DE_139 TGekfun |23.80Mb, server: 5.183.179.141, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: RU_644 | 5.80Mb, server: 217.30.10.68, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: RU_677 | 6.33Mb, server: 217.30.10.67, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: CN_110 TGeekfun |98.00Mb, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: RU_656 | 5.13Mb, server: 217.30.10.66, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: RU_660 |19.72Mb, server: 217.30.10.66, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: RU_668 | 6.72Mb, server: 217.30.10.66, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: RU_386 TGfun |10.76Mb, server: 217.30.10.66, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: RU_316 TGekfun | 9.96Mb, server: 217.30.10.68, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: RU_382 TGeekfun |10.94Mb, server: 217.30.10.66, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: CN_115 TGekfun |54.38Mb, server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: CN_111 TGkfun |41.69Mb, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: US_431 TGun |26.83Mb, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_430 Tekfun |27.27Mb, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: NL_255 TGn |11.20Mb, server: 213.183.51.171, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: US_467 TGfun |26.39Mb, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_434 TGkfun |29.26Mb, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_422 TGfun | 8.38Mb, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_439 TGkfun |26.53Mb, server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CN_198 |14.22Mb, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_76 TGkfun |11.84Mb, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: US_457 TGkfun |31.17Mb, server: 38.114.114.67, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_456 TGekfun |28.81Mb, server: 38.114.114.69, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: NL_267 TGkfun | 5.39Mb, server: 213.183.51.171, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: DE_150 TGekfun |15.00Mb, server: 5.183.179.141, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: US_418 TGekfun |33.70Mb, server: 167.88.61.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: NL_237 TGekfun |24.18Mb, server: 213.183.51.172, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: US_450 TGkfun |28.90Mb, server: 38.114.114.69, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: NL_234 TGkfun | 8.13Mb, server: 213.183.51.171, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: NL_244 TGeekfun |10.53Mb, server: 213.183.51.172, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: NL_243 TGekfun | 8.66Mb, server: 213.183.51.172, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: DE_138 TGkfun |27.55Mb, server: 5.183.179.141, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: US_449 TGekfun | 7.39Mb, server: 38.114.114.69, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: NL_280 TGfun |23.56Mb, server: 213.183.51.172, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: US_451 TGkfun |29.21Mb, server: 38.114.114.69, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: NL_277 TGkfun |23.77Mb, server: 213.183.51.172, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: ZZ_516 TGekfun |32.55Mb, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: NL_246 TGkfun |22.76Mb, server: 213.183.51.172, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: US_459 TGekfun | 8.96Mb, server: 38.114.114.69, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: NL_270 TGun | 4.99Mb, server: 213.183.51.171, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: NL_248 TGeekfun |25.28Mb, server: 213.183.59.206, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: NL_247 TGekfun |23.92Mb, server: 213.183.51.172, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: ZZ_528 TGekfun | 6.63Mb, server: 169.197.142.39, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ZZ_529 TGkfun |30.00Mb, server: 169.197.142.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ_527 TGekfun |23.29Mb, server: 169.197.142.39, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_469 TGeekfun |28.50Mb, server: 38.114.114.69, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: DE_125 TGekfun |26.99Mb, server: 5.183.179.141, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: ZZ_532 TGkfun |33.78Mb, server: 169.197.142.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_436 TGkfun |32.96Mb, server: 167.88.61.175, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ZZ_519 TGun |31.16Mb, server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_455 TGekfun |32.47Mb, server: 38.114.114.69, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: NL_252 TGkfun |23.85Mb, server: 213.183.51.172, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: ZZ_515 TGkfun |12.45Mb, server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_410 TGfun |31.91Mb, server: 38.114.114.69, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_428 TGun |28.76Mb, server: 38.114.114.69, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_452 TGun |31.16Mb, server: 38.114.114.69, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: LT_211 TGfun |10.85Mb, server: 213.183.53.200, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: ZZ_517 TGfun |33.97Mb, server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_454 TGfun |23.32Mb, server: 38.114.114.67, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ZZ_534 TGkfun | 9.62Mb, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ZZ_511 TGkfun |34.71Mb, server: 169.197.142.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: ZZ_522 TGeekfun |32.59Mb, server: 169.197.142.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_462 TGfun | 7.68Mb, server: 38.114.114.69, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_429 TGkfun |32.44Mb, server: 38.114.114.67, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ZZ_536 TGkfun | 9.66Mb, server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ_530 TGekfun |32.89Mb, server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_415 TGekfun |20.54Mb, server: 38.114.114.69, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_461 TGeekfun | 9.93Mb, server: 38.114.114.69, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ZZ_524 TGekfun |34.99Mb, server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: NL_253 TGekfun |24.30Mb, server: 213.183.59.206, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: ZZ_518 TGkfun |16.51Mb, server: 169.197.142.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_521 Teekfun |29.71Mb, server: 169.197.142.39, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ZZ_510 TGeekfun |33.23Mb, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_438 TGekfun |33.61Mb, server: 167.88.61.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_531 TGekfun |26.77Mb, server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_417 TGekfun |33.54Mb, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CN_103 TGkfun | 2.71Mb, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: ZZ_514 TGkfun |17.39Mb, server: 169.197.142.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_423 TGfun | 8.33Mb, server: 167.88.61.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_413 TGekfun |33.17Mb, server: 167.88.61.175, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_426 TGkfun | 9.56Mb, server: 167.88.61.50, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ZZ_533 TGfun | 7.70Mb, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ZZ_523 TGekfun |29.81Mb, server: 169.197.142.39, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_414 TGkfun |31.18Mb, server: 167.88.61.175, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_463 TGekfun |31.37Mb, server: 38.114.114.67, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_465 TGun |10.89Mb, server: 38.114.114.67, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_464 TGkfun |31.66Mb, server: 38.114.114.67, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_453 TGkfun |32.33Mb, server: 38.114.114.67, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_466 TGekfun |32.19Mb, server: 167.88.61.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: NL_269 TGfun |24.45Mb, server: 213.183.51.172, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: US_442 TGkfun |10.84Mb, server: 167.88.61.175, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_411 TGekfun |34.30Mb, server: 167.88.61.175, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_435 TGekfun |27.00Mb, server: 167.88.61.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_412 TGkfun |34.42Mb, server: 167.88.61.175, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_419 Tekfun |28.78Mb, server: 167.88.61.175, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_421 TGkfun |33.14Mb, server: 167.88.61.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: NL_238 TGekfun |12.88Mb, server: 213.183.51.172, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: NL_257 TGekfun |23.55Mb, server: 213.183.59.206, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: LT_197 TGkfun |34.52Mb, server: 213.183.53.200, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: LT_192 TGekfun | 8.09Mb, server: 213.183.53.200, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: LT_195 TGkfun |27.38Mb, server: 213.183.53.200, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: LT_199 TGkfun |31.22Mb, server: 213.183.53.200, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: LT_209 TGekfun |34.50Mb, server: 213.183.53.200, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: LT_210 TGekfun |15.88Mb, server: 213.183.53.200, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: LT_214 TGun | 6.62Mb, server: 213.183.53.177, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: CN_118 TGun |33.67Mb, server: 116.129.253.130, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
+  - {name: JCBB_韩国02【vip2】, server: gkdcu.gkdcn.top, port: 25881, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_台湾01【vip2】, server: gkdcm.gkdcn.top, port: 25890, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: 香港 负载均衡, server: azhk.node.qchwnd.moe, port: 62500, type: trojan, password: 8c38c05d-bfb6-41cc-a446-853db3d1dc80, sni: azhk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: JCBB_日本02【vip1】, server: gkdcu.gkdcn.top, port: 25888, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_日本01【vip1】, server: gkdcm.gkdcn.top, port: 25888, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_日本03【vip1】, server: gkdcm.gkdcn.top, port: 25887, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_美国03【vip1】, server: gkdcm.gkdcn.top, port: 25885, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_德国02【vip1】, server: gkdcu.gkdcn.top, port: 25883, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_新加坡01【vip1】, server: gkdcm.gkdcn.top, port: 25895, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_新加坡02【vip1】, server: gkdcm1.gkdcn.top, port: 25895, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
+  - {name: JCBB_新加坡04【vip1】, server: gkdcm1.gkdcn.top, port: 25894, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
+  - {name: JCBB_美国01【vip1】, server: gkdcm.gkdcn.top, port: 25886, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_韩国01【vip2】, server: gkdcm.gkdcn.top, port: 25881, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_美国02【vip1】, server: gkdcu.gkdcn.top, port: 25886, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_德国01【vip1】, server: gkdcm.gkdcn.top, port: 25883, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_英国01【vip1】, server: gkdcm.gkdcn.top, port: 25884, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_新加坡03【vip1】, server: gkdcm.gkdcn.top, port: 25894, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_英国02【vip1】, server: gkdcu.gkdcn.top, port: 25884, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_美国04【vip1】, server: gkdcu.gkdcn.top, port: 25885, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_台湾04【vip2】, server: gkdcu.gkdcn.top, port: 25889, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_香港02【vip1】, server: gkdcm1.gkdcn.top, port: 25899, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
+  - {name: JCBB_香港05【vip1】, server: gkdcm.gkdcn.top, port: 25897, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_香港06【vip1】, server: gkdcm1.gkdcn.top, port: 25897, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.gkdcn.top}, udp: true}
+  - {name: JCBB_香港01【vip1】, server: gkdcm.gkdcn.top, port: 25899, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_印度01【vip1】, server: gkdcm.gkdcn.top, port: 25882, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_台湾03【vip2】, server: gkdcm.gkdcn.top, port: 25889, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
+  - {name: JCBB_印度02【vip1】, server: gkdcu.gkdcn.top, port: 25882, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: JCBB_日本04【vip1】, server: gkdcu.gkdcn.top, port: 25887, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 7, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 8, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ KinGs♭¹¹ 」¹22, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ KinGs♭¹¹ 」¹72, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: AU openit.ml, server: 185.167.116.253, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: AU_115, server: 212.81.47.15, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: AU_21, server: 212.81.47.17, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: AU_291, server: 212.81.47.14, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: AU_4, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: AU_61, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: AU_72, server: au2-2.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-2.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: CN_100, server: 0a39e00.ga.gladns.com, port: 3384, type: trojan, password: d66013c645b93c5c, sni: 0a39e00.ga.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: CN_111, server: 0a39e00.ga.gladns.com, port: 3385, type: trojan, password: d66013c645b93c5c, sni: 0a39e00.ga.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: CN_112, server: 0a39e00.gb.gladns.com, port: 3384, type: trojan, password: d66013c645b93c5c, sni: 0a39e00.gb.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: CN_97, server: 0a39e00.gb.gladns.com, port: 3385, type: trojan, password: d66013c645b93c5c, sni: 0a39e00.gb.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: HINET/AZHK, server: az.gunangzhui.cloud, port: 41534, type: trojan, password: 9e496875-e09c-451b-a99c-fe2f57e221c2, sni: az.gunangzhui.cloud, skip-cert-verify: true, udp: true}
+  - {name: HK_300, server: azhk.102498.eu.org, port: 23941, type: vmess, uuid: 7d7e6cf9-eac6-3d67-bc8e-a270034ac212, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloworld, ws-headers: {Host: azhk.102498.eu.org}, udp: true}
+  - {name: HK_84, server: hk.azure.fnyun.cyou, port: 16443, type: vmess, uuid: 6fa984b6-f341-491a-8f64-2f39ba3e3d36, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk.azure.fnyun.cyou}, udp: true}
+  - {name: IN l, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP_104, server: 0a39e00.pd.gladns.com, port: 3389, type: trojan, password: d66013c645b93c5c, sni: 0a39e00.pd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_70, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP_92, server: jp.azure.fnyun.cyou, port: 26443, type: vmess, uuid: 6fa984b6-f341-491a-8f64-2f39ba3e3d36, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp.azure.fnyun.cyou}, udp: true}
+  - {name: KR_88, server: kr.azure.fnyun.cyou, port: 36443, type: vmess, uuid: 6fa984b6-f341-491a-8f64-2f39ba3e3d36, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr.azure.fnyun.cyou}, udp: true}
+  - {name: SG|新加坡, server: sg-zf.jiashumao.net, port: 29465, type: trojan, password: bfaf0f2b-c727-32ea-ab28-25e438fda91f, sni: sg-zf.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: Unknown_304, server: rk59.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rk59.moonfree.top}, udp: true}
+  - {name: US ml, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US  2, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: US_38, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: HCM Free, server: hcmf.fuzzypn.me, port: 80, type: vmess, uuid: db44cfff-a622-4619-93e5-559c0836f9e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/fuzzypn?ed=121212", ws-headers: {Host: Hteendepzai.akamaized.net}, udp: true}
+  - {name: HK Free, server: hkf.fuzzypn.me, port: 80, type: vmess, uuid: db44cfff-a622-4619-93e5-559c0836f9e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/fuzzypn?ed=121212", ws-headers: {Host: Hteendepzai.akamaized.net}, udp: true}
+  - {name: Hanoi Gaming Free, server: hnf.fuzzypn.me, port: 443, type: vmess, uuid: db44cfff-a622-4619-93e5-559c0836f9e1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: hnf.fuzzypn.me, grpc-opts: {grpc-service-name: fuzzypn}, udp: true}
+  - {name: HCM Gaming Free, server: hcmf.fuzzypn.me, port: 443, type: vmess, uuid: db44cfff-a622-4619-93e5-559c0836f9e1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: hcmf.fuzzypn.me, grpc-opts: {grpc-service-name: fuzzypn}, udp: true}
+  - {name: HK Gaming Free, server: hkf.fuzzypn.me, port: 443, type: vmess, uuid: db44cfff-a622-4619-93e5-559c0836f9e1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: hkf.fuzzypn.me, grpc-opts: {grpc-service-name: fuzzypn}, udp: true}
+  - {name: ✿ Hà Nội TLS, server: hn1.fuzzyng.com, port: 443, type: vmess, uuid: 8c7dd76c-f5b6-4453-b94d-6dd289b08752, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/fuzzyng?ed=2048", ws-headers: {Host: v.akamaized.net}, udp: true}
+  - {name: ✿ HCM, server: hcm.fuzzyng.com, port: 80, type: vmess, uuid: 8c7dd76c-f5b6-4453-b94d-6dd289b08752, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/fuzzyng?ed=2048", ws-headers: {Host: fuzzyng.akamaized.net}, udp: true}
+  - {name: ✿ HCM TLS, server: hcm.fuzzyng.com, port: 443, type: trojan, password: 8c7dd76c-f5b6-4453-b94d-6dd289b08752, sni: hcm.fuzzyng.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RU_131
-      - 561_14.62Mb |11.76Mb
-      - 339_22.30Mb | 7.90Mb
-      - AE_02  | 7.06Mb
-      - CN_121  | 6.18Mb
-      - AE_01 TG | 6.26Mb
-      - CN_104 TG |43.50Mb
-      - AU_04 TG@n | 8.40Mb
-      - NL_266 TG |12.23Mb
-      - NL_249 TGn |21.46Mb
-      - US_476 TGn | 8.58Mb
-      - NL_279 TG |11.93Mb
-      - NL_262 TG | 9.22Mb
-      - NL_272 TGn | 7.35Mb
-      - RU_333 TGn |11.39Mb
-      - NL_231 TGkfun | 5.07Mb
-      - CN_196 |15.05Mb
-      - NL_271 TGfun | 5.61Mb
-      - US_448 TGkfun |23.11Mb
-      - NL_265 TGkfun | 6.35Mb
-      - US_424 TGkfun |10.27Mb
-      - CN_187 |30.33Mb
-      - NL_250 TGkfun |10.18Mb
-      - NL_275 TGkfun |12.37Mb
-      - CN_102 TGekfun |30.84Mb
-      - NL_274 TGekfun | 8.24Mb
-      - CN_107 TGkfun |11.50Mb
-      - RU_373 TGeekfun |10.49Mb
-      - NL_230 TGekfun | 7.83Mb
-      - RU_374 TGekfun |10.43Mb
-      - US_446 TGekfun |17.46Mb
-      - NL_259 TGfun |31.01Mb
-      - NL_233 TGkfun | 5.19Mb
-      - UA_405 TGekfun | 8.03Mb
-      - NL_235 TGekfun | 4.44Mb
-      - RU_312 TGekfun | 3.50Mb
-      - NL_229 TGekfun | 8.14Mb
-      - CN_112 TGekfun | 7.28Mb
-      - RU_356 TGekfun | 6.96Mb
-      - US_444 TGeekfun |22.58Mb
-      - US_425 TGekfun |20.25Mb
-      - NL_273 TGkfun | 5.00Mb
-      - US_437 TGekfun |28.58Mb
-      - AU_28 TGkfun | 8.69Mb
-      - CN_109 TGkfun |21.34Mb
-      - ZZ_525 TGekfun |12.35Mb
-      - RU_740 | 2.39Mb
-      - RU_630 | 2.43Mb
-      - NL_239 TGekfun |13.48Mb
-      - RU_349 TGekfun |11.18Mb
-      - CN_173 |34.68Mb
-      - CN_181 | 8.73Mb
-      - US_458 TGeekfun |30.51Mb
-      - JP_184 TGkfun |26.07Mb
-      - CN_105 TGekfun | 8.41Mb
-      - NL_251 TGkfun |10.06Mb
-      - AU_11 TGkfun | 8.01Mb
-      - AU_38 TGekfun | 7.96Mb
-      - AU_07 TGekfun | 7.97Mb
-      - AU_23 TGeekfun | 8.01Mb
-      - AU_27 TGekfun | 8.35Mb
-      - AU_13 TGekfun | 8.14Mb
-      - NL_263 TGeekfun | 5.31Mb
-      - CN_178 |48.10Mb
-      - RU_305 TGekfun | 8.12Mb
-      - RU_341 TGekfun | 2.29Mb
-      - LT_201 TGekfun |35.67Mb
-      - CN_193 |33.42Mb
-      - US_492 TGkfun | 3.25Mb
-      - RU_357 TGkfun | 3.72Mb
-      - RU_342 TGekfun | 2.03Mb
-      - RU_363 TGekfun |10.04Mb
-      - RU_360 TGeekfun | 5.02Mb
-      - RU_303 TGkfun | 1.60Mb
-      - CN_108 TGkfun | 8.81Mb
-      - NL_276 TGekfun | 8.11Mb
-      - US_440 TGekfun |34.09Mb
-      - US_468 TGkfun |26.63Mb
-      - US_441 TGkfun |25.65Mb
-      - US_460 TGkfun |28.35Mb
-      - RU_371 TGkfun |11.02Mb
-      - CN_197 |47.58Mb
-      - US_447 TGekfun |14.30Mb
-      - US_443 TGekfun |19.31Mb
-      - LT_189 TGkfun | 4.36Mb
-      - DE_134 TGkfun |26.75Mb
-      - CN_106 TGkfun |11.38Mb
-      - NL_268 TGfun | 4.55Mb
-      - RU_302 TGeekfun | 5.92Mb
-      - RU_383 TGeekfun | 5.09Mb
-      - CN_186 |17.59Mb
-      - US_427 TGfun |13.53Mb
-      - US_420 TGkfun |33.71Mb
-      - ZZ_513 TGkfun |23.72Mb
-      - RU_694 |11.21Mb
-      - US_416 TGekfun | 5.65Mb
-      - NL_232 TGfun | 5.51Mb
-      - GB_156 TGkfun |21.72Mb
-      - RU_321 TGekfun |27.29Mb
-      - US_445 TGekfun |20.55Mb
-      - NL_245 TGfun |20.83Mb
-      - ZZ_520 TGfun |29.76Mb
-      - CN_177 |43.70Mb
-      - RU_679 | 5.07Mb
-      - DE_139 TGekfun |23.80Mb
-      - RU_644 | 5.80Mb
-      - RU_677 | 6.33Mb
-      - CN_110 TGeekfun |98.00Mb
-      - RU_656 | 5.13Mb
-      - RU_660 |19.72Mb
-      - RU_668 | 6.72Mb
-      - RU_386 TGfun |10.76Mb
-      - RU_316 TGekfun | 9.96Mb
-      - RU_382 TGeekfun |10.94Mb
-      - CN_115 TGekfun |54.38Mb
-      - CN_111 TGkfun |41.69Mb
-      - US_431 TGun |26.83Mb
-      - US_430 Tekfun |27.27Mb
-      - NL_255 TGn |11.20Mb
-      - US_467 TGfun |26.39Mb
-      - US_434 TGkfun |29.26Mb
-      - US_422 TGfun | 8.38Mb
-      - US_439 TGkfun |26.53Mb
-      - CN_198 |14.22Mb
-      - CN_76 TGkfun |11.84Mb
-      - US_457 TGkfun |31.17Mb
-      - US_456 TGekfun |28.81Mb
-      - NL_267 TGkfun | 5.39Mb
-      - DE_150 TGekfun |15.00Mb
-      - US_418 TGekfun |33.70Mb
-      - NL_237 TGekfun |24.18Mb
-      - US_450 TGkfun |28.90Mb
-      - NL_234 TGkfun | 8.13Mb
-      - NL_244 TGeekfun |10.53Mb
-      - NL_243 TGekfun | 8.66Mb
-      - DE_138 TGkfun |27.55Mb
-      - US_449 TGekfun | 7.39Mb
-      - NL_280 TGfun |23.56Mb
-      - US_451 TGkfun |29.21Mb
-      - NL_277 TGkfun |23.77Mb
-      - ZZ_516 TGekfun |32.55Mb
-      - NL_246 TGkfun |22.76Mb
-      - US_459 TGekfun | 8.96Mb
-      - NL_270 TGun | 4.99Mb
-      - NL_248 TGeekfun |25.28Mb
-      - NL_247 TGekfun |23.92Mb
-      - ZZ_528 TGekfun | 6.63Mb
-      - ZZ_529 TGkfun |30.00Mb
-      - ZZ_527 TGekfun |23.29Mb
-      - US_469 TGeekfun |28.50Mb
-      - DE_125 TGekfun |26.99Mb
-      - ZZ_532 TGkfun |33.78Mb
-      - US_436 TGkfun |32.96Mb
-      - ZZ_519 TGun |31.16Mb
-      - US_455 TGekfun |32.47Mb
-      - NL_252 TGkfun |23.85Mb
-      - ZZ_515 TGkfun |12.45Mb
-      - US_410 TGfun |31.91Mb
-      - US_428 TGun |28.76Mb
-      - US_452 TGun |31.16Mb
-      - LT_211 TGfun |10.85Mb
-      - ZZ_517 TGfun |33.97Mb
-      - US_454 TGfun |23.32Mb
-      - ZZ_534 TGkfun | 9.62Mb
-      - ZZ_511 TGkfun |34.71Mb
-      - ZZ_522 TGeekfun |32.59Mb
-      - US_462 TGfun | 7.68Mb
-      - US_429 TGkfun |32.44Mb
-      - ZZ_536 TGkfun | 9.66Mb
-      - ZZ_530 TGekfun |32.89Mb
-      - US_415 TGekfun |20.54Mb
-      - US_461 TGeekfun | 9.93Mb
-      - ZZ_524 TGekfun |34.99Mb
-      - NL_253 TGekfun |24.30Mb
-      - ZZ_518 TGkfun |16.51Mb
-      - ZZ_521 Teekfun |29.71Mb
-      - ZZ_510 TGeekfun |33.23Mb
-      - US_438 TGekfun |33.61Mb
-      - ZZ_531 TGekfun |26.77Mb
-      - US_417 TGekfun |33.54Mb
-      - CN_103 TGkfun | 2.71Mb
-      - ZZ_514 TGkfun |17.39Mb
-      - US_423 TGfun | 8.33Mb
-      - US_413 TGekfun |33.17Mb
-      - US_426 TGkfun | 9.56Mb
-      - ZZ_533 TGfun | 7.70Mb
-      - ZZ_523 TGekfun |29.81Mb
-      - US_414 TGkfun |31.18Mb
-      - US_463 TGekfun |31.37Mb
-      - US_465 TGun |10.89Mb
-      - US_464 TGkfun |31.66Mb
-      - US_453 TGkfun |32.33Mb
-      - US_466 TGekfun |32.19Mb
-      - NL_269 TGfun |24.45Mb
-      - US_442 TGkfun |10.84Mb
-      - US_411 TGekfun |34.30Mb
-      - US_435 TGekfun |27.00Mb
-      - US_412 TGkfun |34.42Mb
-      - US_419 Tekfun |28.78Mb
-      - US_421 TGkfun |33.14Mb
-      - NL_238 TGekfun |12.88Mb
-      - NL_257 TGekfun |23.55Mb
-      - LT_197 TGkfun |34.52Mb
-      - LT_192 TGekfun | 8.09Mb
-      - LT_195 TGkfun |27.38Mb
-      - LT_199 TGkfun |31.22Mb
-      - LT_209 TGekfun |34.50Mb
-      - LT_210 TGekfun |15.88Mb
-      - LT_214 TGun | 6.62Mb
-      - CN_118 TGun |33.67Mb
+      - JCBB_韩国02【vip2】
+      - JCBB_台湾01【vip2】
+      - 香港 负载均衡
+      - JCBB_日本02【vip1】
+      - JCBB_日本01【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_美国03【vip1】
+      - JCBB_德国02【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_新加坡02【vip1】
+      - JCBB_新加坡04【vip1】
+      - JCBB_美国01【vip1】
+      - JCBB_韩国01【vip2】
+      - JCBB_美国02【vip1】
+      - JCBB_德国01【vip1】
+      - JCBB_英国01【vip1】
+      - JCBB_新加坡03【vip1】
+      - JCBB_英国02【vip1】
+      - JCBB_美国04【vip1】
+      - JCBB_台湾04【vip2】
+      - JCBB_香港02【vip1】
+      - JCBB_香港05【vip1】
+      - JCBB_香港06【vip1】
+      - JCBB_香港01【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_台湾03【vip2】
+      - JCBB_印度02【vip1】
+      - JCBB_日本04【vip1】
+      - 「㋅ KinGs㉿¹¹ 」共享 7
+      - 「㋅ KinGs㉿¹¹ 」共享 8
+      - 「㋅ KinGs♭¹¹ 」¹22
+      - 「㋅ KinGs♭¹¹ 」¹72
+      - AU openit.ml
+      - AU_115
+      - AU_21
+      - AU_291
+      - AU_4
+      - AU_61
+      - AU_72
+      - CN_100
+      - CN_111
+      - CN_112
+      - CN_97
+      - HINET/AZHK
+      - HK_300
+      - HK_84
+      - IN l
+      - JP_104
+      - JP_70
+      - JP_92
+      - KR_88
+      - SG|新加坡
+      - Unknown_304
+      - US ml
+      - US  2
+      - US_38
+      - HCM Free
+      - HK Free
+      - Hanoi Gaming Free
+      - HCM Gaming Free
+      - HK Gaming Free
+      - ✿ Hà Nội TLS
+      - ✿ HCM
+      - ✿ HCM TLS
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - RU_131
-      - 561_14.62Mb |11.76Mb
-      - 339_22.30Mb | 7.90Mb
-      - AE_02  | 7.06Mb
-      - CN_121  | 6.18Mb
-      - AE_01 TG | 6.26Mb
-      - CN_104 TG |43.50Mb
-      - AU_04 TG@n | 8.40Mb
-      - NL_266 TG |12.23Mb
-      - NL_249 TGn |21.46Mb
-      - US_476 TGn | 8.58Mb
-      - NL_279 TG |11.93Mb
-      - NL_262 TG | 9.22Mb
-      - NL_272 TGn | 7.35Mb
-      - RU_333 TGn |11.39Mb
-      - NL_231 TGkfun | 5.07Mb
-      - CN_196 |15.05Mb
-      - NL_271 TGfun | 5.61Mb
-      - US_448 TGkfun |23.11Mb
-      - NL_265 TGkfun | 6.35Mb
-      - US_424 TGkfun |10.27Mb
-      - CN_187 |30.33Mb
-      - NL_250 TGkfun |10.18Mb
-      - NL_275 TGkfun |12.37Mb
-      - CN_102 TGekfun |30.84Mb
-      - NL_274 TGekfun | 8.24Mb
-      - CN_107 TGkfun |11.50Mb
-      - RU_373 TGeekfun |10.49Mb
-      - NL_230 TGekfun | 7.83Mb
-      - RU_374 TGekfun |10.43Mb
-      - US_446 TGekfun |17.46Mb
-      - NL_259 TGfun |31.01Mb
-      - NL_233 TGkfun | 5.19Mb
-      - UA_405 TGekfun | 8.03Mb
-      - NL_235 TGekfun | 4.44Mb
-      - RU_312 TGekfun | 3.50Mb
-      - NL_229 TGekfun | 8.14Mb
-      - CN_112 TGekfun | 7.28Mb
-      - RU_356 TGekfun | 6.96Mb
-      - US_444 TGeekfun |22.58Mb
-      - US_425 TGekfun |20.25Mb
-      - NL_273 TGkfun | 5.00Mb
-      - US_437 TGekfun |28.58Mb
-      - AU_28 TGkfun | 8.69Mb
-      - CN_109 TGkfun |21.34Mb
-      - ZZ_525 TGekfun |12.35Mb
-      - RU_740 | 2.39Mb
-      - RU_630 | 2.43Mb
-      - NL_239 TGekfun |13.48Mb
-      - RU_349 TGekfun |11.18Mb
-      - CN_173 |34.68Mb
-      - CN_181 | 8.73Mb
-      - US_458 TGeekfun |30.51Mb
-      - JP_184 TGkfun |26.07Mb
-      - CN_105 TGekfun | 8.41Mb
-      - NL_251 TGkfun |10.06Mb
-      - AU_11 TGkfun | 8.01Mb
-      - AU_38 TGekfun | 7.96Mb
-      - AU_07 TGekfun | 7.97Mb
-      - AU_23 TGeekfun | 8.01Mb
-      - AU_27 TGekfun | 8.35Mb
-      - AU_13 TGekfun | 8.14Mb
-      - NL_263 TGeekfun | 5.31Mb
-      - CN_178 |48.10Mb
-      - RU_305 TGekfun | 8.12Mb
-      - RU_341 TGekfun | 2.29Mb
-      - LT_201 TGekfun |35.67Mb
-      - CN_193 |33.42Mb
-      - US_492 TGkfun | 3.25Mb
-      - RU_357 TGkfun | 3.72Mb
-      - RU_342 TGekfun | 2.03Mb
-      - RU_363 TGekfun |10.04Mb
-      - RU_360 TGeekfun | 5.02Mb
-      - RU_303 TGkfun | 1.60Mb
-      - CN_108 TGkfun | 8.81Mb
-      - NL_276 TGekfun | 8.11Mb
-      - US_440 TGekfun |34.09Mb
-      - US_468 TGkfun |26.63Mb
-      - US_441 TGkfun |25.65Mb
-      - US_460 TGkfun |28.35Mb
-      - RU_371 TGkfun |11.02Mb
-      - CN_197 |47.58Mb
-      - US_447 TGekfun |14.30Mb
-      - US_443 TGekfun |19.31Mb
-      - LT_189 TGkfun | 4.36Mb
-      - DE_134 TGkfun |26.75Mb
-      - CN_106 TGkfun |11.38Mb
-      - NL_268 TGfun | 4.55Mb
-      - RU_302 TGeekfun | 5.92Mb
-      - RU_383 TGeekfun | 5.09Mb
-      - CN_186 |17.59Mb
-      - US_427 TGfun |13.53Mb
-      - US_420 TGkfun |33.71Mb
-      - ZZ_513 TGkfun |23.72Mb
-      - RU_694 |11.21Mb
-      - US_416 TGekfun | 5.65Mb
-      - NL_232 TGfun | 5.51Mb
-      - GB_156 TGkfun |21.72Mb
-      - RU_321 TGekfun |27.29Mb
-      - US_445 TGekfun |20.55Mb
-      - NL_245 TGfun |20.83Mb
-      - ZZ_520 TGfun |29.76Mb
-      - CN_177 |43.70Mb
-      - RU_679 | 5.07Mb
-      - DE_139 TGekfun |23.80Mb
-      - RU_644 | 5.80Mb
-      - RU_677 | 6.33Mb
-      - CN_110 TGeekfun |98.00Mb
-      - RU_656 | 5.13Mb
-      - RU_660 |19.72Mb
-      - RU_668 | 6.72Mb
-      - RU_386 TGfun |10.76Mb
-      - RU_316 TGekfun | 9.96Mb
-      - RU_382 TGeekfun |10.94Mb
-      - CN_115 TGekfun |54.38Mb
-      - CN_111 TGkfun |41.69Mb
-      - US_431 TGun |26.83Mb
-      - US_430 Tekfun |27.27Mb
-      - NL_255 TGn |11.20Mb
-      - US_467 TGfun |26.39Mb
-      - US_434 TGkfun |29.26Mb
-      - US_422 TGfun | 8.38Mb
-      - US_439 TGkfun |26.53Mb
-      - CN_198 |14.22Mb
-      - CN_76 TGkfun |11.84Mb
-      - US_457 TGkfun |31.17Mb
-      - US_456 TGekfun |28.81Mb
-      - NL_267 TGkfun | 5.39Mb
-      - DE_150 TGekfun |15.00Mb
-      - US_418 TGekfun |33.70Mb
-      - NL_237 TGekfun |24.18Mb
-      - US_450 TGkfun |28.90Mb
-      - NL_234 TGkfun | 8.13Mb
-      - NL_244 TGeekfun |10.53Mb
-      - NL_243 TGekfun | 8.66Mb
-      - DE_138 TGkfun |27.55Mb
-      - US_449 TGekfun | 7.39Mb
-      - NL_280 TGfun |23.56Mb
-      - US_451 TGkfun |29.21Mb
-      - NL_277 TGkfun |23.77Mb
-      - ZZ_516 TGekfun |32.55Mb
-      - NL_246 TGkfun |22.76Mb
-      - US_459 TGekfun | 8.96Mb
-      - NL_270 TGun | 4.99Mb
-      - NL_248 TGeekfun |25.28Mb
-      - NL_247 TGekfun |23.92Mb
-      - ZZ_528 TGekfun | 6.63Mb
-      - ZZ_529 TGkfun |30.00Mb
-      - ZZ_527 TGekfun |23.29Mb
-      - US_469 TGeekfun |28.50Mb
-      - DE_125 TGekfun |26.99Mb
-      - ZZ_532 TGkfun |33.78Mb
-      - US_436 TGkfun |32.96Mb
-      - ZZ_519 TGun |31.16Mb
-      - US_455 TGekfun |32.47Mb
-      - NL_252 TGkfun |23.85Mb
-      - ZZ_515 TGkfun |12.45Mb
-      - US_410 TGfun |31.91Mb
-      - US_428 TGun |28.76Mb
-      - US_452 TGun |31.16Mb
-      - LT_211 TGfun |10.85Mb
-      - ZZ_517 TGfun |33.97Mb
-      - US_454 TGfun |23.32Mb
-      - ZZ_534 TGkfun | 9.62Mb
-      - ZZ_511 TGkfun |34.71Mb
-      - ZZ_522 TGeekfun |32.59Mb
-      - US_462 TGfun | 7.68Mb
-      - US_429 TGkfun |32.44Mb
-      - ZZ_536 TGkfun | 9.66Mb
-      - ZZ_530 TGekfun |32.89Mb
-      - US_415 TGekfun |20.54Mb
-      - US_461 TGeekfun | 9.93Mb
-      - ZZ_524 TGekfun |34.99Mb
-      - NL_253 TGekfun |24.30Mb
-      - ZZ_518 TGkfun |16.51Mb
-      - ZZ_521 Teekfun |29.71Mb
-      - ZZ_510 TGeekfun |33.23Mb
-      - US_438 TGekfun |33.61Mb
-      - ZZ_531 TGekfun |26.77Mb
-      - US_417 TGekfun |33.54Mb
-      - CN_103 TGkfun | 2.71Mb
-      - ZZ_514 TGkfun |17.39Mb
-      - US_423 TGfun | 8.33Mb
-      - US_413 TGekfun |33.17Mb
-      - US_426 TGkfun | 9.56Mb
-      - ZZ_533 TGfun | 7.70Mb
-      - ZZ_523 TGekfun |29.81Mb
-      - US_414 TGkfun |31.18Mb
-      - US_463 TGekfun |31.37Mb
-      - US_465 TGun |10.89Mb
-      - US_464 TGkfun |31.66Mb
-      - US_453 TGkfun |32.33Mb
-      - US_466 TGekfun |32.19Mb
-      - NL_269 TGfun |24.45Mb
-      - US_442 TGkfun |10.84Mb
-      - US_411 TGekfun |34.30Mb
-      - US_435 TGekfun |27.00Mb
-      - US_412 TGkfun |34.42Mb
-      - US_419 Tekfun |28.78Mb
-      - US_421 TGkfun |33.14Mb
-      - NL_238 TGekfun |12.88Mb
-      - NL_257 TGekfun |23.55Mb
-      - LT_197 TGkfun |34.52Mb
-      - LT_192 TGekfun | 8.09Mb
-      - LT_195 TGkfun |27.38Mb
-      - LT_199 TGkfun |31.22Mb
-      - LT_209 TGekfun |34.50Mb
-      - LT_210 TGekfun |15.88Mb
-      - LT_214 TGun | 6.62Mb
-      - CN_118 TGun |33.67Mb
+      - JCBB_韩国02【vip2】
+      - JCBB_台湾01【vip2】
+      - 香港 负载均衡
+      - JCBB_日本02【vip1】
+      - JCBB_日本01【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_美国03【vip1】
+      - JCBB_德国02【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_新加坡02【vip1】
+      - JCBB_新加坡04【vip1】
+      - JCBB_美国01【vip1】
+      - JCBB_韩国01【vip2】
+      - JCBB_美国02【vip1】
+      - JCBB_德国01【vip1】
+      - JCBB_英国01【vip1】
+      - JCBB_新加坡03【vip1】
+      - JCBB_英国02【vip1】
+      - JCBB_美国04【vip1】
+      - JCBB_台湾04【vip2】
+      - JCBB_香港02【vip1】
+      - JCBB_香港05【vip1】
+      - JCBB_香港06【vip1】
+      - JCBB_香港01【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_台湾03【vip2】
+      - JCBB_印度02【vip1】
+      - JCBB_日本04【vip1】
+      - 「㋅ KinGs㉿¹¹ 」共享 7
+      - 「㋅ KinGs㉿¹¹ 」共享 8
+      - 「㋅ KinGs♭¹¹ 」¹22
+      - 「㋅ KinGs♭¹¹ 」¹72
+      - AU openit.ml
+      - AU_115
+      - AU_21
+      - AU_291
+      - AU_4
+      - AU_61
+      - AU_72
+      - CN_100
+      - CN_111
+      - CN_112
+      - CN_97
+      - HINET/AZHK
+      - HK_300
+      - HK_84
+      - IN l
+      - JP_104
+      - JP_70
+      - JP_92
+      - KR_88
+      - SG|新加坡
+      - Unknown_304
+      - US ml
+      - US  2
+      - US_38
+      - HCM Free
+      - HK Free
+      - Hanoi Gaming Free
+      - HCM Gaming Free
+      - HK Gaming Free
+      - ✿ Hà Nội TLS
+      - ✿ HCM
+      - ✿ HCM TLS
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RU_131
-      - 561_14.62Mb |11.76Mb
-      - 339_22.30Mb | 7.90Mb
-      - AE_02  | 7.06Mb
-      - CN_121  | 6.18Mb
-      - AE_01 TG | 6.26Mb
-      - CN_104 TG |43.50Mb
-      - AU_04 TG@n | 8.40Mb
-      - NL_266 TG |12.23Mb
-      - NL_249 TGn |21.46Mb
-      - US_476 TGn | 8.58Mb
-      - NL_279 TG |11.93Mb
-      - NL_262 TG | 9.22Mb
-      - NL_272 TGn | 7.35Mb
-      - RU_333 TGn |11.39Mb
-      - NL_231 TGkfun | 5.07Mb
-      - CN_196 |15.05Mb
-      - NL_271 TGfun | 5.61Mb
-      - US_448 TGkfun |23.11Mb
-      - NL_265 TGkfun | 6.35Mb
-      - US_424 TGkfun |10.27Mb
-      - CN_187 |30.33Mb
-      - NL_250 TGkfun |10.18Mb
-      - NL_275 TGkfun |12.37Mb
-      - CN_102 TGekfun |30.84Mb
-      - NL_274 TGekfun | 8.24Mb
-      - CN_107 TGkfun |11.50Mb
-      - RU_373 TGeekfun |10.49Mb
-      - NL_230 TGekfun | 7.83Mb
-      - RU_374 TGekfun |10.43Mb
-      - US_446 TGekfun |17.46Mb
-      - NL_259 TGfun |31.01Mb
-      - NL_233 TGkfun | 5.19Mb
-      - UA_405 TGekfun | 8.03Mb
-      - NL_235 TGekfun | 4.44Mb
-      - RU_312 TGekfun | 3.50Mb
-      - NL_229 TGekfun | 8.14Mb
-      - CN_112 TGekfun | 7.28Mb
-      - RU_356 TGekfun | 6.96Mb
-      - US_444 TGeekfun |22.58Mb
-      - US_425 TGekfun |20.25Mb
-      - NL_273 TGkfun | 5.00Mb
-      - US_437 TGekfun |28.58Mb
-      - AU_28 TGkfun | 8.69Mb
-      - CN_109 TGkfun |21.34Mb
-      - ZZ_525 TGekfun |12.35Mb
-      - RU_740 | 2.39Mb
-      - RU_630 | 2.43Mb
-      - NL_239 TGekfun |13.48Mb
-      - RU_349 TGekfun |11.18Mb
-      - CN_173 |34.68Mb
-      - CN_181 | 8.73Mb
-      - US_458 TGeekfun |30.51Mb
-      - JP_184 TGkfun |26.07Mb
-      - CN_105 TGekfun | 8.41Mb
-      - NL_251 TGkfun |10.06Mb
-      - AU_11 TGkfun | 8.01Mb
-      - AU_38 TGekfun | 7.96Mb
-      - AU_07 TGekfun | 7.97Mb
-      - AU_23 TGeekfun | 8.01Mb
-      - AU_27 TGekfun | 8.35Mb
-      - AU_13 TGekfun | 8.14Mb
-      - NL_263 TGeekfun | 5.31Mb
-      - CN_178 |48.10Mb
-      - RU_305 TGekfun | 8.12Mb
-      - RU_341 TGekfun | 2.29Mb
-      - LT_201 TGekfun |35.67Mb
-      - CN_193 |33.42Mb
-      - US_492 TGkfun | 3.25Mb
-      - RU_357 TGkfun | 3.72Mb
-      - RU_342 TGekfun | 2.03Mb
-      - RU_363 TGekfun |10.04Mb
-      - RU_360 TGeekfun | 5.02Mb
-      - RU_303 TGkfun | 1.60Mb
-      - CN_108 TGkfun | 8.81Mb
-      - NL_276 TGekfun | 8.11Mb
-      - US_440 TGekfun |34.09Mb
-      - US_468 TGkfun |26.63Mb
-      - US_441 TGkfun |25.65Mb
-      - US_460 TGkfun |28.35Mb
-      - RU_371 TGkfun |11.02Mb
-      - CN_197 |47.58Mb
-      - US_447 TGekfun |14.30Mb
-      - US_443 TGekfun |19.31Mb
-      - LT_189 TGkfun | 4.36Mb
-      - DE_134 TGkfun |26.75Mb
-      - CN_106 TGkfun |11.38Mb
-      - NL_268 TGfun | 4.55Mb
-      - RU_302 TGeekfun | 5.92Mb
-      - RU_383 TGeekfun | 5.09Mb
-      - CN_186 |17.59Mb
-      - US_427 TGfun |13.53Mb
-      - US_420 TGkfun |33.71Mb
-      - ZZ_513 TGkfun |23.72Mb
-      - RU_694 |11.21Mb
-      - US_416 TGekfun | 5.65Mb
-      - NL_232 TGfun | 5.51Mb
-      - GB_156 TGkfun |21.72Mb
-      - RU_321 TGekfun |27.29Mb
-      - US_445 TGekfun |20.55Mb
-      - NL_245 TGfun |20.83Mb
-      - ZZ_520 TGfun |29.76Mb
-      - CN_177 |43.70Mb
-      - RU_679 | 5.07Mb
-      - DE_139 TGekfun |23.80Mb
-      - RU_644 | 5.80Mb
-      - RU_677 | 6.33Mb
-      - CN_110 TGeekfun |98.00Mb
-      - RU_656 | 5.13Mb
-      - RU_660 |19.72Mb
-      - RU_668 | 6.72Mb
-      - RU_386 TGfun |10.76Mb
-      - RU_316 TGekfun | 9.96Mb
-      - RU_382 TGeekfun |10.94Mb
-      - CN_115 TGekfun |54.38Mb
-      - CN_111 TGkfun |41.69Mb
-      - US_431 TGun |26.83Mb
-      - US_430 Tekfun |27.27Mb
-      - NL_255 TGn |11.20Mb
-      - US_467 TGfun |26.39Mb
-      - US_434 TGkfun |29.26Mb
-      - US_422 TGfun | 8.38Mb
-      - US_439 TGkfun |26.53Mb
-      - CN_198 |14.22Mb
-      - CN_76 TGkfun |11.84Mb
-      - US_457 TGkfun |31.17Mb
-      - US_456 TGekfun |28.81Mb
-      - NL_267 TGkfun | 5.39Mb
-      - DE_150 TGekfun |15.00Mb
-      - US_418 TGekfun |33.70Mb
-      - NL_237 TGekfun |24.18Mb
-      - US_450 TGkfun |28.90Mb
-      - NL_234 TGkfun | 8.13Mb
-      - NL_244 TGeekfun |10.53Mb
-      - NL_243 TGekfun | 8.66Mb
-      - DE_138 TGkfun |27.55Mb
-      - US_449 TGekfun | 7.39Mb
-      - NL_280 TGfun |23.56Mb
-      - US_451 TGkfun |29.21Mb
-      - NL_277 TGkfun |23.77Mb
-      - ZZ_516 TGekfun |32.55Mb
-      - NL_246 TGkfun |22.76Mb
-      - US_459 TGekfun | 8.96Mb
-      - NL_270 TGun | 4.99Mb
-      - NL_248 TGeekfun |25.28Mb
-      - NL_247 TGekfun |23.92Mb
-      - ZZ_528 TGekfun | 6.63Mb
-      - ZZ_529 TGkfun |30.00Mb
-      - ZZ_527 TGekfun |23.29Mb
-      - US_469 TGeekfun |28.50Mb
-      - DE_125 TGekfun |26.99Mb
-      - ZZ_532 TGkfun |33.78Mb
-      - US_436 TGkfun |32.96Mb
-      - ZZ_519 TGun |31.16Mb
-      - US_455 TGekfun |32.47Mb
-      - NL_252 TGkfun |23.85Mb
-      - ZZ_515 TGkfun |12.45Mb
-      - US_410 TGfun |31.91Mb
-      - US_428 TGun |28.76Mb
-      - US_452 TGun |31.16Mb
-      - LT_211 TGfun |10.85Mb
-      - ZZ_517 TGfun |33.97Mb
-      - US_454 TGfun |23.32Mb
-      - ZZ_534 TGkfun | 9.62Mb
-      - ZZ_511 TGkfun |34.71Mb
-      - ZZ_522 TGeekfun |32.59Mb
-      - US_462 TGfun | 7.68Mb
-      - US_429 TGkfun |32.44Mb
-      - ZZ_536 TGkfun | 9.66Mb
-      - ZZ_530 TGekfun |32.89Mb
-      - US_415 TGekfun |20.54Mb
-      - US_461 TGeekfun | 9.93Mb
-      - ZZ_524 TGekfun |34.99Mb
-      - NL_253 TGekfun |24.30Mb
-      - ZZ_518 TGkfun |16.51Mb
-      - ZZ_521 Teekfun |29.71Mb
-      - ZZ_510 TGeekfun |33.23Mb
-      - US_438 TGekfun |33.61Mb
-      - ZZ_531 TGekfun |26.77Mb
-      - US_417 TGekfun |33.54Mb
-      - CN_103 TGkfun | 2.71Mb
-      - ZZ_514 TGkfun |17.39Mb
-      - US_423 TGfun | 8.33Mb
-      - US_413 TGekfun |33.17Mb
-      - US_426 TGkfun | 9.56Mb
-      - ZZ_533 TGfun | 7.70Mb
-      - ZZ_523 TGekfun |29.81Mb
-      - US_414 TGkfun |31.18Mb
-      - US_463 TGekfun |31.37Mb
-      - US_465 TGun |10.89Mb
-      - US_464 TGkfun |31.66Mb
-      - US_453 TGkfun |32.33Mb
-      - US_466 TGekfun |32.19Mb
-      - NL_269 TGfun |24.45Mb
-      - US_442 TGkfun |10.84Mb
-      - US_411 TGekfun |34.30Mb
-      - US_435 TGekfun |27.00Mb
-      - US_412 TGkfun |34.42Mb
-      - US_419 Tekfun |28.78Mb
-      - US_421 TGkfun |33.14Mb
-      - NL_238 TGekfun |12.88Mb
-      - NL_257 TGekfun |23.55Mb
-      - LT_197 TGkfun |34.52Mb
-      - LT_192 TGekfun | 8.09Mb
-      - LT_195 TGkfun |27.38Mb
-      - LT_199 TGkfun |31.22Mb
-      - LT_209 TGekfun |34.50Mb
-      - LT_210 TGekfun |15.88Mb
-      - LT_214 TGun | 6.62Mb
-      - CN_118 TGun |33.67Mb
+      - JCBB_韩国02【vip2】
+      - JCBB_台湾01【vip2】
+      - 香港 负载均衡
+      - JCBB_日本02【vip1】
+      - JCBB_日本01【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_美国03【vip1】
+      - JCBB_德国02【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_新加坡02【vip1】
+      - JCBB_新加坡04【vip1】
+      - JCBB_美国01【vip1】
+      - JCBB_韩国01【vip2】
+      - JCBB_美国02【vip1】
+      - JCBB_德国01【vip1】
+      - JCBB_英国01【vip1】
+      - JCBB_新加坡03【vip1】
+      - JCBB_英国02【vip1】
+      - JCBB_美国04【vip1】
+      - JCBB_台湾04【vip2】
+      - JCBB_香港02【vip1】
+      - JCBB_香港05【vip1】
+      - JCBB_香港06【vip1】
+      - JCBB_香港01【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_台湾03【vip2】
+      - JCBB_印度02【vip1】
+      - JCBB_日本04【vip1】
+      - 「㋅ KinGs㉿¹¹ 」共享 7
+      - 「㋅ KinGs㉿¹¹ 」共享 8
+      - 「㋅ KinGs♭¹¹ 」¹22
+      - 「㋅ KinGs♭¹¹ 」¹72
+      - AU openit.ml
+      - AU_115
+      - AU_21
+      - AU_291
+      - AU_4
+      - AU_61
+      - AU_72
+      - CN_100
+      - CN_111
+      - CN_112
+      - CN_97
+      - HINET/AZHK
+      - HK_300
+      - HK_84
+      - IN l
+      - JP_104
+      - JP_70
+      - JP_92
+      - KR_88
+      - SG|新加坡
+      - Unknown_304
+      - US ml
+      - US  2
+      - US_38
+      - HCM Free
+      - HK Free
+      - Hanoi Gaming Free
+      - HCM Gaming Free
+      - HK Gaming Free
+      - ✿ Hà Nội TLS
+      - ✿ HCM
+      - ✿ HCM TLS
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -880,867 +296,291 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RU_131
-      - 561_14.62Mb |11.76Mb
-      - 339_22.30Mb | 7.90Mb
-      - AE_02  | 7.06Mb
-      - CN_121  | 6.18Mb
-      - AE_01 TG | 6.26Mb
-      - CN_104 TG |43.50Mb
-      - AU_04 TG@n | 8.40Mb
-      - NL_266 TG |12.23Mb
-      - NL_249 TGn |21.46Mb
-      - US_476 TGn | 8.58Mb
-      - NL_279 TG |11.93Mb
-      - NL_262 TG | 9.22Mb
-      - NL_272 TGn | 7.35Mb
-      - RU_333 TGn |11.39Mb
-      - NL_231 TGkfun | 5.07Mb
-      - CN_196 |15.05Mb
-      - NL_271 TGfun | 5.61Mb
-      - US_448 TGkfun |23.11Mb
-      - NL_265 TGkfun | 6.35Mb
-      - US_424 TGkfun |10.27Mb
-      - CN_187 |30.33Mb
-      - NL_250 TGkfun |10.18Mb
-      - NL_275 TGkfun |12.37Mb
-      - CN_102 TGekfun |30.84Mb
-      - NL_274 TGekfun | 8.24Mb
-      - CN_107 TGkfun |11.50Mb
-      - RU_373 TGeekfun |10.49Mb
-      - NL_230 TGekfun | 7.83Mb
-      - RU_374 TGekfun |10.43Mb
-      - US_446 TGekfun |17.46Mb
-      - NL_259 TGfun |31.01Mb
-      - NL_233 TGkfun | 5.19Mb
-      - UA_405 TGekfun | 8.03Mb
-      - NL_235 TGekfun | 4.44Mb
-      - RU_312 TGekfun | 3.50Mb
-      - NL_229 TGekfun | 8.14Mb
-      - CN_112 TGekfun | 7.28Mb
-      - RU_356 TGekfun | 6.96Mb
-      - US_444 TGeekfun |22.58Mb
-      - US_425 TGekfun |20.25Mb
-      - NL_273 TGkfun | 5.00Mb
-      - US_437 TGekfun |28.58Mb
-      - AU_28 TGkfun | 8.69Mb
-      - CN_109 TGkfun |21.34Mb
-      - ZZ_525 TGekfun |12.35Mb
-      - RU_740 | 2.39Mb
-      - RU_630 | 2.43Mb
-      - NL_239 TGekfun |13.48Mb
-      - RU_349 TGekfun |11.18Mb
-      - CN_173 |34.68Mb
-      - CN_181 | 8.73Mb
-      - US_458 TGeekfun |30.51Mb
-      - JP_184 TGkfun |26.07Mb
-      - CN_105 TGekfun | 8.41Mb
-      - NL_251 TGkfun |10.06Mb
-      - AU_11 TGkfun | 8.01Mb
-      - AU_38 TGekfun | 7.96Mb
-      - AU_07 TGekfun | 7.97Mb
-      - AU_23 TGeekfun | 8.01Mb
-      - AU_27 TGekfun | 8.35Mb
-      - AU_13 TGekfun | 8.14Mb
-      - NL_263 TGeekfun | 5.31Mb
-      - CN_178 |48.10Mb
-      - RU_305 TGekfun | 8.12Mb
-      - RU_341 TGekfun | 2.29Mb
-      - LT_201 TGekfun |35.67Mb
-      - CN_193 |33.42Mb
-      - US_492 TGkfun | 3.25Mb
-      - RU_357 TGkfun | 3.72Mb
-      - RU_342 TGekfun | 2.03Mb
-      - RU_363 TGekfun |10.04Mb
-      - RU_360 TGeekfun | 5.02Mb
-      - RU_303 TGkfun | 1.60Mb
-      - CN_108 TGkfun | 8.81Mb
-      - NL_276 TGekfun | 8.11Mb
-      - US_440 TGekfun |34.09Mb
-      - US_468 TGkfun |26.63Mb
-      - US_441 TGkfun |25.65Mb
-      - US_460 TGkfun |28.35Mb
-      - RU_371 TGkfun |11.02Mb
-      - CN_197 |47.58Mb
-      - US_447 TGekfun |14.30Mb
-      - US_443 TGekfun |19.31Mb
-      - LT_189 TGkfun | 4.36Mb
-      - DE_134 TGkfun |26.75Mb
-      - CN_106 TGkfun |11.38Mb
-      - NL_268 TGfun | 4.55Mb
-      - RU_302 TGeekfun | 5.92Mb
-      - RU_383 TGeekfun | 5.09Mb
-      - CN_186 |17.59Mb
-      - US_427 TGfun |13.53Mb
-      - US_420 TGkfun |33.71Mb
-      - ZZ_513 TGkfun |23.72Mb
-      - RU_694 |11.21Mb
-      - US_416 TGekfun | 5.65Mb
-      - NL_232 TGfun | 5.51Mb
-      - GB_156 TGkfun |21.72Mb
-      - RU_321 TGekfun |27.29Mb
-      - US_445 TGekfun |20.55Mb
-      - NL_245 TGfun |20.83Mb
-      - ZZ_520 TGfun |29.76Mb
-      - CN_177 |43.70Mb
-      - RU_679 | 5.07Mb
-      - DE_139 TGekfun |23.80Mb
-      - RU_644 | 5.80Mb
-      - RU_677 | 6.33Mb
-      - CN_110 TGeekfun |98.00Mb
-      - RU_656 | 5.13Mb
-      - RU_660 |19.72Mb
-      - RU_668 | 6.72Mb
-      - RU_386 TGfun |10.76Mb
-      - RU_316 TGekfun | 9.96Mb
-      - RU_382 TGeekfun |10.94Mb
-      - CN_115 TGekfun |54.38Mb
-      - CN_111 TGkfun |41.69Mb
-      - US_431 TGun |26.83Mb
-      - US_430 Tekfun |27.27Mb
-      - NL_255 TGn |11.20Mb
-      - US_467 TGfun |26.39Mb
-      - US_434 TGkfun |29.26Mb
-      - US_422 TGfun | 8.38Mb
-      - US_439 TGkfun |26.53Mb
-      - CN_198 |14.22Mb
-      - CN_76 TGkfun |11.84Mb
-      - US_457 TGkfun |31.17Mb
-      - US_456 TGekfun |28.81Mb
-      - NL_267 TGkfun | 5.39Mb
-      - DE_150 TGekfun |15.00Mb
-      - US_418 TGekfun |33.70Mb
-      - NL_237 TGekfun |24.18Mb
-      - US_450 TGkfun |28.90Mb
-      - NL_234 TGkfun | 8.13Mb
-      - NL_244 TGeekfun |10.53Mb
-      - NL_243 TGekfun | 8.66Mb
-      - DE_138 TGkfun |27.55Mb
-      - US_449 TGekfun | 7.39Mb
-      - NL_280 TGfun |23.56Mb
-      - US_451 TGkfun |29.21Mb
-      - NL_277 TGkfun |23.77Mb
-      - ZZ_516 TGekfun |32.55Mb
-      - NL_246 TGkfun |22.76Mb
-      - US_459 TGekfun | 8.96Mb
-      - NL_270 TGun | 4.99Mb
-      - NL_248 TGeekfun |25.28Mb
-      - NL_247 TGekfun |23.92Mb
-      - ZZ_528 TGekfun | 6.63Mb
-      - ZZ_529 TGkfun |30.00Mb
-      - ZZ_527 TGekfun |23.29Mb
-      - US_469 TGeekfun |28.50Mb
-      - DE_125 TGekfun |26.99Mb
-      - ZZ_532 TGkfun |33.78Mb
-      - US_436 TGkfun |32.96Mb
-      - ZZ_519 TGun |31.16Mb
-      - US_455 TGekfun |32.47Mb
-      - NL_252 TGkfun |23.85Mb
-      - ZZ_515 TGkfun |12.45Mb
-      - US_410 TGfun |31.91Mb
-      - US_428 TGun |28.76Mb
-      - US_452 TGun |31.16Mb
-      - LT_211 TGfun |10.85Mb
-      - ZZ_517 TGfun |33.97Mb
-      - US_454 TGfun |23.32Mb
-      - ZZ_534 TGkfun | 9.62Mb
-      - ZZ_511 TGkfun |34.71Mb
-      - ZZ_522 TGeekfun |32.59Mb
-      - US_462 TGfun | 7.68Mb
-      - US_429 TGkfun |32.44Mb
-      - ZZ_536 TGkfun | 9.66Mb
-      - ZZ_530 TGekfun |32.89Mb
-      - US_415 TGekfun |20.54Mb
-      - US_461 TGeekfun | 9.93Mb
-      - ZZ_524 TGekfun |34.99Mb
-      - NL_253 TGekfun |24.30Mb
-      - ZZ_518 TGkfun |16.51Mb
-      - ZZ_521 Teekfun |29.71Mb
-      - ZZ_510 TGeekfun |33.23Mb
-      - US_438 TGekfun |33.61Mb
-      - ZZ_531 TGekfun |26.77Mb
-      - US_417 TGekfun |33.54Mb
-      - CN_103 TGkfun | 2.71Mb
-      - ZZ_514 TGkfun |17.39Mb
-      - US_423 TGfun | 8.33Mb
-      - US_413 TGekfun |33.17Mb
-      - US_426 TGkfun | 9.56Mb
-      - ZZ_533 TGfun | 7.70Mb
-      - ZZ_523 TGekfun |29.81Mb
-      - US_414 TGkfun |31.18Mb
-      - US_463 TGekfun |31.37Mb
-      - US_465 TGun |10.89Mb
-      - US_464 TGkfun |31.66Mb
-      - US_453 TGkfun |32.33Mb
-      - US_466 TGekfun |32.19Mb
-      - NL_269 TGfun |24.45Mb
-      - US_442 TGkfun |10.84Mb
-      - US_411 TGekfun |34.30Mb
-      - US_435 TGekfun |27.00Mb
-      - US_412 TGkfun |34.42Mb
-      - US_419 Tekfun |28.78Mb
-      - US_421 TGkfun |33.14Mb
-      - NL_238 TGekfun |12.88Mb
-      - NL_257 TGekfun |23.55Mb
-      - LT_197 TGkfun |34.52Mb
-      - LT_192 TGekfun | 8.09Mb
-      - LT_195 TGkfun |27.38Mb
-      - LT_199 TGkfun |31.22Mb
-      - LT_209 TGekfun |34.50Mb
-      - LT_210 TGekfun |15.88Mb
-      - LT_214 TGun | 6.62Mb
-      - CN_118 TGun |33.67Mb
+      - JCBB_韩国02【vip2】
+      - JCBB_台湾01【vip2】
+      - 香港 负载均衡
+      - JCBB_日本02【vip1】
+      - JCBB_日本01【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_美国03【vip1】
+      - JCBB_德国02【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_新加坡02【vip1】
+      - JCBB_新加坡04【vip1】
+      - JCBB_美国01【vip1】
+      - JCBB_韩国01【vip2】
+      - JCBB_美国02【vip1】
+      - JCBB_德国01【vip1】
+      - JCBB_英国01【vip1】
+      - JCBB_新加坡03【vip1】
+      - JCBB_英国02【vip1】
+      - JCBB_美国04【vip1】
+      - JCBB_台湾04【vip2】
+      - JCBB_香港02【vip1】
+      - JCBB_香港05【vip1】
+      - JCBB_香港06【vip1】
+      - JCBB_香港01【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_台湾03【vip2】
+      - JCBB_印度02【vip1】
+      - JCBB_日本04【vip1】
+      - 「㋅ KinGs㉿¹¹ 」共享 7
+      - 「㋅ KinGs㉿¹¹ 」共享 8
+      - 「㋅ KinGs♭¹¹ 」¹22
+      - 「㋅ KinGs♭¹¹ 」¹72
+      - AU openit.ml
+      - AU_115
+      - AU_21
+      - AU_291
+      - AU_4
+      - AU_61
+      - AU_72
+      - CN_100
+      - CN_111
+      - CN_112
+      - CN_97
+      - HINET/AZHK
+      - HK_300
+      - HK_84
+      - IN l
+      - JP_104
+      - JP_70
+      - JP_92
+      - KR_88
+      - SG|新加坡
+      - Unknown_304
+      - US ml
+      - US  2
+      - US_38
+      - HCM Free
+      - HK Free
+      - Hanoi Gaming Free
+      - HCM Gaming Free
+      - HK Gaming Free
+      - ✿ Hà Nội TLS
+      - ✿ HCM
+      - ✿ HCM TLS
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - JCBB_台湾01【vip2】
+      - 香港 负载均衡
+      - JCBB_台湾04【vip2】
+      - JCBB_香港02【vip1】
+      - JCBB_香港05【vip1】
+      - JCBB_香港06【vip1】
+      - JCBB_香港01【vip1】
+      - JCBB_台湾03【vip2】
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - RU_131
-      - 561_14.62Mb |11.76Mb
-      - 339_22.30Mb | 7.90Mb
-      - AE_02  | 7.06Mb
-      - CN_121  | 6.18Mb
-      - AE_01 TG | 6.26Mb
-      - CN_104 TG |43.50Mb
-      - AU_04 TG@n | 8.40Mb
-      - NL_266 TG |12.23Mb
-      - NL_249 TGn |21.46Mb
-      - US_476 TGn | 8.58Mb
-      - NL_279 TG |11.93Mb
-      - NL_262 TG | 9.22Mb
-      - NL_272 TGn | 7.35Mb
-      - RU_333 TGn |11.39Mb
-      - NL_231 TGkfun | 5.07Mb
-      - CN_196 |15.05Mb
-      - NL_271 TGfun | 5.61Mb
-      - US_448 TGkfun |23.11Mb
-      - NL_265 TGkfun | 6.35Mb
-      - US_424 TGkfun |10.27Mb
-      - CN_187 |30.33Mb
-      - NL_250 TGkfun |10.18Mb
-      - NL_275 TGkfun |12.37Mb
-      - CN_102 TGekfun |30.84Mb
-      - NL_274 TGekfun | 8.24Mb
-      - CN_107 TGkfun |11.50Mb
-      - RU_373 TGeekfun |10.49Mb
-      - NL_230 TGekfun | 7.83Mb
-      - RU_374 TGekfun |10.43Mb
-      - US_446 TGekfun |17.46Mb
-      - NL_259 TGfun |31.01Mb
-      - NL_233 TGkfun | 5.19Mb
-      - UA_405 TGekfun | 8.03Mb
-      - NL_235 TGekfun | 4.44Mb
-      - RU_312 TGekfun | 3.50Mb
-      - NL_229 TGekfun | 8.14Mb
-      - CN_112 TGekfun | 7.28Mb
-      - RU_356 TGekfun | 6.96Mb
-      - US_444 TGeekfun |22.58Mb
-      - US_425 TGekfun |20.25Mb
-      - NL_273 TGkfun | 5.00Mb
-      - US_437 TGekfun |28.58Mb
-      - AU_28 TGkfun | 8.69Mb
-      - CN_109 TGkfun |21.34Mb
-      - ZZ_525 TGekfun |12.35Mb
-      - RU_740 | 2.39Mb
-      - RU_630 | 2.43Mb
-      - NL_239 TGekfun |13.48Mb
-      - RU_349 TGekfun |11.18Mb
-      - CN_173 |34.68Mb
-      - CN_181 | 8.73Mb
-      - US_458 TGeekfun |30.51Mb
-      - JP_184 TGkfun |26.07Mb
-      - CN_105 TGekfun | 8.41Mb
-      - NL_251 TGkfun |10.06Mb
-      - AU_11 TGkfun | 8.01Mb
-      - AU_38 TGekfun | 7.96Mb
-      - AU_07 TGekfun | 7.97Mb
-      - AU_23 TGeekfun | 8.01Mb
-      - AU_27 TGekfun | 8.35Mb
-      - AU_13 TGekfun | 8.14Mb
-      - NL_263 TGeekfun | 5.31Mb
-      - CN_178 |48.10Mb
-      - RU_305 TGekfun | 8.12Mb
-      - RU_341 TGekfun | 2.29Mb
-      - LT_201 TGekfun |35.67Mb
-      - CN_193 |33.42Mb
-      - US_492 TGkfun | 3.25Mb
-      - RU_357 TGkfun | 3.72Mb
-      - RU_342 TGekfun | 2.03Mb
-      - RU_363 TGekfun |10.04Mb
-      - RU_360 TGeekfun | 5.02Mb
-      - RU_303 TGkfun | 1.60Mb
-      - CN_108 TGkfun | 8.81Mb
-      - NL_276 TGekfun | 8.11Mb
-      - US_440 TGekfun |34.09Mb
-      - US_468 TGkfun |26.63Mb
-      - US_441 TGkfun |25.65Mb
-      - US_460 TGkfun |28.35Mb
-      - RU_371 TGkfun |11.02Mb
-      - CN_197 |47.58Mb
-      - US_447 TGekfun |14.30Mb
-      - US_443 TGekfun |19.31Mb
-      - LT_189 TGkfun | 4.36Mb
-      - DE_134 TGkfun |26.75Mb
-      - CN_106 TGkfun |11.38Mb
-      - NL_268 TGfun | 4.55Mb
-      - RU_302 TGeekfun | 5.92Mb
-      - RU_383 TGeekfun | 5.09Mb
-      - CN_186 |17.59Mb
-      - US_427 TGfun |13.53Mb
-      - US_420 TGkfun |33.71Mb
-      - ZZ_513 TGkfun |23.72Mb
-      - RU_694 |11.21Mb
-      - US_416 TGekfun | 5.65Mb
-      - NL_232 TGfun | 5.51Mb
-      - GB_156 TGkfun |21.72Mb
-      - RU_321 TGekfun |27.29Mb
-      - US_445 TGekfun |20.55Mb
-      - NL_245 TGfun |20.83Mb
-      - ZZ_520 TGfun |29.76Mb
-      - CN_177 |43.70Mb
-      - RU_679 | 5.07Mb
-      - DE_139 TGekfun |23.80Mb
-      - RU_644 | 5.80Mb
-      - RU_677 | 6.33Mb
-      - CN_110 TGeekfun |98.00Mb
-      - RU_656 | 5.13Mb
-      - RU_660 |19.72Mb
-      - RU_668 | 6.72Mb
-      - RU_386 TGfun |10.76Mb
-      - RU_316 TGekfun | 9.96Mb
-      - RU_382 TGeekfun |10.94Mb
-      - CN_115 TGekfun |54.38Mb
-      - CN_111 TGkfun |41.69Mb
-      - US_431 TGun |26.83Mb
-      - US_430 Tekfun |27.27Mb
-      - NL_255 TGn |11.20Mb
-      - US_467 TGfun |26.39Mb
-      - US_434 TGkfun |29.26Mb
-      - US_422 TGfun | 8.38Mb
-      - US_439 TGkfun |26.53Mb
-      - CN_198 |14.22Mb
-      - CN_76 TGkfun |11.84Mb
-      - US_457 TGkfun |31.17Mb
-      - US_456 TGekfun |28.81Mb
-      - NL_267 TGkfun | 5.39Mb
-      - DE_150 TGekfun |15.00Mb
-      - US_418 TGekfun |33.70Mb
-      - NL_237 TGekfun |24.18Mb
-      - US_450 TGkfun |28.90Mb
-      - NL_234 TGkfun | 8.13Mb
-      - NL_244 TGeekfun |10.53Mb
-      - NL_243 TGekfun | 8.66Mb
-      - DE_138 TGkfun |27.55Mb
-      - US_449 TGekfun | 7.39Mb
-      - NL_280 TGfun |23.56Mb
-      - US_451 TGkfun |29.21Mb
-      - NL_277 TGkfun |23.77Mb
-      - ZZ_516 TGekfun |32.55Mb
-      - NL_246 TGkfun |22.76Mb
-      - US_459 TGekfun | 8.96Mb
-      - NL_270 TGun | 4.99Mb
-      - NL_248 TGeekfun |25.28Mb
-      - NL_247 TGekfun |23.92Mb
-      - ZZ_528 TGekfun | 6.63Mb
-      - ZZ_529 TGkfun |30.00Mb
-      - ZZ_527 TGekfun |23.29Mb
-      - US_469 TGeekfun |28.50Mb
-      - DE_125 TGekfun |26.99Mb
-      - ZZ_532 TGkfun |33.78Mb
-      - US_436 TGkfun |32.96Mb
-      - ZZ_519 TGun |31.16Mb
-      - US_455 TGekfun |32.47Mb
-      - NL_252 TGkfun |23.85Mb
-      - ZZ_515 TGkfun |12.45Mb
-      - US_410 TGfun |31.91Mb
-      - US_428 TGun |28.76Mb
-      - US_452 TGun |31.16Mb
-      - LT_211 TGfun |10.85Mb
-      - ZZ_517 TGfun |33.97Mb
-      - US_454 TGfun |23.32Mb
-      - ZZ_534 TGkfun | 9.62Mb
-      - ZZ_511 TGkfun |34.71Mb
-      - ZZ_522 TGeekfun |32.59Mb
-      - US_462 TGfun | 7.68Mb
-      - US_429 TGkfun |32.44Mb
-      - ZZ_536 TGkfun | 9.66Mb
-      - ZZ_530 TGekfun |32.89Mb
-      - US_415 TGekfun |20.54Mb
-      - US_461 TGeekfun | 9.93Mb
-      - ZZ_524 TGekfun |34.99Mb
-      - NL_253 TGekfun |24.30Mb
-      - ZZ_518 TGkfun |16.51Mb
-      - ZZ_521 Teekfun |29.71Mb
-      - ZZ_510 TGeekfun |33.23Mb
-      - US_438 TGekfun |33.61Mb
-      - ZZ_531 TGekfun |26.77Mb
-      - US_417 TGekfun |33.54Mb
-      - CN_103 TGkfun | 2.71Mb
-      - ZZ_514 TGkfun |17.39Mb
-      - US_423 TGfun | 8.33Mb
-      - US_413 TGekfun |33.17Mb
-      - US_426 TGkfun | 9.56Mb
-      - ZZ_533 TGfun | 7.70Mb
-      - ZZ_523 TGekfun |29.81Mb
-      - US_414 TGkfun |31.18Mb
-      - US_463 TGekfun |31.37Mb
-      - US_465 TGun |10.89Mb
-      - US_464 TGkfun |31.66Mb
-      - US_453 TGkfun |32.33Mb
-      - US_466 TGekfun |32.19Mb
-      - NL_269 TGfun |24.45Mb
-      - US_442 TGkfun |10.84Mb
-      - US_411 TGekfun |34.30Mb
-      - US_435 TGekfun |27.00Mb
-      - US_412 TGkfun |34.42Mb
-      - US_419 Tekfun |28.78Mb
-      - US_421 TGkfun |33.14Mb
-      - NL_238 TGekfun |12.88Mb
-      - NL_257 TGekfun |23.55Mb
-      - LT_197 TGkfun |34.52Mb
-      - LT_192 TGekfun | 8.09Mb
-      - LT_195 TGkfun |27.38Mb
-      - LT_199 TGkfun |31.22Mb
-      - LT_209 TGekfun |34.50Mb
-      - LT_210 TGekfun |15.88Mb
-      - LT_214 TGun | 6.62Mb
-      - CN_118 TGun |33.67Mb
+      - JCBB_韩国02【vip2】
+      - JCBB_台湾01【vip2】
+      - 香港 负载均衡
+      - JCBB_日本02【vip1】
+      - JCBB_日本01【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_美国03【vip1】
+      - JCBB_德国02【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_新加坡02【vip1】
+      - JCBB_新加坡04【vip1】
+      - JCBB_美国01【vip1】
+      - JCBB_韩国01【vip2】
+      - JCBB_美国02【vip1】
+      - JCBB_德国01【vip1】
+      - JCBB_英国01【vip1】
+      - JCBB_新加坡03【vip1】
+      - JCBB_英国02【vip1】
+      - JCBB_美国04【vip1】
+      - JCBB_台湾04【vip2】
+      - JCBB_香港02【vip1】
+      - JCBB_香港05【vip1】
+      - JCBB_香港06【vip1】
+      - JCBB_香港01【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_台湾03【vip2】
+      - JCBB_印度02【vip1】
+      - JCBB_日本04【vip1】
+      - 「㋅ KinGs㉿¹¹ 」共享 7
+      - 「㋅ KinGs㉿¹¹ 」共享 8
+      - 「㋅ KinGs♭¹¹ 」¹22
+      - 「㋅ KinGs♭¹¹ 」¹72
+      - AU openit.ml
+      - AU_115
+      - AU_21
+      - AU_291
+      - AU_4
+      - AU_61
+      - AU_72
+      - CN_100
+      - CN_111
+      - CN_112
+      - CN_97
+      - HINET/AZHK
+      - HK_300
+      - HK_84
+      - IN l
+      - JP_104
+      - JP_70
+      - JP_92
+      - KR_88
+      - SG|新加坡
+      - Unknown_304
+      - US ml
+      - US  2
+      - US_38
+      - HCM Free
+      - HK Free
+      - Hanoi Gaming Free
+      - HCM Gaming Free
+      - HK Gaming Free
+      - ✿ Hà Nội TLS
+      - ✿ HCM
+      - ✿ HCM TLS
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - RU_131
-      - 561_14.62Mb |11.76Mb
-      - 339_22.30Mb | 7.90Mb
-      - AE_02  | 7.06Mb
-      - CN_121  | 6.18Mb
-      - AE_01 TG | 6.26Mb
-      - CN_104 TG |43.50Mb
-      - AU_04 TG@n | 8.40Mb
-      - NL_266 TG |12.23Mb
-      - NL_249 TGn |21.46Mb
-      - US_476 TGn | 8.58Mb
-      - NL_279 TG |11.93Mb
-      - NL_262 TG | 9.22Mb
-      - NL_272 TGn | 7.35Mb
-      - RU_333 TGn |11.39Mb
-      - NL_231 TGkfun | 5.07Mb
-      - CN_196 |15.05Mb
-      - NL_271 TGfun | 5.61Mb
-      - US_448 TGkfun |23.11Mb
-      - NL_265 TGkfun | 6.35Mb
-      - US_424 TGkfun |10.27Mb
-      - CN_187 |30.33Mb
-      - NL_250 TGkfun |10.18Mb
-      - NL_275 TGkfun |12.37Mb
-      - CN_102 TGekfun |30.84Mb
-      - NL_274 TGekfun | 8.24Mb
-      - CN_107 TGkfun |11.50Mb
-      - RU_373 TGeekfun |10.49Mb
-      - NL_230 TGekfun | 7.83Mb
-      - RU_374 TGekfun |10.43Mb
-      - US_446 TGekfun |17.46Mb
-      - NL_259 TGfun |31.01Mb
-      - NL_233 TGkfun | 5.19Mb
-      - UA_405 TGekfun | 8.03Mb
-      - NL_235 TGekfun | 4.44Mb
-      - RU_312 TGekfun | 3.50Mb
-      - NL_229 TGekfun | 8.14Mb
-      - CN_112 TGekfun | 7.28Mb
-      - RU_356 TGekfun | 6.96Mb
-      - US_444 TGeekfun |22.58Mb
-      - US_425 TGekfun |20.25Mb
-      - NL_273 TGkfun | 5.00Mb
-      - US_437 TGekfun |28.58Mb
-      - AU_28 TGkfun | 8.69Mb
-      - CN_109 TGkfun |21.34Mb
-      - ZZ_525 TGekfun |12.35Mb
-      - RU_740 | 2.39Mb
-      - RU_630 | 2.43Mb
-      - NL_239 TGekfun |13.48Mb
-      - RU_349 TGekfun |11.18Mb
-      - CN_173 |34.68Mb
-      - CN_181 | 8.73Mb
-      - US_458 TGeekfun |30.51Mb
-      - JP_184 TGkfun |26.07Mb
-      - CN_105 TGekfun | 8.41Mb
-      - NL_251 TGkfun |10.06Mb
-      - AU_11 TGkfun | 8.01Mb
-      - AU_38 TGekfun | 7.96Mb
-      - AU_07 TGekfun | 7.97Mb
-      - AU_23 TGeekfun | 8.01Mb
-      - AU_27 TGekfun | 8.35Mb
-      - AU_13 TGekfun | 8.14Mb
-      - NL_263 TGeekfun | 5.31Mb
-      - CN_178 |48.10Mb
-      - RU_305 TGekfun | 8.12Mb
-      - RU_341 TGekfun | 2.29Mb
-      - LT_201 TGekfun |35.67Mb
-      - CN_193 |33.42Mb
-      - US_492 TGkfun | 3.25Mb
-      - RU_357 TGkfun | 3.72Mb
-      - RU_342 TGekfun | 2.03Mb
-      - RU_363 TGekfun |10.04Mb
-      - RU_360 TGeekfun | 5.02Mb
-      - RU_303 TGkfun | 1.60Mb
-      - CN_108 TGkfun | 8.81Mb
-      - NL_276 TGekfun | 8.11Mb
-      - US_440 TGekfun |34.09Mb
-      - US_468 TGkfun |26.63Mb
-      - US_441 TGkfun |25.65Mb
-      - US_460 TGkfun |28.35Mb
-      - RU_371 TGkfun |11.02Mb
-      - CN_197 |47.58Mb
-      - US_447 TGekfun |14.30Mb
-      - US_443 TGekfun |19.31Mb
-      - LT_189 TGkfun | 4.36Mb
-      - DE_134 TGkfun |26.75Mb
-      - CN_106 TGkfun |11.38Mb
-      - NL_268 TGfun | 4.55Mb
-      - RU_302 TGeekfun | 5.92Mb
-      - RU_383 TGeekfun | 5.09Mb
-      - CN_186 |17.59Mb
-      - US_427 TGfun |13.53Mb
-      - US_420 TGkfun |33.71Mb
-      - ZZ_513 TGkfun |23.72Mb
-      - RU_694 |11.21Mb
-      - US_416 TGekfun | 5.65Mb
-      - NL_232 TGfun | 5.51Mb
-      - GB_156 TGkfun |21.72Mb
-      - RU_321 TGekfun |27.29Mb
-      - US_445 TGekfun |20.55Mb
-      - NL_245 TGfun |20.83Mb
-      - ZZ_520 TGfun |29.76Mb
-      - CN_177 |43.70Mb
-      - RU_679 | 5.07Mb
-      - DE_139 TGekfun |23.80Mb
-      - RU_644 | 5.80Mb
-      - RU_677 | 6.33Mb
-      - CN_110 TGeekfun |98.00Mb
-      - RU_656 | 5.13Mb
-      - RU_660 |19.72Mb
-      - RU_668 | 6.72Mb
-      - RU_386 TGfun |10.76Mb
-      - RU_316 TGekfun | 9.96Mb
-      - RU_382 TGeekfun |10.94Mb
-      - CN_115 TGekfun |54.38Mb
-      - CN_111 TGkfun |41.69Mb
-      - US_431 TGun |26.83Mb
-      - US_430 Tekfun |27.27Mb
-      - NL_255 TGn |11.20Mb
-      - US_467 TGfun |26.39Mb
-      - US_434 TGkfun |29.26Mb
-      - US_422 TGfun | 8.38Mb
-      - US_439 TGkfun |26.53Mb
-      - CN_198 |14.22Mb
-      - CN_76 TGkfun |11.84Mb
-      - US_457 TGkfun |31.17Mb
-      - US_456 TGekfun |28.81Mb
-      - NL_267 TGkfun | 5.39Mb
-      - DE_150 TGekfun |15.00Mb
-      - US_418 TGekfun |33.70Mb
-      - NL_237 TGekfun |24.18Mb
-      - US_450 TGkfun |28.90Mb
-      - NL_234 TGkfun | 8.13Mb
-      - NL_244 TGeekfun |10.53Mb
-      - NL_243 TGekfun | 8.66Mb
-      - DE_138 TGkfun |27.55Mb
-      - US_449 TGekfun | 7.39Mb
-      - NL_280 TGfun |23.56Mb
-      - US_451 TGkfun |29.21Mb
-      - NL_277 TGkfun |23.77Mb
-      - ZZ_516 TGekfun |32.55Mb
-      - NL_246 TGkfun |22.76Mb
-      - US_459 TGekfun | 8.96Mb
-      - NL_270 TGun | 4.99Mb
-      - NL_248 TGeekfun |25.28Mb
-      - NL_247 TGekfun |23.92Mb
-      - ZZ_528 TGekfun | 6.63Mb
-      - ZZ_529 TGkfun |30.00Mb
-      - ZZ_527 TGekfun |23.29Mb
-      - US_469 TGeekfun |28.50Mb
-      - DE_125 TGekfun |26.99Mb
-      - ZZ_532 TGkfun |33.78Mb
-      - US_436 TGkfun |32.96Mb
-      - ZZ_519 TGun |31.16Mb
-      - US_455 TGekfun |32.47Mb
-      - NL_252 TGkfun |23.85Mb
-      - ZZ_515 TGkfun |12.45Mb
-      - US_410 TGfun |31.91Mb
-      - US_428 TGun |28.76Mb
-      - US_452 TGun |31.16Mb
-      - LT_211 TGfun |10.85Mb
-      - ZZ_517 TGfun |33.97Mb
-      - US_454 TGfun |23.32Mb
-      - ZZ_534 TGkfun | 9.62Mb
-      - ZZ_511 TGkfun |34.71Mb
-      - ZZ_522 TGeekfun |32.59Mb
-      - US_462 TGfun | 7.68Mb
-      - US_429 TGkfun |32.44Mb
-      - ZZ_536 TGkfun | 9.66Mb
-      - ZZ_530 TGekfun |32.89Mb
-      - US_415 TGekfun |20.54Mb
-      - US_461 TGeekfun | 9.93Mb
-      - ZZ_524 TGekfun |34.99Mb
-      - NL_253 TGekfun |24.30Mb
-      - ZZ_518 TGkfun |16.51Mb
-      - ZZ_521 Teekfun |29.71Mb
-      - ZZ_510 TGeekfun |33.23Mb
-      - US_438 TGekfun |33.61Mb
-      - ZZ_531 TGekfun |26.77Mb
-      - US_417 TGekfun |33.54Mb
-      - CN_103 TGkfun | 2.71Mb
-      - ZZ_514 TGkfun |17.39Mb
-      - US_423 TGfun | 8.33Mb
-      - US_413 TGekfun |33.17Mb
-      - US_426 TGkfun | 9.56Mb
-      - ZZ_533 TGfun | 7.70Mb
-      - ZZ_523 TGekfun |29.81Mb
-      - US_414 TGkfun |31.18Mb
-      - US_463 TGekfun |31.37Mb
-      - US_465 TGun |10.89Mb
-      - US_464 TGkfun |31.66Mb
-      - US_453 TGkfun |32.33Mb
-      - US_466 TGekfun |32.19Mb
-      - NL_269 TGfun |24.45Mb
-      - US_442 TGkfun |10.84Mb
-      - US_411 TGekfun |34.30Mb
-      - US_435 TGekfun |27.00Mb
-      - US_412 TGkfun |34.42Mb
-      - US_419 Tekfun |28.78Mb
-      - US_421 TGkfun |33.14Mb
-      - NL_238 TGekfun |12.88Mb
-      - NL_257 TGekfun |23.55Mb
-      - LT_197 TGkfun |34.52Mb
-      - LT_192 TGekfun | 8.09Mb
-      - LT_195 TGkfun |27.38Mb
-      - LT_199 TGkfun |31.22Mb
-      - LT_209 TGekfun |34.50Mb
-      - LT_210 TGekfun |15.88Mb
-      - LT_214 TGun | 6.62Mb
-      - CN_118 TGun |33.67Mb
+      - JCBB_韩国02【vip2】
+      - JCBB_台湾01【vip2】
+      - 香港 负载均衡
+      - JCBB_日本02【vip1】
+      - JCBB_日本01【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_美国03【vip1】
+      - JCBB_德国02【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_新加坡02【vip1】
+      - JCBB_新加坡04【vip1】
+      - JCBB_美国01【vip1】
+      - JCBB_韩国01【vip2】
+      - JCBB_美国02【vip1】
+      - JCBB_德国01【vip1】
+      - JCBB_英国01【vip1】
+      - JCBB_新加坡03【vip1】
+      - JCBB_英国02【vip1】
+      - JCBB_美国04【vip1】
+      - JCBB_台湾04【vip2】
+      - JCBB_香港02【vip1】
+      - JCBB_香港05【vip1】
+      - JCBB_香港06【vip1】
+      - JCBB_香港01【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_台湾03【vip2】
+      - JCBB_印度02【vip1】
+      - JCBB_日本04【vip1】
+      - 「㋅ KinGs㉿¹¹ 」共享 7
+      - 「㋅ KinGs㉿¹¹ 」共享 8
+      - 「㋅ KinGs♭¹¹ 」¹22
+      - 「㋅ KinGs♭¹¹ 」¹72
+      - AU openit.ml
+      - AU_115
+      - AU_21
+      - AU_291
+      - AU_4
+      - AU_61
+      - AU_72
+      - CN_100
+      - CN_111
+      - CN_112
+      - CN_97
+      - HINET/AZHK
+      - HK_300
+      - HK_84
+      - IN l
+      - JP_104
+      - JP_70
+      - JP_92
+      - KR_88
+      - SG|新加坡
+      - Unknown_304
+      - US ml
+      - US  2
+      - US_38
+      - HCM Free
+      - HK Free
+      - Hanoi Gaming Free
+      - HCM Gaming Free
+      - HK Gaming Free
+      - ✿ Hà Nội TLS
+      - ✿ HCM
+      - ✿ HCM TLS
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RU_131
-      - 561_14.62Mb |11.76Mb
-      - 339_22.30Mb | 7.90Mb
-      - AE_02  | 7.06Mb
-      - CN_121  | 6.18Mb
-      - AE_01 TG | 6.26Mb
-      - CN_104 TG |43.50Mb
-      - AU_04 TG@n | 8.40Mb
-      - NL_266 TG |12.23Mb
-      - NL_249 TGn |21.46Mb
-      - US_476 TGn | 8.58Mb
-      - NL_279 TG |11.93Mb
-      - NL_262 TG | 9.22Mb
-      - NL_272 TGn | 7.35Mb
-      - RU_333 TGn |11.39Mb
-      - NL_231 TGkfun | 5.07Mb
-      - CN_196 |15.05Mb
-      - NL_271 TGfun | 5.61Mb
-      - US_448 TGkfun |23.11Mb
-      - NL_265 TGkfun | 6.35Mb
-      - US_424 TGkfun |10.27Mb
-      - CN_187 |30.33Mb
-      - NL_250 TGkfun |10.18Mb
-      - NL_275 TGkfun |12.37Mb
-      - CN_102 TGekfun |30.84Mb
-      - NL_274 TGekfun | 8.24Mb
-      - CN_107 TGkfun |11.50Mb
-      - RU_373 TGeekfun |10.49Mb
-      - NL_230 TGekfun | 7.83Mb
-      - RU_374 TGekfun |10.43Mb
-      - US_446 TGekfun |17.46Mb
-      - NL_259 TGfun |31.01Mb
-      - NL_233 TGkfun | 5.19Mb
-      - UA_405 TGekfun | 8.03Mb
-      - NL_235 TGekfun | 4.44Mb
-      - RU_312 TGekfun | 3.50Mb
-      - NL_229 TGekfun | 8.14Mb
-      - CN_112 TGekfun | 7.28Mb
-      - RU_356 TGekfun | 6.96Mb
-      - US_444 TGeekfun |22.58Mb
-      - US_425 TGekfun |20.25Mb
-      - NL_273 TGkfun | 5.00Mb
-      - US_437 TGekfun |28.58Mb
-      - AU_28 TGkfun | 8.69Mb
-      - CN_109 TGkfun |21.34Mb
-      - ZZ_525 TGekfun |12.35Mb
-      - RU_740 | 2.39Mb
-      - RU_630 | 2.43Mb
-      - NL_239 TGekfun |13.48Mb
-      - RU_349 TGekfun |11.18Mb
-      - CN_173 |34.68Mb
-      - CN_181 | 8.73Mb
-      - US_458 TGeekfun |30.51Mb
-      - JP_184 TGkfun |26.07Mb
-      - CN_105 TGekfun | 8.41Mb
-      - NL_251 TGkfun |10.06Mb
-      - AU_11 TGkfun | 8.01Mb
-      - AU_38 TGekfun | 7.96Mb
-      - AU_07 TGekfun | 7.97Mb
-      - AU_23 TGeekfun | 8.01Mb
-      - AU_27 TGekfun | 8.35Mb
-      - AU_13 TGekfun | 8.14Mb
-      - NL_263 TGeekfun | 5.31Mb
-      - CN_178 |48.10Mb
-      - RU_305 TGekfun | 8.12Mb
-      - RU_341 TGekfun | 2.29Mb
-      - LT_201 TGekfun |35.67Mb
-      - CN_193 |33.42Mb
-      - US_492 TGkfun | 3.25Mb
-      - RU_357 TGkfun | 3.72Mb
-      - RU_342 TGekfun | 2.03Mb
-      - RU_363 TGekfun |10.04Mb
-      - RU_360 TGeekfun | 5.02Mb
-      - RU_303 TGkfun | 1.60Mb
-      - CN_108 TGkfun | 8.81Mb
-      - NL_276 TGekfun | 8.11Mb
-      - US_440 TGekfun |34.09Mb
-      - US_468 TGkfun |26.63Mb
-      - US_441 TGkfun |25.65Mb
-      - US_460 TGkfun |28.35Mb
-      - RU_371 TGkfun |11.02Mb
-      - CN_197 |47.58Mb
-      - US_447 TGekfun |14.30Mb
-      - US_443 TGekfun |19.31Mb
-      - LT_189 TGkfun | 4.36Mb
-      - DE_134 TGkfun |26.75Mb
-      - CN_106 TGkfun |11.38Mb
-      - NL_268 TGfun | 4.55Mb
-      - RU_302 TGeekfun | 5.92Mb
-      - RU_383 TGeekfun | 5.09Mb
-      - CN_186 |17.59Mb
-      - US_427 TGfun |13.53Mb
-      - US_420 TGkfun |33.71Mb
-      - ZZ_513 TGkfun |23.72Mb
-      - RU_694 |11.21Mb
-      - US_416 TGekfun | 5.65Mb
-      - NL_232 TGfun | 5.51Mb
-      - GB_156 TGkfun |21.72Mb
-      - RU_321 TGekfun |27.29Mb
-      - US_445 TGekfun |20.55Mb
-      - NL_245 TGfun |20.83Mb
-      - ZZ_520 TGfun |29.76Mb
-      - CN_177 |43.70Mb
-      - RU_679 | 5.07Mb
-      - DE_139 TGekfun |23.80Mb
-      - RU_644 | 5.80Mb
-      - RU_677 | 6.33Mb
-      - CN_110 TGeekfun |98.00Mb
-      - RU_656 | 5.13Mb
-      - RU_660 |19.72Mb
-      - RU_668 | 6.72Mb
-      - RU_386 TGfun |10.76Mb
-      - RU_316 TGekfun | 9.96Mb
-      - RU_382 TGeekfun |10.94Mb
-      - CN_115 TGekfun |54.38Mb
-      - CN_111 TGkfun |41.69Mb
-      - US_431 TGun |26.83Mb
-      - US_430 Tekfun |27.27Mb
-      - NL_255 TGn |11.20Mb
-      - US_467 TGfun |26.39Mb
-      - US_434 TGkfun |29.26Mb
-      - US_422 TGfun | 8.38Mb
-      - US_439 TGkfun |26.53Mb
-      - CN_198 |14.22Mb
-      - CN_76 TGkfun |11.84Mb
-      - US_457 TGkfun |31.17Mb
-      - US_456 TGekfun |28.81Mb
-      - NL_267 TGkfun | 5.39Mb
-      - DE_150 TGekfun |15.00Mb
-      - US_418 TGekfun |33.70Mb
-      - NL_237 TGekfun |24.18Mb
-      - US_450 TGkfun |28.90Mb
-      - NL_234 TGkfun | 8.13Mb
-      - NL_244 TGeekfun |10.53Mb
-      - NL_243 TGekfun | 8.66Mb
-      - DE_138 TGkfun |27.55Mb
-      - US_449 TGekfun | 7.39Mb
-      - NL_280 TGfun |23.56Mb
-      - US_451 TGkfun |29.21Mb
-      - NL_277 TGkfun |23.77Mb
-      - ZZ_516 TGekfun |32.55Mb
-      - NL_246 TGkfun |22.76Mb
-      - US_459 TGekfun | 8.96Mb
-      - NL_270 TGun | 4.99Mb
-      - NL_248 TGeekfun |25.28Mb
-      - NL_247 TGekfun |23.92Mb
-      - ZZ_528 TGekfun | 6.63Mb
-      - ZZ_529 TGkfun |30.00Mb
-      - ZZ_527 TGekfun |23.29Mb
-      - US_469 TGeekfun |28.50Mb
-      - DE_125 TGekfun |26.99Mb
-      - ZZ_532 TGkfun |33.78Mb
-      - US_436 TGkfun |32.96Mb
-      - ZZ_519 TGun |31.16Mb
-      - US_455 TGekfun |32.47Mb
-      - NL_252 TGkfun |23.85Mb
-      - ZZ_515 TGkfun |12.45Mb
-      - US_410 TGfun |31.91Mb
-      - US_428 TGun |28.76Mb
-      - US_452 TGun |31.16Mb
-      - LT_211 TGfun |10.85Mb
-      - ZZ_517 TGfun |33.97Mb
-      - US_454 TGfun |23.32Mb
-      - ZZ_534 TGkfun | 9.62Mb
-      - ZZ_511 TGkfun |34.71Mb
-      - ZZ_522 TGeekfun |32.59Mb
-      - US_462 TGfun | 7.68Mb
-      - US_429 TGkfun |32.44Mb
-      - ZZ_536 TGkfun | 9.66Mb
-      - ZZ_530 TGekfun |32.89Mb
-      - US_415 TGekfun |20.54Mb
-      - US_461 TGeekfun | 9.93Mb
-      - ZZ_524 TGekfun |34.99Mb
-      - NL_253 TGekfun |24.30Mb
-      - ZZ_518 TGkfun |16.51Mb
-      - ZZ_521 Teekfun |29.71Mb
-      - ZZ_510 TGeekfun |33.23Mb
-      - US_438 TGekfun |33.61Mb
-      - ZZ_531 TGekfun |26.77Mb
-      - US_417 TGekfun |33.54Mb
-      - CN_103 TGkfun | 2.71Mb
-      - ZZ_514 TGkfun |17.39Mb
-      - US_423 TGfun | 8.33Mb
-      - US_413 TGekfun |33.17Mb
-      - US_426 TGkfun | 9.56Mb
-      - ZZ_533 TGfun | 7.70Mb
-      - ZZ_523 TGekfun |29.81Mb
-      - US_414 TGkfun |31.18Mb
-      - US_463 TGekfun |31.37Mb
-      - US_465 TGun |10.89Mb
-      - US_464 TGkfun |31.66Mb
-      - US_453 TGkfun |32.33Mb
-      - US_466 TGekfun |32.19Mb
-      - NL_269 TGfun |24.45Mb
-      - US_442 TGkfun |10.84Mb
-      - US_411 TGekfun |34.30Mb
-      - US_435 TGekfun |27.00Mb
-      - US_412 TGkfun |34.42Mb
-      - US_419 Tekfun |28.78Mb
-      - US_421 TGkfun |33.14Mb
-      - NL_238 TGekfun |12.88Mb
-      - NL_257 TGekfun |23.55Mb
-      - LT_197 TGkfun |34.52Mb
-      - LT_192 TGekfun | 8.09Mb
-      - LT_195 TGkfun |27.38Mb
-      - LT_199 TGkfun |31.22Mb
-      - LT_209 TGekfun |34.50Mb
-      - LT_210 TGekfun |15.88Mb
-      - LT_214 TGun | 6.62Mb
-      - CN_118 TGun |33.67Mb
+      - JCBB_韩国02【vip2】
+      - JCBB_台湾01【vip2】
+      - 香港 负载均衡
+      - JCBB_日本02【vip1】
+      - JCBB_日本01【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_美国03【vip1】
+      - JCBB_德国02【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_新加坡02【vip1】
+      - JCBB_新加坡04【vip1】
+      - JCBB_美国01【vip1】
+      - JCBB_韩国01【vip2】
+      - JCBB_美国02【vip1】
+      - JCBB_德国01【vip1】
+      - JCBB_英国01【vip1】
+      - JCBB_新加坡03【vip1】
+      - JCBB_英国02【vip1】
+      - JCBB_美国04【vip1】
+      - JCBB_台湾04【vip2】
+      - JCBB_香港02【vip1】
+      - JCBB_香港05【vip1】
+      - JCBB_香港06【vip1】
+      - JCBB_香港01【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_台湾03【vip2】
+      - JCBB_印度02【vip1】
+      - JCBB_日本04【vip1】
+      - 「㋅ KinGs㉿¹¹ 」共享 7
+      - 「㋅ KinGs㉿¹¹ 」共享 8
+      - 「㋅ KinGs♭¹¹ 」¹22
+      - 「㋅ KinGs♭¹¹ 」¹72
+      - AU openit.ml
+      - AU_115
+      - AU_21
+      - AU_291
+      - AU_4
+      - AU_61
+      - AU_72
+      - CN_100
+      - CN_111
+      - CN_112
+      - CN_97
+      - HINET/AZHK
+      - HK_300
+      - HK_84
+      - IN l
+      - JP_104
+      - JP_70
+      - JP_92
+      - KR_88
+      - SG|新加坡
+      - Unknown_304
+      - US ml
+      - US  2
+      - US_38
+      - HCM Free
+      - HK Free
+      - Hanoi Gaming Free
+      - HCM Gaming Free
+      - HK Gaming Free
+      - ✿ Hà Nội TLS
+      - ✿ HCM
+      - ✿ HCM TLS
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1756,216 +596,70 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RU_131
-      - 561_14.62Mb |11.76Mb
-      - 339_22.30Mb | 7.90Mb
-      - AE_02  | 7.06Mb
-      - CN_121  | 6.18Mb
-      - AE_01 TG | 6.26Mb
-      - CN_104 TG |43.50Mb
-      - AU_04 TG@n | 8.40Mb
-      - NL_266 TG |12.23Mb
-      - NL_249 TGn |21.46Mb
-      - US_476 TGn | 8.58Mb
-      - NL_279 TG |11.93Mb
-      - NL_262 TG | 9.22Mb
-      - NL_272 TGn | 7.35Mb
-      - RU_333 TGn |11.39Mb
-      - NL_231 TGkfun | 5.07Mb
-      - CN_196 |15.05Mb
-      - NL_271 TGfun | 5.61Mb
-      - US_448 TGkfun |23.11Mb
-      - NL_265 TGkfun | 6.35Mb
-      - US_424 TGkfun |10.27Mb
-      - CN_187 |30.33Mb
-      - NL_250 TGkfun |10.18Mb
-      - NL_275 TGkfun |12.37Mb
-      - CN_102 TGekfun |30.84Mb
-      - NL_274 TGekfun | 8.24Mb
-      - CN_107 TGkfun |11.50Mb
-      - RU_373 TGeekfun |10.49Mb
-      - NL_230 TGekfun | 7.83Mb
-      - RU_374 TGekfun |10.43Mb
-      - US_446 TGekfun |17.46Mb
-      - NL_259 TGfun |31.01Mb
-      - NL_233 TGkfun | 5.19Mb
-      - UA_405 TGekfun | 8.03Mb
-      - NL_235 TGekfun | 4.44Mb
-      - RU_312 TGekfun | 3.50Mb
-      - NL_229 TGekfun | 8.14Mb
-      - CN_112 TGekfun | 7.28Mb
-      - RU_356 TGekfun | 6.96Mb
-      - US_444 TGeekfun |22.58Mb
-      - US_425 TGekfun |20.25Mb
-      - NL_273 TGkfun | 5.00Mb
-      - US_437 TGekfun |28.58Mb
-      - AU_28 TGkfun | 8.69Mb
-      - CN_109 TGkfun |21.34Mb
-      - ZZ_525 TGekfun |12.35Mb
-      - RU_740 | 2.39Mb
-      - RU_630 | 2.43Mb
-      - NL_239 TGekfun |13.48Mb
-      - RU_349 TGekfun |11.18Mb
-      - CN_173 |34.68Mb
-      - CN_181 | 8.73Mb
-      - US_458 TGeekfun |30.51Mb
-      - JP_184 TGkfun |26.07Mb
-      - CN_105 TGekfun | 8.41Mb
-      - NL_251 TGkfun |10.06Mb
-      - AU_11 TGkfun | 8.01Mb
-      - AU_38 TGekfun | 7.96Mb
-      - AU_07 TGekfun | 7.97Mb
-      - AU_23 TGeekfun | 8.01Mb
-      - AU_27 TGekfun | 8.35Mb
-      - AU_13 TGekfun | 8.14Mb
-      - NL_263 TGeekfun | 5.31Mb
-      - CN_178 |48.10Mb
-      - RU_305 TGekfun | 8.12Mb
-      - RU_341 TGekfun | 2.29Mb
-      - LT_201 TGekfun |35.67Mb
-      - CN_193 |33.42Mb
-      - US_492 TGkfun | 3.25Mb
-      - RU_357 TGkfun | 3.72Mb
-      - RU_342 TGekfun | 2.03Mb
-      - RU_363 TGekfun |10.04Mb
-      - RU_360 TGeekfun | 5.02Mb
-      - RU_303 TGkfun | 1.60Mb
-      - CN_108 TGkfun | 8.81Mb
-      - NL_276 TGekfun | 8.11Mb
-      - US_440 TGekfun |34.09Mb
-      - US_468 TGkfun |26.63Mb
-      - US_441 TGkfun |25.65Mb
-      - US_460 TGkfun |28.35Mb
-      - RU_371 TGkfun |11.02Mb
-      - CN_197 |47.58Mb
-      - US_447 TGekfun |14.30Mb
-      - US_443 TGekfun |19.31Mb
-      - LT_189 TGkfun | 4.36Mb
-      - DE_134 TGkfun |26.75Mb
-      - CN_106 TGkfun |11.38Mb
-      - NL_268 TGfun | 4.55Mb
-      - RU_302 TGeekfun | 5.92Mb
-      - RU_383 TGeekfun | 5.09Mb
-      - CN_186 |17.59Mb
-      - US_427 TGfun |13.53Mb
-      - US_420 TGkfun |33.71Mb
-      - ZZ_513 TGkfun |23.72Mb
-      - RU_694 |11.21Mb
-      - US_416 TGekfun | 5.65Mb
-      - NL_232 TGfun | 5.51Mb
-      - GB_156 TGkfun |21.72Mb
-      - RU_321 TGekfun |27.29Mb
-      - US_445 TGekfun |20.55Mb
-      - NL_245 TGfun |20.83Mb
-      - ZZ_520 TGfun |29.76Mb
-      - CN_177 |43.70Mb
-      - RU_679 | 5.07Mb
-      - DE_139 TGekfun |23.80Mb
-      - RU_644 | 5.80Mb
-      - RU_677 | 6.33Mb
-      - CN_110 TGeekfun |98.00Mb
-      - RU_656 | 5.13Mb
-      - RU_660 |19.72Mb
-      - RU_668 | 6.72Mb
-      - RU_386 TGfun |10.76Mb
-      - RU_316 TGekfun | 9.96Mb
-      - RU_382 TGeekfun |10.94Mb
-      - CN_115 TGekfun |54.38Mb
-      - CN_111 TGkfun |41.69Mb
-      - US_431 TGun |26.83Mb
-      - US_430 Tekfun |27.27Mb
-      - NL_255 TGn |11.20Mb
-      - US_467 TGfun |26.39Mb
-      - US_434 TGkfun |29.26Mb
-      - US_422 TGfun | 8.38Mb
-      - US_439 TGkfun |26.53Mb
-      - CN_198 |14.22Mb
-      - CN_76 TGkfun |11.84Mb
-      - US_457 TGkfun |31.17Mb
-      - US_456 TGekfun |28.81Mb
-      - NL_267 TGkfun | 5.39Mb
-      - DE_150 TGekfun |15.00Mb
-      - US_418 TGekfun |33.70Mb
-      - NL_237 TGekfun |24.18Mb
-      - US_450 TGkfun |28.90Mb
-      - NL_234 TGkfun | 8.13Mb
-      - NL_244 TGeekfun |10.53Mb
-      - NL_243 TGekfun | 8.66Mb
-      - DE_138 TGkfun |27.55Mb
-      - US_449 TGekfun | 7.39Mb
-      - NL_280 TGfun |23.56Mb
-      - US_451 TGkfun |29.21Mb
-      - NL_277 TGkfun |23.77Mb
-      - ZZ_516 TGekfun |32.55Mb
-      - NL_246 TGkfun |22.76Mb
-      - US_459 TGekfun | 8.96Mb
-      - NL_270 TGun | 4.99Mb
-      - NL_248 TGeekfun |25.28Mb
-      - NL_247 TGekfun |23.92Mb
-      - ZZ_528 TGekfun | 6.63Mb
-      - ZZ_529 TGkfun |30.00Mb
-      - ZZ_527 TGekfun |23.29Mb
-      - US_469 TGeekfun |28.50Mb
-      - DE_125 TGekfun |26.99Mb
-      - ZZ_532 TGkfun |33.78Mb
-      - US_436 TGkfun |32.96Mb
-      - ZZ_519 TGun |31.16Mb
-      - US_455 TGekfun |32.47Mb
-      - NL_252 TGkfun |23.85Mb
-      - ZZ_515 TGkfun |12.45Mb
-      - US_410 TGfun |31.91Mb
-      - US_428 TGun |28.76Mb
-      - US_452 TGun |31.16Mb
-      - LT_211 TGfun |10.85Mb
-      - ZZ_517 TGfun |33.97Mb
-      - US_454 TGfun |23.32Mb
-      - ZZ_534 TGkfun | 9.62Mb
-      - ZZ_511 TGkfun |34.71Mb
-      - ZZ_522 TGeekfun |32.59Mb
-      - US_462 TGfun | 7.68Mb
-      - US_429 TGkfun |32.44Mb
-      - ZZ_536 TGkfun | 9.66Mb
-      - ZZ_530 TGekfun |32.89Mb
-      - US_415 TGekfun |20.54Mb
-      - US_461 TGeekfun | 9.93Mb
-      - ZZ_524 TGekfun |34.99Mb
-      - NL_253 TGekfun |24.30Mb
-      - ZZ_518 TGkfun |16.51Mb
-      - ZZ_521 Teekfun |29.71Mb
-      - ZZ_510 TGeekfun |33.23Mb
-      - US_438 TGekfun |33.61Mb
-      - ZZ_531 TGekfun |26.77Mb
-      - US_417 TGekfun |33.54Mb
-      - CN_103 TGkfun | 2.71Mb
-      - ZZ_514 TGkfun |17.39Mb
-      - US_423 TGfun | 8.33Mb
-      - US_413 TGekfun |33.17Mb
-      - US_426 TGkfun | 9.56Mb
-      - ZZ_533 TGfun | 7.70Mb
-      - ZZ_523 TGekfun |29.81Mb
-      - US_414 TGkfun |31.18Mb
-      - US_463 TGekfun |31.37Mb
-      - US_465 TGun |10.89Mb
-      - US_464 TGkfun |31.66Mb
-      - US_453 TGkfun |32.33Mb
-      - US_466 TGekfun |32.19Mb
-      - NL_269 TGfun |24.45Mb
-      - US_442 TGkfun |10.84Mb
-      - US_411 TGekfun |34.30Mb
-      - US_435 TGekfun |27.00Mb
-      - US_412 TGkfun |34.42Mb
-      - US_419 Tekfun |28.78Mb
-      - US_421 TGkfun |33.14Mb
-      - NL_238 TGekfun |12.88Mb
-      - NL_257 TGekfun |23.55Mb
-      - LT_197 TGkfun |34.52Mb
-      - LT_192 TGekfun | 8.09Mb
-      - LT_195 TGkfun |27.38Mb
-      - LT_199 TGkfun |31.22Mb
-      - LT_209 TGekfun |34.50Mb
-      - LT_210 TGekfun |15.88Mb
-      - LT_214 TGun | 6.62Mb
-      - CN_118 TGun |33.67Mb
+      - JCBB_韩国02【vip2】
+      - JCBB_台湾01【vip2】
+      - 香港 负载均衡
+      - JCBB_日本02【vip1】
+      - JCBB_日本01【vip1】
+      - JCBB_日本03【vip1】
+      - JCBB_美国03【vip1】
+      - JCBB_德国02【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_新加坡02【vip1】
+      - JCBB_新加坡04【vip1】
+      - JCBB_美国01【vip1】
+      - JCBB_韩国01【vip2】
+      - JCBB_美国02【vip1】
+      - JCBB_德国01【vip1】
+      - JCBB_英国01【vip1】
+      - JCBB_新加坡03【vip1】
+      - JCBB_英国02【vip1】
+      - JCBB_美国04【vip1】
+      - JCBB_台湾04【vip2】
+      - JCBB_香港02【vip1】
+      - JCBB_香港05【vip1】
+      - JCBB_香港06【vip1】
+      - JCBB_香港01【vip1】
+      - JCBB_印度01【vip1】
+      - JCBB_台湾03【vip2】
+      - JCBB_印度02【vip1】
+      - JCBB_日本04【vip1】
+      - 「㋅ KinGs㉿¹¹ 」共享 7
+      - 「㋅ KinGs㉿¹¹ 」共享 8
+      - 「㋅ KinGs♭¹¹ 」¹22
+      - 「㋅ KinGs♭¹¹ 」¹72
+      - AU openit.ml
+      - AU_115
+      - AU_21
+      - AU_291
+      - AU_4
+      - AU_61
+      - AU_72
+      - CN_100
+      - CN_111
+      - CN_112
+      - CN_97
+      - HINET/AZHK
+      - HK_300
+      - HK_84
+      - IN l
+      - JP_104
+      - JP_70
+      - JP_92
+      - KR_88
+      - SG|新加坡
+      - Unknown_304
+      - US ml
+      - US  2
+      - US_38
+      - HCM Free
+      - HK Free
+      - Hanoi Gaming Free
+      - HCM Gaming Free
+      - HK Gaming Free
+      - ✿ Hà Nội TLS
+      - ✿ HCM
+      - ✿ HCM TLS
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
