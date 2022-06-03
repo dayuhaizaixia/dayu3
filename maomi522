@@ -5,9 +5,14 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 「㋅ KinGs♭¹¹ 」¹22, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: ✿ HCM TLS, server: hcm.fuzzyng.com, port: 443, type: trojan, password: 8c7dd76c-f5b6-4453-b94d-6dd289b08752, sni: hcm.fuzzyng.com, skip-cert-verify: true, udp: true}
+  - {name: SG|新加坡, server: sg-zf.jiashumao.net, port: 29465, type: trojan, password: bfaf0f2b-c727-32ea-ab28-25e438fda91f, sni: sg-zf.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: US ml, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 日本东京 负载均衡, server: ocijp.n.optage.moe, port: 62500, type: trojan, password: f4507620-3784-4b50-a941-0fd94b36a274, sni: ocijp.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: 香港 负载均衡 2, server: azhk.n.optage.moe, port: 62500, type: trojan, password: f4507620-3784-4b50-a941-0fd94b36a274, sni: azhk.n.optage.moe, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs㉿¹¹ 」共享 7, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋅ KinGs㉿¹¹ 」共享 8, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹22, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs♭¹¹ 」¹72, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: ✿ Hà Nội, server: hn.fuzzyng.com, port: 80, type: vmess, uuid: 8c7dd76c-f5b6-4453-b94d-6dd289b08752, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/fuzzyng?ed=2048", ws-headers: {Host: fuzzyng.akamaized.net}, udp: true}
   - {name: ✿ Hà Nội 01, server: 103.162.28.126, port: 80, type: vmess, uuid: 8c7dd76c-f5b6-4453-b94d-6dd289b08752, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/fuzzyng?ed=2048", ws-headers: {Host: fuzzyng.akamaized.net}, udp: true}
@@ -17,7 +22,6 @@ proxies:
   - {name: ✿ Hà Nội TLS, server: hn1.fuzzyng.com, port: 443, type: vmess, uuid: 8c7dd76c-f5b6-4453-b94d-6dd289b08752, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/fuzzyng?ed=2048", ws-headers: {Host: v.akamaized.net}, udp: true}
   - {name: ✿ HCM, server: hcm.fuzzyng.com, port: 80, type: vmess, uuid: 8c7dd76c-f5b6-4453-b94d-6dd289b08752, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/fuzzyng?ed=2048", ws-headers: {Host: fuzzyng.akamaized.net}, udp: true}
   - {name: ✿ HCM 01, server: 103.169.35.28, port: 80, type: vmess, uuid: 8c7dd76c-f5b6-4453-b94d-6dd289b08752, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/fuzzyng?ed=21052005", ws-headers: {Host: fuzzyng.akamaized.net}, udp: true}
-  - {name: ✿ HCM TLS, server: hcm.fuzzyng.com, port: 443, type: trojan, password: 8c7dd76c-f5b6-4453-b94d-6dd289b08752, sni: hcm.fuzzyng.com, skip-cert-verify: true, udp: true}
   - {name: ✿ Singapore, server: sg.fuzzyng.com, port: 80, type: vmess, uuid: 8c7dd76c-f5b6-4453-b94d-6dd289b08752, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/fuzzyng?ed=2048", ws-headers: {Host: fuzzyng.akamaized.net}, udp: true}
   - {name: Hanoi Gaming Free, server: hnf.fuzzypn.me, port: 443, type: vmess, uuid: db44cfff-a622-4619-93e5-559c0836f9e1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: hnf.fuzzypn.me, grpc-opts: {grpc-service-name: fuzzypn}, udp: true}
   - {name: HCM Free, server: hcmf.fuzzypn.me, port: 80, type: vmess, uuid: db44cfff-a622-4619-93e5-559c0836f9e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/fuzzypn?ed=121212", ws-headers: {Host: Hteendepzai.akamaized.net}, udp: true}
@@ -25,7 +29,6 @@ proxies:
   - {name: HK Free, server: hkf.fuzzypn.me, port: 80, type: vmess, uuid: db44cfff-a622-4619-93e5-559c0836f9e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/fuzzypn?ed=121212", ws-headers: {Host: Hteendepzai.akamaized.net}, udp: true}
   - {name: HK Gaming Free, server: hkf.fuzzypn.me, port: 443, type: vmess, uuid: db44cfff-a622-4619-93e5-559c0836f9e1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: hkf.fuzzypn.me, grpc-opts: {grpc-service-name: fuzzypn}, udp: true}
   - {name: HK_300, server: azhk.102498.eu.org, port: 23941, type: vmess, uuid: 7d7e6cf9-eac6-3d67-bc8e-a270034ac212, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloworld, ws-headers: {Host: azhk.102498.eu.org}, udp: true}
-  - {name: IN l, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: JCBB_德国01【vip1】, server: gkdcm.gkdcn.top, port: 25883, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
   - {name: JCBB_德国01【vip1】 2, server: gkdcm.gkdcn.top, port: 25883, type: vmess, uuid: 9a72eaa2-b83c-4efa-83ef-6b4f5292eb4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
   - {name: JCBB_德国02【vip1】, server: gkdcu.gkdcn.top, port: 25883, type: vmess, uuid: 9a72eaa2-b83c-4efa-83ef-6b4f5292eb4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
@@ -70,55 +73,20 @@ proxies:
   - {name: JCBB_英国01【vip1】, server: gkdcm.gkdcn.top, port: 25884, type: vmess, uuid: 98d7a9bd-cd04-458e-bf95-d81cb6663bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
   - {name: JCBB_英国01【vip1】 2, server: gkdcm.gkdcn.top, port: 25884, type: vmess, uuid: 9a72eaa2-b83c-4efa-83ef-6b4f5292eb4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
   - {name: JCBB_英国02【vip1】, server: gkdcu.gkdcn.top, port: 25884, type: vmess, uuid: 9a72eaa2-b83c-4efa-83ef-6b4f5292eb4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: SG|新加坡, server: sg-zf.jiashumao.net, port: 29465, type: trojan, password: bfaf0f2b-c727-32ea-ab28-25e438fda91f, sni: sg-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: US ml, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 韩国|03|OCAZ中转, server: azhk.orange7.cf, port: 20822, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 韩国|04|OC移动中转, server: shcu.9218561.xyz, port: 25982, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: shcu.9218561.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国|01|DO, server: us01.170809.xyz, port: 443, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: us01.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国|03|RN, server: usmax03.170809.xyz, port: 443, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: usmax03.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国|高速|01|DO, server: usmax01.170809.xyz, port: 444, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: usmax01.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本|01|LINAZ中转, server: azjp.orange7.cf, port: 18179, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|02|LIN02AZ中转, server: azjp.orange7.cf, port: 36129, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|02|LINAZ中转, server: azjp.orange7.cf, port: 10050, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|03|LINAZ中转, server: azhk.orange7.cf, port: 19542, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|04|OC, server: jp04.170809.xyz, port: 443, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: jp04.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本|04|OCAZ中转, server: azjp.orange7.cf, port: 38323, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|05|LINAZ中转, server: azjp.orange7.cf, port: 20842, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|05|OC, server: jp05.170809.xyz, port: 443, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: jp05.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本|05|OCAZ中转, server: azjp.orange7.cf, port: 18498, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本东京 负载均衡, server: ocijp.n.optage.moe, port: 62500, type: trojan, password: f4507620-3784-4b50-a941-0fd94b36a274, sni: ocijp.n.optage.moe, skip-cert-verify: true, udp: true}
-  - {name: 台湾|01奈飞香港AZ中转, server: azhk.orange7.cf, port: 65534, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 台湾|02奈飞日本AZ中转, server: azjp.orange7.cf, port: 23403, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港 负载均衡, server: azhk.node.qchwnd.moe, port: 62500, type: trojan, password: 8c38c05d-bfb6-41cc-a446-853db3d1dc80, sni: azhk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 香港 负载均衡 2, server: azhk.n.optage.moe, port: 62500, type: trojan, password: f4507620-3784-4b50-a941-0fd94b36a274, sni: azhk.n.optage.moe, skip-cert-verify: true, udp: true}
-  - {name: 香港|03AZ中转, server: azhk.orange7.cf, port: 53106, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|07奈飞AZ中转, server: azhk.orange7.cf, port: 13055, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|10AZ中转, server: azhk.orange7.cf, port: 21696, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|12AZ中转, server: azhk.orange7.cf, port: 39109, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|13|AZ中转, server: azhk.orange7.cf, port: 48206, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|13AZ中转, server: azhk.orange7.cf, port: 32505, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|17AZ中转, server: azhk.orange7.cf, port: 60353, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|20AZ中转, server: azhk.orange7.cf, port: 23245, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|22奈飞AZ中转, server: azhk.orange7.cf, port: 43599, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|01|LINAZ中转, server: azhk.orange7.cf, port: 61810, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|01|OC, server: sg01.170809.xyz, port: 443, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: sg01.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|01|OCAZ中转, server: azhk.orange7.cf, port: 21230, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|02|DOAZ中转, server: azhk.orange7.cf, port: 50278, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|03|OC奈飞AZ中转, server: azhk.orange7.cf, port: 13361, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|04|OC, server: sgmax04.170809.xyz, port: 443, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: sgmax04.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|04|OCAZ中转, server: azhk.orange7.cf, port: 32915, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|08|DOAZ中转, server: azhk.orange7.cf, port: 44777, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 印度|02|LINAZ中转, server: azhk.orange7.cf, port: 47822, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 英国|01|DOAZ中转, server: azhk.orange7.cf, port: 42355, type: trojan, password: 4d3ce8f6-393a-42ab-8a00-26d9f151b224, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 「㋅ KinGs♭¹¹ 」¹22
+      - ✿ HCM TLS
+      - SG|新加坡
+      - US ml
+      - 日本东京 负载均衡
+      - 香港 负载均衡 2
       - 「㋅ KinGs㉿¹¹ 」共享 7
       - 「㋅ KinGs㉿¹¹ 」共享 8
-      - 「㋅ KinGs♭¹¹ 」¹22
       - 「㋅ KinGs♭¹¹ 」¹72
       - ✿ Hà Nội
       - ✿ Hà Nội 01
@@ -128,7 +96,6 @@ proxy-groups:
       - ✿ Hà Nội TLS
       - ✿ HCM
       - ✿ HCM 01
-      - ✿ HCM TLS
       - ✿ Singapore
       - Hanoi Gaming Free
       - HCM Free
@@ -136,7 +103,6 @@ proxy-groups:
       - HK Free
       - HK Gaming Free
       - HK_300
-      - IN l
       - JCBB_德国01【vip1】
       - JCBB_德国01【vip1】 2
       - JCBB_德国02【vip1】
@@ -181,54 +147,19 @@ proxy-groups:
       - JCBB_英国01【vip1】
       - JCBB_英国01【vip1】 2
       - JCBB_英国02【vip1】
-      - SG|新加坡
-      - US ml
-      - 韩国|03|OCAZ中转
-      - 韩国|04|OC移动中转
-      - 美国|01|DO
-      - 美国|03|RN
-      - 美国|高速|01|DO
-      - 日本|01|LINAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|02|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|04|OC
-      - 日本|04|OCAZ中转
-      - 日本|05|LINAZ中转
-      - 日本|05|OC
-      - 日本|05|OCAZ中转
-      - 日本东京 负载均衡
-      - 台湾|01奈飞香港AZ中转
-      - 台湾|02奈飞日本AZ中转
-      - 香港 负载均衡
-      - 香港 负载均衡 2
-      - 香港|03AZ中转
-      - 香港|07奈飞AZ中转
-      - 香港|10AZ中转
-      - 香港|12AZ中转
-      - 香港|13|AZ中转
-      - 香港|13AZ中转
-      - 香港|17AZ中转
-      - 香港|20AZ中转
-      - 香港|22奈飞AZ中转
-      - 新加坡|01|LINAZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|OCAZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|04|OC
-      - 新加坡|04|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 印度|02|LINAZ中转
-      - 英国|01|DOAZ中转
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 「㋅ KinGs♭¹¹ 」¹22
+      - ✿ HCM TLS
+      - SG|新加坡
+      - US ml
+      - 日本东京 负载均衡
+      - 香港 负载均衡 2
       - 「㋅ KinGs㉿¹¹ 」共享 7
       - 「㋅ KinGs㉿¹¹ 」共享 8
-      - 「㋅ KinGs♭¹¹ 」¹22
       - 「㋅ KinGs♭¹¹ 」¹72
       - ✿ Hà Nội
       - ✿ Hà Nội 01
@@ -238,7 +169,6 @@ proxy-groups:
       - ✿ Hà Nội TLS
       - ✿ HCM
       - ✿ HCM 01
-      - ✿ HCM TLS
       - ✿ Singapore
       - Hanoi Gaming Free
       - HCM Free
@@ -246,7 +176,6 @@ proxy-groups:
       - HK Free
       - HK Gaming Free
       - HK_300
-      - IN l
       - JCBB_德国01【vip1】
       - JCBB_德国01【vip1】 2
       - JCBB_德国02【vip1】
@@ -291,55 +220,20 @@ proxy-groups:
       - JCBB_英国01【vip1】
       - JCBB_英国01【vip1】 2
       - JCBB_英国02【vip1】
-      - SG|新加坡
-      - US ml
-      - 韩国|03|OCAZ中转
-      - 韩国|04|OC移动中转
-      - 美国|01|DO
-      - 美国|03|RN
-      - 美国|高速|01|DO
-      - 日本|01|LINAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|02|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|04|OC
-      - 日本|04|OCAZ中转
-      - 日本|05|LINAZ中转
-      - 日本|05|OC
-      - 日本|05|OCAZ中转
-      - 日本东京 负载均衡
-      - 台湾|01奈飞香港AZ中转
-      - 台湾|02奈飞日本AZ中转
-      - 香港 负载均衡
-      - 香港 负载均衡 2
-      - 香港|03AZ中转
-      - 香港|07奈飞AZ中转
-      - 香港|10AZ中转
-      - 香港|12AZ中转
-      - 香港|13|AZ中转
-      - 香港|13AZ中转
-      - 香港|17AZ中转
-      - 香港|20AZ中转
-      - 香港|22奈飞AZ中转
-      - 新加坡|01|LINAZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|OCAZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|04|OC
-      - 新加坡|04|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 印度|02|LINAZ中转
-      - 英国|01|DOAZ中转
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 「㋅ KinGs♭¹¹ 」¹22
+      - ✿ HCM TLS
+      - SG|新加坡
+      - US ml
+      - 日本东京 负载均衡
+      - 香港 负载均衡 2
       - 「㋅ KinGs㉿¹¹ 」共享 7
       - 「㋅ KinGs㉿¹¹ 」共享 8
-      - 「㋅ KinGs♭¹¹ 」¹22
       - 「㋅ KinGs♭¹¹ 」¹72
       - ✿ Hà Nội
       - ✿ Hà Nội 01
@@ -349,7 +243,6 @@ proxy-groups:
       - ✿ Hà Nội TLS
       - ✿ HCM
       - ✿ HCM 01
-      - ✿ HCM TLS
       - ✿ Singapore
       - Hanoi Gaming Free
       - HCM Free
@@ -357,7 +250,6 @@ proxy-groups:
       - HK Free
       - HK Gaming Free
       - HK_300
-      - IN l
       - JCBB_德国01【vip1】
       - JCBB_德国01【vip1】 2
       - JCBB_德国02【vip1】
@@ -402,46 +294,6 @@ proxy-groups:
       - JCBB_英国01【vip1】
       - JCBB_英国01【vip1】 2
       - JCBB_英国02【vip1】
-      - SG|新加坡
-      - US ml
-      - 韩国|03|OCAZ中转
-      - 韩国|04|OC移动中转
-      - 美国|01|DO
-      - 美国|03|RN
-      - 美国|高速|01|DO
-      - 日本|01|LINAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|02|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|04|OC
-      - 日本|04|OCAZ中转
-      - 日本|05|LINAZ中转
-      - 日本|05|OC
-      - 日本|05|OCAZ中转
-      - 日本东京 负载均衡
-      - 台湾|01奈飞香港AZ中转
-      - 台湾|02奈飞日本AZ中转
-      - 香港 负载均衡
-      - 香港 负载均衡 2
-      - 香港|03AZ中转
-      - 香港|07奈飞AZ中转
-      - 香港|10AZ中转
-      - 香港|12AZ中转
-      - 香港|13|AZ中转
-      - 香港|13AZ中转
-      - 香港|17AZ中转
-      - 香港|20AZ中转
-      - 香港|22奈飞AZ中转
-      - 新加坡|01|LINAZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|OCAZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|04|OC
-      - 新加坡|04|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 印度|02|LINAZ中转
-      - 英国|01|DOAZ中转
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -460,9 +312,14 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 「㋅ KinGs♭¹¹ 」¹22
+      - ✿ HCM TLS
+      - SG|新加坡
+      - US ml
+      - 日本东京 负载均衡
+      - 香港 负载均衡 2
       - 「㋅ KinGs㉿¹¹ 」共享 7
       - 「㋅ KinGs㉿¹¹ 」共享 8
-      - 「㋅ KinGs♭¹¹ 」¹22
       - 「㋅ KinGs♭¹¹ 」¹72
       - ✿ Hà Nội
       - ✿ Hà Nội 01
@@ -472,7 +329,6 @@ proxy-groups:
       - ✿ Hà Nội TLS
       - ✿ HCM
       - ✿ HCM 01
-      - ✿ HCM TLS
       - ✿ Singapore
       - Hanoi Gaming Free
       - HCM Free
@@ -480,7 +336,6 @@ proxy-groups:
       - HK Free
       - HK Gaming Free
       - HK_300
-      - IN l
       - JCBB_德国01【vip1】
       - JCBB_德国01【vip1】 2
       - JCBB_德国02【vip1】
@@ -525,50 +380,11 @@ proxy-groups:
       - JCBB_英国01【vip1】
       - JCBB_英国01【vip1】 2
       - JCBB_英国02【vip1】
-      - SG|新加坡
-      - US ml
-      - 韩国|03|OCAZ中转
-      - 韩国|04|OC移动中转
-      - 美国|01|DO
-      - 美国|03|RN
-      - 美国|高速|01|DO
-      - 日本|01|LINAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|02|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|04|OC
-      - 日本|04|OCAZ中转
-      - 日本|05|LINAZ中转
-      - 日本|05|OC
-      - 日本|05|OCAZ中转
-      - 日本东京 负载均衡
-      - 台湾|01奈飞香港AZ中转
-      - 台湾|02奈飞日本AZ中转
-      - 香港 负载均衡
-      - 香港 负载均衡 2
-      - 香港|03AZ中转
-      - 香港|07奈飞AZ中转
-      - 香港|10AZ中转
-      - 香港|12AZ中转
-      - 香港|13|AZ中转
-      - 香港|13AZ中转
-      - 香港|17AZ中转
-      - 香港|20AZ中转
-      - 香港|22奈飞AZ中转
-      - 新加坡|01|LINAZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|OCAZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|04|OC
-      - 新加坡|04|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 印度|02|LINAZ中转
-      - 英国|01|DOAZ中转
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港 负载均衡 2
       - JCBB_台湾01【vip2】
       - JCBB_台湾01【vip2】 2
       - JCBB_台湾02【vip2】
@@ -585,28 +401,20 @@ proxy-groups:
       - JCBB_香港05【vip1】 2
       - JCBB_香港06【vip1】
       - JCBB_香港06【vip1】 2
-      - 台湾|01奈飞香港AZ中转
-      - 台湾|02奈飞日本AZ中转
-      - 香港 负载均衡
-      - 香港 负载均衡 2
-      - 香港|03AZ中转
-      - 香港|07奈飞AZ中转
-      - 香港|10AZ中转
-      - 香港|12AZ中转
-      - 香港|13|AZ中转
-      - 香港|13AZ中转
-      - 香港|17AZ中转
-      - 香港|20AZ中转
-      - 香港|22奈飞AZ中转
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 「㋅ KinGs♭¹¹ 」¹22
+      - ✿ HCM TLS
+      - SG|新加坡
+      - US ml
+      - 日本东京 负载均衡
+      - 香港 负载均衡 2
       - 「㋅ KinGs㉿¹¹ 」共享 7
       - 「㋅ KinGs㉿¹¹ 」共享 8
-      - 「㋅ KinGs♭¹¹ 」¹22
       - 「㋅ KinGs♭¹¹ 」¹72
       - ✿ Hà Nội
       - ✿ Hà Nội 01
@@ -616,7 +424,6 @@ proxy-groups:
       - ✿ Hà Nội TLS
       - ✿ HCM
       - ✿ HCM 01
-      - ✿ HCM TLS
       - ✿ Singapore
       - Hanoi Gaming Free
       - HCM Free
@@ -624,7 +431,6 @@ proxy-groups:
       - HK Free
       - HK Gaming Free
       - HK_300
-      - IN l
       - JCBB_德国01【vip1】
       - JCBB_德国01【vip1】 2
       - JCBB_德国02【vip1】
@@ -669,54 +475,19 @@ proxy-groups:
       - JCBB_英国01【vip1】
       - JCBB_英国01【vip1】 2
       - JCBB_英国02【vip1】
-      - SG|新加坡
-      - US ml
-      - 韩国|03|OCAZ中转
-      - 韩国|04|OC移动中转
-      - 美国|01|DO
-      - 美国|03|RN
-      - 美国|高速|01|DO
-      - 日本|01|LINAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|02|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|04|OC
-      - 日本|04|OCAZ中转
-      - 日本|05|LINAZ中转
-      - 日本|05|OC
-      - 日本|05|OCAZ中转
-      - 日本东京 负载均衡
-      - 台湾|01奈飞香港AZ中转
-      - 台湾|02奈飞日本AZ中转
-      - 香港 负载均衡
-      - 香港 负载均衡 2
-      - 香港|03AZ中转
-      - 香港|07奈飞AZ中转
-      - 香港|10AZ中转
-      - 香港|12AZ中转
-      - 香港|13|AZ中转
-      - 香港|13AZ中转
-      - 香港|17AZ中转
-      - 香港|20AZ中转
-      - 香港|22奈飞AZ中转
-      - 新加坡|01|LINAZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|OCAZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|04|OC
-      - 新加坡|04|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 印度|02|LINAZ中转
-      - 英国|01|DOAZ中转
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 「㋅ KinGs♭¹¹ 」¹22
+      - ✿ HCM TLS
+      - SG|新加坡
+      - US ml
+      - 日本东京 负载均衡
+      - 香港 负载均衡 2
       - 「㋅ KinGs㉿¹¹ 」共享 7
       - 「㋅ KinGs㉿¹¹ 」共享 8
-      - 「㋅ KinGs♭¹¹ 」¹22
       - 「㋅ KinGs♭¹¹ 」¹72
       - ✿ Hà Nội
       - ✿ Hà Nội 01
@@ -726,7 +497,6 @@ proxy-groups:
       - ✿ Hà Nội TLS
       - ✿ HCM
       - ✿ HCM 01
-      - ✿ HCM TLS
       - ✿ Singapore
       - Hanoi Gaming Free
       - HCM Free
@@ -734,7 +504,6 @@ proxy-groups:
       - HK Free
       - HK Gaming Free
       - HK_300
-      - IN l
       - JCBB_德国01【vip1】
       - JCBB_德国01【vip1】 2
       - JCBB_德国02【vip1】
@@ -779,55 +548,20 @@ proxy-groups:
       - JCBB_英国01【vip1】
       - JCBB_英国01【vip1】 2
       - JCBB_英国02【vip1】
-      - SG|新加坡
-      - US ml
-      - 韩国|03|OCAZ中转
-      - 韩国|04|OC移动中转
-      - 美国|01|DO
-      - 美国|03|RN
-      - 美国|高速|01|DO
-      - 日本|01|LINAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|02|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|04|OC
-      - 日本|04|OCAZ中转
-      - 日本|05|LINAZ中转
-      - 日本|05|OC
-      - 日本|05|OCAZ中转
-      - 日本东京 负载均衡
-      - 台湾|01奈飞香港AZ中转
-      - 台湾|02奈飞日本AZ中转
-      - 香港 负载均衡
-      - 香港 负载均衡 2
-      - 香港|03AZ中转
-      - 香港|07奈飞AZ中转
-      - 香港|10AZ中转
-      - 香港|12AZ中转
-      - 香港|13|AZ中转
-      - 香港|13AZ中转
-      - 香港|17AZ中转
-      - 香港|20AZ中转
-      - 香港|22奈飞AZ中转
-      - 新加坡|01|LINAZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|OCAZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|04|OC
-      - 新加坡|04|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 印度|02|LINAZ中转
-      - 英国|01|DOAZ中转
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 「㋅ KinGs♭¹¹ 」¹22
+      - ✿ HCM TLS
+      - SG|新加坡
+      - US ml
+      - 日本东京 负载均衡
+      - 香港 负载均衡 2
       - 「㋅ KinGs㉿¹¹ 」共享 7
       - 「㋅ KinGs㉿¹¹ 」共享 8
-      - 「㋅ KinGs♭¹¹ 」¹22
       - 「㋅ KinGs♭¹¹ 」¹72
       - ✿ Hà Nội
       - ✿ Hà Nội 01
@@ -837,7 +571,6 @@ proxy-groups:
       - ✿ Hà Nội TLS
       - ✿ HCM
       - ✿ HCM 01
-      - ✿ HCM TLS
       - ✿ Singapore
       - Hanoi Gaming Free
       - HCM Free
@@ -845,7 +578,6 @@ proxy-groups:
       - HK Free
       - HK Gaming Free
       - HK_300
-      - IN l
       - JCBB_德国01【vip1】
       - JCBB_德国01【vip1】 2
       - JCBB_德国02【vip1】
@@ -890,46 +622,6 @@ proxy-groups:
       - JCBB_英国01【vip1】
       - JCBB_英国01【vip1】 2
       - JCBB_英国02【vip1】
-      - SG|新加坡
-      - US ml
-      - 韩国|03|OCAZ中转
-      - 韩国|04|OC移动中转
-      - 美国|01|DO
-      - 美国|03|RN
-      - 美国|高速|01|DO
-      - 日本|01|LINAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|02|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|04|OC
-      - 日本|04|OCAZ中转
-      - 日本|05|LINAZ中转
-      - 日本|05|OC
-      - 日本|05|OCAZ中转
-      - 日本东京 负载均衡
-      - 台湾|01奈飞香港AZ中转
-      - 台湾|02奈飞日本AZ中转
-      - 香港 负载均衡
-      - 香港 负载均衡 2
-      - 香港|03AZ中转
-      - 香港|07奈飞AZ中转
-      - 香港|10AZ中转
-      - 香港|12AZ中转
-      - 香港|13|AZ中转
-      - 香港|13AZ中转
-      - 香港|17AZ中转
-      - 香港|20AZ中转
-      - 香港|22奈飞AZ中转
-      - 新加坡|01|LINAZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|OCAZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|04|OC
-      - 新加坡|04|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 印度|02|LINAZ中转
-      - 英国|01|DOAZ中转
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -945,9 +637,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 「㋅ KinGs♭¹¹ 」¹22
+      - ✿ HCM TLS
+      - SG|新加坡
+      - US ml
+      - 日本东京 负载均衡
+      - 香港 负载均衡 2
       - 「㋅ KinGs㉿¹¹ 」共享 7
       - 「㋅ KinGs㉿¹¹ 」共享 8
-      - 「㋅ KinGs♭¹¹ 」¹22
       - 「㋅ KinGs♭¹¹ 」¹72
       - ✿ Hà Nội
       - ✿ Hà Nội 01
@@ -957,7 +654,6 @@ proxy-groups:
       - ✿ Hà Nội TLS
       - ✿ HCM
       - ✿ HCM 01
-      - ✿ HCM TLS
       - ✿ Singapore
       - Hanoi Gaming Free
       - HCM Free
@@ -965,7 +661,6 @@ proxy-groups:
       - HK Free
       - HK Gaming Free
       - HK_300
-      - IN l
       - JCBB_德国01【vip1】
       - JCBB_德国01【vip1】 2
       - JCBB_德国02【vip1】
@@ -1010,46 +705,6 @@ proxy-groups:
       - JCBB_英国01【vip1】
       - JCBB_英国01【vip1】 2
       - JCBB_英国02【vip1】
-      - SG|新加坡
-      - US ml
-      - 韩国|03|OCAZ中转
-      - 韩国|04|OC移动中转
-      - 美国|01|DO
-      - 美国|03|RN
-      - 美国|高速|01|DO
-      - 日本|01|LINAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|02|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|04|OC
-      - 日本|04|OCAZ中转
-      - 日本|05|LINAZ中转
-      - 日本|05|OC
-      - 日本|05|OCAZ中转
-      - 日本东京 负载均衡
-      - 台湾|01奈飞香港AZ中转
-      - 台湾|02奈飞日本AZ中转
-      - 香港 负载均衡
-      - 香港 负载均衡 2
-      - 香港|03AZ中转
-      - 香港|07奈飞AZ中转
-      - 香港|10AZ中转
-      - 香港|12AZ中转
-      - 香港|13|AZ中转
-      - 香港|13AZ中转
-      - 香港|17AZ中转
-      - 香港|20AZ中转
-      - 香港|22奈飞AZ中转
-      - 新加坡|01|LINAZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|OCAZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|04|OC
-      - 新加坡|04|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 印度|02|LINAZ中转
-      - 英国|01|DOAZ中转
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
