@@ -5,395 +5,167 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 新加坡 Magic IEPL 中继 C02 Netflix, server: sgp07.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 新加坡 Magic IEPL 中继 C04 Netflix, server: sgp09.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 试用/续费 接入 2, server: test01.alderlake.gay, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 美国实验性 IEPL 中继 C05, server: us10.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 美国高级 IEPL 中继 C03, server: us03.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 美国实验性 IEPL 中继 C03, server: us08.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 美国高级 IEPL 中继 C02, server: us02.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 美国高级 IEPL 中继 C01, server: us01.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 美国高级 IEPL 中继 C05, server: us05.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 美国实验性 IEPL 中继 C04, server: us09.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 美国高级 IEPL 中继 C04, server: us04.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 美国实验性 IEPL 中继 C02, server: us07.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 美国实验性 IEPL 中继 C01, server: us06.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "俄罗斯 01\t 2", server: ru01.serenazuma.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 俄罗斯 02 2, server: ru02.serenazuma.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 新加坡 Legacy Magic IEPL 中继 C03 Netflix, server: sgp03.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 精简 22, server: 22.foverosomni.gay, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 精简 26, server: 26.foverosomni.gay, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 精简 27, server: 27.foverosomni.gay, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 精简 21, server: 21.foverosomni.gay, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 精简 23, server: 23.foverosomni.gay, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 精简 25, server: 25.foverosomni.gay, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 新加坡高级 IEPL 中继 C03 Netflix, server: sgp13.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 新加坡 Legacy Magic IEPL 中继 C01 Netflix, server: sgp01.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 新加坡 Legacy Magic IEPL 中继 C05 Netflix, server: sgp05.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 精简 24, server: 24.foverosomni.gay, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps, server: hr02.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 新加坡 Legacy Magic IEPL 中继 C02 Netflix, server: sgp02.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 新加坡高级 IEPL 中继 C01 Netflix, server: sgp11.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 新加坡 Legacy Magic IEPL 中继 C04 Netflix, server: sgp04.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 新加坡高级 IEPL 中继 C02 Netflix, server: sgp12.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 新加坡 Magic IEPL 中继 C03 Netflix, server: sgp08.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 新加坡 Magic IEPL 中继 C01 Netflix, server: sgp06.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 新加坡 Magic IEPL 中继 C05 Netflix, server: sgp10.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 精简 28, server: 28.foverosomni.gay, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 精简 29, server: 30.foverosomni.gay, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 ソフトバンク C09 500Mbps 1x Netflix, server: jpsb09.cathayroute.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 俄罗斯 03 2, server: ru03.serenazuma.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 05 2, server: hg05.serenazuma.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 01 2, server: hg01.serenazuma.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 俄罗斯 04 2, server: ru04.serenazuma.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 03 2, server: hg03.serenazuma.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 04 2, server: hg04.serenazuma.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 02 2, server: hg02.serenazuma.com, port: 25382, type: ssr, cipher: rc4-md5, password: Xb2FW8, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: ss丨韩国500Mbps丨, server: kr1.mayiyun.shop, port: 10014, type: ss, cipher: aes-256-gcm, password: cfccac6e-a868-4dd1-8e03-2c28a61971bb, udp: true}
-  - {name: ss丨台湾300Mbps, server: azhk1.mayiyun.shop, port: 20003, type: ss, cipher: aes-256-gcm, password: cfccac6e-a868-4dd1-8e03-2c28a61971bb, udp: true}
-  - {name: ss丨加拿大多伦多丨, server: can6.mayiyun.shop, port: 10010, type: ss, cipher: aes-256-gcm, password: cfccac6e-a868-4dd1-8e03-2c28a61971bb, udp: true}
-  - {name: ss丨美国凤凰城丨, server: usa2.mayiyun.shop, port: 20012, type: ss, cipher: aes-256-gcm, password: cfccac6e-a868-4dd1-8e03-2c28a61971bb, udp: true}
-  - {name: ss丨美国圣何塞丨, server: usa1.mayiyun.shop, port: 20012, type: ss, cipher: aes-256-gcm, password: cfccac6e-a868-4dd1-8e03-2c28a61971bb, udp: true}
-  - {name: ss丨加拿大安大略丨, server: can.mayiyun.shop, port: 10015, type: ss, cipher: aes-256-gcm, password: cfccac6e-a868-4dd1-8e03-2c28a61971bb, udp: true}
-  - {name: ss丨美国洛杉矶丨, server: usa.mayiyun.shop, port: 20012, type: ss, cipher: aes-256-gcm, password: cfccac6e-a868-4dd1-8e03-2c28a61971bb, udp: true}
-  - {name: 蚂蚁云：mayiyun.shop, server: azhk1.mayiyun.shop, port: 10014, type: ss, cipher: aes-256-gcm, password: cfccac6e-a868-4dd1-8e03-2c28a61971bb, udp: true}
-  - {name: 安卓软件国内节点显示连接失败不影响使用, server: azhk1.mayiyun.shop, port: 10014, type: ss, cipher: aes-256-gcm, password: cfccac6e-a868-4dd1-8e03-2c28a61971bb, udp: true}
-  - {name: ss丨香港1Gbps丨, server: azhk1.mayiyun.shop, port: 10014, type: ss, cipher: aes-256-gcm, password: cfccac6e-a868-4dd1-8e03-2c28a61971bb, udp: true}
-  - {name: ss丨韩国100Mbps丨2, server: yxkr.mayiyun.shop, port: 10014, type: ss, cipher: aes-256-gcm, password: cfccac6e-a868-4dd1-8e03-2c28a61971bb, udp: true}
-  - {name: ss丨日本500Mbps丨, server: jp5.mayiyun.shop, port: 10014, type: ss, cipher: chacha20-ietf-poly1305, password: cfccac6e-a868-4dd1-8e03-2c28a61971bb, udp: true}
-  - {name: ss丨日本1Gbps丨, server: jp.mayiyun.shop, port: 10014, type: ss, cipher: aes-256-gcm, password: cfccac6e-a868-4dd1-8e03-2c28a61971bb, udp: true}
-  - {name: ss丨日本1Gbps丨2, server: jp4.mayiyun.shop, port: 10014, type: ss, cipher: aes-256-gcm, password: cfccac6e-a868-4dd1-8e03-2c28a61971bb, udp: true}
-  - {name: ss丨德国300Mbps, server: azhk1.mayiyun.shop, port: 20002, type: ss, cipher: aes-256-gcm, password: cfccac6e-a868-4dd1-8e03-2c28a61971bb, udp: true}
-  - {name: 80丨北京丨8m丨游戏节点, server: bj.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
-  - {name: 80丨冰钉丨香港丨备用, server: hk4.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 80丨德国丨1Gbps丨2, server: ger4.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 80丨德国丨50Mbps丨1, server: ger1.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 80丨加拿大多伦多丨, server: can6.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 8080丨香港高速丨广东联通可免, server: gx.mayiyun.shop, port: 8080, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
-  - {name: 80丨德国1Gbps丨1, server: ger3.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 80丨美国凤凰城丨, server: usa2.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 80丨加拿大安大略丨, server: can.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 80丨韩国丨500Mbps丨1, server: kr5.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 80丨韩国1Gbps, server: kr.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 80丨美国圣何塞丨, server: usa1.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 80丨韩国丨500Mbps丨2, server: kr1.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
-  - {name: 443丨韩国丨500Mbps丨2, server: kr1.mayiyun.shop, port: 443, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
-  - {name: 8080丨香港丨300m, server: shg.mayiyun.shop, port: 8080, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 80丨电信停机卡丨香港, server: azhk1.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: 80丨香港1Gbps丨, server: azhk1.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 443丨香港1Gbps丨, server: azhk1.mayiyun.shop, port: 443, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 80丨华南高速丨100Mbps, server: gx.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ll, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 80丨电信停机卡丨华南, server: gx.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ll, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: 80丨日本1Gbps, server: jp.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 443丨日本1Gbps, server: jp.mayiyun.shop, port: 443, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 80丨日本2, server: jp2.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 443丨日本丨50Mbps丨2, server: jp4.mayiyun.shop, port: 443, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 80丨日本丨1Gbps丨1, server: jp5.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 443丨华南高速丨100Mbps丨3, server: gx3.mayiyun.shop, port: 443, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 80丨日本丨50Mbps丨2, server: jp4.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 443丨日本丨1Gbps丨1, server: jp5.mayiyun.shop, port: 443, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 80丨华南高速丨100Mbp丨3, server: gx3.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 8080丨上海丨8m丨游戏节点, server: sh.mayiyun.shop, port: 8080, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
-  - {name: 8080丨台湾高速丨广东联通可免, server: gx3.mayiyun.shop, port: 8080, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
-  - {name: 443丨江苏丨300M, server: js2.mayiyun.shop, port: 443, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 80丨台湾丨1Gbps, server: tw.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
-  - {name: 8080丨美国洛杉矶丨, server: usa.mayiyun.shop, port: 8080, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
+  - {name: 韩国|04|OC移动中转, server: shcu.9218561.xyz, port: 25982, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: shcu.9218561.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|01|LIN, server: jp01.170809.xyz, port: 443, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: jp01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|05|OC, server: jp05.170809.xyz, port: 443, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: jp05.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|05|LIN, server: jpmax05.170809.xyz, port: 443, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: jpmax05.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|05|OCAZ中转, server: azjp.orange7.cf, port: 18498, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 日本|02|LINAZ中转, server: azjp.orange7.cf, port: 10050, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 日本|04|OCAZ中转, server: azjp.orange7.cf, port: 38323, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 日本|02|LIN02AZ中转, server: azjp.orange7.cf, port: 36129, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 日本|01|LINAZ中转, server: azjp.orange7.cf, port: 18179, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 日本|03|LINAZ中转, server: azhk.orange7.cf, port: 19542, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 日本|05|LINAZ中转, server: azjp.orange7.cf, port: 20842, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|04|OCAZ中转, server: azhk.orange7.cf, port: 32915, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|08|DOAZ中转, server: azhk.orange7.cf, port: 44777, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|03|OC奈飞AZ中转, server: azhk.orange7.cf, port: 13361, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|02|DOAZ中转, server: azhk.orange7.cf, port: 50278, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|01|OCAZ中转, server: azhk.orange7.cf, port: 21230, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 美国|01|DO, server: us01.170809.xyz, port: 443, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: us01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|03|LIN, server: jp03.170809.xyz, port: 444, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: jp03.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾|02奈飞日本AZ中转, server: azjp.orange7.cf, port: 23403, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|01|OC, server: sg01.170809.xyz, port: 443, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: sg01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|01|LINAZ中转, server: azhk.orange7.cf, port: 61810, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 香港|12AZ中转, server: azhk.orange7.cf, port: 39109, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 香港|17AZ中转, server: azhk.orange7.cf, port: 60353, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 香港|20AZ中转, server: azhk.orange7.cf, port: 23245, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 香港|13|AZ中转, server: azhk.orange7.cf, port: 48206, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|04|OC, server: sgmax04.170809.xyz, port: 443, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: sgmax04.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|04|OC, server: jp04.170809.xyz, port: 443, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: jp04.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 韩国|03|OCAZ中转, server: azhk.orange7.cf, port: 20822, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 香港|10AZ中转, server: azhk.orange7.cf, port: 21696, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 香港|22奈飞AZ中转, server: azhk.orange7.cf, port: 43599, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 香港|13AZ中转, server: azhk.orange7.cf, port: 32505, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 香港|07奈飞AZ中转, server: azhk.orange7.cf, port: 13055, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 香港|03AZ中转, server: azhk.orange7.cf, port: 53106, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 英国|01|DOAZ中转, server: azhk.orange7.cf, port: 42355, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 台湾|01奈飞香港AZ中转, server: azhk.orange7.cf, port: 65534, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: 印度|02|LINAZ中转, server: azhk.orange7.cf, port: 47822, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡 Magic IEPL 中继 C02 Netflix
-      - 新加坡 Magic IEPL 中继 C04 Netflix
-      - 试用/续费 接入 2
-      - 美国实验性 IEPL 中继 C05
-      - 美国高级 IEPL 中继 C03
-      - 美国实验性 IEPL 中继 C03
-      - 美国高级 IEPL 中继 C02
-      - 美国高级 IEPL 中继 C01
-      - 美国高级 IEPL 中继 C05
-      - 美国实验性 IEPL 中继 C04
-      - 美国高级 IEPL 中继 C04
-      - 美国实验性 IEPL 中继 C02
-      - 美国实验性 IEPL 中继 C01
-      - "俄罗斯 01\t 2"
-      - 俄罗斯 02 2
-      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
-      - 精简 22
-      - 精简 26
-      - 精简 27
-      - 精简 21
-      - 精简 23
-      - 精简 25
-      - 新加坡高级 IEPL 中继 C03 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C05 Netflix
-      - 精简 24
-      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
-      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
-      - 新加坡高级 IEPL 中继 C01 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C04 Netflix
-      - 新加坡高级 IEPL 中继 C02 Netflix
-      - 新加坡 Magic IEPL 中继 C03 Netflix
-      - 新加坡 Magic IEPL 中继 C01 Netflix
-      - 新加坡 Magic IEPL 中继 C05 Netflix
-      - 精简 28
-      - 精简 29
-      - 日本 ソフトバンク C09 500Mbps 1x Netflix
-      - 俄罗斯 03 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 05 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 01 2
-      - 俄罗斯 04 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 03 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 04 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 02 2
-      - ss丨韩国500Mbps丨
-      - ss丨台湾300Mbps
-      - ss丨加拿大多伦多丨
-      - ss丨美国凤凰城丨
-      - ss丨美国圣何塞丨
-      - ss丨加拿大安大略丨
-      - ss丨美国洛杉矶丨
-      - 蚂蚁云：mayiyun.shop
-      - 安卓软件国内节点显示连接失败不影响使用
-      - ss丨香港1Gbps丨
-      - ss丨韩国100Mbps丨2
-      - ss丨日本500Mbps丨
-      - ss丨日本1Gbps丨
-      - ss丨日本1Gbps丨2
-      - ss丨德国300Mbps
-      - 80丨北京丨8m丨游戏节点
-      - 80丨冰钉丨香港丨备用
-      - 80丨德国丨1Gbps丨2
-      - 80丨德国丨50Mbps丨1
-      - 80丨加拿大多伦多丨
-      - 8080丨香港高速丨广东联通可免
-      - 80丨德国1Gbps丨1
-      - 80丨美国凤凰城丨
-      - 80丨加拿大安大略丨
-      - 80丨韩国丨500Mbps丨1
-      - 80丨韩国1Gbps
-      - 80丨美国圣何塞丨
-      - 80丨韩国丨500Mbps丨2
-      - 443丨韩国丨500Mbps丨2
-      - 8080丨香港丨300m
-      - 80丨电信停机卡丨香港
-      - 80丨香港1Gbps丨
-      - 443丨香港1Gbps丨
-      - 80丨华南高速丨100Mbps
-      - 80丨电信停机卡丨华南
-      - 80丨日本1Gbps
-      - 443丨日本1Gbps
-      - 80丨日本2
-      - 443丨日本丨50Mbps丨2
-      - 80丨日本丨1Gbps丨1
-      - 443丨华南高速丨100Mbps丨3
-      - 80丨日本丨50Mbps丨2
-      - 443丨日本丨1Gbps丨1
-      - 80丨华南高速丨100Mbp丨3
-      - 8080丨上海丨8m丨游戏节点
-      - 8080丨台湾高速丨广东联通可免
-      - 443丨江苏丨300M
-      - 80丨台湾丨1Gbps
-      - 8080丨美国洛杉矶丨
+      - 韩国|04|OC移动中转
+      - 日本|01|LIN
+      - 日本|05|OC
+      - 日本|05|LIN
+      - 日本|05|OCAZ中转
+      - 日本|02|LINAZ中转
+      - 日本|04|OCAZ中转
+      - 日本|02|LIN02AZ中转
+      - 日本|01|LINAZ中转
+      - 日本|03|LINAZ中转
+      - 日本|05|LINAZ中转
+      - 新加坡|04|OCAZ中转
+      - 新加坡|08|DOAZ中转
+      - 新加坡|03|OC奈飞AZ中转
+      - 新加坡|02|DOAZ中转
+      - 新加坡|01|OCAZ中转
+      - 美国|01|DO
+      - 日本|03|LIN
+      - 台湾|02奈飞日本AZ中转
+      - 新加坡|01|OC
+      - 新加坡|01|LINAZ中转
+      - 香港|12AZ中转
+      - 香港|17AZ中转
+      - 香港|20AZ中转
+      - 香港|13|AZ中转
+      - 新加坡|04|OC
+      - 日本|04|OC
+      - 韩国|03|OCAZ中转
+      - 香港|10AZ中转
+      - 香港|22奈飞AZ中转
+      - 香港|13AZ中转
+      - 香港|07奈飞AZ中转
+      - 香港|03AZ中转
+      - 英国|01|DOAZ中转
+      - 台湾|01奈飞香港AZ中转
+      - 印度|02|LINAZ中转
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 新加坡 Magic IEPL 中继 C02 Netflix
-      - 新加坡 Magic IEPL 中继 C04 Netflix
-      - 试用/续费 接入 2
-      - 美国实验性 IEPL 中继 C05
-      - 美国高级 IEPL 中继 C03
-      - 美国实验性 IEPL 中继 C03
-      - 美国高级 IEPL 中继 C02
-      - 美国高级 IEPL 中继 C01
-      - 美国高级 IEPL 中继 C05
-      - 美国实验性 IEPL 中继 C04
-      - 美国高级 IEPL 中继 C04
-      - 美国实验性 IEPL 中继 C02
-      - 美国实验性 IEPL 中继 C01
-      - "俄罗斯 01\t 2"
-      - 俄罗斯 02 2
-      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
-      - 精简 22
-      - 精简 26
-      - 精简 27
-      - 精简 21
-      - 精简 23
-      - 精简 25
-      - 新加坡高级 IEPL 中继 C03 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C05 Netflix
-      - 精简 24
-      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
-      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
-      - 新加坡高级 IEPL 中继 C01 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C04 Netflix
-      - 新加坡高级 IEPL 中继 C02 Netflix
-      - 新加坡 Magic IEPL 中继 C03 Netflix
-      - 新加坡 Magic IEPL 中继 C01 Netflix
-      - 新加坡 Magic IEPL 中继 C05 Netflix
-      - 精简 28
-      - 精简 29
-      - 日本 ソフトバンク C09 500Mbps 1x Netflix
-      - 俄罗斯 03 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 05 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 01 2
-      - 俄罗斯 04 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 03 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 04 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 02 2
-      - ss丨韩国500Mbps丨
-      - ss丨台湾300Mbps
-      - ss丨加拿大多伦多丨
-      - ss丨美国凤凰城丨
-      - ss丨美国圣何塞丨
-      - ss丨加拿大安大略丨
-      - ss丨美国洛杉矶丨
-      - 蚂蚁云：mayiyun.shop
-      - 安卓软件国内节点显示连接失败不影响使用
-      - ss丨香港1Gbps丨
-      - ss丨韩国100Mbps丨2
-      - ss丨日本500Mbps丨
-      - ss丨日本1Gbps丨
-      - ss丨日本1Gbps丨2
-      - ss丨德国300Mbps
-      - 80丨北京丨8m丨游戏节点
-      - 80丨冰钉丨香港丨备用
-      - 80丨德国丨1Gbps丨2
-      - 80丨德国丨50Mbps丨1
-      - 80丨加拿大多伦多丨
-      - 8080丨香港高速丨广东联通可免
-      - 80丨德国1Gbps丨1
-      - 80丨美国凤凰城丨
-      - 80丨加拿大安大略丨
-      - 80丨韩国丨500Mbps丨1
-      - 80丨韩国1Gbps
-      - 80丨美国圣何塞丨
-      - 80丨韩国丨500Mbps丨2
-      - 443丨韩国丨500Mbps丨2
-      - 8080丨香港丨300m
-      - 80丨电信停机卡丨香港
-      - 80丨香港1Gbps丨
-      - 443丨香港1Gbps丨
-      - 80丨华南高速丨100Mbps
-      - 80丨电信停机卡丨华南
-      - 80丨日本1Gbps
-      - 443丨日本1Gbps
-      - 80丨日本2
-      - 443丨日本丨50Mbps丨2
-      - 80丨日本丨1Gbps丨1
-      - 443丨华南高速丨100Mbps丨3
-      - 80丨日本丨50Mbps丨2
-      - 443丨日本丨1Gbps丨1
-      - 80丨华南高速丨100Mbp丨3
-      - 8080丨上海丨8m丨游戏节点
-      - 8080丨台湾高速丨广东联通可免
-      - 443丨江苏丨300M
-      - 80丨台湾丨1Gbps
-      - 8080丨美国洛杉矶丨
+      - 韩国|04|OC移动中转
+      - 日本|01|LIN
+      - 日本|05|OC
+      - 日本|05|LIN
+      - 日本|05|OCAZ中转
+      - 日本|02|LINAZ中转
+      - 日本|04|OCAZ中转
+      - 日本|02|LIN02AZ中转
+      - 日本|01|LINAZ中转
+      - 日本|03|LINAZ中转
+      - 日本|05|LINAZ中转
+      - 新加坡|04|OCAZ中转
+      - 新加坡|08|DOAZ中转
+      - 新加坡|03|OC奈飞AZ中转
+      - 新加坡|02|DOAZ中转
+      - 新加坡|01|OCAZ中转
+      - 美国|01|DO
+      - 日本|03|LIN
+      - 台湾|02奈飞日本AZ中转
+      - 新加坡|01|OC
+      - 新加坡|01|LINAZ中转
+      - 香港|12AZ中转
+      - 香港|17AZ中转
+      - 香港|20AZ中转
+      - 香港|13|AZ中转
+      - 新加坡|04|OC
+      - 日本|04|OC
+      - 韩国|03|OCAZ中转
+      - 香港|10AZ中转
+      - 香港|22奈飞AZ中转
+      - 香港|13AZ中转
+      - 香港|07奈飞AZ中转
+      - 香港|03AZ中转
+      - 英国|01|DOAZ中转
+      - 台湾|01奈飞香港AZ中转
+      - 印度|02|LINAZ中转
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡 Magic IEPL 中继 C02 Netflix
-      - 新加坡 Magic IEPL 中继 C04 Netflix
-      - 试用/续费 接入 2
-      - 美国实验性 IEPL 中继 C05
-      - 美国高级 IEPL 中继 C03
-      - 美国实验性 IEPL 中继 C03
-      - 美国高级 IEPL 中继 C02
-      - 美国高级 IEPL 中继 C01
-      - 美国高级 IEPL 中继 C05
-      - 美国实验性 IEPL 中继 C04
-      - 美国高级 IEPL 中继 C04
-      - 美国实验性 IEPL 中继 C02
-      - 美国实验性 IEPL 中继 C01
-      - "俄罗斯 01\t 2"
-      - 俄罗斯 02 2
-      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
-      - 精简 22
-      - 精简 26
-      - 精简 27
-      - 精简 21
-      - 精简 23
-      - 精简 25
-      - 新加坡高级 IEPL 中继 C03 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C05 Netflix
-      - 精简 24
-      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
-      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
-      - 新加坡高级 IEPL 中继 C01 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C04 Netflix
-      - 新加坡高级 IEPL 中继 C02 Netflix
-      - 新加坡 Magic IEPL 中继 C03 Netflix
-      - 新加坡 Magic IEPL 中继 C01 Netflix
-      - 新加坡 Magic IEPL 中继 C05 Netflix
-      - 精简 28
-      - 精简 29
-      - 日本 ソフトバンク C09 500Mbps 1x Netflix
-      - 俄罗斯 03 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 05 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 01 2
-      - 俄罗斯 04 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 03 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 04 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 02 2
-      - ss丨韩国500Mbps丨
-      - ss丨台湾300Mbps
-      - ss丨加拿大多伦多丨
-      - ss丨美国凤凰城丨
-      - ss丨美国圣何塞丨
-      - ss丨加拿大安大略丨
-      - ss丨美国洛杉矶丨
-      - 蚂蚁云：mayiyun.shop
-      - 安卓软件国内节点显示连接失败不影响使用
-      - ss丨香港1Gbps丨
-      - ss丨韩国100Mbps丨2
-      - ss丨日本500Mbps丨
-      - ss丨日本1Gbps丨
-      - ss丨日本1Gbps丨2
-      - ss丨德国300Mbps
-      - 80丨北京丨8m丨游戏节点
-      - 80丨冰钉丨香港丨备用
-      - 80丨德国丨1Gbps丨2
-      - 80丨德国丨50Mbps丨1
-      - 80丨加拿大多伦多丨
-      - 8080丨香港高速丨广东联通可免
-      - 80丨德国1Gbps丨1
-      - 80丨美国凤凰城丨
-      - 80丨加拿大安大略丨
-      - 80丨韩国丨500Mbps丨1
-      - 80丨韩国1Gbps
-      - 80丨美国圣何塞丨
-      - 80丨韩国丨500Mbps丨2
-      - 443丨韩国丨500Mbps丨2
-      - 8080丨香港丨300m
-      - 80丨电信停机卡丨香港
-      - 80丨香港1Gbps丨
-      - 443丨香港1Gbps丨
-      - 80丨华南高速丨100Mbps
-      - 80丨电信停机卡丨华南
-      - 80丨日本1Gbps
-      - 443丨日本1Gbps
-      - 80丨日本2
-      - 443丨日本丨50Mbps丨2
-      - 80丨日本丨1Gbps丨1
-      - 443丨华南高速丨100Mbps丨3
-      - 80丨日本丨50Mbps丨2
-      - 443丨日本丨1Gbps丨1
-      - 80丨华南高速丨100Mbp丨3
-      - 8080丨上海丨8m丨游戏节点
-      - 8080丨台湾高速丨广东联通可免
-      - 443丨江苏丨300M
-      - 80丨台湾丨1Gbps
-      - 8080丨美国洛杉矶丨
+      - 韩国|04|OC移动中转
+      - 日本|01|LIN
+      - 日本|05|OC
+      - 日本|05|LIN
+      - 日本|05|OCAZ中转
+      - 日本|02|LINAZ中转
+      - 日本|04|OCAZ中转
+      - 日本|02|LIN02AZ中转
+      - 日本|01|LINAZ中转
+      - 日本|03|LINAZ中转
+      - 日本|05|LINAZ中转
+      - 新加坡|04|OCAZ中转
+      - 新加坡|08|DOAZ中转
+      - 新加坡|03|OC奈飞AZ中转
+      - 新加坡|02|DOAZ中转
+      - 新加坡|01|OCAZ中转
+      - 美国|01|DO
+      - 日本|03|LIN
+      - 台湾|02奈飞日本AZ中转
+      - 新加坡|01|OC
+      - 新加坡|01|LINAZ中转
+      - 香港|12AZ中转
+      - 香港|17AZ中转
+      - 香港|20AZ中转
+      - 香港|13|AZ中转
+      - 新加坡|04|OC
+      - 日本|04|OC
+      - 韩国|03|OCAZ中转
+      - 香港|10AZ中转
+      - 香港|22奈飞AZ中转
+      - 香港|13AZ中转
+      - 香港|07奈飞AZ中转
+      - 香港|03AZ中转
+      - 英国|01|DOAZ中转
+      - 台湾|01奈飞香港AZ中转
+      - 印度|02|LINAZ中转
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -412,414 +184,182 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡 Magic IEPL 中继 C02 Netflix
-      - 新加坡 Magic IEPL 中继 C04 Netflix
-      - 试用/续费 接入 2
-      - 美国实验性 IEPL 中继 C05
-      - 美国高级 IEPL 中继 C03
-      - 美国实验性 IEPL 中继 C03
-      - 美国高级 IEPL 中继 C02
-      - 美国高级 IEPL 中继 C01
-      - 美国高级 IEPL 中继 C05
-      - 美国实验性 IEPL 中继 C04
-      - 美国高级 IEPL 中继 C04
-      - 美国实验性 IEPL 中继 C02
-      - 美国实验性 IEPL 中继 C01
-      - "俄罗斯 01\t 2"
-      - 俄罗斯 02 2
-      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
-      - 精简 22
-      - 精简 26
-      - 精简 27
-      - 精简 21
-      - 精简 23
-      - 精简 25
-      - 新加坡高级 IEPL 中继 C03 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C05 Netflix
-      - 精简 24
-      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
-      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
-      - 新加坡高级 IEPL 中继 C01 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C04 Netflix
-      - 新加坡高级 IEPL 中继 C02 Netflix
-      - 新加坡 Magic IEPL 中继 C03 Netflix
-      - 新加坡 Magic IEPL 中继 C01 Netflix
-      - 新加坡 Magic IEPL 中继 C05 Netflix
-      - 精简 28
-      - 精简 29
-      - 日本 ソフトバンク C09 500Mbps 1x Netflix
-      - 俄罗斯 03 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 05 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 01 2
-      - 俄罗斯 04 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 03 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 04 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 02 2
-      - ss丨韩国500Mbps丨
-      - ss丨台湾300Mbps
-      - ss丨加拿大多伦多丨
-      - ss丨美国凤凰城丨
-      - ss丨美国圣何塞丨
-      - ss丨加拿大安大略丨
-      - ss丨美国洛杉矶丨
-      - 蚂蚁云：mayiyun.shop
-      - 安卓软件国内节点显示连接失败不影响使用
-      - ss丨香港1Gbps丨
-      - ss丨韩国100Mbps丨2
-      - ss丨日本500Mbps丨
-      - ss丨日本1Gbps丨
-      - ss丨日本1Gbps丨2
-      - ss丨德国300Mbps
-      - 80丨北京丨8m丨游戏节点
-      - 80丨冰钉丨香港丨备用
-      - 80丨德国丨1Gbps丨2
-      - 80丨德国丨50Mbps丨1
-      - 80丨加拿大多伦多丨
-      - 8080丨香港高速丨广东联通可免
-      - 80丨德国1Gbps丨1
-      - 80丨美国凤凰城丨
-      - 80丨加拿大安大略丨
-      - 80丨韩国丨500Mbps丨1
-      - 80丨韩国1Gbps
-      - 80丨美国圣何塞丨
-      - 80丨韩国丨500Mbps丨2
-      - 443丨韩国丨500Mbps丨2
-      - 8080丨香港丨300m
-      - 80丨电信停机卡丨香港
-      - 80丨香港1Gbps丨
-      - 443丨香港1Gbps丨
-      - 80丨华南高速丨100Mbps
-      - 80丨电信停机卡丨华南
-      - 80丨日本1Gbps
-      - 443丨日本1Gbps
-      - 80丨日本2
-      - 443丨日本丨50Mbps丨2
-      - 80丨日本丨1Gbps丨1
-      - 443丨华南高速丨100Mbps丨3
-      - 80丨日本丨50Mbps丨2
-      - 443丨日本丨1Gbps丨1
-      - 80丨华南高速丨100Mbp丨3
-      - 8080丨上海丨8m丨游戏节点
-      - 8080丨台湾高速丨广东联通可免
-      - 443丨江苏丨300M
-      - 80丨台湾丨1Gbps
-      - 8080丨美国洛杉矶丨
+      - 韩国|04|OC移动中转
+      - 日本|01|LIN
+      - 日本|05|OC
+      - 日本|05|LIN
+      - 日本|05|OCAZ中转
+      - 日本|02|LINAZ中转
+      - 日本|04|OCAZ中转
+      - 日本|02|LIN02AZ中转
+      - 日本|01|LINAZ中转
+      - 日本|03|LINAZ中转
+      - 日本|05|LINAZ中转
+      - 新加坡|04|OCAZ中转
+      - 新加坡|08|DOAZ中转
+      - 新加坡|03|OC奈飞AZ中转
+      - 新加坡|02|DOAZ中转
+      - 新加坡|01|OCAZ中转
+      - 美国|01|DO
+      - 日本|03|LIN
+      - 台湾|02奈飞日本AZ中转
+      - 新加坡|01|OC
+      - 新加坡|01|LINAZ中转
+      - 香港|12AZ中转
+      - 香港|17AZ中转
+      - 香港|20AZ中转
+      - 香港|13|AZ中转
+      - 新加坡|04|OC
+      - 日本|04|OC
+      - 韩国|03|OCAZ中转
+      - 香港|10AZ中转
+      - 香港|22奈飞AZ中转
+      - 香港|13AZ中转
+      - 香港|07奈飞AZ中转
+      - 香港|03AZ中转
+      - 英国|01|DOAZ中转
+      - 台湾|01奈飞香港AZ中转
+      - 印度|02|LINAZ中转
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 05 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 01 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 03 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 04 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 02 2
-      - ss丨台湾300Mbps
-      - ss丨香港1Gbps丨
-      - 80丨冰钉丨香港丨备用
-      - 8080丨香港高速丨广东联通可免
-      - 8080丨香港丨300m
-      - 80丨电信停机卡丨香港
-      - 80丨香港1Gbps丨
-      - 443丨香港1Gbps丨
-      - 8080丨台湾高速丨广东联通可免
-      - 80丨台湾丨1Gbps
+      - 台湾|02奈飞日本AZ中转
+      - 香港|12AZ中转
+      - 香港|17AZ中转
+      - 香港|20AZ中转
+      - 香港|13|AZ中转
+      - 香港|10AZ中转
+      - 香港|22奈飞AZ中转
+      - 香港|13AZ中转
+      - 香港|07奈飞AZ中转
+      - 香港|03AZ中转
+      - 台湾|01奈飞香港AZ中转
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 新加坡 Magic IEPL 中继 C02 Netflix
-      - 新加坡 Magic IEPL 中继 C04 Netflix
-      - 试用/续费 接入 2
-      - 美国实验性 IEPL 中继 C05
-      - 美国高级 IEPL 中继 C03
-      - 美国实验性 IEPL 中继 C03
-      - 美国高级 IEPL 中继 C02
-      - 美国高级 IEPL 中继 C01
-      - 美国高级 IEPL 中继 C05
-      - 美国实验性 IEPL 中继 C04
-      - 美国高级 IEPL 中继 C04
-      - 美国实验性 IEPL 中继 C02
-      - 美国实验性 IEPL 中继 C01
-      - "俄罗斯 01\t 2"
-      - 俄罗斯 02 2
-      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
-      - 精简 22
-      - 精简 26
-      - 精简 27
-      - 精简 21
-      - 精简 23
-      - 精简 25
-      - 新加坡高级 IEPL 中继 C03 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C05 Netflix
-      - 精简 24
-      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
-      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
-      - 新加坡高级 IEPL 中继 C01 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C04 Netflix
-      - 新加坡高级 IEPL 中继 C02 Netflix
-      - 新加坡 Magic IEPL 中继 C03 Netflix
-      - 新加坡 Magic IEPL 中继 C01 Netflix
-      - 新加坡 Magic IEPL 中继 C05 Netflix
-      - 精简 28
-      - 精简 29
-      - 日本 ソフトバンク C09 500Mbps 1x Netflix
-      - 俄罗斯 03 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 05 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 01 2
-      - 俄罗斯 04 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 03 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 04 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 02 2
-      - ss丨韩国500Mbps丨
-      - ss丨台湾300Mbps
-      - ss丨加拿大多伦多丨
-      - ss丨美国凤凰城丨
-      - ss丨美国圣何塞丨
-      - ss丨加拿大安大略丨
-      - ss丨美国洛杉矶丨
-      - 蚂蚁云：mayiyun.shop
-      - 安卓软件国内节点显示连接失败不影响使用
-      - ss丨香港1Gbps丨
-      - ss丨韩国100Mbps丨2
-      - ss丨日本500Mbps丨
-      - ss丨日本1Gbps丨
-      - ss丨日本1Gbps丨2
-      - ss丨德国300Mbps
-      - 80丨北京丨8m丨游戏节点
-      - 80丨冰钉丨香港丨备用
-      - 80丨德国丨1Gbps丨2
-      - 80丨德国丨50Mbps丨1
-      - 80丨加拿大多伦多丨
-      - 8080丨香港高速丨广东联通可免
-      - 80丨德国1Gbps丨1
-      - 80丨美国凤凰城丨
-      - 80丨加拿大安大略丨
-      - 80丨韩国丨500Mbps丨1
-      - 80丨韩国1Gbps
-      - 80丨美国圣何塞丨
-      - 80丨韩国丨500Mbps丨2
-      - 443丨韩国丨500Mbps丨2
-      - 8080丨香港丨300m
-      - 80丨电信停机卡丨香港
-      - 80丨香港1Gbps丨
-      - 443丨香港1Gbps丨
-      - 80丨华南高速丨100Mbps
-      - 80丨电信停机卡丨华南
-      - 80丨日本1Gbps
-      - 443丨日本1Gbps
-      - 80丨日本2
-      - 443丨日本丨50Mbps丨2
-      - 80丨日本丨1Gbps丨1
-      - 443丨华南高速丨100Mbps丨3
-      - 80丨日本丨50Mbps丨2
-      - 443丨日本丨1Gbps丨1
-      - 80丨华南高速丨100Mbp丨3
-      - 8080丨上海丨8m丨游戏节点
-      - 8080丨台湾高速丨广东联通可免
-      - 443丨江苏丨300M
-      - 80丨台湾丨1Gbps
-      - 8080丨美国洛杉矶丨
+      - 韩国|04|OC移动中转
+      - 日本|01|LIN
+      - 日本|05|OC
+      - 日本|05|LIN
+      - 日本|05|OCAZ中转
+      - 日本|02|LINAZ中转
+      - 日本|04|OCAZ中转
+      - 日本|02|LIN02AZ中转
+      - 日本|01|LINAZ中转
+      - 日本|03|LINAZ中转
+      - 日本|05|LINAZ中转
+      - 新加坡|04|OCAZ中转
+      - 新加坡|08|DOAZ中转
+      - 新加坡|03|OC奈飞AZ中转
+      - 新加坡|02|DOAZ中转
+      - 新加坡|01|OCAZ中转
+      - 美国|01|DO
+      - 日本|03|LIN
+      - 台湾|02奈飞日本AZ中转
+      - 新加坡|01|OC
+      - 新加坡|01|LINAZ中转
+      - 香港|12AZ中转
+      - 香港|17AZ中转
+      - 香港|20AZ中转
+      - 香港|13|AZ中转
+      - 新加坡|04|OC
+      - 日本|04|OC
+      - 韩国|03|OCAZ中转
+      - 香港|10AZ中转
+      - 香港|22奈飞AZ中转
+      - 香港|13AZ中转
+      - 香港|07奈飞AZ中转
+      - 香港|03AZ中转
+      - 英国|01|DOAZ中转
+      - 台湾|01奈飞香港AZ中转
+      - 印度|02|LINAZ中转
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 新加坡 Magic IEPL 中继 C02 Netflix
-      - 新加坡 Magic IEPL 中继 C04 Netflix
-      - 试用/续费 接入 2
-      - 美国实验性 IEPL 中继 C05
-      - 美国高级 IEPL 中继 C03
-      - 美国实验性 IEPL 中继 C03
-      - 美国高级 IEPL 中继 C02
-      - 美国高级 IEPL 中继 C01
-      - 美国高级 IEPL 中继 C05
-      - 美国实验性 IEPL 中继 C04
-      - 美国高级 IEPL 中继 C04
-      - 美国实验性 IEPL 中继 C02
-      - 美国实验性 IEPL 中继 C01
-      - "俄罗斯 01\t 2"
-      - 俄罗斯 02 2
-      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
-      - 精简 22
-      - 精简 26
-      - 精简 27
-      - 精简 21
-      - 精简 23
-      - 精简 25
-      - 新加坡高级 IEPL 中继 C03 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C05 Netflix
-      - 精简 24
-      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
-      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
-      - 新加坡高级 IEPL 中继 C01 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C04 Netflix
-      - 新加坡高级 IEPL 中继 C02 Netflix
-      - 新加坡 Magic IEPL 中继 C03 Netflix
-      - 新加坡 Magic IEPL 中继 C01 Netflix
-      - 新加坡 Magic IEPL 中继 C05 Netflix
-      - 精简 28
-      - 精简 29
-      - 日本 ソフトバンク C09 500Mbps 1x Netflix
-      - 俄罗斯 03 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 05 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 01 2
-      - 俄罗斯 04 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 03 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 04 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 02 2
-      - ss丨韩国500Mbps丨
-      - ss丨台湾300Mbps
-      - ss丨加拿大多伦多丨
-      - ss丨美国凤凰城丨
-      - ss丨美国圣何塞丨
-      - ss丨加拿大安大略丨
-      - ss丨美国洛杉矶丨
-      - 蚂蚁云：mayiyun.shop
-      - 安卓软件国内节点显示连接失败不影响使用
-      - ss丨香港1Gbps丨
-      - ss丨韩国100Mbps丨2
-      - ss丨日本500Mbps丨
-      - ss丨日本1Gbps丨
-      - ss丨日本1Gbps丨2
-      - ss丨德国300Mbps
-      - 80丨北京丨8m丨游戏节点
-      - 80丨冰钉丨香港丨备用
-      - 80丨德国丨1Gbps丨2
-      - 80丨德国丨50Mbps丨1
-      - 80丨加拿大多伦多丨
-      - 8080丨香港高速丨广东联通可免
-      - 80丨德国1Gbps丨1
-      - 80丨美国凤凰城丨
-      - 80丨加拿大安大略丨
-      - 80丨韩国丨500Mbps丨1
-      - 80丨韩国1Gbps
-      - 80丨美国圣何塞丨
-      - 80丨韩国丨500Mbps丨2
-      - 443丨韩国丨500Mbps丨2
-      - 8080丨香港丨300m
-      - 80丨电信停机卡丨香港
-      - 80丨香港1Gbps丨
-      - 443丨香港1Gbps丨
-      - 80丨华南高速丨100Mbps
-      - 80丨电信停机卡丨华南
-      - 80丨日本1Gbps
-      - 443丨日本1Gbps
-      - 80丨日本2
-      - 443丨日本丨50Mbps丨2
-      - 80丨日本丨1Gbps丨1
-      - 443丨华南高速丨100Mbps丨3
-      - 80丨日本丨50Mbps丨2
-      - 443丨日本丨1Gbps丨1
-      - 80丨华南高速丨100Mbp丨3
-      - 8080丨上海丨8m丨游戏节点
-      - 8080丨台湾高速丨广东联通可免
-      - 443丨江苏丨300M
-      - 80丨台湾丨1Gbps
-      - 8080丨美国洛杉矶丨
+      - 韩国|04|OC移动中转
+      - 日本|01|LIN
+      - 日本|05|OC
+      - 日本|05|LIN
+      - 日本|05|OCAZ中转
+      - 日本|02|LINAZ中转
+      - 日本|04|OCAZ中转
+      - 日本|02|LIN02AZ中转
+      - 日本|01|LINAZ中转
+      - 日本|03|LINAZ中转
+      - 日本|05|LINAZ中转
+      - 新加坡|04|OCAZ中转
+      - 新加坡|08|DOAZ中转
+      - 新加坡|03|OC奈飞AZ中转
+      - 新加坡|02|DOAZ中转
+      - 新加坡|01|OCAZ中转
+      - 美国|01|DO
+      - 日本|03|LIN
+      - 台湾|02奈飞日本AZ中转
+      - 新加坡|01|OC
+      - 新加坡|01|LINAZ中转
+      - 香港|12AZ中转
+      - 香港|17AZ中转
+      - 香港|20AZ中转
+      - 香港|13|AZ中转
+      - 新加坡|04|OC
+      - 日本|04|OC
+      - 韩国|03|OCAZ中转
+      - 香港|10AZ中转
+      - 香港|22奈飞AZ中转
+      - 香港|13AZ中转
+      - 香港|07奈飞AZ中转
+      - 香港|03AZ中转
+      - 英国|01|DOAZ中转
+      - 台湾|01奈飞香港AZ中转
+      - 印度|02|LINAZ中转
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡 Magic IEPL 中继 C02 Netflix
-      - 新加坡 Magic IEPL 中继 C04 Netflix
-      - 试用/续费 接入 2
-      - 美国实验性 IEPL 中继 C05
-      - 美国高级 IEPL 中继 C03
-      - 美国实验性 IEPL 中继 C03
-      - 美国高级 IEPL 中继 C02
-      - 美国高级 IEPL 中继 C01
-      - 美国高级 IEPL 中继 C05
-      - 美国实验性 IEPL 中继 C04
-      - 美国高级 IEPL 中继 C04
-      - 美国实验性 IEPL 中继 C02
-      - 美国实验性 IEPL 中继 C01
-      - "俄罗斯 01\t 2"
-      - 俄罗斯 02 2
-      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
-      - 精简 22
-      - 精简 26
-      - 精简 27
-      - 精简 21
-      - 精简 23
-      - 精简 25
-      - 新加坡高级 IEPL 中继 C03 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C05 Netflix
-      - 精简 24
-      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
-      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
-      - 新加坡高级 IEPL 中继 C01 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C04 Netflix
-      - 新加坡高级 IEPL 中继 C02 Netflix
-      - 新加坡 Magic IEPL 中继 C03 Netflix
-      - 新加坡 Magic IEPL 中继 C01 Netflix
-      - 新加坡 Magic IEPL 中继 C05 Netflix
-      - 精简 28
-      - 精简 29
-      - 日本 ソフトバンク C09 500Mbps 1x Netflix
-      - 俄罗斯 03 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 05 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 01 2
-      - 俄罗斯 04 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 03 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 04 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 02 2
-      - ss丨韩国500Mbps丨
-      - ss丨台湾300Mbps
-      - ss丨加拿大多伦多丨
-      - ss丨美国凤凰城丨
-      - ss丨美国圣何塞丨
-      - ss丨加拿大安大略丨
-      - ss丨美国洛杉矶丨
-      - 蚂蚁云：mayiyun.shop
-      - 安卓软件国内节点显示连接失败不影响使用
-      - ss丨香港1Gbps丨
-      - ss丨韩国100Mbps丨2
-      - ss丨日本500Mbps丨
-      - ss丨日本1Gbps丨
-      - ss丨日本1Gbps丨2
-      - ss丨德国300Mbps
-      - 80丨北京丨8m丨游戏节点
-      - 80丨冰钉丨香港丨备用
-      - 80丨德国丨1Gbps丨2
-      - 80丨德国丨50Mbps丨1
-      - 80丨加拿大多伦多丨
-      - 8080丨香港高速丨广东联通可免
-      - 80丨德国1Gbps丨1
-      - 80丨美国凤凰城丨
-      - 80丨加拿大安大略丨
-      - 80丨韩国丨500Mbps丨1
-      - 80丨韩国1Gbps
-      - 80丨美国圣何塞丨
-      - 80丨韩国丨500Mbps丨2
-      - 443丨韩国丨500Mbps丨2
-      - 8080丨香港丨300m
-      - 80丨电信停机卡丨香港
-      - 80丨香港1Gbps丨
-      - 443丨香港1Gbps丨
-      - 80丨华南高速丨100Mbps
-      - 80丨电信停机卡丨华南
-      - 80丨日本1Gbps
-      - 443丨日本1Gbps
-      - 80丨日本2
-      - 443丨日本丨50Mbps丨2
-      - 80丨日本丨1Gbps丨1
-      - 443丨华南高速丨100Mbps丨3
-      - 80丨日本丨50Mbps丨2
-      - 443丨日本丨1Gbps丨1
-      - 80丨华南高速丨100Mbp丨3
-      - 8080丨上海丨8m丨游戏节点
-      - 8080丨台湾高速丨广东联通可免
-      - 443丨江苏丨300M
-      - 80丨台湾丨1Gbps
-      - 8080丨美国洛杉矶丨
+      - 韩国|04|OC移动中转
+      - 日本|01|LIN
+      - 日本|05|OC
+      - 日本|05|LIN
+      - 日本|05|OCAZ中转
+      - 日本|02|LINAZ中转
+      - 日本|04|OCAZ中转
+      - 日本|02|LIN02AZ中转
+      - 日本|01|LINAZ中转
+      - 日本|03|LINAZ中转
+      - 日本|05|LINAZ中转
+      - 新加坡|04|OCAZ中转
+      - 新加坡|08|DOAZ中转
+      - 新加坡|03|OC奈飞AZ中转
+      - 新加坡|02|DOAZ中转
+      - 新加坡|01|OCAZ中转
+      - 美国|01|DO
+      - 日本|03|LIN
+      - 台湾|02奈飞日本AZ中转
+      - 新加坡|01|OC
+      - 新加坡|01|LINAZ中转
+      - 香港|12AZ中转
+      - 香港|17AZ中转
+      - 香港|20AZ中转
+      - 香港|13|AZ中转
+      - 新加坡|04|OC
+      - 日本|04|OC
+      - 韩国|03|OCAZ中转
+      - 香港|10AZ中转
+      - 香港|22奈飞AZ中转
+      - 香港|13AZ中转
+      - 香港|07奈飞AZ中转
+      - 香港|03AZ中转
+      - 英国|01|DOAZ中转
+      - 台湾|01奈飞香港AZ中转
+      - 印度|02|LINAZ中转
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -835,99 +375,42 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡 Magic IEPL 中继 C02 Netflix
-      - 新加坡 Magic IEPL 中继 C04 Netflix
-      - 试用/续费 接入 2
-      - 美国实验性 IEPL 中继 C05
-      - 美国高级 IEPL 中继 C03
-      - 美国实验性 IEPL 中继 C03
-      - 美国高级 IEPL 中继 C02
-      - 美国高级 IEPL 中继 C01
-      - 美国高级 IEPL 中继 C05
-      - 美国实验性 IEPL 中继 C04
-      - 美国高级 IEPL 中继 C04
-      - 美国实验性 IEPL 中继 C02
-      - 美国实验性 IEPL 中继 C01
-      - "俄罗斯 01\t 2"
-      - 俄罗斯 02 2
-      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
-      - 精简 22
-      - 精简 26
-      - 精简 27
-      - 精简 21
-      - 精简 23
-      - 精简 25
-      - 新加坡高级 IEPL 中继 C03 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C05 Netflix
-      - 精简 24
-      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
-      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
-      - 新加坡高级 IEPL 中继 C01 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C04 Netflix
-      - 新加坡高级 IEPL 中继 C02 Netflix
-      - 新加坡 Magic IEPL 中继 C03 Netflix
-      - 新加坡 Magic IEPL 中继 C01 Netflix
-      - 新加坡 Magic IEPL 中继 C05 Netflix
-      - 精简 28
-      - 精简 29
-      - 日本 ソフトバンク C09 500Mbps 1x Netflix
-      - 俄罗斯 03 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 05 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 01 2
-      - 俄罗斯 04 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 03 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 04 2
-      - 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 02 2
-      - ss丨韩国500Mbps丨
-      - ss丨台湾300Mbps
-      - ss丨加拿大多伦多丨
-      - ss丨美国凤凰城丨
-      - ss丨美国圣何塞丨
-      - ss丨加拿大安大略丨
-      - ss丨美国洛杉矶丨
-      - 蚂蚁云：mayiyun.shop
-      - 安卓软件国内节点显示连接失败不影响使用
-      - ss丨香港1Gbps丨
-      - ss丨韩国100Mbps丨2
-      - ss丨日本500Mbps丨
-      - ss丨日本1Gbps丨
-      - ss丨日本1Gbps丨2
-      - ss丨德国300Mbps
-      - 80丨北京丨8m丨游戏节点
-      - 80丨冰钉丨香港丨备用
-      - 80丨德国丨1Gbps丨2
-      - 80丨德国丨50Mbps丨1
-      - 80丨加拿大多伦多丨
-      - 8080丨香港高速丨广东联通可免
-      - 80丨德国1Gbps丨1
-      - 80丨美国凤凰城丨
-      - 80丨加拿大安大略丨
-      - 80丨韩国丨500Mbps丨1
-      - 80丨韩国1Gbps
-      - 80丨美国圣何塞丨
-      - 80丨韩国丨500Mbps丨2
-      - 443丨韩国丨500Mbps丨2
-      - 8080丨香港丨300m
-      - 80丨电信停机卡丨香港
-      - 80丨香港1Gbps丨
-      - 443丨香港1Gbps丨
-      - 80丨华南高速丨100Mbps
-      - 80丨电信停机卡丨华南
-      - 80丨日本1Gbps
-      - 443丨日本1Gbps
-      - 80丨日本2
-      - 443丨日本丨50Mbps丨2
-      - 80丨日本丨1Gbps丨1
-      - 443丨华南高速丨100Mbps丨3
-      - 80丨日本丨50Mbps丨2
-      - 443丨日本丨1Gbps丨1
-      - 80丨华南高速丨100Mbp丨3
-      - 8080丨上海丨8m丨游戏节点
-      - 8080丨台湾高速丨广东联通可免
-      - 443丨江苏丨300M
-      - 80丨台湾丨1Gbps
-      - 8080丨美国洛杉矶丨
+      - 韩国|04|OC移动中转
+      - 日本|01|LIN
+      - 日本|05|OC
+      - 日本|05|LIN
+      - 日本|05|OCAZ中转
+      - 日本|02|LINAZ中转
+      - 日本|04|OCAZ中转
+      - 日本|02|LIN02AZ中转
+      - 日本|01|LINAZ中转
+      - 日本|03|LINAZ中转
+      - 日本|05|LINAZ中转
+      - 新加坡|04|OCAZ中转
+      - 新加坡|08|DOAZ中转
+      - 新加坡|03|OC奈飞AZ中转
+      - 新加坡|02|DOAZ中转
+      - 新加坡|01|OCAZ中转
+      - 美国|01|DO
+      - 日本|03|LIN
+      - 台湾|02奈飞日本AZ中转
+      - 新加坡|01|OC
+      - 新加坡|01|LINAZ中转
+      - 香港|12AZ中转
+      - 香港|17AZ中转
+      - 香港|20AZ中转
+      - 香港|13|AZ中转
+      - 新加坡|04|OC
+      - 日本|04|OC
+      - 韩国|03|OCAZ中转
+      - 香港|10AZ中转
+      - 香港|22奈飞AZ中转
+      - 香港|13AZ中转
+      - 香港|07奈飞AZ中转
+      - 香港|03AZ中转
+      - 英国|01|DOAZ中转
+      - 台湾|01奈飞香港AZ中转
+      - 印度|02|LINAZ中转
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
