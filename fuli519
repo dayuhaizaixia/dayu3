@@ -5,167 +5,127 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 韩国|04|OC移动中转, server: shcu.9218561.xyz, port: 25982, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: shcu.9218561.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本|01|LIN, server: jp01.170809.xyz, port: 443, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: jp01.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本|05|OC, server: jp05.170809.xyz, port: 443, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: jp05.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本|05|LIN, server: jpmax05.170809.xyz, port: 443, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: jpmax05.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本|05|OCAZ中转, server: azjp.orange7.cf, port: 18498, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|02|LINAZ中转, server: azjp.orange7.cf, port: 10050, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|04|OCAZ中转, server: azjp.orange7.cf, port: 38323, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|02|LIN02AZ中转, server: azjp.orange7.cf, port: 36129, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|01|LINAZ中转, server: azjp.orange7.cf, port: 18179, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|03|LINAZ中转, server: azhk.orange7.cf, port: 19542, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本|05|LINAZ中转, server: azjp.orange7.cf, port: 20842, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|04|OCAZ中转, server: azhk.orange7.cf, port: 32915, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|08|DOAZ中转, server: azhk.orange7.cf, port: 44777, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|03|OC奈飞AZ中转, server: azhk.orange7.cf, port: 13361, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|02|DOAZ中转, server: azhk.orange7.cf, port: 50278, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|01|OCAZ中转, server: azhk.orange7.cf, port: 21230, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 美国|01|DO, server: us01.170809.xyz, port: 443, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: us01.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本|03|LIN, server: jp03.170809.xyz, port: 444, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: jp03.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾|02奈飞日本AZ中转, server: azjp.orange7.cf, port: 23403, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azjp.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|01|OC, server: sg01.170809.xyz, port: 443, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: sg01.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|01|LINAZ中转, server: azhk.orange7.cf, port: 61810, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|12AZ中转, server: azhk.orange7.cf, port: 39109, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|17AZ中转, server: azhk.orange7.cf, port: 60353, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|20AZ中转, server: azhk.orange7.cf, port: 23245, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|13|AZ中转, server: azhk.orange7.cf, port: 48206, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|04|OC, server: sgmax04.170809.xyz, port: 443, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: sgmax04.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本|04|OC, server: jp04.170809.xyz, port: 443, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: jp04.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 韩国|03|OCAZ中转, server: azhk.orange7.cf, port: 20822, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|10AZ中转, server: azhk.orange7.cf, port: 21696, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|22奈飞AZ中转, server: azhk.orange7.cf, port: 43599, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|13AZ中转, server: azhk.orange7.cf, port: 32505, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|07奈飞AZ中转, server: azhk.orange7.cf, port: 13055, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港|03AZ中转, server: azhk.orange7.cf, port: 53106, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 英国|01|DOAZ中转, server: azhk.orange7.cf, port: 42355, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 台湾|01奈飞香港AZ中转, server: azhk.orange7.cf, port: 65534, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
-  - {name: 印度|02|LINAZ中转, server: azhk.orange7.cf, port: 47822, type: trojan, password: bf1ac7d6-21dc-4af1-9876-7caaac777ba4, sni: azhk.orange7.cf, skip-cert-verify: true, udp: true}
+  - {name: Japan-E3-HKAZ, server: cn-hk.az00.986888.xyz, port: 49365, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn-hk.az00.986888.xyz, skip-cert-verify: true, udp: true}
+  - {name: America-A2, server: 152.70.123.141, port: 80, type: vmess, uuid: 49dab9f1-5e61-426a-8f1d-a67100a5f509, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.70.123.141}, udp: true}
+  - {name: HongKong-E1-原生, server: cn-hk.az00.986888.xyz, port: 49365, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn-hk.az00.986888.xyz, skip-cert-verify: true, udp: true}
+  - {name: Germany-C1, server: cn.shcu.986888.xyz, port: 38650, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn.shcu.986888.xyz, skip-cert-verify: true, udp: true}
+  - {name: Taiwan-C1-原生-1.2x, server: azurecli-start.mswindowsservice.live, port: 443, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: azurecli-start.mswindowsservice.live, skip-cert-verify: true, udp: true}
+  - {name: Singapore-C2, server: cn-hk.az00.986888.xyz, port: 49365, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn-hk.az00.986888.xyz, skip-cert-verify: true, udp: true}
+  - {name: Japan-C5-流媒体解锁, server: cn.shcu.986888.xyz, port: 27632, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn.shcu.986888.xyz, skip-cert-verify: true, udp: true}
+  - {name: Japan-C2-流媒体解锁, server: cn.shcu.986888.xyz, port: 51421, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn.shcu.986888.xyz, skip-cert-verify: true, udp: true}
+  - {name: Singapore-A1, server: 47.241.13.35, port: 443, type: vmess, uuid: 49dab9f1-5e61-426a-8f1d-a67100a5f509, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nana, ws-headers: {Host: sg3.qcjs.one}, udp: true}
+  - {name: Japan-E1-HKAZ, server: cn-hk.az00.986888.xyz, port: 49365, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn-hk.az00.986888.xyz, skip-cert-verify: true, udp: true}
+  - {name: America-A1, server: 104.129.63.65, port: 7383, type: ss, cipher: aes-256-gcm, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, udp: true}
+  - {name: Australia-A1-沪日, server: cn.shcu.986888.xyz, port: 32437, type: vmess, uuid: 49dab9f1-5e61-426a-8f1d-a67100a5f509, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nana, ws-headers: {Host: as1.qcjs.one}, udp: true}
+  - {name: Singapore-E2, server: cn-hk.az00.986888.xyz, port: 49365, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn-hk.az00.986888.xyz, skip-cert-verify: true, udp: true}
+  - {name: Germany-E2, server: cn-hk.az00.986888.xyz, port: 49365, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn-hk.az00.986888.xyz, skip-cert-verify: true, udp: true}
+  - {name: Japan-C1-流媒体解锁, server: cn.shcu.986888.xyz, port: 51421, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn.shcu.986888.xyz, skip-cert-verify: true, udp: true}
+  - {name: America-C3-沪日, server: cn.shcu.986888.xyz, port: 61925, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn.shcu.986888.xyz, skip-cert-verify: true, udp: true}
+  - {name: America-C4-京日, server: 140.179.117.55, port: 28058, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, skip-cert-verify: true, udp: true}
+  - {name: America-C6-京日, server: 140.179.117.55, port: 39271, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, skip-cert-verify: true, udp: true}
+  - {name: America-C5-京日, server: 140.179.117.55, port: 59740, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, skip-cert-verify: true, udp: true}
+  - {name: Singapore-C4, server: 140.179.117.55, port: 52164, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, skip-cert-verify: true, udp: true}
+  - {name: Japan-E2-HKAZ, server: cn-hk.az00.986888.xyz, port: 49365, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn-hk.az00.986888.xyz, skip-cert-verify: true, udp: true}
+  - {name: HongKong-C2-0.5x, server: cn-hk.az00.986888.xyz, port: 49365, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn-hk.az00.986888.xyz, skip-cert-verify: true, udp: true}
+  - {name: Japan-C4, server: cn.shcu.986888.xyz, port: 51421, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn.shcu.986888.xyz, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong-IEPL-备用-10x, server: 52.131.227.44, port: 26326, type: ss, cipher: chacha20-ietf-poly1305, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, udp: true}
+  - {name: Japan-C6-流媒体解锁, server: cn.shcu.986888.xyz, port: 26052, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn.shcu.986888.xyz, skip-cert-verify: true, udp: true}
+  - {name: Japan-C3, server: cn.shcu.986888.xyz, port: 51421, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn.shcu.986888.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国|04|OC移动中转
-      - 日本|01|LIN
-      - 日本|05|OC
-      - 日本|05|LIN
-      - 日本|05|OCAZ中转
-      - 日本|02|LINAZ中转
-      - 日本|04|OCAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|01|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|05|LINAZ中转
-      - 新加坡|04|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|01|OCAZ中转
-      - 美国|01|DO
-      - 日本|03|LIN
-      - 台湾|02奈飞日本AZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|LINAZ中转
-      - 香港|12AZ中转
-      - 香港|17AZ中转
-      - 香港|20AZ中转
-      - 香港|13|AZ中转
-      - 新加坡|04|OC
-      - 日本|04|OC
-      - 韩国|03|OCAZ中转
-      - 香港|10AZ中转
-      - 香港|22奈飞AZ中转
-      - 香港|13AZ中转
-      - 香港|07奈飞AZ中转
-      - 香港|03AZ中转
-      - 英国|01|DOAZ中转
-      - 台湾|01奈飞香港AZ中转
-      - 印度|02|LINAZ中转
+      - Japan-E3-HKAZ
+      - America-A2
+      - HongKong-E1-原生
+      - Germany-C1
+      - Taiwan-C1-原生-1.2x
+      - Singapore-C2
+      - Japan-C5-流媒体解锁
+      - Japan-C2-流媒体解锁
+      - Singapore-A1
+      - Japan-E1-HKAZ
+      - America-A1
+      - Australia-A1-沪日
+      - Singapore-E2
+      - Germany-E2
+      - Japan-C1-流媒体解锁
+      - America-C3-沪日
+      - America-C4-京日
+      - America-C6-京日
+      - America-C5-京日
+      - Singapore-C4
+      - Japan-E2-HKAZ
+      - HongKong-C2-0.5x
+      - Japan-C4
+      - Hong Kong-IEPL-备用-10x
+      - Japan-C6-流媒体解锁
+      - Japan-C3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 韩国|04|OC移动中转
-      - 日本|01|LIN
-      - 日本|05|OC
-      - 日本|05|LIN
-      - 日本|05|OCAZ中转
-      - 日本|02|LINAZ中转
-      - 日本|04|OCAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|01|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|05|LINAZ中转
-      - 新加坡|04|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|01|OCAZ中转
-      - 美国|01|DO
-      - 日本|03|LIN
-      - 台湾|02奈飞日本AZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|LINAZ中转
-      - 香港|12AZ中转
-      - 香港|17AZ中转
-      - 香港|20AZ中转
-      - 香港|13|AZ中转
-      - 新加坡|04|OC
-      - 日本|04|OC
-      - 韩国|03|OCAZ中转
-      - 香港|10AZ中转
-      - 香港|22奈飞AZ中转
-      - 香港|13AZ中转
-      - 香港|07奈飞AZ中转
-      - 香港|03AZ中转
-      - 英国|01|DOAZ中转
-      - 台湾|01奈飞香港AZ中转
-      - 印度|02|LINAZ中转
+      - Japan-E3-HKAZ
+      - America-A2
+      - HongKong-E1-原生
+      - Germany-C1
+      - Taiwan-C1-原生-1.2x
+      - Singapore-C2
+      - Japan-C5-流媒体解锁
+      - Japan-C2-流媒体解锁
+      - Singapore-A1
+      - Japan-E1-HKAZ
+      - America-A1
+      - Australia-A1-沪日
+      - Singapore-E2
+      - Germany-E2
+      - Japan-C1-流媒体解锁
+      - America-C3-沪日
+      - America-C4-京日
+      - America-C6-京日
+      - America-C5-京日
+      - Singapore-C4
+      - Japan-E2-HKAZ
+      - HongKong-C2-0.5x
+      - Japan-C4
+      - Hong Kong-IEPL-备用-10x
+      - Japan-C6-流媒体解锁
+      - Japan-C3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国|04|OC移动中转
-      - 日本|01|LIN
-      - 日本|05|OC
-      - 日本|05|LIN
-      - 日本|05|OCAZ中转
-      - 日本|02|LINAZ中转
-      - 日本|04|OCAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|01|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|05|LINAZ中转
-      - 新加坡|04|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|01|OCAZ中转
-      - 美国|01|DO
-      - 日本|03|LIN
-      - 台湾|02奈飞日本AZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|LINAZ中转
-      - 香港|12AZ中转
-      - 香港|17AZ中转
-      - 香港|20AZ中转
-      - 香港|13|AZ中转
-      - 新加坡|04|OC
-      - 日本|04|OC
-      - 韩国|03|OCAZ中转
-      - 香港|10AZ中转
-      - 香港|22奈飞AZ中转
-      - 香港|13AZ中转
-      - 香港|07奈飞AZ中转
-      - 香港|03AZ中转
-      - 英国|01|DOAZ中转
-      - 台湾|01奈飞香港AZ中转
-      - 印度|02|LINAZ中转
+      - Japan-E3-HKAZ
+      - America-A2
+      - HongKong-E1-原生
+      - Germany-C1
+      - Taiwan-C1-原生-1.2x
+      - Singapore-C2
+      - Japan-C5-流媒体解锁
+      - Japan-C2-流媒体解锁
+      - Singapore-A1
+      - Japan-E1-HKAZ
+      - America-A1
+      - Australia-A1-沪日
+      - Singapore-E2
+      - Germany-E2
+      - Japan-C1-流媒体解锁
+      - America-C3-沪日
+      - America-C4-京日
+      - America-C6-京日
+      - America-C5-京日
+      - Singapore-C4
+      - Japan-E2-HKAZ
+      - HongKong-C2-0.5x
+      - Japan-C4
+      - Hong Kong-IEPL-备用-10x
+      - Japan-C6-流媒体解锁
+      - Japan-C3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -184,182 +144,131 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国|04|OC移动中转
-      - 日本|01|LIN
-      - 日本|05|OC
-      - 日本|05|LIN
-      - 日本|05|OCAZ中转
-      - 日本|02|LINAZ中转
-      - 日本|04|OCAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|01|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|05|LINAZ中转
-      - 新加坡|04|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|01|OCAZ中转
-      - 美国|01|DO
-      - 日本|03|LIN
-      - 台湾|02奈飞日本AZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|LINAZ中转
-      - 香港|12AZ中转
-      - 香港|17AZ中转
-      - 香港|20AZ中转
-      - 香港|13|AZ中转
-      - 新加坡|04|OC
-      - 日本|04|OC
-      - 韩国|03|OCAZ中转
-      - 香港|10AZ中转
-      - 香港|22奈飞AZ中转
-      - 香港|13AZ中转
-      - 香港|07奈飞AZ中转
-      - 香港|03AZ中转
-      - 英国|01|DOAZ中转
-      - 台湾|01奈飞香港AZ中转
-      - 印度|02|LINAZ中转
+      - Japan-E3-HKAZ
+      - America-A2
+      - HongKong-E1-原生
+      - Germany-C1
+      - Taiwan-C1-原生-1.2x
+      - Singapore-C2
+      - Japan-C5-流媒体解锁
+      - Japan-C2-流媒体解锁
+      - Singapore-A1
+      - Japan-E1-HKAZ
+      - America-A1
+      - Australia-A1-沪日
+      - Singapore-E2
+      - Germany-E2
+      - Japan-C1-流媒体解锁
+      - America-C3-沪日
+      - America-C4-京日
+      - America-C6-京日
+      - America-C5-京日
+      - Singapore-C4
+      - Japan-E2-HKAZ
+      - HongKong-C2-0.5x
+      - Japan-C4
+      - Hong Kong-IEPL-备用-10x
+      - Japan-C6-流媒体解锁
+      - Japan-C3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾|02奈飞日本AZ中转
-      - 香港|12AZ中转
-      - 香港|17AZ中转
-      - 香港|20AZ中转
-      - 香港|13|AZ中转
-      - 香港|10AZ中转
-      - 香港|22奈飞AZ中转
-      - 香港|13AZ中转
-      - 香港|07奈飞AZ中转
-      - 香港|03AZ中转
-      - 台湾|01奈飞香港AZ中转
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 韩国|04|OC移动中转
-      - 日本|01|LIN
-      - 日本|05|OC
-      - 日本|05|LIN
-      - 日本|05|OCAZ中转
-      - 日本|02|LINAZ中转
-      - 日本|04|OCAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|01|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|05|LINAZ中转
-      - 新加坡|04|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|01|OCAZ中转
-      - 美国|01|DO
-      - 日本|03|LIN
-      - 台湾|02奈飞日本AZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|LINAZ中转
-      - 香港|12AZ中转
-      - 香港|17AZ中转
-      - 香港|20AZ中转
-      - 香港|13|AZ中转
-      - 新加坡|04|OC
-      - 日本|04|OC
-      - 韩国|03|OCAZ中转
-      - 香港|10AZ中转
-      - 香港|22奈飞AZ中转
-      - 香港|13AZ中转
-      - 香港|07奈飞AZ中转
-      - 香港|03AZ中转
-      - 英国|01|DOAZ中转
-      - 台湾|01奈飞香港AZ中转
-      - 印度|02|LINAZ中转
+      - Japan-E3-HKAZ
+      - America-A2
+      - HongKong-E1-原生
+      - Germany-C1
+      - Taiwan-C1-原生-1.2x
+      - Singapore-C2
+      - Japan-C5-流媒体解锁
+      - Japan-C2-流媒体解锁
+      - Singapore-A1
+      - Japan-E1-HKAZ
+      - America-A1
+      - Australia-A1-沪日
+      - Singapore-E2
+      - Germany-E2
+      - Japan-C1-流媒体解锁
+      - America-C3-沪日
+      - America-C4-京日
+      - America-C6-京日
+      - America-C5-京日
+      - Singapore-C4
+      - Japan-E2-HKAZ
+      - HongKong-C2-0.5x
+      - Japan-C4
+      - Hong Kong-IEPL-备用-10x
+      - Japan-C6-流媒体解锁
+      - Japan-C3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 韩国|04|OC移动中转
-      - 日本|01|LIN
-      - 日本|05|OC
-      - 日本|05|LIN
-      - 日本|05|OCAZ中转
-      - 日本|02|LINAZ中转
-      - 日本|04|OCAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|01|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|05|LINAZ中转
-      - 新加坡|04|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|01|OCAZ中转
-      - 美国|01|DO
-      - 日本|03|LIN
-      - 台湾|02奈飞日本AZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|LINAZ中转
-      - 香港|12AZ中转
-      - 香港|17AZ中转
-      - 香港|20AZ中转
-      - 香港|13|AZ中转
-      - 新加坡|04|OC
-      - 日本|04|OC
-      - 韩国|03|OCAZ中转
-      - 香港|10AZ中转
-      - 香港|22奈飞AZ中转
-      - 香港|13AZ中转
-      - 香港|07奈飞AZ中转
-      - 香港|03AZ中转
-      - 英国|01|DOAZ中转
-      - 台湾|01奈飞香港AZ中转
-      - 印度|02|LINAZ中转
+      - Japan-E3-HKAZ
+      - America-A2
+      - HongKong-E1-原生
+      - Germany-C1
+      - Taiwan-C1-原生-1.2x
+      - Singapore-C2
+      - Japan-C5-流媒体解锁
+      - Japan-C2-流媒体解锁
+      - Singapore-A1
+      - Japan-E1-HKAZ
+      - America-A1
+      - Australia-A1-沪日
+      - Singapore-E2
+      - Germany-E2
+      - Japan-C1-流媒体解锁
+      - America-C3-沪日
+      - America-C4-京日
+      - America-C6-京日
+      - America-C5-京日
+      - Singapore-C4
+      - Japan-E2-HKAZ
+      - HongKong-C2-0.5x
+      - Japan-C4
+      - Hong Kong-IEPL-备用-10x
+      - Japan-C6-流媒体解锁
+      - Japan-C3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 韩国|04|OC移动中转
-      - 日本|01|LIN
-      - 日本|05|OC
-      - 日本|05|LIN
-      - 日本|05|OCAZ中转
-      - 日本|02|LINAZ中转
-      - 日本|04|OCAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|01|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|05|LINAZ中转
-      - 新加坡|04|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|01|OCAZ中转
-      - 美国|01|DO
-      - 日本|03|LIN
-      - 台湾|02奈飞日本AZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|LINAZ中转
-      - 香港|12AZ中转
-      - 香港|17AZ中转
-      - 香港|20AZ中转
-      - 香港|13|AZ中转
-      - 新加坡|04|OC
-      - 日本|04|OC
-      - 韩国|03|OCAZ中转
-      - 香港|10AZ中转
-      - 香港|22奈飞AZ中转
-      - 香港|13AZ中转
-      - 香港|07奈飞AZ中转
-      - 香港|03AZ中转
-      - 英国|01|DOAZ中转
-      - 台湾|01奈飞香港AZ中转
-      - 印度|02|LINAZ中转
+      - Japan-E3-HKAZ
+      - America-A2
+      - HongKong-E1-原生
+      - Germany-C1
+      - Taiwan-C1-原生-1.2x
+      - Singapore-C2
+      - Japan-C5-流媒体解锁
+      - Japan-C2-流媒体解锁
+      - Singapore-A1
+      - Japan-E1-HKAZ
+      - America-A1
+      - Australia-A1-沪日
+      - Singapore-E2
+      - Germany-E2
+      - Japan-C1-流媒体解锁
+      - America-C3-沪日
+      - America-C4-京日
+      - America-C6-京日
+      - America-C5-京日
+      - Singapore-C4
+      - Japan-E2-HKAZ
+      - HongKong-C2-0.5x
+      - Japan-C4
+      - Hong Kong-IEPL-备用-10x
+      - Japan-C6-流媒体解锁
+      - Japan-C3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -375,42 +284,32 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 韩国|04|OC移动中转
-      - 日本|01|LIN
-      - 日本|05|OC
-      - 日本|05|LIN
-      - 日本|05|OCAZ中转
-      - 日本|02|LINAZ中转
-      - 日本|04|OCAZ中转
-      - 日本|02|LIN02AZ中转
-      - 日本|01|LINAZ中转
-      - 日本|03|LINAZ中转
-      - 日本|05|LINAZ中转
-      - 新加坡|04|OCAZ中转
-      - 新加坡|08|DOAZ中转
-      - 新加坡|03|OC奈飞AZ中转
-      - 新加坡|02|DOAZ中转
-      - 新加坡|01|OCAZ中转
-      - 美国|01|DO
-      - 日本|03|LIN
-      - 台湾|02奈飞日本AZ中转
-      - 新加坡|01|OC
-      - 新加坡|01|LINAZ中转
-      - 香港|12AZ中转
-      - 香港|17AZ中转
-      - 香港|20AZ中转
-      - 香港|13|AZ中转
-      - 新加坡|04|OC
-      - 日本|04|OC
-      - 韩国|03|OCAZ中转
-      - 香港|10AZ中转
-      - 香港|22奈飞AZ中转
-      - 香港|13AZ中转
-      - 香港|07奈飞AZ中转
-      - 香港|03AZ中转
-      - 英国|01|DOAZ中转
-      - 台湾|01奈飞香港AZ中转
-      - 印度|02|LINAZ中转
+      - Japan-E3-HKAZ
+      - America-A2
+      - HongKong-E1-原生
+      - Germany-C1
+      - Taiwan-C1-原生-1.2x
+      - Singapore-C2
+      - Japan-C5-流媒体解锁
+      - Japan-C2-流媒体解锁
+      - Singapore-A1
+      - Japan-E1-HKAZ
+      - America-A1
+      - Australia-A1-沪日
+      - Singapore-E2
+      - Germany-E2
+      - Japan-C1-流媒体解锁
+      - America-C3-沪日
+      - America-C4-京日
+      - America-C6-京日
+      - America-C5-京日
+      - Singapore-C4
+      - Japan-E2-HKAZ
+      - HongKong-C2-0.5x
+      - Japan-C4
+      - Hong Kong-IEPL-备用-10x
+      - Japan-C6-流媒体解锁
+      - Japan-C3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
