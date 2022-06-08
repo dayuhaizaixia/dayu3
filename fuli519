@@ -5,127 +5,95 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Japan-E3-HKAZ, server: cn-hk.az00.986888.xyz, port: 49365, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn-hk.az00.986888.xyz, skip-cert-verify: true, udp: true}
-  - {name: America-A2, server: 152.70.123.141, port: 80, type: vmess, uuid: 49dab9f1-5e61-426a-8f1d-a67100a5f509, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.70.123.141}, udp: true}
-  - {name: HongKong-E1-原生, server: cn-hk.az00.986888.xyz, port: 49365, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn-hk.az00.986888.xyz, skip-cert-verify: true, udp: true}
-  - {name: Germany-C1, server: cn.shcu.986888.xyz, port: 38650, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn.shcu.986888.xyz, skip-cert-verify: true, udp: true}
-  - {name: Taiwan-C1-原生-1.2x, server: azurecli-start.mswindowsservice.live, port: 443, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: azurecli-start.mswindowsservice.live, skip-cert-verify: true, udp: true}
-  - {name: Singapore-C2, server: cn-hk.az00.986888.xyz, port: 49365, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn-hk.az00.986888.xyz, skip-cert-verify: true, udp: true}
-  - {name: Japan-C5-流媒体解锁, server: cn.shcu.986888.xyz, port: 27632, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn.shcu.986888.xyz, skip-cert-verify: true, udp: true}
-  - {name: Japan-C2-流媒体解锁, server: cn.shcu.986888.xyz, port: 51421, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn.shcu.986888.xyz, skip-cert-verify: true, udp: true}
-  - {name: Singapore-A1, server: 47.241.13.35, port: 443, type: vmess, uuid: 49dab9f1-5e61-426a-8f1d-a67100a5f509, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nana, ws-headers: {Host: sg3.qcjs.one}, udp: true}
-  - {name: Japan-E1-HKAZ, server: cn-hk.az00.986888.xyz, port: 49365, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn-hk.az00.986888.xyz, skip-cert-verify: true, udp: true}
-  - {name: America-A1, server: 104.129.63.65, port: 7383, type: ss, cipher: aes-256-gcm, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, udp: true}
-  - {name: Australia-A1-沪日, server: cn.shcu.986888.xyz, port: 32437, type: vmess, uuid: 49dab9f1-5e61-426a-8f1d-a67100a5f509, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nana, ws-headers: {Host: as1.qcjs.one}, udp: true}
-  - {name: Singapore-E2, server: cn-hk.az00.986888.xyz, port: 49365, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn-hk.az00.986888.xyz, skip-cert-verify: true, udp: true}
-  - {name: Germany-E2, server: cn-hk.az00.986888.xyz, port: 49365, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn-hk.az00.986888.xyz, skip-cert-verify: true, udp: true}
-  - {name: Japan-C1-流媒体解锁, server: cn.shcu.986888.xyz, port: 51421, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn.shcu.986888.xyz, skip-cert-verify: true, udp: true}
-  - {name: America-C3-沪日, server: cn.shcu.986888.xyz, port: 61925, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn.shcu.986888.xyz, skip-cert-verify: true, udp: true}
-  - {name: America-C4-京日, server: 140.179.117.55, port: 28058, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, skip-cert-verify: true, udp: true}
-  - {name: America-C6-京日, server: 140.179.117.55, port: 39271, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, skip-cert-verify: true, udp: true}
-  - {name: America-C5-京日, server: 140.179.117.55, port: 59740, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, skip-cert-verify: true, udp: true}
-  - {name: Singapore-C4, server: 140.179.117.55, port: 52164, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, skip-cert-verify: true, udp: true}
-  - {name: Japan-E2-HKAZ, server: cn-hk.az00.986888.xyz, port: 49365, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn-hk.az00.986888.xyz, skip-cert-verify: true, udp: true}
-  - {name: HongKong-C2-0.5x, server: cn-hk.az00.986888.xyz, port: 49365, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn-hk.az00.986888.xyz, skip-cert-verify: true, udp: true}
-  - {name: Japan-C4, server: cn.shcu.986888.xyz, port: 51421, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn.shcu.986888.xyz, skip-cert-verify: true, udp: true}
-  - {name: Hong Kong-IEPL-备用-10x, server: 52.131.227.44, port: 26326, type: ss, cipher: chacha20-ietf-poly1305, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, udp: true}
-  - {name: Japan-C6-流媒体解锁, server: cn.shcu.986888.xyz, port: 26052, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn.shcu.986888.xyz, skip-cert-verify: true, udp: true}
-  - {name: Japan-C3, server: cn.shcu.986888.xyz, port: 51421, type: trojan, password: 49dab9f1-5e61-426a-8f1d-a67100a5f509, sni: cn.shcu.986888.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK-B|香港, server: bnbq-zf.jiashumao.net, port: 26381, type: trojan, password: 87d4d11d-5fe6-3007-939e-f67d531fb105, sni: bnbq-zf.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: America-A2, server: 152.70.123.141, port: 80, type: vmess, uuid: 58c0318c-815e-4247-816c-196d4177b950, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.70.123.141}, udp: true}
+  - {name: TW|台湾, server: tw-hinet.jiashumao.net, port: 20888, type: trojan, password: 87d4d11d-5fe6-3007-939e-f67d531fb105, sni: tw-hinet.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: KR|韩国, server: hg.jiashumao.net, port: 20888, type: trojan, password: 87d4d11d-5fe6-3007-939e-f67d531fb105, sni: hg.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: JP-A|日本, server: jpa-zf.jiashumao.net, port: 29881, type: trojan, password: 87d4d11d-5fe6-3007-939e-f67d531fb105, sni: jpa-zf.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: SG|新加坡, server: sg-zf.jiashumao.net, port: 29465, type: trojan, password: 87d4d11d-5fe6-3007-939e-f67d531fb105, sni: sg-zf.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: MA|澳门, server: ma-zf.jiashumao.net, port: 22983, type: trojan, password: 87d4d11d-5fe6-3007-939e-f67d531fb105, sni: ma-zf.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: HK-A|香港, server: szdx-anhb.jiashumao.net, port: 22481, type: trojan, password: 87d4d11d-5fe6-3007-939e-f67d531fb105, sni: szdx-anhb.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: NF|奈飞, server: sxdx-nf.jiashumao.net, port: 35401, type: trojan, password: 87d4d11d-5fe6-3007-939e-f67d531fb105, sni: sxdx-nf.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: Canada-A1-原生, server: cn.hncu.986888.xyz, port: 50041, type: vmess, uuid: 58c0318c-815e-4247-816c-196d4177b950, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nana, ws-headers: {Host: ca1.qcjs.one}, udp: true}
+  - {name: Hong Kong-IEPL-备用-5x, server: 52.130.181.44, port: 26326, type: ss, cipher: chacha20-ietf-poly1305, password: 58c0318c-815e-4247-816c-196d4177b950, udp: true}
+  - {name: Singapore-A1-DIRECT, server: 47.241.13.35, port: 443, type: vmess, uuid: 58c0318c-815e-4247-816c-196d4177b950, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nana, ws-headers: {Host: sg3.qcjs.one}, udp: true}
+  - {name: Germany-C1, server: 140.179.117.55, port: 38650, type: trojan, password: 58c0318c-815e-4247-816c-196d4177b950, skip-cert-verify: true, udp: true}
+  - {name: Australia-A1-京日, server: 140.179.117.55, port: 32437, type: vmess, uuid: 58c0318c-815e-4247-816c-196d4177b950, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nana, ws-headers: {Host: as1.qcjs.one}, udp: true}
+  - {name: America-C3-B.J.J.P, server: 140.179.117.55, port: 61925, type: trojan, password: 58c0318c-815e-4247-816c-196d4177b950, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong-迫真IPLC-5x, server: 52.130.181.44, port: 50907, type: ss, cipher: chacha20-ietf-poly1305, password: 58c0318c-815e-4247-816c-196d4177b950, udp: true}
+  - {name: HongKong-IEPL-5x, server: 52.130.181.44, port: 32120, type: ss, cipher: chacha20-ietf-poly1305, password: 58c0318c-815e-4247-816c-196d4177b950, udp: true}
+  - {name: Japan-C5-流媒体解锁, server: 140.179.117.55, port: 27632, type: trojan, password: 58c0318c-815e-4247-816c-196d4177b950, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Japan-E3-HKAZ
+      - HK-B|香港
       - America-A2
-      - HongKong-E1-原生
+      - TW|台湾
+      - KR|韩国
+      - JP-A|日本
+      - SG|新加坡
+      - MA|澳门
+      - HK-A|香港
+      - NF|奈飞
+      - Canada-A1-原生
+      - Hong Kong-IEPL-备用-5x
+      - Singapore-A1-DIRECT
       - Germany-C1
-      - Taiwan-C1-原生-1.2x
-      - Singapore-C2
+      - Australia-A1-京日
+      - America-C3-B.J.J.P
+      - Hong Kong-迫真IPLC-5x
+      - HongKong-IEPL-5x
       - Japan-C5-流媒体解锁
-      - Japan-C2-流媒体解锁
-      - Singapore-A1
-      - Japan-E1-HKAZ
-      - America-A1
-      - Australia-A1-沪日
-      - Singapore-E2
-      - Germany-E2
-      - Japan-C1-流媒体解锁
-      - America-C3-沪日
-      - America-C4-京日
-      - America-C6-京日
-      - America-C5-京日
-      - Singapore-C4
-      - Japan-E2-HKAZ
-      - HongKong-C2-0.5x
-      - Japan-C4
-      - Hong Kong-IEPL-备用-10x
-      - Japan-C6-流媒体解锁
-      - Japan-C3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Japan-E3-HKAZ
+      - HK-B|香港
       - America-A2
-      - HongKong-E1-原生
+      - TW|台湾
+      - KR|韩国
+      - JP-A|日本
+      - SG|新加坡
+      - MA|澳门
+      - HK-A|香港
+      - NF|奈飞
+      - Canada-A1-原生
+      - Hong Kong-IEPL-备用-5x
+      - Singapore-A1-DIRECT
       - Germany-C1
-      - Taiwan-C1-原生-1.2x
-      - Singapore-C2
+      - Australia-A1-京日
+      - America-C3-B.J.J.P
+      - Hong Kong-迫真IPLC-5x
+      - HongKong-IEPL-5x
       - Japan-C5-流媒体解锁
-      - Japan-C2-流媒体解锁
-      - Singapore-A1
-      - Japan-E1-HKAZ
-      - America-A1
-      - Australia-A1-沪日
-      - Singapore-E2
-      - Germany-E2
-      - Japan-C1-流媒体解锁
-      - America-C3-沪日
-      - America-C4-京日
-      - America-C6-京日
-      - America-C5-京日
-      - Singapore-C4
-      - Japan-E2-HKAZ
-      - HongKong-C2-0.5x
-      - Japan-C4
-      - Hong Kong-IEPL-备用-10x
-      - Japan-C6-流媒体解锁
-      - Japan-C3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Japan-E3-HKAZ
+      - HK-B|香港
       - America-A2
-      - HongKong-E1-原生
+      - TW|台湾
+      - KR|韩国
+      - JP-A|日本
+      - SG|新加坡
+      - MA|澳门
+      - HK-A|香港
+      - NF|奈飞
+      - Canada-A1-原生
+      - Hong Kong-IEPL-备用-5x
+      - Singapore-A1-DIRECT
       - Germany-C1
-      - Taiwan-C1-原生-1.2x
-      - Singapore-C2
+      - Australia-A1-京日
+      - America-C3-B.J.J.P
+      - Hong Kong-迫真IPLC-5x
+      - HongKong-IEPL-5x
       - Japan-C5-流媒体解锁
-      - Japan-C2-流媒体解锁
-      - Singapore-A1
-      - Japan-E1-HKAZ
-      - America-A1
-      - Australia-A1-沪日
-      - Singapore-E2
-      - Germany-E2
-      - Japan-C1-流媒体解锁
-      - America-C3-沪日
-      - America-C4-京日
-      - America-C6-京日
-      - America-C5-京日
-      - Singapore-C4
-      - Japan-E2-HKAZ
-      - HongKong-C2-0.5x
-      - Japan-C4
-      - Hong Kong-IEPL-备用-10x
-      - Japan-C6-流媒体解锁
-      - Japan-C3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -144,131 +112,102 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Japan-E3-HKAZ
+      - HK-B|香港
       - America-A2
-      - HongKong-E1-原生
+      - TW|台湾
+      - KR|韩国
+      - JP-A|日本
+      - SG|新加坡
+      - MA|澳门
+      - HK-A|香港
+      - NF|奈飞
+      - Canada-A1-原生
+      - Hong Kong-IEPL-备用-5x
+      - Singapore-A1-DIRECT
       - Germany-C1
-      - Taiwan-C1-原生-1.2x
-      - Singapore-C2
+      - Australia-A1-京日
+      - America-C3-B.J.J.P
+      - Hong Kong-迫真IPLC-5x
+      - HongKong-IEPL-5x
       - Japan-C5-流媒体解锁
-      - Japan-C2-流媒体解锁
-      - Singapore-A1
-      - Japan-E1-HKAZ
-      - America-A1
-      - Australia-A1-沪日
-      - Singapore-E2
-      - Germany-E2
-      - Japan-C1-流媒体解锁
-      - America-C3-沪日
-      - America-C4-京日
-      - America-C6-京日
-      - America-C5-京日
-      - Singapore-C4
-      - Japan-E2-HKAZ
-      - HongKong-C2-0.5x
-      - Japan-C4
-      - Hong Kong-IEPL-备用-10x
-      - Japan-C6-流媒体解锁
-      - Japan-C3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - HK-B|香港
+      - TW|台湾
+      - HK-A|香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Japan-E3-HKAZ
+      - HK-B|香港
       - America-A2
-      - HongKong-E1-原生
+      - TW|台湾
+      - KR|韩国
+      - JP-A|日本
+      - SG|新加坡
+      - MA|澳门
+      - HK-A|香港
+      - NF|奈飞
+      - Canada-A1-原生
+      - Hong Kong-IEPL-备用-5x
+      - Singapore-A1-DIRECT
       - Germany-C1
-      - Taiwan-C1-原生-1.2x
-      - Singapore-C2
+      - Australia-A1-京日
+      - America-C3-B.J.J.P
+      - Hong Kong-迫真IPLC-5x
+      - HongKong-IEPL-5x
       - Japan-C5-流媒体解锁
-      - Japan-C2-流媒体解锁
-      - Singapore-A1
-      - Japan-E1-HKAZ
-      - America-A1
-      - Australia-A1-沪日
-      - Singapore-E2
-      - Germany-E2
-      - Japan-C1-流媒体解锁
-      - America-C3-沪日
-      - America-C4-京日
-      - America-C6-京日
-      - America-C5-京日
-      - Singapore-C4
-      - Japan-E2-HKAZ
-      - HongKong-C2-0.5x
-      - Japan-C4
-      - Hong Kong-IEPL-备用-10x
-      - Japan-C6-流媒体解锁
-      - Japan-C3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Japan-E3-HKAZ
+      - HK-B|香港
       - America-A2
-      - HongKong-E1-原生
+      - TW|台湾
+      - KR|韩国
+      - JP-A|日本
+      - SG|新加坡
+      - MA|澳门
+      - HK-A|香港
+      - NF|奈飞
+      - Canada-A1-原生
+      - Hong Kong-IEPL-备用-5x
+      - Singapore-A1-DIRECT
       - Germany-C1
-      - Taiwan-C1-原生-1.2x
-      - Singapore-C2
+      - Australia-A1-京日
+      - America-C3-B.J.J.P
+      - Hong Kong-迫真IPLC-5x
+      - HongKong-IEPL-5x
       - Japan-C5-流媒体解锁
-      - Japan-C2-流媒体解锁
-      - Singapore-A1
-      - Japan-E1-HKAZ
-      - America-A1
-      - Australia-A1-沪日
-      - Singapore-E2
-      - Germany-E2
-      - Japan-C1-流媒体解锁
-      - America-C3-沪日
-      - America-C4-京日
-      - America-C6-京日
-      - America-C5-京日
-      - Singapore-C4
-      - Japan-E2-HKAZ
-      - HongKong-C2-0.5x
-      - Japan-C4
-      - Hong Kong-IEPL-备用-10x
-      - Japan-C6-流媒体解锁
-      - Japan-C3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Japan-E3-HKAZ
+      - HK-B|香港
       - America-A2
-      - HongKong-E1-原生
+      - TW|台湾
+      - KR|韩国
+      - JP-A|日本
+      - SG|新加坡
+      - MA|澳门
+      - HK-A|香港
+      - NF|奈飞
+      - Canada-A1-原生
+      - Hong Kong-IEPL-备用-5x
+      - Singapore-A1-DIRECT
       - Germany-C1
-      - Taiwan-C1-原生-1.2x
-      - Singapore-C2
+      - Australia-A1-京日
+      - America-C3-B.J.J.P
+      - Hong Kong-迫真IPLC-5x
+      - HongKong-IEPL-5x
       - Japan-C5-流媒体解锁
-      - Japan-C2-流媒体解锁
-      - Singapore-A1
-      - Japan-E1-HKAZ
-      - America-A1
-      - Australia-A1-沪日
-      - Singapore-E2
-      - Germany-E2
-      - Japan-C1-流媒体解锁
-      - America-C3-沪日
-      - America-C4-京日
-      - America-C6-京日
-      - America-C5-京日
-      - Singapore-C4
-      - Japan-E2-HKAZ
-      - HongKong-C2-0.5x
-      - Japan-C4
-      - Hong Kong-IEPL-备用-10x
-      - Japan-C6-流媒体解锁
-      - Japan-C3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -284,32 +223,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Japan-E3-HKAZ
+      - HK-B|香港
       - America-A2
-      - HongKong-E1-原生
+      - TW|台湾
+      - KR|韩国
+      - JP-A|日本
+      - SG|新加坡
+      - MA|澳门
+      - HK-A|香港
+      - NF|奈飞
+      - Canada-A1-原生
+      - Hong Kong-IEPL-备用-5x
+      - Singapore-A1-DIRECT
       - Germany-C1
-      - Taiwan-C1-原生-1.2x
-      - Singapore-C2
+      - Australia-A1-京日
+      - America-C3-B.J.J.P
+      - Hong Kong-迫真IPLC-5x
+      - HongKong-IEPL-5x
       - Japan-C5-流媒体解锁
-      - Japan-C2-流媒体解锁
-      - Singapore-A1
-      - Japan-E1-HKAZ
-      - America-A1
-      - Australia-A1-沪日
-      - Singapore-E2
-      - Germany-E2
-      - Japan-C1-流媒体解锁
-      - America-C3-沪日
-      - America-C4-京日
-      - America-C6-京日
-      - America-C5-京日
-      - Singapore-C4
-      - Japan-E2-HKAZ
-      - HongKong-C2-0.5x
-      - Japan-C4
-      - Hong Kong-IEPL-备用-10x
-      - Japan-C6-流媒体解锁
-      - Japan-C3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
