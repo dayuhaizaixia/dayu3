@@ -5,95 +5,323 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK-B|香港, server: bnbq-zf.jiashumao.net, port: 26381, type: trojan, password: 87d4d11d-5fe6-3007-939e-f67d531fb105, sni: bnbq-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: America-A2, server: 152.70.123.141, port: 80, type: vmess, uuid: 58c0318c-815e-4247-816c-196d4177b950, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.70.123.141}, udp: true}
-  - {name: TW|台湾, server: tw-hinet.jiashumao.net, port: 20888, type: trojan, password: 87d4d11d-5fe6-3007-939e-f67d531fb105, sni: tw-hinet.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: KR|韩国, server: hg.jiashumao.net, port: 20888, type: trojan, password: 87d4d11d-5fe6-3007-939e-f67d531fb105, sni: hg.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: JP-A|日本, server: jpa-zf.jiashumao.net, port: 29881, type: trojan, password: 87d4d11d-5fe6-3007-939e-f67d531fb105, sni: jpa-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: SG|新加坡, server: sg-zf.jiashumao.net, port: 29465, type: trojan, password: 87d4d11d-5fe6-3007-939e-f67d531fb105, sni: sg-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: MA|澳门, server: ma-zf.jiashumao.net, port: 22983, type: trojan, password: 87d4d11d-5fe6-3007-939e-f67d531fb105, sni: ma-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: HK-A|香港, server: szdx-anhb.jiashumao.net, port: 22481, type: trojan, password: 87d4d11d-5fe6-3007-939e-f67d531fb105, sni: szdx-anhb.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: NF|奈飞, server: sxdx-nf.jiashumao.net, port: 35401, type: trojan, password: 87d4d11d-5fe6-3007-939e-f67d531fb105, sni: sxdx-nf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: Canada-A1-原生, server: cn.hncu.986888.xyz, port: 50041, type: vmess, uuid: 58c0318c-815e-4247-816c-196d4177b950, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nana, ws-headers: {Host: ca1.qcjs.one}, udp: true}
-  - {name: Hong Kong-IEPL-备用-5x, server: 52.130.181.44, port: 26326, type: ss, cipher: chacha20-ietf-poly1305, password: 58c0318c-815e-4247-816c-196d4177b950, udp: true}
-  - {name: Singapore-A1-DIRECT, server: 47.241.13.35, port: 443, type: vmess, uuid: 58c0318c-815e-4247-816c-196d4177b950, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nana, ws-headers: {Host: sg3.qcjs.one}, udp: true}
-  - {name: Germany-C1, server: 140.179.117.55, port: 38650, type: trojan, password: 58c0318c-815e-4247-816c-196d4177b950, skip-cert-verify: true, udp: true}
-  - {name: Australia-A1-京日, server: 140.179.117.55, port: 32437, type: vmess, uuid: 58c0318c-815e-4247-816c-196d4177b950, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nana, ws-headers: {Host: as1.qcjs.one}, udp: true}
-  - {name: America-C3-B.J.J.P, server: 140.179.117.55, port: 61925, type: trojan, password: 58c0318c-815e-4247-816c-196d4177b950, skip-cert-verify: true, udp: true}
-  - {name: Hong Kong-迫真IPLC-5x, server: 52.130.181.44, port: 50907, type: ss, cipher: chacha20-ietf-poly1305, password: 58c0318c-815e-4247-816c-196d4177b950, udp: true}
-  - {name: HongKong-IEPL-5x, server: 52.130.181.44, port: 32120, type: ss, cipher: chacha20-ietf-poly1305, password: 58c0318c-815e-4247-816c-196d4177b950, udp: true}
-  - {name: Japan-C5-流媒体解锁, server: 140.179.117.55, port: 27632, type: trojan, password: 58c0318c-815e-4247-816c-196d4177b950, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇦🇪 迪拜", server: 193.123.69.94, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇦🇪 迪拜2", server: 193.123.68.65, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇦🇪 迪拜3", server: 193.123.92.12, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇦🇪 迪拜4", server: 183.232.230.219, port: 30150, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇦🇪 迪拜5", server: 36.139.153.200, port: 30150, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇦🇪 迪拜6", server: 36.137.102.237, port: 30150, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇦🇺 悉尼", server: 192.9.183.183, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇦🇺 悉尼2", server: 192.9.176.160, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇦🇺 悉尼3", server: 183.232.230.219, port: 30070, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇦🇺 悉尼4", server: 36.139.153.200, port: 30070, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇦🇺 悉尼5", server: 36.137.102.237, port: 30070, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇩🇪 德国", server: 183.232.230.219, port: 30080, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇩🇪 德国2", server: 36.139.153.200, port: 30080, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇩🇪 德国3", server: 36.137.102.237, port: 30080, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇩🇪 德国4", server: 165.22.93.103, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇩🇪 德国5", server: 172.104.244.36, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇩🇪 德国6", server: 172.104.251.52, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇩🇪 德国7", server: 183.232.230.219, port: 30090, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇩🇪 德国8", server: 36.139.153.200, port: 30090, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇩🇪 德国 9", server: 36.137.102.237, port: 30090, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 香港", server: 141.11.170.21, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 香港2", server: 161.81.235.11, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 香港3", server: 183.232.230.219, port: 30160, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 香港4", server: 36.139.153.200, port: 30160, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 香港5", server: 36.137.102.237, port: 30160, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 香港6", server: 183.232.230.219, port: 30020, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 香港7", server: 36.139.153.200, port: 30020, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 香港8", server: 36.137.102.237, port: 30020, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 香港9", server: 183.232.230.219, port: 30040, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 香港10", server: 36.139.153.200, port: 30040, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 香港11", server: 36.137.102.237, port: 30040, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 香港12", server: 104.208.68.221, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 香港13", server: 20.205.63.134, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 日本", server: 155.248.172.87, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 日本2", server: 141.147.191.85, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 日本3", server: 155.248.162.12, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 日本4", server: 141.147.168.238, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 日本5", server: 183.232.230.219, port: 30050, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 日本6", server: 36.139.153.200, port: 30050, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 日本7", server: 36.137.102.237, port: 30050, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 日本8", server: 35.78.118.63, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 日本9", server: 54.199.133.35, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 日本10", server: 175.41.237.24, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 日本11", server: 183.232.230.219, port: 30140, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 日本12", server: 36.139.153.200, port: 30140, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 日本13", server: 36.137.102.237, port: 30140, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇰🇷 韩国", server: 144.24.90.94, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇰🇷 韩国2", server: 144.24.69.60, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇰🇷 韩国3", server: 144.24.77.154, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇰🇷 韩国4", server: 144.24.87.99, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇰🇷 韩国5", server: 183.232.230.219, port: 30100, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇰🇷 韩国6", server: 36.139.153.200, port: 30100, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇰🇷 韩国7", server: 36.137.102.237, port: 30100, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇸🇬 新加坡", server: 183.232.230.219, port: 30030, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇸🇬 新加坡2", server: 36.139.153.200, port: 30030, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇸🇬 新加坡3", server: 36.137.102.237, port: 30030, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇸🇬 新加坡4", server: 183.232.230.219, port: 30110, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇸🇬 新加坡5", server: 36.139.153.200, port: 30110, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇸🇬 新加坡6", server: 36.137.102.237, port: 30110, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇹🇼 台湾", server: 183.232.230.219, port: 30010, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇹🇼 台湾2", server: 36.139.153.200, port: 30010, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇹🇼 台湾3", server: 36.137.102.237, port: 30010, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇺🇸 美国", server: 23.224.33.72, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇺🇸 美国2", server: 23.224.33.112, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇺🇸 美国3", server: 183.232.230.219, port: 30060, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇺🇸 美国4", server: 36.139.153.200, port: 30060, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇺🇸 美国5", server: 36.137.102.237, port: 30060, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇻🇳 越南", server: 103.173.155.72, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇻🇳 越南2", server: 103.173.255.21, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇻🇳 越南3", server: 103.173.255.127, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇻🇳 越南4", server: 103.173.255.228, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇻🇳 越南5", server: 103.173.255.234, port: 28000, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇻🇳 越南6", server: 183.232.230.219, port: 30120, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇻🇳 越南7", server: 36.139.153.200, port: 30120, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇻🇳 越南8", server: 36.137.102.237, port: 30120, type: trojan, password: 7b453cb8-9582-4e47-80ba-7809f6908d7f, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK-B|香港
-      - America-A2
-      - TW|台湾
-      - KR|韩国
-      - JP-A|日本
-      - SG|新加坡
-      - MA|澳门
-      - HK-A|香港
-      - NF|奈飞
-      - Canada-A1-原生
-      - Hong Kong-IEPL-备用-5x
-      - Singapore-A1-DIRECT
-      - Germany-C1
-      - Australia-A1-京日
-      - America-C3-B.J.J.P
-      - Hong Kong-迫真IPLC-5x
-      - HongKong-IEPL-5x
-      - Japan-C5-流媒体解锁
+      - "[Trojan] 🇦🇪 迪拜"
+      - "[Trojan] 🇦🇪 迪拜2"
+      - "[Trojan] 🇦🇪 迪拜3"
+      - "[Trojan] 🇦🇪 迪拜4"
+      - "[Trojan] 🇦🇪 迪拜5"
+      - "[Trojan] 🇦🇪 迪拜6"
+      - "[Trojan] 🇦🇺 悉尼"
+      - "[Trojan] 🇦🇺 悉尼2"
+      - "[Trojan] 🇦🇺 悉尼3"
+      - "[Trojan] 🇦🇺 悉尼4"
+      - "[Trojan] 🇦🇺 悉尼5"
+      - "[Trojan] 🇩🇪 德国"
+      - "[Trojan] 🇩🇪 德国2"
+      - "[Trojan] 🇩🇪 德国3"
+      - "[Trojan] 🇩🇪 德国4"
+      - "[Trojan] 🇩🇪 德国5"
+      - "[Trojan] 🇩🇪 德国6"
+      - "[Trojan] 🇩🇪 德国7"
+      - "[Trojan] 🇩🇪 德国8"
+      - "[Trojan] 🇩🇪 德国 9"
+      - "[Trojan] 🇭🇰 香港"
+      - "[Trojan] 🇭🇰 香港2"
+      - "[Trojan] 🇭🇰 香港3"
+      - "[Trojan] 🇭🇰 香港4"
+      - "[Trojan] 🇭🇰 香港5"
+      - "[Trojan] 🇭🇰 香港6"
+      - "[Trojan] 🇭🇰 香港7"
+      - "[Trojan] 🇭🇰 香港8"
+      - "[Trojan] 🇭🇰 香港9"
+      - "[Trojan] 🇭🇰 香港10"
+      - "[Trojan] 🇭🇰 香港11"
+      - "[Trojan] 🇭🇰 香港12"
+      - "[Trojan] 🇭🇰 香港13"
+      - "[Trojan] 🇯🇵 日本"
+      - "[Trojan] 🇯🇵 日本2"
+      - "[Trojan] 🇯🇵 日本3"
+      - "[Trojan] 🇯🇵 日本4"
+      - "[Trojan] 🇯🇵 日本5"
+      - "[Trojan] 🇯🇵 日本6"
+      - "[Trojan] 🇯🇵 日本7"
+      - "[Trojan] 🇯🇵 日本8"
+      - "[Trojan] 🇯🇵 日本9"
+      - "[Trojan] 🇯🇵 日本10"
+      - "[Trojan] 🇯🇵 日本11"
+      - "[Trojan] 🇯🇵 日本12"
+      - "[Trojan] 🇯🇵 日本13"
+      - "[Trojan] 🇰🇷 韩国"
+      - "[Trojan] 🇰🇷 韩国2"
+      - "[Trojan] 🇰🇷 韩国3"
+      - "[Trojan] 🇰🇷 韩国4"
+      - "[Trojan] 🇰🇷 韩国5"
+      - "[Trojan] 🇰🇷 韩国6"
+      - "[Trojan] 🇰🇷 韩国7"
+      - "[Trojan] 🇸🇬 新加坡"
+      - "[Trojan] 🇸🇬 新加坡2"
+      - "[Trojan] 🇸🇬 新加坡3"
+      - "[Trojan] 🇸🇬 新加坡4"
+      - "[Trojan] 🇸🇬 新加坡5"
+      - "[Trojan] 🇸🇬 新加坡6"
+      - "[Trojan] 🇹🇼 台湾"
+      - "[Trojan] 🇹🇼 台湾2"
+      - "[Trojan] 🇹🇼 台湾3"
+      - "[Trojan] 🇺🇸 美国"
+      - "[Trojan] 🇺🇸 美国2"
+      - "[Trojan] 🇺🇸 美国3"
+      - "[Trojan] 🇺🇸 美国4"
+      - "[Trojan] 🇺🇸 美国5"
+      - "[Trojan] 🇻🇳 越南"
+      - "[Trojan] 🇻🇳 越南2"
+      - "[Trojan] 🇻🇳 越南3"
+      - "[Trojan] 🇻🇳 越南4"
+      - "[Trojan] 🇻🇳 越南5"
+      - "[Trojan] 🇻🇳 越南6"
+      - "[Trojan] 🇻🇳 越南7"
+      - "[Trojan] 🇻🇳 越南8"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK-B|香港
-      - America-A2
-      - TW|台湾
-      - KR|韩国
-      - JP-A|日本
-      - SG|新加坡
-      - MA|澳门
-      - HK-A|香港
-      - NF|奈飞
-      - Canada-A1-原生
-      - Hong Kong-IEPL-备用-5x
-      - Singapore-A1-DIRECT
-      - Germany-C1
-      - Australia-A1-京日
-      - America-C3-B.J.J.P
-      - Hong Kong-迫真IPLC-5x
-      - HongKong-IEPL-5x
-      - Japan-C5-流媒体解锁
+      - "[Trojan] 🇦🇪 迪拜"
+      - "[Trojan] 🇦🇪 迪拜2"
+      - "[Trojan] 🇦🇪 迪拜3"
+      - "[Trojan] 🇦🇪 迪拜4"
+      - "[Trojan] 🇦🇪 迪拜5"
+      - "[Trojan] 🇦🇪 迪拜6"
+      - "[Trojan] 🇦🇺 悉尼"
+      - "[Trojan] 🇦🇺 悉尼2"
+      - "[Trojan] 🇦🇺 悉尼3"
+      - "[Trojan] 🇦🇺 悉尼4"
+      - "[Trojan] 🇦🇺 悉尼5"
+      - "[Trojan] 🇩🇪 德国"
+      - "[Trojan] 🇩🇪 德国2"
+      - "[Trojan] 🇩🇪 德国3"
+      - "[Trojan] 🇩🇪 德国4"
+      - "[Trojan] 🇩🇪 德国5"
+      - "[Trojan] 🇩🇪 德国6"
+      - "[Trojan] 🇩🇪 德国7"
+      - "[Trojan] 🇩🇪 德国8"
+      - "[Trojan] 🇩🇪 德国 9"
+      - "[Trojan] 🇭🇰 香港"
+      - "[Trojan] 🇭🇰 香港2"
+      - "[Trojan] 🇭🇰 香港3"
+      - "[Trojan] 🇭🇰 香港4"
+      - "[Trojan] 🇭🇰 香港5"
+      - "[Trojan] 🇭🇰 香港6"
+      - "[Trojan] 🇭🇰 香港7"
+      - "[Trojan] 🇭🇰 香港8"
+      - "[Trojan] 🇭🇰 香港9"
+      - "[Trojan] 🇭🇰 香港10"
+      - "[Trojan] 🇭🇰 香港11"
+      - "[Trojan] 🇭🇰 香港12"
+      - "[Trojan] 🇭🇰 香港13"
+      - "[Trojan] 🇯🇵 日本"
+      - "[Trojan] 🇯🇵 日本2"
+      - "[Trojan] 🇯🇵 日本3"
+      - "[Trojan] 🇯🇵 日本4"
+      - "[Trojan] 🇯🇵 日本5"
+      - "[Trojan] 🇯🇵 日本6"
+      - "[Trojan] 🇯🇵 日本7"
+      - "[Trojan] 🇯🇵 日本8"
+      - "[Trojan] 🇯🇵 日本9"
+      - "[Trojan] 🇯🇵 日本10"
+      - "[Trojan] 🇯🇵 日本11"
+      - "[Trojan] 🇯🇵 日本12"
+      - "[Trojan] 🇯🇵 日本13"
+      - "[Trojan] 🇰🇷 韩国"
+      - "[Trojan] 🇰🇷 韩国2"
+      - "[Trojan] 🇰🇷 韩国3"
+      - "[Trojan] 🇰🇷 韩国4"
+      - "[Trojan] 🇰🇷 韩国5"
+      - "[Trojan] 🇰🇷 韩国6"
+      - "[Trojan] 🇰🇷 韩国7"
+      - "[Trojan] 🇸🇬 新加坡"
+      - "[Trojan] 🇸🇬 新加坡2"
+      - "[Trojan] 🇸🇬 新加坡3"
+      - "[Trojan] 🇸🇬 新加坡4"
+      - "[Trojan] 🇸🇬 新加坡5"
+      - "[Trojan] 🇸🇬 新加坡6"
+      - "[Trojan] 🇹🇼 台湾"
+      - "[Trojan] 🇹🇼 台湾2"
+      - "[Trojan] 🇹🇼 台湾3"
+      - "[Trojan] 🇺🇸 美国"
+      - "[Trojan] 🇺🇸 美国2"
+      - "[Trojan] 🇺🇸 美国3"
+      - "[Trojan] 🇺🇸 美国4"
+      - "[Trojan] 🇺🇸 美国5"
+      - "[Trojan] 🇻🇳 越南"
+      - "[Trojan] 🇻🇳 越南2"
+      - "[Trojan] 🇻🇳 越南3"
+      - "[Trojan] 🇻🇳 越南4"
+      - "[Trojan] 🇻🇳 越南5"
+      - "[Trojan] 🇻🇳 越南6"
+      - "[Trojan] 🇻🇳 越南7"
+      - "[Trojan] 🇻🇳 越南8"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK-B|香港
-      - America-A2
-      - TW|台湾
-      - KR|韩国
-      - JP-A|日本
-      - SG|新加坡
-      - MA|澳门
-      - HK-A|香港
-      - NF|奈飞
-      - Canada-A1-原生
-      - Hong Kong-IEPL-备用-5x
-      - Singapore-A1-DIRECT
-      - Germany-C1
-      - Australia-A1-京日
-      - America-C3-B.J.J.P
-      - Hong Kong-迫真IPLC-5x
-      - HongKong-IEPL-5x
-      - Japan-C5-流媒体解锁
+      - "[Trojan] 🇦🇪 迪拜"
+      - "[Trojan] 🇦🇪 迪拜2"
+      - "[Trojan] 🇦🇪 迪拜3"
+      - "[Trojan] 🇦🇪 迪拜4"
+      - "[Trojan] 🇦🇪 迪拜5"
+      - "[Trojan] 🇦🇪 迪拜6"
+      - "[Trojan] 🇦🇺 悉尼"
+      - "[Trojan] 🇦🇺 悉尼2"
+      - "[Trojan] 🇦🇺 悉尼3"
+      - "[Trojan] 🇦🇺 悉尼4"
+      - "[Trojan] 🇦🇺 悉尼5"
+      - "[Trojan] 🇩🇪 德国"
+      - "[Trojan] 🇩🇪 德国2"
+      - "[Trojan] 🇩🇪 德国3"
+      - "[Trojan] 🇩🇪 德国4"
+      - "[Trojan] 🇩🇪 德国5"
+      - "[Trojan] 🇩🇪 德国6"
+      - "[Trojan] 🇩🇪 德国7"
+      - "[Trojan] 🇩🇪 德国8"
+      - "[Trojan] 🇩🇪 德国 9"
+      - "[Trojan] 🇭🇰 香港"
+      - "[Trojan] 🇭🇰 香港2"
+      - "[Trojan] 🇭🇰 香港3"
+      - "[Trojan] 🇭🇰 香港4"
+      - "[Trojan] 🇭🇰 香港5"
+      - "[Trojan] 🇭🇰 香港6"
+      - "[Trojan] 🇭🇰 香港7"
+      - "[Trojan] 🇭🇰 香港8"
+      - "[Trojan] 🇭🇰 香港9"
+      - "[Trojan] 🇭🇰 香港10"
+      - "[Trojan] 🇭🇰 香港11"
+      - "[Trojan] 🇭🇰 香港12"
+      - "[Trojan] 🇭🇰 香港13"
+      - "[Trojan] 🇯🇵 日本"
+      - "[Trojan] 🇯🇵 日本2"
+      - "[Trojan] 🇯🇵 日本3"
+      - "[Trojan] 🇯🇵 日本4"
+      - "[Trojan] 🇯🇵 日本5"
+      - "[Trojan] 🇯🇵 日本6"
+      - "[Trojan] 🇯🇵 日本7"
+      - "[Trojan] 🇯🇵 日本8"
+      - "[Trojan] 🇯🇵 日本9"
+      - "[Trojan] 🇯🇵 日本10"
+      - "[Trojan] 🇯🇵 日本11"
+      - "[Trojan] 🇯🇵 日本12"
+      - "[Trojan] 🇯🇵 日本13"
+      - "[Trojan] 🇰🇷 韩国"
+      - "[Trojan] 🇰🇷 韩国2"
+      - "[Trojan] 🇰🇷 韩国3"
+      - "[Trojan] 🇰🇷 韩国4"
+      - "[Trojan] 🇰🇷 韩国5"
+      - "[Trojan] 🇰🇷 韩国6"
+      - "[Trojan] 🇰🇷 韩国7"
+      - "[Trojan] 🇸🇬 新加坡"
+      - "[Trojan] 🇸🇬 新加坡2"
+      - "[Trojan] 🇸🇬 新加坡3"
+      - "[Trojan] 🇸🇬 新加坡4"
+      - "[Trojan] 🇸🇬 新加坡5"
+      - "[Trojan] 🇸🇬 新加坡6"
+      - "[Trojan] 🇹🇼 台湾"
+      - "[Trojan] 🇹🇼 台湾2"
+      - "[Trojan] 🇹🇼 台湾3"
+      - "[Trojan] 🇺🇸 美国"
+      - "[Trojan] 🇺🇸 美国2"
+      - "[Trojan] 🇺🇸 美国3"
+      - "[Trojan] 🇺🇸 美国4"
+      - "[Trojan] 🇺🇸 美国5"
+      - "[Trojan] 🇻🇳 越南"
+      - "[Trojan] 🇻🇳 越南2"
+      - "[Trojan] 🇻🇳 越南3"
+      - "[Trojan] 🇻🇳 越南4"
+      - "[Trojan] 🇻🇳 越南5"
+      - "[Trojan] 🇻🇳 越南6"
+      - "[Trojan] 🇻🇳 越南7"
+      - "[Trojan] 🇻🇳 越南8"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -112,102 +340,343 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK-B|香港
-      - America-A2
-      - TW|台湾
-      - KR|韩国
-      - JP-A|日本
-      - SG|新加坡
-      - MA|澳门
-      - HK-A|香港
-      - NF|奈飞
-      - Canada-A1-原生
-      - Hong Kong-IEPL-备用-5x
-      - Singapore-A1-DIRECT
-      - Germany-C1
-      - Australia-A1-京日
-      - America-C3-B.J.J.P
-      - Hong Kong-迫真IPLC-5x
-      - HongKong-IEPL-5x
-      - Japan-C5-流媒体解锁
+      - "[Trojan] 🇦🇪 迪拜"
+      - "[Trojan] 🇦🇪 迪拜2"
+      - "[Trojan] 🇦🇪 迪拜3"
+      - "[Trojan] 🇦🇪 迪拜4"
+      - "[Trojan] 🇦🇪 迪拜5"
+      - "[Trojan] 🇦🇪 迪拜6"
+      - "[Trojan] 🇦🇺 悉尼"
+      - "[Trojan] 🇦🇺 悉尼2"
+      - "[Trojan] 🇦🇺 悉尼3"
+      - "[Trojan] 🇦🇺 悉尼4"
+      - "[Trojan] 🇦🇺 悉尼5"
+      - "[Trojan] 🇩🇪 德国"
+      - "[Trojan] 🇩🇪 德国2"
+      - "[Trojan] 🇩🇪 德国3"
+      - "[Trojan] 🇩🇪 德国4"
+      - "[Trojan] 🇩🇪 德国5"
+      - "[Trojan] 🇩🇪 德国6"
+      - "[Trojan] 🇩🇪 德国7"
+      - "[Trojan] 🇩🇪 德国8"
+      - "[Trojan] 🇩🇪 德国 9"
+      - "[Trojan] 🇭🇰 香港"
+      - "[Trojan] 🇭🇰 香港2"
+      - "[Trojan] 🇭🇰 香港3"
+      - "[Trojan] 🇭🇰 香港4"
+      - "[Trojan] 🇭🇰 香港5"
+      - "[Trojan] 🇭🇰 香港6"
+      - "[Trojan] 🇭🇰 香港7"
+      - "[Trojan] 🇭🇰 香港8"
+      - "[Trojan] 🇭🇰 香港9"
+      - "[Trojan] 🇭🇰 香港10"
+      - "[Trojan] 🇭🇰 香港11"
+      - "[Trojan] 🇭🇰 香港12"
+      - "[Trojan] 🇭🇰 香港13"
+      - "[Trojan] 🇯🇵 日本"
+      - "[Trojan] 🇯🇵 日本2"
+      - "[Trojan] 🇯🇵 日本3"
+      - "[Trojan] 🇯🇵 日本4"
+      - "[Trojan] 🇯🇵 日本5"
+      - "[Trojan] 🇯🇵 日本6"
+      - "[Trojan] 🇯🇵 日本7"
+      - "[Trojan] 🇯🇵 日本8"
+      - "[Trojan] 🇯🇵 日本9"
+      - "[Trojan] 🇯🇵 日本10"
+      - "[Trojan] 🇯🇵 日本11"
+      - "[Trojan] 🇯🇵 日本12"
+      - "[Trojan] 🇯🇵 日本13"
+      - "[Trojan] 🇰🇷 韩国"
+      - "[Trojan] 🇰🇷 韩国2"
+      - "[Trojan] 🇰🇷 韩国3"
+      - "[Trojan] 🇰🇷 韩国4"
+      - "[Trojan] 🇰🇷 韩国5"
+      - "[Trojan] 🇰🇷 韩国6"
+      - "[Trojan] 🇰🇷 韩国7"
+      - "[Trojan] 🇸🇬 新加坡"
+      - "[Trojan] 🇸🇬 新加坡2"
+      - "[Trojan] 🇸🇬 新加坡3"
+      - "[Trojan] 🇸🇬 新加坡4"
+      - "[Trojan] 🇸🇬 新加坡5"
+      - "[Trojan] 🇸🇬 新加坡6"
+      - "[Trojan] 🇹🇼 台湾"
+      - "[Trojan] 🇹🇼 台湾2"
+      - "[Trojan] 🇹🇼 台湾3"
+      - "[Trojan] 🇺🇸 美国"
+      - "[Trojan] 🇺🇸 美国2"
+      - "[Trojan] 🇺🇸 美国3"
+      - "[Trojan] 🇺🇸 美国4"
+      - "[Trojan] 🇺🇸 美国5"
+      - "[Trojan] 🇻🇳 越南"
+      - "[Trojan] 🇻🇳 越南2"
+      - "[Trojan] 🇻🇳 越南3"
+      - "[Trojan] 🇻🇳 越南4"
+      - "[Trojan] 🇻🇳 越南5"
+      - "[Trojan] 🇻🇳 越南6"
+      - "[Trojan] 🇻🇳 越南7"
+      - "[Trojan] 🇻🇳 越南8"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - HK-B|香港
-      - TW|台湾
-      - HK-A|香港
+      - "[Trojan] 🇭🇰 香港"
+      - "[Trojan] 🇭🇰 香港2"
+      - "[Trojan] 🇭🇰 香港3"
+      - "[Trojan] 🇭🇰 香港4"
+      - "[Trojan] 🇭🇰 香港5"
+      - "[Trojan] 🇭🇰 香港6"
+      - "[Trojan] 🇭🇰 香港7"
+      - "[Trojan] 🇭🇰 香港8"
+      - "[Trojan] 🇭🇰 香港9"
+      - "[Trojan] 🇭🇰 香港10"
+      - "[Trojan] 🇭🇰 香港11"
+      - "[Trojan] 🇭🇰 香港12"
+      - "[Trojan] 🇭🇰 香港13"
+      - "[Trojan] 🇹🇼 台湾"
+      - "[Trojan] 🇹🇼 台湾2"
+      - "[Trojan] 🇹🇼 台湾3"
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK-B|香港
-      - America-A2
-      - TW|台湾
-      - KR|韩国
-      - JP-A|日本
-      - SG|新加坡
-      - MA|澳门
-      - HK-A|香港
-      - NF|奈飞
-      - Canada-A1-原生
-      - Hong Kong-IEPL-备用-5x
-      - Singapore-A1-DIRECT
-      - Germany-C1
-      - Australia-A1-京日
-      - America-C3-B.J.J.P
-      - Hong Kong-迫真IPLC-5x
-      - HongKong-IEPL-5x
-      - Japan-C5-流媒体解锁
+      - "[Trojan] 🇦🇪 迪拜"
+      - "[Trojan] 🇦🇪 迪拜2"
+      - "[Trojan] 🇦🇪 迪拜3"
+      - "[Trojan] 🇦🇪 迪拜4"
+      - "[Trojan] 🇦🇪 迪拜5"
+      - "[Trojan] 🇦🇪 迪拜6"
+      - "[Trojan] 🇦🇺 悉尼"
+      - "[Trojan] 🇦🇺 悉尼2"
+      - "[Trojan] 🇦🇺 悉尼3"
+      - "[Trojan] 🇦🇺 悉尼4"
+      - "[Trojan] 🇦🇺 悉尼5"
+      - "[Trojan] 🇩🇪 德国"
+      - "[Trojan] 🇩🇪 德国2"
+      - "[Trojan] 🇩🇪 德国3"
+      - "[Trojan] 🇩🇪 德国4"
+      - "[Trojan] 🇩🇪 德国5"
+      - "[Trojan] 🇩🇪 德国6"
+      - "[Trojan] 🇩🇪 德国7"
+      - "[Trojan] 🇩🇪 德国8"
+      - "[Trojan] 🇩🇪 德国 9"
+      - "[Trojan] 🇭🇰 香港"
+      - "[Trojan] 🇭🇰 香港2"
+      - "[Trojan] 🇭🇰 香港3"
+      - "[Trojan] 🇭🇰 香港4"
+      - "[Trojan] 🇭🇰 香港5"
+      - "[Trojan] 🇭🇰 香港6"
+      - "[Trojan] 🇭🇰 香港7"
+      - "[Trojan] 🇭🇰 香港8"
+      - "[Trojan] 🇭🇰 香港9"
+      - "[Trojan] 🇭🇰 香港10"
+      - "[Trojan] 🇭🇰 香港11"
+      - "[Trojan] 🇭🇰 香港12"
+      - "[Trojan] 🇭🇰 香港13"
+      - "[Trojan] 🇯🇵 日本"
+      - "[Trojan] 🇯🇵 日本2"
+      - "[Trojan] 🇯🇵 日本3"
+      - "[Trojan] 🇯🇵 日本4"
+      - "[Trojan] 🇯🇵 日本5"
+      - "[Trojan] 🇯🇵 日本6"
+      - "[Trojan] 🇯🇵 日本7"
+      - "[Trojan] 🇯🇵 日本8"
+      - "[Trojan] 🇯🇵 日本9"
+      - "[Trojan] 🇯🇵 日本10"
+      - "[Trojan] 🇯🇵 日本11"
+      - "[Trojan] 🇯🇵 日本12"
+      - "[Trojan] 🇯🇵 日本13"
+      - "[Trojan] 🇰🇷 韩国"
+      - "[Trojan] 🇰🇷 韩国2"
+      - "[Trojan] 🇰🇷 韩国3"
+      - "[Trojan] 🇰🇷 韩国4"
+      - "[Trojan] 🇰🇷 韩国5"
+      - "[Trojan] 🇰🇷 韩国6"
+      - "[Trojan] 🇰🇷 韩国7"
+      - "[Trojan] 🇸🇬 新加坡"
+      - "[Trojan] 🇸🇬 新加坡2"
+      - "[Trojan] 🇸🇬 新加坡3"
+      - "[Trojan] 🇸🇬 新加坡4"
+      - "[Trojan] 🇸🇬 新加坡5"
+      - "[Trojan] 🇸🇬 新加坡6"
+      - "[Trojan] 🇹🇼 台湾"
+      - "[Trojan] 🇹🇼 台湾2"
+      - "[Trojan] 🇹🇼 台湾3"
+      - "[Trojan] 🇺🇸 美国"
+      - "[Trojan] 🇺🇸 美国2"
+      - "[Trojan] 🇺🇸 美国3"
+      - "[Trojan] 🇺🇸 美国4"
+      - "[Trojan] 🇺🇸 美国5"
+      - "[Trojan] 🇻🇳 越南"
+      - "[Trojan] 🇻🇳 越南2"
+      - "[Trojan] 🇻🇳 越南3"
+      - "[Trojan] 🇻🇳 越南4"
+      - "[Trojan] 🇻🇳 越南5"
+      - "[Trojan] 🇻🇳 越南6"
+      - "[Trojan] 🇻🇳 越南7"
+      - "[Trojan] 🇻🇳 越南8"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK-B|香港
-      - America-A2
-      - TW|台湾
-      - KR|韩国
-      - JP-A|日本
-      - SG|新加坡
-      - MA|澳门
-      - HK-A|香港
-      - NF|奈飞
-      - Canada-A1-原生
-      - Hong Kong-IEPL-备用-5x
-      - Singapore-A1-DIRECT
-      - Germany-C1
-      - Australia-A1-京日
-      - America-C3-B.J.J.P
-      - Hong Kong-迫真IPLC-5x
-      - HongKong-IEPL-5x
-      - Japan-C5-流媒体解锁
+      - "[Trojan] 🇦🇪 迪拜"
+      - "[Trojan] 🇦🇪 迪拜2"
+      - "[Trojan] 🇦🇪 迪拜3"
+      - "[Trojan] 🇦🇪 迪拜4"
+      - "[Trojan] 🇦🇪 迪拜5"
+      - "[Trojan] 🇦🇪 迪拜6"
+      - "[Trojan] 🇦🇺 悉尼"
+      - "[Trojan] 🇦🇺 悉尼2"
+      - "[Trojan] 🇦🇺 悉尼3"
+      - "[Trojan] 🇦🇺 悉尼4"
+      - "[Trojan] 🇦🇺 悉尼5"
+      - "[Trojan] 🇩🇪 德国"
+      - "[Trojan] 🇩🇪 德国2"
+      - "[Trojan] 🇩🇪 德国3"
+      - "[Trojan] 🇩🇪 德国4"
+      - "[Trojan] 🇩🇪 德国5"
+      - "[Trojan] 🇩🇪 德国6"
+      - "[Trojan] 🇩🇪 德国7"
+      - "[Trojan] 🇩🇪 德国8"
+      - "[Trojan] 🇩🇪 德国 9"
+      - "[Trojan] 🇭🇰 香港"
+      - "[Trojan] 🇭🇰 香港2"
+      - "[Trojan] 🇭🇰 香港3"
+      - "[Trojan] 🇭🇰 香港4"
+      - "[Trojan] 🇭🇰 香港5"
+      - "[Trojan] 🇭🇰 香港6"
+      - "[Trojan] 🇭🇰 香港7"
+      - "[Trojan] 🇭🇰 香港8"
+      - "[Trojan] 🇭🇰 香港9"
+      - "[Trojan] 🇭🇰 香港10"
+      - "[Trojan] 🇭🇰 香港11"
+      - "[Trojan] 🇭🇰 香港12"
+      - "[Trojan] 🇭🇰 香港13"
+      - "[Trojan] 🇯🇵 日本"
+      - "[Trojan] 🇯🇵 日本2"
+      - "[Trojan] 🇯🇵 日本3"
+      - "[Trojan] 🇯🇵 日本4"
+      - "[Trojan] 🇯🇵 日本5"
+      - "[Trojan] 🇯🇵 日本6"
+      - "[Trojan] 🇯🇵 日本7"
+      - "[Trojan] 🇯🇵 日本8"
+      - "[Trojan] 🇯🇵 日本9"
+      - "[Trojan] 🇯🇵 日本10"
+      - "[Trojan] 🇯🇵 日本11"
+      - "[Trojan] 🇯🇵 日本12"
+      - "[Trojan] 🇯🇵 日本13"
+      - "[Trojan] 🇰🇷 韩国"
+      - "[Trojan] 🇰🇷 韩国2"
+      - "[Trojan] 🇰🇷 韩国3"
+      - "[Trojan] 🇰🇷 韩国4"
+      - "[Trojan] 🇰🇷 韩国5"
+      - "[Trojan] 🇰🇷 韩国6"
+      - "[Trojan] 🇰🇷 韩国7"
+      - "[Trojan] 🇸🇬 新加坡"
+      - "[Trojan] 🇸🇬 新加坡2"
+      - "[Trojan] 🇸🇬 新加坡3"
+      - "[Trojan] 🇸🇬 新加坡4"
+      - "[Trojan] 🇸🇬 新加坡5"
+      - "[Trojan] 🇸🇬 新加坡6"
+      - "[Trojan] 🇹🇼 台湾"
+      - "[Trojan] 🇹🇼 台湾2"
+      - "[Trojan] 🇹🇼 台湾3"
+      - "[Trojan] 🇺🇸 美国"
+      - "[Trojan] 🇺🇸 美国2"
+      - "[Trojan] 🇺🇸 美国3"
+      - "[Trojan] 🇺🇸 美国4"
+      - "[Trojan] 🇺🇸 美国5"
+      - "[Trojan] 🇻🇳 越南"
+      - "[Trojan] 🇻🇳 越南2"
+      - "[Trojan] 🇻🇳 越南3"
+      - "[Trojan] 🇻🇳 越南4"
+      - "[Trojan] 🇻🇳 越南5"
+      - "[Trojan] 🇻🇳 越南6"
+      - "[Trojan] 🇻🇳 越南7"
+      - "[Trojan] 🇻🇳 越南8"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK-B|香港
-      - America-A2
-      - TW|台湾
-      - KR|韩国
-      - JP-A|日本
-      - SG|新加坡
-      - MA|澳门
-      - HK-A|香港
-      - NF|奈飞
-      - Canada-A1-原生
-      - Hong Kong-IEPL-备用-5x
-      - Singapore-A1-DIRECT
-      - Germany-C1
-      - Australia-A1-京日
-      - America-C3-B.J.J.P
-      - Hong Kong-迫真IPLC-5x
-      - HongKong-IEPL-5x
-      - Japan-C5-流媒体解锁
+      - "[Trojan] 🇦🇪 迪拜"
+      - "[Trojan] 🇦🇪 迪拜2"
+      - "[Trojan] 🇦🇪 迪拜3"
+      - "[Trojan] 🇦🇪 迪拜4"
+      - "[Trojan] 🇦🇪 迪拜5"
+      - "[Trojan] 🇦🇪 迪拜6"
+      - "[Trojan] 🇦🇺 悉尼"
+      - "[Trojan] 🇦🇺 悉尼2"
+      - "[Trojan] 🇦🇺 悉尼3"
+      - "[Trojan] 🇦🇺 悉尼4"
+      - "[Trojan] 🇦🇺 悉尼5"
+      - "[Trojan] 🇩🇪 德国"
+      - "[Trojan] 🇩🇪 德国2"
+      - "[Trojan] 🇩🇪 德国3"
+      - "[Trojan] 🇩🇪 德国4"
+      - "[Trojan] 🇩🇪 德国5"
+      - "[Trojan] 🇩🇪 德国6"
+      - "[Trojan] 🇩🇪 德国7"
+      - "[Trojan] 🇩🇪 德国8"
+      - "[Trojan] 🇩🇪 德国 9"
+      - "[Trojan] 🇭🇰 香港"
+      - "[Trojan] 🇭🇰 香港2"
+      - "[Trojan] 🇭🇰 香港3"
+      - "[Trojan] 🇭🇰 香港4"
+      - "[Trojan] 🇭🇰 香港5"
+      - "[Trojan] 🇭🇰 香港6"
+      - "[Trojan] 🇭🇰 香港7"
+      - "[Trojan] 🇭🇰 香港8"
+      - "[Trojan] 🇭🇰 香港9"
+      - "[Trojan] 🇭🇰 香港10"
+      - "[Trojan] 🇭🇰 香港11"
+      - "[Trojan] 🇭🇰 香港12"
+      - "[Trojan] 🇭🇰 香港13"
+      - "[Trojan] 🇯🇵 日本"
+      - "[Trojan] 🇯🇵 日本2"
+      - "[Trojan] 🇯🇵 日本3"
+      - "[Trojan] 🇯🇵 日本4"
+      - "[Trojan] 🇯🇵 日本5"
+      - "[Trojan] 🇯🇵 日本6"
+      - "[Trojan] 🇯🇵 日本7"
+      - "[Trojan] 🇯🇵 日本8"
+      - "[Trojan] 🇯🇵 日本9"
+      - "[Trojan] 🇯🇵 日本10"
+      - "[Trojan] 🇯🇵 日本11"
+      - "[Trojan] 🇯🇵 日本12"
+      - "[Trojan] 🇯🇵 日本13"
+      - "[Trojan] 🇰🇷 韩国"
+      - "[Trojan] 🇰🇷 韩国2"
+      - "[Trojan] 🇰🇷 韩国3"
+      - "[Trojan] 🇰🇷 韩国4"
+      - "[Trojan] 🇰🇷 韩国5"
+      - "[Trojan] 🇰🇷 韩国6"
+      - "[Trojan] 🇰🇷 韩国7"
+      - "[Trojan] 🇸🇬 新加坡"
+      - "[Trojan] 🇸🇬 新加坡2"
+      - "[Trojan] 🇸🇬 新加坡3"
+      - "[Trojan] 🇸🇬 新加坡4"
+      - "[Trojan] 🇸🇬 新加坡5"
+      - "[Trojan] 🇸🇬 新加坡6"
+      - "[Trojan] 🇹🇼 台湾"
+      - "[Trojan] 🇹🇼 台湾2"
+      - "[Trojan] 🇹🇼 台湾3"
+      - "[Trojan] 🇺🇸 美国"
+      - "[Trojan] 🇺🇸 美国2"
+      - "[Trojan] 🇺🇸 美国3"
+      - "[Trojan] 🇺🇸 美国4"
+      - "[Trojan] 🇺🇸 美国5"
+      - "[Trojan] 🇻🇳 越南"
+      - "[Trojan] 🇻🇳 越南2"
+      - "[Trojan] 🇻🇳 越南3"
+      - "[Trojan] 🇻🇳 越南4"
+      - "[Trojan] 🇻🇳 越南5"
+      - "[Trojan] 🇻🇳 越南6"
+      - "[Trojan] 🇻🇳 越南7"
+      - "[Trojan] 🇻🇳 越南8"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -223,24 +692,81 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK-B|香港
-      - America-A2
-      - TW|台湾
-      - KR|韩国
-      - JP-A|日本
-      - SG|新加坡
-      - MA|澳门
-      - HK-A|香港
-      - NF|奈飞
-      - Canada-A1-原生
-      - Hong Kong-IEPL-备用-5x
-      - Singapore-A1-DIRECT
-      - Germany-C1
-      - Australia-A1-京日
-      - America-C3-B.J.J.P
-      - Hong Kong-迫真IPLC-5x
-      - HongKong-IEPL-5x
-      - Japan-C5-流媒体解锁
+      - "[Trojan] 🇦🇪 迪拜"
+      - "[Trojan] 🇦🇪 迪拜2"
+      - "[Trojan] 🇦🇪 迪拜3"
+      - "[Trojan] 🇦🇪 迪拜4"
+      - "[Trojan] 🇦🇪 迪拜5"
+      - "[Trojan] 🇦🇪 迪拜6"
+      - "[Trojan] 🇦🇺 悉尼"
+      - "[Trojan] 🇦🇺 悉尼2"
+      - "[Trojan] 🇦🇺 悉尼3"
+      - "[Trojan] 🇦🇺 悉尼4"
+      - "[Trojan] 🇦🇺 悉尼5"
+      - "[Trojan] 🇩🇪 德国"
+      - "[Trojan] 🇩🇪 德国2"
+      - "[Trojan] 🇩🇪 德国3"
+      - "[Trojan] 🇩🇪 德国4"
+      - "[Trojan] 🇩🇪 德国5"
+      - "[Trojan] 🇩🇪 德国6"
+      - "[Trojan] 🇩🇪 德国7"
+      - "[Trojan] 🇩🇪 德国8"
+      - "[Trojan] 🇩🇪 德国 9"
+      - "[Trojan] 🇭🇰 香港"
+      - "[Trojan] 🇭🇰 香港2"
+      - "[Trojan] 🇭🇰 香港3"
+      - "[Trojan] 🇭🇰 香港4"
+      - "[Trojan] 🇭🇰 香港5"
+      - "[Trojan] 🇭🇰 香港6"
+      - "[Trojan] 🇭🇰 香港7"
+      - "[Trojan] 🇭🇰 香港8"
+      - "[Trojan] 🇭🇰 香港9"
+      - "[Trojan] 🇭🇰 香港10"
+      - "[Trojan] 🇭🇰 香港11"
+      - "[Trojan] 🇭🇰 香港12"
+      - "[Trojan] 🇭🇰 香港13"
+      - "[Trojan] 🇯🇵 日本"
+      - "[Trojan] 🇯🇵 日本2"
+      - "[Trojan] 🇯🇵 日本3"
+      - "[Trojan] 🇯🇵 日本4"
+      - "[Trojan] 🇯🇵 日本5"
+      - "[Trojan] 🇯🇵 日本6"
+      - "[Trojan] 🇯🇵 日本7"
+      - "[Trojan] 🇯🇵 日本8"
+      - "[Trojan] 🇯🇵 日本9"
+      - "[Trojan] 🇯🇵 日本10"
+      - "[Trojan] 🇯🇵 日本11"
+      - "[Trojan] 🇯🇵 日本12"
+      - "[Trojan] 🇯🇵 日本13"
+      - "[Trojan] 🇰🇷 韩国"
+      - "[Trojan] 🇰🇷 韩国2"
+      - "[Trojan] 🇰🇷 韩国3"
+      - "[Trojan] 🇰🇷 韩国4"
+      - "[Trojan] 🇰🇷 韩国5"
+      - "[Trojan] 🇰🇷 韩国6"
+      - "[Trojan] 🇰🇷 韩国7"
+      - "[Trojan] 🇸🇬 新加坡"
+      - "[Trojan] 🇸🇬 新加坡2"
+      - "[Trojan] 🇸🇬 新加坡3"
+      - "[Trojan] 🇸🇬 新加坡4"
+      - "[Trojan] 🇸🇬 新加坡5"
+      - "[Trojan] 🇸🇬 新加坡6"
+      - "[Trojan] 🇹🇼 台湾"
+      - "[Trojan] 🇹🇼 台湾2"
+      - "[Trojan] 🇹🇼 台湾3"
+      - "[Trojan] 🇺🇸 美国"
+      - "[Trojan] 🇺🇸 美国2"
+      - "[Trojan] 🇺🇸 美国3"
+      - "[Trojan] 🇺🇸 美国4"
+      - "[Trojan] 🇺🇸 美国5"
+      - "[Trojan] 🇻🇳 越南"
+      - "[Trojan] 🇻🇳 越南2"
+      - "[Trojan] 🇻🇳 越南3"
+      - "[Trojan] 🇻🇳 越南4"
+      - "[Trojan] 🇻🇳 越南5"
+      - "[Trojan] 🇻🇳 越南6"
+      - "[Trojan] 🇻🇳 越南7"
+      - "[Trojan] 🇻🇳 越南8"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
