@@ -5,83 +5,279 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港 负载均衡, server: azhk.n.optage.moe, port: 62500, type: trojan, password: aefb4029-0bfb-477a-81d1-115537be93d7, sni: azhk.n.optage.moe, skip-cert-verify: true, udp: true}
-  - {name: 加拿大多伦多, server: tor.alinkrelay.com, port: 12001, type: trojan, password: aefb4029-0bfb-477a-81d1-115537be93d7, sni: tor.alinkrelay.com, skip-cert-verify: true, udp: true}
-  - {name: 香港 负载均衡 2, server: azhk.n.optage.moe, port: 62500, type: trojan, password: 0bc7a649-7ed7-469b-8b4c-4c45e4f7d903, sni: azhk.n.optage.moe, skip-cert-verify: true, udp: true}
-  - {name: 加拿大多伦多 2, server: tor.alinkrelay.com, port: 12001, type: trojan, password: 0bc7a649-7ed7-469b-8b4c-4c45e4f7d903, sni: tor.alinkrelay.com, skip-cert-verify: true, udp: true}
-  - {name: 韩国 负载均衡, server: ocikr.n.optage.moe, port: 62500, type: trojan, password: 0bc7a649-7ed7-469b-8b4c-4c45e4f7d903, sni: ocikr.n.optage.moe, skip-cert-verify: true, udp: true}
-  - {name: 韩国 负载均衡 2, server: ocikr.n.optage.moe, port: 62500, type: trojan, password: aefb4029-0bfb-477a-81d1-115537be93d7, sni: ocikr.n.optage.moe, skip-cert-verify: true, udp: true}
-  - {name: 香港 负载均衡 2 2, server: azhk.n.optage.moe, port: 62500, type: trojan, password: f84ba53b-70bd-480c-8f86-f3c4af26fb24, sni: azhk.n.optage.moe, skip-cert-verify: true, udp: true}
-  - {name: 日本东京 负载均衡, server: ocijp.n.optage.moe, port: 62500, type: trojan, password: 0bc7a649-7ed7-469b-8b4c-4c45e4f7d903, sni: ocijp.n.optage.moe, skip-cert-verify: true, udp: true}
-  - {name: 日本东京 负载均衡 2, server: ocijp.n.optage.moe, port: 62500, type: trojan, password: aefb4029-0bfb-477a-81d1-115537be93d7, sni: ocijp.n.optage.moe, skip-cert-verify: true, udp: true}
-  - {name: 加拿大多伦多 2 2, server: tor.alinkrelay.com, port: 12001, type: trojan, password: f84ba53b-70bd-480c-8f86-f3c4af26fb24, sni: tor.alinkrelay.com, skip-cert-verify: true, udp: true}
-  - {name: 日本东京 负载均衡 2 2, server: ocijp.n.optage.moe, port: 62500, type: trojan, password: f84ba53b-70bd-480c-8f86-f3c4af26fb24, sni: ocijp.n.optage.moe, skip-cert-verify: true, udp: true}
-  - {name: 印度班加罗尔, server: blr.alinkrelay.com, port: 12001, type: trojan, password: aefb4029-0bfb-477a-81d1-115537be93d7, sni: blr.alinkrelay.com, skip-cert-verify: true, udp: true}
-  - {name: 印度班加罗尔 2, server: blr.alinkrelay.com, port: 12001, type: trojan, password: f84ba53b-70bd-480c-8f86-f3c4af26fb24, sni: blr.alinkrelay.com, skip-cert-verify: true, udp: true}
-  - {name: 韩国 负载均衡 2 2, server: ocikr.n.optage.moe, port: 62500, type: trojan, password: f84ba53b-70bd-480c-8f86-f3c4af26fb24, sni: ocikr.n.optage.moe, skip-cert-verify: true, udp: true}
-  - {name: 印度班加罗尔 3, server: blr.alinkrelay.com, port: 12001, type: trojan, password: 0bc7a649-7ed7-469b-8b4c-4c45e4f7d903, sni: blr.alinkrelay.com, skip-cert-verify: true, udp: true}
+  - {name: 台湾|04奈飞香港AZ中转, server: azhk2.170809.xyz, port: 26991, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|02|DO1G带宽, server: sgmax02.170809.xyz, port: 444, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: sgmax02.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 印度|02|LIN(Trojan), server: in02.170809.xyz, port: 443, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: in02.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国|03RN, server: us03.170809.xyz, port: 443, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: us03.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|01|LIN, server: jp01.170809.xyz, port: 443, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: jp01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|08|DO1G带宽, server: sgmax08.170809.xyz, port: 443, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: sgmax08.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|17AZ中转, server: azhk1.170809.xyz, port: 53410, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|21AZ中转, server: azhk1.170809.xyz, port: 31578, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|10AZ中转, server: azhk1.170809.xyz, port: 39947, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|04|OC, server: sgmax04.170809.xyz, port: 443, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: sgmax04.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|10奈飞香港AZ中转, server: azhk1.170809.xyz, port: 44584, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国|01|DO, server: us01.170809.xyz, port: 443, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: us01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|08奈飞香港AZ中转, server: azhk2.170809.xyz, port: 57557, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|13|香港AZ中转, server: azhk2.170809.xyz, port: 36730, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|07奈飞香港AZ中转, server: azhk1.170809.xyz, port: 51389, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|12奈飞联通中转, server: azhk1.170809.xyz, port: 19494, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 负载均衡, server: azhk.n.optage.moe, port: 62500, type: trojan, password: 5772c2ba-35f7-4c06-8053-db2ad9b74e98, sni: azhk.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: 香港|22AZ中转, server: azhk2.170809.xyz, port: 23693, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国|02|RN香港AZ中转, server: azhk2.170809.xyz, port: 26197, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国|02|RN, server: usmax02.170809.xyz, port: 444, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: usmax02.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|01|LIN香港AZ中转, server: azhk2.170809.xyz, port: 64293, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|10奈飞, server: hkmax10.170809.xyz, port: 444, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: hkmax10.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|02|LIN, server: jp02.170809.xyz, port: 444, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: jp02.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾|01奈飞香港AZ中转, server: azhk1.170809.xyz, port: 48525, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 加拿大多伦多, server: tor.alinkrelay.com, port: 12001, type: trojan, password: 5772c2ba-35f7-4c06-8053-db2ad9b74e98, sni: tor.alinkrelay.com, skip-cert-verify: true, udp: true}
+  - {name: 香港|08奈飞, server: hkmax08.170809.xyz, port: 443, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: hkmax08.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|12香港AZ中转, server: azhk2.170809.xyz, port: 44450, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|05|OC, server: jp05.170809.xyz, port: 444, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: jp05.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 印度|02|LIN香港AZ中转, server: azhk2.170809.xyz, port: 42776, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|高速|01|LIN, server: jpmax01.170809.xyz, port: 443, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: jpmax01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|12|奈飞, server: hk12.170809.xyz, port: 443, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: hk12.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|13|奈飞, server: hkmax13.170809.xyz, port: 444, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: hkmax13.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|06奈飞, server: hkmax06.170809.xyz, port: 443, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: hkmax06.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|12奈飞, server: hkmax12.170809.xyz, port: 444, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: hkmax12.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|01|LIN(Trojan)1G带宽, server: sgmax01.170809.xyz, port: 444, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: sgmax01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 印度班加罗尔, server: blr.alinkrelay.com, port: 12001, type: trojan, password: 5772c2ba-35f7-4c06-8053-db2ad9b74e98, sni: blr.alinkrelay.com, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|01|OC香港AZ中转, server: azhk2.170809.xyz, port: 21989, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|03|OC, server: 0a01f3ad01.170809.xyz, port: 443, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: 0a01f3ad01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|高速|03|LIN, server: jpmax03.170809.xyz, port: 443, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: jpmax03.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|04|OC香港AZ中转, server: azhk2.170809.xyz, port: 32145, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|02|LIN日本AZ中转, server: azhk2.170809.xyz, port: 13734, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|05|OC香港AZ中转, server: azhk2.170809.xyz, port: 31282, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|03|LINAZ中转, server: azhk1.170809.xyz, port: 60003, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|03|OC奈飞香港AZ中转, server: azhk1.170809.xyz, port: 55745, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|04|OC, server: jp04.170809.xyz, port: 444, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: jp04.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国|高速|01|DO, server: usmax01.170809.xyz, port: 444, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: usmax01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|04|OC香港AZ中转, server: azhk1.170809.xyz, port: 25393, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|08|DO香港AZ中转, server: azhk2.170809.xyz, port: 30808, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国|02|DO, server: us02.170809.xyz, port: 444, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: us02.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|02|DO香港AZ中转, server: azhk1.170809.xyz, port: 41975, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|01|LIN香港AZ中转, server: azhk1.170809.xyz, port: 35686, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|07奈飞AZ三线中转, server: azhk2.170809.xyz, port: 48146, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|10|奈飞, server: hk10.170809.xyz, port: 443, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: hk10.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾|01奈飞直连, server: tw01.170809.xyz, port: 444, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: tw01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|03|LIN, server: jp03.170809.xyz, port: 444, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: jp03.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|17香港AZ中转, server: azhk2.170809.xyz, port: 62277, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国|03|RN, server: usmax03.170809.xyz, port: 443, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: usmax03.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|20AZ中转, server: azhk1.170809.xyz, port: 53802, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本东京 负载均衡, server: ocijp.n.optage.moe, port: 62500, type: trojan, password: 5772c2ba-35f7-4c06-8053-db2ad9b74e98, sni: ocijp.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: 香港|23AZ中转, server: azhk2.170809.xyz, port: 29197, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|13香港AZ中转, server: azhk2.170809.xyz, port: 33932, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|03香港AZ中转, server: azhk1.170809.xyz, port: 63987, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国|04|RN香港AZ中转, server: azhk2.170809.xyz, port: 52718, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 韩国 负载均衡, server: ocikr.n.optage.moe, port: 62500, type: trojan, password: 5772c2ba-35f7-4c06-8053-db2ad9b74e98, sni: ocikr.n.optage.moe, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 台湾|04奈飞香港AZ中转
+      - 新加坡|02|DO1G带宽
+      - 印度|02|LIN(Trojan)
+      - 美国|03RN
+      - 日本|01|LIN
+      - 新加坡|08|DO1G带宽
+      - 香港|17AZ中转
+      - 香港|21AZ中转
+      - 香港|10AZ中转
+      - 新加坡|04|OC
+      - 香港|10奈飞香港AZ中转
+      - 美国|01|DO
+      - 香港|08奈飞香港AZ中转
+      - 香港|13|香港AZ中转
+      - 香港|07奈飞香港AZ中转
+      - 香港|12奈飞联通中转
       - 香港 负载均衡
+      - 香港|22AZ中转
+      - 美国|02|RN香港AZ中转
+      - 美国|02|RN
+      - 日本|01|LIN香港AZ中转
+      - 香港|10奈飞
+      - 日本|02|LIN
+      - 台湾|01奈飞香港AZ中转
       - 加拿大多伦多
-      - 香港 负载均衡 2
-      - 加拿大多伦多 2
-      - 韩国 负载均衡
-      - 韩国 负载均衡 2
-      - 香港 负载均衡 2 2
-      - 日本东京 负载均衡
-      - 日本东京 负载均衡 2
-      - 加拿大多伦多 2 2
-      - 日本东京 负载均衡 2 2
+      - 香港|08奈飞
+      - 香港|12香港AZ中转
+      - 日本|05|OC
+      - 印度|02|LIN香港AZ中转
+      - 日本|高速|01|LIN
+      - 香港|12|奈飞
+      - 香港|13|奈飞
+      - 香港|06奈飞
+      - 香港|12奈飞
+      - 新加坡|01|LIN(Trojan)1G带宽
       - 印度班加罗尔
-      - 印度班加罗尔 2
-      - 韩国 负载均衡 2 2
-      - 印度班加罗尔 3
+      - 新加坡|01|OC香港AZ中转
+      - 新加坡|03|OC
+      - 日本|高速|03|LIN
+      - 日本|04|OC香港AZ中转
+      - 日本|02|LIN日本AZ中转
+      - 日本|05|OC香港AZ中转
+      - 日本|03|LINAZ中转
+      - 新加坡|03|OC奈飞香港AZ中转
+      - 日本|04|OC
+      - 美国|高速|01|DO
+      - 新加坡|04|OC香港AZ中转
+      - 新加坡|08|DO香港AZ中转
+      - 美国|02|DO
+      - 新加坡|02|DO香港AZ中转
+      - 新加坡|01|LIN香港AZ中转
+      - 香港|07奈飞AZ三线中转
+      - 香港|10|奈飞
+      - 台湾|01奈飞直连
+      - 日本|03|LIN
+      - 香港|17香港AZ中转
+      - 美国|03|RN
+      - 香港|20AZ中转
+      - 日本东京 负载均衡
+      - 香港|23AZ中转
+      - 香港|13香港AZ中转
+      - 香港|03香港AZ中转
+      - 美国|04|RN香港AZ中转
+      - 韩国 负载均衡
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 台湾|04奈飞香港AZ中转
+      - 新加坡|02|DO1G带宽
+      - 印度|02|LIN(Trojan)
+      - 美国|03RN
+      - 日本|01|LIN
+      - 新加坡|08|DO1G带宽
+      - 香港|17AZ中转
+      - 香港|21AZ中转
+      - 香港|10AZ中转
+      - 新加坡|04|OC
+      - 香港|10奈飞香港AZ中转
+      - 美国|01|DO
+      - 香港|08奈飞香港AZ中转
+      - 香港|13|香港AZ中转
+      - 香港|07奈飞香港AZ中转
+      - 香港|12奈飞联通中转
       - 香港 负载均衡
+      - 香港|22AZ中转
+      - 美国|02|RN香港AZ中转
+      - 美国|02|RN
+      - 日本|01|LIN香港AZ中转
+      - 香港|10奈飞
+      - 日本|02|LIN
+      - 台湾|01奈飞香港AZ中转
       - 加拿大多伦多
-      - 香港 负载均衡 2
-      - 加拿大多伦多 2
-      - 韩国 负载均衡
-      - 韩国 负载均衡 2
-      - 香港 负载均衡 2 2
-      - 日本东京 负载均衡
-      - 日本东京 负载均衡 2
-      - 加拿大多伦多 2 2
-      - 日本东京 负载均衡 2 2
+      - 香港|08奈飞
+      - 香港|12香港AZ中转
+      - 日本|05|OC
+      - 印度|02|LIN香港AZ中转
+      - 日本|高速|01|LIN
+      - 香港|12|奈飞
+      - 香港|13|奈飞
+      - 香港|06奈飞
+      - 香港|12奈飞
+      - 新加坡|01|LIN(Trojan)1G带宽
       - 印度班加罗尔
-      - 印度班加罗尔 2
-      - 韩国 负载均衡 2 2
-      - 印度班加罗尔 3
+      - 新加坡|01|OC香港AZ中转
+      - 新加坡|03|OC
+      - 日本|高速|03|LIN
+      - 日本|04|OC香港AZ中转
+      - 日本|02|LIN日本AZ中转
+      - 日本|05|OC香港AZ中转
+      - 日本|03|LINAZ中转
+      - 新加坡|03|OC奈飞香港AZ中转
+      - 日本|04|OC
+      - 美国|高速|01|DO
+      - 新加坡|04|OC香港AZ中转
+      - 新加坡|08|DO香港AZ中转
+      - 美国|02|DO
+      - 新加坡|02|DO香港AZ中转
+      - 新加坡|01|LIN香港AZ中转
+      - 香港|07奈飞AZ三线中转
+      - 香港|10|奈飞
+      - 台湾|01奈飞直连
+      - 日本|03|LIN
+      - 香港|17香港AZ中转
+      - 美国|03|RN
+      - 香港|20AZ中转
+      - 日本东京 负载均衡
+      - 香港|23AZ中转
+      - 香港|13香港AZ中转
+      - 香港|03香港AZ中转
+      - 美国|04|RN香港AZ中转
+      - 韩国 负载均衡
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 台湾|04奈飞香港AZ中转
+      - 新加坡|02|DO1G带宽
+      - 印度|02|LIN(Trojan)
+      - 美国|03RN
+      - 日本|01|LIN
+      - 新加坡|08|DO1G带宽
+      - 香港|17AZ中转
+      - 香港|21AZ中转
+      - 香港|10AZ中转
+      - 新加坡|04|OC
+      - 香港|10奈飞香港AZ中转
+      - 美国|01|DO
+      - 香港|08奈飞香港AZ中转
+      - 香港|13|香港AZ中转
+      - 香港|07奈飞香港AZ中转
+      - 香港|12奈飞联通中转
       - 香港 负载均衡
+      - 香港|22AZ中转
+      - 美国|02|RN香港AZ中转
+      - 美国|02|RN
+      - 日本|01|LIN香港AZ中转
+      - 香港|10奈飞
+      - 日本|02|LIN
+      - 台湾|01奈飞香港AZ中转
       - 加拿大多伦多
-      - 香港 负载均衡 2
-      - 加拿大多伦多 2
-      - 韩国 负载均衡
-      - 韩国 负载均衡 2
-      - 香港 负载均衡 2 2
-      - 日本东京 负载均衡
-      - 日本东京 负载均衡 2
-      - 加拿大多伦多 2 2
-      - 日本东京 负载均衡 2 2
+      - 香港|08奈飞
+      - 香港|12香港AZ中转
+      - 日本|05|OC
+      - 印度|02|LIN香港AZ中转
+      - 日本|高速|01|LIN
+      - 香港|12|奈飞
+      - 香港|13|奈飞
+      - 香港|06奈飞
+      - 香港|12奈飞
+      - 新加坡|01|LIN(Trojan)1G带宽
       - 印度班加罗尔
-      - 印度班加罗尔 2
-      - 韩国 负载均衡 2 2
-      - 印度班加罗尔 3
+      - 新加坡|01|OC香港AZ中转
+      - 新加坡|03|OC
+      - 日本|高速|03|LIN
+      - 日本|04|OC香港AZ中转
+      - 日本|02|LIN日本AZ中转
+      - 日本|05|OC香港AZ中转
+      - 日本|03|LINAZ中转
+      - 新加坡|03|OC奈飞香港AZ中转
+      - 日本|04|OC
+      - 美国|高速|01|DO
+      - 新加坡|04|OC香港AZ中转
+      - 新加坡|08|DO香港AZ中转
+      - 美国|02|DO
+      - 新加坡|02|DO香港AZ中转
+      - 新加坡|01|LIN香港AZ中转
+      - 香港|07奈飞AZ三线中转
+      - 香港|10|奈飞
+      - 台湾|01奈飞直连
+      - 日本|03|LIN
+      - 香港|17香港AZ中转
+      - 美国|03|RN
+      - 香港|20AZ中转
+      - 日本东京 负载均衡
+      - 香港|23AZ中转
+      - 香港|13香港AZ中转
+      - 香港|03香港AZ中转
+      - 美国|04|RN香港AZ中转
+      - 韩国 负载均衡
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -100,90 +296,322 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 台湾|04奈飞香港AZ中转
+      - 新加坡|02|DO1G带宽
+      - 印度|02|LIN(Trojan)
+      - 美国|03RN
+      - 日本|01|LIN
+      - 新加坡|08|DO1G带宽
+      - 香港|17AZ中转
+      - 香港|21AZ中转
+      - 香港|10AZ中转
+      - 新加坡|04|OC
+      - 香港|10奈飞香港AZ中转
+      - 美国|01|DO
+      - 香港|08奈飞香港AZ中转
+      - 香港|13|香港AZ中转
+      - 香港|07奈飞香港AZ中转
+      - 香港|12奈飞联通中转
       - 香港 负载均衡
+      - 香港|22AZ中转
+      - 美国|02|RN香港AZ中转
+      - 美国|02|RN
+      - 日本|01|LIN香港AZ中转
+      - 香港|10奈飞
+      - 日本|02|LIN
+      - 台湾|01奈飞香港AZ中转
       - 加拿大多伦多
-      - 香港 负载均衡 2
-      - 加拿大多伦多 2
-      - 韩国 负载均衡
-      - 韩国 负载均衡 2
-      - 香港 负载均衡 2 2
-      - 日本东京 负载均衡
-      - 日本东京 负载均衡 2
-      - 加拿大多伦多 2 2
-      - 日本东京 负载均衡 2 2
+      - 香港|08奈飞
+      - 香港|12香港AZ中转
+      - 日本|05|OC
+      - 印度|02|LIN香港AZ中转
+      - 日本|高速|01|LIN
+      - 香港|12|奈飞
+      - 香港|13|奈飞
+      - 香港|06奈飞
+      - 香港|12奈飞
+      - 新加坡|01|LIN(Trojan)1G带宽
       - 印度班加罗尔
-      - 印度班加罗尔 2
-      - 韩国 负载均衡 2 2
-      - 印度班加罗尔 3
+      - 新加坡|01|OC香港AZ中转
+      - 新加坡|03|OC
+      - 日本|高速|03|LIN
+      - 日本|04|OC香港AZ中转
+      - 日本|02|LIN日本AZ中转
+      - 日本|05|OC香港AZ中转
+      - 日本|03|LINAZ中转
+      - 新加坡|03|OC奈飞香港AZ中转
+      - 日本|04|OC
+      - 美国|高速|01|DO
+      - 新加坡|04|OC香港AZ中转
+      - 新加坡|08|DO香港AZ中转
+      - 美国|02|DO
+      - 新加坡|02|DO香港AZ中转
+      - 新加坡|01|LIN香港AZ中转
+      - 香港|07奈飞AZ三线中转
+      - 香港|10|奈飞
+      - 台湾|01奈飞直连
+      - 日本|03|LIN
+      - 香港|17香港AZ中转
+      - 美国|03|RN
+      - 香港|20AZ中转
+      - 日本东京 负载均衡
+      - 香港|23AZ中转
+      - 香港|13香港AZ中转
+      - 香港|03香港AZ中转
+      - 美国|04|RN香港AZ中转
+      - 韩国 负载均衡
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 台湾|04奈飞香港AZ中转
+      - 香港|17AZ中转
+      - 香港|21AZ中转
+      - 香港|10AZ中转
+      - 香港|10奈飞香港AZ中转
+      - 香港|08奈飞香港AZ中转
+      - 香港|13|香港AZ中转
+      - 香港|07奈飞香港AZ中转
+      - 香港|12奈飞联通中转
       - 香港 负载均衡
-      - 香港 负载均衡 2
-      - 香港 负载均衡 2 2
+      - 香港|22AZ中转
+      - 美国|02|RN香港AZ中转
+      - 日本|01|LIN香港AZ中转
+      - 香港|10奈飞
+      - 台湾|01奈飞香港AZ中转
+      - 香港|08奈飞
+      - 香港|12香港AZ中转
+      - 印度|02|LIN香港AZ中转
+      - 香港|12|奈飞
+      - 香港|13|奈飞
+      - 香港|06奈飞
+      - 香港|12奈飞
+      - 新加坡|01|OC香港AZ中转
+      - 日本|04|OC香港AZ中转
+      - 日本|05|OC香港AZ中转
+      - 新加坡|03|OC奈飞香港AZ中转
+      - 新加坡|04|OC香港AZ中转
+      - 新加坡|08|DO香港AZ中转
+      - 新加坡|02|DO香港AZ中转
+      - 新加坡|01|LIN香港AZ中转
+      - 香港|07奈飞AZ三线中转
+      - 香港|10|奈飞
+      - 台湾|01奈飞直连
+      - 香港|17香港AZ中转
+      - 香港|20AZ中转
+      - 香港|23AZ中转
+      - 香港|13香港AZ中转
+      - 香港|03香港AZ中转
+      - 美国|04|RN香港AZ中转
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 台湾|04奈飞香港AZ中转
+      - 新加坡|02|DO1G带宽
+      - 印度|02|LIN(Trojan)
+      - 美国|03RN
+      - 日本|01|LIN
+      - 新加坡|08|DO1G带宽
+      - 香港|17AZ中转
+      - 香港|21AZ中转
+      - 香港|10AZ中转
+      - 新加坡|04|OC
+      - 香港|10奈飞香港AZ中转
+      - 美国|01|DO
+      - 香港|08奈飞香港AZ中转
+      - 香港|13|香港AZ中转
+      - 香港|07奈飞香港AZ中转
+      - 香港|12奈飞联通中转
       - 香港 负载均衡
+      - 香港|22AZ中转
+      - 美国|02|RN香港AZ中转
+      - 美国|02|RN
+      - 日本|01|LIN香港AZ中转
+      - 香港|10奈飞
+      - 日本|02|LIN
+      - 台湾|01奈飞香港AZ中转
       - 加拿大多伦多
-      - 香港 负载均衡 2
-      - 加拿大多伦多 2
-      - 韩国 负载均衡
-      - 韩国 负载均衡 2
-      - 香港 负载均衡 2 2
-      - 日本东京 负载均衡
-      - 日本东京 负载均衡 2
-      - 加拿大多伦多 2 2
-      - 日本东京 负载均衡 2 2
+      - 香港|08奈飞
+      - 香港|12香港AZ中转
+      - 日本|05|OC
+      - 印度|02|LIN香港AZ中转
+      - 日本|高速|01|LIN
+      - 香港|12|奈飞
+      - 香港|13|奈飞
+      - 香港|06奈飞
+      - 香港|12奈飞
+      - 新加坡|01|LIN(Trojan)1G带宽
       - 印度班加罗尔
-      - 印度班加罗尔 2
-      - 韩国 负载均衡 2 2
-      - 印度班加罗尔 3
+      - 新加坡|01|OC香港AZ中转
+      - 新加坡|03|OC
+      - 日本|高速|03|LIN
+      - 日本|04|OC香港AZ中转
+      - 日本|02|LIN日本AZ中转
+      - 日本|05|OC香港AZ中转
+      - 日本|03|LINAZ中转
+      - 新加坡|03|OC奈飞香港AZ中转
+      - 日本|04|OC
+      - 美国|高速|01|DO
+      - 新加坡|04|OC香港AZ中转
+      - 新加坡|08|DO香港AZ中转
+      - 美国|02|DO
+      - 新加坡|02|DO香港AZ中转
+      - 新加坡|01|LIN香港AZ中转
+      - 香港|07奈飞AZ三线中转
+      - 香港|10|奈飞
+      - 台湾|01奈飞直连
+      - 日本|03|LIN
+      - 香港|17香港AZ中转
+      - 美国|03|RN
+      - 香港|20AZ中转
+      - 日本东京 负载均衡
+      - 香港|23AZ中转
+      - 香港|13香港AZ中转
+      - 香港|03香港AZ中转
+      - 美国|04|RN香港AZ中转
+      - 韩国 负载均衡
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 台湾|04奈飞香港AZ中转
+      - 新加坡|02|DO1G带宽
+      - 印度|02|LIN(Trojan)
+      - 美国|03RN
+      - 日本|01|LIN
+      - 新加坡|08|DO1G带宽
+      - 香港|17AZ中转
+      - 香港|21AZ中转
+      - 香港|10AZ中转
+      - 新加坡|04|OC
+      - 香港|10奈飞香港AZ中转
+      - 美国|01|DO
+      - 香港|08奈飞香港AZ中转
+      - 香港|13|香港AZ中转
+      - 香港|07奈飞香港AZ中转
+      - 香港|12奈飞联通中转
       - 香港 负载均衡
+      - 香港|22AZ中转
+      - 美国|02|RN香港AZ中转
+      - 美国|02|RN
+      - 日本|01|LIN香港AZ中转
+      - 香港|10奈飞
+      - 日本|02|LIN
+      - 台湾|01奈飞香港AZ中转
       - 加拿大多伦多
-      - 香港 负载均衡 2
-      - 加拿大多伦多 2
-      - 韩国 负载均衡
-      - 韩国 负载均衡 2
-      - 香港 负载均衡 2 2
-      - 日本东京 负载均衡
-      - 日本东京 负载均衡 2
-      - 加拿大多伦多 2 2
-      - 日本东京 负载均衡 2 2
+      - 香港|08奈飞
+      - 香港|12香港AZ中转
+      - 日本|05|OC
+      - 印度|02|LIN香港AZ中转
+      - 日本|高速|01|LIN
+      - 香港|12|奈飞
+      - 香港|13|奈飞
+      - 香港|06奈飞
+      - 香港|12奈飞
+      - 新加坡|01|LIN(Trojan)1G带宽
       - 印度班加罗尔
-      - 印度班加罗尔 2
-      - 韩国 负载均衡 2 2
-      - 印度班加罗尔 3
+      - 新加坡|01|OC香港AZ中转
+      - 新加坡|03|OC
+      - 日本|高速|03|LIN
+      - 日本|04|OC香港AZ中转
+      - 日本|02|LIN日本AZ中转
+      - 日本|05|OC香港AZ中转
+      - 日本|03|LINAZ中转
+      - 新加坡|03|OC奈飞香港AZ中转
+      - 日本|04|OC
+      - 美国|高速|01|DO
+      - 新加坡|04|OC香港AZ中转
+      - 新加坡|08|DO香港AZ中转
+      - 美国|02|DO
+      - 新加坡|02|DO香港AZ中转
+      - 新加坡|01|LIN香港AZ中转
+      - 香港|07奈飞AZ三线中转
+      - 香港|10|奈飞
+      - 台湾|01奈飞直连
+      - 日本|03|LIN
+      - 香港|17香港AZ中转
+      - 美国|03|RN
+      - 香港|20AZ中转
+      - 日本东京 负载均衡
+      - 香港|23AZ中转
+      - 香港|13香港AZ中转
+      - 香港|03香港AZ中转
+      - 美国|04|RN香港AZ中转
+      - 韩国 负载均衡
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 台湾|04奈飞香港AZ中转
+      - 新加坡|02|DO1G带宽
+      - 印度|02|LIN(Trojan)
+      - 美国|03RN
+      - 日本|01|LIN
+      - 新加坡|08|DO1G带宽
+      - 香港|17AZ中转
+      - 香港|21AZ中转
+      - 香港|10AZ中转
+      - 新加坡|04|OC
+      - 香港|10奈飞香港AZ中转
+      - 美国|01|DO
+      - 香港|08奈飞香港AZ中转
+      - 香港|13|香港AZ中转
+      - 香港|07奈飞香港AZ中转
+      - 香港|12奈飞联通中转
       - 香港 负载均衡
+      - 香港|22AZ中转
+      - 美国|02|RN香港AZ中转
+      - 美国|02|RN
+      - 日本|01|LIN香港AZ中转
+      - 香港|10奈飞
+      - 日本|02|LIN
+      - 台湾|01奈飞香港AZ中转
       - 加拿大多伦多
-      - 香港 负载均衡 2
-      - 加拿大多伦多 2
-      - 韩国 负载均衡
-      - 韩国 负载均衡 2
-      - 香港 负载均衡 2 2
-      - 日本东京 负载均衡
-      - 日本东京 负载均衡 2
-      - 加拿大多伦多 2 2
-      - 日本东京 负载均衡 2 2
+      - 香港|08奈飞
+      - 香港|12香港AZ中转
+      - 日本|05|OC
+      - 印度|02|LIN香港AZ中转
+      - 日本|高速|01|LIN
+      - 香港|12|奈飞
+      - 香港|13|奈飞
+      - 香港|06奈飞
+      - 香港|12奈飞
+      - 新加坡|01|LIN(Trojan)1G带宽
       - 印度班加罗尔
-      - 印度班加罗尔 2
-      - 韩国 负载均衡 2 2
-      - 印度班加罗尔 3
+      - 新加坡|01|OC香港AZ中转
+      - 新加坡|03|OC
+      - 日本|高速|03|LIN
+      - 日本|04|OC香港AZ中转
+      - 日本|02|LIN日本AZ中转
+      - 日本|05|OC香港AZ中转
+      - 日本|03|LINAZ中转
+      - 新加坡|03|OC奈飞香港AZ中转
+      - 日本|04|OC
+      - 美国|高速|01|DO
+      - 新加坡|04|OC香港AZ中转
+      - 新加坡|08|DO香港AZ中转
+      - 美国|02|DO
+      - 新加坡|02|DO香港AZ中转
+      - 新加坡|01|LIN香港AZ中转
+      - 香港|07奈飞AZ三线中转
+      - 香港|10|奈飞
+      - 台湾|01奈飞直连
+      - 日本|03|LIN
+      - 香港|17香港AZ中转
+      - 美国|03|RN
+      - 香港|20AZ中转
+      - 日本东京 负载均衡
+      - 香港|23AZ中转
+      - 香港|13香港AZ中转
+      - 香港|03香港AZ中转
+      - 美国|04|RN香港AZ中转
+      - 韩国 负载均衡
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -199,21 +627,70 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 台湾|04奈飞香港AZ中转
+      - 新加坡|02|DO1G带宽
+      - 印度|02|LIN(Trojan)
+      - 美国|03RN
+      - 日本|01|LIN
+      - 新加坡|08|DO1G带宽
+      - 香港|17AZ中转
+      - 香港|21AZ中转
+      - 香港|10AZ中转
+      - 新加坡|04|OC
+      - 香港|10奈飞香港AZ中转
+      - 美国|01|DO
+      - 香港|08奈飞香港AZ中转
+      - 香港|13|香港AZ中转
+      - 香港|07奈飞香港AZ中转
+      - 香港|12奈飞联通中转
       - 香港 负载均衡
+      - 香港|22AZ中转
+      - 美国|02|RN香港AZ中转
+      - 美国|02|RN
+      - 日本|01|LIN香港AZ中转
+      - 香港|10奈飞
+      - 日本|02|LIN
+      - 台湾|01奈飞香港AZ中转
       - 加拿大多伦多
-      - 香港 负载均衡 2
-      - 加拿大多伦多 2
-      - 韩国 负载均衡
-      - 韩国 负载均衡 2
-      - 香港 负载均衡 2 2
-      - 日本东京 负载均衡
-      - 日本东京 负载均衡 2
-      - 加拿大多伦多 2 2
-      - 日本东京 负载均衡 2 2
+      - 香港|08奈飞
+      - 香港|12香港AZ中转
+      - 日本|05|OC
+      - 印度|02|LIN香港AZ中转
+      - 日本|高速|01|LIN
+      - 香港|12|奈飞
+      - 香港|13|奈飞
+      - 香港|06奈飞
+      - 香港|12奈飞
+      - 新加坡|01|LIN(Trojan)1G带宽
       - 印度班加罗尔
-      - 印度班加罗尔 2
-      - 韩国 负载均衡 2 2
-      - 印度班加罗尔 3
+      - 新加坡|01|OC香港AZ中转
+      - 新加坡|03|OC
+      - 日本|高速|03|LIN
+      - 日本|04|OC香港AZ中转
+      - 日本|02|LIN日本AZ中转
+      - 日本|05|OC香港AZ中转
+      - 日本|03|LINAZ中转
+      - 新加坡|03|OC奈飞香港AZ中转
+      - 日本|04|OC
+      - 美国|高速|01|DO
+      - 新加坡|04|OC香港AZ中转
+      - 新加坡|08|DO香港AZ中转
+      - 美国|02|DO
+      - 新加坡|02|DO香港AZ中转
+      - 新加坡|01|LIN香港AZ中转
+      - 香港|07奈飞AZ三线中转
+      - 香港|10|奈飞
+      - 台湾|01奈飞直连
+      - 日本|03|LIN
+      - 香港|17香港AZ中转
+      - 美国|03|RN
+      - 香港|20AZ中转
+      - 日本东京 负载均衡
+      - 香港|23AZ中转
+      - 香港|13香港AZ中转
+      - 香港|03香港AZ中转
+      - 美国|04|RN香港AZ中转
+      - 韩国 负载均衡
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
