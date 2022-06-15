@@ -5,6 +5,205 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 越南 01, server: apt-install.as58466.com, port: 3322, type: ss, cipher: aes-128-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: HKG 15, server: 4df3a7ab.vfzgvm.sbs, port: 12015, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 日本 05, server: ootkekb.jkwskh.xyz, port: 9020, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: JPN 11, server: a1073588.wprydu.sbs, port: 12211, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 日本 07, server: ootkekb.jkwskh.xyz, port: 9030, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 日本 08, server: ootkekb.jkwskh.xyz, port: 9035, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: SGP 01, server: 4df3a7ab.vfzgvm.sbs, port: 12101, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: SGP 15, server: 4df3a7ab.vfzgvm.sbs, port: 12115, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: SGP 02, server: 4df3a7ab.vfzgvm.sbs, port: 12102, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: SGP 03, server: 4df3a7ab.vfzgvm.sbs, port: 12103, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: SGP 06, server: 4df3a7ab.vfzgvm.sbs, port: 12106, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: SGP 08, server: 4df3a7ab.vfzgvm.sbs, port: 12108, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: SGP 09, server: 4df3a7ab.vfzgvm.sbs, port: 12109, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: SGP 12, server: 4df3a7ab.vfzgvm.sbs, port: 12112, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: SGP 13, server: 4df3a7ab.vfzgvm.sbs, port: 12113, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 香港 05, server: apt-install.as58466.com, port: 3377, type: ss, cipher: aes-256-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: SGP 04, server: 4df3a7ab.vfzgvm.sbs, port: 12104, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: SGP 07, server: 4df3a7ab.vfzgvm.sbs, port: 12107, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: SGP 10, server: 4df3a7ab.vfzgvm.sbs, port: 12110, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: IDN 01, server: 4df3a7ab.vfzgvm.sbs, port: 12905, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: SGP 11, server: 4df3a7ab.vfzgvm.sbs, port: 12111, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: SGP 14, server: 4df3a7ab.vfzgvm.sbs, port: 12114, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 美国 07, server: apt-install.as58466.com, port: 9944, type: ss, cipher: aes-256-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: SGP 05, server: 4df3a7ab.vfzgvm.sbs, port: 12105, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: HKG 06, server: 4df3a7ab.vfzgvm.sbs, port: 12006, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: IND 01, server: 4df3a7ab.vfzgvm.sbs, port: 12301, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 香港 09, server: apt-install.as58466.com, port: 6399, type: ss, cipher: aes-128-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 新加坡 03, server: apt-install.as58466.com, port: 2232, type: ss, cipher: aes-128-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 香港 01, server: apt-install.as58466.com, port: 2222, type: ss, cipher: aes-256-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: SGP 18, server: 4df3a7ab.vfzgvm.sbs, port: 12118, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 香港 07, server: apt-install.as58466.com, port: 6366, type: ss, cipher: chacha20-ietf-poly1305, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: HKG 10, server: 4df3a7ab.vfzgvm.sbs, port: 12010, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: HKG 14, server: 4df3a7ab.vfzgvm.sbs, port: 12014, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 香港 06, server: apt-install.as58466.com, port: 6355, type: ss, cipher: chacha20-ietf-poly1305, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: HKG 20, server: 4df3a7ab.vfzgvm.sbs, port: 12020, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 香港 08, server: apt-install.as58466.com, port: 6377, type: ss, cipher: chacha20-ietf-poly1305, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 南非 01, server: apt-install.as58466.com, port: 9956, type: ss, cipher: aes-256-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: HKG 01, server: 4df3a7ab.vfzgvm.sbs, port: 12001, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 香港 02, server: apt-install.as58466.com, port: 2224, type: ss, cipher: chacha20-ietf-poly1305, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: HKG 05, server: 4df3a7ab.vfzgvm.sbs, port: 12005, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: HKG 02, server: 4df3a7ab.vfzgvm.sbs, port: 12002, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: HKG 04, server: 4df3a7ab.vfzgvm.sbs, port: 12004, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: PHL 01, server: 4df3a7ab.vfzgvm.sbs, port: 12901, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 新加坡 01, server: ppmidyd.btlsmi.xyz, port: 9380, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 新加坡 04, server: yypqbht.qfbwcd.xyz, port: 9395, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: HKG 03, server: 4df3a7ab.vfzgvm.sbs, port: 12003, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: HKG 13, server: 4df3a7ab.vfzgvm.sbs, port: 12013, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: HKG 07, server: 4df3a7ab.vfzgvm.sbs, port: 12007, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: HKG 17, server: 4df3a7ab.vfzgvm.sbs, port: 12017, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: HKG 19, server: 4df3a7ab.vfzgvm.sbs, port: 12019, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: SGP 16, server: 4df3a7ab.vfzgvm.sbs, port: 12116, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 新加坡 02, server: ppmidyd.btlsmi.xyz, port: 9385, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 香港 03, server: apt-install.as58466.com, port: 2226, type: ss, cipher: aes-256-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: HKG 11, server: 4df3a7ab.vfzgvm.sbs, port: 12011, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: TWN 05, server: 4df3a7ab.vfzgvm.sbs, port: 12055, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 俄罗斯 01, server: apt-install.as58466.com, port: 4397, type: ss, cipher: aes-256-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: HKG 08, server: 4df3a7ab.vfzgvm.sbs, port: 12008, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: HKG 09, server: 4df3a7ab.vfzgvm.sbs, port: 12009, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: TWN 03, server: 4df3a7ab.vfzgvm.sbs, port: 12053, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: HKG 18, server: 4df3a7ab.vfzgvm.sbs, port: 12018, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: TWN 04, server: 4df3a7ab.vfzgvm.sbs, port: 12054, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 新加坡 03 2, server: yypqbht.qfbwcd.xyz, port: 9390, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: HKG 16, server: 4df3a7ab.vfzgvm.sbs, port: 12016, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: SGP 17, server: 4df3a7ab.vfzgvm.sbs, port: 12117, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 乌克兰 01, server: apt-install.as58466.com, port: 9957, type: ss, cipher: aes-128-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: TWN 02, server: 4df3a7ab.vfzgvm.sbs, port: 12052, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 新加坡 05, server: apt-install.as58466.com, port: 6619, type: ss, cipher: chacha20-ietf-poly1305, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 荷兰 01, server: apt-install.as58466.com, port: 9988, type: ss, cipher: chacha20-ietf-poly1305, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 法国 01, server: apt-install.as58466.com, port: 8802, type: ss, cipher: aes-128-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 香港 03 2, server: ppmidyd.btlsmi.xyz, port: 9310, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: GBR 02, server: 4df3a7ab.vfzgvm.sbs, port: 12852, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 美国 01, server: apt-install.as58466.com, port: 2240, type: ss, cipher: chacha20-ietf-poly1305, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: DEU 04, server: 4df3a7ab.vfzgvm.sbs, port: 12404, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 美国 05, server: apt-install.as58466.com, port: 6666, type: ss, cipher: aes-256-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 美国 02, server: apt-install.as58466.com, port: 2242, type: ss, cipher: chacha20-ietf-poly1305, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 美国 04, server: apt-install.as58466.com, port: 6444, type: ss, cipher: aes-256-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 新加坡 06, server: apt-install.as58466.com, port: 6622, type: ss, cipher: aes-128-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 香港 08 2, server: yypqbht.qfbwcd.xyz, port: 9335, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 美国 08, server: apt-install.as58466.com, port: 9123, type: ss, cipher: aes-256-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 新加坡 07, server: apt-install.as58466.com, port: 6633, type: ss, cipher: chacha20-ietf-poly1305, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 香港 09 2, server: yypqbht.qfbwcd.xyz, port: 9340, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 美国 06, server: apt-install.as58466.com, port: 9933, type: ss, cipher: aes-128-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: ISL 01, server: 4df3a7ab.vfzgvm.sbs, port: 12701, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 台湾 03, server: yypqbht.qfbwcd.xyz, port: 9365, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: TUR 01, server: 4df3a7ab.vfzgvm.sbs, port: 12903, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: TUR 02, server: 4df3a7ab.vfzgvm.sbs, port: 12904, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 新加坡 04 2, server: apt-install.as58466.com, port: 6688, type: ss, cipher: chacha20-ietf-poly1305, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 澳大利亚 01, server: apt-install.as58466.com, port: 8820, type: ss, cipher: chacha20-ietf-poly1305, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 印度尼西亚 01, server: apt-install.as58466.com, port: 4466, type: ss, cipher: chacha20-ietf-poly1305, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 香港 05 2, server: yypqbht.qfbwcd.xyz, port: 9320, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 香港 06 2, server: yypqbht.qfbwcd.xyz, port: 9325, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: TWN 01, server: 4df3a7ab.vfzgvm.sbs, port: 12051, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 香港 0.3×, server: apt-install.0.3x.shzenlyer.com, port: 4646, type: ss, cipher: aes-256-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 香港 10, server: apt-install.as58466.com, port: 6411, type: ss, cipher: chacha20-ietf-poly1305, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 香港 02 2, server: ppmidyd.btlsmi.xyz, port: 9305, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 香港 10 2, server: ppmidyd.btlsmi.xyz, port: 9345, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: RUS 01, server: 4df3a7ab.vfzgvm.sbs, port: 12651, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 柬埔寨 01, server: apt-install.as58466.com, port: 9966, type: ss, cipher: chacha20-ietf-poly1305, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 香港 01 2, server: ppmidyd.btlsmi.xyz, port: 9300, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: POL 01, server: 4df3a7ab.vfzgvm.sbs, port: 12501, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: DNK 01, server: 4df3a7ab.vfzgvm.sbs, port: 12751, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 香港 07 2, server: yypqbht.qfbwcd.xyz, port: 9330, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 印度 01, server: apt-install.as58466.com, port: 6655, type: ss, cipher: aes-128-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: CAN 02, server: a1073588.wprydu.sbs, port: 12802, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 美国 01 2, server: underx.xpthnq.xyz, port: 9100, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: CAN 01, server: a1073588.wprydu.sbs, port: 12801, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 日本 01, server: apt-install.as58466.com, port: 2234, type: ss, cipher: aes-256-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: KOR 01, server: a1073588.wprydu.sbs, port: 12151, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 香港 11, server: ppmidyd.btlsmi.xyz, port: 9350, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 美国 05 2, server: underx.xpthnq.xyz, port: 9120, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 台湾 01, server: ppmidyd.btlsmi.xyz, port: 9355, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 美国 04 2, server: underx.xpthnq.xyz, port: 9115, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: ESP 01, server: 4df3a7ab.vfzgvm.sbs, port: 12601, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 日本 06, server: apt-install.as58466.com, port: 4455, type: ss, cipher: chacha20-ietf-poly1305, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: KOR 02, server: a1073588.wprydu.sbs, port: 12152, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 韩国 01, server: apt-install.as58466.com, port: 3366, type: ss, cipher: aes-256-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 美国 03, server: underx.xpthnq.xyz, port: 9110, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 美国 02 2, server: underx.xpthnq.xyz, port: 9105, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 日本 02, server: apt-install.as58466.com, port: 2236, type: ss, cipher: chacha20-ietf-poly1305, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: GBR 03, server: 4df3a7ab.vfzgvm.sbs, port: 12853, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: GBR 04, server: 4df3a7ab.vfzgvm.sbs, port: 12854, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 日本 08 2, server: apt-install.as58466.com, port: 9922, type: ss, cipher: aes-128-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 日本 0.3×, server: apt-install.0.3x.shzenlyer.com, port: 4651, type: ss, cipher: aes-256-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: NLD 03, server: 4df3a7ab.vfzgvm.sbs, port: 12553, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 美国 12, server: underx.xpthnq.xyz, port: 9155, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 美国 13, server: underx.xpthnq.xyz, port: 9160, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 香港 04, server: ppmidyd.btlsmi.xyz, port: 9315, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 台湾 05, server: ppmidyd.btlsmi.xyz, port: 9375, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 新加坡 02 2, server: apt-install.as58466.com, port: 2230, type: ss, cipher: aes-128-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: DEU 02, server: 4df3a7ab.vfzgvm.sbs, port: 12402, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: NLD 01, server: 4df3a7ab.vfzgvm.sbs, port: 12551, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: GBR 01, server: 4df3a7ab.vfzgvm.sbs, port: 12851, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: DEU 01, server: 4df3a7ab.vfzgvm.sbs, port: 12401, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: DEU 03, server: 4df3a7ab.vfzgvm.sbs, port: 12403, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: DEU 06, server: 4df3a7ab.vfzgvm.sbs, port: 12406, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 日本 07 2, server: apt-install.as58466.com, port: 9911, type: ss, cipher: chacha20-ietf-poly1305, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: FRA 01, server: 4df3a7ab.vfzgvm.sbs, port: 12451, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: USA 13, server: a1073588.wprydu.sbs, port: 12263, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: DEU 05, server: 4df3a7ab.vfzgvm.sbs, port: 12405, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: USA 02, server: a1073588.wprydu.sbs, port: 12252, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: USA 01, server: a1073588.wprydu.sbs, port: 12251, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: USA 04, server: a1073588.wprydu.sbs, port: 12254, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: USA 07, server: a1073588.wprydu.sbs, port: 12257, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 美国 06 2, server: ootkekb.jkwskh.xyz, port: 9125, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: USA 16, server: a1073588.wprydu.sbs, port: 12266, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: USA 03, server: a1073588.wprydu.sbs, port: 12253, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: USA 09, server: a1073588.wprydu.sbs, port: 12259, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: USA 05, server: a1073588.wprydu.sbs, port: 12255, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 美国 09, server: ootkekb.jkwskh.xyz, port: 9140, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 台湾 02, server: ppmidyd.btlsmi.xyz, port: 9360, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 台湾 04, server: yypqbht.qfbwcd.xyz, port: 9370, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 美国 10, server: ootkekb.jkwskh.xyz, port: 9145, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 美国 07 2, server: ootkekb.jkwskh.xyz, port: 9130, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 日本 03, server: apt-install.as58466.com, port: 2238, type: ss, cipher: chacha20-ietf-poly1305, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: USA 06, server: a1073588.wprydu.sbs, port: 12256, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: USA 08, server: a1073588.wprydu.sbs, port: 12258, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 美国 08 2, server: ootkekb.jkwskh.xyz, port: 9135, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: USA 10, server: a1073588.wprydu.sbs, port: 12260, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: USA 11, server: a1073588.wprydu.sbs, port: 12261, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: USA 14, server: a1073588.wprydu.sbs, port: 12264, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: USA 15, server: a1073588.wprydu.sbs, port: 12265, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 美国 11, server: ootkekb.jkwskh.xyz, port: 9150, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: USA 12, server: a1073588.wprydu.sbs, port: 12262, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 德国 01, server: apt-install.as58466.com, port: 3344, type: ss, cipher: aes-256-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 日本 04, server: apt-install.as58466.com, port: 3340, type: ss, cipher: chacha20-ietf-poly1305, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: AUS 01, server: 4df3a7ab.vfzgvm.sbs, port: 12351, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 新加坡 08, server: apt-install.as58466.com, port: 6644, type: ss, cipher: aes-128-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 台湾 02 2, server: apt-install.as58466.com, port: 3320, type: ss, cipher: aes-128-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 台湾 01 2, server: apt-install.as58466.com, port: 2246, type: ss, cipher: aes-256-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 台湾 03 2, server: apt-install.as58466.com, port: 3399, type: ss, cipher: chacha20-ietf-poly1305, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: 新加坡 0.3×, server: apt-install.0.3x.shzenlyer.com, port: 4649, type: ss, cipher: aes-256-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: JPN 01, server: a1073588.wprydu.sbs, port: 12201, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: JPN 02, server: a1073588.wprydu.sbs, port: 12202, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 日本 02 2, server: underx.xpthnq.xyz, port: 9005, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: VNM 01, server: 4df3a7ab.vfzgvm.sbs, port: 12906, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 日本 04 2, server: underx.xpthnq.xyz, port: 9015, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 日本 03 2, server: underx.xpthnq.xyz, port: 9010, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 日本 01 2, server: underx.xpthnq.xyz, port: 9002, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: 香港 04 2, server: apt-install.as58466.com, port: 3388, type: ss, cipher: aes-256-gcm, password: 8f334740-ffe0-4785-97dd-1a60faa9fc2b, udp: true}
+  - {name: RUS 02, server: 4df3a7ab.vfzgvm.sbs, port: 12652, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: JPN 09, server: a1073588.wprydu.sbs, port: 12209, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: JPN 12, server: a1073588.wprydu.sbs, port: 12212, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: JPN 03, server: a1073588.wprydu.sbs, port: 12203, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: JPN 13, server: a1073588.wprydu.sbs, port: 12213, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: THA 01, server: 4df3a7ab.vfzgvm.sbs, port: 12902, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: IND 02, server: 4df3a7ab.vfzgvm.sbs, port: 12302, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: JPN 16, server: a1073588.wprydu.sbs, port: 12216, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: JPN 06, server: a1073588.wprydu.sbs, port: 12206, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: JPN 07, server: a1073588.wprydu.sbs, port: 12207, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: JPN 04, server: a1073588.wprydu.sbs, port: 12204, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: JPN 05, server: a1073588.wprydu.sbs, port: 12205, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: JPN 08, server: a1073588.wprydu.sbs, port: 12208, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: JPN 10, server: a1073588.wprydu.sbs, port: 12210, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: JPN 17, server: a1073588.wprydu.sbs, port: 12217, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: NLD 02, server: 4df3a7ab.vfzgvm.sbs, port: 12552, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: JPN 15, server: a1073588.wprydu.sbs, port: 12215, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: 日本 06 2, server: ootkekb.jkwskh.xyz, port: 9025, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 34247-wmZd2x71Y3.download.microsoft.com}, udp: true}
+  - {name: JPN 14, server: a1073588.wprydu.sbs, port: 12214, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
+  - {name: JPN 18, server: a1073588.wprydu.sbs, port: 12218, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: qYKWqVBRkl.download.windowsupdate.com}, udp: true}
   - {name: 台湾|04奈飞香港AZ中转, server: azhk2.170809.xyz, port: 26991, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
   - {name: 新加坡|02|DO1G带宽, server: sgmax02.170809.xyz, port: 444, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: sgmax02.170809.xyz, skip-cert-verify: true, udp: true}
   - {name: 印度|02|LIN(Trojan), server: in02.170809.xyz, port: 443, type: trojan, password: 731c279f-99d1-403b-a6d2-ac582932af0d, sni: in02.170809.xyz, skip-cert-verify: true, udp: true}
@@ -75,6 +274,205 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 越南 01
+      - HKG 15
+      - 日本 05
+      - JPN 11
+      - 日本 07
+      - 日本 08
+      - SGP 01
+      - SGP 15
+      - SGP 02
+      - SGP 03
+      - SGP 06
+      - SGP 08
+      - SGP 09
+      - SGP 12
+      - SGP 13
+      - 香港 05
+      - SGP 04
+      - SGP 07
+      - SGP 10
+      - IDN 01
+      - SGP 11
+      - SGP 14
+      - 美国 07
+      - SGP 05
+      - HKG 06
+      - IND 01
+      - 香港 09
+      - 新加坡 03
+      - 香港 01
+      - SGP 18
+      - 香港 07
+      - HKG 10
+      - HKG 14
+      - 香港 06
+      - HKG 20
+      - 香港 08
+      - 南非 01
+      - HKG 01
+      - 香港 02
+      - HKG 05
+      - HKG 02
+      - HKG 04
+      - PHL 01
+      - 新加坡 01
+      - 新加坡 04
+      - HKG 03
+      - HKG 13
+      - HKG 07
+      - HKG 17
+      - HKG 19
+      - SGP 16
+      - 新加坡 02
+      - 香港 03
+      - HKG 11
+      - TWN 05
+      - 俄罗斯 01
+      - HKG 08
+      - HKG 09
+      - TWN 03
+      - HKG 18
+      - TWN 04
+      - 新加坡 03 2
+      - HKG 16
+      - SGP 17
+      - 乌克兰 01
+      - TWN 02
+      - 新加坡 05
+      - 荷兰 01
+      - 法国 01
+      - 香港 03 2
+      - GBR 02
+      - 美国 01
+      - DEU 04
+      - 美国 05
+      - 美国 02
+      - 美国 04
+      - 新加坡 06
+      - 香港 08 2
+      - 美国 08
+      - 新加坡 07
+      - 香港 09 2
+      - 美国 06
+      - ISL 01
+      - 台湾 03
+      - TUR 01
+      - TUR 02
+      - 新加坡 04 2
+      - 澳大利亚 01
+      - 印度尼西亚 01
+      - 香港 05 2
+      - 香港 06 2
+      - TWN 01
+      - 香港 0.3×
+      - 香港 10
+      - 香港 02 2
+      - 香港 10 2
+      - RUS 01
+      - 柬埔寨 01
+      - 香港 01 2
+      - POL 01
+      - DNK 01
+      - 香港 07 2
+      - 印度 01
+      - CAN 02
+      - 美国 01 2
+      - CAN 01
+      - 日本 01
+      - KOR 01
+      - 香港 11
+      - 美国 05 2
+      - 台湾 01
+      - 美国 04 2
+      - ESP 01
+      - 日本 06
+      - KOR 02
+      - 韩国 01
+      - 美国 03
+      - 美国 02 2
+      - 日本 02
+      - GBR 03
+      - GBR 04
+      - 日本 08 2
+      - 日本 0.3×
+      - NLD 03
+      - 美国 12
+      - 美国 13
+      - 香港 04
+      - 台湾 05
+      - 新加坡 02 2
+      - DEU 02
+      - NLD 01
+      - GBR 01
+      - DEU 01
+      - DEU 03
+      - DEU 06
+      - 日本 07 2
+      - FRA 01
+      - USA 13
+      - DEU 05
+      - USA 02
+      - USA 01
+      - USA 04
+      - USA 07
+      - 美国 06 2
+      - USA 16
+      - USA 03
+      - USA 09
+      - USA 05
+      - 美国 09
+      - 台湾 02
+      - 台湾 04
+      - 美国 10
+      - 美国 07 2
+      - 日本 03
+      - USA 06
+      - USA 08
+      - 美国 08 2
+      - USA 10
+      - USA 11
+      - USA 14
+      - USA 15
+      - 美国 11
+      - USA 12
+      - 德国 01
+      - 日本 04
+      - AUS 01
+      - 新加坡 08
+      - 台湾 02 2
+      - 台湾 01 2
+      - 台湾 03 2
+      - 新加坡 0.3×
+      - JPN 01
+      - JPN 02
+      - 日本 02 2
+      - VNM 01
+      - 日本 04 2
+      - 日本 03 2
+      - 日本 01 2
+      - 香港 04 2
+      - RUS 02
+      - JPN 09
+      - JPN 12
+      - JPN 03
+      - JPN 13
+      - THA 01
+      - IND 02
+      - JPN 16
+      - JPN 06
+      - JPN 07
+      - JPN 04
+      - JPN 05
+      - JPN 08
+      - JPN 10
+      - JPN 17
+      - NLD 02
+      - JPN 15
+      - 日本 06 2
+      - JPN 14
+      - JPN 18
       - 台湾|04奈飞香港AZ中转
       - 新加坡|02|DO1G带宽
       - 印度|02|LIN(Trojan)
@@ -144,6 +542,205 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 越南 01
+      - HKG 15
+      - 日本 05
+      - JPN 11
+      - 日本 07
+      - 日本 08
+      - SGP 01
+      - SGP 15
+      - SGP 02
+      - SGP 03
+      - SGP 06
+      - SGP 08
+      - SGP 09
+      - SGP 12
+      - SGP 13
+      - 香港 05
+      - SGP 04
+      - SGP 07
+      - SGP 10
+      - IDN 01
+      - SGP 11
+      - SGP 14
+      - 美国 07
+      - SGP 05
+      - HKG 06
+      - IND 01
+      - 香港 09
+      - 新加坡 03
+      - 香港 01
+      - SGP 18
+      - 香港 07
+      - HKG 10
+      - HKG 14
+      - 香港 06
+      - HKG 20
+      - 香港 08
+      - 南非 01
+      - HKG 01
+      - 香港 02
+      - HKG 05
+      - HKG 02
+      - HKG 04
+      - PHL 01
+      - 新加坡 01
+      - 新加坡 04
+      - HKG 03
+      - HKG 13
+      - HKG 07
+      - HKG 17
+      - HKG 19
+      - SGP 16
+      - 新加坡 02
+      - 香港 03
+      - HKG 11
+      - TWN 05
+      - 俄罗斯 01
+      - HKG 08
+      - HKG 09
+      - TWN 03
+      - HKG 18
+      - TWN 04
+      - 新加坡 03 2
+      - HKG 16
+      - SGP 17
+      - 乌克兰 01
+      - TWN 02
+      - 新加坡 05
+      - 荷兰 01
+      - 法国 01
+      - 香港 03 2
+      - GBR 02
+      - 美国 01
+      - DEU 04
+      - 美国 05
+      - 美国 02
+      - 美国 04
+      - 新加坡 06
+      - 香港 08 2
+      - 美国 08
+      - 新加坡 07
+      - 香港 09 2
+      - 美国 06
+      - ISL 01
+      - 台湾 03
+      - TUR 01
+      - TUR 02
+      - 新加坡 04 2
+      - 澳大利亚 01
+      - 印度尼西亚 01
+      - 香港 05 2
+      - 香港 06 2
+      - TWN 01
+      - 香港 0.3×
+      - 香港 10
+      - 香港 02 2
+      - 香港 10 2
+      - RUS 01
+      - 柬埔寨 01
+      - 香港 01 2
+      - POL 01
+      - DNK 01
+      - 香港 07 2
+      - 印度 01
+      - CAN 02
+      - 美国 01 2
+      - CAN 01
+      - 日本 01
+      - KOR 01
+      - 香港 11
+      - 美国 05 2
+      - 台湾 01
+      - 美国 04 2
+      - ESP 01
+      - 日本 06
+      - KOR 02
+      - 韩国 01
+      - 美国 03
+      - 美国 02 2
+      - 日本 02
+      - GBR 03
+      - GBR 04
+      - 日本 08 2
+      - 日本 0.3×
+      - NLD 03
+      - 美国 12
+      - 美国 13
+      - 香港 04
+      - 台湾 05
+      - 新加坡 02 2
+      - DEU 02
+      - NLD 01
+      - GBR 01
+      - DEU 01
+      - DEU 03
+      - DEU 06
+      - 日本 07 2
+      - FRA 01
+      - USA 13
+      - DEU 05
+      - USA 02
+      - USA 01
+      - USA 04
+      - USA 07
+      - 美国 06 2
+      - USA 16
+      - USA 03
+      - USA 09
+      - USA 05
+      - 美国 09
+      - 台湾 02
+      - 台湾 04
+      - 美国 10
+      - 美国 07 2
+      - 日本 03
+      - USA 06
+      - USA 08
+      - 美国 08 2
+      - USA 10
+      - USA 11
+      - USA 14
+      - USA 15
+      - 美国 11
+      - USA 12
+      - 德国 01
+      - 日本 04
+      - AUS 01
+      - 新加坡 08
+      - 台湾 02 2
+      - 台湾 01 2
+      - 台湾 03 2
+      - 新加坡 0.3×
+      - JPN 01
+      - JPN 02
+      - 日本 02 2
+      - VNM 01
+      - 日本 04 2
+      - 日本 03 2
+      - 日本 01 2
+      - 香港 04 2
+      - RUS 02
+      - JPN 09
+      - JPN 12
+      - JPN 03
+      - JPN 13
+      - THA 01
+      - IND 02
+      - JPN 16
+      - JPN 06
+      - JPN 07
+      - JPN 04
+      - JPN 05
+      - JPN 08
+      - JPN 10
+      - JPN 17
+      - NLD 02
+      - JPN 15
+      - 日本 06 2
+      - JPN 14
+      - JPN 18
       - 台湾|04奈飞香港AZ中转
       - 新加坡|02|DO1G带宽
       - 印度|02|LIN(Trojan)
@@ -214,6 +811,205 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 越南 01
+      - HKG 15
+      - 日本 05
+      - JPN 11
+      - 日本 07
+      - 日本 08
+      - SGP 01
+      - SGP 15
+      - SGP 02
+      - SGP 03
+      - SGP 06
+      - SGP 08
+      - SGP 09
+      - SGP 12
+      - SGP 13
+      - 香港 05
+      - SGP 04
+      - SGP 07
+      - SGP 10
+      - IDN 01
+      - SGP 11
+      - SGP 14
+      - 美国 07
+      - SGP 05
+      - HKG 06
+      - IND 01
+      - 香港 09
+      - 新加坡 03
+      - 香港 01
+      - SGP 18
+      - 香港 07
+      - HKG 10
+      - HKG 14
+      - 香港 06
+      - HKG 20
+      - 香港 08
+      - 南非 01
+      - HKG 01
+      - 香港 02
+      - HKG 05
+      - HKG 02
+      - HKG 04
+      - PHL 01
+      - 新加坡 01
+      - 新加坡 04
+      - HKG 03
+      - HKG 13
+      - HKG 07
+      - HKG 17
+      - HKG 19
+      - SGP 16
+      - 新加坡 02
+      - 香港 03
+      - HKG 11
+      - TWN 05
+      - 俄罗斯 01
+      - HKG 08
+      - HKG 09
+      - TWN 03
+      - HKG 18
+      - TWN 04
+      - 新加坡 03 2
+      - HKG 16
+      - SGP 17
+      - 乌克兰 01
+      - TWN 02
+      - 新加坡 05
+      - 荷兰 01
+      - 法国 01
+      - 香港 03 2
+      - GBR 02
+      - 美国 01
+      - DEU 04
+      - 美国 05
+      - 美国 02
+      - 美国 04
+      - 新加坡 06
+      - 香港 08 2
+      - 美国 08
+      - 新加坡 07
+      - 香港 09 2
+      - 美国 06
+      - ISL 01
+      - 台湾 03
+      - TUR 01
+      - TUR 02
+      - 新加坡 04 2
+      - 澳大利亚 01
+      - 印度尼西亚 01
+      - 香港 05 2
+      - 香港 06 2
+      - TWN 01
+      - 香港 0.3×
+      - 香港 10
+      - 香港 02 2
+      - 香港 10 2
+      - RUS 01
+      - 柬埔寨 01
+      - 香港 01 2
+      - POL 01
+      - DNK 01
+      - 香港 07 2
+      - 印度 01
+      - CAN 02
+      - 美国 01 2
+      - CAN 01
+      - 日本 01
+      - KOR 01
+      - 香港 11
+      - 美国 05 2
+      - 台湾 01
+      - 美国 04 2
+      - ESP 01
+      - 日本 06
+      - KOR 02
+      - 韩国 01
+      - 美国 03
+      - 美国 02 2
+      - 日本 02
+      - GBR 03
+      - GBR 04
+      - 日本 08 2
+      - 日本 0.3×
+      - NLD 03
+      - 美国 12
+      - 美国 13
+      - 香港 04
+      - 台湾 05
+      - 新加坡 02 2
+      - DEU 02
+      - NLD 01
+      - GBR 01
+      - DEU 01
+      - DEU 03
+      - DEU 06
+      - 日本 07 2
+      - FRA 01
+      - USA 13
+      - DEU 05
+      - USA 02
+      - USA 01
+      - USA 04
+      - USA 07
+      - 美国 06 2
+      - USA 16
+      - USA 03
+      - USA 09
+      - USA 05
+      - 美国 09
+      - 台湾 02
+      - 台湾 04
+      - 美国 10
+      - 美国 07 2
+      - 日本 03
+      - USA 06
+      - USA 08
+      - 美国 08 2
+      - USA 10
+      - USA 11
+      - USA 14
+      - USA 15
+      - 美国 11
+      - USA 12
+      - 德国 01
+      - 日本 04
+      - AUS 01
+      - 新加坡 08
+      - 台湾 02 2
+      - 台湾 01 2
+      - 台湾 03 2
+      - 新加坡 0.3×
+      - JPN 01
+      - JPN 02
+      - 日本 02 2
+      - VNM 01
+      - 日本 04 2
+      - 日本 03 2
+      - 日本 01 2
+      - 香港 04 2
+      - RUS 02
+      - JPN 09
+      - JPN 12
+      - JPN 03
+      - JPN 13
+      - THA 01
+      - IND 02
+      - JPN 16
+      - JPN 06
+      - JPN 07
+      - JPN 04
+      - JPN 05
+      - JPN 08
+      - JPN 10
+      - JPN 17
+      - NLD 02
+      - JPN 15
+      - 日本 06 2
+      - JPN 14
+      - JPN 18
       - 台湾|04奈飞香港AZ中转
       - 新加坡|02|DO1G带宽
       - 印度|02|LIN(Trojan)
@@ -296,6 +1092,205 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 越南 01
+      - HKG 15
+      - 日本 05
+      - JPN 11
+      - 日本 07
+      - 日本 08
+      - SGP 01
+      - SGP 15
+      - SGP 02
+      - SGP 03
+      - SGP 06
+      - SGP 08
+      - SGP 09
+      - SGP 12
+      - SGP 13
+      - 香港 05
+      - SGP 04
+      - SGP 07
+      - SGP 10
+      - IDN 01
+      - SGP 11
+      - SGP 14
+      - 美国 07
+      - SGP 05
+      - HKG 06
+      - IND 01
+      - 香港 09
+      - 新加坡 03
+      - 香港 01
+      - SGP 18
+      - 香港 07
+      - HKG 10
+      - HKG 14
+      - 香港 06
+      - HKG 20
+      - 香港 08
+      - 南非 01
+      - HKG 01
+      - 香港 02
+      - HKG 05
+      - HKG 02
+      - HKG 04
+      - PHL 01
+      - 新加坡 01
+      - 新加坡 04
+      - HKG 03
+      - HKG 13
+      - HKG 07
+      - HKG 17
+      - HKG 19
+      - SGP 16
+      - 新加坡 02
+      - 香港 03
+      - HKG 11
+      - TWN 05
+      - 俄罗斯 01
+      - HKG 08
+      - HKG 09
+      - TWN 03
+      - HKG 18
+      - TWN 04
+      - 新加坡 03 2
+      - HKG 16
+      - SGP 17
+      - 乌克兰 01
+      - TWN 02
+      - 新加坡 05
+      - 荷兰 01
+      - 法国 01
+      - 香港 03 2
+      - GBR 02
+      - 美国 01
+      - DEU 04
+      - 美国 05
+      - 美国 02
+      - 美国 04
+      - 新加坡 06
+      - 香港 08 2
+      - 美国 08
+      - 新加坡 07
+      - 香港 09 2
+      - 美国 06
+      - ISL 01
+      - 台湾 03
+      - TUR 01
+      - TUR 02
+      - 新加坡 04 2
+      - 澳大利亚 01
+      - 印度尼西亚 01
+      - 香港 05 2
+      - 香港 06 2
+      - TWN 01
+      - 香港 0.3×
+      - 香港 10
+      - 香港 02 2
+      - 香港 10 2
+      - RUS 01
+      - 柬埔寨 01
+      - 香港 01 2
+      - POL 01
+      - DNK 01
+      - 香港 07 2
+      - 印度 01
+      - CAN 02
+      - 美国 01 2
+      - CAN 01
+      - 日本 01
+      - KOR 01
+      - 香港 11
+      - 美国 05 2
+      - 台湾 01
+      - 美国 04 2
+      - ESP 01
+      - 日本 06
+      - KOR 02
+      - 韩国 01
+      - 美国 03
+      - 美国 02 2
+      - 日本 02
+      - GBR 03
+      - GBR 04
+      - 日本 08 2
+      - 日本 0.3×
+      - NLD 03
+      - 美国 12
+      - 美国 13
+      - 香港 04
+      - 台湾 05
+      - 新加坡 02 2
+      - DEU 02
+      - NLD 01
+      - GBR 01
+      - DEU 01
+      - DEU 03
+      - DEU 06
+      - 日本 07 2
+      - FRA 01
+      - USA 13
+      - DEU 05
+      - USA 02
+      - USA 01
+      - USA 04
+      - USA 07
+      - 美国 06 2
+      - USA 16
+      - USA 03
+      - USA 09
+      - USA 05
+      - 美国 09
+      - 台湾 02
+      - 台湾 04
+      - 美国 10
+      - 美国 07 2
+      - 日本 03
+      - USA 06
+      - USA 08
+      - 美国 08 2
+      - USA 10
+      - USA 11
+      - USA 14
+      - USA 15
+      - 美国 11
+      - USA 12
+      - 德国 01
+      - 日本 04
+      - AUS 01
+      - 新加坡 08
+      - 台湾 02 2
+      - 台湾 01 2
+      - 台湾 03 2
+      - 新加坡 0.3×
+      - JPN 01
+      - JPN 02
+      - 日本 02 2
+      - VNM 01
+      - 日本 04 2
+      - 日本 03 2
+      - 日本 01 2
+      - 香港 04 2
+      - RUS 02
+      - JPN 09
+      - JPN 12
+      - JPN 03
+      - JPN 13
+      - THA 01
+      - IND 02
+      - JPN 16
+      - JPN 06
+      - JPN 07
+      - JPN 04
+      - JPN 05
+      - JPN 08
+      - JPN 10
+      - JPN 17
+      - NLD 02
+      - JPN 15
+      - 日本 06 2
+      - JPN 14
+      - JPN 18
       - 台湾|04奈飞香港AZ中转
       - 新加坡|02|DO1G带宽
       - 印度|02|LIN(Trojan)
@@ -364,6 +1359,36 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港 05
+      - 香港 09
+      - 香港 01
+      - 香港 07
+      - 香港 06
+      - 香港 08
+      - 香港 02
+      - 香港 03
+      - 香港 03 2
+      - 香港 08 2
+      - 香港 09 2
+      - 台湾 03
+      - 香港 05 2
+      - 香港 06 2
+      - 香港 0.3×
+      - 香港 10
+      - 香港 02 2
+      - 香港 10 2
+      - 香港 01 2
+      - 香港 07 2
+      - 香港 11
+      - 台湾 01
+      - 香港 04
+      - 台湾 05
+      - 台湾 02
+      - 台湾 04
+      - 台湾 02 2
+      - 台湾 01 2
+      - 台湾 03 2
+      - 香港 04 2
       - 台湾|04奈飞香港AZ中转
       - 香港|17AZ中转
       - 香港|21AZ中转
@@ -409,6 +1434,205 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 越南 01
+      - HKG 15
+      - 日本 05
+      - JPN 11
+      - 日本 07
+      - 日本 08
+      - SGP 01
+      - SGP 15
+      - SGP 02
+      - SGP 03
+      - SGP 06
+      - SGP 08
+      - SGP 09
+      - SGP 12
+      - SGP 13
+      - 香港 05
+      - SGP 04
+      - SGP 07
+      - SGP 10
+      - IDN 01
+      - SGP 11
+      - SGP 14
+      - 美国 07
+      - SGP 05
+      - HKG 06
+      - IND 01
+      - 香港 09
+      - 新加坡 03
+      - 香港 01
+      - SGP 18
+      - 香港 07
+      - HKG 10
+      - HKG 14
+      - 香港 06
+      - HKG 20
+      - 香港 08
+      - 南非 01
+      - HKG 01
+      - 香港 02
+      - HKG 05
+      - HKG 02
+      - HKG 04
+      - PHL 01
+      - 新加坡 01
+      - 新加坡 04
+      - HKG 03
+      - HKG 13
+      - HKG 07
+      - HKG 17
+      - HKG 19
+      - SGP 16
+      - 新加坡 02
+      - 香港 03
+      - HKG 11
+      - TWN 05
+      - 俄罗斯 01
+      - HKG 08
+      - HKG 09
+      - TWN 03
+      - HKG 18
+      - TWN 04
+      - 新加坡 03 2
+      - HKG 16
+      - SGP 17
+      - 乌克兰 01
+      - TWN 02
+      - 新加坡 05
+      - 荷兰 01
+      - 法国 01
+      - 香港 03 2
+      - GBR 02
+      - 美国 01
+      - DEU 04
+      - 美国 05
+      - 美国 02
+      - 美国 04
+      - 新加坡 06
+      - 香港 08 2
+      - 美国 08
+      - 新加坡 07
+      - 香港 09 2
+      - 美国 06
+      - ISL 01
+      - 台湾 03
+      - TUR 01
+      - TUR 02
+      - 新加坡 04 2
+      - 澳大利亚 01
+      - 印度尼西亚 01
+      - 香港 05 2
+      - 香港 06 2
+      - TWN 01
+      - 香港 0.3×
+      - 香港 10
+      - 香港 02 2
+      - 香港 10 2
+      - RUS 01
+      - 柬埔寨 01
+      - 香港 01 2
+      - POL 01
+      - DNK 01
+      - 香港 07 2
+      - 印度 01
+      - CAN 02
+      - 美国 01 2
+      - CAN 01
+      - 日本 01
+      - KOR 01
+      - 香港 11
+      - 美国 05 2
+      - 台湾 01
+      - 美国 04 2
+      - ESP 01
+      - 日本 06
+      - KOR 02
+      - 韩国 01
+      - 美国 03
+      - 美国 02 2
+      - 日本 02
+      - GBR 03
+      - GBR 04
+      - 日本 08 2
+      - 日本 0.3×
+      - NLD 03
+      - 美国 12
+      - 美国 13
+      - 香港 04
+      - 台湾 05
+      - 新加坡 02 2
+      - DEU 02
+      - NLD 01
+      - GBR 01
+      - DEU 01
+      - DEU 03
+      - DEU 06
+      - 日本 07 2
+      - FRA 01
+      - USA 13
+      - DEU 05
+      - USA 02
+      - USA 01
+      - USA 04
+      - USA 07
+      - 美国 06 2
+      - USA 16
+      - USA 03
+      - USA 09
+      - USA 05
+      - 美国 09
+      - 台湾 02
+      - 台湾 04
+      - 美国 10
+      - 美国 07 2
+      - 日本 03
+      - USA 06
+      - USA 08
+      - 美国 08 2
+      - USA 10
+      - USA 11
+      - USA 14
+      - USA 15
+      - 美国 11
+      - USA 12
+      - 德国 01
+      - 日本 04
+      - AUS 01
+      - 新加坡 08
+      - 台湾 02 2
+      - 台湾 01 2
+      - 台湾 03 2
+      - 新加坡 0.3×
+      - JPN 01
+      - JPN 02
+      - 日本 02 2
+      - VNM 01
+      - 日本 04 2
+      - 日本 03 2
+      - 日本 01 2
+      - 香港 04 2
+      - RUS 02
+      - JPN 09
+      - JPN 12
+      - JPN 03
+      - JPN 13
+      - THA 01
+      - IND 02
+      - JPN 16
+      - JPN 06
+      - JPN 07
+      - JPN 04
+      - JPN 05
+      - JPN 08
+      - JPN 10
+      - JPN 17
+      - NLD 02
+      - JPN 15
+      - 日本 06 2
+      - JPN 14
+      - JPN 18
       - 台湾|04奈飞香港AZ中转
       - 新加坡|02|DO1G带宽
       - 印度|02|LIN(Trojan)
@@ -478,6 +1702,205 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 越南 01
+      - HKG 15
+      - 日本 05
+      - JPN 11
+      - 日本 07
+      - 日本 08
+      - SGP 01
+      - SGP 15
+      - SGP 02
+      - SGP 03
+      - SGP 06
+      - SGP 08
+      - SGP 09
+      - SGP 12
+      - SGP 13
+      - 香港 05
+      - SGP 04
+      - SGP 07
+      - SGP 10
+      - IDN 01
+      - SGP 11
+      - SGP 14
+      - 美国 07
+      - SGP 05
+      - HKG 06
+      - IND 01
+      - 香港 09
+      - 新加坡 03
+      - 香港 01
+      - SGP 18
+      - 香港 07
+      - HKG 10
+      - HKG 14
+      - 香港 06
+      - HKG 20
+      - 香港 08
+      - 南非 01
+      - HKG 01
+      - 香港 02
+      - HKG 05
+      - HKG 02
+      - HKG 04
+      - PHL 01
+      - 新加坡 01
+      - 新加坡 04
+      - HKG 03
+      - HKG 13
+      - HKG 07
+      - HKG 17
+      - HKG 19
+      - SGP 16
+      - 新加坡 02
+      - 香港 03
+      - HKG 11
+      - TWN 05
+      - 俄罗斯 01
+      - HKG 08
+      - HKG 09
+      - TWN 03
+      - HKG 18
+      - TWN 04
+      - 新加坡 03 2
+      - HKG 16
+      - SGP 17
+      - 乌克兰 01
+      - TWN 02
+      - 新加坡 05
+      - 荷兰 01
+      - 法国 01
+      - 香港 03 2
+      - GBR 02
+      - 美国 01
+      - DEU 04
+      - 美国 05
+      - 美国 02
+      - 美国 04
+      - 新加坡 06
+      - 香港 08 2
+      - 美国 08
+      - 新加坡 07
+      - 香港 09 2
+      - 美国 06
+      - ISL 01
+      - 台湾 03
+      - TUR 01
+      - TUR 02
+      - 新加坡 04 2
+      - 澳大利亚 01
+      - 印度尼西亚 01
+      - 香港 05 2
+      - 香港 06 2
+      - TWN 01
+      - 香港 0.3×
+      - 香港 10
+      - 香港 02 2
+      - 香港 10 2
+      - RUS 01
+      - 柬埔寨 01
+      - 香港 01 2
+      - POL 01
+      - DNK 01
+      - 香港 07 2
+      - 印度 01
+      - CAN 02
+      - 美国 01 2
+      - CAN 01
+      - 日本 01
+      - KOR 01
+      - 香港 11
+      - 美国 05 2
+      - 台湾 01
+      - 美国 04 2
+      - ESP 01
+      - 日本 06
+      - KOR 02
+      - 韩国 01
+      - 美国 03
+      - 美国 02 2
+      - 日本 02
+      - GBR 03
+      - GBR 04
+      - 日本 08 2
+      - 日本 0.3×
+      - NLD 03
+      - 美国 12
+      - 美国 13
+      - 香港 04
+      - 台湾 05
+      - 新加坡 02 2
+      - DEU 02
+      - NLD 01
+      - GBR 01
+      - DEU 01
+      - DEU 03
+      - DEU 06
+      - 日本 07 2
+      - FRA 01
+      - USA 13
+      - DEU 05
+      - USA 02
+      - USA 01
+      - USA 04
+      - USA 07
+      - 美国 06 2
+      - USA 16
+      - USA 03
+      - USA 09
+      - USA 05
+      - 美国 09
+      - 台湾 02
+      - 台湾 04
+      - 美国 10
+      - 美国 07 2
+      - 日本 03
+      - USA 06
+      - USA 08
+      - 美国 08 2
+      - USA 10
+      - USA 11
+      - USA 14
+      - USA 15
+      - 美国 11
+      - USA 12
+      - 德国 01
+      - 日本 04
+      - AUS 01
+      - 新加坡 08
+      - 台湾 02 2
+      - 台湾 01 2
+      - 台湾 03 2
+      - 新加坡 0.3×
+      - JPN 01
+      - JPN 02
+      - 日本 02 2
+      - VNM 01
+      - 日本 04 2
+      - 日本 03 2
+      - 日本 01 2
+      - 香港 04 2
+      - RUS 02
+      - JPN 09
+      - JPN 12
+      - JPN 03
+      - JPN 13
+      - THA 01
+      - IND 02
+      - JPN 16
+      - JPN 06
+      - JPN 07
+      - JPN 04
+      - JPN 05
+      - JPN 08
+      - JPN 10
+      - JPN 17
+      - NLD 02
+      - JPN 15
+      - 日本 06 2
+      - JPN 14
+      - JPN 18
       - 台湾|04奈飞香港AZ中转
       - 新加坡|02|DO1G带宽
       - 印度|02|LIN(Trojan)
@@ -548,6 +1971,205 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 越南 01
+      - HKG 15
+      - 日本 05
+      - JPN 11
+      - 日本 07
+      - 日本 08
+      - SGP 01
+      - SGP 15
+      - SGP 02
+      - SGP 03
+      - SGP 06
+      - SGP 08
+      - SGP 09
+      - SGP 12
+      - SGP 13
+      - 香港 05
+      - SGP 04
+      - SGP 07
+      - SGP 10
+      - IDN 01
+      - SGP 11
+      - SGP 14
+      - 美国 07
+      - SGP 05
+      - HKG 06
+      - IND 01
+      - 香港 09
+      - 新加坡 03
+      - 香港 01
+      - SGP 18
+      - 香港 07
+      - HKG 10
+      - HKG 14
+      - 香港 06
+      - HKG 20
+      - 香港 08
+      - 南非 01
+      - HKG 01
+      - 香港 02
+      - HKG 05
+      - HKG 02
+      - HKG 04
+      - PHL 01
+      - 新加坡 01
+      - 新加坡 04
+      - HKG 03
+      - HKG 13
+      - HKG 07
+      - HKG 17
+      - HKG 19
+      - SGP 16
+      - 新加坡 02
+      - 香港 03
+      - HKG 11
+      - TWN 05
+      - 俄罗斯 01
+      - HKG 08
+      - HKG 09
+      - TWN 03
+      - HKG 18
+      - TWN 04
+      - 新加坡 03 2
+      - HKG 16
+      - SGP 17
+      - 乌克兰 01
+      - TWN 02
+      - 新加坡 05
+      - 荷兰 01
+      - 法国 01
+      - 香港 03 2
+      - GBR 02
+      - 美国 01
+      - DEU 04
+      - 美国 05
+      - 美国 02
+      - 美国 04
+      - 新加坡 06
+      - 香港 08 2
+      - 美国 08
+      - 新加坡 07
+      - 香港 09 2
+      - 美国 06
+      - ISL 01
+      - 台湾 03
+      - TUR 01
+      - TUR 02
+      - 新加坡 04 2
+      - 澳大利亚 01
+      - 印度尼西亚 01
+      - 香港 05 2
+      - 香港 06 2
+      - TWN 01
+      - 香港 0.3×
+      - 香港 10
+      - 香港 02 2
+      - 香港 10 2
+      - RUS 01
+      - 柬埔寨 01
+      - 香港 01 2
+      - POL 01
+      - DNK 01
+      - 香港 07 2
+      - 印度 01
+      - CAN 02
+      - 美国 01 2
+      - CAN 01
+      - 日本 01
+      - KOR 01
+      - 香港 11
+      - 美国 05 2
+      - 台湾 01
+      - 美国 04 2
+      - ESP 01
+      - 日本 06
+      - KOR 02
+      - 韩国 01
+      - 美国 03
+      - 美国 02 2
+      - 日本 02
+      - GBR 03
+      - GBR 04
+      - 日本 08 2
+      - 日本 0.3×
+      - NLD 03
+      - 美国 12
+      - 美国 13
+      - 香港 04
+      - 台湾 05
+      - 新加坡 02 2
+      - DEU 02
+      - NLD 01
+      - GBR 01
+      - DEU 01
+      - DEU 03
+      - DEU 06
+      - 日本 07 2
+      - FRA 01
+      - USA 13
+      - DEU 05
+      - USA 02
+      - USA 01
+      - USA 04
+      - USA 07
+      - 美国 06 2
+      - USA 16
+      - USA 03
+      - USA 09
+      - USA 05
+      - 美国 09
+      - 台湾 02
+      - 台湾 04
+      - 美国 10
+      - 美国 07 2
+      - 日本 03
+      - USA 06
+      - USA 08
+      - 美国 08 2
+      - USA 10
+      - USA 11
+      - USA 14
+      - USA 15
+      - 美国 11
+      - USA 12
+      - 德国 01
+      - 日本 04
+      - AUS 01
+      - 新加坡 08
+      - 台湾 02 2
+      - 台湾 01 2
+      - 台湾 03 2
+      - 新加坡 0.3×
+      - JPN 01
+      - JPN 02
+      - 日本 02 2
+      - VNM 01
+      - 日本 04 2
+      - 日本 03 2
+      - 日本 01 2
+      - 香港 04 2
+      - RUS 02
+      - JPN 09
+      - JPN 12
+      - JPN 03
+      - JPN 13
+      - THA 01
+      - IND 02
+      - JPN 16
+      - JPN 06
+      - JPN 07
+      - JPN 04
+      - JPN 05
+      - JPN 08
+      - JPN 10
+      - JPN 17
+      - NLD 02
+      - JPN 15
+      - 日本 06 2
+      - JPN 14
+      - JPN 18
       - 台湾|04奈飞香港AZ中转
       - 新加坡|02|DO1G带宽
       - 印度|02|LIN(Trojan)
@@ -627,6 +2249,205 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 越南 01
+      - HKG 15
+      - 日本 05
+      - JPN 11
+      - 日本 07
+      - 日本 08
+      - SGP 01
+      - SGP 15
+      - SGP 02
+      - SGP 03
+      - SGP 06
+      - SGP 08
+      - SGP 09
+      - SGP 12
+      - SGP 13
+      - 香港 05
+      - SGP 04
+      - SGP 07
+      - SGP 10
+      - IDN 01
+      - SGP 11
+      - SGP 14
+      - 美国 07
+      - SGP 05
+      - HKG 06
+      - IND 01
+      - 香港 09
+      - 新加坡 03
+      - 香港 01
+      - SGP 18
+      - 香港 07
+      - HKG 10
+      - HKG 14
+      - 香港 06
+      - HKG 20
+      - 香港 08
+      - 南非 01
+      - HKG 01
+      - 香港 02
+      - HKG 05
+      - HKG 02
+      - HKG 04
+      - PHL 01
+      - 新加坡 01
+      - 新加坡 04
+      - HKG 03
+      - HKG 13
+      - HKG 07
+      - HKG 17
+      - HKG 19
+      - SGP 16
+      - 新加坡 02
+      - 香港 03
+      - HKG 11
+      - TWN 05
+      - 俄罗斯 01
+      - HKG 08
+      - HKG 09
+      - TWN 03
+      - HKG 18
+      - TWN 04
+      - 新加坡 03 2
+      - HKG 16
+      - SGP 17
+      - 乌克兰 01
+      - TWN 02
+      - 新加坡 05
+      - 荷兰 01
+      - 法国 01
+      - 香港 03 2
+      - GBR 02
+      - 美国 01
+      - DEU 04
+      - 美国 05
+      - 美国 02
+      - 美国 04
+      - 新加坡 06
+      - 香港 08 2
+      - 美国 08
+      - 新加坡 07
+      - 香港 09 2
+      - 美国 06
+      - ISL 01
+      - 台湾 03
+      - TUR 01
+      - TUR 02
+      - 新加坡 04 2
+      - 澳大利亚 01
+      - 印度尼西亚 01
+      - 香港 05 2
+      - 香港 06 2
+      - TWN 01
+      - 香港 0.3×
+      - 香港 10
+      - 香港 02 2
+      - 香港 10 2
+      - RUS 01
+      - 柬埔寨 01
+      - 香港 01 2
+      - POL 01
+      - DNK 01
+      - 香港 07 2
+      - 印度 01
+      - CAN 02
+      - 美国 01 2
+      - CAN 01
+      - 日本 01
+      - KOR 01
+      - 香港 11
+      - 美国 05 2
+      - 台湾 01
+      - 美国 04 2
+      - ESP 01
+      - 日本 06
+      - KOR 02
+      - 韩国 01
+      - 美国 03
+      - 美国 02 2
+      - 日本 02
+      - GBR 03
+      - GBR 04
+      - 日本 08 2
+      - 日本 0.3×
+      - NLD 03
+      - 美国 12
+      - 美国 13
+      - 香港 04
+      - 台湾 05
+      - 新加坡 02 2
+      - DEU 02
+      - NLD 01
+      - GBR 01
+      - DEU 01
+      - DEU 03
+      - DEU 06
+      - 日本 07 2
+      - FRA 01
+      - USA 13
+      - DEU 05
+      - USA 02
+      - USA 01
+      - USA 04
+      - USA 07
+      - 美国 06 2
+      - USA 16
+      - USA 03
+      - USA 09
+      - USA 05
+      - 美国 09
+      - 台湾 02
+      - 台湾 04
+      - 美国 10
+      - 美国 07 2
+      - 日本 03
+      - USA 06
+      - USA 08
+      - 美国 08 2
+      - USA 10
+      - USA 11
+      - USA 14
+      - USA 15
+      - 美国 11
+      - USA 12
+      - 德国 01
+      - 日本 04
+      - AUS 01
+      - 新加坡 08
+      - 台湾 02 2
+      - 台湾 01 2
+      - 台湾 03 2
+      - 新加坡 0.3×
+      - JPN 01
+      - JPN 02
+      - 日本 02 2
+      - VNM 01
+      - 日本 04 2
+      - 日本 03 2
+      - 日本 01 2
+      - 香港 04 2
+      - RUS 02
+      - JPN 09
+      - JPN 12
+      - JPN 03
+      - JPN 13
+      - THA 01
+      - IND 02
+      - JPN 16
+      - JPN 06
+      - JPN 07
+      - JPN 04
+      - JPN 05
+      - JPN 08
+      - JPN 10
+      - JPN 17
+      - NLD 02
+      - JPN 15
+      - 日本 06 2
+      - JPN 14
+      - JPN 18
       - 台湾|04奈飞香港AZ中转
       - 新加坡|02|DO1G带宽
       - 印度|02|LIN(Trojan)
