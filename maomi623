@@ -5,6 +5,35 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: HK3-BGP-HGC, server: cdn2.myuuusss.com, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
+  - {name: TW-BGP-HiNit-观影推荐线路, server: cdn2.myuuusss.com, port: 20011, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
+  - {name: HK4-IEPL-HGC-X2, server: cdn1.myuuusss.com, port: 32118, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn1.myuuusss.com}, udp: true}
+  - {name: HK3-IEPL-HGC-X2, server: cdn1.myuuusss.com, port: 30031, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
+  - {name: JP-BGP, server: cdn2.myuuusss.com, port: 20021, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
+  - {name: 备用|防止失联线路, server: back.myuuusss.com, port: 443, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: back.myuuusss.com}, udp: true}
+  - {name: NL(荷兰)-BGP, server: cdn2.myuuusss.com, port: 20098, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
+  - {name: 美国游戏专线-超高倍率X5, server: us-c1.myuuusss.com, port: 23223, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us-c1.myuuusss.com}, udp: true}
+  - {name: 台湾-1号 | 解锁流媒体, server: 165.154.243.208, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, skip-cert-verify: true, udp: true}
+  - {name: 台湾-2号 | 解锁流媒体, server: 165.154.253.34, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, skip-cert-verify: true, udp: true}
+  - {name: 台湾-3号 | 解锁流媒体, server: 165.154.253.49, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, skip-cert-verify: true, udp: true}
+  - {name: 台湾-广州移动负载均衡 | 解锁流媒体, server: gzyd1.xxcv.cc, port: 30170, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: 台湾-广州移动2负载均衡 | 解锁流媒体, server: gzyd2.xxcv.cc, port: 30170, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: 台湾-河南移动负载均衡 | 解锁流媒体, server: hnyd.xxcv.cc, port: 30170, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: 日本NTT-1号 | 解锁流媒体, server: 203.138.98.199, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, skip-cert-verify: true, udp: true}
+  - {name: 日本NTT-2号 | 解锁流媒体, server: 164.70.68.67, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, skip-cert-verify: true, udp: true}
+  - {name: 日本NTT-广州移动负载均衡 | 解锁流媒体, server: gzyd1.xxcv.cc, port: 30130, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: 日本NTT-广州移动2负载均衡 | 解锁流媒体, server: gzyd2.xxcv.cc, port: 30130, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: 日本NTT-河南移动负载均衡 | 解锁流媒体, server: hnyd.xxcv.cc, port: 30130, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: 越南-1号, server: 103.173.255.21, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, skip-cert-verify: true, udp: true}
+  - {name: 越南-2号, server: 103.173.255.127, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, skip-cert-verify: true, udp: true}
+  - {name: 越南-3号, server: 103.173.255.228, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, skip-cert-verify: true, udp: true}
+  - {name: 越南-4号, server: 103.173.255.234, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, skip-cert-verify: true, udp: true}
+  - {name: 越南 | 广州移动, server: gzyd1.xxcv.cc, port: 30120, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: 越南 | 广州移动2, server: gzyd2.xxcv.cc, port: 30120, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: 越南 | 河南移动, server: hnyd.xxcv.cc, port: 30120, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: 台湾Hinet-广移 | 解锁流媒体, server: gzyd1.xxcv.cc, port: 30010, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: 台湾Hinet-广移2 | 解锁流媒体, server: gzyd2.xxcv.cc, port: 30010, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: 台湾Hinet-河移 | 解锁流媒体, server: hnyd.xxcv.cc, port: 30010, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
   - {name: 新加坡|01|OC, server: sg01.170809.xyz, port: 444, type: trojan, password: bb41259f-8c06-4a6a-a02e-d6e8a5493b95, sni: sg01.170809.xyz, skip-cert-verify: true, udp: true}
   - {name: 马来西亚01【vip2】, server: gkdcm.myjcbbcn.top, port: 25900, type: vmess, uuid: 454424ed-6e55-4287-b299-727021214e98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.myjcbbcn.top}, udp: true}
   - {name: 马来西亚02【vip2】, server: gkdcm1.myjcbbcn.top, port: 25900, type: vmess, uuid: 454424ed-6e55-4287-b299-727021214e98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.myjcbbcn.top}, udp: true}
@@ -88,6 +117,35 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - HK3-BGP-HGC
+      - TW-BGP-HiNit-观影推荐线路
+      - HK4-IEPL-HGC-X2
+      - HK3-IEPL-HGC-X2
+      - JP-BGP
+      - 备用|防止失联线路
+      - NL(荷兰)-BGP
+      - 美国游戏专线-超高倍率X5
+      - 台湾-1号 | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 台湾-3号 | 解锁流媒体
+      - 台湾-广州移动负载均衡 | 解锁流媒体
+      - 台湾-广州移动2负载均衡 | 解锁流媒体
+      - 台湾-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-1号 | 解锁流媒体
+      - 日本NTT-2号 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 越南-1号
+      - 越南-2号
+      - 越南-3号
+      - 越南-4号
+      - 越南 | 广州移动
+      - 越南 | 广州移动2
+      - 越南 | 河南移动
+      - 台湾Hinet-广移 | 解锁流媒体
+      - 台湾Hinet-广移2 | 解锁流媒体
+      - 台湾Hinet-河移 | 解锁流媒体
       - 新加坡|01|OC
       - 马来西亚01【vip2】
       - 马来西亚02【vip2】
@@ -170,6 +228,35 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - HK3-BGP-HGC
+      - TW-BGP-HiNit-观影推荐线路
+      - HK4-IEPL-HGC-X2
+      - HK3-IEPL-HGC-X2
+      - JP-BGP
+      - 备用|防止失联线路
+      - NL(荷兰)-BGP
+      - 美国游戏专线-超高倍率X5
+      - 台湾-1号 | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 台湾-3号 | 解锁流媒体
+      - 台湾-广州移动负载均衡 | 解锁流媒体
+      - 台湾-广州移动2负载均衡 | 解锁流媒体
+      - 台湾-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-1号 | 解锁流媒体
+      - 日本NTT-2号 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 越南-1号
+      - 越南-2号
+      - 越南-3号
+      - 越南-4号
+      - 越南 | 广州移动
+      - 越南 | 广州移动2
+      - 越南 | 河南移动
+      - 台湾Hinet-广移 | 解锁流媒体
+      - 台湾Hinet-广移2 | 解锁流媒体
+      - 台湾Hinet-河移 | 解锁流媒体
       - 新加坡|01|OC
       - 马来西亚01【vip2】
       - 马来西亚02【vip2】
@@ -253,6 +340,35 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - HK3-BGP-HGC
+      - TW-BGP-HiNit-观影推荐线路
+      - HK4-IEPL-HGC-X2
+      - HK3-IEPL-HGC-X2
+      - JP-BGP
+      - 备用|防止失联线路
+      - NL(荷兰)-BGP
+      - 美国游戏专线-超高倍率X5
+      - 台湾-1号 | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 台湾-3号 | 解锁流媒体
+      - 台湾-广州移动负载均衡 | 解锁流媒体
+      - 台湾-广州移动2负载均衡 | 解锁流媒体
+      - 台湾-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-1号 | 解锁流媒体
+      - 日本NTT-2号 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 越南-1号
+      - 越南-2号
+      - 越南-3号
+      - 越南-4号
+      - 越南 | 广州移动
+      - 越南 | 广州移动2
+      - 越南 | 河南移动
+      - 台湾Hinet-广移 | 解锁流媒体
+      - 台湾Hinet-广移2 | 解锁流媒体
+      - 台湾Hinet-河移 | 解锁流媒体
       - 新加坡|01|OC
       - 马来西亚01【vip2】
       - 马来西亚02【vip2】
@@ -348,6 +464,35 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - HK3-BGP-HGC
+      - TW-BGP-HiNit-观影推荐线路
+      - HK4-IEPL-HGC-X2
+      - HK3-IEPL-HGC-X2
+      - JP-BGP
+      - 备用|防止失联线路
+      - NL(荷兰)-BGP
+      - 美国游戏专线-超高倍率X5
+      - 台湾-1号 | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 台湾-3号 | 解锁流媒体
+      - 台湾-广州移动负载均衡 | 解锁流媒体
+      - 台湾-广州移动2负载均衡 | 解锁流媒体
+      - 台湾-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-1号 | 解锁流媒体
+      - 日本NTT-2号 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 越南-1号
+      - 越南-2号
+      - 越南-3号
+      - 越南-4号
+      - 越南 | 广州移动
+      - 越南 | 广州移动2
+      - 越南 | 河南移动
+      - 台湾Hinet-广移 | 解锁流媒体
+      - 台湾Hinet-广移2 | 解锁流媒体
+      - 台湾Hinet-河移 | 解锁流媒体
       - 新加坡|01|OC
       - 马来西亚01【vip2】
       - 马来西亚02【vip2】
@@ -429,6 +574,18 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - HK3-BGP-HGC
+      - HK4-IEPL-HGC-X2
+      - HK3-IEPL-HGC-X2
+      - 台湾-1号 | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 台湾-3号 | 解锁流媒体
+      - 台湾-广州移动负载均衡 | 解锁流媒体
+      - 台湾-广州移动2负载均衡 | 解锁流媒体
+      - 台湾-河南移动负载均衡 | 解锁流媒体
+      - 台湾Hinet-广移 | 解锁流媒体
+      - 台湾Hinet-广移2 | 解锁流媒体
+      - 台湾Hinet-河移 | 解锁流媒体
       - 台湾02【vip2】
       - 美国|04|RN香港AZ中转
       - 香港06【vip1】
@@ -461,6 +618,35 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - HK3-BGP-HGC
+      - TW-BGP-HiNit-观影推荐线路
+      - HK4-IEPL-HGC-X2
+      - HK3-IEPL-HGC-X2
+      - JP-BGP
+      - 备用|防止失联线路
+      - NL(荷兰)-BGP
+      - 美国游戏专线-超高倍率X5
+      - 台湾-1号 | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 台湾-3号 | 解锁流媒体
+      - 台湾-广州移动负载均衡 | 解锁流媒体
+      - 台湾-广州移动2负载均衡 | 解锁流媒体
+      - 台湾-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-1号 | 解锁流媒体
+      - 日本NTT-2号 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 越南-1号
+      - 越南-2号
+      - 越南-3号
+      - 越南-4号
+      - 越南 | 广州移动
+      - 越南 | 广州移动2
+      - 越南 | 河南移动
+      - 台湾Hinet-广移 | 解锁流媒体
+      - 台湾Hinet-广移2 | 解锁流媒体
+      - 台湾Hinet-河移 | 解锁流媒体
       - 新加坡|01|OC
       - 马来西亚01【vip2】
       - 马来西亚02【vip2】
@@ -543,6 +729,35 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - HK3-BGP-HGC
+      - TW-BGP-HiNit-观影推荐线路
+      - HK4-IEPL-HGC-X2
+      - HK3-IEPL-HGC-X2
+      - JP-BGP
+      - 备用|防止失联线路
+      - NL(荷兰)-BGP
+      - 美国游戏专线-超高倍率X5
+      - 台湾-1号 | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 台湾-3号 | 解锁流媒体
+      - 台湾-广州移动负载均衡 | 解锁流媒体
+      - 台湾-广州移动2负载均衡 | 解锁流媒体
+      - 台湾-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-1号 | 解锁流媒体
+      - 日本NTT-2号 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 越南-1号
+      - 越南-2号
+      - 越南-3号
+      - 越南-4号
+      - 越南 | 广州移动
+      - 越南 | 广州移动2
+      - 越南 | 河南移动
+      - 台湾Hinet-广移 | 解锁流媒体
+      - 台湾Hinet-广移2 | 解锁流媒体
+      - 台湾Hinet-河移 | 解锁流媒体
       - 新加坡|01|OC
       - 马来西亚01【vip2】
       - 马来西亚02【vip2】
@@ -626,6 +841,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - HK3-BGP-HGC
+      - TW-BGP-HiNit-观影推荐线路
+      - HK4-IEPL-HGC-X2
+      - HK3-IEPL-HGC-X2
+      - JP-BGP
+      - 备用|防止失联线路
+      - NL(荷兰)-BGP
+      - 美国游戏专线-超高倍率X5
+      - 台湾-1号 | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 台湾-3号 | 解锁流媒体
+      - 台湾-广州移动负载均衡 | 解锁流媒体
+      - 台湾-广州移动2负载均衡 | 解锁流媒体
+      - 台湾-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-1号 | 解锁流媒体
+      - 日本NTT-2号 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 越南-1号
+      - 越南-2号
+      - 越南-3号
+      - 越南-4号
+      - 越南 | 广州移动
+      - 越南 | 广州移动2
+      - 越南 | 河南移动
+      - 台湾Hinet-广移 | 解锁流媒体
+      - 台湾Hinet-广移2 | 解锁流媒体
+      - 台湾Hinet-河移 | 解锁流媒体
       - 新加坡|01|OC
       - 马来西亚01【vip2】
       - 马来西亚02【vip2】
@@ -718,6 +962,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - HK3-BGP-HGC
+      - TW-BGP-HiNit-观影推荐线路
+      - HK4-IEPL-HGC-X2
+      - HK3-IEPL-HGC-X2
+      - JP-BGP
+      - 备用|防止失联线路
+      - NL(荷兰)-BGP
+      - 美国游戏专线-超高倍率X5
+      - 台湾-1号 | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 台湾-3号 | 解锁流媒体
+      - 台湾-广州移动负载均衡 | 解锁流媒体
+      - 台湾-广州移动2负载均衡 | 解锁流媒体
+      - 台湾-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-1号 | 解锁流媒体
+      - 日本NTT-2号 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 越南-1号
+      - 越南-2号
+      - 越南-3号
+      - 越南-4号
+      - 越南 | 广州移动
+      - 越南 | 广州移动2
+      - 越南 | 河南移动
+      - 台湾Hinet-广移 | 解锁流媒体
+      - 台湾Hinet-广移2 | 解锁流媒体
+      - 台湾Hinet-河移 | 解锁流媒体
       - 新加坡|01|OC
       - 马来西亚01【vip2】
       - 马来西亚02【vip2】
