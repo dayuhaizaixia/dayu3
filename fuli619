@@ -5,263 +5,575 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国-1号, server: 23.225.77.187, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: 德国linode-广州移动2负载均衡(中转) | 解锁流媒体, server: gzyd2.xxcv.cc, port: 20070, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 德国linode-3号 | 解锁流媒体, server: 172.104.251.52, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: 日本NTT-2号, server: 164.70.68.67, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: 韩国-2号, server: 144.24.69.60, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: Oracle新加坡-广移(中转), server: gzyd1.xxcv.cc, port: 20100, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 美国圣何塞-1号 | 解锁流媒体, server: 172.105.255.202, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: 德国-1号 | 解锁流媒体, server: 80.78.132.177, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: Oracle日本东京-2号, server: 141.147.191.85, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: 越南-5号, server: 103.173.255.234, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: 日本, server: 118.107.57.227, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: 越南 | 广州移动2(中转), server: gzyd2.xxcv.cc, port: 20110, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 美国-3号, server: 23.225.77.192, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: 韩国-广移2三线负载均衡(中转), server: gzyd2.xxcv.cc, port: 20080, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: Oracle迪拜-广移2三线负载均衡(中转), server: gzyd2.xxcv.cc, port: 20140, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 德国linode-1号 | 解锁流媒体, server: 172.104.205.212, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: 韩国-4号, server: 144.24.87.99, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: 韩国-1号, server: 144.24.90.94, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: 日本NTT-1号, server: 203.138.98.199, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: 韩国-3号, server: 144.24.77.154, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: 德国linode-2号 | 解锁流媒体, server: 172.104.244.36, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: Oracle迪拜-1号(电信网优化), server: 193.123.69.94, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: 台湾Hinet-2号线路 | 解锁流媒体, server: 18.163.249.175, port: 443, type: vmess, uuid: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hinet?ed=2048", ws-headers: {Host: hinet.meizhiyuanya.xyz}, udp: true}
-  - {name: 香港HGC～河南移动  (中转) | 解锁流媒体, server: hnyd.xxcv.cc, port: 20030, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 韩国亚马逊-广移2三线负载均衡(中转) | 解锁流媒体, server: gzyd2.xxcv.cc, port: 20130, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 韩国亚马逊-广移三线负载均衡(中转) | 解锁流媒体, server: gzyd1.xxcv.cc, port: 20130, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 新加坡G-Core-广移四线负载均衡(中转) | 解锁流媒体, server: gzyd1.xxcv.cc, port: 20090, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 新加坡G-Core-广移2四线负载均衡(中转) | 解锁流媒体, server: gzyd2.xxcv.cc, port: 20090, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 美国-4号, server: 23.225.77.222, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: 韩国亚马逊-3号 | 解锁流媒体, server: 3.35.48.120, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: 越南-2号, server: 103.173.255.21, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: 德国-广州移动双线负载均衡(中转) | 解锁流媒体, server: gzyd1.xxcv.cc, port: 20060, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 香港HGC～广州移动2  (中转) | 解锁流媒体, server: gzyd2.xxcv.cc, port: 20030, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 越南 | 广州移动(中转), server: gzyd1.xxcv.cc, port: 20110, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: Oracle迪拜-河移三线负载均衡(中转), server: hnyd.xxcv.cc, port: 20140, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 韩国-河移三线负载均衡(中转), server: hnyd.xxcv.cc, port: 20080, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 美国圣何塞-河南移动负载均衡(中转) | 解锁流媒体, server: hnyd.xxcv.cc, port: 20010, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: Oracle迪拜-广移三线负载均衡(中转), server: gzyd1.xxcv.cc, port: 20140, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 韩国亚马逊-2号 | 解锁流媒体, server: 3.35.156.0, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: 香港HGC-4号线路 | 解锁流媒体, server: 23.99.119.36, port: 443, type: vmess, uuid: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hkhgc?ed=2048", ws-headers: {Host: hkhgc.meizhiyuanya.xyz}, udp: true}
-  - {name: 德国linode-广州移动负载均衡(中转) | 解锁流媒体, server: gzyd1.xxcv.cc, port: 20070, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 美国圣何塞-广州移动2负载均衡(中转) | 解锁流媒体, server: gzyd2.xxcv.cc, port: 20010, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 美国-2号, server: 23.225.77.226, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: 越南 | 河南移动(中转), server: hnyd.xxcv.cc, port: 20110, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 日本NTT-河南移动 | (中转), server: hnyd.xxcv.cc, port: 20120, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 德国-广州移动2双线负载均衡(中转) | 解锁流媒体, server: gzyd2.xxcv.cc, port: 20060, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 德国linode-河南移动负载均衡(中转) | 解锁流媒体, server: hnyd.xxcv.cc, port: 20070, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 德国-河南移动双线负载均衡(中转) | 解锁流媒体, server: hnyd.xxcv.cc, port: 20060, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: Oracle日本东京-河移三线负载均衡(中转), server: hnyd.xxcv.cc, port: 20040, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: Oracle新加坡-广移2(中转), server: gzyd2.xxcv.cc, port: 20100, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 台湾Hinet-1号线路(中转) | 解锁流媒体, server: hnyd.xxcv.cc, port: 36660, type: vmess, uuid: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hinet?ed=2048", ws-headers: {Host: huayun.xyz}, udp: true}
-  - {name: Oracle新加坡-河移(中转), server: hnyd.xxcv.cc, port: 20100, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 香港HGC-3号线路 | 解锁流媒体, server: 47.91.144.17, port: 443, type: vmess, uuid: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hkhgc?ed=2048", ws-headers: {Host: hkhgc.meizhiyuanya.xyz}, udp: true}
-  - {name: 韩国亚马逊-1号 | 解锁流媒体, server: 3.39.235.8, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
-  - {name: 香港HGC-2号线路 | 解锁流媒体, server: 47.241.233.124, port: 443, type: vmess, uuid: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hkhgc?ed=2048", ws-headers: {Host: hkhgc.meizhiyuanya.xyz}, udp: true}
-  - {name: 日本NTT-广州移动 | (中转), server: gzyd1.xxcv.cc, port: 20120, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 新加坡G-Core-河移四线负载均衡(中转) | 解锁流媒体, server: hnyd.xxcv.cc, port: 20090, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 日本NTT-广州移动2 | (中转), server: gzyd2.xxcv.cc, port: 20120, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 香港HGC-1号线路(中转) | 解锁流媒体, server: hnyd.xxcv.cc, port: 36660, type: vmess, uuid: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hkhgc?ed=2048", ws-headers: {Host: huayun.xyz}, udp: true}
-  - {name: 韩国亚马逊-河移三线负载均衡(中转) | 解锁流媒体, server: hnyd.xxcv.cc, port: 20130, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: 台湾Hinet～广州移动(中转) | 解锁流媒体, server: 183.232.230.214, port: 49870, type: ss, cipher: chacha20-ietf-poly1305, password: fd8bdab1-ca58-460c-94f5-8260a730e006, udp: true}
+  - {name: 日本NTT-2号, server: 164.70.68.67, port: 28443, type: trojan, password: fd8bdab1-ca58-460c-94f5-8260a730e006, skip-cert-verify: true, udp: true}
+  - {name: 日本NTT-广州移动 | (中转), server: gzyd1.52147.top, port: 20120, type: trojan, password: fd8bdab1-ca58-460c-94f5-8260a730e006, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 日本NTT-广州移动2 | (中转), server: gzyd2.52147.top, port: 20120, type: trojan, password: fd8bdab1-ca58-460c-94f5-8260a730e006, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 日本NTT-河南移动 | (中转), server: hnyd.52147.top, port: 20120, type: trojan, password: fd8bdab1-ca58-460c-94f5-8260a730e006, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 台湾-1号 | 解锁流媒体, server: 165.154.243.208, port: 28443, type: trojan, password: fd8bdab1-ca58-460c-94f5-8260a730e006, skip-cert-verify: true, udp: true}
+  - {name: 台湾-2号 | 解锁流媒体, server: 165.154.253.34, port: 28443, type: trojan, password: fd8bdab1-ca58-460c-94f5-8260a730e006, skip-cert-verify: true, udp: true}
+  - {name: 台湾-3号 | 解锁流媒体, server: 165.154.253.49, port: 28443, type: trojan, password: fd8bdab1-ca58-460c-94f5-8260a730e006, skip-cert-verify: true, udp: true}
+  - {name: 台湾-广州移动负载均衡(中转) | 解锁流媒体, server: gzyd1.52147.top, port: 20160, type: trojan, password: fd8bdab1-ca58-460c-94f5-8260a730e006, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 台湾-广州移动2负载均衡(中转) | 解锁流媒体, server: gzyd2.52147.top, port: 20160, type: trojan, password: fd8bdab1-ca58-460c-94f5-8260a730e006, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 台湾-河南移动负载均衡(中转) | 解锁流媒体, server: hnyd.52147.top, port: 20160, type: trojan, password: fd8bdab1-ca58-460c-94f5-8260a730e006, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 越南-1号, server: 103.173.255.21, port: 28443, type: trojan, password: fd8bdab1-ca58-460c-94f5-8260a730e006, skip-cert-verify: true, udp: true}
+  - {name: 越南-2号, server: 103.173.255.127, port: 28443, type: trojan, password: fd8bdab1-ca58-460c-94f5-8260a730e006, skip-cert-verify: true, udp: true}
+  - {name: 越南-3号, server: 103.173.255.228, port: 28443, type: trojan, password: fd8bdab1-ca58-460c-94f5-8260a730e006, skip-cert-verify: true, udp: true}
+  - {name: 越南-4号, server: 103.173.255.234, port: 28443, type: trojan, password: fd8bdab1-ca58-460c-94f5-8260a730e006, skip-cert-verify: true, udp: true}
+  - {name: 越南 | 广州移动(中转), server: gzyd1.52147.top, port: 20110, type: trojan, password: fd8bdab1-ca58-460c-94f5-8260a730e006, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 越南 | 广州移动2(中转), server: gzyd2.52147.top, port: 20110, type: trojan, password: fd8bdab1-ca58-460c-94f5-8260a730e006, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 越南 | 河南移动(中转), server: hnyd.52147.top, port: 20110, type: trojan, password: fd8bdab1-ca58-460c-94f5-8260a730e006, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 德国-1号 | 解锁流媒体, server: 80.78.132.177, port: 28443, type: trojan, password: fd8bdab1-ca58-460c-94f5-8260a730e006, skip-cert-verify: true, udp: true}
+  - {name: 德国-广州移动双线负载均衡(中转) | 解锁流媒体, server: gzyd1.52147.top, port: 20060, type: trojan, password: fd8bdab1-ca58-460c-94f5-8260a730e006, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 德国-广州移动2双线负载均衡(中转) | 解锁流媒体, server: gzyd2.52147.top, port: 20060, type: trojan, password: fd8bdab1-ca58-460c-94f5-8260a730e006, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 德国-河南移动双线负载均衡(中转) | 解锁流媒体, server: hnyd.52147.top, port: 20060, type: trojan, password: fd8bdab1-ca58-460c-94f5-8260a730e006, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 台湾Hinet | 解锁流媒体, server: hinet.52147.top, port: 28443, type: trojan, password: fd8bdab1-ca58-460c-94f5-8260a730e006, sni: hinet.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 台湾Hinet～广州移动 | 解锁流媒体, server: 183.232.230.214, port: 49871, type: ss, cipher: chacha20-ietf-poly1305, password: 7f77298a-cc14-45dd-a145-28f522443379, udp: true}
+  - {name: 台湾-1号 | 解锁流媒体 2, server: 165.154.243.208, port: 28000, type: trojan, password: 7f77298a-cc14-45dd-a145-28f522443379, skip-cert-verify: true, udp: true}
+  - {name: 台湾-2号 | 解锁流媒体 2, server: 165.154.253.34, port: 28000, type: trojan, password: 7f77298a-cc14-45dd-a145-28f522443379, skip-cert-verify: true, udp: true}
+  - {name: 台湾-3号 | 解锁流媒体 2, server: 165.154.253.49, port: 28000, type: trojan, password: 7f77298a-cc14-45dd-a145-28f522443379, skip-cert-verify: true, udp: true}
+  - {name: 台湾-广州移动负载均衡 | 解锁流媒体, server: gzyd1.52147.top, port: 30170, type: trojan, password: 7f77298a-cc14-45dd-a145-28f522443379, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 台湾-广州移动2负载均衡 | 解锁流媒体, server: gzyd2.52147.top, port: 30170, type: trojan, password: 7f77298a-cc14-45dd-a145-28f522443379, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 台湾-河南移动负载均衡 | 解锁流媒体, server: hnyd.52147.top, port: 30170, type: trojan, password: 7f77298a-cc14-45dd-a145-28f522443379, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 日本NTT-1号 | 解锁流媒体, server: 203.138.98.199, port: 28000, type: trojan, password: 7f77298a-cc14-45dd-a145-28f522443379, skip-cert-verify: true, udp: true}
+  - {name: 日本NTT-2号 | 解锁流媒体, server: 164.70.68.67, port: 28000, type: trojan, password: 7f77298a-cc14-45dd-a145-28f522443379, skip-cert-verify: true, udp: true}
+  - {name: 日本NTT-广州移动负载均衡 | 解锁流媒体, server: gzyd1.52147.top, port: 30130, type: trojan, password: 7f77298a-cc14-45dd-a145-28f522443379, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 日本NTT-广州移动2负载均衡 | 解锁流媒体, server: gzyd2.52147.top, port: 30130, type: trojan, password: 7f77298a-cc14-45dd-a145-28f522443379, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 日本NTT-河南移动负载均衡 | 解锁流媒体, server: hnyd.52147.top, port: 30130, type: trojan, password: 7f77298a-cc14-45dd-a145-28f522443379, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 越南-1号 2, server: 103.173.255.21, port: 28000, type: trojan, password: 7f77298a-cc14-45dd-a145-28f522443379, skip-cert-verify: true, udp: true}
+  - {name: 越南-2号 2, server: 103.173.255.127, port: 28000, type: trojan, password: 7f77298a-cc14-45dd-a145-28f522443379, skip-cert-verify: true, udp: true}
+  - {name: 越南-3号 2, server: 103.173.255.228, port: 28000, type: trojan, password: 7f77298a-cc14-45dd-a145-28f522443379, skip-cert-verify: true, udp: true}
+  - {name: 越南-4号 2, server: 103.173.255.234, port: 28000, type: trojan, password: 7f77298a-cc14-45dd-a145-28f522443379, skip-cert-verify: true, udp: true}
+  - {name: 越南 | 广州移动, server: gzyd1.52147.top, port: 30120, type: trojan, password: 7f77298a-cc14-45dd-a145-28f522443379, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 越南 | 广州移动2, server: gzyd2.52147.top, port: 30120, type: trojan, password: 7f77298a-cc14-45dd-a145-28f522443379, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 越南 | 河南移动, server: hnyd.52147.top, port: 30120, type: trojan, password: 7f77298a-cc14-45dd-a145-28f522443379, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 台湾Hinet | 解锁流媒体 2, server: hinet.52147.top, port: 28000, type: trojan, password: 7f77298a-cc14-45dd-a145-28f522443379, sni: hinet.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 德国-广移双线负载均衡 | 解锁流媒体, server: gzyd1.52147.top, port: 30080, type: trojan, password: 7f77298a-cc14-45dd-a145-28f522443379, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 德国-广移2双线负载均衡 | 解锁流媒体, server: gzyd2.52147.top, port: 30080, type: trojan, password: 7f77298a-cc14-45dd-a145-28f522443379, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 德国-河移双线负载均衡 | 解锁流媒体, server: hnyd.52147.top, port: 30080, type: trojan, password: 7f77298a-cc14-45dd-a145-28f522443379, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: "[LV1·解锁] 狮城01 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-sp1, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV1·解锁] 狮城02 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-sp2, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV1·解锁] 狮城03 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-sp3, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV1·解锁] 狮城04 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-sp4, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV1·解锁] 狮城05 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-sp5, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV2·原生] 美国03 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-usa3-242, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV2·原生] 美国04 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-usa4-243, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV2·原生] 香港01 | IEPL 专线 | 3x", server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[LV2·原生] 香港02 | IEPL 专线 | 3x", server: pp1.zhengzhongfeizhu.xyz, port: 33003, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[LV2·原生] 香港03 | IEPL 专线 | 3x", server: pp1.zhengzhongfeizhu.xyz, port: 33004, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[LV2·原生] 香港04 | IEPL 专线 | 3x", server: pp1.zhengzhongfeizhu.xyz, port: 33005, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[LV2·原生] 香港B1 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-hgc1, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV2·原生] 香港B2 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-hgc2, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV2·原生] 香港B3 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-hgc3, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV2·原生] 香港B4 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-hgc4, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV2·解锁] 日本01 | 中转", server: hncu.jjadg-adap.com, port: 43961, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-jp1, ws-headers: {Host: hncu.jjadg-adap.com}, udp: true}
+  - {name: "[LV2·解锁] 日本02 | 中转", server: hncu.jjadg-adap.com, port: 43961, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-jp2, ws-headers: {Host: hncu.jjadg-adap.com}, udp: true}
+  - {name: "[LV2·解锁] 日本03 | 中转", server: hncu.jjadg-adap.com, port: 43961, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-jp3, ws-headers: {Host: hncu.jjadg-adap.com}, udp: true}
+  - {name: "[LV3·原生] 香港01 | IEPL 专线 | 1x", server: pp1.zhengzhongfeizhu.xyz, port: 33009, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[LV1·解锁] 狮城01 | 中转 2", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-sp1, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV1·解锁] 狮城02 | 中转 2", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-sp2, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV1·解锁] 狮城03 | 中转 2", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-sp3, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV1·解锁] 狮城04 | 中转 2", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-sp4, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV1·解锁] 狮城05 | 中转 2", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-sp5, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV2·原生] 美国03 | 中转 2", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-usa3-242, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV2·原生] 美国04 | 中转 2", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-usa4-243, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV2·原生] 香港01 | IEPL 专线 | 3x 2", server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[LV2·原生] 香港02 | IEPL 专线 | 3x 2", server: pp1.zhengzhongfeizhu.xyz, port: 33003, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[LV2·原生] 香港03 | IEPL 专线 | 3x 2", server: pp1.zhengzhongfeizhu.xyz, port: 33004, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[LV2·原生] 香港04 | IEPL 专线 | 3x 2", server: pp1.zhengzhongfeizhu.xyz, port: 33005, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[LV2·原生] 香港B1 | 中转 2", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-hgc1, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV2·原生] 香港B2 | 中转 2", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-hgc2, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV2·原生] 香港B3 | 中转 2", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-hgc3, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV2·原生] 香港B4 | 中转 2", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-hgc4, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV2·解锁] 日本01 | 中转 2", server: hncu.jjadg-adap.com, port: 43961, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-jp1, ws-headers: {Host: hncu.jjadg-adap.com}, udp: true}
+  - {name: "[LV2·解锁] 日本02 | 中转 2", server: hncu.jjadg-adap.com, port: 43961, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-jp2, ws-headers: {Host: hncu.jjadg-adap.com}, udp: true}
+  - {name: "[LV2·解锁] 日本03 | 中转 2", server: hncu.jjadg-adap.com, port: 43961, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-jp3, ws-headers: {Host: hncu.jjadg-adap.com}, udp: true}
+  - {name: "[LV3·原生] 香港01 | IEPL 专线 | 1x 2", server: pp1.zhengzhongfeizhu.xyz, port: 33009, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[LV3·原生] 香港01 | IEPL 专线 | 1x 3", server: pp1.zhengzhongfeizhu.xyz, port: 33009, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[LV2·原生] 美国03 | 中转 3", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-usa3-242, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV2·原生] 美国04 | 中转 3", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-usa4-243, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV2·原生] 香港01 | IEPL 专线 | 3x 3", server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[LV2·原生] 香港02 | IEPL 专线 | 3x 3", server: pp1.zhengzhongfeizhu.xyz, port: 33003, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[LV2·原生] 香港03 | IEPL 专线 | 3x 3", server: pp1.zhengzhongfeizhu.xyz, port: 33004, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[LV2·原生] 香港04 | IEPL 专线 | 3x 3", server: pp1.zhengzhongfeizhu.xyz, port: 33005, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[LV2·原生] 香港B1 | 中转 3", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-hgc1, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV2·原生] 香港B2 | 中转 3", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-hgc2, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV2·原生] 香港B3 | 中转 3", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-hgc3, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV2·原生] 香港B4 | 中转 3", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-hgc4, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV2·解锁] 日本01 | 中转 3", server: hncu.jjadg-adap.com, port: 43961, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-jp1, ws-headers: {Host: hncu.jjadg-adap.com}, udp: true}
+  - {name: "[LV2·解锁] 日本02 | 中转 3", server: hncu.jjadg-adap.com, port: 43961, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-jp2, ws-headers: {Host: hncu.jjadg-adap.com}, udp: true}
+  - {name: "[LV2·解锁] 日本03 | 中转 3", server: hncu.jjadg-adap.com, port: 43961, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-jp3, ws-headers: {Host: hncu.jjadg-adap.com}, udp: true}
+  - {name: "[LV1·解锁] 狮城01 | 中转 3", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-sp1, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV1·解锁] 狮城02 | 中转 3", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-sp2, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV1·解锁] 狮城03 | 中转 3", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-sp3, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV1·解锁] 狮城04 | 中转 3", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-sp4, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV1·解锁] 狮城05 | 中转 3", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-sp5, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV1·解锁] 狮城01 | 中转 4", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: a2a37460-2a05-3211-b0d6-d0b37971f84e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-sp1, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV1·解锁] 狮城02 | 中转 4", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: a2a37460-2a05-3211-b0d6-d0b37971f84e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-sp2, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV1·解锁] 狮城03 | 中转 4", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: a2a37460-2a05-3211-b0d6-d0b37971f84e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-sp3, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV1·解锁] 狮城04 | 中转 4", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: a2a37460-2a05-3211-b0d6-d0b37971f84e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-sp4, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: "[LV1·解锁] 狮城05 | 中转 4", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: a2a37460-2a05-3211-b0d6-d0b37971f84e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /j20-sp5, ws-headers: {Host: pp1.zhengzhongfeizhu.xyz}, udp: true}
+  - {name: 香港#1 香港移动 1x, server: hkbgp.pindan.ml, port: 10000, type: trojan, password: d66d121f-131a-40ef-aded-255e99a42583, sni: hkbgp.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 香港#1 广州移动 1x, server: relay.01.pindan.ml, port: 10001, type: trojan, password: d66d121f-131a-40ef-aded-255e99a42583, sni: relay.01.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 香港-稳定奈飞#2 香港移动 1x, server: hkbgp.pindan.ml, port: 10002, type: trojan, password: d66d121f-131a-40ef-aded-255e99a42583, sni: hkbgp.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 香港-稳定奈飞#2 广州移动 1x, server: relay.01.pindan.ml, port: 10002, type: trojan, password: d66d121f-131a-40ef-aded-255e99a42583, sni: relay.01.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 台湾-解锁本地内容#1 香港移动 1x, server: hkbgp.pindan.ml, port: 10001, type: trojan, password: d66d121f-131a-40ef-aded-255e99a42583, sni: hkbgp.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 台湾-解锁本地内容#1 广州移动 1x, server: relay.01.pindan.ml, port: 10003, type: trojan, password: d66d121f-131a-40ef-aded-255e99a42583, sni: relay.01.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 香港-解锁奈飞(SG)#3 香港移动 1x, server: hkbgp.pindan.ml, port: 10006, type: trojan, password: d66d121f-131a-40ef-aded-255e99a42583, sni: hkbgp.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 香港-解锁奈飞(SG)#3 广州移动 1x, server: relay.01.pindan.ml, port: 10004, type: trojan, password: d66d121f-131a-40ef-aded-255e99a42583, sni: relay.01.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 新加坡#1 香港移动 1x, server: hkbgp.pindan.ml, port: 10003, type: trojan, password: d66d121f-131a-40ef-aded-255e99a42583, sni: hkbgp.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 新加坡#1 广州移动 1x, server: relay.01.pindan.ml, port: 10006, type: trojan, password: d66d121f-131a-40ef-aded-255e99a42583, sni: relay.01.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国#1 香港移动 1x, server: hkbgp.pindan.ml, port: 10004, type: trojan, password: d66d121f-131a-40ef-aded-255e99a42583, sni: hkbgp.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国#1 广州移动 1x, server: relay.01.pindan.ml, port: 10007, type: trojan, password: d66d121f-131a-40ef-aded-255e99a42583, sni: relay.01.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯#1 香港移动 1x, server: hkbgp.pindan.ml, port: 10005, type: trojan, password: d66d121f-131a-40ef-aded-255e99a42583, sni: hkbgp.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯#1 广州移动 1x, server: relay.01.pindan.ml, port: 10008, type: trojan, password: d66d121f-131a-40ef-aded-255e99a42583, sni: relay.01.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: Telegram专用🖥️限速10M, server: hkbgp.pindan.ml, port: 30000, type: trojan, password: d66d121f-131a-40ef-aded-255e99a42583, sni: hkbgp.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 香港#1 香港移动 1x 2, server: hkbgp.pindan.ml, port: 10000, type: trojan, password: 29dfc074-ff41-4f12-9f51-6c24612dfd64, sni: hkbgp.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 香港#1 广州移动 1x 2, server: relay.01.pindan.ml, port: 10001, type: trojan, password: 29dfc074-ff41-4f12-9f51-6c24612dfd64, sni: relay.01.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 香港-稳定奈飞#2 香港移动 1x 2, server: hkbgp.pindan.ml, port: 10002, type: trojan, password: 29dfc074-ff41-4f12-9f51-6c24612dfd64, sni: hkbgp.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 香港-稳定奈飞#2 广州移动 1x 2, server: relay.01.pindan.ml, port: 10002, type: trojan, password: 29dfc074-ff41-4f12-9f51-6c24612dfd64, sni: relay.01.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 台湾-解锁本地内容#1 香港移动 1x 2, server: hkbgp.pindan.ml, port: 10001, type: trojan, password: 29dfc074-ff41-4f12-9f51-6c24612dfd64, sni: hkbgp.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 台湾-解锁本地内容#1 广州移动 1x 2, server: relay.01.pindan.ml, port: 10003, type: trojan, password: 29dfc074-ff41-4f12-9f51-6c24612dfd64, sni: relay.01.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 香港-解锁奈飞(SG)#3 香港移动 1x 2, server: hkbgp.pindan.ml, port: 10006, type: trojan, password: 29dfc074-ff41-4f12-9f51-6c24612dfd64, sni: hkbgp.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 香港-解锁奈飞(SG)#3 广州移动 1x 2, server: relay.01.pindan.ml, port: 10004, type: trojan, password: 29dfc074-ff41-4f12-9f51-6c24612dfd64, sni: relay.01.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 新加坡#1 香港移动 1x 2, server: hkbgp.pindan.ml, port: 10003, type: trojan, password: 29dfc074-ff41-4f12-9f51-6c24612dfd64, sni: hkbgp.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 新加坡#1 广州移动 1x 2, server: relay.01.pindan.ml, port: 10006, type: trojan, password: 29dfc074-ff41-4f12-9f51-6c24612dfd64, sni: relay.01.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国#1 香港移动 1x 2, server: hkbgp.pindan.ml, port: 10004, type: trojan, password: 29dfc074-ff41-4f12-9f51-6c24612dfd64, sni: hkbgp.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国#1 广州移动 1x 2, server: relay.01.pindan.ml, port: 10007, type: trojan, password: 29dfc074-ff41-4f12-9f51-6c24612dfd64, sni: relay.01.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯#1 香港移动 1x 2, server: hkbgp.pindan.ml, port: 10005, type: trojan, password: 29dfc074-ff41-4f12-9f51-6c24612dfd64, sni: hkbgp.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯#1 广州移动 1x 2, server: relay.01.pindan.ml, port: 10008, type: trojan, password: 29dfc074-ff41-4f12-9f51-6c24612dfd64, sni: relay.01.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: Telegram专用🖥️限速10M 2, server: hkbgp.pindan.ml, port: 30000, type: trojan, password: 29dfc074-ff41-4f12-9f51-6c24612dfd64, sni: hkbgp.pindan.ml, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国-1号
-      - 德国linode-广州移动2负载均衡(中转) | 解锁流媒体
-      - 德国linode-3号 | 解锁流媒体
+      - 台湾Hinet～广州移动(中转) | 解锁流媒体
       - 日本NTT-2号
-      - 韩国-2号
-      - Oracle新加坡-广移(中转)
-      - 美国圣何塞-1号 | 解锁流媒体
-      - 德国-1号 | 解锁流媒体
-      - Oracle日本东京-2号
-      - 越南-5号
-      - 日本
-      - 越南 | 广州移动2(中转)
-      - 美国-3号
-      - 韩国-广移2三线负载均衡(中转)
-      - Oracle迪拜-广移2三线负载均衡(中转)
-      - 德国linode-1号 | 解锁流媒体
-      - 韩国-4号
-      - 韩国-1号
-      - 日本NTT-1号
-      - 韩国-3号
-      - 德国linode-2号 | 解锁流媒体
-      - Oracle迪拜-1号(电信网优化)
-      - 台湾Hinet-2号线路 | 解锁流媒体
-      - 香港HGC～河南移动  (中转) | 解锁流媒体
-      - 韩国亚马逊-广移2三线负载均衡(中转) | 解锁流媒体
-      - 韩国亚马逊-广移三线负载均衡(中转) | 解锁流媒体
-      - 新加坡G-Core-广移四线负载均衡(中转) | 解锁流媒体
-      - 新加坡G-Core-广移2四线负载均衡(中转) | 解锁流媒体
-      - 美国-4号
-      - 韩国亚马逊-3号 | 解锁流媒体
-      - 越南-2号
-      - 德国-广州移动双线负载均衡(中转) | 解锁流媒体
-      - 香港HGC～广州移动2  (中转) | 解锁流媒体
-      - 越南 | 广州移动(中转)
-      - Oracle迪拜-河移三线负载均衡(中转)
-      - 韩国-河移三线负载均衡(中转)
-      - 美国圣何塞-河南移动负载均衡(中转) | 解锁流媒体
-      - Oracle迪拜-广移三线负载均衡(中转)
-      - 韩国亚马逊-2号 | 解锁流媒体
-      - 香港HGC-4号线路 | 解锁流媒体
-      - 德国linode-广州移动负载均衡(中转) | 解锁流媒体
-      - 美国圣何塞-广州移动2负载均衡(中转) | 解锁流媒体
-      - 美国-2号
-      - 越南 | 河南移动(中转)
-      - 日本NTT-河南移动 | (中转)
-      - 德国-广州移动2双线负载均衡(中转) | 解锁流媒体
-      - 德国linode-河南移动负载均衡(中转) | 解锁流媒体
-      - 德国-河南移动双线负载均衡(中转) | 解锁流媒体
-      - Oracle日本东京-河移三线负载均衡(中转)
-      - Oracle新加坡-广移2(中转)
-      - 台湾Hinet-1号线路(中转) | 解锁流媒体
-      - Oracle新加坡-河移(中转)
-      - 香港HGC-3号线路 | 解锁流媒体
-      - 韩国亚马逊-1号 | 解锁流媒体
-      - 香港HGC-2号线路 | 解锁流媒体
       - 日本NTT-广州移动 | (中转)
-      - 新加坡G-Core-河移四线负载均衡(中转) | 解锁流媒体
       - 日本NTT-广州移动2 | (中转)
-      - 香港HGC-1号线路(中转) | 解锁流媒体
-      - 韩国亚马逊-河移三线负载均衡(中转) | 解锁流媒体
+      - 日本NTT-河南移动 | (中转)
+      - 台湾-1号 | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 台湾-3号 | 解锁流媒体
+      - 台湾-广州移动负载均衡(中转) | 解锁流媒体
+      - 台湾-广州移动2负载均衡(中转) | 解锁流媒体
+      - 台湾-河南移动负载均衡(中转) | 解锁流媒体
+      - 越南-1号
+      - 越南-2号
+      - 越南-3号
+      - 越南-4号
+      - 越南 | 广州移动(中转)
+      - 越南 | 广州移动2(中转)
+      - 越南 | 河南移动(中转)
+      - 德国-1号 | 解锁流媒体
+      - 德国-广州移动双线负载均衡(中转) | 解锁流媒体
+      - 德国-广州移动2双线负载均衡(中转) | 解锁流媒体
+      - 德国-河南移动双线负载均衡(中转) | 解锁流媒体
+      - 台湾Hinet | 解锁流媒体
+      - 台湾Hinet～广州移动 | 解锁流媒体
+      - 台湾-1号 | 解锁流媒体 2
+      - 台湾-2号 | 解锁流媒体 2
+      - 台湾-3号 | 解锁流媒体 2
+      - 台湾-广州移动负载均衡 | 解锁流媒体
+      - 台湾-广州移动2负载均衡 | 解锁流媒体
+      - 台湾-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-1号 | 解锁流媒体
+      - 日本NTT-2号 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 越南-1号 2
+      - 越南-2号 2
+      - 越南-3号 2
+      - 越南-4号 2
+      - 越南 | 广州移动
+      - 越南 | 广州移动2
+      - 越南 | 河南移动
+      - 台湾Hinet | 解锁流媒体 2
+      - 德国-广移双线负载均衡 | 解锁流媒体
+      - 德国-广移2双线负载均衡 | 解锁流媒体
+      - 德国-河移双线负载均衡 | 解锁流媒体
+      - "[LV1·解锁] 狮城01 | 中转"
+      - "[LV1·解锁] 狮城02 | 中转"
+      - "[LV1·解锁] 狮城03 | 中转"
+      - "[LV1·解锁] 狮城04 | 中转"
+      - "[LV1·解锁] 狮城05 | 中转"
+      - "[LV2·原生] 美国03 | 中转"
+      - "[LV2·原生] 美国04 | 中转"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港B1 | 中转"
+      - "[LV2·原生] 香港B2 | 中转"
+      - "[LV2·原生] 香港B3 | 中转"
+      - "[LV2·原生] 香港B4 | 中转"
+      - "[LV2·解锁] 日本01 | 中转"
+      - "[LV2·解锁] 日本02 | 中转"
+      - "[LV2·解锁] 日本03 | 中转"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
+      - "[LV1·解锁] 狮城01 | 中转 2"
+      - "[LV1·解锁] 狮城02 | 中转 2"
+      - "[LV1·解锁] 狮城03 | 中转 2"
+      - "[LV1·解锁] 狮城04 | 中转 2"
+      - "[LV1·解锁] 狮城05 | 中转 2"
+      - "[LV2·原生] 美国03 | 中转 2"
+      - "[LV2·原生] 美国04 | 中转 2"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港B1 | 中转 2"
+      - "[LV2·原生] 香港B2 | 中转 2"
+      - "[LV2·原生] 香港B3 | 中转 2"
+      - "[LV2·原生] 香港B4 | 中转 2"
+      - "[LV2·解锁] 日本01 | 中转 2"
+      - "[LV2·解锁] 日本02 | 中转 2"
+      - "[LV2·解锁] 日本03 | 中转 2"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x 2"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x 3"
+      - "[LV2·原生] 美国03 | 中转 3"
+      - "[LV2·原生] 美国04 | 中转 3"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港B1 | 中转 3"
+      - "[LV2·原生] 香港B2 | 中转 3"
+      - "[LV2·原生] 香港B3 | 中转 3"
+      - "[LV2·原生] 香港B4 | 中转 3"
+      - "[LV2·解锁] 日本01 | 中转 3"
+      - "[LV2·解锁] 日本02 | 中转 3"
+      - "[LV2·解锁] 日本03 | 中转 3"
+      - "[LV1·解锁] 狮城01 | 中转 3"
+      - "[LV1·解锁] 狮城02 | 中转 3"
+      - "[LV1·解锁] 狮城03 | 中转 3"
+      - "[LV1·解锁] 狮城04 | 中转 3"
+      - "[LV1·解锁] 狮城05 | 中转 3"
+      - "[LV1·解锁] 狮城01 | 中转 4"
+      - "[LV1·解锁] 狮城02 | 中转 4"
+      - "[LV1·解锁] 狮城03 | 中转 4"
+      - "[LV1·解锁] 狮城04 | 中转 4"
+      - "[LV1·解锁] 狮城05 | 中转 4"
+      - 香港#1 香港移动 1x
+      - 香港#1 广州移动 1x
+      - 香港-稳定奈飞#2 香港移动 1x
+      - 香港-稳定奈飞#2 广州移动 1x
+      - 台湾-解锁本地内容#1 香港移动 1x
+      - 台湾-解锁本地内容#1 广州移动 1x
+      - 香港-解锁奈飞(SG)#3 香港移动 1x
+      - 香港-解锁奈飞(SG)#3 广州移动 1x
+      - 新加坡#1 香港移动 1x
+      - 新加坡#1 广州移动 1x
+      - 美国#1 香港移动 1x
+      - 美国#1 广州移动 1x
+      - 俄罗斯#1 香港移动 1x
+      - 俄罗斯#1 广州移动 1x
+      - Telegram专用🖥️限速10M
+      - 香港#1 香港移动 1x 2
+      - 香港#1 广州移动 1x 2
+      - 香港-稳定奈飞#2 香港移动 1x 2
+      - 香港-稳定奈飞#2 广州移动 1x 2
+      - 台湾-解锁本地内容#1 香港移动 1x 2
+      - 台湾-解锁本地内容#1 广州移动 1x 2
+      - 香港-解锁奈飞(SG)#3 香港移动 1x 2
+      - 香港-解锁奈飞(SG)#3 广州移动 1x 2
+      - 新加坡#1 香港移动 1x 2
+      - 新加坡#1 广州移动 1x 2
+      - 美国#1 香港移动 1x 2
+      - 美国#1 广州移动 1x 2
+      - 俄罗斯#1 香港移动 1x 2
+      - 俄罗斯#1 广州移动 1x 2
+      - Telegram专用🖥️限速10M 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国-1号
-      - 德国linode-广州移动2负载均衡(中转) | 解锁流媒体
-      - 德国linode-3号 | 解锁流媒体
+      - 台湾Hinet～广州移动(中转) | 解锁流媒体
       - 日本NTT-2号
-      - 韩国-2号
-      - Oracle新加坡-广移(中转)
-      - 美国圣何塞-1号 | 解锁流媒体
-      - 德国-1号 | 解锁流媒体
-      - Oracle日本东京-2号
-      - 越南-5号
-      - 日本
-      - 越南 | 广州移动2(中转)
-      - 美国-3号
-      - 韩国-广移2三线负载均衡(中转)
-      - Oracle迪拜-广移2三线负载均衡(中转)
-      - 德国linode-1号 | 解锁流媒体
-      - 韩国-4号
-      - 韩国-1号
-      - 日本NTT-1号
-      - 韩国-3号
-      - 德国linode-2号 | 解锁流媒体
-      - Oracle迪拜-1号(电信网优化)
-      - 台湾Hinet-2号线路 | 解锁流媒体
-      - 香港HGC～河南移动  (中转) | 解锁流媒体
-      - 韩国亚马逊-广移2三线负载均衡(中转) | 解锁流媒体
-      - 韩国亚马逊-广移三线负载均衡(中转) | 解锁流媒体
-      - 新加坡G-Core-广移四线负载均衡(中转) | 解锁流媒体
-      - 新加坡G-Core-广移2四线负载均衡(中转) | 解锁流媒体
-      - 美国-4号
-      - 韩国亚马逊-3号 | 解锁流媒体
-      - 越南-2号
-      - 德国-广州移动双线负载均衡(中转) | 解锁流媒体
-      - 香港HGC～广州移动2  (中转) | 解锁流媒体
-      - 越南 | 广州移动(中转)
-      - Oracle迪拜-河移三线负载均衡(中转)
-      - 韩国-河移三线负载均衡(中转)
-      - 美国圣何塞-河南移动负载均衡(中转) | 解锁流媒体
-      - Oracle迪拜-广移三线负载均衡(中转)
-      - 韩国亚马逊-2号 | 解锁流媒体
-      - 香港HGC-4号线路 | 解锁流媒体
-      - 德国linode-广州移动负载均衡(中转) | 解锁流媒体
-      - 美国圣何塞-广州移动2负载均衡(中转) | 解锁流媒体
-      - 美国-2号
-      - 越南 | 河南移动(中转)
-      - 日本NTT-河南移动 | (中转)
-      - 德国-广州移动2双线负载均衡(中转) | 解锁流媒体
-      - 德国linode-河南移动负载均衡(中转) | 解锁流媒体
-      - 德国-河南移动双线负载均衡(中转) | 解锁流媒体
-      - Oracle日本东京-河移三线负载均衡(中转)
-      - Oracle新加坡-广移2(中转)
-      - 台湾Hinet-1号线路(中转) | 解锁流媒体
-      - Oracle新加坡-河移(中转)
-      - 香港HGC-3号线路 | 解锁流媒体
-      - 韩国亚马逊-1号 | 解锁流媒体
-      - 香港HGC-2号线路 | 解锁流媒体
       - 日本NTT-广州移动 | (中转)
-      - 新加坡G-Core-河移四线负载均衡(中转) | 解锁流媒体
       - 日本NTT-广州移动2 | (中转)
-      - 香港HGC-1号线路(中转) | 解锁流媒体
-      - 韩国亚马逊-河移三线负载均衡(中转) | 解锁流媒体
+      - 日本NTT-河南移动 | (中转)
+      - 台湾-1号 | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 台湾-3号 | 解锁流媒体
+      - 台湾-广州移动负载均衡(中转) | 解锁流媒体
+      - 台湾-广州移动2负载均衡(中转) | 解锁流媒体
+      - 台湾-河南移动负载均衡(中转) | 解锁流媒体
+      - 越南-1号
+      - 越南-2号
+      - 越南-3号
+      - 越南-4号
+      - 越南 | 广州移动(中转)
+      - 越南 | 广州移动2(中转)
+      - 越南 | 河南移动(中转)
+      - 德国-1号 | 解锁流媒体
+      - 德国-广州移动双线负载均衡(中转) | 解锁流媒体
+      - 德国-广州移动2双线负载均衡(中转) | 解锁流媒体
+      - 德国-河南移动双线负载均衡(中转) | 解锁流媒体
+      - 台湾Hinet | 解锁流媒体
+      - 台湾Hinet～广州移动 | 解锁流媒体
+      - 台湾-1号 | 解锁流媒体 2
+      - 台湾-2号 | 解锁流媒体 2
+      - 台湾-3号 | 解锁流媒体 2
+      - 台湾-广州移动负载均衡 | 解锁流媒体
+      - 台湾-广州移动2负载均衡 | 解锁流媒体
+      - 台湾-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-1号 | 解锁流媒体
+      - 日本NTT-2号 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 越南-1号 2
+      - 越南-2号 2
+      - 越南-3号 2
+      - 越南-4号 2
+      - 越南 | 广州移动
+      - 越南 | 广州移动2
+      - 越南 | 河南移动
+      - 台湾Hinet | 解锁流媒体 2
+      - 德国-广移双线负载均衡 | 解锁流媒体
+      - 德国-广移2双线负载均衡 | 解锁流媒体
+      - 德国-河移双线负载均衡 | 解锁流媒体
+      - "[LV1·解锁] 狮城01 | 中转"
+      - "[LV1·解锁] 狮城02 | 中转"
+      - "[LV1·解锁] 狮城03 | 中转"
+      - "[LV1·解锁] 狮城04 | 中转"
+      - "[LV1·解锁] 狮城05 | 中转"
+      - "[LV2·原生] 美国03 | 中转"
+      - "[LV2·原生] 美国04 | 中转"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港B1 | 中转"
+      - "[LV2·原生] 香港B2 | 中转"
+      - "[LV2·原生] 香港B3 | 中转"
+      - "[LV2·原生] 香港B4 | 中转"
+      - "[LV2·解锁] 日本01 | 中转"
+      - "[LV2·解锁] 日本02 | 中转"
+      - "[LV2·解锁] 日本03 | 中转"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
+      - "[LV1·解锁] 狮城01 | 中转 2"
+      - "[LV1·解锁] 狮城02 | 中转 2"
+      - "[LV1·解锁] 狮城03 | 中转 2"
+      - "[LV1·解锁] 狮城04 | 中转 2"
+      - "[LV1·解锁] 狮城05 | 中转 2"
+      - "[LV2·原生] 美国03 | 中转 2"
+      - "[LV2·原生] 美国04 | 中转 2"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港B1 | 中转 2"
+      - "[LV2·原生] 香港B2 | 中转 2"
+      - "[LV2·原生] 香港B3 | 中转 2"
+      - "[LV2·原生] 香港B4 | 中转 2"
+      - "[LV2·解锁] 日本01 | 中转 2"
+      - "[LV2·解锁] 日本02 | 中转 2"
+      - "[LV2·解锁] 日本03 | 中转 2"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x 2"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x 3"
+      - "[LV2·原生] 美国03 | 中转 3"
+      - "[LV2·原生] 美国04 | 中转 3"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港B1 | 中转 3"
+      - "[LV2·原生] 香港B2 | 中转 3"
+      - "[LV2·原生] 香港B3 | 中转 3"
+      - "[LV2·原生] 香港B4 | 中转 3"
+      - "[LV2·解锁] 日本01 | 中转 3"
+      - "[LV2·解锁] 日本02 | 中转 3"
+      - "[LV2·解锁] 日本03 | 中转 3"
+      - "[LV1·解锁] 狮城01 | 中转 3"
+      - "[LV1·解锁] 狮城02 | 中转 3"
+      - "[LV1·解锁] 狮城03 | 中转 3"
+      - "[LV1·解锁] 狮城04 | 中转 3"
+      - "[LV1·解锁] 狮城05 | 中转 3"
+      - "[LV1·解锁] 狮城01 | 中转 4"
+      - "[LV1·解锁] 狮城02 | 中转 4"
+      - "[LV1·解锁] 狮城03 | 中转 4"
+      - "[LV1·解锁] 狮城04 | 中转 4"
+      - "[LV1·解锁] 狮城05 | 中转 4"
+      - 香港#1 香港移动 1x
+      - 香港#1 广州移动 1x
+      - 香港-稳定奈飞#2 香港移动 1x
+      - 香港-稳定奈飞#2 广州移动 1x
+      - 台湾-解锁本地内容#1 香港移动 1x
+      - 台湾-解锁本地内容#1 广州移动 1x
+      - 香港-解锁奈飞(SG)#3 香港移动 1x
+      - 香港-解锁奈飞(SG)#3 广州移动 1x
+      - 新加坡#1 香港移动 1x
+      - 新加坡#1 广州移动 1x
+      - 美国#1 香港移动 1x
+      - 美国#1 广州移动 1x
+      - 俄罗斯#1 香港移动 1x
+      - 俄罗斯#1 广州移动 1x
+      - Telegram专用🖥️限速10M
+      - 香港#1 香港移动 1x 2
+      - 香港#1 广州移动 1x 2
+      - 香港-稳定奈飞#2 香港移动 1x 2
+      - 香港-稳定奈飞#2 广州移动 1x 2
+      - 台湾-解锁本地内容#1 香港移动 1x 2
+      - 台湾-解锁本地内容#1 广州移动 1x 2
+      - 香港-解锁奈飞(SG)#3 香港移动 1x 2
+      - 香港-解锁奈飞(SG)#3 广州移动 1x 2
+      - 新加坡#1 香港移动 1x 2
+      - 新加坡#1 广州移动 1x 2
+      - 美国#1 香港移动 1x 2
+      - 美国#1 广州移动 1x 2
+      - 俄罗斯#1 香港移动 1x 2
+      - 俄罗斯#1 广州移动 1x 2
+      - Telegram专用🖥️限速10M 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国-1号
-      - 德国linode-广州移动2负载均衡(中转) | 解锁流媒体
-      - 德国linode-3号 | 解锁流媒体
+      - 台湾Hinet～广州移动(中转) | 解锁流媒体
       - 日本NTT-2号
-      - 韩国-2号
-      - Oracle新加坡-广移(中转)
-      - 美国圣何塞-1号 | 解锁流媒体
-      - 德国-1号 | 解锁流媒体
-      - Oracle日本东京-2号
-      - 越南-5号
-      - 日本
-      - 越南 | 广州移动2(中转)
-      - 美国-3号
-      - 韩国-广移2三线负载均衡(中转)
-      - Oracle迪拜-广移2三线负载均衡(中转)
-      - 德国linode-1号 | 解锁流媒体
-      - 韩国-4号
-      - 韩国-1号
-      - 日本NTT-1号
-      - 韩国-3号
-      - 德国linode-2号 | 解锁流媒体
-      - Oracle迪拜-1号(电信网优化)
-      - 台湾Hinet-2号线路 | 解锁流媒体
-      - 香港HGC～河南移动  (中转) | 解锁流媒体
-      - 韩国亚马逊-广移2三线负载均衡(中转) | 解锁流媒体
-      - 韩国亚马逊-广移三线负载均衡(中转) | 解锁流媒体
-      - 新加坡G-Core-广移四线负载均衡(中转) | 解锁流媒体
-      - 新加坡G-Core-广移2四线负载均衡(中转) | 解锁流媒体
-      - 美国-4号
-      - 韩国亚马逊-3号 | 解锁流媒体
-      - 越南-2号
-      - 德国-广州移动双线负载均衡(中转) | 解锁流媒体
-      - 香港HGC～广州移动2  (中转) | 解锁流媒体
-      - 越南 | 广州移动(中转)
-      - Oracle迪拜-河移三线负载均衡(中转)
-      - 韩国-河移三线负载均衡(中转)
-      - 美国圣何塞-河南移动负载均衡(中转) | 解锁流媒体
-      - Oracle迪拜-广移三线负载均衡(中转)
-      - 韩国亚马逊-2号 | 解锁流媒体
-      - 香港HGC-4号线路 | 解锁流媒体
-      - 德国linode-广州移动负载均衡(中转) | 解锁流媒体
-      - 美国圣何塞-广州移动2负载均衡(中转) | 解锁流媒体
-      - 美国-2号
-      - 越南 | 河南移动(中转)
-      - 日本NTT-河南移动 | (中转)
-      - 德国-广州移动2双线负载均衡(中转) | 解锁流媒体
-      - 德国linode-河南移动负载均衡(中转) | 解锁流媒体
-      - 德国-河南移动双线负载均衡(中转) | 解锁流媒体
-      - Oracle日本东京-河移三线负载均衡(中转)
-      - Oracle新加坡-广移2(中转)
-      - 台湾Hinet-1号线路(中转) | 解锁流媒体
-      - Oracle新加坡-河移(中转)
-      - 香港HGC-3号线路 | 解锁流媒体
-      - 韩国亚马逊-1号 | 解锁流媒体
-      - 香港HGC-2号线路 | 解锁流媒体
       - 日本NTT-广州移动 | (中转)
-      - 新加坡G-Core-河移四线负载均衡(中转) | 解锁流媒体
       - 日本NTT-广州移动2 | (中转)
-      - 香港HGC-1号线路(中转) | 解锁流媒体
-      - 韩国亚马逊-河移三线负载均衡(中转) | 解锁流媒体
+      - 日本NTT-河南移动 | (中转)
+      - 台湾-1号 | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 台湾-3号 | 解锁流媒体
+      - 台湾-广州移动负载均衡(中转) | 解锁流媒体
+      - 台湾-广州移动2负载均衡(中转) | 解锁流媒体
+      - 台湾-河南移动负载均衡(中转) | 解锁流媒体
+      - 越南-1号
+      - 越南-2号
+      - 越南-3号
+      - 越南-4号
+      - 越南 | 广州移动(中转)
+      - 越南 | 广州移动2(中转)
+      - 越南 | 河南移动(中转)
+      - 德国-1号 | 解锁流媒体
+      - 德国-广州移动双线负载均衡(中转) | 解锁流媒体
+      - 德国-广州移动2双线负载均衡(中转) | 解锁流媒体
+      - 德国-河南移动双线负载均衡(中转) | 解锁流媒体
+      - 台湾Hinet | 解锁流媒体
+      - 台湾Hinet～广州移动 | 解锁流媒体
+      - 台湾-1号 | 解锁流媒体 2
+      - 台湾-2号 | 解锁流媒体 2
+      - 台湾-3号 | 解锁流媒体 2
+      - 台湾-广州移动负载均衡 | 解锁流媒体
+      - 台湾-广州移动2负载均衡 | 解锁流媒体
+      - 台湾-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-1号 | 解锁流媒体
+      - 日本NTT-2号 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 越南-1号 2
+      - 越南-2号 2
+      - 越南-3号 2
+      - 越南-4号 2
+      - 越南 | 广州移动
+      - 越南 | 广州移动2
+      - 越南 | 河南移动
+      - 台湾Hinet | 解锁流媒体 2
+      - 德国-广移双线负载均衡 | 解锁流媒体
+      - 德国-广移2双线负载均衡 | 解锁流媒体
+      - 德国-河移双线负载均衡 | 解锁流媒体
+      - "[LV1·解锁] 狮城01 | 中转"
+      - "[LV1·解锁] 狮城02 | 中转"
+      - "[LV1·解锁] 狮城03 | 中转"
+      - "[LV1·解锁] 狮城04 | 中转"
+      - "[LV1·解锁] 狮城05 | 中转"
+      - "[LV2·原生] 美国03 | 中转"
+      - "[LV2·原生] 美国04 | 中转"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港B1 | 中转"
+      - "[LV2·原生] 香港B2 | 中转"
+      - "[LV2·原生] 香港B3 | 中转"
+      - "[LV2·原生] 香港B4 | 中转"
+      - "[LV2·解锁] 日本01 | 中转"
+      - "[LV2·解锁] 日本02 | 中转"
+      - "[LV2·解锁] 日本03 | 中转"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
+      - "[LV1·解锁] 狮城01 | 中转 2"
+      - "[LV1·解锁] 狮城02 | 中转 2"
+      - "[LV1·解锁] 狮城03 | 中转 2"
+      - "[LV1·解锁] 狮城04 | 中转 2"
+      - "[LV1·解锁] 狮城05 | 中转 2"
+      - "[LV2·原生] 美国03 | 中转 2"
+      - "[LV2·原生] 美国04 | 中转 2"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港B1 | 中转 2"
+      - "[LV2·原生] 香港B2 | 中转 2"
+      - "[LV2·原生] 香港B3 | 中转 2"
+      - "[LV2·原生] 香港B4 | 中转 2"
+      - "[LV2·解锁] 日本01 | 中转 2"
+      - "[LV2·解锁] 日本02 | 中转 2"
+      - "[LV2·解锁] 日本03 | 中转 2"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x 2"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x 3"
+      - "[LV2·原生] 美国03 | 中转 3"
+      - "[LV2·原生] 美国04 | 中转 3"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港B1 | 中转 3"
+      - "[LV2·原生] 香港B2 | 中转 3"
+      - "[LV2·原生] 香港B3 | 中转 3"
+      - "[LV2·原生] 香港B4 | 中转 3"
+      - "[LV2·解锁] 日本01 | 中转 3"
+      - "[LV2·解锁] 日本02 | 中转 3"
+      - "[LV2·解锁] 日本03 | 中转 3"
+      - "[LV1·解锁] 狮城01 | 中转 3"
+      - "[LV1·解锁] 狮城02 | 中转 3"
+      - "[LV1·解锁] 狮城03 | 中转 3"
+      - "[LV1·解锁] 狮城04 | 中转 3"
+      - "[LV1·解锁] 狮城05 | 中转 3"
+      - "[LV1·解锁] 狮城01 | 中转 4"
+      - "[LV1·解锁] 狮城02 | 中转 4"
+      - "[LV1·解锁] 狮城03 | 中转 4"
+      - "[LV1·解锁] 狮城04 | 中转 4"
+      - "[LV1·解锁] 狮城05 | 中转 4"
+      - 香港#1 香港移动 1x
+      - 香港#1 广州移动 1x
+      - 香港-稳定奈飞#2 香港移动 1x
+      - 香港-稳定奈飞#2 广州移动 1x
+      - 台湾-解锁本地内容#1 香港移动 1x
+      - 台湾-解锁本地内容#1 广州移动 1x
+      - 香港-解锁奈飞(SG)#3 香港移动 1x
+      - 香港-解锁奈飞(SG)#3 广州移动 1x
+      - 新加坡#1 香港移动 1x
+      - 新加坡#1 广州移动 1x
+      - 美国#1 香港移动 1x
+      - 美国#1 广州移动 1x
+      - 俄罗斯#1 香港移动 1x
+      - 俄罗斯#1 广州移动 1x
+      - Telegram专用🖥️限速10M
+      - 香港#1 香港移动 1x 2
+      - 香港#1 广州移动 1x 2
+      - 香港-稳定奈飞#2 香港移动 1x 2
+      - 香港-稳定奈飞#2 广州移动 1x 2
+      - 台湾-解锁本地内容#1 香港移动 1x 2
+      - 台湾-解锁本地内容#1 广州移动 1x 2
+      - 香港-解锁奈飞(SG)#3 香港移动 1x 2
+      - 香港-解锁奈飞(SG)#3 广州移动 1x 2
+      - 新加坡#1 香港移动 1x 2
+      - 新加坡#1 广州移动 1x 2
+      - 美国#1 香港移动 1x 2
+      - 美国#1 广州移动 1x 2
+      - 俄罗斯#1 香港移动 1x 2
+      - 俄罗斯#1 广州移动 1x 2
+      - Telegram专用🖥️限速10M 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -280,275 +592,644 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国-1号
-      - 德国linode-广州移动2负载均衡(中转) | 解锁流媒体
-      - 德国linode-3号 | 解锁流媒体
+      - 台湾Hinet～广州移动(中转) | 解锁流媒体
       - 日本NTT-2号
-      - 韩国-2号
-      - Oracle新加坡-广移(中转)
-      - 美国圣何塞-1号 | 解锁流媒体
-      - 德国-1号 | 解锁流媒体
-      - Oracle日本东京-2号
-      - 越南-5号
-      - 日本
-      - 越南 | 广州移动2(中转)
-      - 美国-3号
-      - 韩国-广移2三线负载均衡(中转)
-      - Oracle迪拜-广移2三线负载均衡(中转)
-      - 德国linode-1号 | 解锁流媒体
-      - 韩国-4号
-      - 韩国-1号
-      - 日本NTT-1号
-      - 韩国-3号
-      - 德国linode-2号 | 解锁流媒体
-      - Oracle迪拜-1号(电信网优化)
-      - 台湾Hinet-2号线路 | 解锁流媒体
-      - 香港HGC～河南移动  (中转) | 解锁流媒体
-      - 韩国亚马逊-广移2三线负载均衡(中转) | 解锁流媒体
-      - 韩国亚马逊-广移三线负载均衡(中转) | 解锁流媒体
-      - 新加坡G-Core-广移四线负载均衡(中转) | 解锁流媒体
-      - 新加坡G-Core-广移2四线负载均衡(中转) | 解锁流媒体
-      - 美国-4号
-      - 韩国亚马逊-3号 | 解锁流媒体
-      - 越南-2号
-      - 德国-广州移动双线负载均衡(中转) | 解锁流媒体
-      - 香港HGC～广州移动2  (中转) | 解锁流媒体
-      - 越南 | 广州移动(中转)
-      - Oracle迪拜-河移三线负载均衡(中转)
-      - 韩国-河移三线负载均衡(中转)
-      - 美国圣何塞-河南移动负载均衡(中转) | 解锁流媒体
-      - Oracle迪拜-广移三线负载均衡(中转)
-      - 韩国亚马逊-2号 | 解锁流媒体
-      - 香港HGC-4号线路 | 解锁流媒体
-      - 德国linode-广州移动负载均衡(中转) | 解锁流媒体
-      - 美国圣何塞-广州移动2负载均衡(中转) | 解锁流媒体
-      - 美国-2号
-      - 越南 | 河南移动(中转)
-      - 日本NTT-河南移动 | (中转)
-      - 德国-广州移动2双线负载均衡(中转) | 解锁流媒体
-      - 德国linode-河南移动负载均衡(中转) | 解锁流媒体
-      - 德国-河南移动双线负载均衡(中转) | 解锁流媒体
-      - Oracle日本东京-河移三线负载均衡(中转)
-      - Oracle新加坡-广移2(中转)
-      - 台湾Hinet-1号线路(中转) | 解锁流媒体
-      - Oracle新加坡-河移(中转)
-      - 香港HGC-3号线路 | 解锁流媒体
-      - 韩国亚马逊-1号 | 解锁流媒体
-      - 香港HGC-2号线路 | 解锁流媒体
       - 日本NTT-广州移动 | (中转)
-      - 新加坡G-Core-河移四线负载均衡(中转) | 解锁流媒体
       - 日本NTT-广州移动2 | (中转)
-      - 香港HGC-1号线路(中转) | 解锁流媒体
-      - 韩国亚马逊-河移三线负载均衡(中转) | 解锁流媒体
+      - 日本NTT-河南移动 | (中转)
+      - 台湾-1号 | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 台湾-3号 | 解锁流媒体
+      - 台湾-广州移动负载均衡(中转) | 解锁流媒体
+      - 台湾-广州移动2负载均衡(中转) | 解锁流媒体
+      - 台湾-河南移动负载均衡(中转) | 解锁流媒体
+      - 越南-1号
+      - 越南-2号
+      - 越南-3号
+      - 越南-4号
+      - 越南 | 广州移动(中转)
+      - 越南 | 广州移动2(中转)
+      - 越南 | 河南移动(中转)
+      - 德国-1号 | 解锁流媒体
+      - 德国-广州移动双线负载均衡(中转) | 解锁流媒体
+      - 德国-广州移动2双线负载均衡(中转) | 解锁流媒体
+      - 德国-河南移动双线负载均衡(中转) | 解锁流媒体
+      - 台湾Hinet | 解锁流媒体
+      - 台湾Hinet～广州移动 | 解锁流媒体
+      - 台湾-1号 | 解锁流媒体 2
+      - 台湾-2号 | 解锁流媒体 2
+      - 台湾-3号 | 解锁流媒体 2
+      - 台湾-广州移动负载均衡 | 解锁流媒体
+      - 台湾-广州移动2负载均衡 | 解锁流媒体
+      - 台湾-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-1号 | 解锁流媒体
+      - 日本NTT-2号 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 越南-1号 2
+      - 越南-2号 2
+      - 越南-3号 2
+      - 越南-4号 2
+      - 越南 | 广州移动
+      - 越南 | 广州移动2
+      - 越南 | 河南移动
+      - 台湾Hinet | 解锁流媒体 2
+      - 德国-广移双线负载均衡 | 解锁流媒体
+      - 德国-广移2双线负载均衡 | 解锁流媒体
+      - 德国-河移双线负载均衡 | 解锁流媒体
+      - "[LV1·解锁] 狮城01 | 中转"
+      - "[LV1·解锁] 狮城02 | 中转"
+      - "[LV1·解锁] 狮城03 | 中转"
+      - "[LV1·解锁] 狮城04 | 中转"
+      - "[LV1·解锁] 狮城05 | 中转"
+      - "[LV2·原生] 美国03 | 中转"
+      - "[LV2·原生] 美国04 | 中转"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港B1 | 中转"
+      - "[LV2·原生] 香港B2 | 中转"
+      - "[LV2·原生] 香港B3 | 中转"
+      - "[LV2·原生] 香港B4 | 中转"
+      - "[LV2·解锁] 日本01 | 中转"
+      - "[LV2·解锁] 日本02 | 中转"
+      - "[LV2·解锁] 日本03 | 中转"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
+      - "[LV1·解锁] 狮城01 | 中转 2"
+      - "[LV1·解锁] 狮城02 | 中转 2"
+      - "[LV1·解锁] 狮城03 | 中转 2"
+      - "[LV1·解锁] 狮城04 | 中转 2"
+      - "[LV1·解锁] 狮城05 | 中转 2"
+      - "[LV2·原生] 美国03 | 中转 2"
+      - "[LV2·原生] 美国04 | 中转 2"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港B1 | 中转 2"
+      - "[LV2·原生] 香港B2 | 中转 2"
+      - "[LV2·原生] 香港B3 | 中转 2"
+      - "[LV2·原生] 香港B4 | 中转 2"
+      - "[LV2·解锁] 日本01 | 中转 2"
+      - "[LV2·解锁] 日本02 | 中转 2"
+      - "[LV2·解锁] 日本03 | 中转 2"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x 2"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x 3"
+      - "[LV2·原生] 美国03 | 中转 3"
+      - "[LV2·原生] 美国04 | 中转 3"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港B1 | 中转 3"
+      - "[LV2·原生] 香港B2 | 中转 3"
+      - "[LV2·原生] 香港B3 | 中转 3"
+      - "[LV2·原生] 香港B4 | 中转 3"
+      - "[LV2·解锁] 日本01 | 中转 3"
+      - "[LV2·解锁] 日本02 | 中转 3"
+      - "[LV2·解锁] 日本03 | 中转 3"
+      - "[LV1·解锁] 狮城01 | 中转 3"
+      - "[LV1·解锁] 狮城02 | 中转 3"
+      - "[LV1·解锁] 狮城03 | 中转 3"
+      - "[LV1·解锁] 狮城04 | 中转 3"
+      - "[LV1·解锁] 狮城05 | 中转 3"
+      - "[LV1·解锁] 狮城01 | 中转 4"
+      - "[LV1·解锁] 狮城02 | 中转 4"
+      - "[LV1·解锁] 狮城03 | 中转 4"
+      - "[LV1·解锁] 狮城04 | 中转 4"
+      - "[LV1·解锁] 狮城05 | 中转 4"
+      - 香港#1 香港移动 1x
+      - 香港#1 广州移动 1x
+      - 香港-稳定奈飞#2 香港移动 1x
+      - 香港-稳定奈飞#2 广州移动 1x
+      - 台湾-解锁本地内容#1 香港移动 1x
+      - 台湾-解锁本地内容#1 广州移动 1x
+      - 香港-解锁奈飞(SG)#3 香港移动 1x
+      - 香港-解锁奈飞(SG)#3 广州移动 1x
+      - 新加坡#1 香港移动 1x
+      - 新加坡#1 广州移动 1x
+      - 美国#1 香港移动 1x
+      - 美国#1 广州移动 1x
+      - 俄罗斯#1 香港移动 1x
+      - 俄罗斯#1 广州移动 1x
+      - Telegram专用🖥️限速10M
+      - 香港#1 香港移动 1x 2
+      - 香港#1 广州移动 1x 2
+      - 香港-稳定奈飞#2 香港移动 1x 2
+      - 香港-稳定奈飞#2 广州移动 1x 2
+      - 台湾-解锁本地内容#1 香港移动 1x 2
+      - 台湾-解锁本地内容#1 广州移动 1x 2
+      - 香港-解锁奈飞(SG)#3 香港移动 1x 2
+      - 香港-解锁奈飞(SG)#3 广州移动 1x 2
+      - 新加坡#1 香港移动 1x 2
+      - 新加坡#1 广州移动 1x 2
+      - 美国#1 香港移动 1x 2
+      - 美国#1 广州移动 1x 2
+      - 俄罗斯#1 香港移动 1x 2
+      - 俄罗斯#1 广州移动 1x 2
+      - Telegram专用🖥️限速10M 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾Hinet-2号线路 | 解锁流媒体
-      - 香港HGC～河南移动  (中转) | 解锁流媒体
-      - 香港HGC～广州移动2  (中转) | 解锁流媒体
-      - 香港HGC-4号线路 | 解锁流媒体
-      - 台湾Hinet-1号线路(中转) | 解锁流媒体
-      - 香港HGC-3号线路 | 解锁流媒体
-      - 香港HGC-2号线路 | 解锁流媒体
-      - 香港HGC-1号线路(中转) | 解锁流媒体
+      - 台湾Hinet～广州移动(中转) | 解锁流媒体
+      - 台湾-1号 | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 台湾-3号 | 解锁流媒体
+      - 台湾-广州移动负载均衡(中转) | 解锁流媒体
+      - 台湾-广州移动2负载均衡(中转) | 解锁流媒体
+      - 台湾-河南移动负载均衡(中转) | 解锁流媒体
+      - 台湾Hinet | 解锁流媒体
+      - 台湾Hinet～广州移动 | 解锁流媒体
+      - 台湾-1号 | 解锁流媒体 2
+      - 台湾-2号 | 解锁流媒体 2
+      - 台湾-3号 | 解锁流媒体 2
+      - 台湾-广州移动负载均衡 | 解锁流媒体
+      - 台湾-广州移动2负载均衡 | 解锁流媒体
+      - 台湾-河南移动负载均衡 | 解锁流媒体
+      - 台湾Hinet | 解锁流媒体 2
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港B1 | 中转"
+      - "[LV2·原生] 香港B2 | 中转"
+      - "[LV2·原生] 香港B3 | 中转"
+      - "[LV2·原生] 香港B4 | 中转"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港B1 | 中转 2"
+      - "[LV2·原生] 香港B2 | 中转 2"
+      - "[LV2·原生] 香港B3 | 中转 2"
+      - "[LV2·原生] 香港B4 | 中转 2"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x 2"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x 3"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港B1 | 中转 3"
+      - "[LV2·原生] 香港B2 | 中转 3"
+      - "[LV2·原生] 香港B3 | 中转 3"
+      - "[LV2·原生] 香港B4 | 中转 3"
+      - 香港#1 香港移动 1x
+      - 香港#1 广州移动 1x
+      - 香港-稳定奈飞#2 香港移动 1x
+      - 香港-稳定奈飞#2 广州移动 1x
+      - 台湾-解锁本地内容#1 香港移动 1x
+      - 台湾-解锁本地内容#1 广州移动 1x
+      - 香港-解锁奈飞(SG)#3 香港移动 1x
+      - 香港-解锁奈飞(SG)#3 广州移动 1x
+      - 新加坡#1 香港移动 1x
+      - 美国#1 香港移动 1x
+      - 俄罗斯#1 香港移动 1x
+      - 香港#1 香港移动 1x 2
+      - 香港#1 广州移动 1x 2
+      - 香港-稳定奈飞#2 香港移动 1x 2
+      - 香港-稳定奈飞#2 广州移动 1x 2
+      - 台湾-解锁本地内容#1 香港移动 1x 2
+      - 台湾-解锁本地内容#1 广州移动 1x 2
+      - 香港-解锁奈飞(SG)#3 香港移动 1x 2
+      - 香港-解锁奈飞(SG)#3 广州移动 1x 2
+      - 新加坡#1 香港移动 1x 2
+      - 美国#1 香港移动 1x 2
+      - 俄罗斯#1 香港移动 1x 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国-1号
-      - 德国linode-广州移动2负载均衡(中转) | 解锁流媒体
-      - 德国linode-3号 | 解锁流媒体
+      - 台湾Hinet～广州移动(中转) | 解锁流媒体
       - 日本NTT-2号
-      - 韩国-2号
-      - Oracle新加坡-广移(中转)
-      - 美国圣何塞-1号 | 解锁流媒体
-      - 德国-1号 | 解锁流媒体
-      - Oracle日本东京-2号
-      - 越南-5号
-      - 日本
-      - 越南 | 广州移动2(中转)
-      - 美国-3号
-      - 韩国-广移2三线负载均衡(中转)
-      - Oracle迪拜-广移2三线负载均衡(中转)
-      - 德国linode-1号 | 解锁流媒体
-      - 韩国-4号
-      - 韩国-1号
-      - 日本NTT-1号
-      - 韩国-3号
-      - 德国linode-2号 | 解锁流媒体
-      - Oracle迪拜-1号(电信网优化)
-      - 台湾Hinet-2号线路 | 解锁流媒体
-      - 香港HGC～河南移动  (中转) | 解锁流媒体
-      - 韩国亚马逊-广移2三线负载均衡(中转) | 解锁流媒体
-      - 韩国亚马逊-广移三线负载均衡(中转) | 解锁流媒体
-      - 新加坡G-Core-广移四线负载均衡(中转) | 解锁流媒体
-      - 新加坡G-Core-广移2四线负载均衡(中转) | 解锁流媒体
-      - 美国-4号
-      - 韩国亚马逊-3号 | 解锁流媒体
-      - 越南-2号
-      - 德国-广州移动双线负载均衡(中转) | 解锁流媒体
-      - 香港HGC～广州移动2  (中转) | 解锁流媒体
-      - 越南 | 广州移动(中转)
-      - Oracle迪拜-河移三线负载均衡(中转)
-      - 韩国-河移三线负载均衡(中转)
-      - 美国圣何塞-河南移动负载均衡(中转) | 解锁流媒体
-      - Oracle迪拜-广移三线负载均衡(中转)
-      - 韩国亚马逊-2号 | 解锁流媒体
-      - 香港HGC-4号线路 | 解锁流媒体
-      - 德国linode-广州移动负载均衡(中转) | 解锁流媒体
-      - 美国圣何塞-广州移动2负载均衡(中转) | 解锁流媒体
-      - 美国-2号
-      - 越南 | 河南移动(中转)
-      - 日本NTT-河南移动 | (中转)
-      - 德国-广州移动2双线负载均衡(中转) | 解锁流媒体
-      - 德国linode-河南移动负载均衡(中转) | 解锁流媒体
-      - 德国-河南移动双线负载均衡(中转) | 解锁流媒体
-      - Oracle日本东京-河移三线负载均衡(中转)
-      - Oracle新加坡-广移2(中转)
-      - 台湾Hinet-1号线路(中转) | 解锁流媒体
-      - Oracle新加坡-河移(中转)
-      - 香港HGC-3号线路 | 解锁流媒体
-      - 韩国亚马逊-1号 | 解锁流媒体
-      - 香港HGC-2号线路 | 解锁流媒体
       - 日本NTT-广州移动 | (中转)
-      - 新加坡G-Core-河移四线负载均衡(中转) | 解锁流媒体
       - 日本NTT-广州移动2 | (中转)
-      - 香港HGC-1号线路(中转) | 解锁流媒体
-      - 韩国亚马逊-河移三线负载均衡(中转) | 解锁流媒体
+      - 日本NTT-河南移动 | (中转)
+      - 台湾-1号 | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 台湾-3号 | 解锁流媒体
+      - 台湾-广州移动负载均衡(中转) | 解锁流媒体
+      - 台湾-广州移动2负载均衡(中转) | 解锁流媒体
+      - 台湾-河南移动负载均衡(中转) | 解锁流媒体
+      - 越南-1号
+      - 越南-2号
+      - 越南-3号
+      - 越南-4号
+      - 越南 | 广州移动(中转)
+      - 越南 | 广州移动2(中转)
+      - 越南 | 河南移动(中转)
+      - 德国-1号 | 解锁流媒体
+      - 德国-广州移动双线负载均衡(中转) | 解锁流媒体
+      - 德国-广州移动2双线负载均衡(中转) | 解锁流媒体
+      - 德国-河南移动双线负载均衡(中转) | 解锁流媒体
+      - 台湾Hinet | 解锁流媒体
+      - 台湾Hinet～广州移动 | 解锁流媒体
+      - 台湾-1号 | 解锁流媒体 2
+      - 台湾-2号 | 解锁流媒体 2
+      - 台湾-3号 | 解锁流媒体 2
+      - 台湾-广州移动负载均衡 | 解锁流媒体
+      - 台湾-广州移动2负载均衡 | 解锁流媒体
+      - 台湾-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-1号 | 解锁流媒体
+      - 日本NTT-2号 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 越南-1号 2
+      - 越南-2号 2
+      - 越南-3号 2
+      - 越南-4号 2
+      - 越南 | 广州移动
+      - 越南 | 广州移动2
+      - 越南 | 河南移动
+      - 台湾Hinet | 解锁流媒体 2
+      - 德国-广移双线负载均衡 | 解锁流媒体
+      - 德国-广移2双线负载均衡 | 解锁流媒体
+      - 德国-河移双线负载均衡 | 解锁流媒体
+      - "[LV1·解锁] 狮城01 | 中转"
+      - "[LV1·解锁] 狮城02 | 中转"
+      - "[LV1·解锁] 狮城03 | 中转"
+      - "[LV1·解锁] 狮城04 | 中转"
+      - "[LV1·解锁] 狮城05 | 中转"
+      - "[LV2·原生] 美国03 | 中转"
+      - "[LV2·原生] 美国04 | 中转"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港B1 | 中转"
+      - "[LV2·原生] 香港B2 | 中转"
+      - "[LV2·原生] 香港B3 | 中转"
+      - "[LV2·原生] 香港B4 | 中转"
+      - "[LV2·解锁] 日本01 | 中转"
+      - "[LV2·解锁] 日本02 | 中转"
+      - "[LV2·解锁] 日本03 | 中转"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
+      - "[LV1·解锁] 狮城01 | 中转 2"
+      - "[LV1·解锁] 狮城02 | 中转 2"
+      - "[LV1·解锁] 狮城03 | 中转 2"
+      - "[LV1·解锁] 狮城04 | 中转 2"
+      - "[LV1·解锁] 狮城05 | 中转 2"
+      - "[LV2·原生] 美国03 | 中转 2"
+      - "[LV2·原生] 美国04 | 中转 2"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港B1 | 中转 2"
+      - "[LV2·原生] 香港B2 | 中转 2"
+      - "[LV2·原生] 香港B3 | 中转 2"
+      - "[LV2·原生] 香港B4 | 中转 2"
+      - "[LV2·解锁] 日本01 | 中转 2"
+      - "[LV2·解锁] 日本02 | 中转 2"
+      - "[LV2·解锁] 日本03 | 中转 2"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x 2"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x 3"
+      - "[LV2·原生] 美国03 | 中转 3"
+      - "[LV2·原生] 美国04 | 中转 3"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港B1 | 中转 3"
+      - "[LV2·原生] 香港B2 | 中转 3"
+      - "[LV2·原生] 香港B3 | 中转 3"
+      - "[LV2·原生] 香港B4 | 中转 3"
+      - "[LV2·解锁] 日本01 | 中转 3"
+      - "[LV2·解锁] 日本02 | 中转 3"
+      - "[LV2·解锁] 日本03 | 中转 3"
+      - "[LV1·解锁] 狮城01 | 中转 3"
+      - "[LV1·解锁] 狮城02 | 中转 3"
+      - "[LV1·解锁] 狮城03 | 中转 3"
+      - "[LV1·解锁] 狮城04 | 中转 3"
+      - "[LV1·解锁] 狮城05 | 中转 3"
+      - "[LV1·解锁] 狮城01 | 中转 4"
+      - "[LV1·解锁] 狮城02 | 中转 4"
+      - "[LV1·解锁] 狮城03 | 中转 4"
+      - "[LV1·解锁] 狮城04 | 中转 4"
+      - "[LV1·解锁] 狮城05 | 中转 4"
+      - 香港#1 香港移动 1x
+      - 香港#1 广州移动 1x
+      - 香港-稳定奈飞#2 香港移动 1x
+      - 香港-稳定奈飞#2 广州移动 1x
+      - 台湾-解锁本地内容#1 香港移动 1x
+      - 台湾-解锁本地内容#1 广州移动 1x
+      - 香港-解锁奈飞(SG)#3 香港移动 1x
+      - 香港-解锁奈飞(SG)#3 广州移动 1x
+      - 新加坡#1 香港移动 1x
+      - 新加坡#1 广州移动 1x
+      - 美国#1 香港移动 1x
+      - 美国#1 广州移动 1x
+      - 俄罗斯#1 香港移动 1x
+      - 俄罗斯#1 广州移动 1x
+      - Telegram专用🖥️限速10M
+      - 香港#1 香港移动 1x 2
+      - 香港#1 广州移动 1x 2
+      - 香港-稳定奈飞#2 香港移动 1x 2
+      - 香港-稳定奈飞#2 广州移动 1x 2
+      - 台湾-解锁本地内容#1 香港移动 1x 2
+      - 台湾-解锁本地内容#1 广州移动 1x 2
+      - 香港-解锁奈飞(SG)#3 香港移动 1x 2
+      - 香港-解锁奈飞(SG)#3 广州移动 1x 2
+      - 新加坡#1 香港移动 1x 2
+      - 新加坡#1 广州移动 1x 2
+      - 美国#1 香港移动 1x 2
+      - 美国#1 广州移动 1x 2
+      - 俄罗斯#1 香港移动 1x 2
+      - 俄罗斯#1 广州移动 1x 2
+      - Telegram专用🖥️限速10M 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国-1号
-      - 德国linode-广州移动2负载均衡(中转) | 解锁流媒体
-      - 德国linode-3号 | 解锁流媒体
+      - 台湾Hinet～广州移动(中转) | 解锁流媒体
       - 日本NTT-2号
-      - 韩国-2号
-      - Oracle新加坡-广移(中转)
-      - 美国圣何塞-1号 | 解锁流媒体
-      - 德国-1号 | 解锁流媒体
-      - Oracle日本东京-2号
-      - 越南-5号
-      - 日本
-      - 越南 | 广州移动2(中转)
-      - 美国-3号
-      - 韩国-广移2三线负载均衡(中转)
-      - Oracle迪拜-广移2三线负载均衡(中转)
-      - 德国linode-1号 | 解锁流媒体
-      - 韩国-4号
-      - 韩国-1号
-      - 日本NTT-1号
-      - 韩国-3号
-      - 德国linode-2号 | 解锁流媒体
-      - Oracle迪拜-1号(电信网优化)
-      - 台湾Hinet-2号线路 | 解锁流媒体
-      - 香港HGC～河南移动  (中转) | 解锁流媒体
-      - 韩国亚马逊-广移2三线负载均衡(中转) | 解锁流媒体
-      - 韩国亚马逊-广移三线负载均衡(中转) | 解锁流媒体
-      - 新加坡G-Core-广移四线负载均衡(中转) | 解锁流媒体
-      - 新加坡G-Core-广移2四线负载均衡(中转) | 解锁流媒体
-      - 美国-4号
-      - 韩国亚马逊-3号 | 解锁流媒体
-      - 越南-2号
-      - 德国-广州移动双线负载均衡(中转) | 解锁流媒体
-      - 香港HGC～广州移动2  (中转) | 解锁流媒体
-      - 越南 | 广州移动(中转)
-      - Oracle迪拜-河移三线负载均衡(中转)
-      - 韩国-河移三线负载均衡(中转)
-      - 美国圣何塞-河南移动负载均衡(中转) | 解锁流媒体
-      - Oracle迪拜-广移三线负载均衡(中转)
-      - 韩国亚马逊-2号 | 解锁流媒体
-      - 香港HGC-4号线路 | 解锁流媒体
-      - 德国linode-广州移动负载均衡(中转) | 解锁流媒体
-      - 美国圣何塞-广州移动2负载均衡(中转) | 解锁流媒体
-      - 美国-2号
-      - 越南 | 河南移动(中转)
-      - 日本NTT-河南移动 | (中转)
-      - 德国-广州移动2双线负载均衡(中转) | 解锁流媒体
-      - 德国linode-河南移动负载均衡(中转) | 解锁流媒体
-      - 德国-河南移动双线负载均衡(中转) | 解锁流媒体
-      - Oracle日本东京-河移三线负载均衡(中转)
-      - Oracle新加坡-广移2(中转)
-      - 台湾Hinet-1号线路(中转) | 解锁流媒体
-      - Oracle新加坡-河移(中转)
-      - 香港HGC-3号线路 | 解锁流媒体
-      - 韩国亚马逊-1号 | 解锁流媒体
-      - 香港HGC-2号线路 | 解锁流媒体
       - 日本NTT-广州移动 | (中转)
-      - 新加坡G-Core-河移四线负载均衡(中转) | 解锁流媒体
       - 日本NTT-广州移动2 | (中转)
-      - 香港HGC-1号线路(中转) | 解锁流媒体
-      - 韩国亚马逊-河移三线负载均衡(中转) | 解锁流媒体
+      - 日本NTT-河南移动 | (中转)
+      - 台湾-1号 | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 台湾-3号 | 解锁流媒体
+      - 台湾-广州移动负载均衡(中转) | 解锁流媒体
+      - 台湾-广州移动2负载均衡(中转) | 解锁流媒体
+      - 台湾-河南移动负载均衡(中转) | 解锁流媒体
+      - 越南-1号
+      - 越南-2号
+      - 越南-3号
+      - 越南-4号
+      - 越南 | 广州移动(中转)
+      - 越南 | 广州移动2(中转)
+      - 越南 | 河南移动(中转)
+      - 德国-1号 | 解锁流媒体
+      - 德国-广州移动双线负载均衡(中转) | 解锁流媒体
+      - 德国-广州移动2双线负载均衡(中转) | 解锁流媒体
+      - 德国-河南移动双线负载均衡(中转) | 解锁流媒体
+      - 台湾Hinet | 解锁流媒体
+      - 台湾Hinet～广州移动 | 解锁流媒体
+      - 台湾-1号 | 解锁流媒体 2
+      - 台湾-2号 | 解锁流媒体 2
+      - 台湾-3号 | 解锁流媒体 2
+      - 台湾-广州移动负载均衡 | 解锁流媒体
+      - 台湾-广州移动2负载均衡 | 解锁流媒体
+      - 台湾-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-1号 | 解锁流媒体
+      - 日本NTT-2号 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 越南-1号 2
+      - 越南-2号 2
+      - 越南-3号 2
+      - 越南-4号 2
+      - 越南 | 广州移动
+      - 越南 | 广州移动2
+      - 越南 | 河南移动
+      - 台湾Hinet | 解锁流媒体 2
+      - 德国-广移双线负载均衡 | 解锁流媒体
+      - 德国-广移2双线负载均衡 | 解锁流媒体
+      - 德国-河移双线负载均衡 | 解锁流媒体
+      - "[LV1·解锁] 狮城01 | 中转"
+      - "[LV1·解锁] 狮城02 | 中转"
+      - "[LV1·解锁] 狮城03 | 中转"
+      - "[LV1·解锁] 狮城04 | 中转"
+      - "[LV1·解锁] 狮城05 | 中转"
+      - "[LV2·原生] 美国03 | 中转"
+      - "[LV2·原生] 美国04 | 中转"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港B1 | 中转"
+      - "[LV2·原生] 香港B2 | 中转"
+      - "[LV2·原生] 香港B3 | 中转"
+      - "[LV2·原生] 香港B4 | 中转"
+      - "[LV2·解锁] 日本01 | 中转"
+      - "[LV2·解锁] 日本02 | 中转"
+      - "[LV2·解锁] 日本03 | 中转"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
+      - "[LV1·解锁] 狮城01 | 中转 2"
+      - "[LV1·解锁] 狮城02 | 中转 2"
+      - "[LV1·解锁] 狮城03 | 中转 2"
+      - "[LV1·解锁] 狮城04 | 中转 2"
+      - "[LV1·解锁] 狮城05 | 中转 2"
+      - "[LV2·原生] 美国03 | 中转 2"
+      - "[LV2·原生] 美国04 | 中转 2"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港B1 | 中转 2"
+      - "[LV2·原生] 香港B2 | 中转 2"
+      - "[LV2·原生] 香港B3 | 中转 2"
+      - "[LV2·原生] 香港B4 | 中转 2"
+      - "[LV2·解锁] 日本01 | 中转 2"
+      - "[LV2·解锁] 日本02 | 中转 2"
+      - "[LV2·解锁] 日本03 | 中转 2"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x 2"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x 3"
+      - "[LV2·原生] 美国03 | 中转 3"
+      - "[LV2·原生] 美国04 | 中转 3"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港B1 | 中转 3"
+      - "[LV2·原生] 香港B2 | 中转 3"
+      - "[LV2·原生] 香港B3 | 中转 3"
+      - "[LV2·原生] 香港B4 | 中转 3"
+      - "[LV2·解锁] 日本01 | 中转 3"
+      - "[LV2·解锁] 日本02 | 中转 3"
+      - "[LV2·解锁] 日本03 | 中转 3"
+      - "[LV1·解锁] 狮城01 | 中转 3"
+      - "[LV1·解锁] 狮城02 | 中转 3"
+      - "[LV1·解锁] 狮城03 | 中转 3"
+      - "[LV1·解锁] 狮城04 | 中转 3"
+      - "[LV1·解锁] 狮城05 | 中转 3"
+      - "[LV1·解锁] 狮城01 | 中转 4"
+      - "[LV1·解锁] 狮城02 | 中转 4"
+      - "[LV1·解锁] 狮城03 | 中转 4"
+      - "[LV1·解锁] 狮城04 | 中转 4"
+      - "[LV1·解锁] 狮城05 | 中转 4"
+      - 香港#1 香港移动 1x
+      - 香港#1 广州移动 1x
+      - 香港-稳定奈飞#2 香港移动 1x
+      - 香港-稳定奈飞#2 广州移动 1x
+      - 台湾-解锁本地内容#1 香港移动 1x
+      - 台湾-解锁本地内容#1 广州移动 1x
+      - 香港-解锁奈飞(SG)#3 香港移动 1x
+      - 香港-解锁奈飞(SG)#3 广州移动 1x
+      - 新加坡#1 香港移动 1x
+      - 新加坡#1 广州移动 1x
+      - 美国#1 香港移动 1x
+      - 美国#1 广州移动 1x
+      - 俄罗斯#1 香港移动 1x
+      - 俄罗斯#1 广州移动 1x
+      - Telegram专用🖥️限速10M
+      - 香港#1 香港移动 1x 2
+      - 香港#1 广州移动 1x 2
+      - 香港-稳定奈飞#2 香港移动 1x 2
+      - 香港-稳定奈飞#2 广州移动 1x 2
+      - 台湾-解锁本地内容#1 香港移动 1x 2
+      - 台湾-解锁本地内容#1 广州移动 1x 2
+      - 香港-解锁奈飞(SG)#3 香港移动 1x 2
+      - 香港-解锁奈飞(SG)#3 广州移动 1x 2
+      - 新加坡#1 香港移动 1x 2
+      - 新加坡#1 广州移动 1x 2
+      - 美国#1 香港移动 1x 2
+      - 美国#1 广州移动 1x 2
+      - 俄罗斯#1 香港移动 1x 2
+      - 俄罗斯#1 广州移动 1x 2
+      - Telegram专用🖥️限速10M 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国-1号
-      - 德国linode-广州移动2负载均衡(中转) | 解锁流媒体
-      - 德国linode-3号 | 解锁流媒体
+      - 台湾Hinet～广州移动(中转) | 解锁流媒体
       - 日本NTT-2号
-      - 韩国-2号
-      - Oracle新加坡-广移(中转)
-      - 美国圣何塞-1号 | 解锁流媒体
-      - 德国-1号 | 解锁流媒体
-      - Oracle日本东京-2号
-      - 越南-5号
-      - 日本
-      - 越南 | 广州移动2(中转)
-      - 美国-3号
-      - 韩国-广移2三线负载均衡(中转)
-      - Oracle迪拜-广移2三线负载均衡(中转)
-      - 德国linode-1号 | 解锁流媒体
-      - 韩国-4号
-      - 韩国-1号
-      - 日本NTT-1号
-      - 韩国-3号
-      - 德国linode-2号 | 解锁流媒体
-      - Oracle迪拜-1号(电信网优化)
-      - 台湾Hinet-2号线路 | 解锁流媒体
-      - 香港HGC～河南移动  (中转) | 解锁流媒体
-      - 韩国亚马逊-广移2三线负载均衡(中转) | 解锁流媒体
-      - 韩国亚马逊-广移三线负载均衡(中转) | 解锁流媒体
-      - 新加坡G-Core-广移四线负载均衡(中转) | 解锁流媒体
-      - 新加坡G-Core-广移2四线负载均衡(中转) | 解锁流媒体
-      - 美国-4号
-      - 韩国亚马逊-3号 | 解锁流媒体
-      - 越南-2号
-      - 德国-广州移动双线负载均衡(中转) | 解锁流媒体
-      - 香港HGC～广州移动2  (中转) | 解锁流媒体
-      - 越南 | 广州移动(中转)
-      - Oracle迪拜-河移三线负载均衡(中转)
-      - 韩国-河移三线负载均衡(中转)
-      - 美国圣何塞-河南移动负载均衡(中转) | 解锁流媒体
-      - Oracle迪拜-广移三线负载均衡(中转)
-      - 韩国亚马逊-2号 | 解锁流媒体
-      - 香港HGC-4号线路 | 解锁流媒体
-      - 德国linode-广州移动负载均衡(中转) | 解锁流媒体
-      - 美国圣何塞-广州移动2负载均衡(中转) | 解锁流媒体
-      - 美国-2号
-      - 越南 | 河南移动(中转)
-      - 日本NTT-河南移动 | (中转)
-      - 德国-广州移动2双线负载均衡(中转) | 解锁流媒体
-      - 德国linode-河南移动负载均衡(中转) | 解锁流媒体
-      - 德国-河南移动双线负载均衡(中转) | 解锁流媒体
-      - Oracle日本东京-河移三线负载均衡(中转)
-      - Oracle新加坡-广移2(中转)
-      - 台湾Hinet-1号线路(中转) | 解锁流媒体
-      - Oracle新加坡-河移(中转)
-      - 香港HGC-3号线路 | 解锁流媒体
-      - 韩国亚马逊-1号 | 解锁流媒体
-      - 香港HGC-2号线路 | 解锁流媒体
       - 日本NTT-广州移动 | (中转)
-      - 新加坡G-Core-河移四线负载均衡(中转) | 解锁流媒体
       - 日本NTT-广州移动2 | (中转)
-      - 香港HGC-1号线路(中转) | 解锁流媒体
-      - 韩国亚马逊-河移三线负载均衡(中转) | 解锁流媒体
+      - 日本NTT-河南移动 | (中转)
+      - 台湾-1号 | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 台湾-3号 | 解锁流媒体
+      - 台湾-广州移动负载均衡(中转) | 解锁流媒体
+      - 台湾-广州移动2负载均衡(中转) | 解锁流媒体
+      - 台湾-河南移动负载均衡(中转) | 解锁流媒体
+      - 越南-1号
+      - 越南-2号
+      - 越南-3号
+      - 越南-4号
+      - 越南 | 广州移动(中转)
+      - 越南 | 广州移动2(中转)
+      - 越南 | 河南移动(中转)
+      - 德国-1号 | 解锁流媒体
+      - 德国-广州移动双线负载均衡(中转) | 解锁流媒体
+      - 德国-广州移动2双线负载均衡(中转) | 解锁流媒体
+      - 德国-河南移动双线负载均衡(中转) | 解锁流媒体
+      - 台湾Hinet | 解锁流媒体
+      - 台湾Hinet～广州移动 | 解锁流媒体
+      - 台湾-1号 | 解锁流媒体 2
+      - 台湾-2号 | 解锁流媒体 2
+      - 台湾-3号 | 解锁流媒体 2
+      - 台湾-广州移动负载均衡 | 解锁流媒体
+      - 台湾-广州移动2负载均衡 | 解锁流媒体
+      - 台湾-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-1号 | 解锁流媒体
+      - 日本NTT-2号 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 越南-1号 2
+      - 越南-2号 2
+      - 越南-3号 2
+      - 越南-4号 2
+      - 越南 | 广州移动
+      - 越南 | 广州移动2
+      - 越南 | 河南移动
+      - 台湾Hinet | 解锁流媒体 2
+      - 德国-广移双线负载均衡 | 解锁流媒体
+      - 德国-广移2双线负载均衡 | 解锁流媒体
+      - 德国-河移双线负载均衡 | 解锁流媒体
+      - "[LV1·解锁] 狮城01 | 中转"
+      - "[LV1·解锁] 狮城02 | 中转"
+      - "[LV1·解锁] 狮城03 | 中转"
+      - "[LV1·解锁] 狮城04 | 中转"
+      - "[LV1·解锁] 狮城05 | 中转"
+      - "[LV2·原生] 美国03 | 中转"
+      - "[LV2·原生] 美国04 | 中转"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港B1 | 中转"
+      - "[LV2·原生] 香港B2 | 中转"
+      - "[LV2·原生] 香港B3 | 中转"
+      - "[LV2·原生] 香港B4 | 中转"
+      - "[LV2·解锁] 日本01 | 中转"
+      - "[LV2·解锁] 日本02 | 中转"
+      - "[LV2·解锁] 日本03 | 中转"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
+      - "[LV1·解锁] 狮城01 | 中转 2"
+      - "[LV1·解锁] 狮城02 | 中转 2"
+      - "[LV1·解锁] 狮城03 | 中转 2"
+      - "[LV1·解锁] 狮城04 | 中转 2"
+      - "[LV1·解锁] 狮城05 | 中转 2"
+      - "[LV2·原生] 美国03 | 中转 2"
+      - "[LV2·原生] 美国04 | 中转 2"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港B1 | 中转 2"
+      - "[LV2·原生] 香港B2 | 中转 2"
+      - "[LV2·原生] 香港B3 | 中转 2"
+      - "[LV2·原生] 香港B4 | 中转 2"
+      - "[LV2·解锁] 日本01 | 中转 2"
+      - "[LV2·解锁] 日本02 | 中转 2"
+      - "[LV2·解锁] 日本03 | 中转 2"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x 2"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x 3"
+      - "[LV2·原生] 美国03 | 中转 3"
+      - "[LV2·原生] 美国04 | 中转 3"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港B1 | 中转 3"
+      - "[LV2·原生] 香港B2 | 中转 3"
+      - "[LV2·原生] 香港B3 | 中转 3"
+      - "[LV2·原生] 香港B4 | 中转 3"
+      - "[LV2·解锁] 日本01 | 中转 3"
+      - "[LV2·解锁] 日本02 | 中转 3"
+      - "[LV2·解锁] 日本03 | 中转 3"
+      - "[LV1·解锁] 狮城01 | 中转 3"
+      - "[LV1·解锁] 狮城02 | 中转 3"
+      - "[LV1·解锁] 狮城03 | 中转 3"
+      - "[LV1·解锁] 狮城04 | 中转 3"
+      - "[LV1·解锁] 狮城05 | 中转 3"
+      - "[LV1·解锁] 狮城01 | 中转 4"
+      - "[LV1·解锁] 狮城02 | 中转 4"
+      - "[LV1·解锁] 狮城03 | 中转 4"
+      - "[LV1·解锁] 狮城04 | 中转 4"
+      - "[LV1·解锁] 狮城05 | 中转 4"
+      - 香港#1 香港移动 1x
+      - 香港#1 广州移动 1x
+      - 香港-稳定奈飞#2 香港移动 1x
+      - 香港-稳定奈飞#2 广州移动 1x
+      - 台湾-解锁本地内容#1 香港移动 1x
+      - 台湾-解锁本地内容#1 广州移动 1x
+      - 香港-解锁奈飞(SG)#3 香港移动 1x
+      - 香港-解锁奈飞(SG)#3 广州移动 1x
+      - 新加坡#1 香港移动 1x
+      - 新加坡#1 广州移动 1x
+      - 美国#1 香港移动 1x
+      - 美国#1 广州移动 1x
+      - 俄罗斯#1 香港移动 1x
+      - 俄罗斯#1 广州移动 1x
+      - Telegram专用🖥️限速10M
+      - 香港#1 香港移动 1x 2
+      - 香港#1 广州移动 1x 2
+      - 香港-稳定奈飞#2 香港移动 1x 2
+      - 香港-稳定奈飞#2 广州移动 1x 2
+      - 台湾-解锁本地内容#1 香港移动 1x 2
+      - 台湾-解锁本地内容#1 广州移动 1x 2
+      - 香港-解锁奈飞(SG)#3 香港移动 1x 2
+      - 香港-解锁奈飞(SG)#3 广州移动 1x 2
+      - 新加坡#1 香港移动 1x 2
+      - 新加坡#1 广州移动 1x 2
+      - 美国#1 香港移动 1x 2
+      - 美国#1 广州移动 1x 2
+      - 俄罗斯#1 香港移动 1x 2
+      - 俄罗斯#1 广州移动 1x 2
+      - Telegram专用🖥️限速10M 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -564,66 +1245,144 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国-1号
-      - 德国linode-广州移动2负载均衡(中转) | 解锁流媒体
-      - 德国linode-3号 | 解锁流媒体
+      - 台湾Hinet～广州移动(中转) | 解锁流媒体
       - 日本NTT-2号
-      - 韩国-2号
-      - Oracle新加坡-广移(中转)
-      - 美国圣何塞-1号 | 解锁流媒体
-      - 德国-1号 | 解锁流媒体
-      - Oracle日本东京-2号
-      - 越南-5号
-      - 日本
-      - 越南 | 广州移动2(中转)
-      - 美国-3号
-      - 韩国-广移2三线负载均衡(中转)
-      - Oracle迪拜-广移2三线负载均衡(中转)
-      - 德国linode-1号 | 解锁流媒体
-      - 韩国-4号
-      - 韩国-1号
-      - 日本NTT-1号
-      - 韩国-3号
-      - 德国linode-2号 | 解锁流媒体
-      - Oracle迪拜-1号(电信网优化)
-      - 台湾Hinet-2号线路 | 解锁流媒体
-      - 香港HGC～河南移动  (中转) | 解锁流媒体
-      - 韩国亚马逊-广移2三线负载均衡(中转) | 解锁流媒体
-      - 韩国亚马逊-广移三线负载均衡(中转) | 解锁流媒体
-      - 新加坡G-Core-广移四线负载均衡(中转) | 解锁流媒体
-      - 新加坡G-Core-广移2四线负载均衡(中转) | 解锁流媒体
-      - 美国-4号
-      - 韩国亚马逊-3号 | 解锁流媒体
-      - 越南-2号
-      - 德国-广州移动双线负载均衡(中转) | 解锁流媒体
-      - 香港HGC～广州移动2  (中转) | 解锁流媒体
-      - 越南 | 广州移动(中转)
-      - Oracle迪拜-河移三线负载均衡(中转)
-      - 韩国-河移三线负载均衡(中转)
-      - 美国圣何塞-河南移动负载均衡(中转) | 解锁流媒体
-      - Oracle迪拜-广移三线负载均衡(中转)
-      - 韩国亚马逊-2号 | 解锁流媒体
-      - 香港HGC-4号线路 | 解锁流媒体
-      - 德国linode-广州移动负载均衡(中转) | 解锁流媒体
-      - 美国圣何塞-广州移动2负载均衡(中转) | 解锁流媒体
-      - 美国-2号
-      - 越南 | 河南移动(中转)
-      - 日本NTT-河南移动 | (中转)
-      - 德国-广州移动2双线负载均衡(中转) | 解锁流媒体
-      - 德国linode-河南移动负载均衡(中转) | 解锁流媒体
-      - 德国-河南移动双线负载均衡(中转) | 解锁流媒体
-      - Oracle日本东京-河移三线负载均衡(中转)
-      - Oracle新加坡-广移2(中转)
-      - 台湾Hinet-1号线路(中转) | 解锁流媒体
-      - Oracle新加坡-河移(中转)
-      - 香港HGC-3号线路 | 解锁流媒体
-      - 韩国亚马逊-1号 | 解锁流媒体
-      - 香港HGC-2号线路 | 解锁流媒体
       - 日本NTT-广州移动 | (中转)
-      - 新加坡G-Core-河移四线负载均衡(中转) | 解锁流媒体
       - 日本NTT-广州移动2 | (中转)
-      - 香港HGC-1号线路(中转) | 解锁流媒体
-      - 韩国亚马逊-河移三线负载均衡(中转) | 解锁流媒体
+      - 日本NTT-河南移动 | (中转)
+      - 台湾-1号 | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 台湾-3号 | 解锁流媒体
+      - 台湾-广州移动负载均衡(中转) | 解锁流媒体
+      - 台湾-广州移动2负载均衡(中转) | 解锁流媒体
+      - 台湾-河南移动负载均衡(中转) | 解锁流媒体
+      - 越南-1号
+      - 越南-2号
+      - 越南-3号
+      - 越南-4号
+      - 越南 | 广州移动(中转)
+      - 越南 | 广州移动2(中转)
+      - 越南 | 河南移动(中转)
+      - 德国-1号 | 解锁流媒体
+      - 德国-广州移动双线负载均衡(中转) | 解锁流媒体
+      - 德国-广州移动2双线负载均衡(中转) | 解锁流媒体
+      - 德国-河南移动双线负载均衡(中转) | 解锁流媒体
+      - 台湾Hinet | 解锁流媒体
+      - 台湾Hinet～广州移动 | 解锁流媒体
+      - 台湾-1号 | 解锁流媒体 2
+      - 台湾-2号 | 解锁流媒体 2
+      - 台湾-3号 | 解锁流媒体 2
+      - 台湾-广州移动负载均衡 | 解锁流媒体
+      - 台湾-广州移动2负载均衡 | 解锁流媒体
+      - 台湾-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-1号 | 解锁流媒体
+      - 日本NTT-2号 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 越南-1号 2
+      - 越南-2号 2
+      - 越南-3号 2
+      - 越南-4号 2
+      - 越南 | 广州移动
+      - 越南 | 广州移动2
+      - 越南 | 河南移动
+      - 台湾Hinet | 解锁流媒体 2
+      - 德国-广移双线负载均衡 | 解锁流媒体
+      - 德国-广移2双线负载均衡 | 解锁流媒体
+      - 德国-河移双线负载均衡 | 解锁流媒体
+      - "[LV1·解锁] 狮城01 | 中转"
+      - "[LV1·解锁] 狮城02 | 中转"
+      - "[LV1·解锁] 狮城03 | 中转"
+      - "[LV1·解锁] 狮城04 | 中转"
+      - "[LV1·解锁] 狮城05 | 中转"
+      - "[LV2·原生] 美国03 | 中转"
+      - "[LV2·原生] 美国04 | 中转"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港B1 | 中转"
+      - "[LV2·原生] 香港B2 | 中转"
+      - "[LV2·原生] 香港B3 | 中转"
+      - "[LV2·原生] 香港B4 | 中转"
+      - "[LV2·解锁] 日本01 | 中转"
+      - "[LV2·解锁] 日本02 | 中转"
+      - "[LV2·解锁] 日本03 | 中转"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
+      - "[LV1·解锁] 狮城01 | 中转 2"
+      - "[LV1·解锁] 狮城02 | 中转 2"
+      - "[LV1·解锁] 狮城03 | 中转 2"
+      - "[LV1·解锁] 狮城04 | 中转 2"
+      - "[LV1·解锁] 狮城05 | 中转 2"
+      - "[LV2·原生] 美国03 | 中转 2"
+      - "[LV2·原生] 美国04 | 中转 2"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 2"
+      - "[LV2·原生] 香港B1 | 中转 2"
+      - "[LV2·原生] 香港B2 | 中转 2"
+      - "[LV2·原生] 香港B3 | 中转 2"
+      - "[LV2·原生] 香港B4 | 中转 2"
+      - "[LV2·解锁] 日本01 | 中转 2"
+      - "[LV2·解锁] 日本02 | 中转 2"
+      - "[LV2·解锁] 日本03 | 中转 2"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x 2"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x 3"
+      - "[LV2·原生] 美国03 | 中转 3"
+      - "[LV2·原生] 美国04 | 中转 3"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 3"
+      - "[LV2·原生] 香港B1 | 中转 3"
+      - "[LV2·原生] 香港B2 | 中转 3"
+      - "[LV2·原生] 香港B3 | 中转 3"
+      - "[LV2·原生] 香港B4 | 中转 3"
+      - "[LV2·解锁] 日本01 | 中转 3"
+      - "[LV2·解锁] 日本02 | 中转 3"
+      - "[LV2·解锁] 日本03 | 中转 3"
+      - "[LV1·解锁] 狮城01 | 中转 3"
+      - "[LV1·解锁] 狮城02 | 中转 3"
+      - "[LV1·解锁] 狮城03 | 中转 3"
+      - "[LV1·解锁] 狮城04 | 中转 3"
+      - "[LV1·解锁] 狮城05 | 中转 3"
+      - "[LV1·解锁] 狮城01 | 中转 4"
+      - "[LV1·解锁] 狮城02 | 中转 4"
+      - "[LV1·解锁] 狮城03 | 中转 4"
+      - "[LV1·解锁] 狮城04 | 中转 4"
+      - "[LV1·解锁] 狮城05 | 中转 4"
+      - 香港#1 香港移动 1x
+      - 香港#1 广州移动 1x
+      - 香港-稳定奈飞#2 香港移动 1x
+      - 香港-稳定奈飞#2 广州移动 1x
+      - 台湾-解锁本地内容#1 香港移动 1x
+      - 台湾-解锁本地内容#1 广州移动 1x
+      - 香港-解锁奈飞(SG)#3 香港移动 1x
+      - 香港-解锁奈飞(SG)#3 广州移动 1x
+      - 新加坡#1 香港移动 1x
+      - 新加坡#1 广州移动 1x
+      - 美国#1 香港移动 1x
+      - 美国#1 广州移动 1x
+      - 俄罗斯#1 香港移动 1x
+      - 俄罗斯#1 广州移动 1x
+      - Telegram专用🖥️限速10M
+      - 香港#1 香港移动 1x 2
+      - 香港#1 广州移动 1x 2
+      - 香港-稳定奈飞#2 香港移动 1x 2
+      - 香港-稳定奈飞#2 广州移动 1x 2
+      - 台湾-解锁本地内容#1 香港移动 1x 2
+      - 台湾-解锁本地内容#1 广州移动 1x 2
+      - 香港-解锁奈飞(SG)#3 香港移动 1x 2
+      - 香港-解锁奈飞(SG)#3 广州移动 1x 2
+      - 新加坡#1 香港移动 1x 2
+      - 新加坡#1 广州移动 1x 2
+      - 美国#1 香港移动 1x 2
+      - 美国#1 广州移动 1x 2
+      - 俄罗斯#1 香港移动 1x 2
+      - 俄罗斯#1 广州移动 1x 2
+      - Telegram专用🖥️限速10M 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
