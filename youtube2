@@ -5,511 +5,107 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: v2|香港01|MPTCP|★★★, server: 0r9dtk2cfiv9dicy1quj9cz14ackgdpbopxveqyu.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsyzamm3sc4i.sina.cn}, udp: true}
-  - {name: v2|香港02|MPTCP|★★★, server: raccbp3uardrs9zpgztlyxj3ew4hejj52v413hwwg0.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsy3wmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|香港03|MPTCP|★★★, server: uvjd5iipvnefkpbh6xiqbndcppwera54ixnisxobtr.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsyrqmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|香港04|MPTCP|★★★, server: p8ckw34ertscz0rdsevela3zlonv7yqvhkpvuo927q.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszremm3sc4i.sina.cn}, udp: true}
-  - {name: v2|香港05|MPTCP|★★★, server: u3pudloh01ehq174kcmveuovftzofls2aikyhihggi.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsz3xmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|香港06|MPTCP|★★★, server: ol77aajx6oc0ijvwhof6atddsqvenlcxurzfainv7l.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsyjqmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|香港07|MPTCP|★★☆, server: 0rin4si3qekxvm1nx93mqggfgx2okkmjmnc6tqx2.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsy3xmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|香港08|MPTCP|★★☆, server: gex9urgjodwd2jbuj0xlcrqidemwkmjzwmmds421.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsyzdmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|香港09|MPTCP|★★★, server: rgfmfza8zw6mg7oodcj4c7xhy8nldxjrx6gnp4foma.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszrjmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|香港10|MPTCP|★★★, server: vss05xom95l2f2s3uejhitwv50xjrf0yfu8q127oma.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsz3wmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|香港11|MPTCP|★★☆, server: 3urbvz0srnta639sdy2s8jimfnpgegqmf6p45gnq.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsytrmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|香港12|MPTCP|★★★, server: wj7g03ui2ttlh6vdnlmhd264mhgxeh2ushfrubbc.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsytwmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|香港13|MPTCP|★★☆, server: emzazi15y2uvponxumd5krvqtg3y7ximagovxebx.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsyrkmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|新加坡01|MPTCP|★★★, server: mjbcintogemygotzpmkc32zpbf1r6usyg24ba0va.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsyjvmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|新加坡02|MPTCP|★★★, server: waosbowlodwutbftmpe010up0dnif8a8fq02c3umjo.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsytsmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|新加坡03|MPTCP|★★★, server: 8lusgkosx0nrhdow8si0ffipac19nnpiavao6eml.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsyrrmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|新加坡04|MPTCP|★★★, server: u3pudloh01ehq174kcmveuovftzofls2aikyhihggi.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsztrmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|新加坡05|MPTCP|★★★, server: dmyypuvwtcx8n4xcwlumeuqpuy7pbduewbmzhs4ch2.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsz3umm3sc4i.sina.cn}, udp: true}
-  - {name: v2|新加坡06|MPTCP|★★★, server: vss05xom95l2f2s3uejhitwv50xjrf0yfu8q127oma.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsyrpmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|新加坡07|MPTCP|★★★, server: dmnmglvylp6m0s8yenetsctf4m0aaj1joxe6y4g53j.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2jomm3sc4i.sina.cn}, udp: true}
-  - {name: v2|日本01|MPTCP|★★☆, server: 8kbn2lqi0tlgmmdmbaa60jgvjtw6ghhdiexibwh5.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsyjsmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|日本02|MPTCP|★★☆, server: dmyypuvwtcx8n4xcwlumeuqpuy7pbduewbmzhs4ch2.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsyttmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|日本03|MPTCP|★★☆, server: gex9urgjodwd2jbuj0xlcrqidemwkmjzwmmds421.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsyrmmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|日本04|MPTCP|★★☆, server: 8lusgkosx0nrhdow8si0ffipac19nnpiavao6eml.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszrcmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|日本05|MPTCP|★★☆, server: fqwcrcbg6fucoec2oigyzmiiy3wumvrqjzugvawg.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsz3vmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|日本06|MPTCP|★★☆, server: fd8pixvqhlvsxp6j21grlidzt3xjixsj6axpuikjfs.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsy3umm3sc4i.sina.cn}, udp: true}
-  - {name: v2|美国01|MPTCP|★★★, server: fd8pixvqhlvsxp6j21grlidzt3xjixsj6axpuikjfs.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszjhmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|美国02|MPTCP|★★★, server: e3sybekdo97w3kqjjiyvprsvbvf4fjgwnaembyf1fk.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsyjxmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|美国03|MPTCP|★★★, server: 0rin4si3qekxvm1nx93mqggfgx2okkmjmnc6tqx2.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszjgmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|美国04|MPTCP|★★★, server: zw6m3uyzofkfckqiqi5r4juxfwmyjm2euyoe5egyi5.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsztumm3sc4i.sina.cn}, udp: true}
-  - {name: v2|美国05|MPTCP|★★★, server: hc2sryc16vogw3jvi8prumgk0x7pcv54eh59r2kg.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsz3smm3sc4i.sina.cn}, udp: true}
-  - {name: v2|美国06|MPTCP|★★★, server: a2s4vo9qu9irpwzqvhwv5atzfctrbe0qzo2b9urb.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2jqmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|香港01|原生|★★★, server: dmyypuvwtcx8n4xcwlumeuqpuy7pbduewbmzhs4ch2.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsyjomm3sc4i.sina.cn}, udp: true}
-  - {name: v2|香港02|原生|★★★, server: ypocqt5ogevdzpaxgvdequtlnakde2gmnmsugcpuie.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsyjymm3sc4i.sina.cn}, udp: true}
-  - {name: v2|香港03|原生|★★★, server: dmnmglvylp6m0s8yenetsctf4m0aaj1joxe6y4g53j.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsyrimm3sc4i.sina.cn}, udp: true}
-  - {name: v2|香港04|原生|★★★, server: enhvpowad5scklagodqihrv5gyfh4rjyqacdg34kub.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszjwmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|香港05|原生|★★★, server: 8lusgkosx0nrhdow8si0ffipac19nnpiavao6eml.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsz3tmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|香港06|原生|★★★, server: nynylqpxnqvt1u3favjmbdbpnzq0wt7ahsztth3baf.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsytxmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|香港01|myTVSUPER|限速, server: gkurflwetjekqea7x56tbywgcua9hkcmt3zllohol8.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszz3mm3sc4i.sina.cn}, udp: true}
-  - {name: v2|香港01|YouTubePre|限速, server: raccbp3uardrs9zpgztlyxj3ew4hejj52v413hwwg0.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2drmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|香港02|防送中|限速, server: 3z1g1ees3rlmirzl172pq2zuwllkntunrzrcrskebw.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2jpmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|台湾01|YouTubePre|限速, server: wicieaizrhsv9fb07givsrwaibkcv4612zymrqtjxb.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2b3mm3sc4i.sina.cn}, udp: true}
-  - {name: v2|美国01|YouTubePre|限速, server: lbeir7h5ptdsue6zfmg3doxltn2a10wo2jlegewg5o.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2lumm3sc4i.sina.cn}, udp: true}
-  - {name: v2|美国02|谷歌商店|限速, server: wicieaizrhsv9fb07givsrwaibkcv4612zymrqtjxb.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2jmmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|台湾01|原生|★★☆, server: kcsv278o2soma8jshvyebm4fcfjsnvjg44gghiiu.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsyzcmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|台湾02|原生|★★☆, server: yhta8fdrbo7lafe9p1soqksjhnjszupqtyaqwwdsiw.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsyzumm3sc4i.sina.cn}, udp: true}
-  - {name: v2|台湾03|原生|★★☆, server: ypocqt5ogevdzpaxgvdequtlnakde2gmnmsugcpuie.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszttmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|台湾04|原生|★★☆, server: dmnmglvylp6m0s8yenetsctf4m0aaj1joxe6y4g53j.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszzgmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|台湾05|原生|★★☆, server: fd8pixvqhlvsxp6j21grlidzt3xjixsj6axpuikjfs.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsz3qmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|台湾06|原生|★★☆, server: exkhukhmprupu7laq9m9j59geyqgbr48ohfcgbwrpo.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2jvmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|新加坡01|原生|★★☆, server: 9dtsrydbsyzp2djgswimajnjojskowpbbiahmfe3us.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszlxmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|新加坡02|原生|★★☆, server: dcs9hfjloiijbfooqtca5zorgiyjfwlzs5hj57x3qg.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszlwmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|新加坡03|原生|★★☆, server: kcsv278o2soma8jshvyebm4fcfjsnvjg44gghiiu.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszj3mm3sc4i.sina.cn}, udp: true}
-  - {name: v2|新加坡04|原生|★★☆, server: bvjtmi3cvopxlpboqfdajrgwr0moatrgdony6fdc.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszzxmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|新加坡05|原生|★★☆, server: dmnmglvylp6m0s8yenetsctf4m0aaj1joxe6y4g53j.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsz3rmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|新加坡06|原生|★★☆, server: 8lusgkosx0nrhdow8si0ffipac19nnpiavao6eml.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2jrmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|日本01|原生|★★☆, server: pcf6n56m0fyjxn9mihl64jj8ltlijvkpl4bgdt48.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszzzmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|日本02|原生|★★☆, server: yhta8fdrbo7lafe9p1soqksjhnjszupqtyaqwwdsiw.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszzfmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|日本03|原生|★★☆, server: k1vmuzgz3adckb5szdngmpvliz5pvh4fymnp8dh9oa.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszzcmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|日本04|原生|★★☆, server: 8lusgkosx0nrhdow8si0ffipac19nnpiavao6eml.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszzemm3sc4i.sina.cn}, udp: true}
-  - {name: v2|日本05|原生|★★☆, server: 3urbvz0srnta639sdy2s8jimfnpgegqmf6p45gnq.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszzhmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|日本01|特供原生|限速, server: 2kacpkj1woth5zolz3bpl82cbtd55i8gyfwawxyiyx.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszzymm3sc4i.sina.cn}, udp: true}
-  - {name: v2|美国01|原生|★★☆, server: p8ckw34ertscz0rdsevela3zlonv7yqvhkpvuo927q.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszjmmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|美国02|原生|★★☆, server: ebo2iogihibyhj9b24n8pcwgzpqtigrigivx2by5bt.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszjpmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|美国03|原生|★★☆, server: gex9urgjodwd2jbuj0xlcrqidemwkmjzwmmds421.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsztvmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|美国04|原生|★★☆, server: dcs9hfjloiijbfooqtca5zorgiyjfwlzs5hj57x3qg.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszzwmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|美国05|原生|★★☆, server: uvjd5iipvnefkpbh6xiqbndcppwera54ixnisxobtr.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszr3mm3sc4i.sina.cn}, udp: true}
-  - {name: v2|美国06|原生|★★☆, server: mbhwkatmlxx5srwgh6axzpz4wnk27ppu5gyllnvv.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2jtmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|美国01|hulu|限速, server: 0r9dtk2cfiv9dicy1quj9cz14ackgdpbopxveqyu.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2btmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|英国01|原生|★★☆, server: e3sybekdo97w3kqjjiyvprsvbvf4fjgwnaembyf1fk.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2bsmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|英国02|原生|★★☆, server: mjbcintogemygotzpmkc32zpbf1r6usyg24ba0va.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2bvmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|英国03|原生|★★☆, server: jgv9kvhowxxqjoeiyuxehsdtugwl0xbfed2nwj7lih.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2bumm3sc4i.sina.cn}, udp: true}
-  - {name: v2|英国04|原生|★★☆, server: ypocqt5ogevdzpaxgvdequtlnakde2gmnmsugcpuie.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2bxmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|英国05|原生|★★☆, server: lbeir7h5ptdsue6zfmg3doxltn2a10wo2jlegewg5o.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2bwmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|英国06|原生|★★☆, server: 7p5bbihbyvizwl8qs7pd7jclkrkzgm5q95abo8su.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2jsmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|澳洲01|MPTCP|★☆☆, server: mhikkjrof1z8vlbgm6upccdftuczk11mrr96a5qk.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsy3rmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|澳洲02|MPTCP|★☆☆, server: nl56krfrhdw1qlwxrbth70wfaqnffxh2q7koprunfk.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsztzmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|澳洲03|MPTCP|★☆☆, server: w33bb5ol2zcawz2kxxd7lwlojgowupe7pvvitnkvef.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszrzmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|澳洲04|MPTCP|★☆☆, server: raccbp3uardrs9zpgztlyxj3ew4hejj52v413hwwg0.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszztmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|澳洲05|MPTCP|★☆☆, server: jdorfbipymqb2vmon0nkmqha29hexz5lruvbzisawt.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszzsmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|韩国01|MPTCP|★☆☆, server: emzazi15y2uvponxumd5krvqtg3y7ximagovxebx.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsy3qmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|韩国02|MPTCP|★☆☆, server: 7uplflid9v1yzrkztonw4mfkk8b3stjl0q2icrex.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszrhmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|韩国03|MPTCP|★☆☆, server: waosbowlodwutbftmpe010up0dnif8a8fq02c3umjo.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszrwmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|韩国04|MPTCP|★☆☆, server: 91wuvryqbvziafpy79ai3u7ft5apxemcxzl2csxorl.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszzjmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|韩国05|MPTCP|★☆☆, server: ucq4b3nbpyxlyhjazbcfolhb56qd30n2jzvwpgwuah.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszzimm3sc4i.sina.cn}, udp: true}
-  - {name: v2|阿根廷01|特供原生|限速, server: 2ocpkjzw4nqybaeg2m0c8uwcsucnj6wit5bd1n1j.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2bymm3sc4i.sina.cn}, udp: true}
-  - {name: v2|巴西01|特供原生|限速, server: zxqofl6uik7nburctsvq1gyhnzusdin5f08hwcvvit.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2lvmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|智利01|特供原生|限速, server: 3urbvz0srnta639sdy2s8jimfnpgegqmf6p45gnq.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsmlsmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|阿联酋01|特供原生|限速, server: 926x2v04nekuaeyu0ngjuurl6qeigebf7onbpz3b.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsmlqmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|马来西亚01|特供原生|限速, server: wicieaizrhsv9fb07givsrwaibkcv4612zymrqtjxb.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2lqmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|泰国01|特供原生|限速, server: 8kbn2lqi0tlgmmdmbaa60jgvjtw6ghhdiexibwh5.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2ltmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|菲律宾01|特供原生|限速, server: 2ocpkjzw4nqybaeg2m0c8uwcsucnj6wit5bd1n1j.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2lsmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|越南01|特供原生|限速, server: 3z1g1ees3rlmirzl172pq2zuwllkntunrzrcrskebw.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2lwmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|印尼01|特供原生|限速, server: hnx2embmdpbzbdlbavvynib4pphis4wednvgz8c0.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2jzmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|南非01|特供原生|限速, server: mbhwkatmlxx5srwgh6axzpz4wnk27ppu5gyllnvv.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2jamm3sc4i.sina.cn}, udp: true}
-  - {name: v2|尼日利亚01|特供原生|限速, server: r6axbnbbu1xshrqpz6g9h96ekwisfdjibwiytstt.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2jimm3sc4i.sina.cn}, udp: true}
-  - {name: v2|加拿大01|特供原生|限速, server: ifz4apw8gqjso0tgdtjctvkyhmfs5ppazrixdffc.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2jdmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|墨西哥01|特供原生|限速, server: raccbp3uardrs9zpgztlyxj3ew4hejj52v413hwwg0.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2jfmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|巴基斯坦01|特供原生|限速, server: hc2sryc16vogw3jvi8prumgk0x7pcv54eh59r2kg.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2jjmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|法国01|特供原生|限速, server: gkurflwetjekqea7x56tbywgcua9hkcmt3zllohol8.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2lzmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|意大利01|特供原生|限速, server: 0r9dtk2cfiv9dicy1quj9cz14ackgdpbopxveqyu.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2lymm3sc4i.sina.cn}, udp: true}
-  - {name: v2|冰岛01|特供原生|限速, server: a2s4vo9qu9irpwzqvhwv5atzfctrbe0qzo2b9urb.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2lxmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|荷兰01|特供原生|限速, server: ovnbyauvcoa9phzkhoqgazvapigiceswux92afcu.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2jcmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|西班牙01|特供原生|限速, server: 3urbvz0srnta639sdy2s8jimfnpgegqmf6p45gnq.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2jlmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|葡萄牙01|特供原生|限速, server: a2s4vo9qu9irpwzqvhwv5atzfctrbe0qzo2b9urb.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsmlumm3sc4i.sina.cn}, udp: true}
-  - {name: v2|瑞典01|特供原生|限速, server: 3urbvz0srnta639sdy2s8jimfnpgegqmf6p45gnq.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2jnmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|德国01|特供原生|限速, server: lbeir7h5ptdsue6zfmg3doxltn2a10wo2jlegewg5o.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2jxmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|爱尔兰01|特供原生|限速, server: ifz4apw8gqjso0tgdtjctvkyhmfs5ppazrixdffc.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2jwmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|俄罗斯01|特供原生|限速, server: 2ocpkjzw4nqybaeg2m0c8uwcsucnj6wit5bd1n1j.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszjkmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|俄罗斯02|特供原生|限速, server: mjbcintogemygotzpmkc32zpbf1r6usyg24ba0va.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszrlmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|俄罗斯03|特供原生|限速, server: hnx2embmdpbzbdlbavvynib4pphis4wednvgz8c0.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszrvmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|立陶宛01|特供原生|限速, server: hc2sryc16vogw3jvi8prumgk0x7pcv54eh59r2kg.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2jymm3sc4i.sina.cn}, udp: true}
-  - {name: v2|匈牙利01|特供原生|限速, server: 3urbvz0srnta639sdy2s8jimfnpgegqmf6p45gnq.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2j3mm3sc4i.sina.cn}, udp: true}
-  - {name: v2|比利时01|特供原生|限速, server: lbeir7h5ptdsue6zfmg3doxltn2a10wo2jlegewg5o.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsmlrmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|乌克兰01|特供原生|限速, server: hnx2embmdpbzbdlbavvynib4pphis4wednvgz8c0.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsmltmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|罗马尼亚01|特供原生|限速, server: raccbp3uardrs9zpgztlyxj3ew4hejj52v413hwwg0.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsmlvmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|瑞士01|特供原生|限速, server: hc2sryc16vogw3jvi8prumgk0x7pcv54eh59r2kg.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2jkmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|奥地利01|特供原生|限速, server: 2kacpkj1woth5zolz3bpl82cbtd55i8gyfwawxyiyx.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gsmlxmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|土耳其01|特供原生|限速, server: ebo2iogihibyhj9b24n8pcwgzpqtigrigivx2by5bt.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2lrmm3sc4i.sina.cn}, udp: true}
-  - {name: v2|土耳其02|特供原生|限速, server: ebo2iogihibyhj9b24n8pcwgzpqtigrigivx2by5bt.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gs2jumm3sc4i.sina.cn}, udp: true}
-  - {name: v2|印度01|MPTCP|★☆☆, server: zxqofl6uik7nburctsvq1gyhnzusdin5f08hwcvvit.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszjimm3sc4i.sina.cn}, udp: true}
-  - {name: v2|印度02|MPTCP|★☆☆, server: zxqofl6uik7nburctsvq1gyhnzusdin5f08hwcvvit.q9k.org, port: 37224, type: ss, cipher: aes-128-gcm, password: 165885d5b6bd, plugin: obfs, plugin-opts: {mode: http, host: ug4vdoll5a44gszramm3sc4i.sina.cn}, udp: true}
+  - {name: 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20727, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国, server: us1.nodegz.top, port: 444, type: trojan, password: 8dfe239e-2b68-3713-b806-12b37191bb10, sni: us1.nodegz.top, skip-cert-verify: true, udp: true}
+  - {name: 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20719, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20720, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20725, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20726, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20722, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20721, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: RU1(IEPL) - 负载均衡专线, server: ftp.cn.debian.cdnet.in, port: 8060, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
+  - {name: 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 | 2, server: azhj001.xiba1.xyz, port: 20727, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: SG1(IEPL) - 负载均衡专线, server: ftp.cn.debian.cdnet.in, port: 8050, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
+  - {name: 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 | 2, server: azhj001.xiba1.xyz, port: 20725, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20723, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: JP1(IEPL) - 负载均衡专线, server: ftp.cn.debian.cdnet.in, port: 8030, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
+  - {name: TW1(IEPL) - 负载均衡专线, server: ftp.cn.debian.cdnet.in, port: 8020, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
+  - {name: 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20724, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: KR1(IEPL) - 负载均衡专线, server: ftp.cn.debian.cdnet.in, port: 8040, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
+  - {name: HK1(IEPL) - 负载均衡专线, server: ftp.cn.debian.cdnet.in, port: 8010, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
+  - {name: US1(IEPL) - 负载均衡专线, server: ftp.cn.debian.cdnet.in, port: 8070, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
+  - {name: 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 | 2, server: azhj001.xiba1.xyz, port: 20724, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 | 2, server: azhj001.xiba1.xyz, port: 20723, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2|香港01|MPTCP|★★★
-      - v2|香港02|MPTCP|★★★
-      - v2|香港03|MPTCP|★★★
-      - v2|香港04|MPTCP|★★★
-      - v2|香港05|MPTCP|★★★
-      - v2|香港06|MPTCP|★★★
-      - v2|香港07|MPTCP|★★☆
-      - v2|香港08|MPTCP|★★☆
-      - v2|香港09|MPTCP|★★★
-      - v2|香港10|MPTCP|★★★
-      - v2|香港11|MPTCP|★★☆
-      - v2|香港12|MPTCP|★★★
-      - v2|香港13|MPTCP|★★☆
-      - v2|新加坡01|MPTCP|★★★
-      - v2|新加坡02|MPTCP|★★★
-      - v2|新加坡03|MPTCP|★★★
-      - v2|新加坡04|MPTCP|★★★
-      - v2|新加坡05|MPTCP|★★★
-      - v2|新加坡06|MPTCP|★★★
-      - v2|新加坡07|MPTCP|★★★
-      - v2|日本01|MPTCP|★★☆
-      - v2|日本02|MPTCP|★★☆
-      - v2|日本03|MPTCP|★★☆
-      - v2|日本04|MPTCP|★★☆
-      - v2|日本05|MPTCP|★★☆
-      - v2|日本06|MPTCP|★★☆
-      - v2|美国01|MPTCP|★★★
-      - v2|美国02|MPTCP|★★★
-      - v2|美国03|MPTCP|★★★
-      - v2|美国04|MPTCP|★★★
-      - v2|美国05|MPTCP|★★★
-      - v2|美国06|MPTCP|★★★
-      - v2|香港01|原生|★★★
-      - v2|香港02|原生|★★★
-      - v2|香港03|原生|★★★
-      - v2|香港04|原生|★★★
-      - v2|香港05|原生|★★★
-      - v2|香港06|原生|★★★
-      - v2|香港01|myTVSUPER|限速
-      - v2|香港01|YouTubePre|限速
-      - v2|香港02|防送中|限速
-      - v2|台湾01|YouTubePre|限速
-      - v2|美国01|YouTubePre|限速
-      - v2|美国02|谷歌商店|限速
-      - v2|台湾01|原生|★★☆
-      - v2|台湾02|原生|★★☆
-      - v2|台湾03|原生|★★☆
-      - v2|台湾04|原生|★★☆
-      - v2|台湾05|原生|★★☆
-      - v2|台湾06|原生|★★☆
-      - v2|新加坡01|原生|★★☆
-      - v2|新加坡02|原生|★★☆
-      - v2|新加坡03|原生|★★☆
-      - v2|新加坡04|原生|★★☆
-      - v2|新加坡05|原生|★★☆
-      - v2|新加坡06|原生|★★☆
-      - v2|日本01|原生|★★☆
-      - v2|日本02|原生|★★☆
-      - v2|日本03|原生|★★☆
-      - v2|日本04|原生|★★☆
-      - v2|日本05|原生|★★☆
-      - v2|日本01|特供原生|限速
-      - v2|美国01|原生|★★☆
-      - v2|美国02|原生|★★☆
-      - v2|美国03|原生|★★☆
-      - v2|美国04|原生|★★☆
-      - v2|美国05|原生|★★☆
-      - v2|美国06|原生|★★☆
-      - v2|美国01|hulu|限速
-      - v2|英国01|原生|★★☆
-      - v2|英国02|原生|★★☆
-      - v2|英国03|原生|★★☆
-      - v2|英国04|原生|★★☆
-      - v2|英国05|原生|★★☆
-      - v2|英国06|原生|★★☆
-      - v2|澳洲01|MPTCP|★☆☆
-      - v2|澳洲02|MPTCP|★☆☆
-      - v2|澳洲03|MPTCP|★☆☆
-      - v2|澳洲04|MPTCP|★☆☆
-      - v2|澳洲05|MPTCP|★☆☆
-      - v2|韩国01|MPTCP|★☆☆
-      - v2|韩国02|MPTCP|★☆☆
-      - v2|韩国03|MPTCP|★☆☆
-      - v2|韩国04|MPTCP|★☆☆
-      - v2|韩国05|MPTCP|★☆☆
-      - v2|阿根廷01|特供原生|限速
-      - v2|巴西01|特供原生|限速
-      - v2|智利01|特供原生|限速
-      - v2|阿联酋01|特供原生|限速
-      - v2|马来西亚01|特供原生|限速
-      - v2|泰国01|特供原生|限速
-      - v2|菲律宾01|特供原生|限速
-      - v2|越南01|特供原生|限速
-      - v2|印尼01|特供原生|限速
-      - v2|南非01|特供原生|限速
-      - v2|尼日利亚01|特供原生|限速
-      - v2|加拿大01|特供原生|限速
-      - v2|墨西哥01|特供原生|限速
-      - v2|巴基斯坦01|特供原生|限速
-      - v2|法国01|特供原生|限速
-      - v2|意大利01|特供原生|限速
-      - v2|冰岛01|特供原生|限速
-      - v2|荷兰01|特供原生|限速
-      - v2|西班牙01|特供原生|限速
-      - v2|葡萄牙01|特供原生|限速
-      - v2|瑞典01|特供原生|限速
-      - v2|德国01|特供原生|限速
-      - v2|爱尔兰01|特供原生|限速
-      - v2|俄罗斯01|特供原生|限速
-      - v2|俄罗斯02|特供原生|限速
-      - v2|俄罗斯03|特供原生|限速
-      - v2|立陶宛01|特供原生|限速
-      - v2|匈牙利01|特供原生|限速
-      - v2|比利时01|特供原生|限速
-      - v2|乌克兰01|特供原生|限速
-      - v2|罗马尼亚01|特供原生|限速
-      - v2|瑞士01|特供原生|限速
-      - v2|奥地利01|特供原生|限速
-      - v2|土耳其01|特供原生|限速
-      - v2|土耳其02|特供原生|限速
-      - v2|印度01|MPTCP|★☆☆
-      - v2|印度02|MPTCP|★☆☆
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 美国
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - RU1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - SG1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - JP1(IEPL) - 负载均衡专线
+      - TW1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - KR1(IEPL) - 负载均衡专线
+      - HK1(IEPL) - 负载均衡专线
+      - US1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 | 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - v2|香港01|MPTCP|★★★
-      - v2|香港02|MPTCP|★★★
-      - v2|香港03|MPTCP|★★★
-      - v2|香港04|MPTCP|★★★
-      - v2|香港05|MPTCP|★★★
-      - v2|香港06|MPTCP|★★★
-      - v2|香港07|MPTCP|★★☆
-      - v2|香港08|MPTCP|★★☆
-      - v2|香港09|MPTCP|★★★
-      - v2|香港10|MPTCP|★★★
-      - v2|香港11|MPTCP|★★☆
-      - v2|香港12|MPTCP|★★★
-      - v2|香港13|MPTCP|★★☆
-      - v2|新加坡01|MPTCP|★★★
-      - v2|新加坡02|MPTCP|★★★
-      - v2|新加坡03|MPTCP|★★★
-      - v2|新加坡04|MPTCP|★★★
-      - v2|新加坡05|MPTCP|★★★
-      - v2|新加坡06|MPTCP|★★★
-      - v2|新加坡07|MPTCP|★★★
-      - v2|日本01|MPTCP|★★☆
-      - v2|日本02|MPTCP|★★☆
-      - v2|日本03|MPTCP|★★☆
-      - v2|日本04|MPTCP|★★☆
-      - v2|日本05|MPTCP|★★☆
-      - v2|日本06|MPTCP|★★☆
-      - v2|美国01|MPTCP|★★★
-      - v2|美国02|MPTCP|★★★
-      - v2|美国03|MPTCP|★★★
-      - v2|美国04|MPTCP|★★★
-      - v2|美国05|MPTCP|★★★
-      - v2|美国06|MPTCP|★★★
-      - v2|香港01|原生|★★★
-      - v2|香港02|原生|★★★
-      - v2|香港03|原生|★★★
-      - v2|香港04|原生|★★★
-      - v2|香港05|原生|★★★
-      - v2|香港06|原生|★★★
-      - v2|香港01|myTVSUPER|限速
-      - v2|香港01|YouTubePre|限速
-      - v2|香港02|防送中|限速
-      - v2|台湾01|YouTubePre|限速
-      - v2|美国01|YouTubePre|限速
-      - v2|美国02|谷歌商店|限速
-      - v2|台湾01|原生|★★☆
-      - v2|台湾02|原生|★★☆
-      - v2|台湾03|原生|★★☆
-      - v2|台湾04|原生|★★☆
-      - v2|台湾05|原生|★★☆
-      - v2|台湾06|原生|★★☆
-      - v2|新加坡01|原生|★★☆
-      - v2|新加坡02|原生|★★☆
-      - v2|新加坡03|原生|★★☆
-      - v2|新加坡04|原生|★★☆
-      - v2|新加坡05|原生|★★☆
-      - v2|新加坡06|原生|★★☆
-      - v2|日本01|原生|★★☆
-      - v2|日本02|原生|★★☆
-      - v2|日本03|原生|★★☆
-      - v2|日本04|原生|★★☆
-      - v2|日本05|原生|★★☆
-      - v2|日本01|特供原生|限速
-      - v2|美国01|原生|★★☆
-      - v2|美国02|原生|★★☆
-      - v2|美国03|原生|★★☆
-      - v2|美国04|原生|★★☆
-      - v2|美国05|原生|★★☆
-      - v2|美国06|原生|★★☆
-      - v2|美国01|hulu|限速
-      - v2|英国01|原生|★★☆
-      - v2|英国02|原生|★★☆
-      - v2|英国03|原生|★★☆
-      - v2|英国04|原生|★★☆
-      - v2|英国05|原生|★★☆
-      - v2|英国06|原生|★★☆
-      - v2|澳洲01|MPTCP|★☆☆
-      - v2|澳洲02|MPTCP|★☆☆
-      - v2|澳洲03|MPTCP|★☆☆
-      - v2|澳洲04|MPTCP|★☆☆
-      - v2|澳洲05|MPTCP|★☆☆
-      - v2|韩国01|MPTCP|★☆☆
-      - v2|韩国02|MPTCP|★☆☆
-      - v2|韩国03|MPTCP|★☆☆
-      - v2|韩国04|MPTCP|★☆☆
-      - v2|韩国05|MPTCP|★☆☆
-      - v2|阿根廷01|特供原生|限速
-      - v2|巴西01|特供原生|限速
-      - v2|智利01|特供原生|限速
-      - v2|阿联酋01|特供原生|限速
-      - v2|马来西亚01|特供原生|限速
-      - v2|泰国01|特供原生|限速
-      - v2|菲律宾01|特供原生|限速
-      - v2|越南01|特供原生|限速
-      - v2|印尼01|特供原生|限速
-      - v2|南非01|特供原生|限速
-      - v2|尼日利亚01|特供原生|限速
-      - v2|加拿大01|特供原生|限速
-      - v2|墨西哥01|特供原生|限速
-      - v2|巴基斯坦01|特供原生|限速
-      - v2|法国01|特供原生|限速
-      - v2|意大利01|特供原生|限速
-      - v2|冰岛01|特供原生|限速
-      - v2|荷兰01|特供原生|限速
-      - v2|西班牙01|特供原生|限速
-      - v2|葡萄牙01|特供原生|限速
-      - v2|瑞典01|特供原生|限速
-      - v2|德国01|特供原生|限速
-      - v2|爱尔兰01|特供原生|限速
-      - v2|俄罗斯01|特供原生|限速
-      - v2|俄罗斯02|特供原生|限速
-      - v2|俄罗斯03|特供原生|限速
-      - v2|立陶宛01|特供原生|限速
-      - v2|匈牙利01|特供原生|限速
-      - v2|比利时01|特供原生|限速
-      - v2|乌克兰01|特供原生|限速
-      - v2|罗马尼亚01|特供原生|限速
-      - v2|瑞士01|特供原生|限速
-      - v2|奥地利01|特供原生|限速
-      - v2|土耳其01|特供原生|限速
-      - v2|土耳其02|特供原生|限速
-      - v2|印度01|MPTCP|★☆☆
-      - v2|印度02|MPTCP|★☆☆
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 美国
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - RU1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - SG1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - JP1(IEPL) - 负载均衡专线
+      - TW1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - KR1(IEPL) - 负载均衡专线
+      - HK1(IEPL) - 负载均衡专线
+      - US1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 | 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2|香港01|MPTCP|★★★
-      - v2|香港02|MPTCP|★★★
-      - v2|香港03|MPTCP|★★★
-      - v2|香港04|MPTCP|★★★
-      - v2|香港05|MPTCP|★★★
-      - v2|香港06|MPTCP|★★★
-      - v2|香港07|MPTCP|★★☆
-      - v2|香港08|MPTCP|★★☆
-      - v2|香港09|MPTCP|★★★
-      - v2|香港10|MPTCP|★★★
-      - v2|香港11|MPTCP|★★☆
-      - v2|香港12|MPTCP|★★★
-      - v2|香港13|MPTCP|★★☆
-      - v2|新加坡01|MPTCP|★★★
-      - v2|新加坡02|MPTCP|★★★
-      - v2|新加坡03|MPTCP|★★★
-      - v2|新加坡04|MPTCP|★★★
-      - v2|新加坡05|MPTCP|★★★
-      - v2|新加坡06|MPTCP|★★★
-      - v2|新加坡07|MPTCP|★★★
-      - v2|日本01|MPTCP|★★☆
-      - v2|日本02|MPTCP|★★☆
-      - v2|日本03|MPTCP|★★☆
-      - v2|日本04|MPTCP|★★☆
-      - v2|日本05|MPTCP|★★☆
-      - v2|日本06|MPTCP|★★☆
-      - v2|美国01|MPTCP|★★★
-      - v2|美国02|MPTCP|★★★
-      - v2|美国03|MPTCP|★★★
-      - v2|美国04|MPTCP|★★★
-      - v2|美国05|MPTCP|★★★
-      - v2|美国06|MPTCP|★★★
-      - v2|香港01|原生|★★★
-      - v2|香港02|原生|★★★
-      - v2|香港03|原生|★★★
-      - v2|香港04|原生|★★★
-      - v2|香港05|原生|★★★
-      - v2|香港06|原生|★★★
-      - v2|香港01|myTVSUPER|限速
-      - v2|香港01|YouTubePre|限速
-      - v2|香港02|防送中|限速
-      - v2|台湾01|YouTubePre|限速
-      - v2|美国01|YouTubePre|限速
-      - v2|美国02|谷歌商店|限速
-      - v2|台湾01|原生|★★☆
-      - v2|台湾02|原生|★★☆
-      - v2|台湾03|原生|★★☆
-      - v2|台湾04|原生|★★☆
-      - v2|台湾05|原生|★★☆
-      - v2|台湾06|原生|★★☆
-      - v2|新加坡01|原生|★★☆
-      - v2|新加坡02|原生|★★☆
-      - v2|新加坡03|原生|★★☆
-      - v2|新加坡04|原生|★★☆
-      - v2|新加坡05|原生|★★☆
-      - v2|新加坡06|原生|★★☆
-      - v2|日本01|原生|★★☆
-      - v2|日本02|原生|★★☆
-      - v2|日本03|原生|★★☆
-      - v2|日本04|原生|★★☆
-      - v2|日本05|原生|★★☆
-      - v2|日本01|特供原生|限速
-      - v2|美国01|原生|★★☆
-      - v2|美国02|原生|★★☆
-      - v2|美国03|原生|★★☆
-      - v2|美国04|原生|★★☆
-      - v2|美国05|原生|★★☆
-      - v2|美国06|原生|★★☆
-      - v2|美国01|hulu|限速
-      - v2|英国01|原生|★★☆
-      - v2|英国02|原生|★★☆
-      - v2|英国03|原生|★★☆
-      - v2|英国04|原生|★★☆
-      - v2|英国05|原生|★★☆
-      - v2|英国06|原生|★★☆
-      - v2|澳洲01|MPTCP|★☆☆
-      - v2|澳洲02|MPTCP|★☆☆
-      - v2|澳洲03|MPTCP|★☆☆
-      - v2|澳洲04|MPTCP|★☆☆
-      - v2|澳洲05|MPTCP|★☆☆
-      - v2|韩国01|MPTCP|★☆☆
-      - v2|韩国02|MPTCP|★☆☆
-      - v2|韩国03|MPTCP|★☆☆
-      - v2|韩国04|MPTCP|★☆☆
-      - v2|韩国05|MPTCP|★☆☆
-      - v2|阿根廷01|特供原生|限速
-      - v2|巴西01|特供原生|限速
-      - v2|智利01|特供原生|限速
-      - v2|阿联酋01|特供原生|限速
-      - v2|马来西亚01|特供原生|限速
-      - v2|泰国01|特供原生|限速
-      - v2|菲律宾01|特供原生|限速
-      - v2|越南01|特供原生|限速
-      - v2|印尼01|特供原生|限速
-      - v2|南非01|特供原生|限速
-      - v2|尼日利亚01|特供原生|限速
-      - v2|加拿大01|特供原生|限速
-      - v2|墨西哥01|特供原生|限速
-      - v2|巴基斯坦01|特供原生|限速
-      - v2|法国01|特供原生|限速
-      - v2|意大利01|特供原生|限速
-      - v2|冰岛01|特供原生|限速
-      - v2|荷兰01|特供原生|限速
-      - v2|西班牙01|特供原生|限速
-      - v2|葡萄牙01|特供原生|限速
-      - v2|瑞典01|特供原生|限速
-      - v2|德国01|特供原生|限速
-      - v2|爱尔兰01|特供原生|限速
-      - v2|俄罗斯01|特供原生|限速
-      - v2|俄罗斯02|特供原生|限速
-      - v2|俄罗斯03|特供原生|限速
-      - v2|立陶宛01|特供原生|限速
-      - v2|匈牙利01|特供原生|限速
-      - v2|比利时01|特供原生|限速
-      - v2|乌克兰01|特供原生|限速
-      - v2|罗马尼亚01|特供原生|限速
-      - v2|瑞士01|特供原生|限速
-      - v2|奥地利01|特供原生|限速
-      - v2|土耳其01|特供原生|限速
-      - v2|土耳其02|特供原生|限速
-      - v2|印度01|MPTCP|★☆☆
-      - v2|印度02|MPTCP|★☆☆
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 美国
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - RU1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - SG1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - JP1(IEPL) - 负载均衡专线
+      - TW1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - KR1(IEPL) - 负载均衡专线
+      - HK1(IEPL) - 负载均衡专线
+      - US1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 | 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -528,544 +124,124 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2|香港01|MPTCP|★★★
-      - v2|香港02|MPTCP|★★★
-      - v2|香港03|MPTCP|★★★
-      - v2|香港04|MPTCP|★★★
-      - v2|香港05|MPTCP|★★★
-      - v2|香港06|MPTCP|★★★
-      - v2|香港07|MPTCP|★★☆
-      - v2|香港08|MPTCP|★★☆
-      - v2|香港09|MPTCP|★★★
-      - v2|香港10|MPTCP|★★★
-      - v2|香港11|MPTCP|★★☆
-      - v2|香港12|MPTCP|★★★
-      - v2|香港13|MPTCP|★★☆
-      - v2|新加坡01|MPTCP|★★★
-      - v2|新加坡02|MPTCP|★★★
-      - v2|新加坡03|MPTCP|★★★
-      - v2|新加坡04|MPTCP|★★★
-      - v2|新加坡05|MPTCP|★★★
-      - v2|新加坡06|MPTCP|★★★
-      - v2|新加坡07|MPTCP|★★★
-      - v2|日本01|MPTCP|★★☆
-      - v2|日本02|MPTCP|★★☆
-      - v2|日本03|MPTCP|★★☆
-      - v2|日本04|MPTCP|★★☆
-      - v2|日本05|MPTCP|★★☆
-      - v2|日本06|MPTCP|★★☆
-      - v2|美国01|MPTCP|★★★
-      - v2|美国02|MPTCP|★★★
-      - v2|美国03|MPTCP|★★★
-      - v2|美国04|MPTCP|★★★
-      - v2|美国05|MPTCP|★★★
-      - v2|美国06|MPTCP|★★★
-      - v2|香港01|原生|★★★
-      - v2|香港02|原生|★★★
-      - v2|香港03|原生|★★★
-      - v2|香港04|原生|★★★
-      - v2|香港05|原生|★★★
-      - v2|香港06|原生|★★★
-      - v2|香港01|myTVSUPER|限速
-      - v2|香港01|YouTubePre|限速
-      - v2|香港02|防送中|限速
-      - v2|台湾01|YouTubePre|限速
-      - v2|美国01|YouTubePre|限速
-      - v2|美国02|谷歌商店|限速
-      - v2|台湾01|原生|★★☆
-      - v2|台湾02|原生|★★☆
-      - v2|台湾03|原生|★★☆
-      - v2|台湾04|原生|★★☆
-      - v2|台湾05|原生|★★☆
-      - v2|台湾06|原生|★★☆
-      - v2|新加坡01|原生|★★☆
-      - v2|新加坡02|原生|★★☆
-      - v2|新加坡03|原生|★★☆
-      - v2|新加坡04|原生|★★☆
-      - v2|新加坡05|原生|★★☆
-      - v2|新加坡06|原生|★★☆
-      - v2|日本01|原生|★★☆
-      - v2|日本02|原生|★★☆
-      - v2|日本03|原生|★★☆
-      - v2|日本04|原生|★★☆
-      - v2|日本05|原生|★★☆
-      - v2|日本01|特供原生|限速
-      - v2|美国01|原生|★★☆
-      - v2|美国02|原生|★★☆
-      - v2|美国03|原生|★★☆
-      - v2|美国04|原生|★★☆
-      - v2|美国05|原生|★★☆
-      - v2|美国06|原生|★★☆
-      - v2|美国01|hulu|限速
-      - v2|英国01|原生|★★☆
-      - v2|英国02|原生|★★☆
-      - v2|英国03|原生|★★☆
-      - v2|英国04|原生|★★☆
-      - v2|英国05|原生|★★☆
-      - v2|英国06|原生|★★☆
-      - v2|澳洲01|MPTCP|★☆☆
-      - v2|澳洲02|MPTCP|★☆☆
-      - v2|澳洲03|MPTCP|★☆☆
-      - v2|澳洲04|MPTCP|★☆☆
-      - v2|澳洲05|MPTCP|★☆☆
-      - v2|韩国01|MPTCP|★☆☆
-      - v2|韩国02|MPTCP|★☆☆
-      - v2|韩国03|MPTCP|★☆☆
-      - v2|韩国04|MPTCP|★☆☆
-      - v2|韩国05|MPTCP|★☆☆
-      - v2|阿根廷01|特供原生|限速
-      - v2|巴西01|特供原生|限速
-      - v2|智利01|特供原生|限速
-      - v2|阿联酋01|特供原生|限速
-      - v2|马来西亚01|特供原生|限速
-      - v2|泰国01|特供原生|限速
-      - v2|菲律宾01|特供原生|限速
-      - v2|越南01|特供原生|限速
-      - v2|印尼01|特供原生|限速
-      - v2|南非01|特供原生|限速
-      - v2|尼日利亚01|特供原生|限速
-      - v2|加拿大01|特供原生|限速
-      - v2|墨西哥01|特供原生|限速
-      - v2|巴基斯坦01|特供原生|限速
-      - v2|法国01|特供原生|限速
-      - v2|意大利01|特供原生|限速
-      - v2|冰岛01|特供原生|限速
-      - v2|荷兰01|特供原生|限速
-      - v2|西班牙01|特供原生|限速
-      - v2|葡萄牙01|特供原生|限速
-      - v2|瑞典01|特供原生|限速
-      - v2|德国01|特供原生|限速
-      - v2|爱尔兰01|特供原生|限速
-      - v2|俄罗斯01|特供原生|限速
-      - v2|俄罗斯02|特供原生|限速
-      - v2|俄罗斯03|特供原生|限速
-      - v2|立陶宛01|特供原生|限速
-      - v2|匈牙利01|特供原生|限速
-      - v2|比利时01|特供原生|限速
-      - v2|乌克兰01|特供原生|限速
-      - v2|罗马尼亚01|特供原生|限速
-      - v2|瑞士01|特供原生|限速
-      - v2|奥地利01|特供原生|限速
-      - v2|土耳其01|特供原生|限速
-      - v2|土耳其02|特供原生|限速
-      - v2|印度01|MPTCP|★☆☆
-      - v2|印度02|MPTCP|★☆☆
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 美国
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - RU1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - SG1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - JP1(IEPL) - 负载均衡专线
+      - TW1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - KR1(IEPL) - 负载均衡专线
+      - HK1(IEPL) - 负载均衡专线
+      - US1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 | 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - v2|香港01|MPTCP|★★★
-      - v2|香港02|MPTCP|★★★
-      - v2|香港03|MPTCP|★★★
-      - v2|香港04|MPTCP|★★★
-      - v2|香港05|MPTCP|★★★
-      - v2|香港06|MPTCP|★★★
-      - v2|香港07|MPTCP|★★☆
-      - v2|香港08|MPTCP|★★☆
-      - v2|香港09|MPTCP|★★★
-      - v2|香港10|MPTCP|★★★
-      - v2|香港11|MPTCP|★★☆
-      - v2|香港12|MPTCP|★★★
-      - v2|香港13|MPTCP|★★☆
-      - v2|香港01|原生|★★★
-      - v2|香港02|原生|★★★
-      - v2|香港03|原生|★★★
-      - v2|香港04|原生|★★★
-      - v2|香港05|原生|★★★
-      - v2|香港06|原生|★★★
-      - v2|香港01|myTVSUPER|限速
-      - v2|香港01|YouTubePre|限速
-      - v2|香港02|防送中|限速
-      - v2|台湾01|YouTubePre|限速
-      - v2|台湾01|原生|★★☆
-      - v2|台湾02|原生|★★☆
-      - v2|台湾03|原生|★★☆
-      - v2|台湾04|原生|★★☆
-      - v2|台湾05|原生|★★☆
-      - v2|台湾06|原生|★★☆
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 | 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - v2|香港01|MPTCP|★★★
-      - v2|香港02|MPTCP|★★★
-      - v2|香港03|MPTCP|★★★
-      - v2|香港04|MPTCP|★★★
-      - v2|香港05|MPTCP|★★★
-      - v2|香港06|MPTCP|★★★
-      - v2|香港07|MPTCP|★★☆
-      - v2|香港08|MPTCP|★★☆
-      - v2|香港09|MPTCP|★★★
-      - v2|香港10|MPTCP|★★★
-      - v2|香港11|MPTCP|★★☆
-      - v2|香港12|MPTCP|★★★
-      - v2|香港13|MPTCP|★★☆
-      - v2|新加坡01|MPTCP|★★★
-      - v2|新加坡02|MPTCP|★★★
-      - v2|新加坡03|MPTCP|★★★
-      - v2|新加坡04|MPTCP|★★★
-      - v2|新加坡05|MPTCP|★★★
-      - v2|新加坡06|MPTCP|★★★
-      - v2|新加坡07|MPTCP|★★★
-      - v2|日本01|MPTCP|★★☆
-      - v2|日本02|MPTCP|★★☆
-      - v2|日本03|MPTCP|★★☆
-      - v2|日本04|MPTCP|★★☆
-      - v2|日本05|MPTCP|★★☆
-      - v2|日本06|MPTCP|★★☆
-      - v2|美国01|MPTCP|★★★
-      - v2|美国02|MPTCP|★★★
-      - v2|美国03|MPTCP|★★★
-      - v2|美国04|MPTCP|★★★
-      - v2|美国05|MPTCP|★★★
-      - v2|美国06|MPTCP|★★★
-      - v2|香港01|原生|★★★
-      - v2|香港02|原生|★★★
-      - v2|香港03|原生|★★★
-      - v2|香港04|原生|★★★
-      - v2|香港05|原生|★★★
-      - v2|香港06|原生|★★★
-      - v2|香港01|myTVSUPER|限速
-      - v2|香港01|YouTubePre|限速
-      - v2|香港02|防送中|限速
-      - v2|台湾01|YouTubePre|限速
-      - v2|美国01|YouTubePre|限速
-      - v2|美国02|谷歌商店|限速
-      - v2|台湾01|原生|★★☆
-      - v2|台湾02|原生|★★☆
-      - v2|台湾03|原生|★★☆
-      - v2|台湾04|原生|★★☆
-      - v2|台湾05|原生|★★☆
-      - v2|台湾06|原生|★★☆
-      - v2|新加坡01|原生|★★☆
-      - v2|新加坡02|原生|★★☆
-      - v2|新加坡03|原生|★★☆
-      - v2|新加坡04|原生|★★☆
-      - v2|新加坡05|原生|★★☆
-      - v2|新加坡06|原生|★★☆
-      - v2|日本01|原生|★★☆
-      - v2|日本02|原生|★★☆
-      - v2|日本03|原生|★★☆
-      - v2|日本04|原生|★★☆
-      - v2|日本05|原生|★★☆
-      - v2|日本01|特供原生|限速
-      - v2|美国01|原生|★★☆
-      - v2|美国02|原生|★★☆
-      - v2|美国03|原生|★★☆
-      - v2|美国04|原生|★★☆
-      - v2|美国05|原生|★★☆
-      - v2|美国06|原生|★★☆
-      - v2|美国01|hulu|限速
-      - v2|英国01|原生|★★☆
-      - v2|英国02|原生|★★☆
-      - v2|英国03|原生|★★☆
-      - v2|英国04|原生|★★☆
-      - v2|英国05|原生|★★☆
-      - v2|英国06|原生|★★☆
-      - v2|澳洲01|MPTCP|★☆☆
-      - v2|澳洲02|MPTCP|★☆☆
-      - v2|澳洲03|MPTCP|★☆☆
-      - v2|澳洲04|MPTCP|★☆☆
-      - v2|澳洲05|MPTCP|★☆☆
-      - v2|韩国01|MPTCP|★☆☆
-      - v2|韩国02|MPTCP|★☆☆
-      - v2|韩国03|MPTCP|★☆☆
-      - v2|韩国04|MPTCP|★☆☆
-      - v2|韩国05|MPTCP|★☆☆
-      - v2|阿根廷01|特供原生|限速
-      - v2|巴西01|特供原生|限速
-      - v2|智利01|特供原生|限速
-      - v2|阿联酋01|特供原生|限速
-      - v2|马来西亚01|特供原生|限速
-      - v2|泰国01|特供原生|限速
-      - v2|菲律宾01|特供原生|限速
-      - v2|越南01|特供原生|限速
-      - v2|印尼01|特供原生|限速
-      - v2|南非01|特供原生|限速
-      - v2|尼日利亚01|特供原生|限速
-      - v2|加拿大01|特供原生|限速
-      - v2|墨西哥01|特供原生|限速
-      - v2|巴基斯坦01|特供原生|限速
-      - v2|法国01|特供原生|限速
-      - v2|意大利01|特供原生|限速
-      - v2|冰岛01|特供原生|限速
-      - v2|荷兰01|特供原生|限速
-      - v2|西班牙01|特供原生|限速
-      - v2|葡萄牙01|特供原生|限速
-      - v2|瑞典01|特供原生|限速
-      - v2|德国01|特供原生|限速
-      - v2|爱尔兰01|特供原生|限速
-      - v2|俄罗斯01|特供原生|限速
-      - v2|俄罗斯02|特供原生|限速
-      - v2|俄罗斯03|特供原生|限速
-      - v2|立陶宛01|特供原生|限速
-      - v2|匈牙利01|特供原生|限速
-      - v2|比利时01|特供原生|限速
-      - v2|乌克兰01|特供原生|限速
-      - v2|罗马尼亚01|特供原生|限速
-      - v2|瑞士01|特供原生|限速
-      - v2|奥地利01|特供原生|限速
-      - v2|土耳其01|特供原生|限速
-      - v2|土耳其02|特供原生|限速
-      - v2|印度01|MPTCP|★☆☆
-      - v2|印度02|MPTCP|★☆☆
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 美国
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - RU1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - SG1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - JP1(IEPL) - 负载均衡专线
+      - TW1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - KR1(IEPL) - 负载均衡专线
+      - HK1(IEPL) - 负载均衡专线
+      - US1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 | 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - v2|香港01|MPTCP|★★★
-      - v2|香港02|MPTCP|★★★
-      - v2|香港03|MPTCP|★★★
-      - v2|香港04|MPTCP|★★★
-      - v2|香港05|MPTCP|★★★
-      - v2|香港06|MPTCP|★★★
-      - v2|香港07|MPTCP|★★☆
-      - v2|香港08|MPTCP|★★☆
-      - v2|香港09|MPTCP|★★★
-      - v2|香港10|MPTCP|★★★
-      - v2|香港11|MPTCP|★★☆
-      - v2|香港12|MPTCP|★★★
-      - v2|香港13|MPTCP|★★☆
-      - v2|新加坡01|MPTCP|★★★
-      - v2|新加坡02|MPTCP|★★★
-      - v2|新加坡03|MPTCP|★★★
-      - v2|新加坡04|MPTCP|★★★
-      - v2|新加坡05|MPTCP|★★★
-      - v2|新加坡06|MPTCP|★★★
-      - v2|新加坡07|MPTCP|★★★
-      - v2|日本01|MPTCP|★★☆
-      - v2|日本02|MPTCP|★★☆
-      - v2|日本03|MPTCP|★★☆
-      - v2|日本04|MPTCP|★★☆
-      - v2|日本05|MPTCP|★★☆
-      - v2|日本06|MPTCP|★★☆
-      - v2|美国01|MPTCP|★★★
-      - v2|美国02|MPTCP|★★★
-      - v2|美国03|MPTCP|★★★
-      - v2|美国04|MPTCP|★★★
-      - v2|美国05|MPTCP|★★★
-      - v2|美国06|MPTCP|★★★
-      - v2|香港01|原生|★★★
-      - v2|香港02|原生|★★★
-      - v2|香港03|原生|★★★
-      - v2|香港04|原生|★★★
-      - v2|香港05|原生|★★★
-      - v2|香港06|原生|★★★
-      - v2|香港01|myTVSUPER|限速
-      - v2|香港01|YouTubePre|限速
-      - v2|香港02|防送中|限速
-      - v2|台湾01|YouTubePre|限速
-      - v2|美国01|YouTubePre|限速
-      - v2|美国02|谷歌商店|限速
-      - v2|台湾01|原生|★★☆
-      - v2|台湾02|原生|★★☆
-      - v2|台湾03|原生|★★☆
-      - v2|台湾04|原生|★★☆
-      - v2|台湾05|原生|★★☆
-      - v2|台湾06|原生|★★☆
-      - v2|新加坡01|原生|★★☆
-      - v2|新加坡02|原生|★★☆
-      - v2|新加坡03|原生|★★☆
-      - v2|新加坡04|原生|★★☆
-      - v2|新加坡05|原生|★★☆
-      - v2|新加坡06|原生|★★☆
-      - v2|日本01|原生|★★☆
-      - v2|日本02|原生|★★☆
-      - v2|日本03|原生|★★☆
-      - v2|日本04|原生|★★☆
-      - v2|日本05|原生|★★☆
-      - v2|日本01|特供原生|限速
-      - v2|美国01|原生|★★☆
-      - v2|美国02|原生|★★☆
-      - v2|美国03|原生|★★☆
-      - v2|美国04|原生|★★☆
-      - v2|美国05|原生|★★☆
-      - v2|美国06|原生|★★☆
-      - v2|美国01|hulu|限速
-      - v2|英国01|原生|★★☆
-      - v2|英国02|原生|★★☆
-      - v2|英国03|原生|★★☆
-      - v2|英国04|原生|★★☆
-      - v2|英国05|原生|★★☆
-      - v2|英国06|原生|★★☆
-      - v2|澳洲01|MPTCP|★☆☆
-      - v2|澳洲02|MPTCP|★☆☆
-      - v2|澳洲03|MPTCP|★☆☆
-      - v2|澳洲04|MPTCP|★☆☆
-      - v2|澳洲05|MPTCP|★☆☆
-      - v2|韩国01|MPTCP|★☆☆
-      - v2|韩国02|MPTCP|★☆☆
-      - v2|韩国03|MPTCP|★☆☆
-      - v2|韩国04|MPTCP|★☆☆
-      - v2|韩国05|MPTCP|★☆☆
-      - v2|阿根廷01|特供原生|限速
-      - v2|巴西01|特供原生|限速
-      - v2|智利01|特供原生|限速
-      - v2|阿联酋01|特供原生|限速
-      - v2|马来西亚01|特供原生|限速
-      - v2|泰国01|特供原生|限速
-      - v2|菲律宾01|特供原生|限速
-      - v2|越南01|特供原生|限速
-      - v2|印尼01|特供原生|限速
-      - v2|南非01|特供原生|限速
-      - v2|尼日利亚01|特供原生|限速
-      - v2|加拿大01|特供原生|限速
-      - v2|墨西哥01|特供原生|限速
-      - v2|巴基斯坦01|特供原生|限速
-      - v2|法国01|特供原生|限速
-      - v2|意大利01|特供原生|限速
-      - v2|冰岛01|特供原生|限速
-      - v2|荷兰01|特供原生|限速
-      - v2|西班牙01|特供原生|限速
-      - v2|葡萄牙01|特供原生|限速
-      - v2|瑞典01|特供原生|限速
-      - v2|德国01|特供原生|限速
-      - v2|爱尔兰01|特供原生|限速
-      - v2|俄罗斯01|特供原生|限速
-      - v2|俄罗斯02|特供原生|限速
-      - v2|俄罗斯03|特供原生|限速
-      - v2|立陶宛01|特供原生|限速
-      - v2|匈牙利01|特供原生|限速
-      - v2|比利时01|特供原生|限速
-      - v2|乌克兰01|特供原生|限速
-      - v2|罗马尼亚01|特供原生|限速
-      - v2|瑞士01|特供原生|限速
-      - v2|奥地利01|特供原生|限速
-      - v2|土耳其01|特供原生|限速
-      - v2|土耳其02|特供原生|限速
-      - v2|印度01|MPTCP|★☆☆
-      - v2|印度02|MPTCP|★☆☆
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 美国
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - RU1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - SG1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - JP1(IEPL) - 负载均衡专线
+      - TW1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - KR1(IEPL) - 负载均衡专线
+      - HK1(IEPL) - 负载均衡专线
+      - US1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 | 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2|香港01|MPTCP|★★★
-      - v2|香港02|MPTCP|★★★
-      - v2|香港03|MPTCP|★★★
-      - v2|香港04|MPTCP|★★★
-      - v2|香港05|MPTCP|★★★
-      - v2|香港06|MPTCP|★★★
-      - v2|香港07|MPTCP|★★☆
-      - v2|香港08|MPTCP|★★☆
-      - v2|香港09|MPTCP|★★★
-      - v2|香港10|MPTCP|★★★
-      - v2|香港11|MPTCP|★★☆
-      - v2|香港12|MPTCP|★★★
-      - v2|香港13|MPTCP|★★☆
-      - v2|新加坡01|MPTCP|★★★
-      - v2|新加坡02|MPTCP|★★★
-      - v2|新加坡03|MPTCP|★★★
-      - v2|新加坡04|MPTCP|★★★
-      - v2|新加坡05|MPTCP|★★★
-      - v2|新加坡06|MPTCP|★★★
-      - v2|新加坡07|MPTCP|★★★
-      - v2|日本01|MPTCP|★★☆
-      - v2|日本02|MPTCP|★★☆
-      - v2|日本03|MPTCP|★★☆
-      - v2|日本04|MPTCP|★★☆
-      - v2|日本05|MPTCP|★★☆
-      - v2|日本06|MPTCP|★★☆
-      - v2|美国01|MPTCP|★★★
-      - v2|美国02|MPTCP|★★★
-      - v2|美国03|MPTCP|★★★
-      - v2|美国04|MPTCP|★★★
-      - v2|美国05|MPTCP|★★★
-      - v2|美国06|MPTCP|★★★
-      - v2|香港01|原生|★★★
-      - v2|香港02|原生|★★★
-      - v2|香港03|原生|★★★
-      - v2|香港04|原生|★★★
-      - v2|香港05|原生|★★★
-      - v2|香港06|原生|★★★
-      - v2|香港01|myTVSUPER|限速
-      - v2|香港01|YouTubePre|限速
-      - v2|香港02|防送中|限速
-      - v2|台湾01|YouTubePre|限速
-      - v2|美国01|YouTubePre|限速
-      - v2|美国02|谷歌商店|限速
-      - v2|台湾01|原生|★★☆
-      - v2|台湾02|原生|★★☆
-      - v2|台湾03|原生|★★☆
-      - v2|台湾04|原生|★★☆
-      - v2|台湾05|原生|★★☆
-      - v2|台湾06|原生|★★☆
-      - v2|新加坡01|原生|★★☆
-      - v2|新加坡02|原生|★★☆
-      - v2|新加坡03|原生|★★☆
-      - v2|新加坡04|原生|★★☆
-      - v2|新加坡05|原生|★★☆
-      - v2|新加坡06|原生|★★☆
-      - v2|日本01|原生|★★☆
-      - v2|日本02|原生|★★☆
-      - v2|日本03|原生|★★☆
-      - v2|日本04|原生|★★☆
-      - v2|日本05|原生|★★☆
-      - v2|日本01|特供原生|限速
-      - v2|美国01|原生|★★☆
-      - v2|美国02|原生|★★☆
-      - v2|美国03|原生|★★☆
-      - v2|美国04|原生|★★☆
-      - v2|美国05|原生|★★☆
-      - v2|美国06|原生|★★☆
-      - v2|美国01|hulu|限速
-      - v2|英国01|原生|★★☆
-      - v2|英国02|原生|★★☆
-      - v2|英国03|原生|★★☆
-      - v2|英国04|原生|★★☆
-      - v2|英国05|原生|★★☆
-      - v2|英国06|原生|★★☆
-      - v2|澳洲01|MPTCP|★☆☆
-      - v2|澳洲02|MPTCP|★☆☆
-      - v2|澳洲03|MPTCP|★☆☆
-      - v2|澳洲04|MPTCP|★☆☆
-      - v2|澳洲05|MPTCP|★☆☆
-      - v2|韩国01|MPTCP|★☆☆
-      - v2|韩国02|MPTCP|★☆☆
-      - v2|韩国03|MPTCP|★☆☆
-      - v2|韩国04|MPTCP|★☆☆
-      - v2|韩国05|MPTCP|★☆☆
-      - v2|阿根廷01|特供原生|限速
-      - v2|巴西01|特供原生|限速
-      - v2|智利01|特供原生|限速
-      - v2|阿联酋01|特供原生|限速
-      - v2|马来西亚01|特供原生|限速
-      - v2|泰国01|特供原生|限速
-      - v2|菲律宾01|特供原生|限速
-      - v2|越南01|特供原生|限速
-      - v2|印尼01|特供原生|限速
-      - v2|南非01|特供原生|限速
-      - v2|尼日利亚01|特供原生|限速
-      - v2|加拿大01|特供原生|限速
-      - v2|墨西哥01|特供原生|限速
-      - v2|巴基斯坦01|特供原生|限速
-      - v2|法国01|特供原生|限速
-      - v2|意大利01|特供原生|限速
-      - v2|冰岛01|特供原生|限速
-      - v2|荷兰01|特供原生|限速
-      - v2|西班牙01|特供原生|限速
-      - v2|葡萄牙01|特供原生|限速
-      - v2|瑞典01|特供原生|限速
-      - v2|德国01|特供原生|限速
-      - v2|爱尔兰01|特供原生|限速
-      - v2|俄罗斯01|特供原生|限速
-      - v2|俄罗斯02|特供原生|限速
-      - v2|俄罗斯03|特供原生|限速
-      - v2|立陶宛01|特供原生|限速
-      - v2|匈牙利01|特供原生|限速
-      - v2|比利时01|特供原生|限速
-      - v2|乌克兰01|特供原生|限速
-      - v2|罗马尼亚01|特供原生|限速
-      - v2|瑞士01|特供原生|限速
-      - v2|奥地利01|特供原生|限速
-      - v2|土耳其01|特供原生|限速
-      - v2|土耳其02|特供原生|限速
-      - v2|印度01|MPTCP|★☆☆
-      - v2|印度02|MPTCP|★☆☆
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 美国
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - RU1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - SG1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - JP1(IEPL) - 负载均衡专线
+      - TW1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - KR1(IEPL) - 负载均衡专线
+      - HK1(IEPL) - 负载均衡专线
+      - US1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 | 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1081,128 +257,27 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2|香港01|MPTCP|★★★
-      - v2|香港02|MPTCP|★★★
-      - v2|香港03|MPTCP|★★★
-      - v2|香港04|MPTCP|★★★
-      - v2|香港05|MPTCP|★★★
-      - v2|香港06|MPTCP|★★★
-      - v2|香港07|MPTCP|★★☆
-      - v2|香港08|MPTCP|★★☆
-      - v2|香港09|MPTCP|★★★
-      - v2|香港10|MPTCP|★★★
-      - v2|香港11|MPTCP|★★☆
-      - v2|香港12|MPTCP|★★★
-      - v2|香港13|MPTCP|★★☆
-      - v2|新加坡01|MPTCP|★★★
-      - v2|新加坡02|MPTCP|★★★
-      - v2|新加坡03|MPTCP|★★★
-      - v2|新加坡04|MPTCP|★★★
-      - v2|新加坡05|MPTCP|★★★
-      - v2|新加坡06|MPTCP|★★★
-      - v2|新加坡07|MPTCP|★★★
-      - v2|日本01|MPTCP|★★☆
-      - v2|日本02|MPTCP|★★☆
-      - v2|日本03|MPTCP|★★☆
-      - v2|日本04|MPTCP|★★☆
-      - v2|日本05|MPTCP|★★☆
-      - v2|日本06|MPTCP|★★☆
-      - v2|美国01|MPTCP|★★★
-      - v2|美国02|MPTCP|★★★
-      - v2|美国03|MPTCP|★★★
-      - v2|美国04|MPTCP|★★★
-      - v2|美国05|MPTCP|★★★
-      - v2|美国06|MPTCP|★★★
-      - v2|香港01|原生|★★★
-      - v2|香港02|原生|★★★
-      - v2|香港03|原生|★★★
-      - v2|香港04|原生|★★★
-      - v2|香港05|原生|★★★
-      - v2|香港06|原生|★★★
-      - v2|香港01|myTVSUPER|限速
-      - v2|香港01|YouTubePre|限速
-      - v2|香港02|防送中|限速
-      - v2|台湾01|YouTubePre|限速
-      - v2|美国01|YouTubePre|限速
-      - v2|美国02|谷歌商店|限速
-      - v2|台湾01|原生|★★☆
-      - v2|台湾02|原生|★★☆
-      - v2|台湾03|原生|★★☆
-      - v2|台湾04|原生|★★☆
-      - v2|台湾05|原生|★★☆
-      - v2|台湾06|原生|★★☆
-      - v2|新加坡01|原生|★★☆
-      - v2|新加坡02|原生|★★☆
-      - v2|新加坡03|原生|★★☆
-      - v2|新加坡04|原生|★★☆
-      - v2|新加坡05|原生|★★☆
-      - v2|新加坡06|原生|★★☆
-      - v2|日本01|原生|★★☆
-      - v2|日本02|原生|★★☆
-      - v2|日本03|原生|★★☆
-      - v2|日本04|原生|★★☆
-      - v2|日本05|原生|★★☆
-      - v2|日本01|特供原生|限速
-      - v2|美国01|原生|★★☆
-      - v2|美国02|原生|★★☆
-      - v2|美国03|原生|★★☆
-      - v2|美国04|原生|★★☆
-      - v2|美国05|原生|★★☆
-      - v2|美国06|原生|★★☆
-      - v2|美国01|hulu|限速
-      - v2|英国01|原生|★★☆
-      - v2|英国02|原生|★★☆
-      - v2|英国03|原生|★★☆
-      - v2|英国04|原生|★★☆
-      - v2|英国05|原生|★★☆
-      - v2|英国06|原生|★★☆
-      - v2|澳洲01|MPTCP|★☆☆
-      - v2|澳洲02|MPTCP|★☆☆
-      - v2|澳洲03|MPTCP|★☆☆
-      - v2|澳洲04|MPTCP|★☆☆
-      - v2|澳洲05|MPTCP|★☆☆
-      - v2|韩国01|MPTCP|★☆☆
-      - v2|韩国02|MPTCP|★☆☆
-      - v2|韩国03|MPTCP|★☆☆
-      - v2|韩国04|MPTCP|★☆☆
-      - v2|韩国05|MPTCP|★☆☆
-      - v2|阿根廷01|特供原生|限速
-      - v2|巴西01|特供原生|限速
-      - v2|智利01|特供原生|限速
-      - v2|阿联酋01|特供原生|限速
-      - v2|马来西亚01|特供原生|限速
-      - v2|泰国01|特供原生|限速
-      - v2|菲律宾01|特供原生|限速
-      - v2|越南01|特供原生|限速
-      - v2|印尼01|特供原生|限速
-      - v2|南非01|特供原生|限速
-      - v2|尼日利亚01|特供原生|限速
-      - v2|加拿大01|特供原生|限速
-      - v2|墨西哥01|特供原生|限速
-      - v2|巴基斯坦01|特供原生|限速
-      - v2|法国01|特供原生|限速
-      - v2|意大利01|特供原生|限速
-      - v2|冰岛01|特供原生|限速
-      - v2|荷兰01|特供原生|限速
-      - v2|西班牙01|特供原生|限速
-      - v2|葡萄牙01|特供原生|限速
-      - v2|瑞典01|特供原生|限速
-      - v2|德国01|特供原生|限速
-      - v2|爱尔兰01|特供原生|限速
-      - v2|俄罗斯01|特供原生|限速
-      - v2|俄罗斯02|特供原生|限速
-      - v2|俄罗斯03|特供原生|限速
-      - v2|立陶宛01|特供原生|限速
-      - v2|匈牙利01|特供原生|限速
-      - v2|比利时01|特供原生|限速
-      - v2|乌克兰01|特供原生|限速
-      - v2|罗马尼亚01|特供原生|限速
-      - v2|瑞士01|特供原生|限速
-      - v2|奥地利01|特供原生|限速
-      - v2|土耳其01|特供原生|限速
-      - v2|土耳其02|特供原生|限速
-      - v2|印度01|MPTCP|★☆☆
-      - v2|印度02|MPTCP|★☆☆
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 美国
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - RU1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - SG1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - JP1(IEPL) - 负载均衡专线
+      - TW1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - KR1(IEPL) - 负载均衡专线
+      - HK1(IEPL) - 负载均衡专线
+      - US1(IEPL) - 负载均衡专线
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 | 2
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 | 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
