@@ -5,339 +5,103 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 日本_7, server: 203.138.98.199, port: 28443, type: trojan, password: 5426fb38-3d76-4267-a5fc-10741eea7f7d, skip-cert-verify: true, udp: true}
-  - {name: 中国_6, server: gzyd2.52147.top, port: 30170, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
-  - {name: TG4, server: 103.173.255.127, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, skip-cert-verify: true, udp: true}
-  - {name: 美国39, server: v125.v2dns.bar, port: 80, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v1252N93nZez6Py, ws-headers: {Host: v125.v2dns.bar}, udp: true}
-  - {name: 美国2, server: azhj001.xiba1.xyz, port: 20722, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 中国58, server: ftp.cn.debian.cdnet.in, port: 8040, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
-  - {name: 美国30, server: azhj001.xiba1.xyz, port: 20723, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 中国5, server: hnyd.52147.top, port: 30170, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 美国, server: azhj001.xiba1.xyz, port: 20721, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG13, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxusa.fovi.tk}, udp: true}
-  - {name: 日本5, server: 203.138.98.199, port: 28443, type: trojan, password: 5426fb38-3d76-4267-a5fc-10741eea7f7d, skip-cert-verify: true, udp: true}
-  - {name: 中国51, server: 119.36.161.40, port: 443, type: vmess, uuid: 5e38275e-f168-11ec-a6d0-42010a800003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /HbedXBnw/, ws-headers: {Host: us.batcloud.bond}, udp: true}
-  - {name: TG, server: 103.173.255.228, port: 28443, type: trojan, password: 5426fb38-3d76-4267-a5fc-10741eea7f7d, skip-cert-verify: true, udp: true}
-  - {name: 日本3, server: 164.70.68.67, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, skip-cert-verify: true, udp: true}
-  - {name: 中国50, server: ftp.cn.debian.cdnet.in, port: 8020, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
-  - {name: 美国35, server: v125.v2dns.bar, port: 80, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v1252N93nZez6Py, ws-headers: {Host: v125.v2dns.bar}, udp: true}
-  - {name: 中国25, server: ftp.cn.debian.cdnet.in, port: 8010, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
-  - {name: 中国, server: hnyd.52147.top, port: 49870, type: ss, cipher: chacha20-ietf-poly1305, password: 5426fb38-3d76-4267-a5fc-10741eea7f7d, udp: true}
-  - {name: 美国13, server: azhj001.xiba1.xyz, port: 20719, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国3, server: azhj001.xiba1.xyz, port: 20720, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国7, server: azhj001.xiba1.xyz, port: 20724, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 中国14, server: gzyd1.52147.top, port: 30130, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 美国38, server: v125.v2dns.bar, port: 80, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v1252N93nZez6Py, ws-headers: {Host: v125.v2dns.bar}, udp: true}
-  - {name: 美国15, server: v125.v2dns.bar, port: 80, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v1252N93nZez6Py, ws-headers: {Host: v125.v2dns.bar}, udp: true}
-  - {name: 美国43, server: rbzz.jddsb.cf, port: 1003, type: vmess, uuid: 74463ed8-7a11-4d63-937f-6766843594df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: rbzz.jddsb.cf}, udp: true}
-  - {name: 香港2, server: azgy001.xiba1.xyz, port: 6003, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国18, server: azhj001.xiba1.xyz, port: 20721, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国41, server: azhj001.xiba1.xyz, port: 20715, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG5, server: 103.173.255.21, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, skip-cert-verify: true, udp: true}
-  - {name: 美国5, server: azhj001.xiba1.xyz, port: 20720, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 中国28, server: ftp.cn.debian.cdnet.in, port: 8060, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
-  - {name: 日本4, server: 203.138.98.199, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, skip-cert-verify: true, udp: true}
-  - {name: 香港8, server: azgy001.xiba1.xyz, port: 20716, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 中国30, server: ftp.cn.debian.cdnet.in, port: 8060, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
-  - {name: TG2, server: 103.173.255.127, port: 28443, type: trojan, password: 5426fb38-3d76-4267-a5fc-10741eea7f7d, skip-cert-verify: true, udp: true}
-  - {name: 日本10, server: 203.138.98.199, port: 28443, type: trojan, password: 5426fb38-3d76-4267-a5fc-10741eea7f7d, skip-cert-verify: true, udp: true}
-  - {name: 美国40, server: 625us.ok365.cyou, port: 443, type: trojan, password: 8ca09dac-c2d3-4aeb-87e5-26b64ebcf5cf, sni: 625us.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: 香港3, server: azgy001.xiba1.xyz, port: 20714, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国 28, server: rbzz.jddsb.cf, port: 1001, type: vmess, uuid: 74463ed8-7a11-4d63-937f-6766843594df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: rbzz.jddsb.cf}, udp: true}
-  - {name: 俄罗斯联邦, server: 165.154.243.208, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, skip-cert-verify: true, udp: true}
-  - {name: 中国19, server: gzyd2.52147.top, port: 20160, type: trojan, password: 5426fb38-3d76-4267-a5fc-10741eea7f7d, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 中国 65, server: ftp.cn.debian.cdnet.in, port: 8020, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
-  - {name: 中国 49, server: gzyd1.52147.top, port: 30080, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 中国 69, server: hnyd.52147.top, port: 30130, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 美国50, server: rbzz.jddsb.cf, port: 1008, type: vmess, uuid: 74463ed8-7a11-4d63-937f-6766843594df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: rbzz.jddsb.cf}, udp: true}
-  - {name: 日本8, server: 164.70.68.67, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, skip-cert-verify: true, udp: true}
-  - {name: 美国51, server: rbzz.jddsb.cf, port: 1000, type: vmess, uuid: 74463ed8-7a11-4d63-937f-6766843594df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: rbzz.jddsb.cf}, udp: true}
-  - {name: 中国36, server: hnyd.52147.top, port: 20060, type: trojan, password: 5426fb38-3d76-4267-a5fc-10741eea7f7d, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 中国37, server: hnyd.52147.top, port: 30080, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 香港, server: azgy001.xiba1.xyz, port: 6004, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG3, server: 103.173.255.234, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, skip-cert-verify: true, udp: true}
-  - {name: 美国11, server: hj001.xiba1.xyz, port: 20769, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: hj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 中国48, server: ftp.cn.debian.cdnet.in, port: 8010, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
-  - {name: 美国46, server: rbzz.jddsb.cf, port: 1002, type: vmess, uuid: 74463ed8-7a11-4d63-937f-6766843594df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: rbzz.jddsb.cf}, udp: true}
-  - {name: TG6, server: 103.173.255.228, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, skip-cert-verify: true, udp: true}
-  - {name: 中国45, server: hnyd.52147.top, port: 20120, type: trojan, password: 5426fb38-3d76-4267-a5fc-10741eea7f7d, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 中国 31, server: gzyd2.52147.top, port: 20110, type: trojan, password: 5426fb38-3d76-4267-a5fc-10741eea7f7d, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 美国6, server: c86s3.jamjams3.net, port: 31567, type: vmess, uuid: 7e98d7df-0fc1-45f3-8a0c-f840218b4c22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港6, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 中国26, server: ftp.cn.debian.cdnet.in, port: 8070, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
-  - {name: 香港4, server: azgy001.xiba1.xyz, port: 20710, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国19, server: azhj001.xiba1.xyz, port: 20720, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 荷兰g, server: c86s5.jamjams3.net, port: 31567, type: vmess, uuid: 7e98d7df-0fc1-45f3-8a0c-f840218b4c22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 荷兰 2, server: c86s5.jamjams3.net, port: 31567, type: vmess, uuid: 7e98d7df-0fc1-45f3-8a0c-f840218b4c22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国42, server: gzyd1.52147.top, port: 20060, type: trojan, password: 5426fb38-3d76-4267-a5fc-10741eea7f7d, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 中国22, server: hnyd.52147.top, port: 20110, type: trojan, password: 5426fb38-3d76-4267-a5fc-10741eea7f7d, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 中国16, server: ftp.cn.debian.cdnet.in, port: 8070, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
-  - {name: 香港5, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 中国15, server: gzyd1.52147.top, port: 30170, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 美国31, server: azhj001.xiba1.xyz, port: 20722, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国 8, server: c86s3.jamjams3.net, port: 31567, type: vmess, uuid: 7e98d7df-0fc1-45f3-8a0c-f840218b4c22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国32, server: hj001.xiba1.xyz, port: 20768, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: hj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 中国8, server: hnyd.52147.top, port: 20160, type: trojan, password: 5426fb38-3d76-4267-a5fc-10741eea7f7d, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 中国66, server: trojan.linkdns.xyz, port: 40208, type: trojan, password: 379105df-ad74-3c8a-ace3-5832de8f973a, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国4, server: azhj001.xiba1.xyz, port: 20727, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国12, server: hj001.xiba1.xyz, port: 20770, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: hj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 中国20, server: gzyd2.52147.top, port: 20120, type: trojan, password: 5426fb38-3d76-4267-a5fc-10741eea7f7d, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 美国10, server: azhj001.xiba1.xyz, port: 20725, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 中国7, server: gzyd1.52147.top, port: 20160, type: trojan, password: 5426fb38-3d76-4267-a5fc-10741eea7f7d, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 印尼, server: lt.yhy520.xyz, port: 58829, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: 泰国, server: lt.yhy520.xyz, port: 58830, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本, server: lt.yhy520.xyz, port: 58806, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯, server: dx.yhy520.xyz, port: 58828, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国, server: lt.yhy520.xyz, port: 58832, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国1, server: lt.yhy520.xyz, port: 58818, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯 2, server: lt.yhy520.xyz, port: 58813, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国1 2, server: dx.yhy520.xyz, port: 58817, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国 2, server: dx.yhy520.xyz, port: 58816, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: 泰国 2, server: dx.yhy520.xyz, port: 58825, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港, server: lt.yhy520.xyz, port: 58802, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: 印尼 2, server: dx.yhy520.xyz, port: 58824, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾, server: dx.yhy520.xyz, port: 58821, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: 越南, server: lt.yhy520.xyz, port: 58831, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾 2, server: lt.yhy520.xyz, port: 58827, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 2, server: dx.yhy520.xyz, port: 58804, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港2, server: dx.yhy520.xyz, port: 58803, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港3, server: dx.yhy520.xyz, port: 58801, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港4, server: lt.yhy520.xyz, port: 58819, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港5, server: lt.yhy520.xyz, port: 58820, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本_7
-      - 中国_6
-      - TG4
-      - 美国39
-      - 美国2
-      - 中国58
-      - 美国30
-      - 中国5
+      - 印尼
+      - 泰国
+      - 日本
+      - 俄罗斯
       - 美国
-      - TG13
-      - 日本5
-      - 中国51
-      - TG
-      - 日本3
-      - 中国50
-      - 美国35
-      - 中国25
-      - 中国
-      - 美国13
-      - 美国3
-      - 美国7
-      - 中国14
-      - 美国38
-      - 美国15
-      - 美国43
-      - 香港2
-      - 美国18
-      - 美国41
-      - TG5
-      - 美国5
-      - 中国28
-      - 日本4
-      - 香港8
-      - 中国30
-      - TG2
-      - 日本10
-      - 美国40
-      - 香港3
-      - 美国 28
-      - 俄罗斯联邦
-      - 中国19
-      - 中国 65
-      - 中国 49
-      - 中国 69
-      - 美国50
-      - 日本8
-      - 美国51
-      - 中国36
-      - 中国37
+      - 美国1
+      - 俄罗斯 2
+      - 美国1 2
+      - 美国 2
+      - 泰国 2
       - 香港
-      - TG3
-      - 美国11
-      - 中国48
-      - 美国46
-      - TG6
-      - 中国45
-      - 中国 31
-      - 美国6
-      - 香港6
-      - 中国26
+      - 印尼 2
+      - 台湾
+      - 越南
+      - 台湾 2
+      - 香港 2
+      - 香港2
+      - 香港3
       - 香港4
-      - 美国19
-      - 荷兰g
-      - 荷兰 2
-      - 中国42
-      - 中国22
-      - 中国16
       - 香港5
-      - 中国15
-      - 美国31
-      - 美国 8
-      - 美国32
-      - 中国8
-      - 中国66
-      - 美国4
-      - 美国12
-      - 中国20
-      - 美国10
-      - 中国7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 日本_7
-      - 中国_6
-      - TG4
-      - 美国39
-      - 美国2
-      - 中国58
-      - 美国30
-      - 中国5
+      - 印尼
+      - 泰国
+      - 日本
+      - 俄罗斯
       - 美国
-      - TG13
-      - 日本5
-      - 中国51
-      - TG
-      - 日本3
-      - 中国50
-      - 美国35
-      - 中国25
-      - 中国
-      - 美国13
-      - 美国3
-      - 美国7
-      - 中国14
-      - 美国38
-      - 美国15
-      - 美国43
-      - 香港2
-      - 美国18
-      - 美国41
-      - TG5
-      - 美国5
-      - 中国28
-      - 日本4
-      - 香港8
-      - 中国30
-      - TG2
-      - 日本10
-      - 美国40
-      - 香港3
-      - 美国 28
-      - 俄罗斯联邦
-      - 中国19
-      - 中国 65
-      - 中国 49
-      - 中国 69
-      - 美国50
-      - 日本8
-      - 美国51
-      - 中国36
-      - 中国37
+      - 美国1
+      - 俄罗斯 2
+      - 美国1 2
+      - 美国 2
+      - 泰国 2
       - 香港
-      - TG3
-      - 美国11
-      - 中国48
-      - 美国46
-      - TG6
-      - 中国45
-      - 中国 31
-      - 美国6
-      - 香港6
-      - 中国26
+      - 印尼 2
+      - 台湾
+      - 越南
+      - 台湾 2
+      - 香港 2
+      - 香港2
+      - 香港3
       - 香港4
-      - 美国19
-      - 荷兰g
-      - 荷兰 2
-      - 中国42
-      - 中国22
-      - 中国16
       - 香港5
-      - 中国15
-      - 美国31
-      - 美国 8
-      - 美国32
-      - 中国8
-      - 中国66
-      - 美国4
-      - 美国12
-      - 中国20
-      - 美国10
-      - 中国7
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本_7
-      - 中国_6
-      - TG4
-      - 美国39
-      - 美国2
-      - 中国58
-      - 美国30
-      - 中国5
+      - 印尼
+      - 泰国
+      - 日本
+      - 俄罗斯
       - 美国
-      - TG13
-      - 日本5
-      - 中国51
-      - TG
-      - 日本3
-      - 中国50
-      - 美国35
-      - 中国25
-      - 中国
-      - 美国13
-      - 美国3
-      - 美国7
-      - 中国14
-      - 美国38
-      - 美国15
-      - 美国43
-      - 香港2
-      - 美国18
-      - 美国41
-      - TG5
-      - 美国5
-      - 中国28
-      - 日本4
-      - 香港8
-      - 中国30
-      - TG2
-      - 日本10
-      - 美国40
-      - 香港3
-      - 美国 28
-      - 俄罗斯联邦
-      - 中国19
-      - 中国 65
-      - 中国 49
-      - 中国 69
-      - 美国50
-      - 日本8
-      - 美国51
-      - 中国36
-      - 中国37
+      - 美国1
+      - 俄罗斯 2
+      - 美国1 2
+      - 美国 2
+      - 泰国 2
       - 香港
-      - TG3
-      - 美国11
-      - 中国48
-      - 美国46
-      - TG6
-      - 中国45
-      - 中国 31
-      - 美国6
-      - 香港6
-      - 中国26
+      - 印尼 2
+      - 台湾
+      - 越南
+      - 台湾 2
+      - 香港 2
+      - 香港2
+      - 香港3
       - 香港4
-      - 美国19
-      - 荷兰g
-      - 荷兰 2
-      - 中国42
-      - 中国22
-      - 中国16
       - 香港5
-      - 中国15
-      - 美国31
-      - 美国 8
-      - 美国32
-      - 中国8
-      - 中国66
-      - 美国4
-      - 美国12
-      - 中国20
-      - 美国10
-      - 中国7
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -356,94 +120,36 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本_7
-      - 中国_6
-      - TG4
-      - 美国39
-      - 美国2
-      - 中国58
-      - 美国30
-      - 中国5
+      - 印尼
+      - 泰国
+      - 日本
+      - 俄罗斯
       - 美国
-      - TG13
-      - 日本5
-      - 中国51
-      - TG
-      - 日本3
-      - 中国50
-      - 美国35
-      - 中国25
-      - 中国
-      - 美国13
-      - 美国3
-      - 美国7
-      - 中国14
-      - 美国38
-      - 美国15
-      - 美国43
-      - 香港2
-      - 美国18
-      - 美国41
-      - TG5
-      - 美国5
-      - 中国28
-      - 日本4
-      - 香港8
-      - 中国30
-      - TG2
-      - 日本10
-      - 美国40
-      - 香港3
-      - 美国 28
-      - 俄罗斯联邦
-      - 中国19
-      - 中国 65
-      - 中国 49
-      - 中国 69
-      - 美国50
-      - 日本8
-      - 美国51
-      - 中国36
-      - 中国37
+      - 美国1
+      - 俄罗斯 2
+      - 美国1 2
+      - 美国 2
+      - 泰国 2
       - 香港
-      - TG3
-      - 美国11
-      - 中国48
-      - 美国46
-      - TG6
-      - 中国45
-      - 中国 31
-      - 美国6
-      - 香港6
-      - 中国26
+      - 印尼 2
+      - 台湾
+      - 越南
+      - 台湾 2
+      - 香港 2
+      - 香港2
+      - 香港3
       - 香港4
-      - 美国19
-      - 荷兰g
-      - 荷兰 2
-      - 中国42
-      - 中国22
-      - 中国16
       - 香港5
-      - 中国15
-      - 美国31
-      - 美国 8
-      - 美国32
-      - 中国8
-      - 中国66
-      - 美国4
-      - 美国12
-      - 中国20
-      - 美国10
-      - 中国7
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港2
-      - 香港8
-      - 香港3
       - 香港
-      - 香港6
+      - 台湾
+      - 台湾 2
+      - 香港 2
+      - 香港2
+      - 香港3
       - 香港4
       - 香港5
       - 🔰 节点选择
@@ -452,254 +158,77 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日本_7
-      - 中国_6
-      - TG4
-      - 美国39
-      - 美国2
-      - 中国58
-      - 美国30
-      - 中国5
+      - 印尼
+      - 泰国
+      - 日本
+      - 俄罗斯
       - 美国
-      - TG13
-      - 日本5
-      - 中国51
-      - TG
-      - 日本3
-      - 中国50
-      - 美国35
-      - 中国25
-      - 中国
-      - 美国13
-      - 美国3
-      - 美国7
-      - 中国14
-      - 美国38
-      - 美国15
-      - 美国43
-      - 香港2
-      - 美国18
-      - 美国41
-      - TG5
-      - 美国5
-      - 中国28
-      - 日本4
-      - 香港8
-      - 中国30
-      - TG2
-      - 日本10
-      - 美国40
-      - 香港3
-      - 美国 28
-      - 俄罗斯联邦
-      - 中国19
-      - 中国 65
-      - 中国 49
-      - 中国 69
-      - 美国50
-      - 日本8
-      - 美国51
-      - 中国36
-      - 中国37
+      - 美国1
+      - 俄罗斯 2
+      - 美国1 2
+      - 美国 2
+      - 泰国 2
       - 香港
-      - TG3
-      - 美国11
-      - 中国48
-      - 美国46
-      - TG6
-      - 中国45
-      - 中国 31
-      - 美国6
-      - 香港6
-      - 中国26
+      - 印尼 2
+      - 台湾
+      - 越南
+      - 台湾 2
+      - 香港 2
+      - 香港2
+      - 香港3
       - 香港4
-      - 美国19
-      - 荷兰g
-      - 荷兰 2
-      - 中国42
-      - 中国22
-      - 中国16
       - 香港5
-      - 中国15
-      - 美国31
-      - 美国 8
-      - 美国32
-      - 中国8
-      - 中国66
-      - 美国4
-      - 美国12
-      - 中国20
-      - 美国10
-      - 中国7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 日本_7
-      - 中国_6
-      - TG4
-      - 美国39
-      - 美国2
-      - 中国58
-      - 美国30
-      - 中国5
+      - 印尼
+      - 泰国
+      - 日本
+      - 俄罗斯
       - 美国
-      - TG13
-      - 日本5
-      - 中国51
-      - TG
-      - 日本3
-      - 中国50
-      - 美国35
-      - 中国25
-      - 中国
-      - 美国13
-      - 美国3
-      - 美国7
-      - 中国14
-      - 美国38
-      - 美国15
-      - 美国43
-      - 香港2
-      - 美国18
-      - 美国41
-      - TG5
-      - 美国5
-      - 中国28
-      - 日本4
-      - 香港8
-      - 中国30
-      - TG2
-      - 日本10
-      - 美国40
-      - 香港3
-      - 美国 28
-      - 俄罗斯联邦
-      - 中国19
-      - 中国 65
-      - 中国 49
-      - 中国 69
-      - 美国50
-      - 日本8
-      - 美国51
-      - 中国36
-      - 中国37
+      - 美国1
+      - 俄罗斯 2
+      - 美国1 2
+      - 美国 2
+      - 泰国 2
       - 香港
-      - TG3
-      - 美国11
-      - 中国48
-      - 美国46
-      - TG6
-      - 中国45
-      - 中国 31
-      - 美国6
-      - 香港6
-      - 中国26
+      - 印尼 2
+      - 台湾
+      - 越南
+      - 台湾 2
+      - 香港 2
+      - 香港2
+      - 香港3
       - 香港4
-      - 美国19
-      - 荷兰g
-      - 荷兰 2
-      - 中国42
-      - 中国22
-      - 中国16
       - 香港5
-      - 中国15
-      - 美国31
-      - 美国 8
-      - 美国32
-      - 中国8
-      - 中国66
-      - 美国4
-      - 美国12
-      - 中国20
-      - 美国10
-      - 中国7
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本_7
-      - 中国_6
-      - TG4
-      - 美国39
-      - 美国2
-      - 中国58
-      - 美国30
-      - 中国5
+      - 印尼
+      - 泰国
+      - 日本
+      - 俄罗斯
       - 美国
-      - TG13
-      - 日本5
-      - 中国51
-      - TG
-      - 日本3
-      - 中国50
-      - 美国35
-      - 中国25
-      - 中国
-      - 美国13
-      - 美国3
-      - 美国7
-      - 中国14
-      - 美国38
-      - 美国15
-      - 美国43
-      - 香港2
-      - 美国18
-      - 美国41
-      - TG5
-      - 美国5
-      - 中国28
-      - 日本4
-      - 香港8
-      - 中国30
-      - TG2
-      - 日本10
-      - 美国40
-      - 香港3
-      - 美国 28
-      - 俄罗斯联邦
-      - 中国19
-      - 中国 65
-      - 中国 49
-      - 中国 69
-      - 美国50
-      - 日本8
-      - 美国51
-      - 中国36
-      - 中国37
+      - 美国1
+      - 俄罗斯 2
+      - 美国1 2
+      - 美国 2
+      - 泰国 2
       - 香港
-      - TG3
-      - 美国11
-      - 中国48
-      - 美国46
-      - TG6
-      - 中国45
-      - 中国 31
-      - 美国6
-      - 香港6
-      - 中国26
+      - 印尼 2
+      - 台湾
+      - 越南
+      - 台湾 2
+      - 香港 2
+      - 香港2
+      - 香港3
       - 香港4
-      - 美国19
-      - 荷兰g
-      - 荷兰 2
-      - 中国42
-      - 中国22
-      - 中国16
       - 香港5
-      - 中国15
-      - 美国31
-      - 美国 8
-      - 美国32
-      - 中国8
-      - 中国66
-      - 美国4
-      - 美国12
-      - 中国20
-      - 美国10
-      - 中国7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -715,85 +244,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本_7
-      - 中国_6
-      - TG4
-      - 美国39
-      - 美国2
-      - 中国58
-      - 美国30
-      - 中国5
+      - 印尼
+      - 泰国
+      - 日本
+      - 俄罗斯
       - 美国
-      - TG13
-      - 日本5
-      - 中国51
-      - TG
-      - 日本3
-      - 中国50
-      - 美国35
-      - 中国25
-      - 中国
-      - 美国13
-      - 美国3
-      - 美国7
-      - 中国14
-      - 美国38
-      - 美国15
-      - 美国43
-      - 香港2
-      - 美国18
-      - 美国41
-      - TG5
-      - 美国5
-      - 中国28
-      - 日本4
-      - 香港8
-      - 中国30
-      - TG2
-      - 日本10
-      - 美国40
-      - 香港3
-      - 美国 28
-      - 俄罗斯联邦
-      - 中国19
-      - 中国 65
-      - 中国 49
-      - 中国 69
-      - 美国50
-      - 日本8
-      - 美国51
-      - 中国36
-      - 中国37
+      - 美国1
+      - 俄罗斯 2
+      - 美国1 2
+      - 美国 2
+      - 泰国 2
       - 香港
-      - TG3
-      - 美国11
-      - 中国48
-      - 美国46
-      - TG6
-      - 中国45
-      - 中国 31
-      - 美国6
-      - 香港6
-      - 中国26
+      - 印尼 2
+      - 台湾
+      - 越南
+      - 台湾 2
+      - 香港 2
+      - 香港2
+      - 香港3
       - 香港4
-      - 美国19
-      - 荷兰g
-      - 荷兰 2
-      - 中国42
-      - 中国22
-      - 中国16
       - 香港5
-      - 中国15
-      - 美国31
-      - 美国 8
-      - 美国32
-      - 中国8
-      - 中国66
-      - 美国4
-      - 美国12
-      - 中国20
-      - 美国10
-      - 中国7
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
