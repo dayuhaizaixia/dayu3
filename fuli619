@@ -5,103 +5,215 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 印尼, server: lt.yhy520.xyz, port: 58829, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: 泰国, server: lt.yhy520.xyz, port: 58830, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本, server: lt.yhy520.xyz, port: 58806, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯, server: dx.yhy520.xyz, port: 58828, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国, server: lt.yhy520.xyz, port: 58832, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国1, server: lt.yhy520.xyz, port: 58818, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯 2, server: lt.yhy520.xyz, port: 58813, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国1 2, server: dx.yhy520.xyz, port: 58817, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国 2, server: dx.yhy520.xyz, port: 58816, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: 泰国 2, server: dx.yhy520.xyz, port: 58825, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港, server: lt.yhy520.xyz, port: 58802, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: 印尼 2, server: dx.yhy520.xyz, port: 58824, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾, server: dx.yhy520.xyz, port: 58821, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: 越南, server: lt.yhy520.xyz, port: 58831, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾 2, server: lt.yhy520.xyz, port: 58827, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 2, server: dx.yhy520.xyz, port: 58804, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港2, server: dx.yhy520.xyz, port: 58803, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港3, server: dx.yhy520.xyz, port: 58801, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港4, server: lt.yhy520.xyz, port: 58819, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港5, server: lt.yhy520.xyz, port: 58820, type: trojan, password: 65651f05-44f7-3b40-a16d-4f0b21442db1, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG13, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxusa.fovi.tk}, udp: true}
+  - {name: 中国51, server: 119.36.161.40, port: 443, type: vmess, uuid: 5e38275e-f168-11ec-a6d0-42010a800003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /HbedXBnw/, ws-headers: {Host: us.batcloud.bond}, udp: true}
+  - {name: _US_美国_15, server: 134.195.101.32, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: aaa+293+2, server: 85.208.108.93, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: beikui+59+3, server: ftp.cn.debian.cdnet.in, port: 8020, type: ss, cipher: aes-128-gcm, password: 20f047fe-00e0-408b-bd9a-e6b709b35ef1, udp: true}
+  - {name: aaa+293, server: 85.208.108.93, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: aaa+291, server: 85.208.108.93, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国_1, server: 20.249.14.7, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: 日本_245, server: 89.31.126.31, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 美国_258, server: 5.188.0.151, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_209, server: 194.156.231.103, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_250, server: 89.31.126.31, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_164, server: 194.156.231.254, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_158, server: 194.156.231.253, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_87, server: 194.156.231.221, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_249, server: 89.31.126.31, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_243, server: 89.31.126.31, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_57, server: 194.156.231.137, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_247, server: 89.31.126.31, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_159, server: 194.156.231.253, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_130, server: 194.156.231.248, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_11, server: 194.156.231.126, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_161, server: 194.156.231.254, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_8, server: 194.156.231.126, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_126, server: 194.156.231.248, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_168, server: 194.156.231.254, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_170, server: 194.156.231.254, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_151, server: 194.156.231.253, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_154, server: 194.156.231.253, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_155, server: 194.156.231.253, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_12, server: 194.156.231.126, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_85, server: 194.156.231.221, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_14, server: 194.156.231.126, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_165, server: 194.156.231.254, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_93, server: 194.156.231.221, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_167, server: 194.156.231.254, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_9, server: 194.156.231.126, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_169, server: 194.156.231.254, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_5, server: 194.156.231.126, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_160, server: 194.156.231.253, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_86, server: 194.156.231.221, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_89, server: 194.156.231.221, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_152, server: 194.156.231.253, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_91, server: 194.156.231.221, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_92, server: 194.156.231.221, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_7, server: 194.156.231.126, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_180, server: 194.156.231.136, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本_156, server: 194.156.231.253, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 印尼
-      - 泰国
-      - 日本
-      - 俄罗斯
-      - 美国
-      - 美国1
-      - 俄罗斯 2
-      - 美国1 2
-      - 美国 2
-      - 泰国 2
-      - 香港
-      - 印尼 2
-      - 台湾
-      - 越南
-      - 台湾 2
-      - 香港 2
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港5
+      - TG13
+      - 中国51
+      - _US_美国_15
+      - aaa+293+2
+      - beikui+59+3
+      - aaa+293
+      - aaa+291
+      - _US_美国_1
+      - 日本_245
+      - 美国_258
+      - 日本_209
+      - 日本_250
+      - 日本_164
+      - 日本_158
+      - 日本_87
+      - 日本_249
+      - 日本_243
+      - 日本_57
+      - 日本_247
+      - 日本_159
+      - 日本_130
+      - 日本_11
+      - 日本_161
+      - 日本_8
+      - 日本_126
+      - 日本_168
+      - 日本_170
+      - 日本_151
+      - 日本_154
+      - 日本_155
+      - 日本_12
+      - 日本_85
+      - 日本_14
+      - 日本_165
+      - 日本_93
+      - 日本_167
+      - 日本_9
+      - 日本_169
+      - 日本_5
+      - 日本_160
+      - 日本_86
+      - 日本_89
+      - 日本_152
+      - 日本_91
+      - 日本_92
+      - 日本_7
+      - 日本_180
+      - 日本_156
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 印尼
-      - 泰国
-      - 日本
-      - 俄罗斯
-      - 美国
-      - 美国1
-      - 俄罗斯 2
-      - 美国1 2
-      - 美国 2
-      - 泰国 2
-      - 香港
-      - 印尼 2
-      - 台湾
-      - 越南
-      - 台湾 2
-      - 香港 2
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港5
+      - TG13
+      - 中国51
+      - _US_美国_15
+      - aaa+293+2
+      - beikui+59+3
+      - aaa+293
+      - aaa+291
+      - _US_美国_1
+      - 日本_245
+      - 美国_258
+      - 日本_209
+      - 日本_250
+      - 日本_164
+      - 日本_158
+      - 日本_87
+      - 日本_249
+      - 日本_243
+      - 日本_57
+      - 日本_247
+      - 日本_159
+      - 日本_130
+      - 日本_11
+      - 日本_161
+      - 日本_8
+      - 日本_126
+      - 日本_168
+      - 日本_170
+      - 日本_151
+      - 日本_154
+      - 日本_155
+      - 日本_12
+      - 日本_85
+      - 日本_14
+      - 日本_165
+      - 日本_93
+      - 日本_167
+      - 日本_9
+      - 日本_169
+      - 日本_5
+      - 日本_160
+      - 日本_86
+      - 日本_89
+      - 日本_152
+      - 日本_91
+      - 日本_92
+      - 日本_7
+      - 日本_180
+      - 日本_156
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 印尼
-      - 泰国
-      - 日本
-      - 俄罗斯
-      - 美国
-      - 美国1
-      - 俄罗斯 2
-      - 美国1 2
-      - 美国 2
-      - 泰国 2
-      - 香港
-      - 印尼 2
-      - 台湾
-      - 越南
-      - 台湾 2
-      - 香港 2
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港5
+      - TG13
+      - 中国51
+      - _US_美国_15
+      - aaa+293+2
+      - beikui+59+3
+      - aaa+293
+      - aaa+291
+      - _US_美国_1
+      - 日本_245
+      - 美国_258
+      - 日本_209
+      - 日本_250
+      - 日本_164
+      - 日本_158
+      - 日本_87
+      - 日本_249
+      - 日本_243
+      - 日本_57
+      - 日本_247
+      - 日本_159
+      - 日本_130
+      - 日本_11
+      - 日本_161
+      - 日本_8
+      - 日本_126
+      - 日本_168
+      - 日本_170
+      - 日本_151
+      - 日本_154
+      - 日本_155
+      - 日本_12
+      - 日本_85
+      - 日本_14
+      - 日本_165
+      - 日本_93
+      - 日本_167
+      - 日本_9
+      - 日本_169
+      - 日本_5
+      - 日本_160
+      - 日本_86
+      - 日本_89
+      - 日本_152
+      - 日本_91
+      - 日本_92
+      - 日本_7
+      - 日本_180
+      - 日本_156
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -120,115 +232,219 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 印尼
-      - 泰国
-      - 日本
-      - 俄罗斯
-      - 美国
-      - 美国1
-      - 俄罗斯 2
-      - 美国1 2
-      - 美国 2
-      - 泰国 2
-      - 香港
-      - 印尼 2
-      - 台湾
-      - 越南
-      - 台湾 2
-      - 香港 2
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港5
+      - TG13
+      - 中国51
+      - _US_美国_15
+      - aaa+293+2
+      - beikui+59+3
+      - aaa+293
+      - aaa+291
+      - _US_美国_1
+      - 日本_245
+      - 美国_258
+      - 日本_209
+      - 日本_250
+      - 日本_164
+      - 日本_158
+      - 日本_87
+      - 日本_249
+      - 日本_243
+      - 日本_57
+      - 日本_247
+      - 日本_159
+      - 日本_130
+      - 日本_11
+      - 日本_161
+      - 日本_8
+      - 日本_126
+      - 日本_168
+      - 日本_170
+      - 日本_151
+      - 日本_154
+      - 日本_155
+      - 日本_12
+      - 日本_85
+      - 日本_14
+      - 日本_165
+      - 日本_93
+      - 日本_167
+      - 日本_9
+      - 日本_169
+      - 日本_5
+      - 日本_160
+      - 日本_86
+      - 日本_89
+      - 日本_152
+      - 日本_91
+      - 日本_92
+      - 日本_7
+      - 日本_180
+      - 日本_156
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港
-      - 台湾
-      - 台湾 2
-      - 香港 2
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港5
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 印尼
-      - 泰国
-      - 日本
-      - 俄罗斯
-      - 美国
-      - 美国1
-      - 俄罗斯 2
-      - 美国1 2
-      - 美国 2
-      - 泰国 2
-      - 香港
-      - 印尼 2
-      - 台湾
-      - 越南
-      - 台湾 2
-      - 香港 2
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港5
+      - TG13
+      - 中国51
+      - _US_美国_15
+      - aaa+293+2
+      - beikui+59+3
+      - aaa+293
+      - aaa+291
+      - _US_美国_1
+      - 日本_245
+      - 美国_258
+      - 日本_209
+      - 日本_250
+      - 日本_164
+      - 日本_158
+      - 日本_87
+      - 日本_249
+      - 日本_243
+      - 日本_57
+      - 日本_247
+      - 日本_159
+      - 日本_130
+      - 日本_11
+      - 日本_161
+      - 日本_8
+      - 日本_126
+      - 日本_168
+      - 日本_170
+      - 日本_151
+      - 日本_154
+      - 日本_155
+      - 日本_12
+      - 日本_85
+      - 日本_14
+      - 日本_165
+      - 日本_93
+      - 日本_167
+      - 日本_9
+      - 日本_169
+      - 日本_5
+      - 日本_160
+      - 日本_86
+      - 日本_89
+      - 日本_152
+      - 日本_91
+      - 日本_92
+      - 日本_7
+      - 日本_180
+      - 日本_156
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 印尼
-      - 泰国
-      - 日本
-      - 俄罗斯
-      - 美国
-      - 美国1
-      - 俄罗斯 2
-      - 美国1 2
-      - 美国 2
-      - 泰国 2
-      - 香港
-      - 印尼 2
-      - 台湾
-      - 越南
-      - 台湾 2
-      - 香港 2
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港5
+      - TG13
+      - 中国51
+      - _US_美国_15
+      - aaa+293+2
+      - beikui+59+3
+      - aaa+293
+      - aaa+291
+      - _US_美国_1
+      - 日本_245
+      - 美国_258
+      - 日本_209
+      - 日本_250
+      - 日本_164
+      - 日本_158
+      - 日本_87
+      - 日本_249
+      - 日本_243
+      - 日本_57
+      - 日本_247
+      - 日本_159
+      - 日本_130
+      - 日本_11
+      - 日本_161
+      - 日本_8
+      - 日本_126
+      - 日本_168
+      - 日本_170
+      - 日本_151
+      - 日本_154
+      - 日本_155
+      - 日本_12
+      - 日本_85
+      - 日本_14
+      - 日本_165
+      - 日本_93
+      - 日本_167
+      - 日本_9
+      - 日本_169
+      - 日本_5
+      - 日本_160
+      - 日本_86
+      - 日本_89
+      - 日本_152
+      - 日本_91
+      - 日本_92
+      - 日本_7
+      - 日本_180
+      - 日本_156
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 印尼
-      - 泰国
-      - 日本
-      - 俄罗斯
-      - 美国
-      - 美国1
-      - 俄罗斯 2
-      - 美国1 2
-      - 美国 2
-      - 泰国 2
-      - 香港
-      - 印尼 2
-      - 台湾
-      - 越南
-      - 台湾 2
-      - 香港 2
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港5
+      - TG13
+      - 中国51
+      - _US_美国_15
+      - aaa+293+2
+      - beikui+59+3
+      - aaa+293
+      - aaa+291
+      - _US_美国_1
+      - 日本_245
+      - 美国_258
+      - 日本_209
+      - 日本_250
+      - 日本_164
+      - 日本_158
+      - 日本_87
+      - 日本_249
+      - 日本_243
+      - 日本_57
+      - 日本_247
+      - 日本_159
+      - 日本_130
+      - 日本_11
+      - 日本_161
+      - 日本_8
+      - 日本_126
+      - 日本_168
+      - 日本_170
+      - 日本_151
+      - 日本_154
+      - 日本_155
+      - 日本_12
+      - 日本_85
+      - 日本_14
+      - 日本_165
+      - 日本_93
+      - 日本_167
+      - 日本_9
+      - 日本_169
+      - 日本_5
+      - 日本_160
+      - 日本_86
+      - 日本_89
+      - 日本_152
+      - 日本_91
+      - 日本_92
+      - 日本_7
+      - 日本_180
+      - 日本_156
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -244,26 +460,54 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 印尼
-      - 泰国
-      - 日本
-      - 俄罗斯
-      - 美国
-      - 美国1
-      - 俄罗斯 2
-      - 美国1 2
-      - 美国 2
-      - 泰国 2
-      - 香港
-      - 印尼 2
-      - 台湾
-      - 越南
-      - 台湾 2
-      - 香港 2
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港5
+      - TG13
+      - 中国51
+      - _US_美国_15
+      - aaa+293+2
+      - beikui+59+3
+      - aaa+293
+      - aaa+291
+      - _US_美国_1
+      - 日本_245
+      - 美国_258
+      - 日本_209
+      - 日本_250
+      - 日本_164
+      - 日本_158
+      - 日本_87
+      - 日本_249
+      - 日本_243
+      - 日本_57
+      - 日本_247
+      - 日本_159
+      - 日本_130
+      - 日本_11
+      - 日本_161
+      - 日本_8
+      - 日本_126
+      - 日本_168
+      - 日本_170
+      - 日本_151
+      - 日本_154
+      - 日本_155
+      - 日本_12
+      - 日本_85
+      - 日本_14
+      - 日本_165
+      - 日本_93
+      - 日本_167
+      - 日本_9
+      - 日本_169
+      - 日本_5
+      - 日本_160
+      - 日本_86
+      - 日本_89
+      - 日本_152
+      - 日本_91
+      - 日本_92
+      - 日本_7
+      - 日本_180
+      - 日本_156
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
