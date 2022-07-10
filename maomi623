@@ -5,6 +5,43 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: "[LV2·原生] 美国04 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK 000, server: xmrh000.xmrth-node.xyz, port: 15880, type: vmess, uuid: 9aef309d-fb15-3e90-8980-87bd22832a71, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: file-1250914411.cos.ap-hongkong.myqcloud.com}, udp: true}
+  - {name: "[LV2·原生] 美国03 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 33001, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK 012, server: xmrh012.xmrth-node.xyz, port: 15885, type: vmess, uuid: 9aef309d-fb15-3e90-8980-87bd22832a71, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 87318706-ws.va.huya.com}, udp: true}
+  - {name: "[LV2·原生] 香港03 | IEPL 专线 | 3x", server: pp1.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: "[LV2·原生] 香港B1 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 32000, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: "[LV3·原生] 香港01 | IEPL 专线 | 1x", server: pp1.zhengzhongfeizhu.xyz, port: 34004, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: "[LV2·原生] 香港B2 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK 011, server: xmrh011.xmrth-node.xyz, port: 15885, type: vmess, uuid: 9aef309d-fb15-3e90-8980-87bd22832a71, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 87318706-ws.va.huya.com}, udp: true}
+  - {name: "[LV2·原生] 香港B3 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: 广州游戏节点1号-限速8Mdps, server: 8.134.219.59, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 8.134.219.59}, udp: true}
+  - {name: "[LV2·原生] 香港02 | IEPL 专线 | 3x", server: pp1.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: "[LV2·原生] 香港04 | IEPL 专线 | 3x", server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: 80-美国4号, server: su4.chaoxn.top, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: su4.chaoxn.top}, udp: true}
+  - {name: 东京直连-1, server: 138.2.49.230, port: 10021, type: vmess, uuid: e0d8aa68-9187-454d-bbe4-4b4cc8e362e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 138.2.49.230}, udp: true}
+  - {name: 日本|TG专用, server: 139.162.108.240, port: 443, type: vmess, uuid: e0d8aa68-9187-454d-bbe4-4b4cc8e362e3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /azjp.pengui.xyz, ws-headers: {Host: azjp.pengui.xyz}, udp: true}
+  - {name: 香港|移动专用, server: 172.64.157.139, port: 443, type: vmess, uuid: e0d8aa68-9187-454d-bbe4-4b4cc8e362e3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hk.pengui.xyz, ws-headers: {Host: hk.pengui.xyz}, udp: true}
+  - {name: 80-美国6号, server: su6.chaoxn.top, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: su6.chaoxn.top}, udp: true}
+  - {name: 80-日本2号, server: jp2.chaoxn.top, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp2.chaoxn.top}, udp: true}
+  - {name: 香港|移动专用 2, server: 172.64.157.139, port: 443, type: vmess, uuid: e0d8aa68-9187-454d-bbe4-4b4cc8e362e3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hk.pengui.xyz, ws-headers: {Host: hk.pengui.xyz}, udp: true}
+  - {name: 日本|TG专用 2, server: 139.162.108.240, port: 443, type: vmess, uuid: e0d8aa68-9187-454d-bbe4-4b4cc8e362e3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /azjp.pengui.xyz, ws-headers: {Host: azjp.pengui.xyz}, udp: true}
+  - {name: 80-美国5号, server: su5.chaoxn.top, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: su5.chaoxn.top}, udp: true}
+  - {name: "[LV2·原生] 香港B4 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 32003, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: 80-广东1号, server: 59.34.148.109, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 59.34.148.109}, udp: true}
+  - {name: 80-日本4号, server: jp4.chaoxn.top, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp4.chaoxn.top}, udp: true}
+  - {name: 80-日本1号, server: jp1.chaoxn.top, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp1.chaoxn.top}, udp: true}
+  - {name: 80-日本3号, server: jp3.chaoxn.top, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp3.chaoxn.top}, udp: true}
+  - {name: HK 000 2, server: xmrh000.xmrth-node.xyz, port: 15880, type: vmess, uuid: 9aef309d-fb15-3e90-8980-87bd22832a71, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: file-1250914411.cos.ap-hongkong.myqcloud.com}, udp: true}
+  - {name: "[LV2·原生] 香港01 | IEPL 专线 | 3x", server: pp1.zhengzhongfeizhu.xyz, port: 34000, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK 024, server: xmrh024.xmrth-node.xyz, port: 15887, type: vmess, uuid: 9aef309d-fb15-3e90-8980-87bd22832a71, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 87318706-ws.va.huya.com}, udp: true}
+  - {name: 80-美国2号, server: su10.chaoxn.top, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: su10.chaoxn.top}, udp: true}
+  - {name: 80-美国3号, server: su11.chaoxn.top, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: su11.chaoxn.top}, udp: true}
+  - {name: 80-美国1号, server: su1.chaoxn.top, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: su1.chaoxn.top}, udp: true}
+  - {name: 稳定高速可购买付费节点↓, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 稳定高速可购买付费节点↓ 2, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 全球直连③, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 全球直连③ 2, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
   - {name: 120187, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxusa.fovi.tk}, udp: true}
   - {name: 越南_102, server: 103.90.220.27, port: 80, type: vmess, uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}, udp: true}
   - {name: US 26, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
@@ -21,10 +58,10 @@ proxies:
   - {name: 日本|移动专用 5, server: 172.64.157.139, port: 443, type: vmess, uuid: 2afed3b1-0f8c-44fd-842b-8b3dbea7cae3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /azjp.pengui.xyz, ws-headers: {Host: azjp.pengui.xyz}, udp: true}
   - {name: 日本|移动专用, server: 172.64.157.139, port: 443, type: vmess, uuid: 065804dc-ed8a-4dd7-8e6e-3a57c88f9aa7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /azjp.pengui.xyz, ws-headers: {Host: azjp.pengui.xyz}, udp: true}
   - {name: 澳大利亚_136, server: vau1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vau1.0bad.com}, udp: true}
-  - {name: 香港|移动专用, server: 172.64.157.139, port: 443, type: vmess, uuid: 7a010436-7b4a-4e65-ade4-844ba074ad58, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hk.pengui.xyz, ws-headers: {Host: hk.pengui.xyz}, udp: true}
+  - {name: 香港|移动专用 3, server: 172.64.157.139, port: 443, type: vmess, uuid: 7a010436-7b4a-4e65-ade4-844ba074ad58, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hk.pengui.xyz, ws-headers: {Host: hk.pengui.xyz}, udp: true}
   - {name: 香港|移动专用 5, server: 172.64.157.139, port: 443, type: vmess, uuid: 9df1c2dc-59d7-4fa9-a273-2fb5b887d932, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hk.pengui.xyz, ws-headers: {Host: hk.pengui.xyz}, udp: true}
-  - {name: 香港|移动专用 2, server: 172.64.157.139, port: 443, type: vmess, uuid: 2afed3b1-0f8c-44fd-842b-8b3dbea7cae3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hk.pengui.xyz, ws-headers: {Host: hk.pengui.xyz}, udp: true}
-  - {name: 香港|移动专用 3, server: 172.64.157.139, port: 443, type: vmess, uuid: 065804dc-ed8a-4dd7-8e6e-3a57c88f9aa7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hk.pengui.xyz, ws-headers: {Host: hk.pengui.xyz}, udp: true}
+  - {name: 香港|移动专用 2 2, server: 172.64.157.139, port: 443, type: vmess, uuid: 2afed3b1-0f8c-44fd-842b-8b3dbea7cae3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hk.pengui.xyz, ws-headers: {Host: hk.pengui.xyz}, udp: true}
+  - {name: 香港|移动专用 3 2, server: 172.64.157.139, port: 443, type: vmess, uuid: 065804dc-ed8a-4dd7-8e6e-3a57c88f9aa7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hk.pengui.xyz, ws-headers: {Host: hk.pengui.xyz}, udp: true}
   - {name: CN 376, server: ftp.cn.debian.cdnet.in, port: 8010, type: ss, cipher: aes-128-gcm, password: 80ccce9a-1f59-4aef-a499-935e26595a0c, udp: true}
   - {name: CN 381, server: ftp.cn.debian.cdnet.in, port: 8060, type: ss, cipher: aes-128-gcm, password: 80ccce9a-1f59-4aef-a499-935e26595a0c, udp: true}
   - {name: CN 383, server: ftp.cn.debian.cdnet.in, port: 8030, type: ss, cipher: aes-128-gcm, password: 80ccce9a-1f59-4aef-a499-935e26595a0c, udp: true}
@@ -403,6 +440,43 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "[LV2·原生] 美国04 | 中转"
+      - HK 000
+      - "[LV2·原生] 美国03 | 中转"
+      - HK 012
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港B1 | 中转"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
+      - "[LV2·原生] 香港B2 | 中转"
+      - HK 011
+      - "[LV2·原生] 香港B3 | 中转"
+      - 广州游戏节点1号-限速8Mdps
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
+      - 80-美国4号
+      - 东京直连-1
+      - 日本|TG专用
+      - 香港|移动专用
+      - 80-美国6号
+      - 80-日本2号
+      - 香港|移动专用 2
+      - 日本|TG专用 2
+      - 80-美国5号
+      - "[LV2·原生] 香港B4 | 中转"
+      - 80-广东1号
+      - 80-日本4号
+      - 80-日本1号
+      - 80-日本3号
+      - HK 000 2
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
+      - HK 024
+      - 80-美国2号
+      - 80-美国3号
+      - 80-美国1号
+      - 稳定高速可购买付费节点↓
+      - 稳定高速可购买付费节点↓ 2
+      - 全球直连③
+      - 全球直连③ 2
       - 120187
       - 越南_102
       - US 26
@@ -419,10 +493,10 @@ proxy-groups:
       - 日本|移动专用 5
       - 日本|移动专用
       - 澳大利亚_136
-      - 香港|移动专用
-      - 香港|移动专用 5
-      - 香港|移动专用 2
       - 香港|移动专用 3
+      - 香港|移动专用 5
+      - 香港|移动专用 2 2
+      - 香港|移动专用 3 2
       - CN 376
       - CN 381
       - CN 383
@@ -800,6 +874,43 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "[LV2·原生] 美国04 | 中转"
+      - HK 000
+      - "[LV2·原生] 美国03 | 中转"
+      - HK 012
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港B1 | 中转"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
+      - "[LV2·原生] 香港B2 | 中转"
+      - HK 011
+      - "[LV2·原生] 香港B3 | 中转"
+      - 广州游戏节点1号-限速8Mdps
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
+      - 80-美国4号
+      - 东京直连-1
+      - 日本|TG专用
+      - 香港|移动专用
+      - 80-美国6号
+      - 80-日本2号
+      - 香港|移动专用 2
+      - 日本|TG专用 2
+      - 80-美国5号
+      - "[LV2·原生] 香港B4 | 中转"
+      - 80-广东1号
+      - 80-日本4号
+      - 80-日本1号
+      - 80-日本3号
+      - HK 000 2
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
+      - HK 024
+      - 80-美国2号
+      - 80-美国3号
+      - 80-美国1号
+      - 稳定高速可购买付费节点↓
+      - 稳定高速可购买付费节点↓ 2
+      - 全球直连③
+      - 全球直连③ 2
       - 120187
       - 越南_102
       - US 26
@@ -816,10 +927,10 @@ proxy-groups:
       - 日本|移动专用 5
       - 日本|移动专用
       - 澳大利亚_136
-      - 香港|移动专用
-      - 香港|移动专用 5
-      - 香港|移动专用 2
       - 香港|移动专用 3
+      - 香港|移动专用 5
+      - 香港|移动专用 2 2
+      - 香港|移动专用 3 2
       - CN 376
       - CN 381
       - CN 383
@@ -1198,6 +1309,43 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "[LV2·原生] 美国04 | 中转"
+      - HK 000
+      - "[LV2·原生] 美国03 | 中转"
+      - HK 012
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港B1 | 中转"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
+      - "[LV2·原生] 香港B2 | 中转"
+      - HK 011
+      - "[LV2·原生] 香港B3 | 中转"
+      - 广州游戏节点1号-限速8Mdps
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
+      - 80-美国4号
+      - 东京直连-1
+      - 日本|TG专用
+      - 香港|移动专用
+      - 80-美国6号
+      - 80-日本2号
+      - 香港|移动专用 2
+      - 日本|TG专用 2
+      - 80-美国5号
+      - "[LV2·原生] 香港B4 | 中转"
+      - 80-广东1号
+      - 80-日本4号
+      - 80-日本1号
+      - 80-日本3号
+      - HK 000 2
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
+      - HK 024
+      - 80-美国2号
+      - 80-美国3号
+      - 80-美国1号
+      - 稳定高速可购买付费节点↓
+      - 稳定高速可购买付费节点↓ 2
+      - 全球直连③
+      - 全球直连③ 2
       - 120187
       - 越南_102
       - US 26
@@ -1214,10 +1362,10 @@ proxy-groups:
       - 日本|移动专用 5
       - 日本|移动专用
       - 澳大利亚_136
-      - 香港|移动专用
-      - 香港|移动专用 5
-      - 香港|移动专用 2
       - 香港|移动专用 3
+      - 香港|移动专用 5
+      - 香港|移动专用 2 2
+      - 香港|移动专用 3 2
       - CN 376
       - CN 381
       - CN 383
@@ -1608,6 +1756,43 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "[LV2·原生] 美国04 | 中转"
+      - HK 000
+      - "[LV2·原生] 美国03 | 中转"
+      - HK 012
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港B1 | 中转"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
+      - "[LV2·原生] 香港B2 | 中转"
+      - HK 011
+      - "[LV2·原生] 香港B3 | 中转"
+      - 广州游戏节点1号-限速8Mdps
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
+      - 80-美国4号
+      - 东京直连-1
+      - 日本|TG专用
+      - 香港|移动专用
+      - 80-美国6号
+      - 80-日本2号
+      - 香港|移动专用 2
+      - 日本|TG专用 2
+      - 80-美国5号
+      - "[LV2·原生] 香港B4 | 中转"
+      - 80-广东1号
+      - 80-日本4号
+      - 80-日本1号
+      - 80-日本3号
+      - HK 000 2
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
+      - HK 024
+      - 80-美国2号
+      - 80-美国3号
+      - 80-美国1号
+      - 稳定高速可购买付费节点↓
+      - 稳定高速可购买付费节点↓ 2
+      - 全球直连③
+      - 全球直连③ 2
       - 120187
       - 越南_102
       - US 26
@@ -1624,10 +1809,10 @@ proxy-groups:
       - 日本|移动专用 5
       - 日本|移动专用
       - 澳大利亚_136
-      - 香港|移动专用
-      - 香港|移动专用 5
-      - 香港|移动专用 2
       - 香港|移动专用 3
+      - 香港|移动专用 5
+      - 香港|移动专用 2 2
+      - 香港|移动专用 3 2
       - CN 376
       - CN 381
       - CN 383
@@ -2004,16 +2189,64 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港B1 | 中转"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
+      - "[LV2·原生] 香港B2 | 中转"
+      - "[LV2·原生] 香港B3 | 中转"
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
       - 香港|移动专用
-      - 香港|移动专用 5
       - 香港|移动专用 2
+      - "[LV2·原生] 香港B4 | 中转"
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
       - 香港|移动专用 3
+      - 香港|移动专用 5
+      - 香港|移动专用 2 2
+      - 香港|移动专用 3 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - "[LV2·原生] 美国04 | 中转"
+      - HK 000
+      - "[LV2·原生] 美国03 | 中转"
+      - HK 012
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港B1 | 中转"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
+      - "[LV2·原生] 香港B2 | 中转"
+      - HK 011
+      - "[LV2·原生] 香港B3 | 中转"
+      - 广州游戏节点1号-限速8Mdps
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
+      - 80-美国4号
+      - 东京直连-1
+      - 日本|TG专用
+      - 香港|移动专用
+      - 80-美国6号
+      - 80-日本2号
+      - 香港|移动专用 2
+      - 日本|TG专用 2
+      - 80-美国5号
+      - "[LV2·原生] 香港B4 | 中转"
+      - 80-广东1号
+      - 80-日本4号
+      - 80-日本1号
+      - 80-日本3号
+      - HK 000 2
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
+      - HK 024
+      - 80-美国2号
+      - 80-美国3号
+      - 80-美国1号
+      - 稳定高速可购买付费节点↓
+      - 稳定高速可购买付费节点↓ 2
+      - 全球直连③
+      - 全球直连③ 2
       - 120187
       - 越南_102
       - US 26
@@ -2030,10 +2263,10 @@ proxy-groups:
       - 日本|移动专用 5
       - 日本|移动专用
       - 澳大利亚_136
-      - 香港|移动专用
-      - 香港|移动专用 5
-      - 香港|移动专用 2
       - 香港|移动专用 3
+      - 香港|移动专用 5
+      - 香港|移动专用 2 2
+      - 香港|移动专用 3 2
       - CN 376
       - CN 381
       - CN 383
@@ -2411,6 +2644,43 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - "[LV2·原生] 美国04 | 中转"
+      - HK 000
+      - "[LV2·原生] 美国03 | 中转"
+      - HK 012
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港B1 | 中转"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
+      - "[LV2·原生] 香港B2 | 中转"
+      - HK 011
+      - "[LV2·原生] 香港B3 | 中转"
+      - 广州游戏节点1号-限速8Mdps
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
+      - 80-美国4号
+      - 东京直连-1
+      - 日本|TG专用
+      - 香港|移动专用
+      - 80-美国6号
+      - 80-日本2号
+      - 香港|移动专用 2
+      - 日本|TG专用 2
+      - 80-美国5号
+      - "[LV2·原生] 香港B4 | 中转"
+      - 80-广东1号
+      - 80-日本4号
+      - 80-日本1号
+      - 80-日本3号
+      - HK 000 2
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
+      - HK 024
+      - 80-美国2号
+      - 80-美国3号
+      - 80-美国1号
+      - 稳定高速可购买付费节点↓
+      - 稳定高速可购买付费节点↓ 2
+      - 全球直连③
+      - 全球直连③ 2
       - 120187
       - 越南_102
       - US 26
@@ -2427,10 +2697,10 @@ proxy-groups:
       - 日本|移动专用 5
       - 日本|移动专用
       - 澳大利亚_136
-      - 香港|移动专用
-      - 香港|移动专用 5
-      - 香港|移动专用 2
       - 香港|移动专用 3
+      - 香港|移动专用 5
+      - 香港|移动专用 2 2
+      - 香港|移动专用 3 2
       - CN 376
       - CN 381
       - CN 383
@@ -2809,6 +3079,43 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - "[LV2·原生] 美国04 | 中转"
+      - HK 000
+      - "[LV2·原生] 美国03 | 中转"
+      - HK 012
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港B1 | 中转"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
+      - "[LV2·原生] 香港B2 | 中转"
+      - HK 011
+      - "[LV2·原生] 香港B3 | 中转"
+      - 广州游戏节点1号-限速8Mdps
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
+      - 80-美国4号
+      - 东京直连-1
+      - 日本|TG专用
+      - 香港|移动专用
+      - 80-美国6号
+      - 80-日本2号
+      - 香港|移动专用 2
+      - 日本|TG专用 2
+      - 80-美国5号
+      - "[LV2·原生] 香港B4 | 中转"
+      - 80-广东1号
+      - 80-日本4号
+      - 80-日本1号
+      - 80-日本3号
+      - HK 000 2
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
+      - HK 024
+      - 80-美国2号
+      - 80-美国3号
+      - 80-美国1号
+      - 稳定高速可购买付费节点↓
+      - 稳定高速可购买付费节点↓ 2
+      - 全球直连③
+      - 全球直连③ 2
       - 120187
       - 越南_102
       - US 26
@@ -2825,10 +3132,10 @@ proxy-groups:
       - 日本|移动专用 5
       - 日本|移动专用
       - 澳大利亚_136
-      - 香港|移动专用
-      - 香港|移动专用 5
-      - 香港|移动专用 2
       - 香港|移动专用 3
+      - 香港|移动专用 5
+      - 香港|移动专用 2 2
+      - 香港|移动专用 3 2
       - CN 376
       - CN 381
       - CN 383
@@ -3216,6 +3523,43 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - "[LV2·原生] 美国04 | 中转"
+      - HK 000
+      - "[LV2·原生] 美国03 | 中转"
+      - HK 012
+      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港B1 | 中转"
+      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
+      - "[LV2·原生] 香港B2 | 中转"
+      - HK 011
+      - "[LV2·原生] 香港B3 | 中转"
+      - 广州游戏节点1号-限速8Mdps
+      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
+      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
+      - 80-美国4号
+      - 东京直连-1
+      - 日本|TG专用
+      - 香港|移动专用
+      - 80-美国6号
+      - 80-日本2号
+      - 香港|移动专用 2
+      - 日本|TG专用 2
+      - 80-美国5号
+      - "[LV2·原生] 香港B4 | 中转"
+      - 80-广东1号
+      - 80-日本4号
+      - 80-日本1号
+      - 80-日本3号
+      - HK 000 2
+      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
+      - HK 024
+      - 80-美国2号
+      - 80-美国3号
+      - 80-美国1号
+      - 稳定高速可购买付费节点↓
+      - 稳定高速可购买付费节点↓ 2
+      - 全球直连③
+      - 全球直连③ 2
       - 120187
       - 越南_102
       - US 26
@@ -3232,10 +3576,10 @@ proxy-groups:
       - 日本|移动专用 5
       - 日本|移动专用
       - 澳大利亚_136
-      - 香港|移动专用
-      - 香港|移动专用 5
-      - 香港|移动专用 2
       - 香港|移动专用 3
+      - 香港|移动专用 5
+      - 香港|移动专用 2 2
+      - 香港|移动专用 3 2
       - CN 376
       - CN 381
       - CN 383
